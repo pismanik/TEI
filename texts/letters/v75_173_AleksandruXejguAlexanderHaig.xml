@@ -9,17 +9,41 @@
                 <title type="main">Письмо Александру Хэйгу (Alexander Haig) от 30 июня 1904 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Александру Хэйгу (Alexander Haig), 30 июня 1904 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 75. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 75</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">130-131</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,10 +127,10 @@
      </name>
      .1904г. Июня 30/июля 13. Я. П.
     </opener>
-    <p id="ffa1f88a-f65b-454d-80a6-6ff7996163f2" rend="Obrashenie left">
+    <p id="ffa1f88a-f65b-454d-80a6-6ff7996163f2" rend="Obrashenie">
      Dear Sir,
     </p>
-    <p id="92507bfc-ed13-47c5-88f3-25d1567bcec9" rend="left">
+    <p id="92507bfc-ed13-47c5-88f3-25d1567bcec9">
      I received your new book
      <ref target="#note1">
       1
@@ -132,14 +161,14 @@
     <p id="a9e7c11b-13df-4c7e-9d82-fcb856033f4b" rend="right">
      Leo Tolstoy.
     </p>
-    <p id="4a924f5e-46b0-458c-9bd0-33bf2fb0b4c0" rend="left">
+    <p id="4a924f5e-46b0-458c-9bd0-33bf2fb0b4c0">
      13 July 1904.
     </p>
     <lb/>
-    <p id="cc3ee2c7-b270-4c6b-bb71-1fcd24014385" rend="Obrashenie petit left">
+    <p id="cc3ee2c7-b270-4c6b-bb71-1fcd24014385" rend="Obrashenie petit">
      Милостивый государь,
     </p>
-    <p id="bfa46586-2483-4970-8a3b-8004b00758e1" rend="petit left">
+    <p id="bfa46586-2483-4970-8a3b-8004b00758e1" rend="petit">
      Я получил вашу новую книгу
      <ref target="#note3">
       3
@@ -165,7 +194,7 @@
      </name>
      .
     </p>
-    <p id="889ea635-60e5-4e2b-ac89-cb4e62efbe05" rend="petit left">
+    <p id="889ea635-60e5-4e2b-ac89-cb4e62efbe05" rend="petit">
      13 июля 1904.
     </p>
     <noteGrp type="comments">
@@ -175,12 +204,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="573e14f9-f770-4e60-ad97-512b8615e36a" rend="petit left">
+      <p id="573e14f9-f770-4e60-ad97-512b8615e36a" rend="petit">
        Александр Хэйг (р. 1853) — англичанин, доктор медицины Оксфордского университета.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="20c1954d-b0b4-42e5-8540-1ed9a74ca51e" rend="petit left">
+      <p id="20c1954d-b0b4-42e5-8540-1ed9a74ca51e" rend="petit">
        Ответ на письмо Хэйга от 25 июня н. с. 1904 г., в котором он, извещая Толстого о посылке ему своей новой книги, писал: «Заодно решаюсь побеспокоить вас вопросом, знаете ли вы книгу “Elpis Jsrael”, или “Israel’s Норе” доктора медицины
        <name placement="comments" ref="13924" type="person">
         Джона Томаса

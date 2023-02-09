@@ -9,17 +9,41 @@
                 <title type="main">Письмо Ж. Бергману (J. Bergman) и Карлу Карлсону Бонду (Carl Carlson Bonde) от 23 мая 1910 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Ж. Бергману (J. Bergman) и Карлу Карлсону Бонду (Carl Carlson Bonde), 23 мая 1910 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 82. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 82</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">56-57</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -103,7 +132,7 @@
     <p id="21a8b1f4-6144-4071-87c4-dfa2a6dd34c2" rend="right">
      A Monsieur le В-on Bonde.
     </p>
-    <p id="3afaad51-462a-47af-8e75-833637f9224e" rend="Obrashenie left">
+    <p id="3afaad51-462a-47af-8e75-833637f9224e" rend="Obrashenie">
      Monsieur,
      <ref target="#note1">
       1
@@ -115,16 +144,16 @@
       Monsieur
      </note>
     </p>
-    <p id="5ca5d66d-350a-4405-8a67-c77595bde1c4" rend="left">
+    <p id="5ca5d66d-350a-4405-8a67-c77595bde1c4">
      L’état de ma santé ne [me] permettra pas d’entreprendre le voyage de Stockholme, et c’est avec un sincère regret que je suis obligé de ne pas profiter de votre aimable invitation. J’espère cependant si j’en aurai la possibilité de présenter un mémoire sur la question de la paix au congrès de Stockholme.
     </p>
-    <p id="72a10738-be8b-4b9e-a8a8-1c1ecfe2fab1" rend="left">
+    <p id="72a10738-be8b-4b9e-a8a8-1c1ecfe2fab1">
      Dans tous les cas je vous prie, Monsieur, d’accepter l’assurance de mes sentiments distingués.
     </p>
     <p id="0fc493be-869e-4ed7-a94e-4356b6f042d0" rend="right">
      L. T.
     </p>
-    <p id="89961071-f0d9-494a-a871-d44cd5a8765a" rend="left">
+    <p id="89961071-f0d9-494a-a871-d44cd5a8765a">
      A monsieur le docteur Bergman.
     </p>
     <lb/>
@@ -137,7 +166,7 @@
     <p id="80492bab-aea0-40c7-8d0d-3be23d492ca8" rend="Textpetit_otstup left">
      Состояние моего здоровья не позволит мне предпринять путешествие в Стокгольм, и потому искренне сожалею, что я не могу воспользоваться вашим любезным приглашением. Всё же надеюсь, если мне удастся, представить Стокгольмскому конгрессу доклад по вопросу о мире.
     </p>
-    <p id="882f606f-8d5a-42ee-9a85-d94d1a2eb245" rend="petit left">
+    <p id="882f606f-8d5a-42ee-9a85-d94d1a2eb245" rend="petit">
      Во всяком случае прошу вас, милостивый государь, принять уверение в моем искренном почтении.
     </p>
     <p id="e313d20f-b482-4326-938e-823373c070a2" rend="petit right">
@@ -162,12 +191,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="1fbf0d58-d88d-4f91-bbb7-363ab5c56bbf" rend="petit left">
+      <p id="1fbf0d58-d88d-4f91-bbb7-363ab5c56bbf" rend="petit">
        Ж. Бергман — доктор филологических наук, секретарь организационного комитета XVIII Всеобщего конгресса мира в Стокгольме, прислал Толстому приглашение от 29 мая нов. ст. прибыть на конгресс мира, который должен состояться 1—6 августа.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="bfc66265-bdfa-442d-b04c-be270d6340a0" rend="petit left">
+      <p id="bfc66265-bdfa-442d-b04c-be270d6340a0" rend="petit">
        Приглашение повторил
        <name placement="comments" ref="1692" type="person">
         Карл Карлсон Бонд

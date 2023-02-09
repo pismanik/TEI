@@ -9,17 +9,41 @@
                 <title type="main">Письмо Гр. М. Н. Толстой (отрывок) от 26 мая 1851 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо гр. М. Н. Толстой (отрывок), 26 мая 1851 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">96-99</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      42. Гр. М. Н. Толстой.1851 г Мая 26. Астрахань.
     </opener>
-    <p id="3145ac8b-f001-42bf-a46d-ad816de542fb" rend="left">
+    <p id="3145ac8b-f001-42bf-a46d-ad816de542fb">
      chez V. I.
      <ref target="#note1">
       1
@@ -192,7 +222,7 @@
       </p>
      </div>
     </div>
-    <p id="4da71c6b-cb4d-4aa6-9c8b-83d86640435e" rend="left">
+    <p id="4da71c6b-cb4d-4aa6-9c8b-83d86640435e">
      *
      <choice>
       <reg>
@@ -207,12 +237,12 @@
        станция
       </reg>
       <orig>
-       станцiя
+       станція
       </orig>
      </choice>
      Симбирской Губер.
     </p>
-    <p id="b5484876-cc6f-4487-88c3-c725c5e41606" rend="left">
+    <p id="b5484876-cc6f-4487-88c3-c725c5e41606">
      <choice>
       <reg>
        Сейчас
@@ -296,12 +326,12 @@
      .
     </p>
     <lb/>
-    <p id="60e341d0-adf1-4c67-b55b-155748b7b578" rend="left">
+    <p id="60e341d0-adf1-4c67-b55b-155748b7b578">
      <hi>
       Рукой гр. H. Н. Толстого:
      </hi>
     </p>
-    <p id="b6bc4775-24e3-4f96-bbb1-25a36debde6d" rend="petit left">
+    <p id="b6bc4775-24e3-4f96-bbb1-25a36debde6d" rend="petit">
      Léon vous a écrit une si longue épitre que je me dispense de vous écrire beaucoup, j'ai envie de ne vous dire que deux mots: que je vous embrasse de tout mon coeur! d'après nos deux lettres, si vous le voulez mieux, d'après notre lettre, vous voyez bien que nous [nous] portons bien et que nous sommes tous les deux de très bonne humeur. Adieu, donc mes bons amis, une fois
      <choice original_editorial_correction="arrivé[e]">
       <sic>
@@ -371,10 +401,10 @@
      </choice>
      , ça n'aura pas de fin. Adieu donc encore une fois mes bons amis, je vous embrasse tous tendrement.
     </p>
-    <p id="5b166573-85ed-48ba-98f9-39d779de9886" rend="left">
+    <p id="5b166573-85ed-48ba-98f9-39d779de9886">
      <pb n="97"/>
     </p>
-    <p id="79adb254-488a-4b75-8e13-ea360cc9d508" rend="left">
+    <p id="79adb254-488a-4b75-8e13-ea360cc9d508">
      <hi>
       Приписка сбоку 2 страницы рукой Л
      </hi>
@@ -383,7 +413,7 @@
       Толстого:
      </hi>
     </p>
-    <p id="56ce589e-9ec9-4f5f-8ec5-1f0b645e9c3e" rend="left">
+    <p id="56ce589e-9ec9-4f5f-8ec5-1f0b645e9c3e">
      Si vous voyez Dmitri,
      <ref target="#note9">
       9
@@ -481,7 +511,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="a1f8c184-adc0-4731-988e-4bc7856c7169" rend="petit left">
+      <p id="a1f8c184-adc0-4731-988e-4bc7856c7169" rend="petit">
        *
        <choice>
         <reg>
@@ -496,14 +526,14 @@
          станция
         </reg>
         <orig>
-         станцiя
+         станція
         </orig>
        </choice>
        Симбирской Губер.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="c75d70ba-c6e2-4b34-aeda-ae87770af62d" rend="petit left">
+      <p id="c75d70ba-c6e2-4b34-aeda-ae87770af62d" rend="petit">
        <choice>
         <reg>
          Сейчас
@@ -588,7 +618,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="4b1f8c5b-5ce6-423e-8d1a-b5fc6c9b10a4" rend="petit left">
+      <p id="4b1f8c5b-5ce6-423e-8d1a-b5fc6c9b10a4" rend="petit">
        <hi>
         Рукой гр
        </hi>
@@ -599,7 +629,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="6caea52f-02fa-48de-92d5-2c8fb606aae1" rend="petit left">
+      <p id="6caea52f-02fa-48de-92d5-2c8fb606aae1" rend="petit">
        Левочка написал вам такое огромное послание, что я могу и не писать много; хочу только сказать вам два слова, что я сердечно вас целую! По двум нашим письмам, вернее, по нашему общему письму, вы видите, что мы здоровы и оба в очень хорошем расположении духа. Итак, прощайте, добрые друзья мои; мой черед вам писать будет из Кизляра; пока будьте довольны и этой припиской. В то время, как Левочка вам писал, я, стоя у окна, любовался красотой ночи и слушал лягушек, которых и ты любишь, милая моя
        <hi>
         *Шушка
@@ -619,7 +649,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="0b942a71-1e32-4f5f-836c-9a60892f05d4" rend="petit left">
+      <p id="0b942a71-1e32-4f5f-836c-9a60892f05d4" rend="petit">
        <hi>
         Приписка Л
        </hi>
@@ -656,7 +686,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="a640c485-df84-457f-9c74-db6c13c721e6" rend="petit left">
+      <p id="a640c485-df84-457f-9c74-db6c13c721e6" rend="petit">
        Гр. Марья Николаевна Толстая (р. 1 марта 1830 г., ум. 6 апреля 1912 г.), сестра Толстого, некоторое время училась в Казанском Родионовском
        <hi style="opdelimiter">
         институте;
@@ -681,7 +711,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="32673a89-ae91-4d13-9f69-301ee0ea5038" rend="petit left">
+      <p id="32673a89-ae91-4d13-9f69-301ee0ea5038" rend="petit">
        О гр. М.Н. Толстой см. в биографиях Толстого П. И. Бирюкова и H. Н. Гусева, Т. А. Кузминская «Мои воспоминания о М. Н. Толстой»
        <hi style="opdelimiter">
         (иллюстр.
@@ -689,7 +719,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="d5399b32-eae1-444b-9e58-88192a70e114" rend="petit left">
+      <p id="d5399b32-eae1-444b-9e58-88192a70e114" rend="petit">
        <pb n="99"/>
        <hi style="npdelimiter">
         прилож.

@@ -9,17 +9,41 @@
                 <title type="main">Письмо И. К. Дитерихсу от 25 февраля 1898 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо И. К. Дитерихсу, 25 февраля 1898 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 71. М.: Гос. изд. «Художественная литература», 1954. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 71</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">286-287</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,7 +127,7 @@
      </name>
      .1898 г. Февраля 25. Москва.
     </opener>
-    <p id="be84d092-8948-4aa5-88f0-93f8ace914cd" rend="left">
+    <p id="be84d092-8948-4aa5-88f0-93f8ace914cd">
      Спасибо за вести, которые передаете, дорогой
      <choice original_editorial_correction="И[осиф]">
       <sic>
@@ -167,11 +196,11 @@
     <noteGrp type="comments">
      <note index="false" type="comments">
       <p id="ab053c52-419c-405f-bbc3-bf9eaa5a5da5" rend="Textpetit_otstup left">
-       Печатается по копии из AЧ. Дата копии.
+       Печатается по копии из АЧ. Дата копии.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="2bd1a52f-c7c4-41c7-8364-b5dedd18669c" rend="petit left">
+      <p id="2bd1a52f-c7c4-41c7-8364-b5dedd18669c" rend="petit">
        <name placement="comments" ref="4417" type="person">
         Иосиф Константинович Дитерихс
        </name>
@@ -179,7 +208,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="a0e27e9e-fafb-41c6-bbec-ddeb50e271af" rend="petit left">
+      <p id="a0e27e9e-fafb-41c6-bbec-ddeb50e271af" rend="petit">
        Ответ на письмо Дитерихса от 20 февраля, в котором Дитерихс сообщал о получении им письма от духоборов из Иркутска и спрашивал о положении кавказских духоборов; просил сообщить адрес Син-Джона (см. прим. 1), чтобы переслать ему деньги, предназначенные для духоборов.
       </p>
      </note>

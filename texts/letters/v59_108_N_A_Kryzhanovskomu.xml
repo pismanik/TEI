@@ -9,17 +9,41 @@
                 <title type="main">Письмо Н. А. Крыжановскому от 3 сентября 1855 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Н. А. Крыжановскому, 3 сентября 1855 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">333-334</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,10 +128,10 @@
      </name>
      (черновое).1855 г. Сентября 3. Севастополь.
     </opener>
-    <p id="eec41e60-c6f3-4a6a-8740-a13e2c7bf403" rend="Obrashenie left">
+    <p id="eec41e60-c6f3-4a6a-8740-a13e2c7bf403" rend="Obrashenie">
      Ваше Превосходительство!
     </p>
-    <p id="b0a7f4f2-fece-4127-a097-c4cdcf72822f" rend="left">
+    <p id="b0a7f4f2-fece-4127-a097-c4cdcf72822f">
      Весьма боюсь, что я взялся не за свое
      <choice>
       <reg>
@@ -181,7 +211,7 @@
      </choice>
      .
     </p>
-    <p id="fa3c681b-bf70-4719-bd58-e687d6f126fe" rend="left">
+    <p id="fa3c681b-bf70-4719-bd58-e687d6f126fe">
      <choice>
       <reg>
        Впрочем
@@ -195,7 +225,7 @@
        сведения
       </reg>
       <orig>
-       свѣденiя
+       свѣденія
       </orig>
      </choice>
      о
@@ -204,7 +234,7 @@
        бомбордировании
       </reg>
       <orig>
-       бомбордированiи
+       бомбордированіи
       </orig>
      </choice>
      очень недостаточны, особенно
@@ -317,7 +347,7 @@
        описании
       </reg>
       <orig>
-       описанiи
+       описаніи
       </orig>
      </choice>
      хода приступа собственно на
@@ -364,7 +394,7 @@
      это.
     </p>
     <lb/>
-    <p id="c8556457-9ab5-4a45-aab8-f143cf9c774d" rend="left">
+    <p id="c8556457-9ab5-4a45-aab8-f143cf9c774d">
      3 сентября.
     </p>
     <p id="1b31fffc-b35d-438f-855e-1322ee8449bb" rend="center">
@@ -389,7 +419,7 @@
        уважением
       </reg>
       <orig>
-       уваженiемъ
+       уваженіемъ
       </orig>
      </choice>
      и преданностью
@@ -407,7 +437,7 @@
        покорнейший
       </reg>
       <orig>
-       покорнѣйшiй
+       покорнѣйшій
       </orig>
      </choice>
      слуга
@@ -424,7 +454,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="d1246704-255c-4674-8543-0f57f0b81a88" rend="petit left">
+      <p id="d1246704-255c-4674-8543-0f57f0b81a88" rend="petit">
        <name placement="comments" ref="7225" type="person">
         Николай Андреевич Крыжановский
        </name>
@@ -435,7 +465,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="afa2b578-b9a5-41bf-851c-85d5eb1feece" rend="petit left">
+      <p id="afa2b578-b9a5-41bf-851c-85d5eb1feece" rend="petit">
        <pb n="334"/>
        <hi style="npdelimiter">
         С
@@ -444,12 +474,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="0e96d72a-0228-45ea-a82d-755629cb4d14" rend="petit left">
+      <p id="0e96d72a-0228-45ea-a82d-755629cb4d14" rend="petit">
        В сентябре 1876 г. Толстой в бытность свою в Оренбурге посетил Крыжановского.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="1d92d8cf-84ec-418a-a321-27985afe7516" rend="petit left">
+      <p id="1d92d8cf-84ec-418a-a321-27985afe7516" rend="petit">
        Письмо является сопроводительным при посланном начальнику штаба артиллерии Крымской армии Н. А. Крыжановскому «Донесении о последней бомбардировке и взятии Севастополя союзными войсками».
       </p>
      </note>

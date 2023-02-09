@@ -9,17 +9,41 @@
                 <title type="main">Письмо Н. А. Костомарову от 30 июня 1861 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Н. А. Костомарову, 30 июня 1861 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 60. М.: Гос. изд. «Художественная литература», 1949. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 60</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">396-397</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -98,7 +127,7 @@
      </name>
      .1861 г. Июня 30. Я. П.
     </opener>
-    <p id="16fd255d-7232-42d3-9f44-e5bc3e63561f" rend="left">
+    <p id="16fd255d-7232-42d3-9f44-e5bc3e63561f">
      Милостивый Государь,
      <name placement="text" ref="6993" type="person">
       Николай Андреевич
@@ -133,7 +162,7 @@
       .
      </hi>
     </p>
-    <p id="32686c39-57b8-4f8b-b5c3-1b3c4daab0f9" rend="left">
+    <p id="32686c39-57b8-4f8b-b5c3-1b3c4daab0f9">
      <pb n="397"/>
      <hi style="npdelimiter">
       P.
@@ -155,7 +184,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="c684a12c-0038-4565-a9ca-a0d48df5b0f4" rend="petit left">
+      <p id="c684a12c-0038-4565-a9ca-a0d48df5b0f4" rend="petit">
        <name placement="comments" ref="6993" type="person">
         Николай Андреевич Костомаров
        </name>

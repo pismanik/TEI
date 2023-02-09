@@ -4,24 +4,48 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v40_333_333_Biograficheskaja_zametka_o_Sh_de_Monteske" resp="volume_editor">
-                    [Биографическая заметка о Ш. де Монтескье]. Tolstoy Digital
+                    [Биографическая заметка о Ш. де Монтескье]. Произведения. Tolstoy Digital
                 </title>
                 <title type="main" resp="volume_editor">Биографическая заметка о Ш. де Монтескье</title>
-                <title type="bibl">Толстой Л. Н. [Биографическая заметка о Ш. де Монтескье] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 40. М.: Гос. изд. «Художественная литература», 1956. С.</title>
+                <title type="bibl">Толстой Л. Н. [Биографическая заметка о Ш. де Монтескье] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 40. М.: Гос. изд. «Художественная литература», 1956. С. 333.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -30,7 +54,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -42,7 +66,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -73,7 +97,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -111,16 +135,16 @@
     <head n="level1" type="editorial">
      [БИОГРАФИЧЕСКАЯ ЗАМЕТКА О Ш. де МОНТЕСКЬЕ]
     </head>
-    <p id="d9576fa0-c72b-4b44-a383-b779cbf9f1c3" rend="left">
+    <p id="d9576fa0-c72b-4b44-a383-b779cbf9f1c3">
      Шарль Луи барон де Секонда, граф де (Montesquieu) Монтескьё родился в 1689 году и умер в 1755 г.
     </p>
-    <p id="04a6c8a9-cd46-4203-983e-f1a4fe484614" rend="left">
+    <p id="04a6c8a9-cd46-4203-983e-f1a4fe484614">
      Писатель этот настолько известен своими большими сочинениями: «Lettres Persanes»,
      <ref target="#note7">
       7
      </ref>
      <note index="false" xml:id="note7">
-      <span data-class="paragraph" id="7952568e-ccc7-4e10-97f1-25b2a9f62af0" rend="left">
+      <span data-class="paragraph" id="7952568e-ccc7-4e10-97f1-25b2a9f62af0">
        <choice original_editorial_correction="[«Персидские письма»,]">
         <sic/>
         <corr>
@@ -134,7 +158,7 @@
       8
      </ref>
      <note index="false" xml:id="note8">
-      <span data-class="paragraph" id="0522793e-d56a-4352-b33a-feb383c41e95" rend="left">
+      <span data-class="paragraph" id="0522793e-d56a-4352-b33a-feb383c41e95">
        <choice original_editorial_correction="[«Рассуждения о причинах величия Рима и его упадка»]">
         <sic/>
         <corr>
@@ -148,7 +172,7 @@
       9
      </ref>
      <note index="false" xml:id="note9">
-      <span data-class="paragraph" id="05d1d469-ab3d-4586-86b1-618aab4f19bf" rend="left">
+      <span data-class="paragraph" id="05d1d469-ab3d-4586-86b1-618aab4f19bf">
        <choice original_editorial_correction="[«Дух законов»,]">
         <sic/>
         <corr>

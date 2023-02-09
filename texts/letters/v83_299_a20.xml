@@ -9,17 +9,41 @@
                 <title type="main">Письмо С.А.Толстой от 20 февраля 1885 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 20 февраля 1885 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 83. М.: Гос. изд. «Художественная литература», 1938. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 83</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">479-480</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      299.1885 г. Февраля 20. Москва.
     </opener>
-    <p id="a9badfcd-01a3-48a1-a8be-fff6c75a9562" rend="left">
+    <p id="a9badfcd-01a3-48a1-a8be-fff6c75a9562">
      У
      <choice>
       <reg>
@@ -119,7 +149,7 @@
        Большие
       </reg>
       <orig>
-       Большiе
+       Большіе
       </orig>
      </choice>
      смирны и
@@ -128,7 +158,7 @@
        приятны
       </reg>
       <orig>
-       прiятны
+       пріятны
       </orig>
      </choice>
      , a
@@ -137,7 +167,7 @@
        маленькие
       </reg>
       <orig>
-       маленькiе
+       маленькіе
       </orig>
      </choice>
      прелестны. — Илюша
@@ -217,7 +247,7 @@
      </choice>
      . Я не выхожу.
     </p>
-    <p id="a5fdfdcb-5172-4a89-8763-a53048b8af87" rend="left">
+    <p id="a5fdfdcb-5172-4a89-8763-a53048b8af87">
      <choice>
       <reg>
        Обедали
@@ -283,7 +313,7 @@
        Богословский
       </reg>
       <orig>
-       Богословскiй
+       Богословскій
       </orig>
      </choice>
      , а
@@ -334,7 +364,7 @@
        Богоявленский
       </reg>
       <orig>
-       Богоявленскiй
+       Богоявленскій
       </orig>
      </choice>
      ,
@@ -423,7 +453,7 @@
        репетицию
       </reg>
       <orig>
-       репетицiю
+       репетицію
       </orig>
      </choice>
      концерта
@@ -475,7 +505,7 @@
        Лавровский
       </reg>
       <orig>
-       Лавровскiй
+       Лавровскій
       </orig>
      </choice>
      .
@@ -491,7 +521,7 @@
      </note>
      —
     </p>
-    <p id="ff045025-13f8-4da1-9551-9b0274a32bc2" rend="left">
+    <p id="ff045025-13f8-4da1-9551-9b0274a32bc2">
      Письмо
      <choice>
       <reg>
@@ -515,7 +545,7 @@
        Комисии
       </reg>
       <orig>
-       Комисiи
+       Комисіи
       </orig>
      </choice>
      библ.
@@ -549,7 +579,7 @@
        квитанции
       </reg>
       <orig>
-       квитанцiи
+       квитанціи
       </orig>
      </choice>
      . Еще коректуры:
@@ -653,7 +683,7 @@
      </choice>
      велишь?
     </p>
-    <p id="f182ef1f-528e-4bee-9bbc-eb781bed7cc0" rend="left">
+    <p id="f182ef1f-528e-4bee-9bbc-eb781bed7cc0">
      <choice>
       <reg>
        Целую
@@ -690,7 +720,7 @@
      .
     </p>
     <lb/>
-    <p id="5295954a-c0ff-4b65-9c56-ad761206d599" rend="left">
+    <p id="5295954a-c0ff-4b65-9c56-ad761206d599">
      <hi>
       На конверте:
      </hi>

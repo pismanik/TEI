@@ -9,17 +9,41 @@
                 <title type="main">Договор с крестьянами деревни Грецовка от 2 мая 1863 г.</title>
                 <title type="bibl">Толстой Л. Н. Договор, крестьянами деревни Грецовка, 2 мая 1863 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 61. М.: Гос. изд. «Художественная литература», 1953. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 61</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">357-358</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -94,7 +123,7 @@
     <opener index="false">
      * 434. Договор с крестьянами деревни Грецовка.1863 г. Мая 2. Крапивна.
     </opener>
-    <p id="5ceda38c-206d-47e1-b5e9-1545f7bb630d" rend="left">
+    <p id="5ceda38c-206d-47e1-b5e9-1545f7bb630d">
      Добровольное разверстание угодий по
      <choice original_editorial_correction="дер[евне]">
       <sic>
@@ -106,7 +135,7 @@
      </choice>
      Грецовке.
     </p>
-    <p id="bee5918b-f8fe-4694-a12e-1485eab3617c" rend="left">
+    <p id="bee5918b-f8fe-4694-a12e-1485eab3617c">
      1863 г. мая 2 дня, мы нижеподписавшиеся поручик граф
      <name placement="text" ref="13883" type="person">
       Лев Николаевич Толстой
@@ -154,7 +183,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="ff3e6c9a-27fe-4a67-9be8-5a218c733176" rend="left">
+      <p id="ff3e6c9a-27fe-4a67-9be8-5a218c733176">
        к сему добровольному соглашению поручик граф
        <name placement="comments" ref="13883" type="person">
         Лев Толстой
@@ -163,7 +192,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="aba8d833-73e1-4b19-8f99-0cd7b6768985" rend="petit left">
+      <p id="aba8d833-73e1-4b19-8f99-0cd7b6768985" rend="petit">
        К сему добровольному соглашению временнообязанные крестьяне деревни Грецовка (
        <hi>
         далее идут подписи
@@ -172,7 +201,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="13fb14e4-afa6-4f08-b36c-3c7a94266c3e" rend="petit left">
+      <p id="13fb14e4-afa6-4f08-b36c-3c7a94266c3e" rend="petit">
        Печатается по копии фонда Главного выкупного учреждения. Местонахождение подлинника
        <hi style="opdelimiter">
         неизвестно.
@@ -180,7 +209,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="23cfebf0-a3ae-4989-9511-7cde9e8677c2" rend="petit left">
+      <p id="23cfebf0-a3ae-4989-9511-7cde9e8677c2" rend="petit">
        <pb n="358"/>
        <hi style="npdelimiter">
         Настоящее

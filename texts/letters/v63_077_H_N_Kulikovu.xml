@@ -9,17 +9,41 @@
                 <title type="main">Письмо Н. Н. Куликову от 5 сентября 1881 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Н. Н. Куликову, 5 сентября 1881 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 63. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 63</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">78-78</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,7 +128,7 @@
      </name>
      .1881 г. Сентября 5. Я. П.
     </opener>
-    <p id="7147a325-88fb-40f8-af36-d08002e4bff9" rend="Obrashenie left">
+    <p id="7147a325-88fb-40f8-af36-d08002e4bff9" rend="Obrashenie">
      Милостивый Государь
     </p>
     <p id="99b4a660-6195-4165-8541-852b65bd9c3b" rend="Obrashenie1_ left">
@@ -117,7 +147,7 @@
      </choice>
      !
     </p>
-    <p id="a6ea172a-c261-4f79-9c2b-834a21f6d468" rend="left">
+    <p id="a6ea172a-c261-4f79-9c2b-834a21f6d468">
      <choice>
       <reg>
        Приехав
@@ -149,7 +179,7 @@
        долгий
       </reg>
       <orig>
-       долгiй
+       долгій
       </orig>
      </choice>
      <choice>
@@ -166,7 +196,7 @@
        выступлением
       </reg>
       <orig>
-       выступленiемъ
+       выступленіемъ
       </orig>
      </choice>
      <choice>
@@ -199,7 +229,7 @@
        вступлением
       </reg>
       <orig>
-       вступленiемъ
+       вступленіемъ
       </orig>
      </choice>
      <choice>
@@ -240,7 +270,7 @@
        прошение
       </reg>
       <orig>
-       прошенiе
+       прошеніе
       </orig>
      </choice>
      <choice>
@@ -274,7 +304,7 @@
        препятствием
       </reg>
       <orig>
-       препятствiемъ
+       препятствіемъ
       </orig>
      </choice>
      <choice>
@@ -298,7 +328,7 @@
        поступлению
       </reg>
       <orig>
-       поступленiю
+       поступленію
       </orig>
      </choice>
      ? —
@@ -312,7 +342,7 @@
      </choice>
      вы думаете?
     </p>
-    <p id="11e4611f-4226-4c39-96b4-237180c6321c" rend="left">
+    <p id="11e4611f-4226-4c39-96b4-237180c6321c">
      Если да, то нельзя ли свидетельства выдать
      <choice>
       <reg>
@@ -337,7 +367,7 @@
        уверения
       </reg>
       <orig>
-       увѣренiя
+       увѣренія
       </orig>
      </choice>
      моего
@@ -354,13 +384,13 @@
        уважения
       </reg>
       <orig>
-       уваженiя
+       уваженія
       </orig>
      </choice>
      .
     </p>
     <lb/>
-    <p id="3d8a10ca-4693-475f-bf34-e32e16b9298c" rend="left">
+    <p id="3d8a10ca-4693-475f-bf34-e32e16b9298c">
      5 сентября 1881.
     </p>
     <p id="180312ce-2a33-42c7-a189-75e2fa3d50ce" rend="right">
@@ -373,7 +403,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="ee854a55-2fa9-4b97-a900-4e5175961976" rend="petit left">
+      <p id="ee854a55-2fa9-4b97-a900-4e5175961976" rend="petit">
        <name placement="comments" ref="7372" type="person">
         Николай Николаевич Куликов
        </name>

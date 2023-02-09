@@ -9,17 +9,41 @@
                 <title type="main">Письмо Шарлю Саломону (Charles Salomon) от 31 июля 1900 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Шарлю Саломону (Charles Salomon), 31 июля 1900 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">413-415</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -101,10 +131,10 @@
     <p id="238c9a7b-5685-480c-b37b-a235affc08f4" rend="right">
      31 Іюля 1900.
     </p>
-    <p id="dc914565-0662-41d3-ab41-972e7a6f85f8" rend="Obrashenie left">
+    <p id="dc914565-0662-41d3-ab41-972e7a6f85f8" rend="Obrashenie">
      Cher Salomon,
     </p>
-    <p id="ace8698d-6f53-441a-ae18-5e7aec0a200a" rend="left">
+    <p id="ace8698d-6f53-441a-ae18-5e7aec0a200a">
      Очень
      <choice>
       <reg>
@@ -306,7 +336,7 @@
        убийстве
       </reg>
       <orig>
-       убiйствѣ
+       убійствѣ
       </orig>
      </choice>
      Гумберта.
@@ -321,7 +351,7 @@
       .
      </note>
     </p>
-    <p id="e186139f-9175-42f2-93f0-c5c9b6eef55e" rend="left">
+    <p id="e186139f-9175-42f2-93f0-c5c9b6eef55e">
      Очень
      <choice>
       <reg>
@@ -362,7 +392,7 @@
        приготовлением
       </reg>
       <orig>
-       приготовленiемъ
+       приготовленіемъ
       </orig>
      </choice>
      <choice>
@@ -379,7 +409,7 @@
        путешествию
       </reg>
       <orig>
-       путешествiю
+       путешествію
       </orig>
      </choice>
      ,
@@ -396,7 +426,7 @@
        вследствии
       </reg>
       <orig>
-       вслѣдствiи
+       вслѣдствіи
       </orig>
      </choice>
      все увеличивающейся неразумности и жестокости жизни нашей,
@@ -435,7 +465,7 @@
      </choice>
      меня.
     </p>
-    <p id="d41b2d27-1a3a-4c84-8ca7-187956ec6408" rend="left">
+    <p id="d41b2d27-1a3a-4c84-8ca7-187956ec6408">
      Прощайте, дружески жму
      <choice>
       <reg>
@@ -447,7 +477,7 @@
      </choice>
      руку.
     </p>
-    <p id="28f2df41-b9be-4eb1-adcd-2cb0d8eb1afa" rend="left">
+    <p id="28f2df41-b9be-4eb1-adcd-2cb0d8eb1afa">
      Robe rouge
      <ref target="#note6">
       6
@@ -501,7 +531,7 @@
      .
     </p>
     <lb/>
-    <p id="0951c7b8-df56-4fee-a5a8-574f58659f0b" rend="left">
+    <p id="0951c7b8-df56-4fee-a5a8-574f58659f0b">
      <choice>
       <reg>
        Поклон
@@ -552,12 +582,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="b6e5d7fc-4b31-4cd4-8c71-f74f56029b97" rend="petit left">
+      <p id="b6e5d7fc-4b31-4cd4-8c71-f74f56029b97" rend="petit">
        Шарль Саломон (Charles-Alphonce Salomon) (p. 1862 г.) — доктор права, литератор, автор ряда статей о Толстом, переводчик его произведений на французский язык. Лично был знаком с Толстым с 1893 г. См. письма 1892 г., т. 66.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="1ceed0d1-1172-49f8-b374-306eb6e6a84b" rend="petit left">
+      <p id="1ceed0d1-1172-49f8-b374-306eb6e6a84b" rend="petit">
        Ответ на письмо
        <name placement="comments" ref="1952" type="person">
         Шарля Саломона
@@ -594,7 +624,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="f4ac3784-4ddb-4ec5-8b09-fb8d5d4d0d26" rend="petit left">
+      <p id="f4ac3784-4ddb-4ec5-8b09-fb8d5d4d0d26" rend="petit">
        Гр.
        <name placement="comments" ref="1534" type="person">
         Владимир Алексеевич Бобринский

@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову от 22 июня 1892 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 22 июня 1892 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 87. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 87</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">149-153</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 316.1892 г. Июня 22. Я. П.
     </opener>
-    <p id="e89fcbf6-e9dd-464d-9365-62d9b44f3856" rend="left">
+    <p id="e89fcbf6-e9dd-464d-9365-62d9b44f3856">
      <choice>
       <reg>
        Наконец
@@ -142,7 +172,7 @@
         </reg>
         <orig>
          <name placement="text" ref="15284" type="person">
-          Владимiръ
+          Владиміръ
          </name>
         </orig>
        </choice>
@@ -182,7 +212,7 @@
        Писание
       </reg>
       <orig>
-       Писанiе
+       Писаніе
       </orig>
      </choice>
      мое,
@@ -265,7 +295,7 @@
        писании
       </reg>
       <orig>
-       писанiи
+       писаніи
       </orig>
      </choice>
      . И
@@ -375,7 +405,7 @@
      </choice>
      .
     </p>
-    <p id="69bcda80-5a1f-45db-9db9-96cc6f5f371c" rend="left">
+    <p id="69bcda80-5a1f-45db-9db9-96cc6f5f371c">
      Мы теперь
      <choice>
       <reg>
@@ -432,7 +462,7 @@
        Июля
       </reg>
       <orig>
-       Iюля
+       Іюля
       </orig>
      </choice>
      ,
@@ -538,7 +568,7 @@
        следний
       </reg>
       <orig>
-       слѣднiй
+       слѣдній
       </orig>
      </choice>
      <choice>
@@ -660,7 +690,7 @@
        целомудрии
       </reg>
       <orig>
-       цѣломудрiи
+       цѣломудріи
       </orig>
      </choice>
      <choice>
@@ -783,7 +813,7 @@
        Заключение
       </reg>
       <orig>
-       Заключенiе
+       Заключеніе
       </orig>
      </choice>
      ваше хорошо начато, но
@@ -810,7 +840,7 @@
        указания
       </reg>
       <orig>
-       указанiя
+       указанія
       </orig>
      </choice>
      <choice>
@@ -845,7 +875,7 @@
        заключение
       </reg>
       <orig>
-       заключенiе
+       заключеніе
       </orig>
      </choice>
      .
@@ -887,7 +917,7 @@
         </reg>
         <orig>
          <name placement="text" ref="11086" type="person">
-          Евгенiя
+          Евгенія
          </name>
         </orig>
        </choice>
@@ -920,7 +950,7 @@
        отношения
       </reg>
       <orig>
-       отношенiя
+       отношенія
       </orig>
      </choice>
      .
@@ -1294,7 +1324,7 @@
      </choice>
      , то пришлю.
     </p>
-    <p id="e8eefe3c-b898-40cf-8440-d798a58efb3b" rend="left">
+    <p id="e8eefe3c-b898-40cf-8440-d798a58efb3b">
      Какие
      <choice>
       <reg>
@@ -1353,12 +1383,12 @@
        положении
       </reg>
       <orig>
-       положенiи
+       положеніи
       </orig>
      </choice>
      больные?
     </p>
-    <p id="70afd802-7f17-4fda-bb49-9bb9f77ef9f7" rend="left">
+    <p id="70afd802-7f17-4fda-bb49-9bb9f77ef9f7">
      <ref target="#note10">
       10
      </ref>
@@ -1505,7 +1535,7 @@
        Любящий
       </reg>
       <orig>
-       Любящiй
+       Любящій
       </orig>
      </choice>
      <choice>
@@ -1526,7 +1556,7 @@
       </orig>
      </choice>
     </p>
-    <p id="a6809299-669f-4cad-ba7f-f169bc51122c" rend="left">
+    <p id="a6809299-669f-4cad-ba7f-f169bc51122c">
      <choice>
       <reg>
        Привет
@@ -1570,12 +1600,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="16458d5a-eb92-4360-9230-c005d56876c9" rend="petit left">
+      <p id="16458d5a-eb92-4360-9230-c005d56876c9" rend="petit">
        Ответ на письма Черткова от 28 мая и 5 июня. В письме от 28 мая Чертков писал, что он и его сотрудники усиленно заняты помощью пострадавшим от неурожая крестьянам соседних деревень, и что, хотя он, по возможности, дает для этой цели материальные средства, которыми может располагать, однако чувствуется большой недостаток продуктов для детей, круп и т. д. Сообщая об этом, Чертков спрашивает Толстого, нельзя ли получить помощь из тех средств, которые посылают Толстому для кормления голодающих.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="ad5270cd-8b3a-4708-b8b0-f41f49f18bc7" rend="petit left">
+      <p id="ad5270cd-8b3a-4708-b8b0-f41f49f18bc7" rend="petit">
        В письме от 5 июня Чертков писал: «Дорогой друг,
        <name placement="comments" ref="13883" type="person">
         Лев Николаевич

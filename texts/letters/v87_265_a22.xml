@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову от 22 августа 1890 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 22 августа 1890 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 87. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 87</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">44-46</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 265.1890 г. Августа 22. Я. П.
     </opener>
-    <p id="9f6b16e0-4f3d-49b9-b106-047be55f4ae4" rend="left">
+    <p id="9f6b16e0-4f3d-49b9-b106-047be55f4ae4">
      <choice>
       <reg>
        Получил
@@ -462,7 +492,7 @@
        мирских
       </reg>
       <orig>
-       мiрскихъ
+       мірскихъ
       </orig>
      </choice>
      .
@@ -488,7 +518,7 @@
        содействия
       </reg>
       <orig>
-       содѣйствiя
+       содѣйствія
       </orig>
      </choice>
      Царству
@@ -497,7 +527,7 @@
        Божию
       </reg>
       <orig>
-       Божiю
+       Божію
       </orig>
      </choice>
      . И работа то вся только
@@ -585,7 +615,7 @@
        установлению
       </reg>
       <orig>
-       установленiю
+       установленію
       </orig>
      </choice>
      <choice original_editorial_correction="Ц[арства]">
@@ -606,7 +636,7 @@
          Божия
         </reg>
         <orig>
-         Божiя
+         Божія
         </orig>
        </choice>
       </corr>
@@ -665,7 +695,7 @@
      </choice>
      .
     </p>
-    <p id="6e508a5c-1518-467c-b22f-db2ae0e4e132" rend="left">
+    <p id="6e508a5c-1518-467c-b22f-db2ae0e4e132">
      Я
      <choice>
       <reg>
@@ -694,7 +724,7 @@
          отношениях
         </reg>
         <orig>
-         отношенiяхъ
+         отношеніяхъ
         </orig>
        </choice>
       </corr>
@@ -773,12 +803,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="87bd58ec-ca04-45c3-839e-2c7b08224e64" rend="left">
+      <p id="87bd58ec-ca04-45c3-839e-2c7b08224e64">
        Толстой отвечает на письма Черткова от 10 и от 16 августа и письма
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="9e5c7d28-dd13-4acd-a235-3c190c6500f0" rend="petit left">
+      <p id="9e5c7d28-dd13-4acd-a235-3c190c6500f0" rend="petit">
        А. К. Чертковой от 4, 7 и 9 августа. В письме от 10 августа Чертков спрашивал, получил ли Толстой его письмо, в котором он писал о своих взглядах на болезнь ребенка (от 17 июля 1890), на которое Толстой прямо не ответил, отозвавшись лишь на письмо А. К. Чертковой по этому же поводу (
        <ref target="file:///Volume_87_a9_262.xml">
         см. письмо № 262

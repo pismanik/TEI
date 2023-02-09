@@ -9,18 +9,42 @@
             <title type="bibl">Толстой Л. Н. Азбука // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 22. М.: Гос. изд. «Художественная литература», 1957. С. </title>
             <author>Толстой Лев Николаевич</author>
             <respStmt>
-                <resp>Идея, постановка задач, руководство</resp>
+                <resp>Идея, постановка задач, руководство:</resp>
                 <name>
                     Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                 </name>
-             </respStmt>
+            </respStmt>
             <respStmt>
-                <resp>
-                    Подготовка TEI/XML
-                </resp>
-                <name>
-                    Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                </name>
+                    <resp>
+                        Подготовка TEI/XML:
+                    </resp>
+                    <name>
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>
             </respStmt>
                 <funder>
                     Проект «Слово Толстого»
@@ -29,7 +53,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -41,7 +65,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы были получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -59,7 +83,7 @@
                     </analytic>
                     <monogr>
                         <title level="m">
-                          Полное собрание сочинений.
+                          Полное собрание сочинений: в 90 тт.
                         </title>
                         <imprint>
                             <pubPlace>
@@ -75,7 +99,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -111,7 +135,7 @@
       ДВА БРАТА.
      </hi>
     </head>
-    <p id="848dec34-c8c2-4bab-bc9b-c34abca8de83" rend="left">
+    <p id="848dec34-c8c2-4bab-bc9b-c34abca8de83">
      Два брата пошли
      <choice>
       <reg>
@@ -159,7 +183,7 @@
      </choice>
      что-то написано. Они стали разбирать и прочли:
     </p>
-    <p id="4fd78fa7-cbdd-401b-8b53-6aaf20304413" rend="left">
+    <p id="4fd78fa7-cbdd-401b-8b53-6aaf20304413">
      <hi rend="italic">
       «Кто
       <choice>
@@ -316,7 +340,7 @@
      </hi>
      ».
     </p>
-    <p id="0221fa4f-e3d9-41f9-bf72-eb1ebb04a1ca" rend="left">
+    <p id="0221fa4f-e3d9-41f9-bf72-eb1ebb04a1ca">
      Братья прочли, чтó было написано, и меньшой
      <choice>
       <reg>
@@ -381,7 +405,7 @@
      </choice>
      ».
     </p>
-    <p id="aedec7e3-e5df-41e0-9b17-39f2bc99e0a2" rend="left">
+    <p id="aedec7e3-e5df-41e0-9b17-39f2bc99e0a2">
      Тогда
      <choice>
       <reg>
@@ -411,13 +435,13 @@
       </reg>
      </choice>
     </p>
-    <p id="83bbe158-6ef6-4fc8-8e62-fa4e3794c3ea" rend="left emptyline">
+    <p id="83bbe158-6ef6-4fc8-8e62-fa4e3794c3ea" rend="emptyline">
      <pb n="237"/>
     </p>
     <p id="ba3613da-c43a-4f26-b7aa-687c1bc437e1" rend="centerline">
      — 35 —
     </p>
-    <p id="7b430578-c775-4566-8cf0-0d2feba30001" rend="notindent">
+    <p id="7b430578-c775-4566-8cf0-0d2feba30001">
      и
      <choice>
       <reg>
@@ -725,7 +749,7 @@
      </hi>
      ».
     </p>
-    <p id="ce267e9a-1b3c-4f4b-b019-9a56e06cd763" rend="left">
+    <p id="ce267e9a-1b3c-4f4b-b019-9a56e06cd763">
      А меньшой
      <choice>
       <reg>
@@ -840,7 +864,7 @@
      </choice>
      подумали, что я чего-нибудь да побоялся».
     </p>
-    <p id="c6987368-2e2c-49d2-a792-f2a6a19d722f" rend="left">
+    <p id="c6987368-2e2c-49d2-a792-f2a6a19d722f">
      Тогда
      <choice>
       <reg>
@@ -895,7 +919,7 @@
       руки».
      </hi>
     </p>
-    <p id="a27d4114-f2ac-492a-a2b1-99c47258355a" rend="left">
+    <p id="a27d4114-f2ac-492a-a2b1-99c47258355a">
      А меньшой
      <choice>
       <reg>
@@ -959,13 +983,13 @@
      </choice>
      надо идти».
     </p>
-    <p id="8b4fc640-90c8-4dcf-a6d8-f9334882c222" rend="left emptyline">
+    <p id="8b4fc640-90c8-4dcf-a6d8-f9334882c222" rend="emptyline">
      <pb n="238"/>
     </p>
     <p id="c386ca8d-fc50-4a4b-98a6-338582cd2908" rend="centerline">
      — 36 —
     </p>
-    <p id="27361b6a-1aca-4dea-bf19-dc9121f8d911" rend="left">
+    <p id="27361b6a-1aca-4dea-bf19-dc9121f8d911">
      Меньшой брать
      <choice>
       <reg>
@@ -980,7 +1004,7 @@
      </choice>
      остался.
     </p>
-    <p id="e5a37b24-345d-4816-81f2-ba1ed0d303d7" rend="left">
+    <p id="e5a37b24-345d-4816-81f2-ba1ed0d303d7">
      <choice>
       <reg>
        Как
@@ -1110,7 +1134,7 @@
      </choice>
      .
     </p>
-    <p id="dd695aab-8fed-44aa-ba1f-e8a4e5816305" rend="left">
+    <p id="dd695aab-8fed-44aa-ba1f-e8a4e5816305">
      <choice>
       <reg>
        Он
@@ -1180,7 +1204,7 @@
      </choice>
      старшему брату.
     </p>
-    <p id="37eb3a7e-4518-4db1-aeb4-bb93982b5086" rend="left">
+    <p id="37eb3a7e-4518-4db1-aeb4-bb93982b5086">
      <choice>
       <reg>
        Старший
@@ -1226,7 +1250,7 @@
      </choice>
      про свою жизнь.
     </p>
-    <p id="5da4eb62-67ee-4898-bbcb-24a474d0a520" rend="left">
+    <p id="5da4eb62-67ee-4898-bbcb-24a474d0a520">
      <choice>
       <reg>
        Старший
@@ -1263,7 +1287,7 @@
      </choice>
      ».
     </p>
-    <p id="7d5ce78f-de08-4a42-afb1-a28598911e1d" rend="left">
+    <p id="7d5ce78f-de08-4a42-afb1-a28598911e1d">
      А меньшой
      <choice>
       <reg>

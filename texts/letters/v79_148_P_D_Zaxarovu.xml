@@ -9,17 +9,41 @@
                 <title type="main">Письмо П. Д. Захарову от 25 марта 1909 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо П. Д. Захарову, 25 марта 1909 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 79. М.: Гос. изд. «Художественная литература», 1955. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 79</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">133-134</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -101,13 +130,13 @@
     <p id="811e90f4-bab9-4481-9384-56ef3789b747" rend="right">
      Ясная Поляна. 25 марта, 09 года.
     </p>
-    <p id="cf70428b-00ee-44d7-a96f-7d4b13b3b77a" rend="Obrashenie left">
+    <p id="cf70428b-00ee-44d7-a96f-7d4b13b3b77a" rend="Obrashenie">
      <name placement="text" ref="5319" type="person">
       Павел Денисович
      </name>
      ,
     </p>
-    <p id="687f030b-45d5-4f21-93f1-10ecb9e5585c" rend="left">
+    <p id="687f030b-45d5-4f21-93f1-10ecb9e5585c">
      Очень сожалею, но не могу не посоветовать вам не тратить сил на писание. Думаю, что у вас нет того, что нужно для писателя.
     </p>
     <noteGrp type="comments">
@@ -117,7 +146,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="7af9c2ae-73fa-4d59-af6b-2bb66b4e74b7" rend="petit left">
+      <p id="7af9c2ae-73fa-4d59-af6b-2bb66b4e74b7" rend="petit">
        Ответ на письмо фельдшера из села Сватов Лучок, Харьковской губ.,
        <name placement="comments" ref="5319" type="person">
         Павла Денисовича Захарова
@@ -130,7 +159,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="dd0a5b6a-1b2a-4db5-99aa-df2a25cc5f23" rend="emptyline left">
+      <p id="dd0a5b6a-1b2a-4db5-99aa-df2a25cc5f23" rend="emptyline">
        <pb n="134"/>
       </p>
      </note>

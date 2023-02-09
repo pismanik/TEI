@@ -9,17 +9,41 @@
                 <title type="main">Письмо А. Ф. Марксу от 7 марта 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо А. Ф. Марксу, 7 марта 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">89-90</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,10 +128,10 @@
      </name>
      .1899 г. Марта 7? Москва.
     </opener>
-    <p id="9dc18a4d-e49f-48e7-9376-02bae0916551" rend="Obrashenie left">
+    <p id="9dc18a4d-e49f-48e7-9376-02bae0916551" rend="Obrashenie">
      Милостивый Государь
     </p>
-    <p id="82328994-44b8-4ee7-a929-c26cca312d5e" rend="Obrashenie1 left">
+    <p id="82328994-44b8-4ee7-a929-c26cca312d5e" rend="Obrashenie1">
      <choice>
       <reg>
        <name placement="text" ref="8559" type="person">
@@ -126,7 +156,7 @@
      </choice>
      ,
     </p>
-    <p id="fcff80e2-d13a-4814-9887-280ac8401f13" rend="left">
+    <p id="fcff80e2-d13a-4814-9887-280ac8401f13">
      Письмо это
      <choice>
       <reg>
@@ -158,7 +188,7 @@
        Аполинариевич
       </reg>
       <orig>
-       Аполинарiевичъ
+       Аполинаріевичъ
       </orig>
      </choice>
      <choice>
@@ -209,7 +239,7 @@
        объявлении
       </reg>
       <orig>
-       объявленiи
+       объявленіи
       </orig>
      </choice>
      <choice>
@@ -241,7 +271,7 @@
       3
      </hi>
     </p>
-    <p id="b0df6b42-62fd-45a0-8bec-853662d34ac4" rend="left">
+    <p id="b0df6b42-62fd-45a0-8bec-853662d34ac4">
      Я
      <choice>
       <reg>
@@ -282,7 +312,7 @@
      </choice>
      на нее.
     </p>
-    <p id="db630b9b-8234-43df-bf01-c72715a24636" rend="left">
+    <p id="db630b9b-8234-43df-bf01-c72715a24636">
      <choice>
       <reg>
        Отвечаю
@@ -309,14 +339,14 @@
       6
      </hi>
     </p>
-    <p id="38609a34-a142-4a55-983d-38a184994736" rend="left">
+    <p id="38609a34-a142-4a55-983d-38a184994736">
      Благодарю за
      <choice>
       <reg>
        исполнение
       </reg>
       <orig>
-       исполненiе
+       исполненіе
       </orig>
      </choice>
      моей просьбы.
@@ -343,7 +373,7 @@
        уважением
       </reg>
       <orig>
-       уваженiемъ
+       уваженіемъ
       </orig>
      </choice>
     </p>
@@ -366,7 +396,7 @@
      .
     </p>
     <lb/>
-    <p id="522d8da4-2d78-4486-ae9e-bba61f5aff44" rend="left">
+    <p id="522d8da4-2d78-4486-ae9e-bba61f5aff44">
      <choice>
       <reg>
        <name placement="text" ref="2006" type="person">
@@ -419,7 +449,7 @@
        Англии
       </reg>
       <orig>
-       Англiи
+       Англіи
       </orig>
      </choice>
      : Sparrow Wick House. Mundon, Essex, England. Paul Boulanger.

@@ -9,17 +9,41 @@
                 <title type="main">Письмо Ф. А. Страхову с 1 февраля 1900 г. по 28 февраля 1900 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Ф. А. Страхову, 1 февраля 1900 г. — 28 февраля 1900 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">295-296</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,7 +128,7 @@
      </name>
      .1900 г. Февраля начало. Москва.
     </opener>
-    <p id="df5654d7-e438-46ba-99e2-c1c987100d99" rend="Obrashenie left">
+    <p id="df5654d7-e438-46ba-99e2-c1c987100d99" rend="Obrashenie">
      Дорогой
      <choice>
       <reg>
@@ -132,7 +162,7 @@
      </choice>
      ,
     </p>
-    <p id="fb830ceb-30b4-4ddc-832e-2e74fe07126d" rend="left">
+    <p id="fb830ceb-30b4-4ddc-832e-2e74fe07126d">
      <choice>
       <reg>
        Сейчас
@@ -285,7 +315,7 @@
        мнению
       </reg>
       <orig>
-       мнѣнiю
+       мнѣнію
       </orig>
      </choice>
      , есть 999
@@ -294,7 +324,7 @@
        вероятий
       </reg>
       <orig>
-       вѣроятiй
+       вѣроятій
       </orig>
      </choice>
      <choice>
@@ -414,7 +444,7 @@
        вероятие
       </reg>
       <orig>
-       вѣроятiе
+       вѣроятіе
       </orig>
      </choice>
      , что
@@ -525,7 +555,7 @@
        неспокойствие
       </reg>
       <orig>
-       неспокойствiе
+       неспокойствіе
       </orig>
      </choice>
      <choice>
@@ -541,7 +571,7 @@
        влиянием
       </reg>
       <orig>
-       влiянiемъ
+       вліяніемъ
       </orig>
      </choice>
      <choice>
@@ -557,7 +587,7 @@
        условий
       </reg>
       <orig>
-       условiй
+       условій
       </orig>
      </choice>
      <choice>
@@ -680,7 +710,7 @@
        неприятность
       </reg>
       <orig>
-       непрiятность
+       непріятность
       </orig>
      </choice>
      , а
@@ -715,7 +745,7 @@
        приятно
       </reg>
       <orig>
-       прiятно
+       пріятно
       </orig>
      </choice>
      хорошо выдержать. И я знаю, что вы его хорошо выдержите.
@@ -867,7 +897,7 @@
      </choice>
      .
     </p>
-    <p id="a50c40c2-d8db-43ad-9cfd-f5ac59c7c99d" rend="left">
+    <p id="a50c40c2-d8db-43ad-9cfd-f5ac59c7c99d">
      <choice>
       <reg>
        Целую
@@ -949,7 +979,7 @@
        Любящий
       </reg>
       <orig>
-       Любящiй
+       Любящій
       </orig>
      </choice>
      <choice>
@@ -975,7 +1005,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="1ed52488-f000-4072-b98e-095081350600" rend="petit left">
+      <p id="1ed52488-f000-4072-b98e-095081350600" rend="petit">
        <pb n="296"/>
        <hi style="npdelimiter">
         Федор
@@ -984,7 +1014,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="75804e22-abb6-468f-a3fd-952fb25a395d" rend="petit left">
+      <p id="75804e22-abb6-468f-a3fd-952fb25a395d" rend="petit">
        Страхов, проживавший в станице Урюпинской Донской обл., был привлечен по ст. 181 Ул. о нак. за «богохульство». Причина преследования — его статья, найденная в рукописи у местного жителя. Судебные власти направили статью сначала в Новочеркасскую
        <ref id="konsistorija" target="slovar">
         консисторию

@@ -9,17 +9,41 @@
                 <title type="main">Письмо Т. А. Ергольской от 24 июня 1851 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Т. А. Ергольской, 24 июня 1851 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">112-114</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -101,7 +131,7 @@
     <p id="76e07a95-d912-49ee-934a-b311170bd75e" rend="right">
      24 Juin.
     </p>
-    <p id="7ed2d856-5465-4144-9c35-232909abbc11" rend="left">
+    <p id="7ed2d856-5465-4144-9c35-232909abbc11">
      Le soldat qui a porté ma lettre du 22 à la poste
      <ref target="#note1">
       1
@@ -118,7 +148,7 @@
      </note>
      chère tante, dans laquelle vous dites, que j’ai voulu vous reprocher votre indifférence. — Chère Tante. Comment pouvez vous croire, que moi, pour qui votre tendre affection et la ferme confiance, que j’ai dans votre amour, est un point d’appui [pour moi] dans tous les moments difficiles de la vie, que j’aie l’idée de vous reprocher votre indifférence? Non, vous êtes injuste! Vous savez, bonne tante, que si j’ai des défauts ce n’est pas la franchise, qui me manque. Eh bien je vous direz avec cette franchise, que votre lettre m’a fait verser des larmes. Pourquoi avoir de ces tristes pensées? — Vous dites que vous n’espérez plus revoir Nicolas. — Pourquoi le croire, espérons en D'ieu. Dans 4 ou 5 mois de nouveau nous nous réunirons tous à Ясное, de nouveau recommencerons ces douces causeries. — Vous êtes trop nécessaire pour notre bonheur pour que Dieu ne vous conserve point. —
     </p>
-    <p id="f80bc1b2-5439-4893-9b78-bea3e2537788" rend="left">
+    <p id="f80bc1b2-5439-4893-9b78-bea3e2537788">
      J’ai pris la ferme décision de rester servir au Caucase. Je ne suis pas encore décidé, si ce sera au militaire ou au civil auprès du Prince Voronzoff,
      <ref target="#note3">
       3
@@ -156,7 +186,7 @@
      </note>
      que la nouvelle de sa convalescence m’a fait beaucoup de plaisir et que je l’embrasse tendrement malgré sa figure bourgeonnée. —
     </p>
-    <p id="3b20c66a-4a98-4a62-957b-1ed2790fb4da" rend="left">
+    <p id="3b20c66a-4a98-4a62-957b-1ed2790fb4da">
      <choice>
       <reg>
        Моим
@@ -216,15 +246,15 @@
     <p id="488f2584-e843-4777-8051-c1c3be997b59" rend="right">
      Léon.
     </p>
-    <p id="f91d426b-041d-4f54-a72b-a2a61f61fa05" rend="left">
+    <p id="f91d426b-041d-4f54-a72b-a2a61f61fa05">
      <pb n="113"/>
     </p>
-    <p id="1d103b3f-04b8-4d08-8714-e058a1236fcd" rend="left">
+    <p id="1d103b3f-04b8-4d08-8714-e058a1236fcd">
      <hi>
       На 4 странице:
      </hi>
     </p>
-    <p id="aa7fca1a-e568-4e0b-9702-164080b622e7" rend="left">
+    <p id="aa7fca1a-e568-4e0b-9702-164080b622e7">
      <name placement="text" ref="4947" type="person">
       Ея Высокоблагородію Татьянѣ Александровнѣ Ергольской
      </name>
@@ -233,7 +263,7 @@
     <p id="2889639c-a46b-4ffb-9346-6f36ac240828" rend="petit right">
      24 июня.
     </p>
-    <p id="35d55797-52f9-47e6-98aa-a06159b1edfe" rend="petit left">
+    <p id="35d55797-52f9-47e6-98aa-a06159b1edfe" rend="petit">
      Солдат, который снес мое письмо от 22-го на почту,
      <ref target="#note9">
       9
@@ -250,7 +280,7 @@
      </note>
      письмо, дорогая тетенька, в котором вы говорите, что я хотел упрекнуть вас в равнодушии. — Дорогая тетенька, как могли вы подумать, что я, для которого ваша нежная привязанность и твердая уверенность в вашей любви — поддержка во всех тяжелых минутах моей жизни, я мог иметь намерение вас упрекнуть в равнодушии? Нет, вы несправедливы! Вы знаете, добрая тетенька, что при всех моих недостатках скрытности во мне нет. И я откровенно сознаюсь вам, что плакал от вашего письма. Отчего у вас такие грустные мысли? — Вы говорите, что не надеетесь больше свидеться с Николенькой. — Но почему? Бог даст, через 4 или 5 месяцев мы снова соберемся все в *Ясном*, и возобновятся наши мирные беседы. — Вы так необходимы для нашего общего счастья, что Бог вас сохранит. —
     </p>
-    <p id="e3e6384c-a003-4f5f-b368-d710906c22e5" rend="petit left">
+    <p id="e3e6384c-a003-4f5f-b368-d710906c22e5" rend="petit">
      Я твердо решил остаться служить на Кавказе. Не знаю еще в военной службе или гражданской при князе Воронцове,
      <ref target="#note11">
       11
@@ -292,7 +322,7 @@
      </note>
      что я рад, что он поправляется, и что я нежно его целую, не взирая на его пятнастое лицо. —
     </p>
-    <p id="5973f080-da90-4b20-8b63-c4d5eadfe4c7" rend="petit left">
+    <p id="5973f080-da90-4b20-8b63-c4d5eadfe4c7" rend="petit">
      *
      <choice>
       <reg>

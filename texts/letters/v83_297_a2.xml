@@ -9,17 +9,41 @@
                 <title type="main">Письмо С.А.Толстой от 2 февраля 1885 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 2 февраля 1885 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 83. М.: Гос. изд. «Художественная литература», 1938. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 83</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">476-478</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      297.1885 г. Февраля 2. Я. П.
     </opener>
-    <p id="746b7167-103f-4b9f-b4c3-e7cf22e3b220" rend="left">
+    <p id="746b7167-103f-4b9f-b4c3-e7cf22e3b220">
      <choice>
       <reg>
        Получил
@@ -363,14 +393,14 @@
      </choice>
      .
     </p>
-    <p id="97f9dcdc-f280-4f83-8062-240a0442b494" rend="left">
+    <p id="97f9dcdc-f280-4f83-8062-240a0442b494">
      Много еще было
      <choice>
       <reg>
        впечатлений
       </reg>
       <orig>
-       впечатлѣнiй
+       впечатлѣній
       </orig>
      </choice>
      <choice>
@@ -387,7 +417,7 @@
        страданий
       </reg>
       <orig>
-       страданiй
+       страданій
       </orig>
      </choice>
      . Я
@@ -462,7 +492,7 @@
        положение
       </reg>
       <orig>
-       положенiе
+       положеніе
       </orig>
      </choice>
      среди
@@ -476,7 +506,7 @@
      </choice>
      людей.
     </p>
-    <p id="866bf5d8-8d32-405e-969d-f7eac943936b" rend="left">
+    <p id="866bf5d8-8d32-405e-969d-f7eac943936b">
      Потому, что ты написала о
      <choice>
       <reg>
@@ -625,7 +655,7 @@
      </choice>
      . —
     </p>
-    <p id="d7b63a78-e9b9-41e6-9c5c-4cc3a26b23dc" rend="left">
+    <p id="d7b63a78-e9b9-41e6-9c5c-4cc3a26b23dc">
      Читаю я Elliot’а Felix Holt.
      <ref target="#note6">
       6
@@ -639,7 +669,7 @@
        сочинение
       </reg>
       <orig>
-       сочиненiе
+       сочиненіе
       </orig>
      </choice>
      . Я
@@ -825,7 +855,7 @@
      </note>
      —
     </p>
-    <p id="a1a12d44-ed33-44a0-8dd2-c781ddf9fe65" rend="left">
+    <p id="a1a12d44-ed33-44a0-8dd2-c781ddf9fe65">
      Лежитъ передо мной записка вдовы, к[оторая] нынче была у меня. У ней нѣтъ дома, нѣтъ земли, — мужъ ея б[ылъ] солдата въ Грумантской
      <ref target="#note8">
       8
@@ -935,10 +965,10 @@
      </choice>
      на зиму.
     </p>
-    <p id="79efe30b-fd1b-4cb8-862b-6face3ce5783" rend="left">
+    <p id="79efe30b-fd1b-4cb8-862b-6face3ce5783">
      Завтра я поѣду въ Тулу и постараюсь, что можно, сдѣлать для нея.
     </p>
-    <p id="fd8db2cc-5cbc-4139-ad90-dbfe0189dd76" rend="left">
+    <p id="fd8db2cc-5cbc-4139-ad90-dbfe0189dd76">
      Везу это письмо на Козловку — и
      <choice>
       <reg>
@@ -998,7 +1028,7 @@
      </choice>
      ?
     </p>
-    <p id="4cf8d455-fc05-4e60-850a-6e41d06723ee" rend="left">
+    <p id="4cf8d455-fc05-4e60-850a-6e41d06723ee">
      Я вчера
      <choice>
       <reg>
@@ -1014,7 +1044,7 @@
        Следствие
       </reg>
       <orig>
-       Слѣдствiе
+       Слѣдствіе
       </orig>
      </choice>
      этой нелюбовности не ясность
@@ -1031,7 +1061,7 @@
        желаний
       </reg>
       <orig>
-       желанiй
+       желаній
       </orig>
      </choice>
      . Я
@@ -1142,7 +1172,7 @@
      </choice>
      .
     </p>
-    <p id="87e394da-6dca-44db-8c8b-49931ebbcf16" rend="left">
+    <p id="87e394da-6dca-44db-8c8b-49931ebbcf16">
      Прощай, душа моя,
      <choice>
       <reg>
@@ -1167,7 +1197,7 @@
      Л.
     </p>
     <lb/>
-    <p id="b60dce25-d6f9-4fdd-b706-f8881886c43f" rend="left">
+    <p id="b60dce25-d6f9-4fdd-b706-f8881886c43f">
      <choice>
       <reg>
        Урусов
@@ -1255,7 +1285,7 @@
      </choice>
      прожить долго.
     </p>
-    <p id="56f21aeb-5d77-4f77-b1dc-b6fa948ad745" rend="left">
+    <p id="56f21aeb-5d77-4f77-b1dc-b6fa948ad745">
      <choice>
       <reg>
        Сейчас
@@ -1365,7 +1395,7 @@
      —
     </p>
     <lb/>
-    <p id="4b3e261c-349c-499c-af4e-deaa21d3fe27" rend="left">
+    <p id="4b3e261c-349c-499c-af4e-deaa21d3fe27">
      <hi>
       На конверте:
      </hi>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо С.А.Толстой от 29 октября 1885 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 29 октября 1885 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 83. М.: Гос. изд. «Художественная литература», 1938. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 83</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">527-528</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      339.1885 г. Октября 29. Я. П.
     </opener>
-    <p id="01c5099e-6f45-4566-aa8f-7362d5fb69b3" rend="left">
+    <p id="01c5099e-6f45-4566-aa8f-7362d5fb69b3">
      <choice>
       <reg>
        Получил
@@ -369,7 +399,7 @@
        какие
       </reg>
       <orig>
-       какiя
+       какія
       </orig>
      </choice>
      <choice>
@@ -434,7 +464,7 @@
      </choice>
      .
     </p>
-    <p id="6b3e7a44-5561-4eb0-883b-3870f664ea9e" rend="left">
+    <p id="6b3e7a44-5561-4eb0-883b-3870f664ea9e">
      Теперь
      <choice>
       <reg>
@@ -571,7 +601,7 @@
      </choice>
      .
     </p>
-    <p id="fd686d46-8b16-4f21-996c-4be92dd9c069" rend="left">
+    <p id="fd686d46-8b16-4f21-996c-4be92dd9c069">
      Вчера
      <choice>
       <reg>
@@ -678,7 +708,7 @@
        впечатление
       </reg>
       <orig>
-       впечатлѣнiе
+       впечатлѣніе
       </orig>
      </choice>
      . Для народа это не годится, —
@@ -731,7 +761,7 @@
        основании
       </reg>
       <orig>
-       основанiи
+       основаніи
       </orig>
      </choice>
      буду
@@ -739,7 +769,7 @@
       поправлять.
      </hi>
     </p>
-    <p id="f6631146-b9d3-4c05-8af8-94bb7c270b1a" rend="left">
+    <p id="f6631146-b9d3-4c05-8af8-94bb7c270b1a">
      <pb n="528"/>
      <hi style="npdelimiter">
       Если
@@ -859,7 +889,7 @@
      </choice>
      . —
     </p>
-    <p id="d982108c-12d1-45c3-80ba-6c076fe37f1c" rend="left">
+    <p id="d982108c-12d1-45c3-80ba-6c076fe37f1c">
      <choice>
       <reg>
        В
@@ -928,7 +958,7 @@
      ?
     </p>
     <lb/>
-    <p id="d80d6f99-aa2a-4c1f-add9-ae95feb18060" rend="left">
+    <p id="d80d6f99-aa2a-4c1f-add9-ae95feb18060">
      <hi>
       На конверте:
      </hi>
@@ -938,7 +968,7 @@
        Долгохамовнический
       </reg>
       <orig>
-       Долгохамовническiй
+       Долгохамовническій
       </orig>
      </choice>
      . 15.

@@ -9,17 +9,41 @@
                 <title type="main">Письмо П. Сергееву от 25 августа 1900 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо П. Сергееву, 25 августа 1900 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">443-444</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,14 +128,14 @@
      </name>
      .1900 г. Августа 25. Я. П.
     </opener>
-    <p id="3c56a9ff-acb8-4206-8ce8-12d2d3582ff7" rend="Obrashenie left">
+    <p id="3c56a9ff-acb8-4206-8ce8-12d2d3582ff7" rend="Obrashenie">
      Любезные братья
      <choice>
       <reg>
        Иркутские
       </reg>
       <orig>
-       Иркутскiе
+       Иркутскіе
       </orig>
      </choice>
      духоборы,
@@ -114,12 +144,12 @@
        христиане
       </reg>
       <orig>
-       христiане
+       христіане
       </orig>
      </choice>
      ,
     </p>
-    <p id="466f08e7-c937-47d5-b04a-6f2142b6aa13" rend="left">
+    <p id="466f08e7-c937-47d5-b04a-6f2142b6aa13">
      Письма ваши я
      <choice>
       <reg>
@@ -499,7 +529,7 @@
        Известие
       </reg>
       <orig>
-       Извѣстiе
+       Извѣстіе
       </orig>
      </choice>
      про
@@ -526,7 +556,7 @@
        учение
       </reg>
       <orig>
-       ученiе
+       ученіе
       </orig>
      </choice>
      не на
@@ -561,7 +591,7 @@
        участия
       </reg>
       <orig>
-       участiя
+       участія
       </orig>
      </choice>
      <choice>
@@ -577,7 +607,7 @@
        убийстве
       </reg>
       <orig>
-       убiйствѣ
+       убійствѣ
       </orig>
      </choice>
      и
@@ -586,7 +616,7 @@
        обучения
       </reg>
       <orig>
-       обученiя
+       обученія
       </orig>
      </choice>
      ему, очень порадовало меня и
@@ -609,7 +639,7 @@
      </choice>
      друзей.
     </p>
-    <p id="d5cb4c8b-1c30-4b16-95fd-666333e61c0f" rend="left">
+    <p id="d5cb4c8b-1c30-4b16-95fd-666333e61c0f">
      Много ли, мало ли
      <choice>
       <reg>
@@ -652,7 +682,7 @@
        исповедание
       </reg>
       <orig>
-       исповѣданiе
+       исповѣданіе
       </orig>
      </choice>
      истины,
@@ -713,7 +743,7 @@
        исполнения
       </reg>
       <orig>
-       исполненiя
+       исполненія
       </orig>
      </choice>
      Его воли ни для
@@ -754,7 +784,7 @@
      </choice>
      .
     </p>
-    <p id="fc2cdb6e-fdde-4107-99a3-ce084df52127" rend="left">
+    <p id="fc2cdb6e-fdde-4107-99a3-ce084df52127">
      Посылаю
      <choice>
       <reg>
@@ -887,7 +917,7 @@
        Евангелие
       </reg>
       <orig>
-       Евангелiе
+       Евангеліе
       </orig>
      </choice>
      .
@@ -994,7 +1024,7 @@
        Любящий
       </reg>
       <orig>
-       Любящiй
+       Любящій
       </orig>
      </choice>
      <choice>
@@ -1032,7 +1062,7 @@
      </name>
      .
     </p>
-    <p id="ea7feb6b-c513-474e-899e-6e74ad9ae091" rend="left">
+    <p id="ea7feb6b-c513-474e-899e-6e74ad9ae091">
      25 Августа 1900.
     </p>
     <noteGrp type="comments">
@@ -1042,7 +1072,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="adbb0487-1a44-453a-adae-5356d69680cb" rend="petit left">
+      <p id="adbb0487-1a44-453a-adae-5356d69680cb" rend="petit">
        Письмо адресовано иркутскому духобору
        <name placement="comments" ref="12514" type="person">
         Петру Сергееву

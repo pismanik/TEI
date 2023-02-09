@@ -9,17 +9,41 @@
                 <title type="main">Письмо Ф. А. Желтову с 1 января 1887 г. по 31 декабря 1887 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Ф. А. Желтову, 1 января 1887 г. — 31 декабря 1887 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 90. М.: Гос. изд. «Художественная литература», 1958. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 90</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">268-268</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -97,18 +126,18 @@
      </name>
      . Черновое.1887? г.
     </opener>
-    <p id="2bbf1b4c-473d-4f46-af7a-467be5ed3f9c" rend="Data left">
-     <em>
+    <p id="2bbf1b4c-473d-4f46-af7a-467be5ed3f9c" rend="Data">
+     <hi rend="italic">
       1887? г.
-     </em>
+     </hi>
     </p>
-    <p id="7d53547e-19ea-4926-9ea9-7c73f3b0b3b1" rend="Obrashenie left">
+    <p id="7d53547e-19ea-4926-9ea9-7c73f3b0b3b1" rend="Obrashenie">
      <name placement="text" ref="5073" type="person">
       Федор Алексеевич
      </name>
      !
     </p>
-    <p id="81ef825f-07fe-469c-8da0-2ddcb24f6e76" rend="left">
+    <p id="81ef825f-07fe-469c-8da0-2ddcb24f6e76">
      Очень рад был получить ваше письмо; рад тому, что вижу в вас проявление
      <ref target="#note1">
       1
@@ -124,7 +153,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="efb04773-3ee7-45f2-b33e-40cdfcb81461" rend="petit left">
+      <p id="efb04773-3ee7-45f2-b33e-40cdfcb81461" rend="petit">
        <name placement="comments" ref="5073" type="person">
         Федор Алексеевич Желтов
        </name>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. А. Маклакову с 1 января 1900 г. по 31 декабря 1900 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. А. Маклакову, 1 января 1900 г. — 31 декабря 1900 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 90. М.: Гос. изд. «Художественная литература», 1958. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 90</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">341-341</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -97,12 +126,12 @@
      </name>
      .1900-е гг.
     </opener>
-    <p id="9a0b9c2a-5a01-4be5-8b80-d3a0b7f0ed94" rend="Data left">
-     <em>
+    <p id="9a0b9c2a-5a01-4be5-8b80-d3a0b7f0ed94" rend="Data">
+     <hi rend="italic">
       1900-е гг.
-     </em>
+     </hi>
     </p>
-    <p id="b56a7451-958a-4c64-a97b-89ec26d7d931" rend="Obrashenie left">
+    <p id="b56a7451-958a-4c64-a97b-89ec26d7d931" rend="Obrashenie">
      Дорогой
      <choice original_editorial_correction="Вас[илий]">
       <sic>
@@ -128,7 +157,7 @@
      </choice>
      ,
     </p>
-    <p id="4616b1f3-eed2-4c22-944e-538be3bf3270" rend="left">
+    <p id="4616b1f3-eed2-4c22-944e-538be3bf3270">
      Мой друг
      <choice original_editorial_correction="Мих[аил]">
       <sic>
@@ -201,10 +230,10 @@
     <p id="4fdeb588-b11f-4a8b-bf13-a29c22349780" rend="right">
      Ваш Л. Толстой.
     </p>
-    <p id="181228d3-cb88-407e-a83e-2f0a8b344d2b" rend="left">
-     <em>
+    <p id="181228d3-cb88-407e-a83e-2f0a8b344d2b">
+     <hi rend="italic">
       На конверте:
-     </em>
+     </hi>
      <name placement="text" ref="8358" type="person">
       Василию Алексеевичу Маклакову
      </name>

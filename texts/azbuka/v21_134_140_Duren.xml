@@ -9,18 +9,42 @@
             <title type="bibl">Толстой Л. Н. Первая русская книга для чтения // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 21. М.: Гос. изд. «Художественная литература», . С. </title>
             <author>Толстой Лев Николаевич</author>
             <respStmt>
-                <resp>Идея, постановка задач, руководство</resp>
+                <resp>Идея, постановка задач, руководство:</resp>
                 <name>
                     Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                 </name>
-             </respStmt>
+            </respStmt>
             <respStmt>
-                <resp>
-                    Подготовка TEI/XML
-                </resp>
-                <name>
-                    Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                </name>
+                    <resp>
+                        Подготовка TEI/XML:
+                    </resp>
+                    <name>
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>
             </respStmt>
                 <funder>
                     Проект «Слово Толстого»
@@ -29,7 +53,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -41,7 +65,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы были получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -59,7 +83,7 @@
                     </analytic>
                     <monogr>
                         <title level="m">
-                          Полное собрание сочинений.
+                          Полное собрание сочинений: в 90 тт.
                         </title>
                         <imprint>
                             <pubPlace>
@@ -75,7 +99,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -169,7 +193,7 @@
       </l>
      </lg>
     </div>
-    <p id="0f8dccfd-dc48-4ace-bf8f-a2349cb6d0e6" rend="left poembtw">
+    <p id="0f8dccfd-dc48-4ace-bf8f-a2349cb6d0e6" rend="poembtw">
      <pb n="135"/>
     </p>
     <div type="poem">
@@ -296,7 +320,7 @@
       </l>
      </lg>
     </div>
-    <p id="a4a736c6-8cc7-41fa-aa79-19f2cacd623e" rend="left poembtw">
+    <p id="a4a736c6-8cc7-41fa-aa79-19f2cacd623e" rend="poembtw">
      <pb n="136"/>
     </p>
     <div rend="stih2" type="poem">
@@ -423,7 +447,7 @@
       </l>
      </lg>
     </div>
-    <p id="1b129668-8161-4d6e-a1b3-3b06333fb705" rend="left poembtw">
+    <p id="1b129668-8161-4d6e-a1b3-3b06333fb705" rend="poembtw">
      <pb n="137"/>
     </p>
     <div type="poem">
@@ -547,7 +571,7 @@
       </l>
      </lg>
     </div>
-    <p id="197ea63e-8b35-43b6-9e66-cd366d4be3ce" rend="left poembtw">
+    <p id="197ea63e-8b35-43b6-9e66-cd366d4be3ce" rend="poembtw">
      <pb n="138"/>
     </p>
     <div rend="stih2" type="poem">
@@ -674,7 +698,7 @@
       </l>
      </lg>
     </div>
-    <p id="d04cf373-871e-4609-b8e8-74ad03178ee3" rend="left poembtw">
+    <p id="d04cf373-871e-4609-b8e8-74ad03178ee3" rend="poembtw">
      <pb n="139"/>
     </p>
     <div type="poem">
@@ -801,7 +825,7 @@
       </l>
      </lg>
     </div>
-    <p id="0e201db3-2b85-421b-91d1-91296f803936" rend="left poembtw">
+    <p id="0e201db3-2b85-421b-91d1-91296f803936" rend="poembtw">
      <pb n="140"/>
     </p>
     <div rend="stih2" type="poem">

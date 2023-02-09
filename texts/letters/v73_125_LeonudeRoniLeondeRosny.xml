@@ -9,17 +9,41 @@
                 <title type="main">Письмо Леону де Рони (Léon de Rosny) от 28 июля 1901 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Леону де Рони (Léon de Rosny), 28 июля 1901 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 73. М.: Гос. изд. «Художественная литература», 1954. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 73</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">107-109</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -101,10 +130,10 @@
     <p id="c27a5aaf-4eff-44c0-ac17-7dd10070992e" rend="right">
      A Mr Léon de Rosny.
     </p>
-    <p id="de83de23-f4e2-47c6-9adf-d3959aaa9e48" rend="Obrashenie left">
+    <p id="de83de23-f4e2-47c6-9adf-d3959aaa9e48" rend="Obrashenie">
      Cher Monsieur,
     </p>
-    <p id="48c97f98-123e-4448-9344-0c1341f92d8d" rend="left">
+    <p id="48c97f98-123e-4448-9344-0c1341f92d8d">
      Il y a longtemps que je connais vos travaux sur le Bouddisme et me souviens d’avoir lu plusieurs de vos ouvrages qui m’ont
      <hi style="opdelimiter">
       toujours
@@ -147,7 +176,7 @@
       Иосиф Генри Рони (Joseph Henry Rosny; псевдоним) французский романист (р. 1856). С 1891 г. работал в сотрудничестве со своим братом Жюстином. В яснополянской библиотеке сохранилось несколько его книг с дарственными надписями.
      </note>
     </p>
-    <p id="79da74b2-1b97-4c62-b304-50e19a94e848" rend="left">
+    <p id="79da74b2-1b97-4c62-b304-50e19a94e848">
      Je vous serai très reconnaissant si vous me faites part de vos idées sur le criterium de certitude (je ne connais que celui de Descartes
      <ref target="#note4">
       4
@@ -157,16 +186,16 @@
      </note>
      ) et sur les sciences sociales, qui m’occupent particulièrement dans les derniers temps.
     </p>
-    <p id="d1f92717-dea2-4622-8afa-595d7db4d62c" rend="left">
+    <p id="d1f92717-dea2-4622-8afa-595d7db4d62c">
      Je crois que la solution des questions sociales détachées de la religion est un problème impossible à résoudre.
     </p>
-    <p id="e011c47d-6855-448f-b924-36bf51820a45" rend="left">
+    <p id="e011c47d-6855-448f-b924-36bf51820a45">
      Je serai très content de connaître votre manière de voir.
     </p>
-    <p id="60f880c2-3e5a-4ccc-aa33-cacd46e3d039" rend="left">
+    <p id="60f880c2-3e5a-4ccc-aa33-cacd46e3d039">
      Les livres scientifiques parviennent jusqu’à moi sans empêchement.
     </p>
-    <p id="7a4db0ff-aa42-4efa-b102-e24973aa73a6" rend="left">
+    <p id="7a4db0ff-aa42-4efa-b102-e24973aa73a6">
      En vous présentant mes salutations, je vous prie de croire à toute ma considération.
     </p>
     <p id="af113771-3edb-4767-a80f-574dc5ddf64b" rend="right">
@@ -176,10 +205,10 @@
     <p id="4b88acd3-2dc4-4abd-8641-4fdfd7665718" rend="petit right">
      Г-ну Леону де Рони.
     </p>
-    <p id="b508c3f2-24df-434b-b01d-49fbb655b297" rend="Obrashenie petit left">
+    <p id="b508c3f2-24df-434b-b01d-49fbb655b297" rend="Obrashenie petit">
      Милостивый государь,
     </p>
-    <p id="d186f318-c491-40d1-8f67-c1f9fb1b1b45" rend="petit left">
+    <p id="d186f318-c491-40d1-8f67-c1f9fb1b1b45" rend="petit">
      Я уже давно знаком с вашими сочинениями о буддизме и помню, что прочел с большим интересом несколько ваших трудов. Недавно я получил брошюру под заглавием «Существовал ли Будда?»
      <ref target="#note5">
       5
@@ -205,7 +234,7 @@
       Иосиф Генри Рони (Joseph Henry Rosny; псевдоним) французский романист (р. 1856). С 1891 г. работал в сотрудничестве со своим братом Жюстином. В яснополянской библиотеке сохранилось несколько его книг с дарственными надписями.
      </note>
     </p>
-    <p id="99c243d8-79cc-4f5c-9457-21909c91e770" rend="petit left">
+    <p id="99c243d8-79cc-4f5c-9457-21909c91e770" rend="petit">
      Буду весьма вам признателен, если вы поделитесь со мной вашими мыслями о критерии достоверности (я знаком только с декартовским критерием),
      <ref target="#note8">
       8
@@ -215,16 +244,16 @@
      </note>
      а также о социальных науках, которыми я особенно заинтересован последнее время.
     </p>
-    <p id="00cacbab-2091-4724-8c96-b1ec60fed076" rend="petit left">
+    <p id="00cacbab-2091-4724-8c96-b1ec60fed076" rend="petit">
      Я думаю, что разрешение социальных вопросов без помощи религии есть задача неразрешимая.
     </p>
-    <p id="b287a824-1575-4bc1-b85e-56a440e128e6" rend="petit left">
+    <p id="b287a824-1575-4bc1-b85e-56a440e128e6" rend="petit">
      Буду очень рад познакомиться с вашими взглядами.
     </p>
-    <p id="3b57c55b-0ea4-409a-9a92-85ca9c020c2e" rend="petit left">
+    <p id="3b57c55b-0ea4-409a-9a92-85ca9c020c2e" rend="petit">
      Научные книги доходят до меня без затруднения.
     </p>
-    <p id="5f602a72-b1c7-411d-97ec-1573ad6fec07" rend="petit left">
+    <p id="5f602a72-b1c7-411d-97ec-1573ad6fec07" rend="petit">
      Посылая вам свой привет, прошу вас верить моему к вам уважению.
     </p>
     <p id="5e127e2d-d6de-4667-99d1-b3fbf965fad5" rend="petit right">
@@ -240,7 +269,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="880494b9-2bfe-4742-9d9e-87cdf5d5263e" rend="petit left">
+      <p id="880494b9-2bfe-4742-9d9e-87cdf5d5263e" rend="petit">
        <name placement="comments" ref="11856" type="person">
         Леон де Рони
        </name>
@@ -256,7 +285,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="703cf822-7c8d-4419-925a-aa3d3bc62ea4" rend="petit left">
+      <p id="703cf822-7c8d-4419-925a-aa3d3bc62ea4" rend="petit">
        Ответ на письмо
        <name placement="comments" ref="11856" type="person">
         Леона де Рони

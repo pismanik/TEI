@@ -9,17 +9,41 @@
                 <title type="main">Ф. Г. Маслянковскому от 27 мая 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Ф. Г. Маслянковскому, 27 мая 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">565-565</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -97,7 +127,7 @@
     <p class="right" id="cfcb2290-f352-459a-8f4c-5912a5b72ae3">
      27 Мая.
     </p>
-    <p class="left">
+    <p class="left" id="311269cc-3156-4889-994a-e90931450bef">
      Не
      <choice>
       <reg>
@@ -204,7 +234,7 @@
      </choice>
      .
     </p>
-    <p class="left">
+    <p class="left" id="707a9614-8d09-4a41-bab5-473331baa877">
      Каждый
      <choice>
       <reg>
@@ -341,7 +371,7 @@
        значение
       </reg>
       <orig>
-       значенiе
+       значеніе
       </orig>
      </choice>
      — важность и, главное,
@@ -469,12 +499,12 @@
        условиях
       </reg>
       <orig>
-       условiяхъ
+       условіяхъ
       </orig>
      </choice>
      .
     </p>
-    <p class="right">
+    <p class="right" id="2646aa9b-fa1b-467f-9f19-b509a12f1576">
      <choice>
       <reg>
        <name placement="text" ref="13883" type="person">
@@ -493,7 +523,7 @@
      .
     </p>
     <br xmlns="http://www.w3.org/1999/xhtml"/>
-    <p class="left">
+    <p class="left" id="ffa0f4f2-68fd-4b2f-8954-3f456ad7dd6e">
      <hi rend="italic">
       На обороте:
      </hi>
@@ -503,7 +533,7 @@
        заведение
       </reg>
       <orig>
-       заведенiе
+       заведеніе
       </orig>
      </choice>
      Линцера, для Переца.
@@ -519,7 +549,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="7eceefc1-aa49-4d5b-a701-b6d3b6a400e7" rend="petit left">
+      <p id="7eceefc1-aa49-4d5b-a701-b6d3b6a400e7" rend="petit">
        <name placement="comments" ref="8637" type="person">
         Фарес (Перец) Григорьевич Маслянковский
        </name>
@@ -527,7 +557,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="34cc01b7-45a3-44e5-91a7-43ebc8ef3e93" rend="petit left">
+      <p id="34cc01b7-45a3-44e5-91a7-43ebc8ef3e93" rend="petit">
        Ответ на письмо Маслянковского от 16 мая 1899 года. Маслянковский писал: «Я сильно порываюсь с Вами лично повидаться и посоветоваться — чтò и как теперь делать. Полную свободу я дал тому высшему творцу, который во мне, который по временам обливает меня волнами радости и света. В эти моменты жгучая теплота течет по всем жилам моим, и каждый человек мне роден и
        <choice original_editorial_correction="дорог[...]">
         <sic>

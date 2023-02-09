@@ -9,17 +9,41 @@
                 <title type="main">Письмо Эйльмеру Мооду (Aylmer Maude) от 5 декабря 1909 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Эйльмеру Мооду (Aylmer Maude), 5 декабря 1909 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 80. М.: Гос. изд. «Художественная литература», 1955. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 80</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">232-233</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -94,7 +123,7 @@
     <opener index="false">
      * 340. Эйльмеру Мооду (Aylmer Maude). Черновое.1909 г. Декабря 5. Я. П.
     </opener>
-    <p id="2a982797-7ff9-477c-8a14-6c83435991d6" rend="left">
+    <p id="2a982797-7ff9-477c-8a14-6c83435991d6">
      Please, despose of the money of the
      <choice original_editorial_correction="Resurre[ction]">
       <sic>
@@ -121,7 +150,7 @@
      </note>
      is very good.
     </p>
-    <p id="22f259e7-dc0d-4b65-a25a-f50b244ca1a0" rend="left">
+    <p id="22f259e7-dc0d-4b65-a25a-f50b244ca1a0">
      What belongs my letter to
      <choice original_editorial_correction="Ken[worthy]">
       <sic>
@@ -159,7 +188,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="a23e0274-80c9-4de7-ac8b-8c7089430826" rend="petit left">
+      <p id="a23e0274-80c9-4de7-ac8b-8c7089430826" rend="petit">
        Что касается моего письма к
        <choice original_editorial_correction="Кен[ворти]">
         <sic>
@@ -183,7 +212,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="2dc8a223-3032-4912-9c8a-55b12dba39fa" rend="petit left">
+      <p id="2dc8a223-3032-4912-9c8a-55b12dba39fa" rend="petit">
        В письме от 13 декабря 1909 г. Эйльмер Моод сообщал, что
        <name placement="comments" ref="6330" type="person">
         Джон Кенворти

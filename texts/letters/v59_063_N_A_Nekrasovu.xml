@@ -9,17 +9,41 @@
                 <title type="main">Письмо Н. А. Некрасову от 3 июля 1852 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Н. А. Некрасову, 3 июля 1852 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">193-194</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -105,15 +135,15 @@
        июля
       </reg>
       <orig>
-       iюля
+       іюля
       </orig>
      </choice>
      1852-го года.
     </p>
-    <p id="082494fe-9fab-4d99-89aa-7445f2a3f8e2" rend="Obrashenie left">
+    <p id="082494fe-9fab-4d99-89aa-7445f2a3f8e2" rend="Obrashenie">
      Милостивый Государь!
     </p>
-    <p id="711e0109-b0bb-408c-ae42-dc20e668ad71" rend="left">
+    <p id="711e0109-b0bb-408c-ae42-dc20e668ad71">
      Моя просьба
      <choice>
       <reg>
@@ -170,7 +200,7 @@
        напечатанию
       </reg>
       <orig>
-       напечатанiю
+       напечатанію
       </orig>
      </choice>
      , возвратите ее
@@ -239,7 +269,7 @@
        мнению
       </reg>
       <orig>
-       мнѣнiю
+       мнѣнію
       </orig>
      </choice>
      и напечатайте
@@ -290,7 +320,7 @@
        сокращения
       </reg>
       <orig>
-       сокращенiя
+       сокращенія
       </orig>
      </choice>
      , которые вы найдете
@@ -332,7 +362,7 @@
        прибавлений
       </reg>
       <orig>
-       прибавленiй
+       прибавленій
       </orig>
      </choice>
      и
@@ -346,7 +376,7 @@
      </choice>
      .
     </p>
-    <p id="a8f55706-bd10-4315-acb7-47c1148fe93f" rend="left">
+    <p id="a8f55706-bd10-4315-acb7-47c1148fe93f">
      <choice>
       <reg>
        В
@@ -370,7 +400,7 @@
        развития
       </reg>
       <orig>
-       развитiя
+       развитія
       </orig>
      </choice>
      ;
@@ -379,7 +409,7 @@
        появление
       </reg>
       <orig>
-       появленiе
+       появленіе
       </orig>
      </choice>
      <choice>
@@ -511,10 +541,10 @@
      </choice>
      главы 17-ой до 26-ой до конца.
     </p>
-    <p id="b749c0a7-1328-4df5-916f-efc82089e1a7" rend="left">
+    <p id="b749c0a7-1328-4df5-916f-efc82089e1a7">
      Ежели бы можно было найдти хорошаго писца тамъ, гдѣ я живу, то рукопись была бы переписана лучше, и я бы не боялся за лишнее предубѣжденіе, которое вы теперь непремѣнно получите противъ нея.
     </p>
-    <p id="8893bf80-0cce-4b0e-b72f-51635eee19e6" rend="left">
+    <p id="8893bf80-0cce-4b0e-b72f-51635eee19e6">
      Я
      <choice>
       <reg>
@@ -564,7 +594,7 @@
        России
       </reg>
       <orig>
-       Россiи
+       Россіи
       </orig>
      </choice>
      — по своему
@@ -573,7 +603,7 @@
        положению
       </reg>
       <orig>
-       положенiю
+       положенію
       </orig>
      </choice>
      постоянна посредника между сочинителями и читателями, всегда
@@ -614,7 +644,7 @@
        сочинения
       </reg>
       <orig>
-       сочиненiя
+       сочиненія
       </orig>
      </choice>
      и
@@ -623,7 +653,7 @@
        мнения
       </reg>
       <orig>
-       мнѣнiя
+       мнѣнія
       </orig>
      </choice>
      о
@@ -649,7 +679,7 @@
        нетерпением
       </reg>
       <orig>
-       нетерпѣнiемъ
+       нетерпѣніемъ
       </orig>
      </choice>
      ожидаю вашего
@@ -657,7 +687,7 @@
       приговора.
      </hi>
     </p>
-    <p id="f2982702-16a0-4d5e-988e-edd8c430afaf" rend="left">
+    <p id="f2982702-16a0-4d5e-988e-edd8c430afaf">
      <pb n="194"/>
      <hi style="npdelimiter">
       <choice>
@@ -692,7 +722,7 @@
        продолжению
       </reg>
       <orig>
-       продолженiю
+       продолженію
       </orig>
      </choice>
      <choice>
@@ -708,7 +738,7 @@
        занятий
       </reg>
       <orig>
-       занятiй
+       занятій
       </orig>
      </choice>
      , или заставить сжечь все начатое.
@@ -743,7 +773,7 @@
        уважения
       </reg>
       <orig>
-       уваженiя
+       уваженія
       </orig>
      </choice>
      ,
@@ -774,7 +804,7 @@
     <p id="65fe8df0-6cfb-4a2f-8696-416d333b4ee0" rend="right">
      Л. Н.
     </p>
-    <p id="6e518356-6ed3-476c-957a-35d58542e72d" rend="left">
+    <p id="6e518356-6ed3-476c-957a-35d58542e72d">
      <choice>
       <reg>
        Адрес
@@ -822,7 +852,7 @@
        артиллерии
       </reg>
       <orig>
-       артиллерiи
+       артиллеріи
       </orig>
      </choice>
      <name placement="text" ref="13893" type="person">
@@ -858,7 +888,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="12182db8-09c4-40a6-880d-9444c0b7310e" rend="petit left">
+      <p id="12182db8-09c4-40a6-880d-9444c0b7310e" rend="petit">
        <name placement="comments" ref="9649" type="person">
         Николай Алексеевич Некрасов
        </name>

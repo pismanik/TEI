@@ -4,24 +4,48 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v25_530_531_Nagornaja_propoved">
-                    Нагорная проповедь. Tolstoy Digital
+                    Нагорная проповедь. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Нагорная проповедь</title>
-                <title type="bibl">Толстой Л. Н. Нагорная проповедь // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 25. М.: Гос. изд. «Художественная литература», 1937. С.</title>
+                <title type="bibl">Толстой Л. Н. Нагорная проповедь // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 25. М.: Гос. изд. «Художественная литература», 1937. С. 530–531.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -30,7 +54,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -42,7 +66,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -73,7 +97,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -88,9 +112,10 @@
             <creation>
                 <date when="1885"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#main" target="work_main"/>
@@ -120,7 +145,7 @@
      </choice>
      .
     </head>
-    <p id="9bbed464-d20c-4590-aa39-fbd053c41899" rend="left">
+    <p id="9bbed464-d20c-4590-aa39-fbd053c41899">
      <choice>
       <reg>
        Проповедь
@@ -139,7 +164,7 @@
      </choice>
      народу Господа нашего Іисуса Христа.
     </p>
-    <p id="e03cfa3c-58e4-4d31-9fdc-3979e6a567de" rend="left">
+    <p id="e03cfa3c-58e4-4d31-9fdc-3979e6a567de">
      <choice>
       <reg>
        Іисус
@@ -204,7 +229,7 @@
      </choice>
      много. Мф. VI, 34.
     </p>
-    <p id="bac823df-e9cc-4420-ae1c-1a9020edd2d7" rend="left">
+    <p id="bac823df-e9cc-4420-ae1c-1a9020edd2d7">
      Вся земная жизнь Господа нашего Іисуса Христа проходила
      <choice>
       <reg>
@@ -244,7 +269,7 @@
       80
      </ref>
      <note index="false" xml:id="note80">
-      <span data-class="paragraph" id="ab725813-0441-4163-9098-bba9af5cfe77" rend="left">
+      <span data-class="paragraph" id="ab725813-0441-4163-9098-bba9af5cfe77">
        <choice>
         <reg>
          Іисус
@@ -284,7 +309,7 @@
          жизнию
         </reg>
         <orig>
-         жизнiю
+         жизнію
         </orig>
        </choice>
        , и
@@ -293,7 +318,7 @@
          смертию
         </reg>
         <orig>
-         смертiю
+         смертію
         </orig>
        </choice>
        , и
@@ -302,7 +327,7 @@
          воскресением
         </reg>
         <orig>
-         воскресенiемъ
+         воскресеніемъ
         </orig>
        </choice>
        <choice>
@@ -364,7 +389,7 @@
          наставлениями
         </reg>
         <orig>
-         наставленiями
+         наставленіями
         </orig>
        </choice>
        <choice>
@@ -406,7 +431,7 @@
          утешениями
         </reg>
         <orig>
-         утѣшенiями
+         утѣшеніями
         </orig>
        </choice>
        , когда разлучался
@@ -442,7 +467,7 @@
       81
      </ref>
      <note index="false" xml:id="note81">
-      <span data-class="paragraph" id="ab30f9c9-3655-4a8f-9497-8a442d503f74" rend="left">
+      <span data-class="paragraph" id="ab30f9c9-3655-4a8f-9497-8a442d503f74">
        <hi rend="italic">
         Зач:
        </hi>
@@ -460,7 +485,7 @@
          смертию
         </reg>
         <orig>
-         смертiю
+         смертію
         </orig>
        </choice>
        и
@@ -469,7 +494,7 @@
          воскресением
         </reg>
         <orig>
-         воскресенiемъ
+         воскресеніемъ
         </orig>
        </choice>
        ,
@@ -539,7 +564,7 @@
          сомнения
         </reg>
         <orig>
-         сомнѣнiя
+         сомнѣнія
         </orig>
        </choice>
        <choice>
@@ -691,7 +716,7 @@
          всякий
         </reg>
         <orig>
-         всякiй
+         всякій
         </orig>
        </choice>
        <choice>
@@ -716,7 +741,7 @@
          спасения
         </reg>
         <orig>
-         спасенiя
+         спасенія
         </orig>
        </choice>
        .
@@ -864,7 +889,7 @@
        селениях
       </reg>
       <orig>
-       селенiяхъ
+       селеніяхъ
       </orig>
      </choice>
      .
@@ -898,7 +923,7 @@
        учению
       </reg>
       <orig>
-       ученiю
+       ученію
       </orig>
      </choice>
      (I. VII, 15). И дивились
@@ -907,7 +932,7 @@
        учению
       </reg>
       <orig>
-       ученiю
+       ученію
       </orig>
      </choice>
      Его, ибо
@@ -949,7 +974,7 @@
        имеющий
       </reg>
       <orig>
-       имѣющiй
+       имѣющій
       </orig>
      </choice>
      , а не
@@ -1065,7 +1090,7 @@
      </choice>
      . (I. VII, 2.)
     </p>
-    <p id="1cfef41f-0856-4ebc-948c-97c04d3335da" rend="left">
+    <p id="1cfef41f-0856-4ebc-948c-97c04d3335da">
      Чему же
      <choice>
       <reg>
@@ -1089,7 +1114,7 @@
        учение
       </reg>
       <orig>
-       ученiе
+       ученіе
       </orig>
      </choice>
      Его для
@@ -1159,7 +1184,7 @@
        сомнения
       </reg>
       <orig>
-       сомнѣнiя
+       сомнѣнія
       </orig>
      </choice>
      <choice>
@@ -1259,7 +1284,7 @@
        учение
       </reg>
       <orig>
-       ученiе
+       ученіе
       </orig>
      </choice>
      , которому дивился
@@ -1301,7 +1326,7 @@
        Евангелие
       </reg>
       <orig>
-       Евангелiе
+       Евангеліе
       </orig>
      </choice>
      <choice>
@@ -1309,7 +1334,7 @@
        Царствия
       </reg>
       <orig>
-       Царствiя
+       Царствія
       </orig>
      </choice>
      <choice>
@@ -1371,7 +1396,7 @@
        учение
       </reg>
       <orig>
-       ученiе
+       ученіе
       </orig>
      </choice>
      , а мы только
@@ -1406,7 +1431,7 @@
        толкование
       </reg>
       <orig>
-       толкованiе
+       толкованіе
       </orig>
      </choice>
      <choice>
@@ -1614,7 +1639,7 @@
        учении
       </reg>
       <orig>
-       ученiи
+       ученіи
       </orig>
      </choice>
      <choice>
@@ -1700,7 +1725,7 @@
        учения
       </reg>
       <orig>
-       ученiя
+       ученія
       </orig>
      </choice>
      , что было непонятно, много
@@ -1735,7 +1760,7 @@
        исцеления
       </reg>
       <orig>
-       исцѣленiя
+       исцѣленія
       </orig>
      </choice>
      <choice>
@@ -1752,7 +1777,7 @@
        воскрешения
       </reg>
       <orig>
-       воскрешенiя
+       воскрешенія
       </orig>
      </choice>
      Лазаря,
@@ -1770,7 +1795,7 @@
        послания
       </reg>
       <orig>
-       посланiя
+       посланія
       </orig>
      </choice>
      <choice>
@@ -1821,7 +1846,7 @@
       82
      </ref>
      <note index="false" xml:id="note82">
-      <span data-class="paragraph" id="609d8957-44f7-4d2f-8627-4340204fddfa" rend="left">
+      <span data-class="paragraph" id="609d8957-44f7-4d2f-8627-4340204fddfa">
        <choice>
         <reg>
          Добрые
@@ -1936,7 +1961,7 @@
          спасения
         </reg>
         <orig>
-         спасенiя
+         спасенія
         </orig>
        </choice>
        . Трудно спасти душу,
@@ -2128,7 +2153,7 @@
        Божий
       </reg>
       <orig>
-       Божiй
+       Божій
       </orig>
      </choice>
      <choice>
@@ -2178,7 +2203,7 @@
        труждающиеся
       </reg>
       <orig>
-       труждающiеся
+       труждающіеся
       </orig>
      </choice>
      и обремененные, и Я успокою
@@ -2463,9 +2488,7 @@
      </choice>
      же они?.
     </p>
-    <p id="ee552b58-b715-4c72-9acb-fc0e4d6e8e1d" rend="subtitle centerline">
-     ————
-    </p>
+    <metamark function="line"/>
    </div>
   </body>
  </text>

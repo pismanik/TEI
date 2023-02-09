@@ -9,17 +9,41 @@
                 <title type="main">Письмо П. П. Гнедичу от 7 марта 1901 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо П. П. Гнедичу, 7 марта 1901 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 73. М.: Гос. изд. «Художественная литература», 1954. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 73</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">47-47</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -98,7 +127,7 @@
      </name>
      .1901 г. Марта 7. Москва.
     </opener>
-    <p id="3f26dcd8-b6e8-477e-8d6b-ce8da2c34c65" rend="left">
+    <p id="3f26dcd8-b6e8-477e-8d6b-ce8da2c34c65">
      Очень вам благодарен, любезный
      <name placement="text" ref="3432" type="person">
       Петр Петрович
@@ -129,7 +158,7 @@
      </choice>
      .
     </p>
-    <p id="9a6f5a23-4b66-45ff-9db5-37e11a4d44bd" rend="left">
+    <p id="9a6f5a23-4b66-45ff-9db5-37e11a4d44bd">
      Желаю вам полезной и приятной поездки.
     </p>
     <p id="cdca6473-b537-4315-803e-70e265a483fc" rend="right">
@@ -138,7 +167,7 @@
      </name>
      .
     </p>
-    <p id="ebd3e868-96b7-4229-82cd-9bcd210a71a7" rend="left">
+    <p id="ebd3e868-96b7-4229-82cd-9bcd210a71a7">
      7 марта 1901.
     </p>
     <noteGrp type="comments">
@@ -148,7 +177,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="4b75e3b0-a583-40fc-8a86-f606cca4bc11" rend="petit left">
+      <p id="4b75e3b0-a583-40fc-8a86-f606cca4bc11" rend="petit">
        О
        <name placement="comments" ref="3432" type="person">
         Петре Петровиче Гнедиче
@@ -157,7 +186,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="5aa3c766-f04f-41c6-8ef9-da752b4d29e1" rend="petit left">
+      <p id="5aa3c766-f04f-41c6-8ef9-da752b4d29e1" rend="petit">
        Уезжая в Англию, Гнедич предлагал передать от Толстого письмо и посылку В. Г. Черткову.
       </p>
      </note>

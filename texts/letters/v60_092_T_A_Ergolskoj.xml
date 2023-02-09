@@ -9,17 +9,41 @@
                 <title type="main">Письмо Т. А. Ергольской от 17 октября 1857 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Т. А. Ергольской, 17 октября 1857 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 60. М.: Гос. изд. «Художественная литература», 1949. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 60</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">227-228</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -101,10 +130,10 @@
     <p id="ec777cb7-1132-49ec-9469-91534484d7e1" rend="right">
      17 Octobre.
     </p>
-    <p id="b2f7b4d9-66f9-4aa6-a3fb-b1aa3500ebc8" rend="Obrashenie left">
+    <p id="b2f7b4d9-66f9-4aa6-a3fb-b1aa3500ebc8" rend="Obrashenie">
      Chère tante.
     </p>
-    <p id="fd67a5b1-c212-416c-a29e-ec3feff01447" rend="left">
+    <p id="fd67a5b1-c212-416c-a29e-ec3feff01447">
      Nous avons couché à Serpouchoff. Marie comme elle dit, s’est très bien reposé, et ce soir à 8 heures nous sommes arrivés à Moscou. Nous nous sommes arrêtés sur la place du Théâtre
      <ref target="#note1">
       1
@@ -150,7 +179,7 @@
     <lb/>
     <noteGrp type="comments">
      <note index="false" type="comments">
-      <p id="d6b841d3-359f-4cd4-899d-768541e5d0af" rend="Obrashenie petit left">
+      <p id="d6b841d3-359f-4cd4-899d-768541e5d0af" rend="Obrashenie petit">
        <pb n="228"/>
        <hi style="npdelimiter">
         Дорогая
@@ -159,7 +188,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="e941ea35-547a-41ea-ac25-6c9cfd961238" rend="petit left">
+      <p id="e941ea35-547a-41ea-ac25-6c9cfd961238" rend="petit">
        Мы ночевали в Серпухове. Машенька, как она говорит, хорошо отдохнула, и нынче в 8 часов вечера мы приехали в Москву. Остановились у Челышова на Театральной площади.
        <ref target="#note5">
         5

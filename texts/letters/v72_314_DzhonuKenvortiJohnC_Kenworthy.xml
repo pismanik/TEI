@@ -9,17 +9,41 @@
                 <title type="main">Письмо Джону Кенворти (John C. Kenworthy) от 17 июня 1900 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Джону Кенворти (John C. Kenworthy), 17 июня 1900 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">385-387</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -94,10 +123,10 @@
     <opener index="false">
      * 314. Джону Кенворти (John С. Kenworthy).1900 г. Июня 17/29. Я. П.
     </opener>
-    <p id="6cc9226c-4220-48b1-a093-03dd621443d8" rend="Obrashenie left">
+    <p id="6cc9226c-4220-48b1-a093-03dd621443d8" rend="Obrashenie">
      My dear Kenworthy,
     </p>
-    <p id="d3a38b08-3232-4256-b1f5-8675a8d6579a" rend="left">
+    <p id="d3a38b08-3232-4256-b1f5-8675a8d6579a">
      Olga Konstantinovna
      <hi>
       1
@@ -116,10 +145,10 @@
       2
      </hi>
     </p>
-    <p id="42665940-d1b6-454a-96b2-2c619d57f347" rend="left">
+    <p id="42665940-d1b6-454a-96b2-2c619d57f347">
      It follows that as far as I am concerned you have no authority to act in this matter without the full consent of Tchertkoff. I hope you will come to a complete understanding with him.
     </p>
-    <p id="7cefabe1-96e9-4351-8df9-041c73e569c2" rend="left">
+    <p id="7cefabe1-96e9-4351-8df9-041c73e569c2">
      I am repeating the content of this letter to Tchertkoff. I have written a little preface to Anatomy of Misery,
      <hi>
       3
@@ -132,14 +161,14 @@
     <p id="dff4bdc9-ea3e-48fb-9032-dc14423d6afe" rend="right">
      Leo Tolstoy.
     </p>
-    <p id="13bd2177-b1fa-4306-8f6e-4ea942d579dc" rend="left">
+    <p id="13bd2177-b1fa-4306-8f6e-4ea942d579dc">
      29 June 1900.
     </p>
     <lb/>
     <p id="3ffa9257-e951-4f92-ac25-7c387854810a" rend="Obrashenie petit">
      Дорогой Кенворти,
     </p>
-    <p id="ecb857d9-1435-46a2-9bf0-0174a8a67144" rend="petit left">
+    <p id="ecb857d9-1435-46a2-9bf0-0174a8a67144" rend="petit">
      <name placement="text" ref="13838" type="person">
       Ольга Константиновна
      </name>
@@ -171,10 +200,10 @@
       2
      </hi>
     </p>
-    <p id="4973caf4-a70e-45db-95f1-2938230c74f4" rend="petit left">
+    <p id="4973caf4-a70e-45db-95f1-2938230c74f4" rend="petit">
      Отсюда следует, что, насколько дело касается меня, вы не уполномочены действовать в данном случае без полного согласия Черткова. Надеюсь, что вы придете к полному соглашению с ним.
     </p>
-    <p id="bfb181e3-c4ba-4a78-8882-3bab563fc2e0" rend="petit left">
+    <p id="bfb181e3-c4ba-4a78-8882-3bab563fc2e0" rend="petit">
      Содержание этого письма я сообщаю Черткову. Я написал небольшое предисловие к «Anatomy of Misery»,
      <hi>
       3
@@ -190,22 +219,22 @@
      </name>
      .
     </p>
-    <p id="70023bd9-7007-4ab8-bb76-a226ba3277e7" rend="petit left">
+    <p id="70023bd9-7007-4ab8-bb76-a226ba3277e7" rend="petit">
      29 Июня 1900.
     </p>
     <noteGrp type="comments">
      <note index="false" type="comments">
       <p id="859aae46-eb0d-46c1-a2bc-797309d19ea1" rend="Textpetit_otstup left">
-       Печатается по машинописной копии, хранящейся в AЧ. Местонахождение подлинника неизвестно. Дата Толстого, очевидно, нового стиля. В России публикуется впервые, о публикации за границей сведений не имеется.
+       Печатается по машинописной копии, хранящейся в АЧ. Местонахождение подлинника неизвестно. Дата Толстого, очевидно, нового стиля. В России публикуется впервые, о публикации за границей сведений не имеется.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="2e762c3f-249e-499a-99b9-406de6d365db" rend="petit left">
+      <p id="2e762c3f-249e-499a-99b9-406de6d365db" rend="petit">
        Джон Кенворти (John Coleman Kenworthy) — писатель, лектор, имевший круг своих последователей, основатель идейного издательства «The Brotherhood Publishing Company» и земледельческой колонии в Перлей, Эссекс, Англия. Разделял взгляды Толстого. См. письма 1894 г., т. 67. Кенворти виделся с Толстым зимой 1896 г. и в мае 1900 г. О последнем посещении см. в книге Кенворти: «Tolstoy, his Life and Works» [«Жизнь и труды Толстого»], The Walter Scott Publishing C° Ltd, London and Newcastle, 1902, и в письме № 289.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="6d7c9e36-d1fb-46b9-8c21-1cbf2fb3e3b8" rend="petit left">
+      <p id="6d7c9e36-d1fb-46b9-8c21-1cbf2fb3e3b8" rend="petit">
        Посещение Кенворти (май 1900 г.) оставило в Толстом хорошее впечатление. Он не заметил начавшегося и резко прогрессировавшего душевного расстройства Кенворти с проявлением мании величия и болезненной подозрительности. Психическая неуравновешенность сказалась на его отношении к В. Г. Черткову. В письме от 4 июля н. ст. 1900 г. Кенверти обвинял Черткова в небрежном отношении к его, Кенворти, произведениям, выражавшемся в нежелании переиздавать их, и в неумелом ведении издательского дела. В том же письме он сообщал о своем намерении начать самостоятельное издание избранных писаний Толстого.
       </p>
      </note>

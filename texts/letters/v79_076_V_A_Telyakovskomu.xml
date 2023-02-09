@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. А. Теляковскому от 16 февраля 1909 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. А. Теляковскому, 16 февраля 1909 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 79. М.: Гос. изд. «Художественная литература», 1955. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 79</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">74-75</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -97,13 +126,13 @@
     <p id="b9d560ed-9e55-4770-95ee-fd5ca5ef5af5" rend="right">
      16 февр. 1909.
     </p>
-    <p id="505003f3-5faf-44ec-8f5a-435f2143056f" rend="Obrashenie left">
+    <p id="505003f3-5faf-44ec-8f5a-435f2143056f" rend="Obrashenie">
      <name placement="text" ref="13617" type="person">
       Владимир Аркадьевич
      </name>
      !
     </p>
-    <p id="e21eb662-86e4-468d-8ebb-4d849caa042a" rend="left">
+    <p id="e21eb662-86e4-468d-8ebb-4d849caa042a">
      Наш общий с вами друг Вл. Гр. Чертков
      <ref target="#note1">
       1
@@ -149,7 +178,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="88f8357c-03ef-430e-9fdf-e2f7734520f6" rend="petit left">
+      <p id="88f8357c-03ef-430e-9fdf-e2f7734520f6" rend="petit">
        <name placement="comments" ref="13617" type="person">
         Владимир Аркадьевич Теляковский
        </name>

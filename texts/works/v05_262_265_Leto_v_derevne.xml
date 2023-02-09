@@ -4,24 +4,48 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v05_262_265_Leto_v_derevne">
-                    Лето в деревне. Tolstoy Digital
+                    Лето в деревне. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Лето в деревне</title>
-                <title type="bibl">Толстой Л. Н. Лето в деревне // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 5. М.: Гос. изд. «Художественная литература», 1935. С.</title>
+                <title type="bibl">Толстой Л. Н. Лето в деревне // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 5. М.: Гос. изд. «Художественная литература», 1935. С. 262–265.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -30,7 +54,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -42,7 +66,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -73,7 +97,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -88,9 +112,10 @@
             <creation>
                 <date when="1858"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#main" target="work_main"/>
@@ -175,7 +200,7 @@
      <head n="level2" type="chapter">
       Глава I.
      </head>
-     <p id="acc5aca8-2dce-40d5-ba2f-a7cc11b55b60" rend="left">
+     <p id="acc5aca8-2dce-40d5-ba2f-a7cc11b55b60">
       Много
       <choice>
        <reg>
@@ -199,7 +224,7 @@
         освобождении
        </reg>
        <orig>
-        освобожденiи
+        освобожденіи
        </orig>
       </choice>
       <choice>
@@ -389,7 +414,7 @@
         Россию
        </reg>
        <orig>
-        Россiю
+        Россію
        </orig>
       </choice>
       и мое
@@ -398,7 +423,7 @@
         отношение
        </reg>
        <orig>
-        отношенiе
+        отношеніе
        </orig>
       </choice>
       <choice>
@@ -442,7 +467,7 @@
         общие
        </reg>
        <orig>
-        общiе
+        общіе
        </orig>
       </choice>
       законы, необходимые для моего отечества, но я не буду до
@@ -451,12 +476,12 @@
         пристрастия
        </reg>
        <orig>
-        пристрастiя
+        пристрастія
        </orig>
       </choice>
       любить его.
      </p>
-     <p id="b3b9eb36-4d74-4641-83f6-282d3e517013" rend="left">
+     <p id="b3b9eb36-4d74-4641-83f6-282d3e517013">
       Хорошо ли, дурно ли, но я не знаю
       <choice>
        <reg>
@@ -508,7 +533,7 @@
        </span>
       </note>
      </p>
-     <p id="1a5be3c4-d2a2-4f1c-909e-14bdd56bdf42" rend="left">
+     <p id="1a5be3c4-d2a2-4f1c-909e-14bdd56bdf42">
       Я
       <choice>
        <reg>
@@ -618,7 +643,7 @@
         отношениях
        </reg>
        <orig>
-        отношенiяхъ
+        отношеніяхъ
        </orig>
       </choice>
       <choice>
@@ -738,7 +763,7 @@
         отношений
        </reg>
        <orig>
-        отношенiй
+        отношеній
        </orig>
       </choice>
       , установившихся между мной и крестьянами, у меня
@@ -794,7 +819,7 @@
       </choice>
       лицу. —
      </p>
-     <p id="a5ee825c-b9d4-43a4-ab2c-537c45d50b54" rend="left">
+     <p id="a5ee825c-b9d4-43a4-ab2c-537c45d50b54">
       Все, что я
       <choice>
        <reg>
@@ -819,7 +844,7 @@
         продолжении
        </reg>
        <orig>
-        продолженiи
+        продолженіи
        </orig>
       </choice>
       <choice>
@@ -897,7 +922,7 @@
         продолжении
        </reg>
        <orig>
-        продолженiи
+        продолженіи
        </orig>
       </choice>
       12
@@ -941,7 +966,7 @@
        </span>
       </note>
      </p>
-     <p id="4784e3f7-d6a2-4988-aa36-441d05cd2323" rend="left">
+     <p id="4784e3f7-d6a2-4988-aa36-441d05cd2323">
       <ref target="#note265">
        265
       </ref>
@@ -961,7 +986,7 @@
           описания
          </reg>
          <orig>
-          описанiя
+          описанія
          </orig>
         </choice>
         считаю
@@ -982,13 +1007,7 @@
         </choice>
        </span>
       </note>
-      <hi rend="sup">
-       3
-      </hi>
-      /
-      <hi rend="sub">
-       4
-      </hi>
+      <num type="fraction" value="3/4">3/4</num>
       <choice>
        <reg>
         десятин
@@ -998,13 +1017,7 @@
        </orig>
       </choice>
       пахоти,
-      <hi rend="sup">
-       1
-      </hi>
-      /
-      <hi rend="sub">
-       2
-      </hi>
+      <num type="fraction" value="1/2">1/2</num>
       десятины усадьбы и десятины луга.
       <choice>
        <reg>
@@ -1088,7 +1101,7 @@
        </span>
       </note>
      </p>
-     <p id="374c912a-9839-4174-af64-3eba452d7747" rend="left">
+     <p id="374c912a-9839-4174-af64-3eba452d7747">
       <choice>
        <reg>
         В
@@ -1162,7 +1175,7 @@
         пользовании
        </reg>
        <orig>
-        пользованiи
+        пользованіи
        </orig>
       </choice>
       10
@@ -1181,20 +1194,14 @@
         .
        </span>
       </note>
-      <hi rend="sup">
-       1
-      </hi>
-      /
-      <hi rend="sub">
-       4
-      </hi>
+      <num type="fraction" value="1/4">1/4</num>
       десятины усадьбы и десятины луга. — Барщинская земля предполагалась обрабатываться вольными рабочими. Сараи для
       <choice>
        <reg>
         помещения
        </reg>
        <orig>
-        помѣщенiя
+        помѣщенія
        </orig>
       </choice>
       <choice>
@@ -1202,7 +1209,7 @@
         орудий
        </reg>
        <orig>
-        орудiй
+        орудій
        </orig>
       </choice>
       ,
@@ -1211,7 +1218,7 @@
         орудия
        </reg>
        <orig>
-        орудiя
+        орудія
        </orig>
       </choice>
       , лошади уже были готовы.
@@ -1245,7 +1252,7 @@
         бывший
        </reg>
        <orig>
-        бывшiй
+        бывшій
        </orig>
       </choice>
       мой вольноотпущенный
@@ -1259,10 +1266,8 @@
       </choice>
       . —
      </p>
-     <p id="b68e0e15-1bcc-47f7-aab7-cb3fd91dd968" rend="centerline">
-      _________
-     </p>
-     <p id="722bcc95-0801-4994-83cc-401d86fb4532" rend="left">
+    <metamark function="line"/>
+     <p id="722bcc95-0801-4994-83cc-401d86fb4532">
       3-го
       <choice>
        <reg>
@@ -1320,7 +1325,7 @@
         мечтаний
        </reg>
        <orig>
-        мечтанiй
+        мечтаній
        </orig>
       </choice>
       , особенно при
@@ -1359,7 +1364,7 @@
         изучение
        </reg>
        <orig>
-        изученiе
+        изученіе
        </orig>
       </choice>
       . —
@@ -1400,7 +1405,7 @@
       </choice>
       !»
      </p>
-     <p id="d3274bec-23c1-4e0d-85a5-b198aa021d5b" rend="left">
+     <p id="d3274bec-23c1-4e0d-85a5-b198aa021d5b">
       Первое лицо
       <choice>
        <reg>
@@ -1461,7 +1466,7 @@
         присутствие
        </reg>
        <orig>
-        присутствiе
+        присутствіе
        </orig>
       </choice>
       <choice>
@@ -1477,12 +1482,12 @@
         неудовольствия
        </reg>
        <orig>
-        неудовольствiя
+        неудовольствія
        </orig>
       </choice>
       ничего ей не могло доставить.
      </p>
-     <p id="94aa598b-5cc7-4a9b-a228-3c8187ac57e9" rend="left">
+     <p id="94aa598b-5cc7-4a9b-a228-3c8187ac57e9">
       — Ну что,
       <name placement="text" ref="101" type="person">
        Агафья Михайловна
@@ -1507,7 +1512,7 @@
       </choice>
       ?
      </p>
-     <p id="541b89c4-1de3-47c1-824a-8a2e8a61fe73" rend="left">
+     <p id="541b89c4-1de3-47c1-824a-8a2e8a61fe73">
       — Да
       <choice>
        <reg>
@@ -1528,7 +1533,7 @@
       </choice>
       говорю. —
      </p>
-     <p id="175f94d0-0b6f-4623-8b9a-0b3d8a8e66e1" rend="left">
+     <p id="175f94d0-0b6f-4623-8b9a-0b3d8a8e66e1">
       — А
       <choice>
        <reg>
@@ -1540,7 +1545,7 @@
       </choice>
       ?
      </p>
-     <p id="7ddfae5e-73d6-48cc-b431-e8dcf6e75865" rend="left">
+     <p id="7ddfae5e-73d6-48cc-b431-e8dcf6e75865">
       —
       <choice>
        <reg>
@@ -1570,10 +1575,10 @@
       </choice>
       она сердито.
      </p>
-     <p id="b7d4a006-d866-4b56-96fc-8fad638ef958" rend="left">
+     <p id="b7d4a006-d866-4b56-96fc-8fad638ef958">
       — А чай есть?
      </p>
-     <p id="79500003-fce7-4ba5-bd8c-10088960350f" rend="left">
+     <p id="79500003-fce7-4ba5-bd8c-10088960350f">
       — Откуда жь ему быть, вашего не беру. — Прикажете чаю или покушать?
       <choice>
        <reg>
@@ -1594,7 +1599,7 @@
       </choice>
       .
      </p>
-     <p id="8abda7c3-ab87-4583-8514-5d2ed310ccdf" rend="left">
+     <p id="8abda7c3-ab87-4583-8514-5d2ed310ccdf">
       <pb n="264"/>
       — Ну, а хозяйство
       <choice>
@@ -1607,14 +1612,14 @@
       </choice>
       ?
      </p>
-     <p id="70f501b0-de2b-46dc-8a93-105a14a46859" rend="left">
+     <p id="70f501b0-de2b-46dc-8a93-105a14a46859">
       — Да
       <choice>
        <reg>
         Василий
        </reg>
        <orig>
-        Василiй
+        Василій
        </orig>
       </choice>
       старается, кажется, все
@@ -1680,10 +1685,10 @@
       </choice>
       .
      </p>
-     <p id="c904146f-bcae-40c5-b148-fe803e42980e" rend="left">
+     <p id="c904146f-bcae-40c5-b148-fe803e42980e">
       — Ну, а работники есть?
      </p>
-     <p id="d2431c53-0323-4bb1-8062-69aff26d0ff0" rend="left">
+     <p id="d2431c53-0323-4bb1-8062-69aff26d0ff0">
       — Есть, кажется, да все жалуются — солдаты, противный
       <choice>
        <reg>
@@ -1754,7 +1759,7 @@
       </choice>
       сладить. — Она вздохнула. — Намедни лошадь что то...
      </p>
-     <p id="c3ca3505-f332-4d06-bdf5-606ebc0177ea" rend="left">
+     <p id="c3ca3505-f332-4d06-bdf5-606ebc0177ea">
       Она остановилась. Я
       <choice>
        <reg>
@@ -1775,10 +1780,10 @@
       </choice>
       .
      </p>
-     <p id="847e400b-2ad3-4200-aeb1-1a0aba0dec9a" rend="left">
+     <p id="847e400b-2ad3-4200-aeb1-1a0aba0dec9a">
       — Ну, это все ничего; а мужики, что? —
      </p>
-     <p id="98387a2d-2ccd-425d-b592-71f715f80f10" rend="left">
+     <p id="98387a2d-2ccd-425d-b592-71f715f80f10">
       — Да что, батюшка, мужички Богу за
       <choice>
        <reg>
@@ -1843,10 +1848,10 @@
       </choice>
       небесный. —
      </p>
-     <p id="e00755a9-7525-42dd-a4ee-151e7bc1787b" rend="left">
+     <p id="e00755a9-7525-42dd-a4ee-151e7bc1787b">
       — Ну, понесла!
      </p>
-     <p id="3e606a60-dfe6-4e16-b464-6df64a382b87" rend="left">
+     <p id="3e606a60-dfe6-4e16-b464-6df64a382b87">
       Я притворился, что
       <choice>
        <reg>
@@ -1862,7 +1867,7 @@
         неприятно
        </reg>
        <orig>
-        непрiятно
+        непріятно
        </orig>
       </choice>
       ; а
@@ -1902,7 +1907,7 @@
       </choice>
       . —
      </p>
-     <p id="f123290f-6be0-4aaf-a3af-a2f788c539ac" rend="left">
+     <p id="f123290f-6be0-4aaf-a3af-a2f788c539ac">
       — Кто
       <choice>
        <reg>
@@ -1927,7 +1932,7 @@
         всходившие
        </reg>
        <orig>
-        всходившiе
+        всходившіе
        </orig>
       </choice>
       по
@@ -1941,7 +1946,7 @@
       </choice>
       .
      </p>
-     <p id="ed06ee3e-9635-4179-9260-69962fcba644" rend="left">
+     <p id="ed06ee3e-9635-4179-9260-69962fcba644">
       —
       <choice>
        <reg>
@@ -1950,12 +1955,12 @@
         </name>
        </reg>
        <orig>
-        Василiй
+        Василій
        </orig>
       </choice>
       .
      </p>
-     <p id="cb2ffe88-4fd5-4b8b-b1d0-0c12cc84f6e1" rend="left">
+     <p id="cb2ffe88-4fd5-4b8b-b1d0-0c12cc84f6e1">
       <choice>
        <reg>
         Бурмистр
@@ -1996,7 +2001,7 @@
         забирающий
        </reg>
        <orig>
-        забирающiй
+        забирающій
        </orig>
       </choice>
       начальническую полноту, курчавый и красивый,
@@ -2014,7 +2019,7 @@
         расстояние
        </reg>
        <orig>
-        разстоянiе
+        разстояніе
        </orig>
       </choice>
       <choice>
@@ -2058,7 +2063,7 @@
         </name>
        </reg>
        <orig>
-        Василiй
+        Василій
        </orig>
       </choice>
       <choice>
@@ -2075,7 +2080,7 @@
         старший
        </reg>
        <orig>
-        старшiй
+        старшій
        </orig>
       </choice>
       <choice>
@@ -2152,13 +2157,13 @@
        </span>
       </note>
      </p>
-     <p id="0263295c-44e5-49d5-802d-90048052fa2c" rend="left">
+     <p id="0263295c-44e5-49d5-802d-90048052fa2c">
       <choice>
        <reg>
         Вследствие
        </reg>
        <orig>
-        Вслѣдствiе
+        Вслѣдствіе
        </orig>
       </choice>
       <choice>
@@ -2174,7 +2179,7 @@
         убеждения
        </reg>
        <orig>
-        убѣжденiя
+        убѣжденія
        </orig>
       </choice>
       ,
@@ -2185,7 +2190,7 @@
         </name>
        </reg>
        <orig>
-        Василiй
+        Василій
        </orig>
       </choice>
       всегда страстно
@@ -2280,7 +2285,7 @@
         неприятно
        </reg>
        <orig>
-        непрiятно
+        непріятно
        </orig>
       </choice>
       ,
@@ -2405,7 +2410,7 @@
       </choice>
       .
      </p>
-     <p id="175b78af-5c51-4189-b37c-087b39fb64f6" rend="left">
+     <p id="175b78af-5c51-4189-b37c-087b39fb64f6">
       — Ничего
       <choice>
        <reg>
@@ -2425,7 +2430,7 @@
       </choice>
       ?
      </p>
-     <p id="34acda16-4062-4e57-962c-2ed4db083abf" rend="left">
+     <p id="34acda16-4062-4e57-962c-2ed4db083abf">
       —
       <choice>
        <reg>
@@ -2525,7 +2530,7 @@
       </choice>
       брать.
      </p>
-     <p id="28c9f6fe-6487-4bef-b9f3-79f260c06fc6" rend="left">
+     <p id="28c9f6fe-6487-4bef-b9f3-79f260c06fc6">
       — По
       <choice>
        <reg>
@@ -2545,7 +2550,7 @@
       </choice>
       ?
      </p>
-     <p id="4e7c6f89-31a0-42ef-bc3c-eff717da008a" rend="left">
+     <p id="4e7c6f89-31a0-42ef-bc3c-eff717da008a">
       — По гривеннику.
       <choice>
        <reg>
@@ -2570,7 +2575,7 @@
         большие
        </reg>
        <orig>
-        большiе
+        большіе
        </orig>
       </choice>
       <choice>
@@ -2583,7 +2588,7 @@
       </choice>
       .
      </p>
-     <p id="79382fc9-9ddd-4555-89e4-a8553ad2a82a" rend="left">
+     <p id="79382fc9-9ddd-4555-89e4-a8553ad2a82a">
       —
       <choice>
        <reg>
@@ -2611,7 +2616,7 @@
       </choice>
       .
      </p>
-     <p id="eabbdde3-e645-481c-9074-6468e33fca9c" rend="left">
+     <p id="eabbdde3-e645-481c-9074-6468e33fca9c">
       — Не
       <choice>
        <reg>
@@ -2649,7 +2654,7 @@
       </choice>
       пустые.
      </p>
-     <p id="d9a12bc4-9416-454f-abda-5b062f488005" rend="left">
+     <p id="d9a12bc4-9416-454f-abda-5b062f488005">
       —
       <choice>
        <reg>
@@ -2670,12 +2675,10 @@
       </choice>
       я посмотрю; сходку вели собрать нынче.
      </p>
-     <p id="0ed18399-832a-4a4b-a4cb-126793246ca1" rend="left">
+     <p id="0ed18399-832a-4a4b-a4cb-126793246ca1">
       — Завтра не прикажете ли? — нынче не соберешь. —
      </p>
-     <p id="0488112e-0a03-4437-b938-ad9e69d292b3" rend="centerline">
-      ————
-     </p>
+    <metamark function="line"/>
     </div>
    </div>
   </body>

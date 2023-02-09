@@ -4,24 +4,48 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v17_359_359_Psihologija_obydennoj_zhizni">
-                    Психология обыденной жизни. Tolstoy Digital
+                    Психология обыденной жизни. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Психология обыденной жизни</title>
-                <title type="bibl">Толстой Л. Н. Психология обыденной жизни // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. Психология обыденной жизни // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С. 359.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -30,7 +54,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -42,7 +66,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -73,7 +97,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -88,9 +112,10 @@
             <creation>
                 <date from="1875" to="1878"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#main" target="work_main"/>
@@ -114,7 +139,7 @@
     <p id="a8c4f223-5131-40ed-b2d2-a1d9b151b7f5" rend="center">
      (1875—1876 гг.)
     </p>
-    <p id="6cf8b941-474b-4de7-aed6-c8339e411f53" rend="left">
+    <p id="6cf8b941-474b-4de7-aed6-c8339e411f53">
      <choice>
       <reg>
        Отдел
@@ -129,7 +154,7 @@
        Суеверия
       </reg>
       <orig>
-       Суевѣрiя
+       Суевѣрія
       </orig>
      </choice>
      <choice original_editorial_correction="телесног[о]">
@@ -145,12 +170,12 @@
        наказания
       </reg>
       <orig>
-       наказанiя
+       наказанія
       </orig>
      </choice>
      . Литература.
     </p>
-    <p id="8d7c2cf8-47d6-4c6a-bee2-c05389790a9f" rend="left">
+    <p id="8d7c2cf8-47d6-4c6a-bee2-c05389790a9f">
      <choice>
       <reg>
        Отдел
@@ -173,12 +198,12 @@
        счастие
       </reg>
       <orig>
-       счастiе
+       счастіе
       </orig>
      </choice>
      мужа, жены — любить.
     </p>
-    <p id="aded5f46-ebe0-4ad6-b097-5d09e3d605e5" rend="left">
+    <p id="aded5f46-ebe0-4ad6-b097-5d09e3d605e5">
      <choice>
       <reg>
        Отдел
@@ -193,7 +218,7 @@
        различие
       </reg>
       <orig>
-       различiе
+       различіе
       </orig>
      </choice>
      <choice original_editorial_correction="последоват[ельно]">
@@ -205,7 +230,7 @@
       </corr>
      </choice>
     </p>
-    <p id="30b5e258-475e-4649-a053-142a462b98af" rend="left">
+    <p id="30b5e258-475e-4649-a053-142a462b98af">
      <choice original_editorial_correction="Отде[л]">
       <sic>
        <choice>
@@ -234,12 +259,12 @@
        Воспитание
       </reg>
       <orig>
-       Воспитанiе
+       Воспитаніе
       </orig>
      </choice>
      — любовь любовью.
     </p>
-    <p id="0af71d09-fa51-419d-b47b-d4d8f0b33fdc" rend="left">
+    <p id="0af71d09-fa51-419d-b47b-d4d8f0b33fdc">
      <choice original_editorial_correction="От[дел]">
       <sic>
        От
@@ -260,9 +285,9 @@
       554
      </ref>
      <note index="false" xml:id="note554">
-      <span data-class="paragraph" id="93c05a39-8cca-45cf-b3c1-b49de7e6f3d8" rend="left">
+      <span data-class="paragraph" id="93c05a39-8cca-45cf-b3c1-b49de7e6f3d8">
        <hi rend="italic">
-        В подлиннике nо ошибке:
+        В подлиннике no ошибке:
        </hi>
        IV
       </span>
@@ -290,7 +315,7 @@
        физиологическия
       </reg>
       <orig>
-       физiологическiя
+       физіологическія
       </orig>
      </choice>
      особенности,
@@ -383,13 +408,13 @@
      </choice>
      двигатель. —
     </p>
-    <p id="265ad177-8523-49b0-a713-6468033e99c9" rend="left">
+    <p id="265ad177-8523-49b0-a713-6468033e99c9">
      <choice>
       <reg>
        Психология
       </reg>
       <orig>
-       Психологiя
+       Психологія
       </orig>
      </choice>
      основана на
@@ -398,7 +423,7 @@
        наблюдениях
       </reg>
       <orig>
-       наблюденiяхъ
+       наблюденіяхъ
       </orig>
      </choice>
      <choice>
@@ -444,7 +469,7 @@
        психология
       </reg>
       <orig>
-       психологiя
+       психологія
       </orig>
      </choice>
      — выводы
@@ -477,7 +502,7 @@
        выражений
       </reg>
       <orig>
-       выраженiй
+       выраженій
       </orig>
      </choice>
      <choice>
@@ -498,7 +523,7 @@
      </choice>
      .
     </p>
-    <p id="cf91b71f-f145-4a17-a336-623a77df750f" rend="left">
+    <p id="cf91b71f-f145-4a17-a336-623a77df750f">
      <choice>
       <reg>
        В
@@ -509,21 +534,19 @@
      </choice>
      1-ой — любовь, воля, доброта и т. д.
     </p>
-    <p id="04315778-d1e8-485f-8017-3225e2c9e35c" rend="left">
+    <p id="04315778-d1e8-485f-8017-3225e2c9e35c">
      Во 2-й — Времена доброты, мысли,
      <choice>
       <reg>
        воспоминания
       </reg>
       <orig>
-       воспоминанiя
+       воспоминанія
       </orig>
      </choice>
      и т. д.
     </p>
-    <p id="c3112eb5-24ff-4767-9bb3-e1192fa6785d" rend="center">
-     ————
-    </p>
+    <metamark function="line"/>
    </div>
   </body>
  </text>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо Е. И. Попову от 5 декабря 1900 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Е. И. Попову, 5 декабря 1900 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">507-509</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -101,7 +131,7 @@
     <p id="31999684-c34c-44cb-8ada-8351cb7d6821" rend="right">
      5 Декабря.
     </p>
-    <p id="67948639-de4e-43ce-98b8-24a8219e7917" rend="left">
+    <p id="67948639-de4e-43ce-98b8-24a8219e7917">
      Дорогой
      <choice original_editorial_correction="Е[вгений]">
       <sic>
@@ -116,7 +146,7 @@
         </reg>
         <orig>
          <name placement="text" ref="11086" type="person">
-          Евгенiй
+          Евгеній
          </name>
         </orig>
        </choice>
@@ -213,7 +243,7 @@
        живший
       </reg>
       <orig>
-       жившiй
+       жившій
       </orig>
      </choice>
      <choice>
@@ -351,7 +381,7 @@
          Божие
         </reg>
         <orig>
-         Божiе
+         Божіе
         </orig>
        </choice>
       </corr>
@@ -411,7 +441,7 @@
        насилием
       </reg>
       <orig>
-       насилiемъ
+       насиліемъ
       </orig>
      </choice>
      , и
@@ -445,7 +475,7 @@
        христианскою
       </reg>
       <orig>
-       христiанскою
+       христіанскою
       </orig>
      </choice>
      жизнью.
@@ -516,7 +546,7 @@
        колонии
       </reg>
       <orig>
-       колонiи
+       колоніи
       </orig>
      </choice>
      ,
@@ -536,17 +566,17 @@
        въ
       </orig>
      </choice>
-     <choice original_editorial_correction="Moск[ве]">
+     <choice original_editorial_correction="Моск[ве]">
       <sic>
-       Moск
+       Моск
       </sic>
       <corr>
        <choice>
         <reg>
-         Moскве
+         Москве
         </reg>
         <orig>
-         Moсквѣ
+         Москвѣ
         </orig>
        </choice>
       </corr>
@@ -588,7 +618,7 @@
          Голландию
         </reg>
         <orig>
-         Голландiю
+         Голландію
         </orig>
        </choice>
       </corr>
@@ -599,7 +629,7 @@
        Англию
       </reg>
       <orig>
-       Англiю
+       Англію
       </orig>
      </choice>
      и домой.
@@ -634,7 +664,7 @@
        кроткий
       </reg>
       <orig>
-       кроткiй
+       кроткій
       </orig>
      </choice>
      , наивный и образованный и
@@ -787,7 +817,7 @@
        администрации
       </reg>
       <orig>
-       администрацiи
+       администраціи
       </orig>
      </choice>
      , но
@@ -813,7 +843,7 @@
        приобрести
       </reg>
       <orig>
-       прiобрѣсти
+       пріобрѣсти
       </orig>
      </choice>
      у себя на
@@ -857,7 +887,7 @@
       рассказ Е. И. Попова (псевдоним: Алькор) «Где родился, там и пригодился — «Маяк», 1917, 6, стр. 32—39.
      </note>
     </p>
-    <p id="de2bcadc-af4e-423e-839e-212e03327b19" rend="left">
+    <p id="de2bcadc-af4e-423e-839e-212e03327b19">
      То, что вы пишете о
      <choice>
       <reg>
@@ -923,7 +953,7 @@
        условиям
       </reg>
       <orig>
-       условiямъ
+       условіямъ
       </orig>
      </choice>
      <choice>
@@ -1127,11 +1157,11 @@
     <noteGrp type="comments">
      <note index="false" type="comments">
       <p id="a528ddc8-073b-435c-b164-222ef2a6e7d9" rend="Textpetit_otstup left">
-       Печатается по копировальной книге № 3, лл. 125—126, хранящейся в ГТМ. Окончание последнего слова и подпись в копировальной книге утрачены, печатаются по машинной копии, хранящейся в AЧ. Автограф утерян. Публикуется впервые.
+       Печатается по копировальной книге № 3, лл. 125—126, хранящейся в ГТМ. Окончание последнего слова и подпись в копировальной книге утрачены, печатаются по машинной копии, хранящейся в АЧ. Автограф утерян. Публикуется впервые.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="a2c88fa8-ee86-401f-94a6-1be30462dc64" rend="petit left">
+      <p id="a2c88fa8-ee86-401f-94a6-1be30462dc64" rend="petit">
        Ответ на письмо Е. И. Попова от 30 ноября 1900 г. (почт. штемп.)
       </p>
      </note>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо С.А.Толстой от 10 декабря 1884 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 10 декабря 1884 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 83. М.: Гос. изд. «Художественная литература», 1938. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 83</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">459-461</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      285.1884 г. Декабря 10. Я. П.
     </opener>
-    <p id="9f966ea2-b122-457b-aa6e-648aa544a9a8" rend="left">
+    <p id="9f966ea2-b122-457b-aa6e-648aa544a9a8">
      <choice>
       <reg>
        Получлл
@@ -124,7 +154,7 @@
        состояние
       </reg>
       <orig>
-       состоянiе
+       состояніе
       </orig>
      </choice>
      <choice>
@@ -248,7 +278,7 @@
        лечение
       </reg>
       <orig>
-       лѣченiе
+       лѣченіе
       </orig>
      </choice>
      , и строго бы
@@ -274,7 +304,7 @@
        всякие
       </reg>
       <orig>
-       всякiя
+       всякія
       </orig>
      </choice>
      <choice>
@@ -282,7 +312,7 @@
        лечения
       </reg>
       <orig>
-       лѣченiя
+       лѣченія
       </orig>
      </choice>
      и
@@ -300,7 +330,7 @@
        гигиенически
       </reg>
       <orig>
-       гигiенически
+       гигіенически
       </orig>
      </choice>
      правильную жизнь — много бы
@@ -335,7 +365,7 @@
        движения
       </reg>
       <orig>
-       движенiя
+       движенія
       </orig>
      </choice>
      и не
@@ -396,7 +426,7 @@
        состояния
       </reg>
       <orig>
-       состоянiя
+       состоянія
       </orig>
      </choice>
      .
@@ -650,7 +680,7 @@
        положению
       </reg>
       <orig>
-       положенiю
+       положенію
       </orig>
      </choice>
      и
@@ -681,7 +711,7 @@
      </choice>
      и очень старается.
     </p>
-    <p id="2058853d-b8b5-4810-9944-172921c300db" rend="left">
+    <p id="2058853d-b8b5-4810-9944-172921c300db">
      Нынче я
      <choice>
       <reg>
@@ -900,7 +930,7 @@
        приятное
       </reg>
       <orig>
-       прiятное
+       пріятное
       </orig>
      </choice>
      <choice>
@@ -908,7 +938,7 @@
        впечатление
       </reg>
       <orig>
-       впечатлѣнiе
+       впечатлѣніе
       </orig>
      </choice>
      . Это
@@ -917,7 +947,7 @@
        сочинения
       </reg>
       <orig>
-       сочиненiя
+       сочиненія
       </orig>
      </choice>
      — стихи того
@@ -1054,7 +1084,7 @@
      </note>
      Я попробую.
     </p>
-    <p id="f40259b1-f88b-452b-be1d-939dec15923c" rend="left">
+    <p id="f40259b1-f88b-452b-be1d-939dec15923c">
      Когда я
      <choice>
       <reg>
@@ -1103,7 +1133,7 @@
        Маковский
       </reg>
       <orig>
-       Маковскiй
+       Маковскій
       </orig>
      </choice>
      ,
@@ -1125,7 +1155,7 @@
        Владимир
       </reg>
       <orig>
-       Владимiръ
+       Владиміръ
       </orig>
      </choice>
      ,
@@ -1231,7 +1261,7 @@
        хорошия
       </reg>
       <orig>
-       хорошiя
+       хорошія
       </orig>
      </choice>
      <choice>
@@ -1490,7 +1520,7 @@
      </choice>
      субботу. —
     </p>
-    <p id="1f0fccc4-d2aa-44ce-9673-ccd351bd9bf4" rend="left">
+    <p id="1f0fccc4-d2aa-44ce-9673-ccd351bd9bf4">
      <choice original_editorial_correction="Аг[афья]">
       <sic>
        Аг
@@ -1569,7 +1599,7 @@
      . —
     </p>
     <lb/>
-    <p id="1131264f-db77-4726-96ea-3744e9efbcd5" rend="left">
+    <p id="1131264f-db77-4726-96ea-3744e9efbcd5">
      <hi>
       На конверте:
      </hi>
@@ -1579,7 +1609,7 @@
        Долго-хамовнический
       </reg>
       <orig>
-       Долго-хамовническiй
+       Долго-хамовническій
       </orig>
      </choice>
      <choice>

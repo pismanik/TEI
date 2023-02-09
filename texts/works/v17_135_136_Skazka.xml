@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v17_135_136_Skazka">
-                    Сказка. Tolstoy Digital
+                    Сказка. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Сказка.</title>
                 <title type="sub">«...и я потерял сознание»</title>
-                <title type="bibl">Толстой Л. Н. Сказка // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. Сказка // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С. 135–136.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1873"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#main" target="work_main"/>
@@ -122,7 +147,7 @@
     <head n="level1">
      * СКАЗКА.
     </head>
-    <p id="02e5b418-bcb1-4311-b26b-2df204879c30" rend="left">
+    <p id="02e5b418-bcb1-4311-b26b-2df204879c30">
      ...... и я
      <choice>
       <reg>
@@ -137,7 +162,7 @@
        сознание
       </reg>
       <orig>
-       сознанiе
+       сознаніе
       </orig>
      </choice>
      . Когда я очнулся, я
@@ -180,7 +205,7 @@
       26
      </ref>
      <note index="false" xml:id="note26">
-      <span data-class="paragraph" id="70e10154-f12b-4b19-b3a2-78d4268a38a7" rend="left">
+      <span data-class="paragraph" id="70e10154-f12b-4b19-b3a2-78d4268a38a7">
        :
        <del>
         <choice>
@@ -242,7 +267,7 @@
       27
      </ref>
      <note index="false" xml:id="note27">
-      <span data-class="paragraph" id="c6d82ae2-365e-4c8a-9fe5-1dc6e32080e3" rend="left">
+      <span data-class="paragraph" id="c6d82ae2-365e-4c8a-9fe5-1dc6e32080e3">
        людьми
       </span>
      </note>
@@ -251,7 +276,7 @@
       28
      </ref>
      <note index="false" resp="LNT" xml:id="note28">
-      <span data-class="paragraph" id="d2d9d4da-63cb-45f2-8d0d-4be6ef3b9697" rend="left">
+      <span data-class="paragraph" id="d2d9d4da-63cb-45f2-8d0d-4be6ef3b9697">
        <choice>
         <sic>
          <choice>
@@ -277,7 +302,7 @@
        такие
       </reg>
       <orig>
-       такiя
+       такія
       </orig>
      </choice>
      существа
@@ -320,7 +345,7 @@
       29
      </ref>
      <note index="false" xml:id="note29">
-      <span data-class="paragraph" id="b0469eb2-29a6-4545-9946-8327252c0685" rend="left">
+      <span data-class="paragraph" id="b0469eb2-29a6-4545-9946-8327252c0685">
        что
       </span>
      </note>
@@ -329,7 +354,7 @@
       30
      </ref>
      <note index="false" xml:id="note30">
-      <span data-class="paragraph" id="f0e3c36a-5769-49e9-b6a6-1a6f45faf76c" rend="left">
+      <span data-class="paragraph" id="f0e3c36a-5769-49e9-b6a6-1a6f45faf76c">
        <hi rend="italic">
         Зач:
        </hi>
@@ -359,7 +384,7 @@
       31
      </ref>
      <note index="false" xml:id="note31">
-      <span data-class="paragraph" id="51739ba4-4173-4f1f-a57c-a4735f0c35c0" rend="left">
+      <span data-class="paragraph" id="51739ba4-4173-4f1f-a57c-a4735f0c35c0">
        Они
       </span>
      </note>
@@ -461,7 +486,7 @@
       32
      </ref>
      <note index="false" xml:id="note32">
-      <span data-class="paragraph" id="d08580c0-c168-41b8-ba10-4592900191fb" rend="left">
+      <span data-class="paragraph" id="d08580c0-c168-41b8-ba10-4592900191fb">
        пройти
       </span>
      </note>
@@ -470,7 +495,7 @@
       33
      </ref>
      <note index="false" xml:id="note33">
-      <span data-class="paragraph" id="fd119489-5c83-40e8-adf4-80f354de4228" rend="left">
+      <span data-class="paragraph" id="fd119489-5c83-40e8-adf4-80f354de4228">
        : по
        <choice>
         <reg>
@@ -487,7 +512,7 @@
       34
      </ref>
      <note index="false" xml:id="note34">
-      <span data-class="paragraph" id="f92f2865-2c51-44a5-a9da-cea6604610db" rend="left">
+      <span data-class="paragraph" id="f92f2865-2c51-44a5-a9da-cea6604610db">
        уже
        <choice>
         <reg>
@@ -606,7 +631,7 @@
       35
      </ref>
      <note index="false" resp="LNT" xml:id="note35">
-      <span data-class="paragraph" id="76a86a44-cabe-4b73-add6-96c1dd2b3e3e" rend="left">
+      <span data-class="paragraph" id="76a86a44-cabe-4b73-add6-96c1dd2b3e3e">
        <choice>
         <sic>
          людей
@@ -628,7 +653,7 @@
       36
      </ref>
      <note index="false" xml:id="note36">
-      <span data-class="paragraph" id="458be1dd-182e-4c26-ae1f-04e177db6c2e" rend="left">
+      <span data-class="paragraph" id="458be1dd-182e-4c26-ae1f-04e177db6c2e">
        <choice original_editorial_correction="изуч[ить]">
         <sic>
          изуч
@@ -652,7 +677,7 @@
       37
      </ref>
      <note index="false" xml:id="note37">
-      <span data-class="paragraph" id="c26f5051-d912-4eaa-a90f-e3aebdbd867d" rend="left">
+      <span data-class="paragraph" id="c26f5051-d912-4eaa-a90f-e3aebdbd867d">
        знак
       </span>
      </note>
@@ -687,7 +712,7 @@
        правления
       </reg>
       <orig>
-       правленiя
+       правленія
       </orig>
      </choice>
      и жизни и
@@ -704,7 +729,7 @@
        занятия
       </reg>
       <orig>
-       занятiя
+       занятія
       </orig>
      </choice>
      . — Первое, что поразило меня
@@ -766,7 +791,7 @@
        очевиднейшие
       </reg>
       <orig>
-       очевиднѣйшiе
+       очевиднѣйшіе
       </orig>
      </choice>
      зародыши смерти, и
@@ -858,7 +883,7 @@
       38
      </ref>
      <note index="false" xml:id="note38">
-      <span data-class="paragraph" id="a4517fd4-73f6-4c1d-91b1-0f460fb3bfb2" rend="left">
+      <span data-class="paragraph" id="a4517fd4-73f6-4c1d-91b1-0f460fb3bfb2">
        <choice original_editorial_correction="гни[ли]">
         <sic>
          гни
@@ -937,14 +962,14 @@
        другие
       </reg>
       <orig>
-       другiе
+       другіе
       </orig>
      </choice>
      <ref target="#note39">
       39
      </ref>
      <note index="false" xml:id="note39">
-      <span data-class="paragraph" id="7b0aa25f-a572-4a8c-a025-bec2ec8f4add" rend="left">
+      <span data-class="paragraph" id="7b0aa25f-a572-4a8c-a025-bec2ec8f4add">
        не
        <choice>
         <reg>
@@ -1068,7 +1093,7 @@
       40
      </ref>
      <note index="false" xml:id="note40">
-      <span data-class="paragraph" id="d5c64e97-2018-4101-bb88-8493d75f81b2" rend="left">
+      <span data-class="paragraph" id="d5c64e97-2018-4101-bb88-8493d75f81b2">
        способами
       </span>
      </note>
@@ -1129,7 +1154,7 @@
        внимание
       </reg>
       <orig>
-       вниманiе
+       вниманіе
       </orig>
      </choice>
      , но на
@@ -1171,7 +1196,7 @@
       41
      </ref>
      <note index="false" xml:id="note41">
-      <span data-class="paragraph" id="eef8301b-1ae6-4d63-8ba6-c7a9f7164d7f" rend="left">
+      <span data-class="paragraph" id="eef8301b-1ae6-4d63-8ba6-c7a9f7164d7f">
        <del>
         Я
        </del>
@@ -1205,7 +1230,7 @@
          поселения
         </reg>
         <orig>
-         поселенiя
+         поселенія
         </orig>
        </choice>
        <choice>
@@ -1285,7 +1310,7 @@
        предположениями
       </reg>
       <orig>
-       предположенiями
+       предположеніями
       </orig>
      </choice>
      этно- и
@@ -1344,7 +1369,7 @@
        мнению
       </reg>
       <orig>
-       мнѣнiю
+       мнѣнію
       </orig>
      </choice>
      о дикости, я не
@@ -1381,7 +1406,7 @@
        отсутствием
       </reg>
       <orig>
-       отсутствiемъ
+       отсутствіемъ
       </orig>
      </choice>
      сложности жизни; но я
@@ -1439,7 +1464,7 @@
        условий
       </reg>
       <orig>
-       условiй
+       условій
       </orig>
      </choice>
      . Дикими же я
@@ -1492,7 +1517,7 @@
        понятий
       </reg>
       <orig>
-       понятiй
+       понятій
       </orig>
      </choice>
      о
@@ -1510,7 +1535,7 @@
        философии
       </reg>
       <orig>
-       философiи
+       философіи
       </orig>
      </choice>
      , о
@@ -1519,7 +1544,7 @@
        религии
       </reg>
       <orig>
-       религiи
+       религіи
       </orig>
      </choice>
      ,
@@ -1527,13 +1552,13 @@
       42
      </ref>
      <note index="false" xml:id="note42">
-      <span data-class="paragraph" id="3bcc56a5-99a6-4e06-8e52-224619810919" rend="left">
+      <span data-class="paragraph" id="3bcc56a5-99a6-4e06-8e52-224619810919">
        <choice>
         <reg>
          отношениях
         </reg>
         <orig>
-         отношенiяхъ
+         отношеніяхъ
         </orig>
        </choice>
        людей
@@ -1596,7 +1621,7 @@
        изучения
       </reg>
       <orig>
-       изученiя
+       изученія
       </orig>
      </choice>
      <choice>
@@ -1656,7 +1681,7 @@
        сочинении
       </reg>
       <orig>
-       сочиненiи
+       сочиненіи
       </orig>
      </choice>
      попытаюсь изложить
@@ -1688,14 +1713,14 @@
      </choice>
      открывались. —
     </p>
-    <p id="4cc6c1af-2fd0-4cf3-a0ec-d5b1156c3e89" rend="left">
+    <p id="4cc6c1af-2fd0-4cf3-a0ec-d5b1156c3e89">
      1) Браки и семьи, 2) собственность, 3) суды, 4) администрация, 5) торговля и богатство, 6)
      <choice>
       <reg>
        обучение
       </reg>
       <orig>
-       обученiе
+       обученіе
       </orig>
      </choice>
      , 7) наука, 8)
@@ -1704,7 +1729,7 @@
        религия
       </reg>
       <orig>
-       религiя
+       религія
       </orig>
      </choice>
      . Дюли
@@ -1730,7 +1755,7 @@
        подразделений
       </reg>
       <orig>
-       подраздѣленiй
+       подраздѣленій
       </orig>
      </choice>
      ,
@@ -1748,7 +1773,7 @@
        сословий
       </reg>
       <orig>
-       сословiй
+       сословій
       </orig>
      </choice>
      ,
@@ -1757,7 +1782,7 @@
        имеющия
       </reg>
       <orig>
-       имѣющiя
+       имѣющія
       </orig>
      </choice>
      каждое свой отличительный
@@ -1774,7 +1799,7 @@
       43
      </ref>
      <note index="false" xml:id="note43">
-      <span data-class="paragraph" id="d68f0520-46c1-4dfe-89bc-8a452d2235f6" rend="left">
+      <span data-class="paragraph" id="d68f0520-46c1-4dfe-89bc-8a452d2235f6">
        большей частью
       </span>
      </note>
@@ -1783,7 +1808,7 @@
        Отличие
       </reg>
       <orig>
-       Отличiе
+       Отличіе
       </orig>
      </choice>
      это
@@ -1861,7 +1886,7 @@
        подразделения
       </reg>
       <orig>
-       подраздѣленiя
+       подраздѣленія
       </orig>
      </choice>
      эти не существенны. Одно настоящее
@@ -1870,7 +1895,7 @@
        подразделение
       </reg>
       <orig>
-       подраздѣленiе
+       подраздѣленіе
       </orig>
      </choice>
      есть
@@ -1888,7 +1913,7 @@
        работающие
       </reg>
       <orig>
-       работающiе
+       работающіе
       </orig>
      </choice>
      , т. е.
@@ -1897,7 +1922,7 @@
        производящие
       </reg>
       <orig>
-       производящiе
+       производящіе
       </orig>
      </choice>
      что нибудь новое,
@@ -1914,7 +1939,7 @@
       44
      </ref>
      <note index="false" xml:id="note44">
-      <span data-class="paragraph" id="f903ba66-957e-487d-943c-00c6bd31e7fc" rend="left">
+      <span data-class="paragraph" id="f903ba66-957e-487d-943c-00c6bd31e7fc">
        <hi rend="italic">
         В подлиннике описка:
        </hi>
@@ -1926,7 +1951,7 @@
        разрушающие
       </reg>
       <orig>
-       разрушающiе
+       разрушающіе
       </orig>
      </choice>
      ,
@@ -1935,7 +1960,7 @@
        уничтожающие
       </reg>
       <orig>
-       уничтожающiе
+       уничтожающіе
       </orig>
      </choice>
      . — Первые преимущественно
@@ -1968,7 +1993,7 @@
       45
      </ref>
      <note index="false" xml:id="note45">
-      <span data-class="paragraph" id="f90c9483-1e65-4a2f-b319-550eb6444390" rend="left">
+      <span data-class="paragraph" id="f90c9483-1e65-4a2f-b319-550eb6444390">
        <hi rend="italic">
         В подлиннике описка:
        </hi>
@@ -2004,7 +2029,7 @@
       46
      </ref>
      <note index="false" xml:id="note46">
-      <span data-class="paragraph" id="6e597630-5b67-4c53-bb72-a1cbc5ba13e9" rend="left">
+      <span data-class="paragraph" id="6e597630-5b67-4c53-bb72-a1cbc5ba13e9">
        <hi rend="italic">
         В подлиннике описка:
        </hi>
@@ -2041,7 +2066,7 @@
        презрением
       </reg>
       <orig>
-       презрѣнiемъ
+       презрѣніемъ
       </orig>
      </choice>
      , a
@@ -2050,7 +2075,7 @@
        уничтожающие
       </reg>
       <orig>
-       уничтожающiе
+       уничтожающіе
       </orig>
      </choice>
      —
@@ -2111,7 +2136,7 @@
        стремление
       </reg>
       <orig>
-       стремленiе
+       стремленіе
       </orig>
      </choice>
      <choice original_editorial_correction="производи[телей]">
@@ -2153,7 +2178,7 @@
        вследствии
       </reg>
       <orig>
-       вслѣдствiи
+       вслѣдствіи
       </orig>
      </choice>
      того
@@ -2162,7 +2187,7 @@
        уменьшение
       </reg>
       <orig>
-       уменьшенiе
+       уменьшеніе
       </orig>
      </choice>
      <choice original_editorial_correction="производ[ителей]">
@@ -2178,14 +2203,14 @@
       47
      </ref>
      <note index="false" xml:id="note47">
-      <span data-class="paragraph" id="45e173d9-d418-4718-a8f7-d9afa2748838" rend="left">
+      <span data-class="paragraph" id="45e173d9-d418-4718-a8f7-d9afa2748838">
        и
        <choice>
         <reg>
          вследствии
         </reg>
         <orig>
-         вслѣдствiи
+         вслѣдствіи
         </orig>
        </choice>
        того увеличение труда остающихся
@@ -2273,14 +2298,12 @@
        гниют
       </reg>
       <orig>
-       гнiютъ
+       гніютъ
       </orig>
      </choice>
      ? Потребители.
     </p>
-    <p id="5e0071c6-3b84-4b2a-a9f1-eeb76ed1f1d1" rend="center">
-     ————
-    </p>
+    <metamark function="line"/>
    </div>
   </body>
  </text>

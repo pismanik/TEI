@@ -9,17 +9,41 @@
                 <title type="main">Письмо С.А.Толстой с 5 августа 1865 г. по 15 августа 1865 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 5 августа 1865 г. — 15 августа 1865 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 83. М.: Гос. изд. «Художественная литература», 1938. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 83</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">107-108</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -77,8 +106,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -93,7 +123,7 @@
     <opener index="false">
      * 45.1865 г. Августа 5—15.
     </opener>
-    <p id="2f48b6a2-0f5d-4ba8-9daa-dacb8283b17f" rend="left">
+    <p id="2f48b6a2-0f5d-4ba8-9daa-dacb8283b17f">
      Чтобы воспользоваться
      <choice>
       <reg>
@@ -164,13 +194,13 @@
      </choice>
      и радуюсь, что увижу тебя.
     </p>
-    <p id="3c550de4-b85c-4531-b5ec-24766bbee2d2" rend="left">
+    <p id="3c550de4-b85c-4531-b5ec-24766bbee2d2">
      <choice>
       <reg>
        Известие
       </reg>
       <orig>
-       Извѣстiе
+       Извѣстіе
       </orig>
      </choice>
      очень поразило меня.
@@ -191,14 +221,14 @@
      </choice>
      .
     </p>
-    <p id="b685f296-0da9-49aa-8280-6c87183ccdf0" rend="left">
+    <p id="b685f296-0da9-49aa-8280-6c87183ccdf0">
      У Фета было очень
      <choice>
       <reg>
        приятно
       </reg>
       <orig>
-       прiятно
+       пріятно
       </orig>
      </choice>
      .

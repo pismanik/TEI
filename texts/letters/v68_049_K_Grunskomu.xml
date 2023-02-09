@@ -9,17 +9,41 @@
                 <title type="main">Письмо К. Грунскому от 12 марта 1895 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо К. Грунскому, 12 марта 1895 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 68. М.: Гос. изд. «Художественная литература», 1954. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 68</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">45-45</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,10 +127,10 @@
      </name>
      .1895 г. Марта 12. Москва.
     </opener>
-    <p id="47192634-af4a-4653-b8c0-66ee4b5a5dcc" rend="Obrashenie left">
+    <p id="47192634-af4a-4653-b8c0-66ee4b5a5dcc" rend="Obrashenie">
      Многоуважаемый доктор Грунский,
     </p>
-    <p id="c59b44c1-3616-4ffc-a588-461abe42eb64" rend="left">
+    <p id="c59b44c1-3616-4ffc-a588-461abe42eb64">
      Письмо
      <name placement="text" ref="9800" type="person">
       Николаю II
@@ -135,7 +164,7 @@
      </name>
      .
     </p>
-    <p id="70d0a324-2cf6-4688-92b1-03d69bef9890" rend="left">
+    <p id="70d0a324-2cf6-4688-92b1-03d69bef9890">
      12/24 марта 1895.
     </p>
     <noteGrp type="comments">
@@ -145,7 +174,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="8f7cdf49-b84d-42e8-abb2-edb234f180ec" rend="petit left">
+      <p id="8f7cdf49-b84d-42e8-abb2-edb234f180ec" rend="petit">
        <name placement="comments" ref="3953" type="person">
         Карл Грунский
        </name>
@@ -153,7 +182,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="5da31f7c-e0ce-479e-a333-10a1bcd5f10d" rend="petit left">
+      <p id="5da31f7c-e0ce-479e-a333-10a1bcd5f10d" rend="petit">
        Ответ на письмо Грунского от 8 марта н. ст. 1895 г., в котором он просил Толстого прислать ему гектографированный оттиск его «Письма к
        <name placement="comments" ref="9800" type="person">
         Николаю II

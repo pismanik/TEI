@@ -9,17 +9,41 @@
                 <title type="main">Письмо И. И. Панаеву от 8 августа 1855 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо И. И. Панаеву, 8 августа 1855 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">328-333</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,10 +128,10 @@
      </name>
      .1855 г. Августа 8. Бахчисарай.
     </opener>
-    <p id="6413630f-f4d9-441e-898d-395d74a09160" rend="Obrashenie left">
+    <p id="6413630f-f4d9-441e-898d-395d74a09160" rend="Obrashenie">
      Милостивый Государь
     </p>
-    <p id="819e2f25-bf3c-41dd-860d-2c5556a1da1d" rend="Obrashenie1 left">
+    <p id="819e2f25-bf3c-41dd-860d-2c5556a1da1d" rend="Obrashenie1">
      <choice>
       <reg>
        <name placement="text" ref="10447" type="person">
@@ -119,7 +149,7 @@
      </name>
      .
     </p>
-    <p id="e98cfbd8-d0b6-4071-8704-06baeb892fdd" rend="left">
+    <p id="e98cfbd8-d0b6-4071-8704-06baeb892fdd">
      Письма
      <hi>
       1
@@ -178,7 +208,7 @@
        старание
       </reg>
       <orig>
-       старанiе
+       стараніе
       </orig>
      </choice>
      защитить
@@ -245,7 +275,7 @@
        самолюбия
       </reg>
       <orig>
-       самолюбiя
+       самолюбія
       </orig>
      </choice>
      , но ему бы
@@ -272,7 +302,7 @@
        направлению
       </reg>
       <orig>
-       направленiю
+       направленію
       </orig>
      </choice>
      и взгляду
@@ -398,7 +428,7 @@
        извинения
       </reg>
       <orig>
-       извиненiя
+       извиненія
       </orig>
      </choice>
      , что не
@@ -478,7 +508,7 @@
        несчастию
       </reg>
       <orig>
-       несчастiю
+       несчастію
       </orig>
      </choice>
      , я не
@@ -617,7 +647,7 @@
      </choice>
      быть. —
     </p>
-    <p id="3f79081f-b2b2-4d0c-a930-dcc4e33d347a" rend="left">
+    <p id="3f79081f-b2b2-4d0c-a930-dcc4e33d347a">
      <choice>
       <reg>
        Затем
@@ -647,7 +677,7 @@
        уважением
       </reg>
       <orig>
-       уваженiемъ
+       уваженіемъ
       </orig>
      </choice>
      <choice>
@@ -675,13 +705,13 @@
      </name>
      .
     </p>
-    <p id="bca99b0a-b99d-41c9-ae78-4958345f8cbf" rend="left">
+    <p id="bca99b0a-b99d-41c9-ae78-4958345f8cbf">
      8 Августа 1855.
     </p>
-    <p id="7eb29e74-4318-437d-82dc-3923ff8c1b1d" rend="left">
+    <p id="7eb29e74-4318-437d-82dc-3923ff8c1b1d">
      Бахчисарай.
     </p>
-    <p id="f2b0a84a-1809-474b-adff-0acaa77ad533" rend="left">
+    <p id="f2b0a84a-1809-474b-adff-0acaa77ad533">
      Не будете ли Вы
      <choice>
       <reg>
@@ -721,7 +751,7 @@
        комиссий
       </reg>
       <orig>
-       комиссiй
+       комиссій
       </orig>
      </choice>
      <choice>
@@ -753,12 +783,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="fef0fa54-4bf3-4ea1-b68c-403c6e35ff7e" rend="petit left">
+      <p id="fef0fa54-4bf3-4ea1-b68c-403c6e35ff7e" rend="petit">
        Письмо является ответом на письмо И. И. Панаева от 18 июля, которое приводим полностью:
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="def32f8c-6210-4b74-b10f-20d04119e89b" rend="petit left">
+      <p id="def32f8c-6210-4b74-b10f-20d04119e89b" rend="petit">
        «Благодарю вас несказанно,
        <name placement="comments" ref="13883" type="person">
         Лев Николаевич
@@ -787,7 +817,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="fa61c717-5c0f-4b87-94f5-93494a1e81d9" rend="petit left">
+      <p id="fa61c717-5c0f-4b87-94f5-93494a1e81d9" rend="petit">
        Извините меня, что я так намарал. — Спешу, ибо нужно сию секунду отправиться по делу». («Красная
        <ref id="nov'" target="slovar">
         новь
@@ -796,7 +826,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="b88000a7-db1b-41b7-aa23-79fa704e5f26" rend="petit left">
+      <p id="b88000a7-db1b-41b7-aa23-79fa704e5f26" rend="petit">
        <hi>
         Правда
        </hi>

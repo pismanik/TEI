@@ -9,17 +9,41 @@
                 <title type="main">Письмо А. М. Калмыковой от 22 марта 1885 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо А. М. Калмыковой, 22 марта 1885 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 63. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 63</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">215-216</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -77,8 +106,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -97,7 +127,7 @@
      </name>
      .1885 г. Марта 22?
     </opener>
-    <p id="6a861aa6-3fa5-4321-a9fe-269abd04428d" rend="left">
+    <p id="6a861aa6-3fa5-4321-a9fe-269abd04428d">
      Простите меня ради Христа,
      <name placement="text" ref="6021" type="person">
       Александра Михайловна
@@ -167,7 +197,7 @@
        нежелания
       </reg>
       <orig>
-       нежеланiя
+       нежеланія
       </orig>
      </choice>
      служить
@@ -243,7 +273,7 @@
      </choice>
      .
     </p>
-    <p id="15938def-d716-4608-a06d-59e3d781d9e8" rend="left">
+    <p id="15938def-d716-4608-a06d-59e3d781d9e8">
      Пожалуйста, пришлите
      <choice>
       <reg>
@@ -330,12 +360,12 @@
      </name>
      .
     </p>
-    <p id="0acb16f9-e2be-459b-9b10-0573799e69e1" rend="left">
+    <p id="0acb16f9-e2be-459b-9b10-0573799e69e1">
      <hi>
       На конверте:
      </hi>
     </p>
-    <p id="8404dfbd-803c-4a04-ba7f-bd193139e984" rend="left">
+    <p id="8404dfbd-803c-4a04-ba7f-bd193139e984">
      <choice>
       <reg>
        Харьков
@@ -381,7 +411,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="14f2aa7c-ceb2-40dc-9b39-0b882d41be2f" rend="petit left">
+      <p id="14f2aa7c-ceb2-40dc-9b39-0b882d41be2f" rend="petit">
        <name placement="comments" ref="6021" type="person">
         Александра Михайловна Калмыкова
        </name>
@@ -397,7 +427,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="509bc354-8498-48b4-bec0-0756c6acd690" rend="petit left">
+      <p id="509bc354-8498-48b4-bec0-0756c6acd690" rend="petit">
        Толстой отвечал на письмо А. М. Калмыковой от 14 марта 1885 г. (АТБ), в котором последняя просила Толстого заехать на обратном пути из Крыма (куда он вез кн. Л. Д. Урусова) к ней в Харьков и для этого заблаговременно известить ее о времени его проезда через Харьков.
       </p>
      </note>

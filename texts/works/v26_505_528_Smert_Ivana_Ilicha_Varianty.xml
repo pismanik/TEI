@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v26_505_528_Smert_Ivana_Ilicha_Varianty">
-                    [Варианты к «Смерти Ивана Ильича»]. Tolstoy Digital
+                    [Варианты к «Смерти Ивана Ильича»]. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Смерть Ивана Ильича.</title>
                 <title type="sub" resp="volume_editor">Варианты</title>
-                <title type="bibl">Толстой Л. Н. [Варианты к «Смерти Ивана Ильича»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 26. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. [Варианты к «Смерти Ивана Ильича»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 26. М.: Гос. изд. «Художественная литература», 1936. С. 505–528.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1886"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#ver" target="work_main"/>
@@ -116,7 +141,7 @@
     <head n="level2" type="editorial">
      *№ 1.
     </head>
-    <p id="30721701-121c-493a-9322-4afbf34a889b" rend="left">
+    <p id="30721701-121c-493a-9322-4afbf34a889b">
      Я
      <choice>
       <reg>
@@ -148,7 +173,7 @@
       87
      </ref>
      <note index="false" xml:id="note87">
-      <span data-class="paragraph" id="20a1e6c0-e8a3-4eb1-8f06-ab07b99bf8b7" rend="left">
+      <span data-class="paragraph" id="20a1e6c0-e8a3-4eb1-8f06-ab07b99bf8b7">
        <del>
         Вчера
         <del>
@@ -193,7 +218,7 @@
           известие
          </reg>
          <orig>
-          извѣстiе
+          извѣстіе
          </orig>
         </choice>
         <choice>
@@ -237,7 +262,7 @@
        заседания
       </reg>
       <orig>
-       засѣданiя
+       засѣданія
       </orig>
      </choice>
      по
@@ -343,7 +368,7 @@
      </choice>
      .
     </p>
-    <p id="5fc769bd-a48a-4621-959b-04dc5042f763" rend="left">
+    <p id="5fc769bd-a48a-4621-959b-04dc5042f763">
      — Господа:
      <choice>
       <reg>
@@ -374,17 +399,17 @@
       88
      </ref>
      <note index="false" xml:id="note88">
-      <span data-class="paragraph" id="77b2c20f-40ab-4d75-a5fe-0e557f10a535" rend="left">
+      <span data-class="paragraph" id="77b2c20f-40ab-4d75-a5fe-0e557f10a535">
        <del>
         Что вы?
        </del>
       </span>
      </note>
     </p>
-    <p id="85024184-3576-41b9-85a2-ec7d2b61b368" rend="left">
+    <p id="85024184-3576-41b9-85a2-ec7d2b61b368">
      — Неужели?
     </p>
-    <p id="2b80701a-534e-4cc0-abb0-d941b1cc8fd0" rend="left">
+    <p id="2b80701a-534e-4cc0-abb0-d941b1cc8fd0">
      —
      <choice>
       <reg>
@@ -396,7 +421,7 @@
      </choice>
      читайте.
     </p>
-    <p id="de8a828f-ed7b-4a0d-a5a3-bb1841f418c9" rend="left">
+    <p id="de8a828f-ed7b-4a0d-a5a3-bb1841f418c9">
      И я
      <choice>
       <reg>
@@ -514,7 +539,7 @@
       89
      </ref>
      <note index="false" xml:id="note89">
-      <span data-class="paragraph" id="c6372f29-6a34-44ec-b89f-2f2fc4828636" rend="left">
+      <span data-class="paragraph" id="c6372f29-6a34-44ec-b89f-2f2fc4828636">
        <hi rend="italic">
         Зач.:
         <choice>
@@ -572,12 +597,12 @@
       и т. д.
      </hi>
     </p>
-    <p id="87fe0779-9a62-4090-990e-96b7fc2e88e1" rend="left">
+    <p id="87fe0779-9a62-4090-990e-96b7fc2e88e1">
      <ref target="#note90">
       90
      </ref>
      <note index="false" xml:id="note90">
-      <span data-class="paragraph" id="8d28fba9-9229-4b2a-b7b2-8e86f27fbae7" rend="left">
+      <span data-class="paragraph" id="8d28fba9-9229-4b2a-b7b2-8e86f27fbae7">
        <del>
         <choice>
          <reg>
@@ -646,7 +671,7 @@
        хороший
       </reg>
       <orig>
-       хорошiй
+       хорошій
       </orig>
      </choice>
      знакомый.
@@ -654,7 +679,7 @@
       91
      </ref>
      <note index="false" xml:id="note91">
-      <span data-class="paragraph" id="4996688e-9a9d-4e6f-9e52-0d2488e50b4b" rend="left">
+      <span data-class="paragraph" id="4996688e-9a9d-4e6f-9e52-0d2488e50b4b">
        <del>
         <choice>
          <reg>
@@ -746,7 +771,7 @@
           последние
          </reg>
          <orig>
-          послѣднiе
+          послѣдніе
          </orig>
         </choice>
         два
@@ -755,7 +780,7 @@
           посещения
          </reg>
          <orig>
-          посѣщенiя
+          посѣщенія
          </orig>
         </choice>
         его.
@@ -783,7 +808,7 @@
       92
      </ref>
      <note index="false" xml:id="note92">
-      <span data-class="paragraph" id="96ace4f4-8cdd-4a74-b138-53e8037ae080" rend="left">
+      <span data-class="paragraph" id="96ace4f4-8cdd-4a74-b138-53e8037ae080">
        <del>
         <del>
          почти
@@ -895,7 +920,7 @@
        соображение
       </reg>
       <orig>
-       соображенiе
+       соображеніе
       </orig>
      </choice>
      о
@@ -1001,12 +1026,12 @@
        канцелярии
       </reg>
       <orig>
-       канцелярiи
+       канцеляріи
       </orig>
      </choice>
      .
     </p>
-    <p id="a614f088-ad45-4fb0-bf96-1b31f530419a" rend="left">
+    <p id="a614f088-ad45-4fb0-bf96-1b31f530419a">
      —
      <choice>
       <reg>
@@ -1061,19 +1086,19 @@
      </choice>
      . Все собирался.
     </p>
-    <p id="4d0bbabb-aa24-4456-9ded-4cf7f3ae4cb1" rend="left">
+    <p id="4d0bbabb-aa24-4456-9ded-4cf7f3ae4cb1">
      — Что было у него
      <choice>
       <reg>
        состояние
       </reg>
       <orig>
-       состоянiе
+       состояніе
       </orig>
      </choice>
      ?
     </p>
-    <p id="31b5bb67-9131-4930-b1e5-c44f705402d2" rend="left">
+    <p id="31b5bb67-9131-4930-b1e5-c44f705402d2">
      — Кажется, ничего. Жалко. Надо
      <choice>
       <reg>
@@ -1102,7 +1127,7 @@
      </choice>
      жили?
     </p>
-    <p id="01fabff6-7e55-47de-a476-93f8cde00217" rend="left">
+    <p id="01fabff6-7e55-47de-a476-93f8cde00217">
      — На
      <choice>
       <reg>
@@ -1156,7 +1181,7 @@
      </choice>
      .....
     </p>
-    <p id="0bd4f58b-1021-4f52-9fff-83e38b1cbf89" rend="left">
+    <p id="0bd4f58b-1021-4f52-9fff-83e38b1cbf89">
      <pb n="506"/>
      И мы поговорили еще кое о
      <choice>
@@ -1181,7 +1206,7 @@
        заседание
       </reg>
       <orig>
-       засѣданiе
+       засѣданіе
       </orig>
      </choice>
      .
@@ -1208,7 +1233,7 @@
        известии
       </reg>
       <orig>
-       извѣстiи
+       извѣстіи
       </orig>
      </choice>
      о смерти
@@ -1260,7 +1285,7 @@
       93
      </ref>
      <note index="false" xml:id="note93">
-      <span data-class="paragraph" id="83e44467-4e6e-4fab-8bc7-2ac14e40e08f" rend="left">
+      <span data-class="paragraph" id="83e44467-4e6e-4fab-8bc7-2ac14e40e08f">
        <del>
         Я этой глупости не
         <choice>
@@ -1290,7 +1315,7 @@
        соболезнования
       </reg>
       <orig>
-       соболѣзнованiя
+       соболѣзнованія
       </orig>
      </choice>
      , а надо
@@ -1304,7 +1329,7 @@
      </choice>
      .
     </p>
-    <p id="5653ed7d-73bc-47a3-a4f0-966e586bba7a" rend="left">
+    <p id="5653ed7d-73bc-47a3-a4f0-966e586bba7a">
      <choice>
       <reg>
        Вечером
@@ -1343,7 +1368,7 @@
       94
      </ref>
      <note index="false" xml:id="note94">
-      <span data-class="paragraph" id="a5363705-e503-47e3-897a-3f3f2bb9f49d" rend="left">
+      <span data-class="paragraph" id="a5363705-e503-47e3-897a-3f3f2bb9f49d">
        <del>
         <choice>
          <reg>
@@ -1419,7 +1444,7 @@
        последний
       </reg>
       <orig>
-       послѣднiй
+       послѣдній
       </orig>
      </choice>
      <choice>
@@ -1587,7 +1612,7 @@
       95
      </ref>
      <note index="false" xml:id="note95">
-      <span data-class="paragraph" id="e97263c9-7393-4bfa-ad11-34ba9a0219cc" rend="left">
+      <span data-class="paragraph" id="e97263c9-7393-4bfa-ad11-34ba9a0219cc">
        <del>
         по
         <choice>
@@ -1630,7 +1655,7 @@
        английскими
       </reg>
       <orig>
-       англiйскими
+       англійскими
       </orig>
      </choice>
      бакенбардами, во
@@ -1717,7 +1742,7 @@
       96
      </ref>
      <note index="false" xml:id="note96">
-      <span data-class="paragraph" id="fc180f36-cd8c-4bf1-a07b-8c9586fcf040" rend="left">
+      <span data-class="paragraph" id="fc180f36-cd8c-4bf1-a07b-8c9586fcf040">
        <del>
         Еще сколько
         <choice>
@@ -1780,7 +1805,7 @@
       97
      </ref>
      <note index="false" xml:id="note97">
-      <span data-class="paragraph" id="843cecb4-c4dc-42f8-9b9e-0724814a7975" rend="left">
+      <span data-class="paragraph" id="843cecb4-c4dc-42f8-9b9e-0724814a7975">
        <del>
         товарищу
        </del>
@@ -1827,7 +1852,7 @@
       98
      </ref>
      <note index="false" xml:id="note98">
-      <span data-class="paragraph" id="6d3ebd4a-b987-4deb-975a-fbec5d1d5e58" rend="left">
+      <span data-class="paragraph" id="6d3ebd4a-b987-4deb-975a-fbec5d1d5e58">
        <del>
         <choice>
          <reg>
@@ -1879,7 +1904,7 @@
        недоумением
       </reg>
       <orig>
-       недоумѣнiемъ
+       недоумѣніемъ
       </orig>
      </choice>
      о
@@ -1939,7 +1964,7 @@
       99
      </ref>
      <note index="false" xml:id="note99">
-      <span data-class="paragraph" id="3c99b975-a571-42fc-b92a-b29861efe88c" rend="left">
+      <span data-class="paragraph" id="3c99b975-a571-42fc-b92a-b29861efe88c">
        <del>
         и
         <choice>
@@ -1955,7 +1980,7 @@
           положение
          </reg>
          <orig>
-          положенiе
+          положеніе
          </orig>
         </choice>
         .
@@ -1993,7 +2018,7 @@
       100
      </ref>
      <note index="false" xml:id="note100">
-      <span data-class="paragraph" id="69e69084-89d2-489b-b869-bda64fd12ac8" rend="left">
+      <span data-class="paragraph" id="69e69084-89d2-489b-b869-bda64fd12ac8">
        <del>
         <choice>
          <reg>
@@ -2080,7 +2105,7 @@
        противоречие
       </reg>
       <orig>
-       противорѣчiе
+       противорѣчіе
       </orig>
      </choice>
      , буфетный
@@ -2104,7 +2129,7 @@
       101
      </ref>
      <note index="false" xml:id="note101">
-      <span data-class="paragraph" id="1e7869ad-cf25-4ece-a28f-6e9d56aed844" rend="left">
+      <span data-class="paragraph" id="1e7869ad-cf25-4ece-a28f-6e9d56aed844">
        <del>
         и
         <choice>
@@ -2133,7 +2158,7 @@
       102
      </ref>
      <note index="false" xml:id="note102">
-      <span data-class="paragraph" id="e8037f72-d20f-47f5-9841-414cf041fa5d" rend="left">
+      <span data-class="paragraph" id="e8037f72-d20f-47f5-9841-414cf041fa5d">
        <del>
         я его
         <choice>
@@ -2186,7 +2211,7 @@
        посещение
       </reg>
       <orig>
-       посѣщенiе
+       посѣщеніе
       </orig>
      </choice>
      мое Ивана Ильича я
@@ -2246,7 +2271,7 @@
       103
      </ref>
      <note index="false" xml:id="note103">
-      <span data-class="paragraph" id="0d478fce-a3bf-4ea1-b671-c41c05d30a7e" rend="left">
+      <span data-class="paragraph" id="0d478fce-a3bf-4ea1-b671-c41c05d30a7e">
        <del>
         (помню,
         <choice>
@@ -2394,7 +2419,7 @@
       104
      </ref>
      <note index="false" xml:id="note104">
-      <span data-class="paragraph" id="800d0a1c-a406-4972-8bfa-d1561a8275c9" rend="left">
+      <span data-class="paragraph" id="800d0a1c-a406-4972-8bfa-d1561a8275c9">
        <del>
         <del>
          на того, кто
@@ -2566,7 +2591,7 @@
        направлению
       </reg>
       <orig>
-       направленiю
+       направленію
       </orig>
      </choice>
      между
@@ -2602,7 +2627,7 @@
        движение
       </reg>
       <orig>
-       движенiе
+       движеніе
       </orig>
      </choice>
      <choice>
@@ -2610,7 +2635,7 @@
        крещения
       </reg>
       <orig>
-       крещенiя
+       крещенія
       </orig>
      </choice>
      рукою показалось
@@ -2637,7 +2662,7 @@
        приостановился
       </reg>
       <orig>
-       прiостановился
+       пріостановился
       </orig>
      </choice>
      и
@@ -2743,7 +2768,7 @@
       105
      </ref>
      <note index="false" xml:id="note105">
-      <span data-class="paragraph" id="cbd6c3c5-aec6-4266-868f-8839113162b8" rend="left">
+      <span data-class="paragraph" id="cbd6c3c5-aec6-4266-868f-8839113162b8">
        <hi rend="italic">
         Зач
        </hi>
@@ -2870,7 +2895,7 @@
       106
      </ref>
      <note index="false" xml:id="note106">
-      <span data-class="paragraph" id="3b5f25a9-0019-47b3-925a-b28156eaad31" rend="left">
+      <span data-class="paragraph" id="3b5f25a9-0019-47b3-925a-b28156eaad31">
        <del>
         Но это
         <choice>
@@ -3004,7 +3029,7 @@
       107
      </ref>
      <note index="false" xml:id="note107">
-      <span data-class="paragraph" id="c51a1704-d9be-4027-a6c3-57ff1441c3f0" rend="left">
+      <span data-class="paragraph" id="c51a1704-d9be-4027-a6c3-57ff1441c3f0">
        <del>
         бакенбардисту
        </del>
@@ -3103,7 +3128,7 @@
       108
      </ref>
      <note index="false" xml:id="note108">
-      <span data-class="paragraph" id="c22023eb-4d56-45f1-83fe-c45e00ca042a" rend="left">
+      <span data-class="paragraph" id="c22023eb-4d56-45f1-83fe-c45e00ca042a">
        <del>
         карты
        </del>
@@ -3284,7 +3309,7 @@
      </choice>
      , вздохнула взяла меня за руку.
     </p>
-    <p id="b764fc7d-3e04-4700-a985-f6389ebc3d3b" rend="left">
+    <p id="b764fc7d-3e04-4700-a985-f6389ebc3d3b">
      — Я знаю, что вы были
      <choice>
       <reg>
@@ -3304,7 +3329,7 @@
      </choice>
      ....
     </p>
-    <p id="fc8db66a-2bfc-48f1-a1cd-05dd97d3933e" rend="left">
+    <p id="fc8db66a-2bfc-48f1-a1cd-05dd97d3933e">
      <choice>
       <reg>
        Как
@@ -3377,7 +3402,7 @@
      </choice>
      и она тронута.
     </p>
-    <p id="63162623-49e4-4ae6-a2ed-4c2095129512" rend="left">
+    <p id="63162623-49e4-4ae6-a2ed-4c2095129512">
      — Пойдемте, дайте
      <choice>
       <reg>
@@ -3407,7 +3432,7 @@
      </choice>
      вами.
     </p>
-    <p id="9fdf3b18-376a-4d8e-bfdf-659b6fb57c4a" rend="left">
+    <p id="9fdf3b18-376a-4d8e-bfdf-659b6fb57c4a">
      Я
      <choice>
       <reg>
@@ -3423,7 +3448,7 @@
        внутренния
       </reg>
       <orig>
-       внутреннiя
+       внутреннія
       </orig>
      </choice>
      комнаты мимо
@@ -3431,7 +3456,7 @@
       109
      </ref>
      <note index="false" xml:id="note109">
-      <span data-class="paragraph" id="ec4d1b2e-182e-4b15-acba-8fc211823e94" rend="left">
+      <span data-class="paragraph" id="ec4d1b2e-182e-4b15-acba-8fc211823e94">
        <del>
         бакенбардиста
        </del>
@@ -3459,7 +3484,7 @@
       110
      </ref>
      <note index="false" xml:id="note110">
-      <span data-class="paragraph" id="5dd912ca-18f0-46fc-8a3f-ac3f7c9aa9c3" rend="left">
+      <span data-class="paragraph" id="5dd912ca-18f0-46fc-8a3f-ac3f7c9aa9c3">
        <del>
         выражая потерю всякой надежды на
         <choice>
@@ -3584,7 +3609,7 @@
      </choice>
      руку.
     </p>
-    <p id="e8426c44-bcc4-42be-88ab-251e7534323b" rend="left">
+    <p id="e8426c44-bcc4-42be-88ab-251e7534323b">
      Мы
      <choice>
       <reg>
@@ -3734,7 +3759,7 @@
       111
      </ref>
      <note index="false" xml:id="note111">
-      <span data-class="paragraph" id="d12c9248-d3d0-4699-adb8-09cd7ec18365" rend="left">
+      <span data-class="paragraph" id="d12c9248-d3d0-4699-adb8-09cd7ec18365">
        <del>
         <choice>
          <reg>
@@ -3769,7 +3794,7 @@
       112
      </ref>
      <note index="false" xml:id="note112">
-      <span data-class="paragraph" id="826b7478-f1fa-431a-855f-6cc3e6ed65fd" rend="left">
+      <span data-class="paragraph" id="826b7478-f1fa-431a-855f-6cc3e6ed65fd">
        <del>
         <choice>
          <reg>
@@ -3892,7 +3917,7 @@
        уверения
       </reg>
       <orig>
-       увѣренiя
+       увѣренія
       </orig>
      </choice>
      , что не могу. Всегда можно. И меня сколько
@@ -3979,7 +4004,7 @@
        последние
       </reg>
       <orig>
-       послѣднiе
+       послѣдніе
       </orig>
      </choice>
      дни,
@@ -4005,14 +4030,14 @@
       113
      </ref>
      <note index="false" xml:id="note113">
-      <span data-class="paragraph" id="be72902d-d80d-40f6-ad6b-e63766502732" rend="left">
+      <span data-class="paragraph" id="be72902d-d80d-40f6-ad6b-e63766502732">
        <del>
         Но зa три дня
        </del>
       </span>
      </note>
     </p>
-    <p id="a4516eb8-8bda-4764-9818-e81820847882" rend="left">
+    <p id="a4516eb8-8bda-4764-9818-e81820847882">
      <pb n="508"/>
      —
      <choice>
@@ -4025,7 +4050,7 @@
      </choice>
      ?
     </p>
-    <p id="8937a6bf-264e-4781-b1a1-9a6bb82dd0fe" rend="left">
+    <p id="8937a6bf-264e-4781-b1a1-9a6bb82dd0fe">
      —
      <choice>
       <reg>
@@ -4041,7 +4066,7 @@
        Последния
       </reg>
       <orig>
-       Послѣднiя
+       Послѣднія
       </orig>
      </choice>
      не минуты, а часы.
@@ -4076,7 +4101,7 @@
       114
      </ref>
      <note index="false" xml:id="note114">
-      <span data-class="paragraph" id="f4eef486-4774-4d06-82ed-ca9c4fc44552" rend="left">
+      <span data-class="paragraph" id="f4eef486-4774-4d06-82ed-ca9c4fc44552">
        <del>
         и
         <choice>
@@ -4093,7 +4118,7 @@
      </note>
      За тремя дверьми слышно было.
     </p>
-    <p id="b6102a6b-2c46-4f85-abb0-8e045500e63f" rend="left">
+    <p id="b6102a6b-2c46-4f85-abb0-8e045500e63f">
      —
      <choice>
       <reg>
@@ -4105,10 +4130,10 @@
      </choice>
      , что я вынесла.
     </p>
-    <p id="407164d9-ae2b-45fe-81b9-5dafd005d2b3" rend="left">
+    <p id="407164d9-ae2b-45fe-81b9-5dafd005d2b3">
      — Неужели?
     </p>
-    <p id="4a652a6d-171f-4a76-9fce-6478bf0ce7b2" rend="left">
+    <p id="4a652a6d-171f-4a76-9fce-6478bf0ce7b2">
      — 18
      <choice>
       <reg>
@@ -4308,7 +4333,7 @@
       115
      </ref>
      <note index="false" xml:id="note115">
-      <span data-class="paragraph" id="40a1bce5-ed53-4f14-83e8-3a1c2621b39f" rend="left">
+      <span data-class="paragraph" id="40a1bce5-ed53-4f14-83e8-3a1c2621b39f">
        <del>
         это
        </del>
@@ -4320,7 +4345,7 @@
        приключение
       </reg>
       <orig>
-       приключенiе
+       приключеніе
       </orig>
      </choice>
      , которое
@@ -4343,14 +4368,14 @@
      </choice>
      .
     </p>
-    <p id="39e6d028-fa3a-4bb3-aaf4-a810ed0b29b8" rend="left">
+    <p id="39e6d028-fa3a-4bb3-aaf4-a810ed0b29b8">
      Я особенно подробно описываю мое
      <choice>
       <reg>
        отношение
       </reg>
       <orig>
-       отношенiе
+       отношеніе
       </orig>
      </choice>
      <choice>
@@ -4366,7 +4391,7 @@
       116
      </ref>
      <note index="false" xml:id="note116">
-      <span data-class="paragraph" id="e788d32d-0011-453e-b67d-07eb3e255ab1" rend="left">
+      <span data-class="paragraph" id="e788d32d-0011-453e-b67d-07eb3e255ab1">
        <del>
         именно
        </del>
@@ -4466,7 +4491,7 @@
      </choice>
      на смерть и на жизнь.
     </p>
-    <p id="7da16d55-9566-44c4-8960-3614cd27f85d" rend="left">
+    <p id="7da16d55-9566-44c4-8960-3614cd27f85d">
      Я
      <choice>
       <reg>
@@ -4618,7 +4643,7 @@
        страданий
       </reg>
       <orig>
-       страданiй
+       страданій
       </orig>
      </choice>
      ,
@@ -4669,7 +4694,7 @@
        мучения
       </reg>
       <orig>
-       мученiя
+       мученія
       </orig>
      </choice>
      Ивана Ильича
@@ -4996,7 +5021,7 @@
       117
      </ref>
      <note index="false" xml:id="note117">
-      <span data-class="paragraph" id="873a16af-d7d4-4557-9f5c-c9f3c6bfeebc" rend="left">
+      <span data-class="paragraph" id="873a16af-d7d4-4557-9f5c-c9f3c6bfeebc">
        <del>
         и передать ее
         <choice>
@@ -5138,7 +5163,7 @@
        другие
       </reg>
       <orig>
-       другiе
+       другіе
       </orig>
      </choice>
      ,
@@ -5160,7 +5185,7 @@
      </choice>
      ».
     </p>
-    <p id="5e8ab285-25e3-43b4-a53b-6cb4449a6cfd" rend="left">
+    <p id="5e8ab285-25e3-43b4-a53b-6cb4449a6cfd">
      И
      <choice>
       <reg>
@@ -5225,7 +5250,7 @@
      </choice>
      .
     </p>
-    <p id="21a2388c-cbc5-4191-9fc9-d56039618f56" rend="left">
+    <p id="21a2388c-cbc5-4191-9fc9-d56039618f56">
      — Что
      <choice>
       <reg>
@@ -5246,7 +5271,7 @@
      </choice>
      я. — Вы читали?
     </p>
-    <p id="a9f9b68b-14bd-455c-94e5-c6980ed5a05d" rend="left">
+    <p id="a9f9b68b-14bd-455c-94e5-c6980ed5a05d">
      — Да, я
      <choice>
       <reg>
@@ -5288,7 +5313,7 @@
        страдания
       </reg>
       <orig>
-       страданiя
+       страданія
       </orig>
      </choice>
      его
@@ -5305,7 +5330,7 @@
        влияние
       </reg>
       <orig>
-       влiянiе
+       вліяніе
       </orig>
      </choice>
      на душу.
@@ -5378,7 +5403,7 @@
       118
      </ref>
      <note index="false" xml:id="note118">
-      <span data-class="paragraph" id="18fdd5a5-4385-4662-ace6-46644cb19f24" rend="left">
+      <span data-class="paragraph" id="18fdd5a5-4385-4662-ace6-46644cb19f24">
        <hi rend="italic">
         Зачеркнуто.:
        </hi>
@@ -5684,7 +5709,7 @@
       119
      </ref>
      <note index="false" xml:id="note119">
-      <span data-class="paragraph" id="f6c3d4b4-9ba5-4261-ba11-c35663a1b855" rend="left">
+      <span data-class="paragraph" id="f6c3d4b4-9ba5-4261-ba11-c35663a1b855">
        <hi rend="italic">
         Зач.: с
        </hi>
@@ -5765,7 +5790,7 @@
       120
      </ref>
      <note index="false" xml:id="note120">
-      <span data-class="paragraph" id="92d32e03-df65-4cec-87b2-32749cbe6365" rend="left">
+      <span data-class="paragraph" id="92d32e03-df65-4cec-87b2-32749cbe6365">
        <hi rend="italic">
         Зач.:
        </hi>
@@ -5778,7 +5803,7 @@
        положение
       </reg>
       <orig>
-       положенiе
+       положеніе
       </orig>
      </choice>
      . Она
@@ -5822,7 +5847,7 @@
        пенсионе
       </reg>
       <orig>
-       пенсiонѣ
+       пенсіонѣ
       </orig>
      </choice>
      , но я
@@ -5910,7 +5935,7 @@
       121
      </ref>
      <note index="false" xml:id="note121">
-      <span data-class="paragraph" id="5a14c722-a23a-4324-8dd8-b6f4d25cb50b" rend="left">
+      <span data-class="paragraph" id="5a14c722-a23a-4324-8dd8-b6f4d25cb50b">
        <hi rend="italic">
         Зач.:
        </hi>
@@ -6067,7 +6092,7 @@
        талией
       </reg>
       <orig>
-       талiей
+       таліей
       </orig>
      </choice>
      дочь. Она
@@ -6221,7 +6246,7 @@
      </choice>
      .
     </p>
-    <p id="b161c9f2-455a-4895-986d-1cf4bcb4cda8" rend="left">
+    <p id="b161c9f2-455a-4895-986d-1cf4bcb4cda8">
      — Что,
      <choice>
       <reg>
@@ -6245,7 +6270,7 @@
       122
      </ref>
      <note index="false" xml:id="note122">
-      <span data-class="paragraph" id="ea43c309-2c69-4ae6-94d4-1537ccd75c9d" rend="left">
+      <span data-class="paragraph" id="ea43c309-2c69-4ae6-94d4-1537ccd75c9d">
        <hi rend="italic">
         Зач.:
        </hi>
@@ -6253,7 +6278,7 @@
       </span>
      </note>
     </p>
-    <p id="2715d2bb-87f0-487b-89fd-6984576c4b4d" rend="left">
+    <p id="2715d2bb-87f0-487b-89fd-6984576c4b4d">
      — Божья воля.
      <choice>
       <reg>
@@ -6343,7 +6368,7 @@
      </choice>
      дверь.
     </p>
-    <p id="a044c350-fcef-45d8-bd86-93be66c6d06c" rend="left">
+    <p id="a044c350-fcef-45d8-bd86-93be66c6d06c">
      Я
      <choice>
       <reg>
@@ -6411,7 +6436,7 @@
       123
      </ref>
      <note index="false" xml:id="note123">
-      <span data-class="paragraph" id="701f6e3f-6b39-4314-a6c1-ad07d11d504b" rend="left">
+      <span data-class="paragraph" id="701f6e3f-6b39-4314-a6c1-ad07d11d504b">
        <hi rend="italic">
         Зач.:
        </hi>
@@ -6525,7 +6550,7 @@
      </note>
      —
     </p>
-    <p id="61a0c613-d296-4b13-ac14-bf6d4ef0e66b" rend="left">
+    <p id="61a0c613-d296-4b13-ac14-bf6d4ef0e66b">
      <choice>
       <reg>
        Вот
@@ -6536,20 +6561,20 @@
      </choice>
      эти записки.
     </p>
-    <p id="3413f779-eca5-4b7d-b9fe-2f47d0078605" rend="left">
+    <p id="3413f779-eca5-4b7d-b9fe-2f47d0078605">
      &lt;16 Декабря 1881.
      <ref target="#note124">
       124
      </ref>
      <note index="false" xml:id="note124">
-      <span data-class="paragraph" id="d2054078-529e-4516-9743-2c04c18ca1c1" rend="left">
+      <span data-class="paragraph" id="d2054078-529e-4516-9743-2c04c18ca1c1">
        <hi rend="italic">
         Цыфра 1 переделана из 2.
        </hi>
       </span>
      </note>
     </p>
-    <p id="dcac7c69-d4e0-4413-b4a6-4ad883281f3c" rend="left">
+    <p id="dcac7c69-d4e0-4413-b4a6-4ad883281f3c">
      6-ю ночь я не сплю и не
      <choice>
       <reg>
@@ -6572,7 +6597,7 @@
        страданий
       </reg>
       <orig>
-       страданiй
+       страданій
       </orig>
      </choice>
      . Они все таки давали
@@ -6598,7 +6623,7 @@
        страданий
       </reg>
       <orig>
-       страданiй
+       страданій
       </orig>
      </choice>
      <choice>
@@ -6676,7 +6701,7 @@
       125
      </ref>
      <note index="false" xml:id="note125">
-      <span data-class="paragraph" id="aaf0f98a-9427-46b7-98ee-63da0eab7ee8" rend="left">
+      <span data-class="paragraph" id="aaf0f98a-9427-46b7-98ee-63da0eab7ee8">
        <del>
         <del>
          какая то крошечная частица простой
@@ -6716,7 +6741,7 @@
       126
      </ref>
      <note index="false" xml:id="note126">
-      <span data-class="paragraph" id="16a3c675-c7cc-45c1-80f8-88e0de0d5ed2" rend="left">
+      <span data-class="paragraph" id="16a3c675-c7cc-45c1-80f8-88e0de0d5ed2">
        <del>
         отчего
        </del>
@@ -6754,7 +6779,7 @@
       127
      </ref>
      <note index="false" xml:id="note127">
-      <span data-class="paragraph" id="47608aa1-4ed5-48a6-9bf4-ed21d1140614" rend="left">
+      <span data-class="paragraph" id="47608aa1-4ed5-48a6-9bf4-ed21d1140614">
        <hi rend="italic">
         Зач.
        </hi>
@@ -6882,7 +6907,7 @@
       128
      </ref>
      <note index="false" xml:id="note128">
-      <span data-class="paragraph" id="03f84232-23d4-47af-b3bf-235fbaf1d2f0" rend="left">
+      <span data-class="paragraph" id="03f84232-23d4-47af-b3bf-235fbaf1d2f0">
        <hi rend="italic">
         3ач.:
        </hi>
@@ -6952,7 +6977,7 @@
      </choice>
      быть очнется.
     </p>
-    <p id="8089a9ab-e1c2-4b32-b115-9e588e9e6931" rend="left">
+    <p id="8089a9ab-e1c2-4b32-b115-9e588e9e6931">
      Начну сначала,
      <choice>
       <reg>
@@ -6973,7 +6998,7 @@
      </choice>
      со мной.&gt;
     </p>
-    <p id="822f50e3-b93c-40d8-8768-cd2cef7c0ac2" rend="left">
+    <p id="822f50e3-b93c-40d8-8768-cd2cef7c0ac2">
      Записки эти ужасны. Я
      <choice>
       <reg>
@@ -7084,7 +7109,7 @@
        прежний
       </reg>
       <orig>
-       прежнiй
+       прежній
       </orig>
      </choice>
      <choice>
@@ -7205,7 +7230,7 @@
        описание
       </reg>
       <orig>
-       описанiе
+       описаніе
       </orig>
      </choice>
      <choice>
@@ -7218,13 +7243,13 @@
      </choice>
      года жизни Ивана Ильича.
     </p>
-    <p id="d9f2f70e-23b7-4fa9-b0ab-0531fdbb23f6" rend="left">
+    <p id="d9f2f70e-23b7-4fa9-b0ab-0531fdbb23f6">
      <choice>
       <reg>
        История
       </reg>
       <orig>
-       Исторiя
+       Исторія
       </orig>
      </choice>
      эта и самая простая и обыкновенная и самая ужасная.
@@ -7238,7 +7263,7 @@
      </choice>
      она:
     </p>
-    <p id="bd962395-e342-4416-ba91-3edc952707aa" rend="left">
+    <p id="bd962395-e342-4416-ba91-3edc952707aa">
      <choice>
       <reg>
        Иван
@@ -7370,7 +7395,7 @@
        состояние
       </reg>
       <orig>
-       состоянiе
+       состояніе
       </orig>
      </choice>
      .
@@ -7413,7 +7438,7 @@
        старший
       </reg>
       <orig>
-       старшiй
+       старшій
       </orig>
      </choice>
      <choice>
@@ -7541,7 +7566,7 @@
        Правоведении
       </reg>
       <orig>
-       Правовѣденiи
+       Правовѣденіи
       </orig>
      </choice>
      ,
@@ -7682,7 +7707,7 @@
        тонкий
       </reg>
       <orig>
-       тонкiй
+       тонкій
       </orig>
      </choice>
      ,
@@ -7691,7 +7716,7 @@
        ловкий
       </reg>
       <orig>
-       ловкiй
+       ловкій
       </orig>
      </choice>
      <choice>
@@ -7716,7 +7741,7 @@
        протекции
       </reg>
       <orig>
-       протекцiи
+       протекціи
       </orig>
      </choice>
      отца
@@ -7749,7 +7774,7 @@
        поручений
       </reg>
       <orig>
-       порученiй
+       порученій
       </orig>
      </choice>
      <choice>
@@ -7766,7 +7791,7 @@
        губернии
       </reg>
       <orig>
-       губернiи
+       губерніи
       </orig>
      </choice>
      и высоко и весело
@@ -7869,7 +7894,7 @@
        провинции
       </reg>
       <orig>
-       провинцiи
+       провинціи
       </orig>
      </choice>
      .
@@ -8046,7 +8071,7 @@
       129
      </ref>
      <note index="false" xml:id="note129">
-      <span data-class="paragraph" id="69fceb1e-0d88-4533-b89d-2330b00b8f12" rend="left">
+      <span data-class="paragraph" id="69fceb1e-0d88-4533-b89d-2330b00b8f12">
        <del>
         <choice>
          <reg>
@@ -8124,7 +8149,7 @@
      </choice>
      , связь разорвалась.
     </p>
-    <p id="506aa8a3-8fe8-4b73-a997-1b6f1a4a121f" rend="left">
+    <p id="506aa8a3-8fe8-4b73-a997-1b6f1a4a121f">
      <choice>
       <reg>
        Перемена
@@ -8148,7 +8173,7 @@
        учреждения
       </reg>
       <orig>
-       учрежденiя
+       учрежденія
       </orig>
      </choice>
      . Нужны новые люди. Уже и
@@ -8235,7 +8260,7 @@
        короткий
       </reg>
       <orig>
-       короткiй
+       короткій
       </orig>
      </choice>
      .
@@ -8377,7 +8402,7 @@
       130
      </ref>
      <note index="false" xml:id="note130">
-      <span data-class="paragraph" id="2d8b19ff-f7ce-490d-9e40-9d34e718dca1" rend="left">
+      <span data-class="paragraph" id="2d8b19ff-f7ce-490d-9e40-9d34e718dca1">
        <del>
         <choice>
          <reg>
@@ -8395,7 +8420,7 @@
       131
      </ref>
      <note index="false" xml:id="note131">
-      <span data-class="paragraph" id="21a39ead-fbaf-4b94-949a-c66eec6fd1f9" rend="left">
+      <span data-class="paragraph" id="21a39ead-fbaf-4b94-949a-c66eec6fd1f9">
        <del>
         <choice>
          <reg>
@@ -8535,7 +8560,7 @@
        провинции
       </reg>
       <orig>
-       провинцiи
+       провинціи
       </orig>
      </choice>
      , прежде
@@ -8639,7 +8664,7 @@
        съуживающий
       </reg>
       <orig>
-       съуживающiй
+       съуживающій
       </orig>
      </choice>
      первый
@@ -8708,7 +8733,7 @@
        партию
       </reg>
       <orig>
-       партiю
+       партію
       </orig>
      </choice>
      , а это была
@@ -8717,7 +8742,7 @@
        партия
       </reg>
       <orig>
-       партiя
+       партія
       </orig>
      </choice>
      ниже средней.
@@ -8846,7 +8871,7 @@
        удовольствий
       </reg>
       <orig>
-       удовольствiй
+       удовольствій
       </orig>
      </choice>
      холостой жизни
@@ -8864,7 +8889,7 @@
        поэзия
       </reg>
       <orig>
-       поэзiя
+       поэзія
       </orig>
      </choice>
      . Но
@@ -8891,7 +8916,7 @@
        удовольствия
       </reg>
       <orig>
-       удовольствiя
+       удовольствія
       </orig>
      </choice>
      холостой жизни, даже самые невинные,
@@ -8926,7 +8951,7 @@
        поэзии
       </reg>
       <orig>
-       поэзiи
+       поэзіи
       </orig>
      </choice>
      очага
@@ -8943,7 +8968,7 @@
       132
      </ref>
      <note index="false" xml:id="note132">
-      <span data-class="paragraph" id="d28d7a22-53d3-4ebc-b816-4c42e67b4d70" rend="left">
+      <span data-class="paragraph" id="d28d7a22-53d3-4ebc-b816-4c42e67b4d70">
        <del>
         заботы
        </del>
@@ -8972,7 +8997,7 @@
        энергия
       </reg>
       <orig>
-       энергiя
+       энергія
       </orig>
      </choice>
      Ивана Ильича перешла на службу.
@@ -8996,7 +9021,7 @@
       133
      </ref>
      <note index="false" xml:id="note133">
-      <span data-class="paragraph" id="125f35ba-8abc-4c9c-93fc-4b7a0b92a407" rend="left">
+      <span data-class="paragraph" id="125f35ba-8abc-4c9c-93fc-4b7a0b92a407">
        <del>
         больше любить
        </del>
@@ -9034,7 +9059,7 @@
        обзаведение
       </reg>
       <orig>
-       обзаведенiе
+       обзаведеніе
       </orig>
      </choice>
      , жена стала укорять и требовать. И потому служба и
@@ -9043,7 +9068,7 @@
        честолюбие
       </reg>
       <orig>
-       честолюбiе
+       честолюбіе
       </orig>
      </choice>
      усилились еще
@@ -9120,7 +9145,7 @@
        неприятное
       </reg>
       <orig>
-       непрiятное
+       непріятное
       </orig>
      </choice>
      <choice>
@@ -9128,7 +9153,7 @@
        событие
       </reg>
       <orig>
-       событiе
+       событіе
       </orig>
      </choice>
      . Будучи уже
@@ -9199,7 +9224,7 @@
        назначении
       </reg>
       <orig>
-       назначенiи
+       назначеніи
       </orig>
      </choice>
      <choice>
@@ -9374,7 +9399,7 @@
       134
      </ref>
      <note index="false" xml:id="note134">
-      <span data-class="paragraph" id="53d75e41-7f02-4515-836b-0215fd87513b" rend="left">
+      <span data-class="paragraph" id="53d75e41-7f02-4515-836b-0215fd87513b">
        <del>
         <choice original_editorial_correction="непріятн[о]">
          <sic>
@@ -9386,7 +9411,7 @@
             неприятно
            </reg>
            <orig>
-            непрiятно
+            непріятно
            </orig>
           </choice>
          </corr>
@@ -9408,7 +9433,7 @@
        неприятность
       </reg>
       <orig>
-       непрiятность
+       непріятность
       </orig>
      </choice>
      <choice>
@@ -9459,7 +9484,7 @@
        бросил
       </reg>
       <orig>
-       бросiлъ
+       бросілъ
       </orig>
      </choice>
      все и
@@ -9513,7 +9538,7 @@
        неприятные
       </reg>
       <orig>
-       непрiятные
+       непріятные
       </orig>
      </choice>
      . Жалованья было больше, но жизнь дороже,
@@ -9600,7 +9625,7 @@
        Повышения
       </reg>
       <orig>
-       Повышенiя
+       Повышенія
       </orig>
      </choice>
      и перехода
@@ -9652,7 +9677,7 @@
        Положение
       </reg>
       <orig>
-       Положенiе
+       Положеніе
       </orig>
      </choice>
      было дурное со
@@ -9771,7 +9796,7 @@
        юстиции
       </reg>
       <orig>
-       юстицiи
+       юстиціи
       </orig>
      </choice>
      на
@@ -9815,7 +9840,7 @@
       135
      </ref>
      <note index="false" xml:id="note135">
-      <span data-class="paragraph" id="992c7560-b054-41f0-afa2-af90426dfc42" rend="left">
+      <span data-class="paragraph" id="992c7560-b054-41f0-afa2-af90426dfc42">
        <del>
         <choice>
          <reg>
@@ -9887,7 +9912,7 @@
        энергия
       </reg>
       <orig>
-       энергiя
+       энергія
       </orig>
      </choice>
      и счастье, и стало все понемногу устроиваться.
@@ -9913,7 +9938,7 @@
        история
       </reg>
       <orig>
-       исторiя
+       исторія
       </orig>
      </choice>
      <choice>
@@ -9935,7 +9960,7 @@
      </choice>
      .
     </p>
-    <p id="e948f8fa-ba5e-45dd-8d50-319c286e5871" rend="left">
+    <p id="e948f8fa-ba5e-45dd-8d50-319c286e5871">
      <choice>
       <reg>
        В
@@ -9956,7 +9981,7 @@
       136
      </ref>
      <note index="false" xml:id="note136">
-      <span data-class="paragraph" id="669c7238-27c8-474a-af33-a7c6adc9de89" rend="left">
+      <span data-class="paragraph" id="669c7238-27c8-474a-af33-a7c6adc9de89">
        <del>
         сентября
        </del>
@@ -10026,13 +10051,13 @@
      </choice>
      дочерью.
     </p>
-    <p id="b0851a77-a715-4de2-b453-ea839072ae94" rend="left">
+    <p id="b0851a77-a715-4de2-b453-ea839072ae94">
      <choice>
       <reg>
        Отношения
       </reg>
       <orig>
-       Отношенiя
+       Отношенія
       </orig>
      </choice>
      Прасковьи
@@ -10064,7 +10089,7 @@
       137
      </ref>
      <note index="false" xml:id="note137">
-      <span data-class="paragraph" id="3dbbf348-c8bf-480f-b592-f4518df77bf8" rend="left">
+      <span data-class="paragraph" id="3dbbf348-c8bf-480f-b592-f4518df77bf8">
        <del>
         <del>
          брата
@@ -10283,7 +10308,7 @@
       138
      </ref>
      <note index="false" xml:id="note138">
-      <span data-class="paragraph" id="a3e66c2b-e1a8-4053-980e-1f852fb33d21" rend="left">
+      <span data-class="paragraph" id="a3e66c2b-e1a8-4053-980e-1f852fb33d21">
        <del>
         <choice>
          <reg>
@@ -10316,7 +10341,7 @@
       </span>
      </note>
     </p>
-    <p id="8c26ca23-adc8-4ae6-8277-fb8c22c9a96e" rend="left">
+    <p id="8c26ca23-adc8-4ae6-8277-fb8c22c9a96e">
      — Несносно.
      <choice>
       <reg>
@@ -10341,15 +10366,15 @@
        претензии
       </reg>
       <orig>
-       претензiи
+       претензіи
       </orig>
      </choice>
      !
     </p>
-    <p id="c18cf262-4da2-4a71-a81e-c224badc1b66" rend="left">
+    <p id="c18cf262-4da2-4a71-a81e-c224badc1b66">
      — Да ну, чтоже, теперь уже недолго.
     </p>
-    <p id="4705c9a4-180c-443b-b22f-200019a5aa99" rend="left">
+    <p id="4705c9a4-180c-443b-b22f-200019a5aa99">
      — Недолго! Я конца не вижу этому. Очевидно,
      <choice>
       <reg>
@@ -10439,7 +10464,7 @@
      </choice>
      . А мы неси все это.
     </p>
-    <p id="62d6dc9e-5ed9-4914-a51d-3b6da3fe3bcc" rend="left">
+    <p id="62d6dc9e-5ed9-4914-a51d-3b6da3fe3bcc">
      <pb n="513"/>
      <choice>
       <reg>
@@ -10472,7 +10497,7 @@
       139
      </ref>
      <note index="false" xml:id="note139">
-      <span data-class="paragraph" id="67726f19-f4f7-44ab-9a38-f4be7325f258" rend="left">
+      <span data-class="paragraph" id="67726f19-f4f7-44ab-9a38-f4be7325f258">
        <choice original_editorial_correction="[проказа, в переносном смысле: скупость, скряжничество.]">
         <sic/>
         <corr>
@@ -10632,7 +10657,7 @@
       140
      </ref>
      <note index="false" xml:id="note140">
-      <span data-class="paragraph" id="9b7e9a00-d349-460f-968b-3856e331d347" rend="left">
+      <span data-class="paragraph" id="9b7e9a00-d349-460f-968b-3856e331d347">
        <del>
         чтобы испытать Jean
        </del>
@@ -10669,7 +10694,7 @@
       141
      </ref>
      <note index="false" xml:id="note141">
-      <span data-class="paragraph" id="902c6308-cc90-4716-9c4c-9782826fe55f" rend="left">
+      <span data-class="paragraph" id="902c6308-cc90-4716-9c4c-9782826fe55f">
        <del>
         Jean
        </del>
@@ -10814,7 +10839,7 @@
       142
      </ref>
      <note index="false" xml:id="note142">
-      <span data-class="paragraph" id="81c4b5a0-38bb-45f5-95dd-921c071d23e9" rend="left">
+      <span data-class="paragraph" id="81c4b5a0-38bb-45f5-95dd-921c071d23e9">
        <del>
         Jean
        </del>
@@ -10850,7 +10875,7 @@
       143
      </ref>
      <note index="false" xml:id="note143">
-      <span data-class="paragraph" id="6a05f5e0-05c6-4c7f-b0bb-875a57f1a889" rend="left">
+      <span data-class="paragraph" id="6a05f5e0-05c6-4c7f-b0bb-875a57f1a889">
        <del>
         на каменной
         <choice>
@@ -11142,7 +11167,7 @@
        пребывание
       </reg>
       <orig>
-       пребыванiе
+       пребываніе
       </orig>
      </choice>
      <choice>
@@ -11175,7 +11200,7 @@
       144
      </ref>
      <note index="false" xml:id="note144">
-      <span data-class="paragraph" id="e54491d6-dc2b-400c-8c09-d9d5928b56cb" rend="left">
+      <span data-class="paragraph" id="e54491d6-dc2b-400c-8c09-d9d5928b56cb">
        <del>
         гордый
        </del>
@@ -11230,7 +11255,7 @@
        отношениях
       </reg>
       <orig>
-       отношенiяхъ
+       отношеніяхъ
       </orig>
      </choice>
      <choice>
@@ -11263,7 +11288,7 @@
        презрения
       </reg>
       <orig>
-       презрѣнiя
+       презрѣнія
       </orig>
      </choice>
      , а
@@ -11303,7 +11328,7 @@
      </choice>
      ничего.
     </p>
-    <p id="4f04e3ff-0f0b-4500-a7d0-50437ba0aeda" rend="left">
+    <p id="4f04e3ff-0f0b-4500-a7d0-50437ba0aeda">
      <choice>
       <reg>
        В
@@ -11334,7 +11359,7 @@
        отчаянии
       </reg>
       <orig>
-       отчаянiи
+       отчаяніи
       </orig>
      </choice>
      <choice>
@@ -11449,7 +11474,7 @@
       145
      </ref>
      <note index="false" xml:id="note145">
-      <span data-class="paragraph" id="30e823a9-32f3-4361-a6a7-a58f93a008fd" rend="left">
+      <span data-class="paragraph" id="30e823a9-32f3-4361-a6a7-a58f93a008fd">
        <del>
         добиться
        </del>
@@ -11496,7 +11521,7 @@
        направления
       </reg>
       <orig>
-       направленiя
+       направленія
       </orig>
      </choice>
      , рода
@@ -11609,7 +11634,7 @@
        юстиции
       </reg>
       <orig>
-       юстицiи
+       юстиціи
       </orig>
      </choice>
      , то по
@@ -11618,7 +11643,7 @@
        администрации
       </reg>
       <orig>
-       администрацiи
+       администраціи
       </orig>
      </choice>
      , по
@@ -11655,7 +11680,7 @@
        </name>
       </reg>
       <orig>
-       Марiи
+       Маріи
       </orig>
      </choice>
      , даже таможни — но 7
@@ -11698,7 +11723,7 @@
       146
      </ref>
      <note index="false" xml:id="note146">
-      <span data-class="paragraph" id="b577e2b5-efb5-461e-9316-d32cd3ccf5f6" rend="left">
+      <span data-class="paragraph" id="b577e2b5-efb5-461e-9316-d32cd3ccf5f6">
        <del>
         свою
         <choice>
@@ -11829,7 +11854,7 @@
       147
      </ref>
      <note index="false" xml:id="note147">
-      <span data-class="paragraph" id="11944c62-4e34-44a0-8bd9-0105eea1be4b" rend="left">
+      <span data-class="paragraph" id="11944c62-4e34-44a0-8bd9-0105eea1be4b">
        <del>
         <choice>
          <reg>
@@ -11859,7 +11884,7 @@
       148
      </ref>
      <note index="false" xml:id="note148">
-      <span data-class="paragraph" id="f9c08b59-5502-487d-86e3-5dd76cc4567c" rend="left">
+      <span data-class="paragraph" id="f9c08b59-5502-487d-86e3-5dd76cc4567c">
        <choice original_editorial_correction="[Он поехал навестить моего бедного свекра. Он до старости не доживет. И Jean был всегда его любимец.]">
         <sic/>
         <corr>
@@ -12207,7 +12232,7 @@
        какие
       </reg>
       <orig>
-       какiе
+       какіе
       </orig>
      </choice>
      и
@@ -12216,7 +12241,7 @@
        какие
       </reg>
       <orig>
-       какiе
+       какіе
       </orig>
      </choice>
      <choice>
@@ -12224,7 +12249,7 @@
        последствия
       </reg>
       <orig>
-       послѣдствiя
+       послѣдствія
       </orig>
      </choice>
      <choice>
@@ -12241,7 +12266,7 @@
        России
       </reg>
       <orig>
-       Россiи
+       Россіи
       </orig>
      </choice>
      <choice>
@@ -12293,7 +12318,7 @@
        России
       </reg>
       <orig>
-       Россiи
+       Россіи
       </orig>
      </choice>
      ,
@@ -12344,7 +12369,7 @@
        соображении
       </reg>
       <orig>
-       соображенiи
+       соображеніи
       </orig>
      </choice>
      <choice>
@@ -12352,7 +12377,7 @@
        последствий
       </reg>
       <orig>
-       послѣдствiй
+       послѣдствій
       </orig>
      </choice>
      <choice>
@@ -12369,7 +12394,7 @@
        получения
       </reg>
       <orig>
-       полученiя
+       полученія
       </orig>
      </choice>
      <choice>
@@ -12429,7 +12454,7 @@
        благоприятна
       </reg>
       <orig>
-       благопрiятна
+       благопріятна
       </orig>
      </choice>
      для Ивана Ильича.
@@ -12497,7 +12522,7 @@
        известие
       </reg>
       <orig>
-       извѣстiе
+       извѣстіе
       </orig>
      </choice>
      подтвердилось. A
@@ -12556,7 +12581,7 @@
        обещание
       </reg>
       <orig>
-       обѣщанiе
+       обѣщаніе
       </orig>
      </choice>
      <choice>
@@ -12681,12 +12706,12 @@
        назначение
       </reg>
       <orig>
-       назначенiе
+       назначеніе
       </orig>
      </choice>
      Москву».
     </p>
-    <p id="5aedf9ef-7c70-407c-9ee8-b8f049d750ca" rend="left">
+    <p id="5aedf9ef-7c70-407c-9ee8-b8f049d750ca">
      <choice>
       <reg>
        Все
@@ -12700,7 +12725,7 @@
        ожидания
       </reg>
       <orig>
-       ожиданiя
+       ожиданія
       </orig>
      </choice>
      Ивана Ильича оправдались.
@@ -12725,7 +12750,7 @@
        назначение
       </reg>
       <orig>
-       назначенiе
+       назначеніе
       </orig>
      </choice>
      то, которое даже уже не
@@ -12752,7 +12777,7 @@
        назначение
       </reg>
       <orig>
-       назначенiе
+       назначеніе
       </orig>
      </choice>
      ,
@@ -12826,7 +12851,7 @@
      </choice>
      3500.
     </p>
-    <p id="ea76923e-428d-4670-a153-5cfda211bd78" rend="left">
+    <p id="ea76923e-428d-4670-a153-5cfda211bd78">
      <choice>
       <reg>
        Как
@@ -12876,7 +12901,7 @@
        известия
       </reg>
       <orig>
-       извѣстiя
+       извѣстія
       </orig>
      </choice>
      <choice>
@@ -13038,7 +13063,7 @@
        провинции
       </reg>
       <orig>
-       провинцiи
+       провинціи
       </orig>
      </choice>
      , была не такая, при которой бы можно было
@@ -13098,7 +13123,7 @@
        затруднение
       </reg>
       <orig>
-       затрудненiе
+       затрудненіе
       </orig>
      </choice>
      .
@@ -13156,7 +13181,7 @@
        назначения
       </reg>
       <orig>
-       назначенiя
+       назначенія
       </orig>
      </choice>
      своего сына. У старика ничего не было,
@@ -13173,7 +13198,7 @@
        пенсии
       </reg>
       <orig>
-       пенсiи
+       пенсіи
       </orig>
      </choice>
      <choice>
@@ -13245,7 +13270,7 @@
        Акции
       </reg>
       <orig>
-       Акцiи
+       Акціи
       </orig>
      </choice>
      и билеты поровну
@@ -13286,7 +13311,7 @@
      </choice>
      ».
     </p>
-    <p id="9b5b8404-24d9-4d8a-a307-21c4d35cb211" rend="left">
+    <p id="9b5b8404-24d9-4d8a-a307-21c4d35cb211">
      — Я очень рада за Jean, — говорила Прасковья
      <choice>
       <reg>
@@ -13324,7 +13349,7 @@
      </choice>
      траура.
     </p>
-    <p id="b57cfec5-ab43-458b-ae71-d5dc1ed5bf68" rend="left">
+    <p id="b57cfec5-ab43-458b-ae71-d5dc1ed5bf68">
      <choice>
       <reg>
        Так
@@ -13364,7 +13389,7 @@
        положения
       </reg>
       <orig>
-       положенiя
+       положенія
       </orig>
      </choice>
      <choice>
@@ -13415,12 +13440,12 @@
        приятное
       </reg>
       <orig>
-       прiятное
+       пріятное
       </orig>
      </choice>
      .
     </p>
-    <p id="8cdaaf15-13b5-44e2-9277-b018fcab61d0" rend="left">
+    <p id="8cdaaf15-13b5-44e2-9277-b018fcab61d0">
      Когда
      <choice>
       <reg>
@@ -13557,7 +13582,7 @@
        положение
       </reg>
       <orig>
-       положенiе
+       положеніе
       </orig>
      </choice>
      , в особенности
@@ -13686,7 +13711,7 @@
        другие
       </reg>
       <orig>
-       другiе
+       другіе
       </orig>
      </choice>
      особенно
@@ -13789,7 +13814,7 @@
        пребывание
       </reg>
       <orig>
-       пребыванiе
+       пребываніе
       </orig>
      </choice>
      <choice>
@@ -13806,7 +13831,7 @@
        приятное
       </reg>
       <orig>
-       прiятное
+       пріятное
       </orig>
      </choice>
      . —
@@ -13815,7 +13840,7 @@
        Отношения
       </reg>
       <orig>
-       Отношенiя
+       Отношенія
       </orig>
      </choice>
      <choice>
@@ -13898,7 +13923,7 @@
      </choice>
      , и уже ими нетолько не тяготились, а ухаживали за ними, стараясь загладить прошедшее.
     </p>
-    <p id="b4c00b48-eeb0-4826-9619-f78bb87c559b" rend="left">
+    <p id="b4c00b48-eeb0-4826-9619-f78bb87c559b">
      <choice>
       <reg>
        Иван
@@ -13963,7 +13988,7 @@
        провинции
       </reg>
       <orig>
-       провинцiи
+       провинціи
       </orig>
      </choice>
      ,
@@ -14252,7 +14277,7 @@
        рассияла
       </reg>
       <orig>
-       разсiяла
+       разсіяла
       </orig>
      </choice>
      , бросила кокетничать
@@ -14275,7 +14300,7 @@
      </choice>
      .
     </p>
-    <p id="7cd29ccd-f327-407d-9853-20fe4aafbc54" rend="left">
+    <p id="7cd29ccd-f327-407d-9853-20fe4aafbc54">
      <choice>
       <reg>
        Иван
@@ -14316,7 +14341,7 @@
        настояния
       </reg>
       <orig>
-       настоянiя
+       настоянія
       </orig>
      </choice>
      сестры и зятя: «
@@ -14490,12 +14515,12 @@
        расположение
       </reg>
       <orig>
-       расположенiе
+       расположеніе
       </orig>
      </choice>
      духа и удача, одно усиливающее другое, все время не оставляли его.
     </p>
-    <p id="77cdfbda-5edc-4b65-b387-95edd59da460" rend="left">
+    <p id="77cdfbda-5edc-4b65-b387-95edd59da460">
      Нашлась квартира прелестная — то самое, что мечтали
      <choice>
       <reg>
@@ -14519,7 +14544,7 @@
        широкие
       </reg>
       <orig>
-       широкiе
+       широкіе
       </orig>
      </choice>
      ,
@@ -14528,7 +14553,7 @@
        высокие
       </reg>
       <orig>
-       высокiе
+       высокіе
       </orig>
      </choice>
      ,
@@ -14561,7 +14586,7 @@
        приемные
       </reg>
       <orig>
-       прiемныя
+       пріемныя
       </orig>
      </choice>
      <pb n="516"/>
@@ -14607,7 +14632,7 @@
        грандиозно
       </reg>
       <orig>
-       грандiозно
+       грандіозно
       </orig>
      </choice>
      , но не ново.
@@ -14762,7 +14787,7 @@
        широкий
       </reg>
       <orig>
-       широкiй
+       широкій
       </orig>
      </choice>
      <choice>
@@ -14901,7 +14926,7 @@
        отцовские
       </reg>
       <orig>
-       отцовскiе
+       отцовскіе
       </orig>
      </choice>
      бронзы, когда они
@@ -14988,7 +15013,7 @@
        отцовския
       </reg>
       <orig>
-       отцовскiя
+       отцовскія
       </orig>
      </choice>
      вещи.
@@ -15030,7 +15055,7 @@
        свидании
       </reg>
       <orig>
-       свиданiи
+       свиданіи
       </orig>
      </choice>
      нарочно
@@ -15126,7 +15151,7 @@
        заседаниях
       </reg>
       <orig>
-       засѣданiяхъ
+       засѣданіяхъ
       </orig>
      </choice>
      у него бывали минуты
@@ -15162,7 +15187,7 @@
        какие
       </reg>
       <orig>
-       какiе
+       какіе
       </orig>
      </choice>
      карнизы на гардины, прямые или подобранные.
@@ -15243,7 +15268,7 @@
      </choice>
      гардины.
     </p>
-    <p id="28387820-e0f9-4c5c-b01e-3fa93aebcece" rend="left">
+    <p id="28387820-e0f9-4c5c-b01e-3fa93aebcece">
      <choice>
       <reg>
        Раз
@@ -15273,7 +15298,7 @@
       149
      </ref>
      <note index="false" xml:id="note149">
-      <span data-class="paragraph" id="756d8d8f-ad91-42ed-b8a7-faaa3c06adbe" rend="left">
+      <span data-class="paragraph" id="756d8d8f-ad91-42ed-b8a7-faaa3c06adbe">
        <del>
         <choice>
          <reg>
@@ -15324,7 +15349,7 @@
       150
      </ref>
      <note index="false" xml:id="note150">
-      <span data-class="paragraph" id="7ed93434-e35d-4144-8bda-6351fd270503" rend="left">
+      <span data-class="paragraph" id="7ed93434-e35d-4144-8bda-6351fd270503">
        <del>
         и
         <choice original_editorial_correction="поскол[ьзнулся]">
@@ -15362,7 +15387,7 @@
        ловкий
       </reg>
       <orig>
-       ловкiй
+       ловкій
       </orig>
      </choice>
      <choice>
@@ -15490,7 +15515,7 @@
      </choice>
      когда нибудь.
     </p>
-    <p id="4d982665-f60b-4820-be69-7818879b6b32" rend="left">
+    <p id="4d982665-f60b-4820-be69-7818879b6b32">
      <choice>
       <reg>
        Он
@@ -15618,7 +15643,7 @@
        помещение
       </reg>
       <orig>
-       помѣщенiе
+       помѣщеніе
       </orig>
      </choice>
      , оно было уже обжито, и теперь, зная, сколько
@@ -15626,7 +15651,7 @@
       151
      </ref>
      <note index="false" xml:id="note151">
-      <span data-class="paragraph" id="58476a51-5bbb-4815-95ff-55a97f2cae9a" rend="left">
+      <span data-class="paragraph" id="58476a51-5bbb-4815-95ff-55a97f2cae9a">
        <del>
         радости
        </del>
@@ -15736,7 +15761,7 @@
        внимание
       </reg>
       <orig>
-       вниманiе
+       вниманіе
       </orig>
      </choice>
      , потому что
@@ -15768,7 +15793,7 @@
      </choice>
      заняло всего его.
     </p>
-    <p id="fa64fe7d-7a74-4844-b237-08a9c8a5a575" rend="left">
+    <p id="fa64fe7d-7a74-4844-b237-08a9c8a5a575">
      <pb n="517"/>
      Когда
      <choice>
@@ -15802,7 +15827,7 @@
        станции
       </reg>
       <orig>
-       станцiи
+       станціи
       </orig>
      </choice>
      <choice>
@@ -15930,7 +15955,7 @@
        удовольствия
       </reg>
       <orig>
-       удовольствiя
+       удовольствія
       </orig>
      </choice>
      ,
@@ -15954,7 +15979,7 @@
       152
      </ref>
      <note index="false" xml:id="note152">
-      <span data-class="paragraph" id="b07fa1b9-892b-43d5-a797-47f1c74215b3" rend="left">
+      <span data-class="paragraph" id="b07fa1b9-892b-43d5-a797-47f1c74215b3">
        <del>
         <choice>
          <reg>
@@ -16033,7 +16058,7 @@
        сиял
       </reg>
       <orig>
-       сiялъ
+       сіялъ
       </orig>
      </choice>
      <choice>
@@ -16049,12 +16074,12 @@
        удовольствия
       </reg>
       <orig>
-       удовольствiя
+       удовольствія
       </orig>
      </choice>
      .
     </p>
-    <p id="c9806ec4-b7ae-49ce-adb3-9d4e44cb10f2" rend="left">
+    <p id="c9806ec4-b7ae-49ce-adb3-9d4e44cb10f2">
      <choice>
       <reg>
        В
@@ -16113,7 +16138,7 @@
        падении
       </reg>
       <orig>
-       паденiи
+       паденіи
       </orig>
      </choice>
      , спросила его,
@@ -16121,7 +16146,7 @@
       153
      </ref>
      <note index="false" xml:id="note153">
-      <span data-class="paragraph" id="86da2ff1-299a-41d2-adec-3a39aabae293" rend="left">
+      <span data-class="paragraph" id="86da2ff1-299a-41d2-adec-3a39aabae293">
        <del>
         <choice original_editorial_correction="боли[тъ]">
          <sic>
@@ -16169,7 +16194,7 @@
      </choice>
      , что нисколько.
     </p>
-    <p id="885f9a84-ced7-4f53-9d08-8c60fd66e2af" rend="left">
+    <p id="885f9a84-ced7-4f53-9d08-8c60fd66e2af">
      — Я не
      <choice>
       <reg>
@@ -16224,7 +16249,7 @@
      </choice>
      .
     </p>
-    <p id="e4906078-22db-459e-adaa-065e33c50b2b" rend="left">
+    <p id="e4906078-22db-459e-adaa-065e33c50b2b">
      —
      <choice>
       <reg>
@@ -16294,7 +16319,7 @@
      </choice>
      .
     </p>
-    <p id="68f2e4ca-f241-4fd1-8f90-11e7283f1145" rend="left">
+    <p id="68f2e4ca-f241-4fd1-8f90-11e7283f1145">
      — Да папа
      <choice>
       <reg>
@@ -16314,7 +16339,7 @@
      </choice>
      . Прелесть.
     </p>
-    <p id="b5c61f96-ef1d-4a7a-a45a-de269399c2e8" rend="left">
+    <p id="b5c61f96-ef1d-4a7a-a45a-de269399c2e8">
      И они начали жить
      <choice>
       <reg>
@@ -16337,7 +16362,7 @@
        помещении
       </reg>
       <orig>
-       помѣщенiи
+       помѣщеніи
       </orig>
      </choice>
      <choice>
@@ -16362,7 +16387,7 @@
       154
      </ref>
      <note index="false" xml:id="note154">
-      <span data-class="paragraph" id="872ee9fc-edf7-41af-b4fd-e9b34acdd421" rend="left">
+      <span data-class="paragraph" id="872ee9fc-edf7-41af-b4fd-e9b34acdd421">
        <del>
         Если и отправляло
        </del>
@@ -16373,7 +16398,7 @@
       155
      </ref>
      <note index="false" xml:id="note155">
-      <span data-class="paragraph" id="825e0288-90c2-4a89-9f97-24ed0eb05297" rend="left">
+      <span data-class="paragraph" id="825e0288-90c2-4a89-9f97-24ed0eb05297">
        <del>
         <choice original_editorial_correction="подстро[ивать]">
          <sic>
@@ -16406,13 +16431,13 @@
      </choice>
      знакомства и привычки, и жизнь наполнилась.
     </p>
-    <p id="3a7dfee3-cc03-4092-a24c-7f3ff7981991" rend="left">
+    <p id="3a7dfee3-cc03-4092-a24c-7f3ff7981991">
      <choice>
       <reg>
        Расположение
       </reg>
       <orig>
-       Расположенiе
+       Расположеніе
       </orig>
      </choice>
      духа Ивана Ильича было хорошо; хотя и страдало немного именно
@@ -16429,7 +16454,7 @@
        помещения
       </reg>
       <orig>
-       помѣщенiя
+       помѣщенія
       </orig>
      </choice>
      . Всякое пятно на скатерть, на
@@ -16474,7 +16499,7 @@
        разрушение
       </reg>
       <orig>
-       разрушенiе
+       разрушеніе
       </orig>
      </choice>
      . Но вообще жизнь Ивана Ильича казалась ему совершенно полною,
@@ -16483,7 +16508,7 @@
        приятною
       </reg>
       <orig>
-       прiятною
+       пріятною
       </orig>
      </choice>
      и хорошею.
@@ -16687,7 +16712,7 @@
        канцелярии
       </reg>
       <orig>
-       канцелярiи
+       канцеляріи
       </orig>
      </choice>
      , сама
@@ -16696,7 +16721,7 @@
        канцелярия
       </reg>
       <orig>
-       канцелярiя
+       канцелярія
       </orig>
      </choice>
      ,
@@ -16705,7 +16730,7 @@
        заседания
       </reg>
       <orig>
-       засѣданiя
+       засѣданія
       </orig>
      </choice>
      <choice>
@@ -16765,7 +16790,7 @@
       156
      </ref>
      <note index="false" xml:id="note156">
-      <span data-class="paragraph" id="172b20d2-e931-498c-89ee-dcbe88945c72" rend="left">
+      <span data-class="paragraph" id="172b20d2-e931-498c-89ee-dcbe88945c72">
        <del>
         на все были формы,
         <choice>
@@ -16773,7 +16798,7 @@
           приемы
          </reg>
          <orig>
-          прiемы
+          пріемы
          </orig>
         </choice>
         , законы.
@@ -16803,7 +16828,7 @@
        отношений
       </reg>
       <orig>
-       отношенiй
+       отношеній
       </orig>
      </choice>
      помимо
@@ -16837,7 +16862,7 @@
        отношениям
       </reg>
       <orig>
-       отношенiямъ
+       отношеніямъ
       </orig>
      </choice>
      <choice>
@@ -16870,7 +16895,7 @@
        отношения
       </reg>
       <orig>
-       отношенiя
+       отношенія
       </orig>
      </choice>
      только
@@ -16989,7 +17014,7 @@
        отношений
       </reg>
       <orig>
-       отношенiй
+       отношеній
       </orig>
      </choice>
      ни
@@ -17016,7 +17041,7 @@
        отношение
       </reg>
       <orig>
-       отношенiе
+       отношеніе
       </orig>
      </choice>
      этого
@@ -17100,7 +17125,7 @@
        отношений
       </reg>
       <orig>
-       отношенiй
+       отношеній
       </orig>
      </choice>
      <choice>
@@ -17159,7 +17184,7 @@
        подобие
       </reg>
       <orig>
-       подобiе
+       подобіе
       </orig>
      </choice>
      <choice>
@@ -17183,7 +17208,7 @@
        отношений
       </reg>
       <orig>
-       отношенiй
+       отношеній
       </orig>
      </choice>
      .
@@ -17201,7 +17226,7 @@
        отношение
       </reg>
       <orig>
-       отношенiе
+       отношеніе
       </orig>
      </choice>
      служебное,
@@ -17227,7 +17252,7 @@
        умением
       </reg>
       <orig>
-       умѣнiемъ
+       умѣніемъ
       </orig>
      </choice>
      <choice>
@@ -17388,7 +17413,7 @@
        отношение
       </reg>
       <orig>
-       отношенiе
+       отношеніе
       </orig>
      </choice>
      .
@@ -17473,7 +17498,7 @@
        мгновение
       </reg>
       <orig>
-       мгновенiе
+       мгновеніе
       </orig>
      </choice>
      опять
@@ -17509,7 +17534,7 @@
        приятно
       </reg>
       <orig>
-       прiятно
+       пріятно
       </orig>
      </choice>
      , потому что виртуозно.
@@ -17542,7 +17567,7 @@
        курения
       </reg>
       <orig>
-       куренiя
+       куренія
       </orig>
      </choice>
      <choice>
@@ -17594,7 +17619,7 @@
        назначениях
       </reg>
       <orig>
-       назначенiяхъ
+       назначеніяхъ
       </orig>
      </choice>
      . И усталый, но
@@ -17629,7 +17654,7 @@
        партию
       </reg>
       <orig>
-       партiю
+       партію
       </orig>
      </choice>
      , одну
@@ -17770,7 +17795,7 @@
      </choice>
      .
     </p>
-    <p id="bbe41254-3f53-44d5-a024-895eac469539" rend="left">
+    <p id="bbe41254-3f53-44d5-a024-895eac469539">
      <choice>
       <reg>
        После
@@ -17881,7 +17906,7 @@
        показания
       </reg>
       <orig>
-       показанiя
+       показанія
       </orig>
      </choice>
      и
@@ -17946,13 +17971,13 @@
      </choice>
      женой.
     </p>
-    <p id="240f993d-72d1-441a-a701-d34b46762459" rend="left">
+    <p id="240f993d-72d1-441a-a701-d34b46762459">
      <choice>
       <reg>
        Удовольствия
       </reg>
       <orig>
-       Удовольствiя
+       Удовольствія
       </orig>
      </choice>
      же Ивана Ильича были
@@ -17969,7 +17994,7 @@
        маленькие
       </reg>
       <orig>
-       маленькiе
+       маленькіе
       </orig>
      </choice>
      , на которые
@@ -18011,7 +18036,7 @@
        положению
       </reg>
       <orig>
-       положенiю
+       положенію
       </orig>
      </choice>
      <choice>
@@ -18037,7 +18062,7 @@
        времяпрепровождение
       </reg>
       <orig>
-       времяпрепровожденiе
+       времяпрепровожденіе
       </orig>
      </choice>
      <choice>
@@ -18054,7 +18079,7 @@
        препровождение
       </reg>
       <orig>
-       препровожденiе
+       препровожденіе
       </orig>
      </choice>
      времени
@@ -18263,7 +18288,7 @@
        неприятная
       </reg>
       <orig>
-       непрiятная
+       непріятная
       </orig>
      </choice>
      ,
@@ -18417,7 +18442,7 @@
        учреждением
       </reg>
       <orig>
-       учрежденiемъ
+       учрежденіемъ
       </orig>
      </choice>
      находящагося
@@ -18452,7 +18477,7 @@
        самолюбия
       </reg>
       <orig>
-       самолюбiя
+       самолюбія
       </orig>
      </choice>
      , радости
@@ -18470,7 +18495,7 @@
        тщеславия
       </reg>
       <orig>
-       тщеславiя
+       тщеславія
       </orig>
      </choice>
      . Но
@@ -18479,7 +18504,7 @@
        настоящия
       </reg>
       <orig>
-       настоящiя
+       настоящія
       </orig>
      </choice>
      радости Ивана Ильича были радости игры
@@ -18505,7 +18530,7 @@
       157
      </ref>
      <note index="false" xml:id="note157">
-      <span data-class="paragraph" id="efefbf0e-440e-46c3-a81f-aeafa0d0956f" rend="left">
+      <span data-class="paragraph" id="efefbf0e-440e-46c3-a81f-aeafa0d0956f">
        <del>
         <choice>
          <reg>
@@ -18558,7 +18583,7 @@
        событий
       </reg>
       <orig>
-       событiй
+       событій
       </orig>
      </choice>
      <choice>
@@ -18692,7 +18717,7 @@
       158
      </ref>
      <note index="false" xml:id="note158">
-      <span data-class="paragraph" id="21e56569-0f10-4553-bce4-8c816d8a8b5d" rend="left">
+      <span data-class="paragraph" id="21e56569-0f10-4553-bce4-8c816d8a8b5d">
        <del>
         <choice>
          <reg>
@@ -18710,7 +18735,7 @@
       159
      </ref>
      <note index="false" xml:id="note159">
-      <span data-class="paragraph" id="a41fc08c-f48f-469b-938d-23bdd5eb52c3" rend="left">
+      <span data-class="paragraph" id="a41fc08c-f48f-469b-938d-23bdd5eb52c3">
        <del>
         играть
        </del>
@@ -18760,7 +18785,7 @@
      </choice>
      .
     </p>
-    <p id="615cd6ea-cbb8-4b52-a9ca-5df350404830" rend="left">
+    <p id="615cd6ea-cbb8-4b52-a9ca-5df350404830">
      Поужинать, выпить
      <choice>
       <reg>
@@ -18810,7 +18835,7 @@
        неприятно
       </reg>
       <orig>
-       непрiятно
+       непріятно
       </orig>
      </choice>
      ),
@@ -18853,12 +18878,12 @@
        расположении
       </reg>
       <orig>
-       расположенiи
+       расположеніи
       </orig>
      </choice>
      духа.
     </p>
-    <p id="352934de-f371-4527-bbe8-be0cfe3453e0" rend="left">
+    <p id="352934de-f371-4527-bbe8-be0cfe3453e0">
      <choice>
       <reg>
        Так
@@ -18872,7 +18897,7 @@
       160
      </ref>
      <note index="false" xml:id="note160">
-      <span data-class="paragraph" id="9fe7b732-ce99-4b1c-9201-2aa87e503c36" rend="left">
+      <span data-class="paragraph" id="9fe7b732-ce99-4b1c-9201-2aa87e503c36">
        <del>
         до декабря
         <choice>
@@ -18909,7 +18934,7 @@
        лучший
       </reg>
       <orig>
-       лучшiй
+       лучшій
       </orig>
      </choice>
      . Во
@@ -18993,7 +19018,7 @@
        приятелей
       </reg>
       <orig>
-       прiятелей
+       пріятелей
       </orig>
      </choice>
      и
@@ -19034,7 +19059,7 @@
       161
      </ref>
      <note index="false" xml:id="note161">
-      <span data-class="paragraph" id="1bc7dfc8-47d6-4a5c-9a36-1b9b4ae4dadd" rend="left">
+      <span data-class="paragraph" id="1bc7dfc8-47d6-4a5c-9a36-1b9b4ae4dadd">
        <del>
         и фав
        </del>
@@ -19080,7 +19105,7 @@
       162
      </ref>
      <note index="false" xml:id="note162">
-      <span data-class="paragraph" id="81925be0-53db-4663-9869-1514fb1f3139" rend="left">
+      <span data-class="paragraph" id="81925be0-53db-4663-9869-1514fb1f3139">
        <del>
         <choice original_editorial_correction="провин[ціальные]">
          <sic>
@@ -19092,7 +19117,7 @@
             провинциальные
            </reg>
            <orig>
-            провинцiальные
+            провинціальные
            </orig>
           </choice>
          </corr>
@@ -19150,7 +19175,7 @@
        состояния
       </reg>
       <orig>
-       состоянiя
+       состоянія
       </orig>
      </choice>
      , судебный
@@ -19340,7 +19365,7 @@
     <head n="level2" type="editorial">
      № 2.
     </head>
-    <p id="827db656-964f-44e4-a4c1-96674d33eedc" rend="left">
+    <p id="827db656-964f-44e4-a4c1-96674d33eedc">
      Нельзя и нельзя и нельзя
      <choice>
       <reg>
@@ -19404,7 +19429,7 @@
      </choice>
      .
     </p>
-    <p id="b3b7dc18-e012-4498-8b65-4d173e84814d" rend="left">
+    <p id="b3b7dc18-e012-4498-8b65-4d173e84814d">
      Я
      <choice>
       <reg>
@@ -19420,7 +19445,7 @@
        вследствии
       </reg>
       <orig>
-       вслѣдствiи
+       вслѣдствіи
       </orig>
      </choice>
      смерти моего
@@ -19467,7 +19492,7 @@
      </choice>
      .
     </p>
-    <p id="c63268ba-024e-4dee-9c3b-5bb03f1684af" rend="left">
+    <p id="c63268ba-024e-4dee-9c3b-5bb03f1684af">
      Опишу то
      <choice>
       <reg>
@@ -19501,7 +19526,7 @@
        прочтения
       </reg>
       <orig>
-       прочтенiя
+       прочтенія
       </orig>
      </choice>
      его
@@ -19529,7 +19554,7 @@
      </hi>
      .
     </head>
-    <p id="49eec344-5e3d-4757-b7da-15f64f0f17fc" rend="left">
+    <p id="49eec344-5e3d-4757-b7da-15f64f0f17fc">
      И. П.
      <choice>
       <reg>
@@ -19545,7 +19570,7 @@
        партию
       </reg>
       <orig>
-       партiю
+       партію
       </orig>
      </choice>
      и
@@ -19734,7 +19759,7 @@
        французский
       </reg>
       <orig>
-       французскiй
+       французскій
       </orig>
      </choice>
      <choice>
@@ -19839,7 +19864,7 @@
        арии
       </reg>
       <orig>
-       арiи
+       аріи
       </orig>
      </choice>
      , которую она
@@ -19882,7 +19907,7 @@
        арией
       </reg>
       <orig>
-       арiей
+       аріей
       </orig>
      </choice>
      Ив. Петровичу вспомнилась
@@ -19891,7 +19916,7 @@
        ария
       </reg>
       <orig>
-       арiя
+       арія
       </orig>
      </choice>
      <choice>
@@ -19908,7 +19933,7 @@
        ария
       </reg>
       <orig>
-       арiя
+       арія
       </orig>
      </choice>
      donna е mobile, которую
@@ -19951,7 +19976,7 @@
        Правоведении
       </reg>
       <orig>
-       Правовѣденiи
+       Правовѣденіи
       </orig>
      </choice>
      , и
@@ -19995,7 +20020,7 @@
        арию
       </reg>
       <orig>
-       арiю
+       арію
       </orig>
      </choice>
      ,
@@ -20123,7 +20148,7 @@
       163
      </ref>
      <note index="false" xml:id="note163">
-      <span data-class="paragraph" id="b8bd0818-6bd4-47fc-af71-6ab161d93d34" rend="left">
+      <span data-class="paragraph" id="b8bd0818-6bd4-47fc-af71-6ab161d93d34">
        <del>
         и не тайно.
        </del>
@@ -20263,7 +20288,7 @@
        Правоведении
       </reg>
       <orig>
-       Правовѣденiи
+       Правовѣденіи
       </orig>
      </choice>
      , и это
@@ -20325,7 +20350,7 @@
        арию
       </reg>
       <orig>
-       арiю
+       арію
       </orig>
      </choice>
      чисто,
@@ -20360,7 +20385,7 @@
        интонациями
       </reg>
       <orig>
-       интонацiями
+       интонаціями
       </orig>
      </choice>
      .
@@ -20368,7 +20393,7 @@
       164
      </ref>
      <note index="false" xml:id="note164">
-      <span data-class="paragraph" id="d15df503-177b-41f7-8dca-9db5289fa938" rend="left">
+      <span data-class="paragraph" id="d15df503-177b-41f7-8dca-9db5289fa938">
        <del>
         <choice>
          <reg>
@@ -20421,7 +20446,7 @@
       165
      </ref>
      <note index="false" xml:id="note165">
-      <span data-class="paragraph" id="25162061-6e3b-4360-a726-19443ef8af62" rend="left">
+      <span data-class="paragraph" id="25162061-6e3b-4360-a726-19443ef8af62">
        <del>
         <choice>
          <reg>
@@ -20475,7 +20500,7 @@
        мягкие
       </reg>
       <orig>
-       мягкiе
+       мягкіе
       </orig>
      </choice>
      , спутанно вьются,
@@ -20483,7 +20508,7 @@
       166
      </ref>
      <note index="false" xml:id="note166">
-      <span data-class="paragraph" id="1096eec9-2c2d-40bc-8bf4-8c43a8bb9991" rend="left">
+      <span data-class="paragraph" id="1096eec9-2c2d-40bc-8bf4-8c43a8bb9991">
        <del>
         <choice>
          <reg>
@@ -20507,7 +20532,7 @@
           улыбающийся
          </reg>
          <orig>
-          улыбающiйся
+          улыбающійся
          </orig>
         </choice>
         <choice>
@@ -20615,7 +20640,7 @@
        следующий
       </reg>
       <orig>
-       слѣдующiй
+       слѣдующій
       </orig>
      </choice>
      <choice>
@@ -20789,7 +20814,7 @@
       167
      </ref>
      <note index="false" xml:id="note167">
-      <span data-class="paragraph" id="6c5f70b7-7158-4dd1-b1f8-9978c4c7274d" rend="left">
+      <span data-class="paragraph" id="6c5f70b7-7158-4dd1-b1f8-9978c4c7274d">
        <del>
         <choice>
          <reg>
@@ -20824,7 +20849,7 @@
        окаменевающия
       </reg>
       <orig>
-       окаменѣвающiя
+       окаменѣвающія
       </orig>
      </choice>
      <choice>
@@ -21102,7 +21127,7 @@
        назначением
       </reg>
       <orig>
-       назначенiемъ
+       назначеніемъ
       </orig>
      </choice>
      <choice>
@@ -21180,7 +21205,7 @@
       168
      </ref>
      <note index="false" xml:id="note168">
-      <span data-class="paragraph" id="869ddc05-86cf-4d49-bc2d-7fc2035e1745" rend="left">
+      <span data-class="paragraph" id="869ddc05-86cf-4d49-bc2d-7fc2035e1745">
        <del>
         баба
        </del>
@@ -21217,7 +21242,7 @@
       169
      </ref>
      <note index="false" xml:id="note169">
-      <span data-class="paragraph" id="62c670d4-c4c4-4a5c-9055-07e7203ea2a3" rend="left">
+      <span data-class="paragraph" id="62c670d4-c4c4-4a5c-9055-07e7203ea2a3">
        <del>
         за
         <choice>
@@ -21258,15 +21283,15 @@
      </choice>
      .
     </p>
-    <p id="a54f11a2-d8bf-49aa-bf3f-b25a313c8856" rend="left">
+    <p id="a54f11a2-d8bf-49aa-bf3f-b25a313c8856">
      <pb n="521"/>
     </p>
     <p id="fdcd61e4-31f5-4eb8-a3e2-09175f64d095"/>
     <div type="image">
      <img alt="" src="./img/img1c5488c8b4574015ae212fa6ba8a94d0.png"/>
     </div>
-    <p id="f80ecc00-1085-4820-885b-5f6faef90a7d" rend="left"/>
-    <p id="d0fceffb-c736-4d79-b75c-ffe1930d76a5" rend="left"/>
+    <p id="f80ecc00-1085-4820-885b-5f6faef90a7d"/>
+    <p id="d0fceffb-c736-4d79-b75c-ffe1930d76a5"/>
    </div>
    <div type="section" xml:id="h000013008003">
     <head n="level2" type="editorial">
@@ -21277,7 +21302,7 @@
       К главе II
      </hi>
     </head>
-    <p id="88feed38-c71a-4013-8c43-783f123f8d26" rend="left">
+    <p id="88feed38-c71a-4013-8c43-783f123f8d26">
      Но
      <choice>
       <reg>
@@ -21301,7 +21326,7 @@
        неприятное
       </reg>
       <orig>
-       непрiятное
+       непріятное
       </orig>
      </choice>
      , тяжелое и неприличное,
@@ -21355,7 +21380,7 @@
        приятности
       </reg>
       <orig>
-       прiятности
+       пріятности
       </orig>
      </choice>
      и
@@ -21364,12 +21389,12 @@
        приличия
       </reg>
       <orig>
-       приличiя
+       приличія
       </orig>
      </choice>
      .
     </p>
-    <p id="e02ebe47-e13c-4018-896a-15f78e08150c" rend="left">
+    <p id="e02ebe47-e13c-4018-896a-15f78e08150c">
      Оказалось, что жена была ревнива, скупа,
      <choice>
       <reg>
@@ -21401,7 +21426,7 @@
       170
      </ref>
      <note index="false" xml:id="note170">
-      <span data-class="paragraph" id="7e6a161f-0060-46c1-90e9-47a18d1efc86" rend="left">
+      <span data-class="paragraph" id="7e6a161f-0060-46c1-90e9-47a18d1efc86">
        <del>
         ворчливости и скуки. Никакой возможности
        </del>
@@ -21422,7 +21447,7 @@
        приятный
       </reg>
       <orig>
-       прiятный
+       пріятный
       </orig>
      </choice>
      и приличный
@@ -21436,7 +21461,7 @@
      </choice>
      не было никакой возможности.
     </p>
-    <p id="060c970c-a91d-4938-8ca9-6a59e5554880" rend="left">
+    <p id="060c970c-a91d-4938-8ca9-6a59e5554880">
      Это
      <choice>
       <reg>
@@ -21504,7 +21529,7 @@
       171
      </ref>
      <note index="false" xml:id="note171">
-      <span data-class="paragraph" id="f72156f3-e118-45bb-abba-9db55247c3e4" rend="left">
+      <span data-class="paragraph" id="f72156f3-e118-45bb-abba-9db55247c3e4">
        <del>
         <choice>
          <reg>
@@ -21575,12 +21600,12 @@
     <head n="level2" type="editorial">
      *№ 5.
     </head>
-    <p id="e9c8c52e-5c50-47a3-8756-94e8cc59cc76" rend="left">
+    <p id="e9c8c52e-5c50-47a3-8756-94e8cc59cc76">
      <hi rend="italic">
       К главе III.
      </hi>
     </p>
-    <p id="a4464257-6e0c-424e-ad1a-59878bd07b78" rend="left">
+    <p id="a4464257-6e0c-424e-ad1a-59878bd07b78">
      <choice>
       <reg>
        После
@@ -21627,7 +21652,7 @@
       172
      </ref>
      <note index="false" xml:id="note172">
-      <span data-class="paragraph" id="7535f59a-2ba9-4a19-98b9-c5fd644fceca" rend="left">
+      <span data-class="paragraph" id="7535f59a-2ba9-4a19-98b9-c5fd644fceca">
        <del>
         случился другой
         <choice>
@@ -21704,7 +21729,7 @@
           назначении
          </reg>
          <orig>
-          назначенiи
+          назначеніи
          </orig>
         </choice>
         <choice>
@@ -21810,7 +21835,7 @@
        предложение
       </reg>
       <orig>
-       предложенiе
+       предложеніе
       </orig>
      </choice>
      на
@@ -21858,7 +21883,7 @@
      </choice>
      .
     </p>
-    <p id="25fa96c0-2cb8-4e8c-8ba8-7fd311db56a3" rend="left">
+    <p id="25fa96c0-2cb8-4e8c-8ba8-7fd311db56a3">
      Жена пробовала было
      <choice>
       <reg>
@@ -21897,7 +21922,7 @@
       173
      </ref>
      <note index="false" xml:id="note173">
-      <span data-class="paragraph" id="0a3cdf1a-27e9-4090-b37a-30ec59028b1c" rend="left">
+      <span data-class="paragraph" id="0a3cdf1a-27e9-4090-b37a-30ec59028b1c">
        <del>
         загнанный
         <choice>
@@ -21985,7 +22010,7 @@
        отношении
       </reg>
       <orig>
-       отношенiи
+       отношеніи
       </orig>
      </choice>
      <choice>
@@ -22026,7 +22051,7 @@
       174
      </ref>
      <note index="false" xml:id="note174">
-      <span data-class="paragraph" id="75299be7-2e6c-409a-875f-8fc8d26f7f64" rend="left">
+      <span data-class="paragraph" id="75299be7-2e6c-409a-875f-8fc8d26f7f64">
        <del>
         Надо было
         <choice>
@@ -22042,7 +22067,7 @@
       </span>
      </note>
     </p>
-    <p id="70234772-227e-405b-90d6-021aa2be5292" rend="left">
+    <p id="70234772-227e-405b-90d6-021aa2be5292">
      Они
      <choice>
       <reg>
@@ -22093,7 +22118,7 @@
       175
      </ref>
      <note index="false" xml:id="note175">
-      <span data-class="paragraph" id="f5a26ecf-4d0d-47d3-8749-86399229bf9a" rend="left">
+      <span data-class="paragraph" id="f5a26ecf-4d0d-47d3-8749-86399229bf9a">
        <del>
         Жена замучала его упреками.
        </del>
@@ -22189,7 +22214,7 @@
      </choice>
      неудачный — золотушный, слабый, нелюбимый.
     </p>
-    <p id="b8a7aabf-517c-41c0-a88c-3f61577c7caf" rend="left">
+    <p id="b8a7aabf-517c-41c0-a88c-3f61577c7caf">
      <pb n="522"/>
      Жена говорила, что
      <choice>
@@ -22248,12 +22273,12 @@
        отчаянии
       </reg>
       <orig>
-       отчаянiи
+       отчаяніи
       </orig>
      </choice>
      .
     </p>
-    <p id="bdaa14d5-4469-47b7-b797-6eb470f86a5a" rend="left">
+    <p id="bdaa14d5-4469-47b7-b797-6eb470f86a5a">
      <choice>
       <reg>
        В
@@ -22294,7 +22319,7 @@
        воспоминания
       </reg>
       <orig>
-       воспоминанiя
+       воспоминанія
       </orig>
      </choice>
      <choice>
@@ -22311,7 +22336,7 @@
        какие
       </reg>
       <orig>
-       какiе
+       какіе
       </orig>
      </choice>
      островки, на
@@ -22399,7 +22424,7 @@
        спасение
       </reg>
       <orig>
-       спасенiе
+       спасеніе
       </orig>
      </choice>
      Ивана Ильича была служба, одно
@@ -22408,7 +22433,7 @@
        утешение
       </reg>
       <orig>
-       утѣшенiе
+       утѣшеніе
       </orig>
      </choice>
      — его важность. Только
@@ -22433,7 +22458,7 @@
        мире
       </reg>
       <orig>
-       мiрѣ
+       мірѣ
       </orig>
      </choice>
      еще оставался у него
@@ -22511,12 +22536,12 @@
        приятно
       </reg>
       <orig>
-       прiятно
+       пріятно
       </orig>
      </choice>
      и прилично.
     </p>
-    <p id="9d48a383-aaee-46ce-9e59-f98597b119e0" rend="left">
+    <p id="9d48a383-aaee-46ce-9e59-f98597b119e0">
      <choice>
       <reg>
        Так
@@ -22556,7 +22581,7 @@
        Последние
       </reg>
       <orig>
-       Послѣднiе
+       Послѣдніе
       </orig>
      </choice>
      два года жизнь для Ивана Ильича стала
@@ -22626,7 +22651,7 @@
        желание
       </reg>
       <orig>
-       желанiе
+       желаніе
       </orig>
      </choice>
      <choice>
@@ -22634,7 +22659,7 @@
        сближения
       </reg>
       <orig>
-       сближенiя
+       сближенія
       </orig>
      </choice>
      <choice>
@@ -22660,7 +22685,7 @@
        неприятное
       </reg>
       <orig>
-       непрiятное
+       непріятное
       </orig>
      </choice>
      обстоятельство. И. И.
@@ -22830,7 +22855,7 @@
        назначении
       </reg>
       <orig>
-       назначенiи
+       назначеніи
       </orig>
      </choice>
      его опять обошли.
@@ -22891,7 +22916,7 @@
       176
      </ref>
      <note index="false" xml:id="note176">
-      <span data-class="paragraph" id="8b540170-cf86-42f3-a8e8-8a80727c7359" rend="left">
+      <span data-class="paragraph" id="8b540170-cf86-42f3-a8e8-8a80727c7359">
        <del>
         А
         <choice>
@@ -22942,7 +22967,7 @@
      </note>
      И это очень огорчило его.
     </p>
-    <p id="079b7b96-044d-4bdb-90cd-055d3765cbe1" rend="left">
+    <p id="079b7b96-044d-4bdb-90cd-055d3765cbe1">
      <choice>
       <reg>
        Так
@@ -23044,7 +23069,7 @@
        отношению
       </reg>
       <orig>
-       отношенiю
+       отношенію
       </orig>
      </choice>
      <choice>
@@ -23139,7 +23164,7 @@
        положение
       </reg>
       <orig>
-       положенiе
+       положеніе
       </orig>
      </choice>
      <choice>
@@ -23266,7 +23291,7 @@
        пилением
       </reg>
       <orig>
-       пиленiемъ
+       пиленіемъ
       </orig>
      </choice>
      жены, и
@@ -23350,7 +23375,7 @@
       177
      </ref>
      <note index="false" xml:id="note177">
-      <span data-class="paragraph" id="3e4f98a9-13c2-4bcf-acc2-06fcd89b028f" rend="left">
+      <span data-class="paragraph" id="3e4f98a9-13c2-4bcf-acc2-06fcd89b028f">
        <del>
         что
         <choice>
@@ -23358,7 +23383,7 @@
           положение
          </reg>
          <orig>
-          положенiе
+          положеніе
          </orig>
         </choice>
         его невозможно, и
@@ -23391,7 +23416,7 @@
           отчаянию
          </reg>
          <orig>
-          отчаянiю
+          отчаянію
          </orig>
         </choice>
         .
@@ -23412,12 +23437,12 @@
        положение
       </reg>
       <orig>
-       положенiе
+       положеніе
       </orig>
      </choice>
      .
     </p>
-    <p id="3756fa78-5975-4183-94c6-0185532ac489" rend="left">
+    <p id="3756fa78-5975-4183-94c6-0185532ac489">
      <choice>
       <reg>
        В
@@ -23447,7 +23472,7 @@
        положении
       </reg>
       <orig>
-       положенiи
+       положеніи
       </orig>
      </choice>
      почти что всегда, за
@@ -23456,7 +23481,7 @@
        исключениями
       </reg>
       <orig>
-       исключенiями
+       исключеніями
       </orig>
      </choice>
      <choice>
@@ -23506,7 +23531,7 @@
        недовольствием
       </reg>
       <orig>
-       недовольствiемъ
+       недовольствіемъ
       </orig>
      </choice>
      на
@@ -23533,7 +23558,7 @@
        отсутствием
       </reg>
       <orig>
-       отсутствiемъ
+       отсутствіемъ
       </orig>
      </choice>
      интереса
@@ -23715,7 +23740,7 @@
        облегчения
       </reg>
       <orig>
-       облегченiя
+       облегченія
       </orig>
      </choice>
      <choice>
@@ -23795,7 +23820,7 @@
      </choice>
      .
     </p>
-    <p id="4cd69513-b4cf-461b-a1ca-d590f33aaf69" rend="left">
+    <p id="4cd69513-b4cf-461b-a1ca-d590f33aaf69">
      <choice>
       <reg>
        В
@@ -23831,7 +23856,7 @@
      </choice>
      нельзя было разогнать.
     </p>
-    <p id="2ffa446c-1d2b-4750-b3ac-7b75708f7e38" rend="left">
+    <p id="2ffa446c-1d2b-4750-b3ac-7b75708f7e38">
      <choice>
       <reg>
        В
@@ -23868,7 +23893,7 @@
       178
      </ref>
      <note index="false" xml:id="note178">
-      <span data-class="paragraph" id="45e1a624-31be-476d-846e-d776f6a5d606" rend="left">
+      <span data-class="paragraph" id="45e1a624-31be-476d-846e-d776f6a5d606">
        <del>
         больше для того, чтобы избавиться
         <choice>
@@ -24026,7 +24051,7 @@
        направления
       </reg>
       <orig>
-       направленiя
+       направленія
       </orig>
      </choice>
      или рода
@@ -24069,7 +24094,7 @@
       179
      </ref>
      <note index="false" xml:id="note179">
-      <span data-class="paragraph" id="c3c28a2c-51e6-4718-b1d6-606a76a22e28" rend="left">
+      <span data-class="paragraph" id="c3c28a2c-51e6-4718-b1d6-606a76a22e28">
        <del>
         <choice>
          <reg>
@@ -24110,7 +24135,7 @@
       К главе IV.
      </hi>
     </head>
-    <p id="89c542d8-0a22-4402-ab9d-130f56f06abc" rend="left">
+    <p id="89c542d8-0a22-4402-ab9d-130f56f06abc">
      Только два
      <choice>
       <reg>
@@ -24200,7 +24225,7 @@
       180
      </ref>
      <note index="false" xml:id="note180">
-      <span data-class="paragraph" id="ae1a83f1-ab78-4d55-826b-f917faf7b030" rend="left">
+      <span data-class="paragraph" id="ae1a83f1-ab78-4d55-826b-f917faf7b030">
        <del>
         <choice>
          <reg>
@@ -24253,7 +24278,7 @@
        положении
       </reg>
       <orig>
-       положенiи
+       положеніи
       </orig>
      </choice>
      нетолько
@@ -24262,7 +24287,7 @@
        России
       </reg>
       <orig>
-       Россiи
+       Россіи
       </orig>
      </choice>
      , но и всего
@@ -24279,7 +24304,7 @@
       181
      </ref>
      <note index="false" xml:id="note181">
-      <span data-class="paragraph" id="9dd9cbbe-3f04-4c02-b11f-f9af368e0e7b" rend="left">
+      <span data-class="paragraph" id="9dd9cbbe-3f04-4c02-b11f-f9af368e0e7b">
        <del>
         и
         <choice>
@@ -24345,7 +24370,7 @@
       182
      </ref>
      <note index="false" xml:id="note182">
-      <span data-class="paragraph" id="755cc8d7-625f-43d3-9b8c-196e36f8c30e" rend="left">
+      <span data-class="paragraph" id="755cc8d7-625f-43d3-9b8c-196e36f8c30e">
        <del>
         <choice>
          <reg>
@@ -24449,7 +24474,7 @@
        мнению
       </reg>
       <orig>
-       мнѣнiю
+       мнѣнію
       </orig>
      </choice>
      ,
@@ -24474,7 +24499,7 @@
        условиях
       </reg>
       <orig>
-       условiяхъ
+       условіяхъ
       </orig>
      </choice>
      жизни можно найти
@@ -24483,12 +24508,12 @@
        удовлетворение
       </reg>
       <orig>
-       удовлетворенiе
+       удовлетвореніе
       </orig>
      </choice>
      .
     </p>
-    <p id="0ba7f51d-458f-48e5-80d0-86821548ea01" rend="left">
+    <p id="0ba7f51d-458f-48e5-80d0-86821548ea01">
      — Да
      <choice>
       <reg>
@@ -24518,7 +24543,7 @@
      </choice>
      .
     </p>
-    <p id="f8ca3185-530c-4023-a8b5-99e3a78220ba" rend="left">
+    <p id="f8ca3185-530c-4023-a8b5-99e3a78220ba">
      — Я?
      <choice>
       <reg>
@@ -24539,7 +24564,7 @@
      </choice>
      .
     </p>
-    <p id="d5d071bc-4b6d-4917-ab88-7df8eb3d0571" rend="left">
+    <p id="d5d071bc-4b6d-4917-ab88-7df8eb3d0571">
      — Я
      <choice>
       <reg>
@@ -24608,7 +24633,7 @@
        близкия
       </reg>
       <orig>
-       близкiя
+       близкія
       </orig>
      </choice>
      и
@@ -24653,7 +24678,7 @@
        самолюбие
       </reg>
       <orig>
-       самолюбiе
+       самолюбіе
       </orig>
      </choice>
      — я не скрываюсь. Но
@@ -24740,7 +24765,7 @@
        образования
       </reg>
       <orig>
-       образованiя
+       образованія
       </orig>
      </choice>
      . Средства
@@ -24926,7 +24951,7 @@
        Дальнейший
       </reg>
       <orig>
-       Дальнѣйшiй
+       Дальнѣйшій
       </orig>
      </choice>
      <choice>
@@ -25014,7 +25039,7 @@
        воспитание
       </reg>
       <orig>
-       воспитанiе
+       воспитаніе
       </orig>
      </choice>
      <choice>
@@ -25074,7 +25099,7 @@
        приятно
       </reg>
       <orig>
-       прiятно
+       пріятно
       </orig>
      </choice>
      думать, что я
@@ -25117,7 +25142,7 @@
        значение
       </reg>
       <orig>
-       значенiе
+       значеніе
       </orig>
      </choice>
      .
@@ -25126,7 +25151,7 @@
        Общие
       </reg>
       <orig>
-       Общiе
+       Общіе
       </orig>
      </choice>
      же вопросы
@@ -25162,7 +25187,7 @@
        разрешение
       </reg>
       <orig>
-       разрѣшенiе
+       разрѣшеніе
       </orig>
      </choice>
      <choice>
@@ -25204,7 +25229,7 @@
        условий
       </reg>
       <orig>
-       условiй
+       условій
       </orig>
      </choice>
      жизни и времени. Осуждайте меня, если хотите, но я совершенно
@@ -25222,7 +25247,7 @@
        отношении
       </reg>
       <orig>
-       отношенiи
+       отношеніи
       </orig>
      </choice>
      семьи, которую
@@ -25239,7 +25264,7 @@
       183
      </ref>
      <note index="false" xml:id="note183">
-      <span data-class="paragraph" id="a84fef43-3c30-41d4-9c3c-190c90b38fd8" rend="left">
+      <span data-class="paragraph" id="a84fef43-3c30-41d4-9c3c-190c90b38fd8">
        <del>
         хоть
         <choice>
@@ -25273,7 +25298,7 @@
      </choice>
      .
     </p>
-    <p id="66980c05-e85e-4b2d-9743-9c705e7931e8" rend="left">
+    <p id="66980c05-e85e-4b2d-9743-9c705e7931e8">
      <choice>
       <reg>
        Так
@@ -25391,7 +25416,7 @@
      </hi>
      .
     </head>
-    <p id="898642d0-5ef5-4165-9a6d-0d4229588c86" rend="left">
+    <p id="898642d0-5ef5-4165-9a6d-0d4229588c86">
      Только три
      <choice>
       <reg>
@@ -25515,7 +25540,7 @@
        страданиями
       </reg>
       <orig>
-       страданiями
+       страданіями
       </orig>
      </choice>
      , совершенно искренно,
@@ -25675,7 +25700,7 @@
      </choice>
      ».
     </p>
-    <p id="f0875e3e-ed55-4ec2-9cc3-af306e53b612" rend="left">
+    <p id="f0875e3e-ed55-4ec2-9cc3-af306e53b612">
      <choice>
       <reg>
        Иван
@@ -25755,7 +25780,7 @@
      </choice>
      жизнью.
     </p>
-    <p id="4dc2e5e5-fcc6-42bc-b881-d57fb3c363af" rend="left">
+    <p id="4dc2e5e5-fcc6-42bc-b881-d57fb3c363af">
      «Я пользуюсь
      <choice>
       <reg>
@@ -25840,7 +25865,7 @@
        решению
       </reg>
       <orig>
-       рѣшенiю
+       рѣшенію
       </orig>
      </choice>
      ,
@@ -25874,7 +25899,7 @@
        решение
       </reg>
       <orig>
-       рѣшенiе
+       рѣшеніе
       </orig>
      </choice>
      того вопроса смерти, который
@@ -25960,7 +25985,7 @@
        решение
       </reg>
       <orig>
-       рѣшенiе
+       рѣшеніе
       </orig>
      </choice>
      .
@@ -25976,14 +26001,14 @@
       184
      </ref>
      <note index="false" xml:id="note184">
-      <span data-class="paragraph" id="e5fc61b4-57fa-4285-8a6a-46449ba9f45f" rend="left">
+      <span data-class="paragraph" id="e5fc61b4-57fa-4285-8a6a-46449ba9f45f">
        <del>
         <choice>
          <reg>
           религиозные
          </reg>
          <orig>
-          религiозные
+          религіозные
          </orig>
         </choice>
         вопросы не интересовали меня иначе,
@@ -26037,7 +26062,7 @@
        решение
       </reg>
       <orig>
-       рѣшенiе
+       рѣшеніе
       </orig>
      </choice>
      <choice>
@@ -26062,7 +26087,7 @@
        религиозной
       </reg>
       <orig>
-       религiозной
+       религіозной
       </orig>
      </choice>
      <choice>
@@ -26105,7 +26130,7 @@
        Правоведении
       </reg>
       <orig>
-       Правовѣдѣнiи
+       Правовѣдѣніи
       </orig>
      </choice>
      мы прочли
@@ -26122,7 +26147,7 @@
        горячие
       </reg>
       <orig>
-       горячiе
+       горячіе
       </orig>
      </choice>
      споры между товарищами, но для меня тогда же
@@ -26197,14 +26222,14 @@
        решения
       </reg>
       <orig>
-       рѣшенiя
+       рѣшенія
       </orig>
      </choice>
      <ref target="#note185">
       185
      </ref>
      <note index="false" xml:id="note185">
-      <span data-class="paragraph" id="5cb73f39-eeea-4dff-aaa0-484acaba4a7a" rend="left">
+      <span data-class="paragraph" id="5cb73f39-eeea-4dff-aaa0-484acaba4a7a">
        <del>
         <choice>
          <reg>
@@ -26247,7 +26272,7 @@
       186
      </ref>
      <note index="false" xml:id="note186">
-      <span data-class="paragraph" id="f044a788-4a13-4f92-8dfe-d3b6171a6b47" rend="left">
+      <span data-class="paragraph" id="f044a788-4a13-4f92-8dfe-d3b6171a6b47">
        <del>
         не
         <choice>
@@ -26301,12 +26326,12 @@
        решения
       </reg>
       <orig>
-       рѣшенiя
+       рѣшенія
       </orig>
      </choice>
      .
     </p>
-    <p id="a729ea90-f721-4f96-b684-f82e8bdfab38" rend="left">
+    <p id="a729ea90-f721-4f96-b684-f82e8bdfab38">
      <pb n="525"/>
      <choice>
       <reg>
@@ -26331,7 +26356,7 @@
        условия
       </reg>
       <orig>
-       условiя
+       условія
       </orig>
      </choice>
      моего
@@ -26340,7 +26365,7 @@
        положения
       </reg>
       <orig>
-       положенiя
+       положенія
       </orig>
      </choice>
      и
@@ -26384,7 +26409,7 @@
       187
      </ref>
      <note index="false" xml:id="note187">
-      <span data-class="paragraph" id="d98df4a9-6b53-4593-aeaf-0e0b7c38243f" rend="left">
+      <span data-class="paragraph" id="d98df4a9-6b53-4593-aeaf-0e0b7c38243f">
        <choice original_editorial_correction="[приличие]">
         <sic/>
         <corr>
@@ -26399,7 +26424,7 @@
        отношению
       </reg>
       <orig>
-       отношенiю
+       отношенію
       </orig>
      </choice>
      <choice>
@@ -26423,7 +26448,7 @@
        религиозных
       </reg>
       <orig>
-       религiозныхъ
+       религіозныхъ
       </orig>
      </choice>
      <choice>
@@ -26431,7 +26456,7 @@
        установлений
       </reg>
       <orig>
-       установленiй
+       установленій
       </orig>
      </choice>
      , и я
@@ -26448,7 +26473,7 @@
       188
      </ref>
      <note index="false" xml:id="note188">
-      <span data-class="paragraph" id="c6dbafeb-ecf1-4a04-bbfc-bdb123384c12" rend="left">
+      <span data-class="paragraph" id="c6dbafeb-ecf1-4a04-bbfc-bdb123384c12">
        <del>
         никакого
        </del>
@@ -26467,7 +26492,7 @@
        значения
       </reg>
       <orig>
-       значенiя
+       значенія
       </orig>
      </choice>
      .
@@ -26503,7 +26528,7 @@
        религиозных
       </reg>
       <orig>
-       религiозныхъ
+       религіозныхъ
       </orig>
      </choice>
      <choice>
@@ -26511,7 +26536,7 @@
        учреждений
       </reg>
       <orig>
-       учрежденiй
+       учрежденій
       </orig>
      </choice>
      <choice>
@@ -26578,7 +26603,7 @@
        исследования
       </reg>
       <orig>
-       изслѣдованiя
+       изслѣдованія
       </orig>
      </choice>
      и полагаю, что они
@@ -26639,7 +26664,7 @@
        столетия
       </reg>
       <orig>
-       столѣтiя
+       столѣтія
       </orig>
      </choice>
      et je m’en trouve très bien,
@@ -26647,7 +26672,7 @@
       189
      </ref>
      <note index="false" xml:id="note189">
-      <span data-class="paragraph" id="140341c9-119f-4e12-a3b7-bbac78d68210" rend="left">
+      <span data-class="paragraph" id="140341c9-119f-4e12-a3b7-bbac78d68210">
        <choice original_editorial_correction="[и я чувствую себя очень хорошо,]">
         <sic/>
         <corr>
@@ -26667,7 +26692,7 @@
      </choice>
      желаю».
     </p>
-    <p id="b8d8040d-e2d8-469c-871c-84cf76d70039" rend="left">
+    <p id="b8d8040d-e2d8-469c-871c-84cf76d70039">
      <choice>
       <reg>
        Так
@@ -26800,13 +26825,13 @@
       К главе IV.
      </hi>
     </head>
-    <p id="b26e8785-1e24-4d3c-946d-d21d66f54077" rend="left">
+    <p id="b26e8785-1e24-4d3c-946d-d21d66f54077">
      Теперь же
      <ref target="#note190">
       190
      </ref>
      <note index="false" xml:id="note190">
-      <span data-class="paragraph" id="c948d619-7b6a-4025-b8fe-ed9e49990815" rend="left">
+      <span data-class="paragraph" id="c948d619-7b6a-4025-b8fe-ed9e49990815">
        <del>
         не было надежды.
        </del>
@@ -26826,7 +26851,7 @@
        апатию
       </reg>
       <orig>
-       апатiю
+       апатію
       </orig>
      </choice>
      и
@@ -26834,7 +26859,7 @@
       191
      </ref>
      <note index="false" xml:id="note191">
-      <span data-class="paragraph" id="2537dbb0-ceb1-42f5-bf29-061ad6d960ef" rend="left">
+      <span data-class="paragraph" id="2537dbb0-ceb1-42f5-bf29-061ad6d960ef">
        <del>
         мысль о
         <choice>
@@ -26911,7 +26936,7 @@
           отношений
          </reg>
          <orig>
-          отношенiй
+          отношеній
          </orig>
         </choice>
         <choice>
@@ -26928,7 +26953,7 @@
           рассеяния
          </reg>
          <orig>
-          разсѣянiя
+          разсѣянія
          </orig>
         </choice>
         .
@@ -26940,7 +26965,7 @@
        отчаяние
       </reg>
       <orig>
-       отчаянiе
+       отчаяніе
       </orig>
      </choice>
      . Казалось бы, ему должно бы было быть ясно, что эти
@@ -26949,7 +26974,7 @@
        отчаяния
       </reg>
       <orig>
-       отчаянiя
+       отчаянія
       </orig>
      </choice>
      и
@@ -26958,7 +26983,7 @@
        апатия
       </reg>
       <orig>
-       апатiя
+       апатія
       </orig>
      </choice>
      <choice>
@@ -27008,7 +27033,7 @@
        рассуждение
       </reg>
       <orig>
-       разсужденiе
+       разсужденіе
       </orig>
      </choice>
      :
@@ -27034,7 +27059,7 @@
        неприятности
       </reg>
       <orig>
-       непрiятности
+       непріятности
       </orig>
      </choice>
      <choice>
@@ -27059,7 +27084,7 @@
       192
      </ref>
      <note index="false" xml:id="note192">
-      <span data-class="paragraph" id="6506684e-b316-47af-882c-9823a88d90cf" rend="left">
+      <span data-class="paragraph" id="6506684e-b316-47af-882c-9823a88d90cf">
        <del>
         А боль
         <choice>
@@ -27116,7 +27141,7 @@
        положение
       </reg>
       <orig>
-       положенiе
+       положеніе
       </orig>
      </choice>
      то, что
@@ -27141,7 +27166,7 @@
        медицинския
       </reg>
       <orig>
-       медицинскiя
+       медицинскія
       </orig>
      </choice>
      книги и
@@ -27167,7 +27192,7 @@
        Ухудшение
       </reg>
       <orig>
-       Ухудшенiе
+       Ухудшеніе
       </orig>
      </choice>
      шло
@@ -27235,7 +27260,7 @@
       193
      </ref>
      <note index="false" xml:id="note193">
-      <span data-class="paragraph" id="4be810fe-b44b-4228-bc42-d0a6acc677f4" rend="left">
+      <span data-class="paragraph" id="4be810fe-b44b-4228-bc42-d0a6acc677f4">
        <del>
         Но боялся обманывать,
        </del>
@@ -27272,7 +27297,7 @@
       194
      </ref>
      <note index="false" xml:id="note194">
-      <span data-class="paragraph" id="8b74ee9f-8786-4b5f-a68e-218618562c89" rend="left">
+      <span data-class="paragraph" id="8b74ee9f-8786-4b5f-a68e-218618562c89">
        <del>
         ему казалось, что все шло так же,
         <choice>
@@ -27326,7 +27351,7 @@
       195
      </ref>
      <note index="false" xml:id="note195">
-      <span data-class="paragraph" id="8a5e3d20-52cb-415c-9105-c9e079ca07a2" rend="left">
+      <span data-class="paragraph" id="8a5e3d20-52cb-415c-9105-c9e079ca07a2">
        <del>
         Но не смотря на это, его тянуло
         <choice>
@@ -27546,7 +27571,7 @@
        состояние
       </reg>
       <orig>
-       состоянiе
+       состояніе
       </orig>
      </choice>
      того
@@ -27580,7 +27605,7 @@
       196
      </ref>
      <note index="false" xml:id="note196">
-      <span data-class="paragraph" id="8a1f3d9b-802d-4ffe-bba1-a52172967cab" rend="left">
+      <span data-class="paragraph" id="8a1f3d9b-802d-4ffe-bba1-a52172967cab">
        <del>
         И не смотря на то, что всякое
         <choice>
@@ -27588,7 +27613,7 @@
           посещение
          </reg>
          <orig>
-          посѣщенiе
+          посѣщеніе
          </orig>
         </choice>
        </del>
@@ -27622,7 +27647,7 @@
      </choice>
      докторами.
     </p>
-    <p id="dcd64223-b2fe-48e3-942b-7767ba3357d3" rend="left pages2">
+    <p id="dcd64223-b2fe-48e3-942b-7767ba3357d3" rend="pages2">
      <pb n="526"/>
     </p>
    </div>
@@ -27635,7 +27660,7 @@
       К главе IV.
      </hi>
     </head>
-    <p id="e22673fd-5f9a-4a77-a566-06d856486c72" rend="left">
+    <p id="e22673fd-5f9a-4a77-a566-06d856486c72">
      <choice>
       <reg>
        В
@@ -27813,7 +27838,7 @@
        инерции
       </reg>
       <orig>
-       инерцiи
+       инерціи
       </orig>
      </choice>
      <choice>
@@ -27838,7 +27863,7 @@
        желанием
       </reg>
       <orig>
-       желанiемъ
+       желаніемъ
       </orig>
      </choice>
      не сдавать — быть
@@ -27906,7 +27931,7 @@
       197
      </ref>
      <note index="false" xml:id="note197">
-      <span data-class="paragraph" id="34dcc27f-1afd-4ca4-abbc-e2eb32b11b31" rend="left">
+      <span data-class="paragraph" id="34dcc27f-1afd-4ca4-abbc-e2eb32b11b31">
        <del>
         <choice>
          <reg>
@@ -28183,7 +28208,7 @@
       К главе IV.
      </hi>
     </head>
-    <p id="13e3af57-791d-4604-b0d2-e05424897e45" rend="left">
+    <p id="13e3af57-791d-4604-b0d2-e05424897e45">
      И странное, ужасное
      <choice>
       <reg>
@@ -28328,7 +28353,7 @@
        оправдание
       </reg>
       <orig>
-       оправданiе
+       оправданіе
       </orig>
      </choice>
      <choice>
@@ -28422,7 +28447,7 @@
        отношения
       </reg>
       <orig>
-       отношенiя
+       отношенія
       </orig>
      </choice>
      его
@@ -28453,7 +28478,7 @@
      </choice>
      только раздражали его.
     </p>
-    <p id="a72f57d8-16de-43a2-b02e-9b2a5c0dc2af" rend="left">
+    <p id="a72f57d8-16de-43a2-b02e-9b2a5c0dc2af">
      Сразу,
      <choice>
       <reg>
@@ -28629,7 +28654,7 @@
        приятно
       </reg>
       <orig>
-       прiятно
+       пріятно
       </orig>
      </choice>
      . И ложь эта теперь ему была противна.
@@ -28671,7 +28696,7 @@
        равнодушие
       </reg>
       <orig>
-       равнодушiе
+       равнодушіе
       </orig>
      </choice>
      , но гадливость при
@@ -28680,7 +28705,7 @@
        воспоминании
       </reg>
       <orig>
-       воспоминанiи
+       воспоминаніи
       </orig>
      </choice>
      о
@@ -28697,7 +28722,7 @@
        отношениях
       </reg>
       <orig>
-       отношенiяхъ
+       отношеніяхъ
       </orig>
      </choice>
      ; и досаду, злобу даже за
@@ -28714,7 +28739,7 @@
        равнодушие
       </reg>
       <orig>
-       равнодушiе
+       равнодушіе
       </orig>
      </choice>
      <choice>
@@ -28731,7 +28756,7 @@
        положении
       </reg>
       <orig>
-       положенiи
+       положеніи
       </orig>
      </choice>
      , которое
@@ -28770,7 +28795,7 @@
      </choice>
      .
     </p>
-    <p id="95be6617-4059-40ff-a193-dd5741d28558" rend="left">
+    <p id="95be6617-4059-40ff-a193-dd5741d28558">
      <choice>
       <reg>
        К
@@ -28802,7 +28827,7 @@
        положением
       </reg>
       <orig>
-       положенiемъ
+       положеніемъ
       </orig>
      </choice>
      . Сына было жалко немножко за то, что
@@ -28837,12 +28862,12 @@
        отчаянию
       </reg>
       <orig>
-       отчаянiю
+       отчаянію
       </orig>
      </choice>
      и той же смерти.
     </p>
-    <p id="4378159f-2489-431b-b379-5c18b6bcf877" rend="left">
+    <p id="4378159f-2489-431b-b379-5c18b6bcf877">
      Главное же, между
      <choice>
       <reg>
@@ -28875,7 +28900,7 @@
        отношения
       </reg>
       <orig>
-       отношенiя
+       отношенія
       </orig>
      </choice>
      , эти
@@ -28884,7 +28909,7 @@
        соболезнования
       </reg>
       <orig>
-       соболѣзнованiя
+       соболѣзнованія
       </orig>
      </choice>
      <choice>
@@ -28901,7 +28926,7 @@
        одинакия
       </reg>
       <orig>
-       одинакiя
+       одинакія
       </orig>
      </choice>
      , эти
@@ -28910,7 +28935,7 @@
        предложения
       </reg>
       <orig>
-       предложенiя
+       предложенія
       </orig>
      </choice>
      ходить за
@@ -28995,7 +29020,7 @@
      </choice>
      , — все это была ложь, и было гадко.
     </p>
-    <p id="9c8dab4e-0509-4305-a3aa-7843731eb360" rend="left">
+    <p id="9c8dab4e-0509-4305-a3aa-7843731eb360">
      <pb n="527"/>
      <choice>
       <reg>
@@ -29028,7 +29053,7 @@
        прежния
       </reg>
       <orig>
-       прежнiя
+       прежнія
       </orig>
      </choice>
      <choice>
@@ -29036,7 +29061,7 @@
        утешения
       </reg>
       <orig>
-       утѣшенiя
+       утѣшенія
       </orig>
      </choice>
      настоящей жизни.
@@ -29054,7 +29079,7 @@
        воспоминания
       </reg>
       <orig>
-       воспоминанiя
+       воспоминанія
       </orig>
      </choice>
      <choice>
@@ -29140,7 +29165,7 @@
        одинокия
       </reg>
       <orig>
-       одинокiя
+       одинокія
       </orig>
      </choice>
      ,
@@ -29157,12 +29182,12 @@
        одинокия
       </reg>
       <orig>
-       одинокiя
+       одинокія
       </orig>
      </choice>
      ночи.
     </p>
-    <p id="b09a9b2c-3e02-4c15-92d3-56ca4c273aa0" rend="left">
+    <p id="b09a9b2c-3e02-4c15-92d3-56ca4c273aa0">
      <choice>
       <reg>
        Он
@@ -29202,7 +29227,7 @@
        воображением
       </reg>
       <orig>
-       воображенiемъ
+       воображеніемъ
       </orig>
      </choice>
      <choice>
@@ -29215,7 +29240,7 @@
      </choice>
      тому, что было теперь.
     </p>
-    <p id="403bca36-f796-4299-a129-b1761308c07d" rend="left">
+    <p id="403bca36-f796-4299-a129-b1761308c07d">
      «Ну что, если бы теперь то, что было тогда,
      <choice>
       <reg>
@@ -29352,7 +29377,7 @@
        воспоминаний
       </reg>
       <orig>
-       воспоминанiй
+       воспоминаній
       </orig>
      </choice>
      <choice>
@@ -29422,7 +29447,7 @@
        воспоминание
       </reg>
       <orig>
-       воспоминанiе
+       воспоминаніе
       </orig>
      </choice>
      о
@@ -29445,7 +29470,7 @@
      </choice>
      .
     </p>
-    <p id="39a62aa0-b8d2-49cf-b6a3-05afb683dce1" rend="left">
+    <p id="39a62aa0-b8d2-49cf-b6a3-05afb683dce1">
      Того Вани
      <choice>
       <reg>
@@ -29477,7 +29502,7 @@
       198
      </ref>
      <note index="false" xml:id="note198">
-      <span data-class="paragraph" id="66997a39-1c48-44b8-8a92-d74ce58c1cef" rend="left">
+      <span data-class="paragraph" id="66997a39-1c48-44b8-8a92-d74ce58c1cef">
        <del>
         <choice>
          <reg>
@@ -29527,7 +29552,7 @@
       199
      </ref>
      <note index="false" xml:id="note199">
-      <span data-class="paragraph" id="9b665f20-f53c-48e2-9c3c-6967eecdb9ef" rend="left">
+      <span data-class="paragraph" id="9b665f20-f53c-48e2-9c3c-6967eecdb9ef">
        <hi rend="italic">
         Зач.:
        </hi>
@@ -29572,7 +29597,7 @@
       200
      </ref>
      <note index="false" xml:id="note200">
-      <span data-class="paragraph" id="183b9358-faa8-419d-bbfe-78df9709a993" rend="left">
+      <span data-class="paragraph" id="183b9358-faa8-419d-bbfe-78df9709a993">
        <del>
         <choice>
          <reg>
@@ -29685,7 +29710,7 @@
        теперешний
       </reg>
       <orig>
-       теперешнiй
+       теперешній
       </orig>
      </choice>
      <choice>
@@ -29736,7 +29761,7 @@
        казавшиеся
       </reg>
       <orig>
-       казавшiяся
+       казавшіяся
       </orig>
      </choice>
      тогда радости превращались
@@ -29763,12 +29788,12 @@
        веянием
       </reg>
       <orig>
-       вѣянiемъ
+       вѣяніемъ
       </orig>
      </choice>
      .во что то ужасное, отвратительное.
     </p>
-    <p id="a55f9763-d9a9-4d67-bdbd-494228c8fd4e" rend="left">
+    <p id="a55f9763-d9a9-4d67-bdbd-494228c8fd4e">
      Начиналось это
      <choice>
       <reg>
@@ -29783,7 +29808,7 @@
        Правоведения
       </reg>
       <orig>
-       Правовѣдѣнiя
+       Правовѣдѣнія
       </orig>
      </choice>
      . Ему вспоминалось,
@@ -29826,7 +29851,7 @@
        освещением
       </reg>
       <orig>
-       освѣщенiемъ
+       освѣщеніемъ
       </orig>
      </choice>
      <choice>
@@ -29834,7 +29859,7 @@
        воспоминания
       </reg>
       <orig>
-       воспоминанiя
+       воспоминанія
       </orig>
      </choice>
      ,
@@ -29852,7 +29877,7 @@
        освещению
       </reg>
       <orig>
-       освѣщенiю
+       освѣщенію
       </orig>
      </choice>
      ,
@@ -29957,7 +29982,7 @@
      </choice>
      !
     </p>
-    <p id="d4035f7a-3436-4a8b-a814-a079b2381b31" rend="left">
+    <p id="d4035f7a-3436-4a8b-a814-a079b2381b31">
      На
      <choice>
       <reg>
@@ -30016,7 +30041,7 @@
        отделение
       </reg>
       <orig>
-       отдѣленiе
+       отдѣленіе
       </orig>
      </choice>
      себя
@@ -30068,7 +30093,7 @@
        отупения
       </reg>
       <orig>
-       отупѣнiя
+       отупѣнія
       </orig>
      </choice>
      ..... и
@@ -30103,7 +30128,7 @@
        сближения
       </reg>
       <orig>
-       сближенiя
+       сближенія
       </orig>
      </choice>
      , мерзость,
@@ -30172,7 +30197,7 @@
        опьянение
       </reg>
       <orig>
-       опьяненiе
+       опьяненіе
       </orig>
      </choice>
      <choice>
@@ -30207,7 +30232,7 @@
        фанаберия
       </reg>
       <orig>
-       фанаберiя
+       фанаберія
       </orig>
      </choice>
      , хвастовство грязью и искусство держаться
@@ -30251,7 +30276,7 @@
        фанаберия
       </reg>
       <orig>
-       фанаберiя
+       фанаберія
       </orig>
      </choice>
      , и еще подслуживанье, скрытое, но все такое же
@@ -30269,7 +30294,7 @@
        честолюбие
       </reg>
       <orig>
-       честолюбiе
+       честолюбіе
       </orig>
      </choice>
      ,
@@ -30278,7 +30303,7 @@
        желание
       </reg>
       <orig>
-       желанiе
+       желаніе
       </orig>
      </choice>
      быть лучше, выше
@@ -30296,7 +30321,7 @@
        щелкание
       </reg>
       <orig>
-       щелканiе
+       щелканіе
       </orig>
      </choice>
      .
@@ -30305,7 +30330,7 @@
        самолюбия
       </reg>
       <orig>
-       самолюбiя
+       самолюбія
       </orig>
      </choice>
      и борьба и ненависть
@@ -30327,7 +30352,7 @@
      </choice>
      .
     </p>
-    <p id="3b2b90f7-e6ab-47a1-a2c0-71a0a4891010" rend="left">
+    <p id="3b2b90f7-e6ab-47a1-a2c0-71a0a4891010">
      <choice>
       <reg>
        Потом
@@ -30351,7 +30376,7 @@
        разочарование
       </reg>
       <orig>
-       разочарованiе
+       разочарованіе
       </orig>
      </choice>
      , и
@@ -30391,7 +30416,7 @@
      </choice>
      готово, умирай!
     </p>
-    <p id="957ab6e2-dc82-4161-a471-c43023c19dbf" rend="left">
+    <p id="957ab6e2-dc82-4161-a471-c43023c19dbf">
      <pb n="528"/>
      <choice>
       <reg>
@@ -30499,7 +30524,7 @@
      </choice>
      же еще умирать?
     </p>
-    <p id="8349d963-9dc1-4b94-ab65-734bc42fa36d" rend="left">
+    <p id="8349d963-9dc1-4b94-ab65-734bc42fa36d">
      Но сколько
      <choice>
       <reg>
@@ -30524,7 +30549,7 @@
        положения
       </reg>
       <orig>
-       положенiя
+       положенія
       </orig>
      </choice>
      : 1) о
@@ -30575,7 +30600,7 @@
       201
      </ref>
      <note index="false" xml:id="note201">
-      <span data-class="paragraph" id="00ee6f0a-b0a7-42f4-ba6c-7b589bb6cb8b" rend="left">
+      <span data-class="paragraph" id="00ee6f0a-b0a7-42f4-ba6c-7b589bb6cb8b">
        <del>
         были
         <choice>
@@ -30654,7 +30679,7 @@
      </choice>
      признать этого.
     </p>
-    <p id="f3356d7b-2a39-4128-9333-3489b515b3f8" rend="left">
+    <p id="f3356d7b-2a39-4128-9333-3489b515b3f8">
      И
      <choice>
       <reg>
@@ -30669,7 +30694,7 @@
        сознанием
       </reg>
       <orig>
-       сознанiемъ
+       сознаніемъ
       </orig>
      </choice>
      этого, да еще
@@ -30712,7 +30737,7 @@
       202
      </ref>
      <note index="false" xml:id="note202">
-      <span data-class="paragraph" id="1932e37b-8711-46a5-839e-f426583f88ec" rend="left">
+      <span data-class="paragraph" id="1932e37b-8711-46a5-839e-f426583f88ec">
        <del>
         и одну, и
         <choice>
@@ -30895,7 +30920,7 @@
        мучением
       </reg>
       <orig>
-       мученiемъ
+       мученіемъ
       </orig>
      </choice>
      . И жить
@@ -30962,7 +30987,7 @@
       К главе VIII.
      </hi>
     </head>
-    <p id="0ab04ab7-a636-405e-8002-b66a85b325f7" rend="left">
+    <p id="0ab04ab7-a636-405e-8002-b66a85b325f7">
      <choice>
       <reg>
        Был
@@ -30976,7 +31001,7 @@
        консилиум
       </reg>
       <orig>
-       консилiумъ
+       консиліумъ
       </orig>
      </choice>
      . М. М., Н. Н. ничего не понимали, но притворялись, что они
@@ -31003,7 +31028,7 @@
        мнение
       </reg>
       <orig>
-       мнѣнiе
+       мнѣніе
       </orig>
      </choice>
      <choice>
@@ -31060,9 +31085,7 @@
       и что они ему нужны. Ему ничего не нужно было.
      </del>
     </p>
-    <p id="2773c311-5d28-4c1b-96fa-ecd55a8dd59f" rend="center">
-     ————
-    </p>
+    <metamark function="line"/>
    </div>
   </body>
  </text>

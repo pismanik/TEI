@@ -9,17 +9,41 @@
                 <title type="main">Стаховичу М. А. от 9 апреля 1886 г.</title>
                 <title type="bibl">Толстой Л. Н. Стаховичу М. А., 9 апреля 1886 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 63. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 63</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">451-451</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -77,8 +106,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -103,18 +133,18 @@
        Удостоверение
       </reg>
       <orig>
-       Удостовѣренiе
+       Удостовѣреніе
       </orig>
      </choice>
     </p>
-    <p id="3626511c-631d-4dee-8f9b-ae189238b3ab" rend="left">
+    <p id="3626511c-631d-4dee-8f9b-ae189238b3ab">
      Предъявитель сего
      <choice>
       <reg>
        Губернский
       </reg>
       <orig>
-       Губернскiй
+       Губернскій
       </orig>
      </choice>
      Секретарь
@@ -158,7 +188,7 @@
        имеющий
       </reg>
       <orig>
-       имѣющiй
+       имѣющій
       </orig>
      </choice>
      <choice>
@@ -182,7 +212,7 @@
        имении
       </reg>
       <orig>
-       имѣнiи
+       имѣніи
       </orig>
      </choice>
      Елецкого
@@ -200,7 +230,7 @@
        губернии
       </reg>
       <orig>
-       губернiи
+       губерніи
       </orig>
      </choice>
      ,
@@ -252,7 +282,7 @@
        приложением
       </reg>
       <orig>
-       приложенiемъ
+       приложеніемъ
       </orig>
      </choice>
      печати.
@@ -276,13 +306,13 @@
      </choice>
      Толстой.
     </p>
-    <p id="16182fd5-421c-4239-a705-36f8cca4d7da" rend="left">
+    <p id="16182fd5-421c-4239-a705-36f8cca4d7da">
      <hi>
       Рукой не Толстого
      </hi>
      :
     </p>
-    <p id="c74ae747-af99-4b89-af6a-3abef8c16877" rend="left">
+    <p id="c74ae747-af99-4b89-af6a-3abef8c16877">
      <choice>
       <reg>
        Дворянин
@@ -299,7 +329,7 @@
       </reg>
       <orig>
        <name placement="text" ref="10820" type="person">
-        Василiй
+        Василій
        </name>
       </orig>
      </choice>
@@ -327,12 +357,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="f28d6918-050c-49db-aae0-31bbd620cd24" rend="petit left">
+      <p id="f28d6918-050c-49db-aae0-31bbd620cd24" rend="petit">
        1 Удостоверение это написано Толстым М. А. Стаховичу (забывшему паспорт) по дороге из Москвы в Тулу, куда Лев Николаевич вместе с Н. Н. Ге(сыном) и М. А. Стаховичем отправился 6 апреля 1886 г. пешком.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="5c859eab-2f34-441b-a3b7-04c3ccf33a2d" rend="petit left">
+      <p id="5c859eab-2f34-441b-a3b7-04c3ccf33a2d" rend="petit">
        2 В. А. Писаренко, из елецких (Орловской губ.) дворян; друг М. С Громеки. Последний и познакомил его с Толстым. См. прим. к письму № 142.
       </p>
      </note>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо А. П. Залюбовскому от 20 ноября 1885 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо А. П. Залюбовскому, 20 ноября 1885 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 63. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 63</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">301-306</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,7 +128,7 @@
      </name>
      .1885 г. Ноября 20? Москва.
     </opener>
-    <p id="48a458c4-41ac-4097-adb0-46b4fbd7a428" rend="left">
+    <p id="48a458c4-41ac-4097-adb0-46b4fbd7a428">
      <choice>
       <reg>
        Брат
@@ -260,13 +290,13 @@
      </choice>
      ,
     </p>
-    <p id="3ea21f07-2990-40b2-b724-e3657cefdfaa" rend="left">
+    <p id="3ea21f07-2990-40b2-b724-e3657cefdfaa">
      <choice>
       <reg>
        Учение
       </reg>
       <orig>
-       Ученiе
+       Ученіе
       </orig>
      </choice>
      Христа
@@ -389,7 +419,7 @@
        сознания
       </reg>
       <orig>
-       сознанiя
+       сознанія
       </orig>
      </choice>
      истины; и
@@ -416,7 +446,7 @@
        учению
       </reg>
       <orig>
-       ученiю
+       ученію
       </orig>
      </choice>
      Христа, а
@@ -538,7 +568,7 @@
        несчастие
       </reg>
       <orig>
-       несчастiе
+       несчастіе
       </orig>
      </choice>
      своей матери, или — истина не всегда истина, 2×2 не всегда 4. Я и не
@@ -572,7 +602,7 @@
        волнением
       </reg>
       <orig>
-       волненiемъ
+       волненіемъ
       </orig>
      </choice>
      <choice>
@@ -594,7 +624,7 @@
          Анатолий
         </reg>
         <orig>
-         Анатолiй
+         Анатолій
         </orig>
        </choice>
       </corr>
@@ -741,7 +771,7 @@
        учению
       </reg>
       <orig>
-       ученiю
+       ученію
       </orig>
      </choice>
      , а
@@ -767,7 +797,7 @@
        учению
       </reg>
       <orig>
-       ученiю
+       ученію
       </orig>
      </choice>
      , про которое
@@ -929,7 +959,7 @@
      </choice>
      .
     </p>
-    <p id="f18accbd-faed-481a-9093-04e9177a31fb" rend="left">
+    <p id="f18accbd-faed-481a-9093-04e9177a31fb">
      Я
      <choice>
       <reg>
@@ -945,7 +975,7 @@
        последния
       </reg>
       <orig>
-       послѣднiя
+       послѣднія
       </orig>
      </choice>
      мои
@@ -954,7 +984,7 @@
        сведения
       </reg>
       <orig>
-       свѣдѣнiя
+       свѣдѣнія
       </orig>
      </choice>
      (
@@ -1222,7 +1252,7 @@
        начальствующия
       </reg>
       <orig>
-       начальствующiя
+       начальствующія
       </orig>
      </choice>
      лица знали, что случай
@@ -1264,15 +1294,15 @@
        следящие
       </reg>
       <orig>
-       слѣдящiе
+       слѣдящіе
       </orig>
      </choice>
      за его судьбой.
     </p>
-    <p id="84d1489d-1faa-4885-a623-2df24ed10301" rend="left">
+    <p id="84d1489d-1faa-4885-a623-2df24ed10301">
      Я понимаю страданія вашей матери и всей душой сочувствую ей. Одно утѣшеніе для нея, это сознаніе высоты совершаемаго имъ подвига, который не останется безъ послѣдствій для блага людей, и, главное, преданность волѣ Бога.
     </p>
-    <p id="e8e7214e-9f4b-4a23-a4b6-d09b16b67f57" rend="left">
+    <p id="e8e7214e-9f4b-4a23-a4b6-d09b16b67f57">
      <choice>
       <reg>
        Разве
@@ -1304,7 +1334,7 @@
        всякий
       </reg>
       <orig>
-       всякiй
+       всякій
       </orig>
      </choice>
      <choice>
@@ -1345,7 +1375,7 @@
        несчастиям
       </reg>
       <orig>
-       несчастiямъ
+       несчастіямъ
       </orig>
      </choice>
      ,
@@ -1378,7 +1408,7 @@
        утешения
       </reg>
       <orig>
-       утѣшенiя
+       утѣшенія
       </orig>
      </choice>
      .
@@ -1448,7 +1478,7 @@
         показавший
        </reg>
        <orig>
-        показавшiй
+        показавшій
        </orig>
       </choice>
      </hi>
@@ -1478,7 +1508,7 @@
        великий
       </reg>
       <orig>
-       великiй
+       великій
       </orig>
      </choice>
      <choice>
@@ -1546,11 +1576,11 @@
     <noteGrp type="comments">
      <note index="false" type="comments">
       <p id="e2509938-50c8-4e5f-a9ae-7af9c4b016fd" rend="Textpetit_otstup left">
-       Печатается по копии, хранящейся в AЧ. Публикуется впервые. Датируется по содержанию (см. пп. № 444 и 446).
+       Печатается по копии, хранящейся в АЧ. Публикуется впервые. Датируется по содержанию (см. пп. № 444 и 446).
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="a3108978-51eb-4f85-a3b6-2e79dbc17c20" rend="petit left">
+      <p id="a3108978-51eb-4f85-a3b6-2e79dbc17c20" rend="petit">
        <name placement="comments" ref="5275" type="person">
         Анатолий Петрович Залюбовский
        </name>
@@ -1558,7 +1588,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="c945ecbe-b8ca-4daa-ae31-544071ce5b39" rend="petit left">
+      <p id="c945ecbe-b8ca-4daa-ae31-544071ce5b39" rend="petit">
        Толстой отвечает на письмо А. П. Залюбовского (без даты): «В ноябре прошлого 1884 года
        <name placement="comments" ref="5274" type="person">
         Алексей Залюбовский

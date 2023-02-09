@@ -9,17 +9,41 @@
                 <title type="main">Письмо Н. Н. Страхову от 11 октября 1882 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Н. Н. Страхову, 11 октября 1882 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 63. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 63</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">104-104</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -96,7 +126,7 @@
      <lb/>
     </opener>
     11 октября.
-    <p id="86ba191c-064c-4d1e-bb62-5f5140dd3f9e" rend="Obrashenie left">
+    <p id="86ba191c-064c-4d1e-bb62-5f5140dd3f9e" rend="Obrashenie">
      Дорогой
      <name placement="text" ref="13258" type="person">
       Николай
@@ -113,7 +143,7 @@
      </choice>
      !
     </p>
-    <p id="2062b4a4-fcb8-4d9e-90e3-1ec3739eaf08" rend="left">
+    <p id="2062b4a4-fcb8-4d9e-90e3-1ec3739eaf08">
      Давно у меня на
      <choice>
       <reg>
@@ -182,7 +212,7 @@
        приобрел
       </reg>
       <orig>
-       прiобрѣлъ
+       пріобрѣлъ
       </orig>
      </choice>
      <choice>
@@ -206,7 +236,7 @@
        чтения
       </reg>
       <orig>
-       чтенiя
+       чтенія
       </orig>
      </choice>
      . —
@@ -215,7 +245,7 @@
        Нынешний
       </reg>
       <orig>
-       Нынѣшнiй
+       Нынѣшній
       </orig>
      </choice>
      <choice>
@@ -376,7 +406,7 @@
        последний
       </reg>
       <orig>
-       послѣднiй
+       послѣдній
       </orig>
      </choice>
      <choice>
@@ -400,7 +430,7 @@
        неприятен
       </reg>
       <orig>
-       непрiятенъ
+       непріятенъ
       </orig>
      </choice>
      .
@@ -531,7 +561,7 @@
        неприятного
       </reg>
       <orig>
-       непрiятнаго
+       непріятнаго
       </orig>
      </choice>
      чувства.
@@ -566,7 +596,7 @@
        состояния
       </reg>
       <orig>
-       состоянiя
+       состоянія
       </orig>
      </choice>
      и
@@ -652,7 +682,7 @@
       в хорошем духе. Купил дом в Москве, устроился и, как он пишет, успокоился. Изучает еврейский язык. Я очень радуюсь за него. Мне все страшно о нем думать: так горячо он живет с напряжением, с волнением» («Русский вестник» 1901, 2, стр. 462).
      </note>
     </p>
-    <p id="70dcc3e0-2c9c-4cfc-8673-872ff3c4808f" rend="left">
+    <p id="70dcc3e0-2c9c-4cfc-8673-872ff3c4808f">
      Читаю Эпиктета,
      <ref target="#note5">
       5
@@ -686,7 +716,7 @@
      </choice>
      хорошо!
     </p>
-    <p id="d5a11238-3971-4be8-8ac5-0a58cc9273de" rend="left">
+    <p id="d5a11238-3971-4be8-8ac5-0a58cc9273de">
      Не
      <choice>
       <reg>
@@ -761,7 +791,7 @@
      </choice>
      радоваться. И можно. —
     </p>
-    <p id="85898a19-ac76-4899-80f1-c550292dea13" rend="left">
+    <p id="85898a19-ac76-4899-80f1-c550292dea13">
      Обнимаю
      <choice>
       <reg>
@@ -786,7 +816,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="4babbb96-9d94-45dc-a022-5f12f3510ea9" rend="petit left">
+      <p id="4babbb96-9d94-45dc-a022-5f12f3510ea9" rend="petit">
        Письмо это является ответом на письмо Н. Н. Страхова от 2 сентября 1882 г. (см. ПС, № 175).
       </p>
      </note>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. В. Арсеньевой и Ж. Вергани от 8 сентября 1856 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. В. Арсеньевой и Ж. Вергани, 8 сентября 1856 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 60. М.: Гос. изд. «Художественная литература», 1949. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 60</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">83-84</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,7 +127,7 @@
     <p id="074be914-7cab-4d3c-a903-361c5684d399" rend="petit right">
      1856 года. — 8 сентября.
     </p>
-    <p id="0480a0e7-5098-413a-8755-0cee9460e3ef" rend="petit left">
+    <p id="0480a0e7-5098-413a-8755-0cee9460e3ef" rend="petit">
      Милые и безъценоя.
      <ref target="#note1">
       1
@@ -107,7 +136,7 @@
       Дата и обращение написаны рукой Н. П. Охотницкой.
      </note>
     </p>
-    <p id="9527f45d-abb9-4642-b5f2-628dd6112a7f" rend="left">
+    <p id="9527f45d-abb9-4642-b5f2-628dd6112a7f">
      Я сейчас приехал в Судаково и попросил
      <choice original_editorial_correction="Н[аталью]">
       <sic>
@@ -234,10 +263,10 @@
      </name>
      .
     </p>
-    <p id="d33755b9-90c7-4e04-b8e7-ce2dfa58896c" rend="left">
+    <p id="d33755b9-90c7-4e04-b8e7-ce2dfa58896c">
      Тетинька здорова и наверное знаю, что вас обнимает всегда мысленно изо всех сил.
     </p>
-    <p id="47c74858-5599-4599-be91-f975ca9e5f58" rend="left">
+    <p id="47c74858-5599-4599-be91-f975ca9e5f58">
      Как вы поживаете,
      <hi>
       милые и бесценные
@@ -250,7 +279,7 @@
      <hi style="npdelimiter">
       sources
      </hi>
-     indirectes nous savons à peu près du moins ce que fait M-lle Valѐriе, mais de votre genre de vie et de vos occupations, je ne puis me faire aucune idée,
+     indirectes nous savons à peu près du moins ce que fait M-lle Valѐrie, mais de votre genre de vie et de vos occupations, je ne puis me faire aucune idée,
      <ref target="#note4">
       4
      </ref>
@@ -279,7 +308,7 @@
      </hi>
      — Пожалуйста не будируйте меня, а будьте паиньки такие же, как я в эту минуту. — Не только не хорошо добрым людям притворяться злым, но даже злым людям лучше притворяться добрыми. —
     </p>
-    <p id="4be0265e-6407-49fe-a763-02d1da0b2cba" rend="left">
+    <p id="4be0265e-6407-49fe-a763-02d1da0b2cba">
      <name placement="text" ref="215" type="person">
       Александр Петрович
      </name>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо Эдуарду Сине (Edouard Sinet) от 20 июня 1900 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Эдуарду Сине (Edouard Sinet), 20 июня 1900 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">394-395</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -98,10 +127,10 @@
      </name>
      .1900г. Июня 20/июля 2. Я. П.
     </opener>
-    <p id="138550f7-0896-4905-97fd-aac13bcdc860" rend="Obrashenie left">
+    <p id="138550f7-0896-4905-97fd-aac13bcdc860" rend="Obrashenie">
      Cher Sinet,
     </p>
-    <p id="db56856f-98c1-4474-ac46-0304d0f2f675" rend="left">
+    <p id="db56856f-98c1-4474-ac46-0304d0f2f675">
      J’ai reçu votre bonne lettre. Cela m’a été une joie de vous savoir en de bonnes dispositions. Je crois que si votre talent est capable de déveloper et produire des choses utiles aux hommes, cela peut se faire aussi bien au Canada — et même mieux au Canada — qu’à Paris. De sorte que je suis de l’avis de
      <choice original_editorial_correction="Plan[idine]">
       <sic>
@@ -160,7 +189,7 @@
      </note>
      et que je profiterai de toutes les occasions pour leur rendre la liberté.
     </p>
-    <p id="75e5d350-73c7-436d-9efc-a44e68827841" rend="left">
+    <p id="75e5d350-73c7-436d-9efc-a44e68827841">
      Je suis toujours de l’avis qu’il ne faut jamais changer volontairement de milieu. Et je ne vous conseille pas — si ce n’est pour votre mère, de quitter le pays où vous êtes. Il n’y a pas d’endroit
      <choice original_editorial_correction="où[l’on]">
       <sic>
@@ -185,14 +214,14 @@
     <p id="b128cd09-d5b6-4a4b-ab21-41d56aa155ac" rend="right">
      Léon Tolstoy.
     </p>
-    <p id="7fb657ec-aafa-4e1d-bb03-b08cb5db30cc" rend="left">
+    <p id="7fb657ec-aafa-4e1d-bb03-b08cb5db30cc">
      2 Juillet 1900.
     </p>
     <lb/>
     <p id="b5b66923-c207-4713-bed0-3e16de1cde94" rend="Obrashenie petit">
      Дорогой Сине,
     </p>
-    <p id="c6ff182b-60e6-4ed2-a140-a072a4ade93b" rend="petit left">
+    <p id="c6ff182b-60e6-4ed2-a140-a072a4ade93b" rend="petit">
      Я получил ваше хорошее письмо. Мне было радостно узнать о ваших добрых намерениях. Я думаю, что если ваш талант способен развиваться и создавать что-либо полезное для людей, то этого можно достичь так же хорошо в Канаде — и даже лучше в Канаде — как и в Париже. Так что я того же мнения, что и
      <choice original_editorial_correction="План[идин]">
       <sic>
@@ -262,7 +291,7 @@
       освобождения.
      </hi>
     </p>
-    <p id="095ec8a3-48ae-4889-a442-5c90e5e5d490" rend="petit left">
+    <p id="095ec8a3-48ae-4889-a442-5c90e5e5d490" rend="petit">
      <pb n="395"/>
      <hi style="npdelimiter">
       Я
@@ -285,7 +314,7 @@
      </name>
      .
     </p>
-    <p id="4be1ef6e-7c81-4250-8a3a-612139d6c925" rend="petit left">
+    <p id="4be1ef6e-7c81-4250-8a3a-612139d6c925" rend="petit">
      2 Июля 1900.
     </p>
     <noteGrp type="comments">
@@ -295,12 +324,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="4609e0c5-eaaa-4380-a08e-f422806aa2bf" rend="petit left">
+      <p id="4609e0c5-eaaa-4380-a08e-f422806aa2bf" rend="petit">
        Об Эдуарде Сине, художнике, единомышленнике Толстого, см. письма №№ 1 и 243.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="40d3117d-0d4a-4f66-a8a4-b6de3fc18d4d" rend="petit left">
+      <p id="40d3117d-0d4a-4f66-a8a4-b6de3fc18d4d" rend="petit">
        Ответ на письмо Сине, от 24 мая н. ст. 1900 г. (почт, шт.: «Тула, 13 июня 1900») с описанием жизни духоборов в Канаде. В особенно дружеских отношениях Сине был с духоборами П. В. Планидиным и Н. С. Зибаровым. Он писал Толстому 24 мая (перевод с французского): «Планидин сперва огорчился, узнав, что я хочу вернуться в Европу, хотя бы на время, в виду желания моей матери повидаться со мной. Только этот довод и показался ему убедительным. Не представляя себе всех трудностей изучения искусства, он считает, что я мог бы изучать живопись один, и не учитывает того выигрыша во времени, которое дается опытом, черпаемым у великих мастеров. Здесь же, в Канаде, почти не представляется случая пользоваться их советами».
       </p>
      </note>

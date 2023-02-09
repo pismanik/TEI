@@ -9,17 +9,41 @@
                 <title type="main">Письмо Джону Беллоузу (John Bellows) от 24 ноября 1901 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Джону Беллоузу (John Bellows), 24 ноября 1901 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 73. М.: Гос. изд. «Художественная литература», 1954. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 73</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">163-165</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -98,13 +127,13 @@
      </name>
      .1901 г. Ноября 24/декабря 7. Гаспра.
     </opener>
-    <p id="a7a33d4a-4cd1-4b2e-ae0c-446a09a4a975" rend="Obrashenie left">
+    <p id="a7a33d4a-4cd1-4b2e-ae0c-446a09a4a975" rend="Obrashenie">
      Dear friend,
     </p>
-    <p id="b76944a2-99a2-4c96-8902-84896abe3b04" rend="left">
+    <p id="b76944a2-99a2-4c96-8902-84896abe3b04">
      I received your letter and meant to answer it but the last two months I have been so weak that I could not do it. So you must excuse me for my long silence.
     </p>
-    <p id="9def5be5-c742-4155-ad43-6ec28d9ddf47" rend="left">
+    <p id="9def5be5-c742-4155-ad43-6ec28d9ddf47">
      I read your letter twice and considered the matter as well as I could and could not arrive at a definite solution of the question. You may be right but I think not for every person which will read the book. It can have a bad influence over persons who will read not the whole book and not take in the sense of it. It might also have quite the opposite influence so as it was intented to. All what I can say in my defense is that when I read a book the chief interest for me is the
      <choice original_editorial_correction="Weltanschau[u]ng">
       <sic>
@@ -116,10 +145,10 @@
      </choice>
      des Authors, what he likes and what he hates. And I hope that the reader, which will read my book with the same view will find out what the author likes or dislikes and will be influenced with the sentiment of the author. And I can say that when I wrote the book I abhorred with all my heart the lust and to express this abhorrence was one of the chief aims of the book.
     </p>
-    <p id="95f8bedd-4a18-4648-a254-f804f0a3e6f7" rend="left">
+    <p id="95f8bedd-4a18-4648-a254-f804f0a3e6f7">
      If I have failed in it I am very sorry and I am pleading guilty if I was so inconsiderate in the scene of which you write, that I could have produced such a bad impression on your mind.
     </p>
-    <p id="25282563-903e-4763-ac6e-ff4e9950c96b" rend="left">
+    <p id="25282563-903e-4763-ac6e-ff4e9950c96b">
      I think that we will be judged by our conscience and by God — not for the results of our deeds, which we can not know, but for our intentions. And I hope that my intentions were not bad.
     </p>
     <p id="debefdb0-5e10-4658-8c27-63a4f0dfb0e0" rend="right rightindent">
@@ -128,29 +157,29 @@
     <p id="9f1a2340-272d-4092-8d31-5a6a1018d20a" rend="right">
      Leo Tolstoy.
     </p>
-    <p id="2f5372c8-37f4-4f82-b224-c89444896c93" rend="left">
+    <p id="2f5372c8-37f4-4f82-b224-c89444896c93">
      7 December 1901.
     </p>
-    <p id="39ea82cf-5a0f-49f8-b699-a97c8f911b23" rend="emptyline left">
+    <p id="39ea82cf-5a0f-49f8-b699-a97c8f911b23" rend="emptyline">
      <pb n="164"/>
     </p>
     <lb/>
-    <p id="3c4a87ea-64b7-4851-af8a-769fe3c211eb" rend="Obrashenie petit left">
+    <p id="3c4a87ea-64b7-4851-af8a-769fe3c211eb" rend="Obrashenie petit">
      Дорогой друг,
     </p>
-    <p id="7df341bd-ec86-47a6-82ba-2a83e0b38368" rend="petit left">
+    <p id="7df341bd-ec86-47a6-82ba-2a83e0b38368" rend="petit">
      Получил ваше письмо и предполагал ответить на него, но последние два месяца я был так слаб, что не мог этого сделать. Поэтому вы должны извинить меня за мое долгое молчание.
     </p>
-    <p id="d3398278-b2bd-4ca9-a98c-7a85d801bbf4" rend="petit left">
+    <p id="d3398278-b2bd-4ca9-a98c-7a85d801bbf4" rend="petit">
      Я дважды прочел ваше письмо, обдумывал вопрос как умел, но не мог прийти к определенному решению его. Вы, может быть, и правы, но, я думаю, не по отношению к каждому человеку, который будет читать эту книгу. Она может иметь дурное влияние на тех людей, которые прочтут не всю книгу и не проникнутся ее смыслом. Она могла также иметь совсем обратное влияние, как и предполагалось. Всё, что я могу сказать в свою защиту, это следующее: когда я читаю книгу, главный интерес для меня — мировоззрение автора, что он любит и что ненавидит. И я надеюсь, что читатель, который будет читать мою книгу с той же точки зрения, поймет, что любит и чего не любит ее автор, и проникнется чувством автора.
     </p>
-    <p id="59dbc677-e34a-4385-9645-9aece4ba4081" rend="petit left">
+    <p id="59dbc677-e34a-4385-9645-9aece4ba4081" rend="petit">
      Еще могу сказать, что писал эту книгу, всем сердцем ненавидя похоть, и что выразить это отвращение было одной из главных целей этой книги.
     </p>
-    <p id="22c305fa-80e2-41c0-9446-4e9c800ecdbb" rend="petit left">
+    <p id="22c305fa-80e2-41c0-9446-4e9c800ecdbb" rend="petit">
      Если мне это не удалось, очень об этом сожалею и признаю себя виноватым, если был так неосмотрителен в сцене, о которой вы пишете, что мог произвести на вас такое плохое впечатление.
     </p>
-    <p id="62d1a613-a38c-4af7-946f-14db00db113a" rend="petit left">
+    <p id="62d1a613-a38c-4af7-946f-14db00db113a" rend="petit">
      Думаю, что мы будем судимы нашей совестью и богом не за последствия наших поступков, которых мы не можем знать, но за наши намерения. И я надеюсь, что мои намерения не были дурны.
     </p>
     <p id="cdb8f893-b0c3-464a-874a-f70dc09f85d8" rend="petit right rightindent">
@@ -162,7 +191,7 @@
      </name>
      .
     </p>
-    <p id="86474b86-9537-4278-a9c6-c7b680952662" rend="petit left">
+    <p id="86474b86-9537-4278-a9c6-c7b680952662" rend="petit">
      7 декабря 1901.
     </p>
     <noteGrp type="comments">
@@ -176,7 +205,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="d2d1ebd5-1e00-461f-af84-0cf9331445ae" rend="petit left">
+      <p id="d2d1ebd5-1e00-461f-af84-0cf9331445ae" rend="petit">
        <name placement="comments" ref="1169" type="person">
         Джон Беллоуз
        </name>
@@ -184,7 +213,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="05a60596-cc2d-4eb5-ab38-2df051de24c9" rend="petit left">
+      <p id="05a60596-cc2d-4eb5-ab38-2df051de24c9" rend="petit">
        Ответ на письмо
        <name placement="comments" ref="1169" type="person">
         Джона Беллоуза
@@ -197,12 +226,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="9610a716-bb4a-4565-80ef-0618ba45adb4" rend="petit left">
+      <p id="9610a716-bb4a-4565-80ef-0618ba45adb4" rend="petit">
        В письме от 14 октября Беллоуз подробно излагал свое отношение к роману, выражая особенное недовольство сценой соблазнения Катюши Масловой.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="d691c748-b509-4dbf-9209-49b73a87deaf" rend="emptyline left">
+      <p id="d691c748-b509-4dbf-9209-49b73a87deaf" rend="emptyline">
        <pb n="165"/>
       </p>
      </note>

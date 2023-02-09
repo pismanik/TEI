@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v25_584_585_Mnogo_li_cheloveku_zemli_nuzhno_Varianty">
-                    Много ли человеку земли нужно. Tolstoy Digital
+                    Много ли человеку земли нужно. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Много ли человеку земли нужно.</title>
                 <title type="sub" resp="volume_editor">Вариант</title>
-                <title type="bibl">Толстой Л. Н. Много ли человеку земли нужно // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 25. М.: Гос. изд. «Художественная литература», 1937. С.</title>
+                <title type="bibl">Толстой Л. Н. Много ли человеку земли нужно // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 25. М.: Гос. изд. «Художественная литература», 1937. С. 584–585.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1885"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#ver" target="work_main"/>
@@ -117,7 +142,7 @@
      <head n="level2" type="editorial">
       * № 1.
      </head>
-     <p id="abd28853-98ca-4b9c-b24c-9c535e056a91" rend="left">
+     <p id="abd28853-98ca-4b9c-b24c-9c535e056a91">
       Жена слушала, слушала, заснула.
       <choice>
        <reg>
@@ -138,7 +163,7 @@
       </choice>
       и проснулась.
      </p>
-     <p id="4dc7b9e5-b563-4b4e-a976-1c47540b9da7" rend="left">
+     <p id="4dc7b9e5-b563-4b4e-a976-1c47540b9da7">
       — Чего ты?
       <choice>
        <reg>
@@ -158,7 +183,7 @@
       </choice>
       .
      </p>
-     <p id="6fa30bdf-06d5-4276-9911-0324e7a21297" rend="left">
+     <p id="6fa30bdf-06d5-4276-9911-0324e7a21297">
       — Да что, Пахомушка,
       <choice>
        <reg>
@@ -174,7 +199,7 @@
         нехороший
        </reg>
        <orig>
-        нехорошiй
+        нехорошій
        </orig>
       </choice>
       я
@@ -196,7 +221,7 @@
       </choice>
       . Не ходи ты завтра землю обходить.
      </p>
-     <p id="106eadce-aaaf-4b45-9746-05741d2fed92" rend="left">
+     <p id="106eadce-aaaf-4b45-9746-05741d2fed92">
       <choice>
        <reg>
         Засмеялся
@@ -215,7 +240,7 @@
       </choice>
       .
      </p>
-     <p id="61c2d72a-485a-4587-b5a6-95b20673c805" rend="left">
+     <p id="61c2d72a-485a-4587-b5a6-95b20673c805">
       Вона!
       <choice>
        <reg>
@@ -244,7 +269,7 @@
       </choice>
       ?
      </p>
-     <p id="be81ffaf-8608-4e02-aee3-3b842f803ffa" rend="left">
+     <p id="be81ffaf-8608-4e02-aee3-3b842f803ffa">
       —
       <choice>
        <reg>
@@ -265,7 +290,7 @@
       </choice>
       .
      </p>
-     <p id="207bc8d2-5a04-4e87-bb85-bc0cfcbbbbb8" rend="left">
+     <p id="207bc8d2-5a04-4e87-bb85-bc0cfcbbbbb8">
       — Да что ты
       <choice>
        <reg>
@@ -277,7 +302,7 @@
       </choice>
       то?
      </p>
-     <p id="dfa65448-d988-4fd5-b8fc-9e32149afc7a" rend="left">
+     <p id="dfa65448-d988-4fd5-b8fc-9e32149afc7a">
       И
       <choice>
        <reg>
@@ -424,7 +449,7 @@
         башкирский
        </reg>
        <orig>
-        башкирскiй
+        башкирскій
        </orig>
       </choice>
       ,
@@ -494,7 +519,7 @@
         намеднишний
        </reg>
        <orig>
-        намеднишнiй
+        намеднишній
        </orig>
       </choice>
       , что
@@ -798,12 +823,12 @@
         башкирский
        </reg>
        <orig>
-        башкирскiй
+        башкирскій
        </orig>
       </choice>
       . — Не ходи, батюшка.
      </p>
-     <p id="7538abe9-31b4-4cd9-8067-4b2d1ded6388" rend="left">
+     <p id="7538abe9-31b4-4cd9-8067-4b2d1ded6388">
       —
       <choice>
        <reg>
@@ -916,7 +941,7 @@
      <head n="level2" type="editorial">
       * № 2.
      </head>
-     <p id="033211be-9705-449c-b551-051551515c98" rend="left">
+     <p id="033211be-9705-449c-b551-051551515c98">
       <choice>
        <reg>
         Подбежала
@@ -1087,7 +1112,7 @@
       </choice>
       копыта.
      </p>
-     <p id="6a8efeed-7885-4f66-acea-a0894857f7fc" rend="left">
+     <p id="6a8efeed-7885-4f66-acea-a0894857f7fc">
       <choice>
        <reg>
         Встал
@@ -1159,7 +1184,7 @@
       </choice>
       мужику земля на пользу пошла.
      </p>
-     <p id="b8256621-2ab5-4e1c-9353-c2f37a41dc68" rend="left">
+     <p id="b8256621-2ab5-4e1c-9353-c2f37a41dc68">
       Поднялись
       <choice>
        <reg>
@@ -1180,7 +1205,7 @@
       </choice>
       .
      </p>
-     <p id="55011f5a-33c8-4375-8789-e22b187fa67e" rend="left">
+     <p id="55011f5a-33c8-4375-8789-e22b187fa67e">
       Осталась вдова Пахомова
       <choice>
        <reg>
@@ -1217,9 +1242,7 @@
       </choice>
       .
      </p>
-     <p id="a31ac4b5-daaa-45f3-ba78-c9a72a38fcba" rend="subtitle centerline">
-      ————
-     </p>
+    <metamark function="line"/>
      <lb/>
     </div>
    </div>

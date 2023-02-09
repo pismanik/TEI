@@ -9,17 +9,41 @@
                 <title type="main">Письмо О. С. Озеровой от 6 июня 1909 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо О. С. Озеровой, 6 июня 1909 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 79. М.: Гос. изд. «Художественная литература», 1955. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 79</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">223-224</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -94,13 +123,13 @@
     <opener index="false">
      * 265. О. С. Озеровой.1909 г. Июня 6. Я. П.
     </opener>
-    <p id="e6b89ecb-2596-40e2-ba25-e108e50d2ad7" rend="Obrashenie left">
+    <p id="e6b89ecb-2596-40e2-ba25-e108e50d2ad7" rend="Obrashenie">
      <name placement="text" ref="10131" type="person">
       Ольга Сергеевна
      </name>
      ,
     </p>
-    <p id="4b712f42-4d23-4dc0-accc-728f5a111006" rend="left">
+    <p id="4b712f42-4d23-4dc0-accc-728f5a111006">
      Я на днях уезжаю к дочери в Новосильский уезд, Кочеты, имение Мих. Серг. Сухотина. Посылаю вам те мои
      <hi style="opdelimiter">
       книги,
@@ -124,17 +153,17 @@
      </name>
      .
     </p>
-    <p id="d0785f9e-4526-4f38-91d6-e61b43a515aa" rend="left">
+    <p id="d0785f9e-4526-4f38-91d6-e61b43a515aa">
      6 июня 1909.
     </p>
     <noteGrp type="comments">
      <note index="false" type="comments">
       <p id="3eae496b-779f-4288-b593-20b21b4691f9" rend="Textpetit_otstup left">
-       Печатается по машинописной копии из AЧ.
+       Печатается по машинописной копии из АЧ.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="3b6dc7d6-fab2-4d0e-a9ba-b8c66f665229" rend="petit left">
+      <p id="3b6dc7d6-fab2-4d0e-a9ba-b8c66f665229" rend="petit">
        Ответ на письмо слушательницы фельдшерских курсов
        <name placement="comments" ref="10131" type="person">
         Ольги Сергеевны Озеровой

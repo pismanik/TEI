@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову с 21 февраля 1884 г. по 29 февраля 1884 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 21 февраля 1884 г. — 29 февраля 1884 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 85. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 85</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">30-32</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 5.1884 г. Конец февраля. Москва.
     </opener>
-    <p id="e42acb0c-eaee-4532-8777-55d7b176e62d" rend="left">
+    <p id="e42acb0c-eaee-4532-8777-55d7b176e62d">
      Какое славное бодрое письмо ваше
      <choice>
       <reg>
@@ -144,7 +174,7 @@
        Конфуция
       </reg>
       <orig>
-       Конфуцiя
+       Конфуція
       </orig>
      </choice>
      <ref target="#note1">
@@ -177,7 +207,7 @@
        учение
       </reg>
       <orig>
-       ученiе
+       ученіе
       </orig>
      </choice>
      <choice>
@@ -199,7 +229,7 @@
          христианского
         </reg>
         <orig>
-         христiанскаго
+         христіанскаго
         </orig>
        </choice>
       </corr>
@@ -209,12 +239,12 @@
        учения
       </reg>
       <orig>
-       ученiя
+       ученія
       </orig>
      </choice>
      .
     </p>
-    <p id="930bddb5-5ca0-4d2a-a2a3-3de5679580f9" rend="left">
+    <p id="930bddb5-5ca0-4d2a-a2a3-3de5679580f9">
      О
      <choice>
       <reg>
@@ -253,7 +283,7 @@
          какие
         </reg>
         <orig>
-         какiя
+         какія
         </orig>
        </choice>
       </corr>
@@ -282,7 +312,7 @@
        занятие
       </reg>
       <orig>
-       занятiе
+       занятіе
       </orig>
      </choice>
      книгами больше и больше
@@ -318,7 +348,7 @@
        50-летния
       </reg>
       <orig>
-       50-лѣтнiя
+       50-лѣтнія
       </orig>
      </choice>
      харчи.
@@ -401,7 +431,7 @@
        изменениям
       </reg>
       <orig>
-       измѣненiямъ
+       измѣненіямъ
       </orig>
      </choice>
      , когда начнется самое
@@ -421,7 +451,7 @@
       Рукописная копия книжки «В чем моя вера». См. выше прим. 1 к письму № 4 от 17 февраля 1884.
      </note>
     </p>
-    <p id="f035c058-5d83-4556-a8fe-13abc8f7bc1f" rend="left">
+    <p id="f035c058-5d83-4556-a8fe-13abc8f7bc1f">
      Рукопись
      <ref target="#note4">
       4
@@ -431,7 +461,7 @@
      </note>
      пошлю завтра почтой.
     </p>
-    <p id="42d750dc-70b9-4788-8db4-98db950498af" rend="left">
+    <p id="42d750dc-70b9-4788-8db4-98db950498af">
      Пишите
      <choice>
       <reg>
@@ -549,7 +579,7 @@
      </choice>
      .
     </p>
-    <p id="c8477ed2-788b-42bc-8111-eb635e92c8bd" rend="left">
+    <p id="c8477ed2-788b-42bc-8111-eb635e92c8bd">
      Поклонитесь Шпенглеру.
      <hi>
       7
@@ -620,7 +650,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="8a291526-1723-4afb-930a-6ef3ba91201a" rend="petit left">
+      <p id="8a291526-1723-4afb-930a-6ef3ba91201a" rend="petit">
        В письме от 18 февраля Чертков говорит: «Ваше письмо мне доставило большое удовольствие, потому что мне постоянно хочется знать, где
        <hi style="opdelimiter">
         вы,

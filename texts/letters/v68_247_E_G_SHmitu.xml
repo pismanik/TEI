@@ -9,17 +9,41 @@
                 <title type="main">Письмо Э. Г. Шмиту от 18 декабря 1895 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Э. Г. Шмиту, 18 декабря 1895 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 68. М.: Гос. изд. «Художественная литература», 1954. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 68</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">283-284</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -98,10 +127,10 @@
      </name>
      .1895г. Декабря 18. Москва.
     </opener>
-    <p id="ba9c118c-51b8-4fee-a9f9-fcf2501fe5fe" rend="Obrashenie left">
+    <p id="ba9c118c-51b8-4fee-a9f9-fcf2501fe5fe" rend="Obrashenie">
      Lieber Freund,
     </p>
-    <p id="6b6d2522-480c-417c-b2d4-5bbde19750b6" rend="left">
+    <p id="6b6d2522-480c-417c-b2d4-5bbde19750b6">
      Entschuldigen Sie mich, ich bitte, dass ich ihnen so lange nicht geschrieben habe. Ihr Buch: Das
      <choice original_editorial_correction="Geheim[nis]">
       <sic>
@@ -165,7 +194,7 @@
      </note>
      anbetrifft, so bin ich mit der Grundidee des Artikels gänzlich übereinstimmend.
     </p>
-    <p id="9aeb4fcf-7176-4b73-8cd5-0e3934d1e800" rend="left">
+    <p id="9aeb4fcf-7176-4b73-8cd5-0e3934d1e800">
      Was die Bemerkungen ihres Russischen Freundes
      <ref target="#note3">
       3
@@ -178,11 +207,11 @@
     <p id="c8bdfb17-aa50-4424-a887-037c717abf8d" rend="right">
      Ihr Freund Leo Tolstoy.
     </p>
-    <p id="7f965968-e86e-4802-a39e-89d4e56c83de" rend="left">
+    <p id="7f965968-e86e-4802-a39e-89d4e56c83de">
      18/30 December 95. Moskau.
     </p>
     <lb/>
-    <p id="38712d18-0cb1-49b8-99b7-85b4f2b59cb1" rend="Obrashenie petit left">
+    <p id="38712d18-0cb1-49b8-99b7-85b4f2b59cb1" rend="Obrashenie petit">
      Дорогой друг,
     </p>
     <noteGrp type="comments">
@@ -206,7 +235,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="5129734c-3d13-41ea-ab5e-41408e8a31e0" rend="petit left">
+      <p id="5129734c-3d13-41ea-ab5e-41408e8a31e0" rend="petit">
        Что касается замечаний вашего русского друга,
        <ref target="#note6">
         6

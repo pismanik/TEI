@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову от 4 апреля 1891 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 4 апреля 1891 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 87. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 87</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">80-81</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 286.1891 г. Апреля 4?. Я. П.
     </opener>
-    <p id="2a7a01b4-d430-429b-870e-1315c49da7fa" rend="left">
+    <p id="2a7a01b4-d430-429b-870e-1315c49da7fa">
      Ужасно
      <choice>
       <reg>
@@ -130,7 +160,7 @@
       </reg>
       <orig>
        <name placement="text" ref="15284" type="person">
-        Владимiръ
+        Владиміръ
        </name>
       </orig>
      </choice>
@@ -159,7 +189,7 @@
        получении
       </reg>
       <orig>
-       полученiи
+       полученіи
       </orig>
      </choice>
      вашего
@@ -618,7 +648,7 @@
        исполнения
       </reg>
       <orig>
-       исполненiя
+       исполненія
       </orig>
      </choice>
      воли Бога, а святому
@@ -858,7 +888,7 @@
        маленький
       </reg>
       <orig>
-       маленькiй
+       маленькій
       </orig>
      </choice>
      Дима? Чтó
@@ -953,7 +983,7 @@
      </choice>
      прислать.
     </p>
-    <p id="2f601cc9-ae37-4e0c-ab8e-0efef7f80be8" rend="left">
+    <p id="2f601cc9-ae37-4e0c-ab8e-0efef7f80be8">
      Ну пока прощайте.
      <choice>
       <reg>
@@ -987,7 +1017,7 @@
        Любящий
       </reg>
       <orig>
-       Любящiй
+       Любящій
       </orig>
      </choice>
      <choice>
@@ -1014,12 +1044,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="34d62cd3-3ea5-417d-9fc0-45e69a6a4f32" rend="petit left">
+      <p id="34d62cd3-3ea5-417d-9fc0-45e69a6a4f32" rend="petit">
        Письмо, повидимому, было написано 4 апреля, так как в письме И. И. Горбунову от 4 апреля Толстой писал о повести Быстренина «Свой суд», а в комментируемом письме он упоминает, что писал об этой повести «нынче».
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="898b1b12-3837-403c-8623-dbc9255a5872" rend="petit left">
+      <p id="898b1b12-3837-403c-8623-dbc9255a5872" rend="petit">
        Толстой отвечает на письмо Черткова, полученное 1 апреля. Письмо это не разыскано. В Дневнике Толстого 1 апреля записано, что он «нынче получил хорошие письма от Черткова, Попова и Горбунова».
       </p>
      </note>

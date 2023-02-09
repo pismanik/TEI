@@ -9,17 +9,41 @@
                 <title type="main">Письмо Н. Н. Страхову от 12 марта 1882 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Н. Н. Страхову, 12 марта 1882 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 63. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 63</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">93-94</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      99. Н. Н. Страхову1882 г. Марта 12? Я. П.
     </opener>
-    <p id="bea6e4cc-560b-4d8d-bd10-f2d24c952ad2" rend="Obrashenie left">
+    <p id="bea6e4cc-560b-4d8d-bd10-f2d24c952ad2" rend="Obrashenie">
      Дорогой
      <name placement="text" ref="13258" type="person">
       Николай
@@ -111,7 +141,7 @@
      </choice>
      !
     </p>
-    <p id="9a83490b-fcb5-48d6-b6a8-83c600da2398" rend="left">
+    <p id="9a83490b-fcb5-48d6-b6a8-83c600da2398">
      <choice>
       <reg>
        Виноват
@@ -209,7 +239,7 @@
        молчание
       </reg>
       <orig>
-       молчанiе
+       молчаніе
       </orig>
      </choice>
      тяжело. Я
@@ -428,7 +458,7 @@
         затруднения
        </reg>
        <orig>
-        затрудненiя
+        затрудненія
        </orig>
       </choice>
       ,
@@ -518,7 +548,7 @@
      </choice>
      .
     </p>
-    <p id="b960d337-99a4-4165-a6b7-8770abd3f2f1" rend="left">
+    <p id="b960d337-99a4-4165-a6b7-8770abd3f2f1">
      <choice>
       <reg>
        Этим
@@ -537,7 +567,7 @@
      </choice>
      не понравилась ваша книга. — Простите не за правду, а за правдивость.
     </p>
-    <p id="9a7bcf78-a3eb-4eb0-8f56-ec8a3cd89e2a" rend="left">
+    <p id="9a7bcf78-a3eb-4eb0-8f56-ec8a3cd89e2a">
      Я
      <choice>
       <reg>
@@ -687,7 +717,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="84d211e6-fd10-4db4-8b83-e790290e5ae7" rend="petit left">
+      <p id="84d211e6-fd10-4db4-8b83-e790290e5ae7" rend="petit">
        Толстой отвечает на письмо Н. Н. Страхова от 6 февраля 1882 г. (см. ПС, № 169).
       </p>
      </note>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо Чарльзу Войзе (Charles Voysey) от 7 июня 1901 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Чарльзу Войзе (Charles Voysey), 7 июня 1901 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 73. М.: Гос. изд. «Художественная литература», 1954. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 73</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">86-88</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,13 +127,13 @@
      </name>
      .1901 г. Июня 7. Я. П.
     </opener>
-    <p id="2c4104cb-2648-4988-971e-f8e2c5f1dd98" rend="Obrashenie left">
+    <p id="2c4104cb-2648-4988-971e-f8e2c5f1dd98" rend="Obrashenie">
      Dear Sir.
     </p>
-    <p id="9b081327-ec0a-4381-ac62-36392bea07ac" rend="left">
+    <p id="9b081327-ec0a-4381-ac62-36392bea07ac">
      I have received your letter and your sermon on my excommunication, as well as your books for which I thank you.
     </p>
-    <p id="dd7bda50-f212-46e8-afbf-558c10a7f36d" rend="left">
+    <p id="dd7bda50-f212-46e8-afbf-558c10a7f36d">
      I was very glad to know that I had co-religionists of which I did not know anything till now. I knew about the Unitarien but not about the Theistic Church. I have read some of the books and leaflets that you sent me to see that your belief is nearly the same as mine. I say nearly, because I do not regard Christ as an impostor as one of your co-religionists wrote to me some time ago
      <ref target="#note1">
       1
@@ -117,10 +146,10 @@
      </note>
      and do not lay at his door all the bad things that are included in the Gospel.
     </p>
-    <p id="aee24148-7b6d-475d-81e3-c7458debe755" rend="left">
+    <p id="aee24148-7b6d-475d-81e3-c7458debe755">
      All that I read in your books is quite congenial to me and especially your sermon on «The Philosophy of Human life».
     </p>
-    <p id="1573729d-a398-4916-a063-ea1479f8f95f" rend="left">
+    <p id="1573729d-a398-4916-a063-ea1479f8f95f">
      I am very sorry not to be able to send you my complete answer to the «Excommunication», but I wrote to my friend in England — V. Tchertkoff (Christchurch, Hants) begging him to send to
      <hi style="opdelimiter">
       you
@@ -141,13 +170,13 @@
      Leo Tolstoy.
     </p>
     <lb/>
-    <p id="3ac3b410-0390-4950-8cdf-1110047af870" rend="Obrashenie petit left">
+    <p id="3ac3b410-0390-4950-8cdf-1110047af870" rend="Obrashenie petit">
      Милостивый государь,
     </p>
-    <p id="b04d5f1e-fe8c-4111-9ae4-58df89f38d96" rend="petit left">
+    <p id="b04d5f1e-fe8c-4111-9ae4-58df89f38d96" rend="petit">
      Я получил ваше письмо и проповедь по поводу моего отлучения, так же как и ваши книги, и очень вас благодарю.
     </p>
-    <p id="9d52d71d-a4f4-46c4-a54b-ae3be97ce7fc" rend="petit left">
+    <p id="9d52d71d-a4f4-46c4-a54b-ae3be97ce7fc" rend="petit">
      Очень был рад узнать, что у меня есть религиозные единомышленники, о которых до сих пор не подозревал. Я знал об унитарианцах, но не о теистической церкви. Я прочел некоторые из тех книг и листовок, которые вы мне прислали, и увидел, что ваша вера почти та же, что и моя. Говорю «почти», потому что не считаю Христа обманщиком, как писал мне один из ваших единомышленников несколько времени тому назад,
      <ref target="#note2">
       2
@@ -160,10 +189,10 @@
      </note>
      и не взваливаю на него вину за всё дурное, что содержится в Евангелии.
     </p>
-    <p id="953c8fe7-a0ca-420c-b7d4-8613b02b764b" rend="petit left">
+    <p id="953c8fe7-a0ca-420c-b7d4-8613b02b764b" rend="petit">
      Всё, что я прочел в ваших книгах, вполне мне сродно, в особенности ваша проповедь «Философия человеческой жизни».
     </p>
-    <p id="0b6b5492-05d1-45b5-809c-b4f7617da764" rend="petit left">
+    <p id="0b6b5492-05d1-45b5-809c-b4f7617da764" rend="petit">
      Очень сожалею, что не могу послать вам мой полный ответ на «Отлучение», но я написал в Англию моему другу В. Черткову (Крайстчерч, Хантс), прося его послать вам этот ответ, а также некоторые из моих книг на религиозные темы, из которых вы увидите, что, не зная друг друга лично, мы пришли к совершенно одинаковому выводу, так как пользовались тем же самым источником: человеческим разумом, любовью и совестью, — как вы это вполне правильно указали в некоторых ваших книгах.
     </p>
     <p id="e6046001-e7ae-4c63-835c-0f0bf4363b9f" rend="petit right rightindent1">
@@ -185,7 +214,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="4675891b-9391-4bff-8ae2-1854b68cea68" rend="petit left">
+      <p id="4675891b-9391-4bff-8ae2-1854b68cea68" rend="petit">
        <name placement="comments" ref="2721" type="person">
         Чарльз Войзе
        </name>
@@ -193,7 +222,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="14b1a046-fe15-4fee-b488-26fb9ff0b8b8" rend="petit left">
+      <p id="14b1a046-fe15-4fee-b488-26fb9ff0b8b8" rend="petit">
        Ответ на письмо Войзе от 29 мая н. ст. 1901 г. и приложенную к нему проповедь, в которых Войзе выражал сочувствие по поводу отлучения Толстого от церкви.
       </p>
      </note>

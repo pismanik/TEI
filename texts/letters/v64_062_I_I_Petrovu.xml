@@ -9,17 +9,41 @@
                 <title type="main">Письмо И. И. Петрову от 17 апреля 1887 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо И. И. Петрову, 17 апреля 1887 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 64. М.: Гос. изд. «Художественная литература», 1953. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 64</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">34-35</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,7 +127,7 @@
      </name>
      .1887 г. Апреля 17. Я. П.
     </opener>
-    <p id="56159382-35a2-4c39-abe3-ba3a0bc92faa" rend="left">
+    <p id="56159382-35a2-4c39-abe3-ba3a0bc92faa">
      Простите,
      <name placement="text" ref="10730" type="person">
       Иван Иванович
@@ -111,16 +140,16 @@
      </name>
      .
     </p>
-    <p id="0d7570e4-1b90-4aa6-a783-6e522d4da308" rend="left" style="margin-bottom: -1.0em; margin-top: -1.0em;">
+    <p id="0d7570e4-1b90-4aa6-a783-6e522d4da308" style="margin-bottom: -1.0em; margin-top: -1.0em;">
      <pb n="35"/>
     </p>
     <lb/>
-    <p id="cc83fbe5-40fd-49bb-ad5f-81c6c74b3459" rend="left">
+    <p id="cc83fbe5-40fd-49bb-ad5f-81c6c74b3459">
      <hi>
-      Hа обратной стороне открытки:
+      На обратной стороне открытки:
      </hi>
     </p>
-    <p id="483ce824-2e0f-49c6-a794-1efe77fa33df" rend="left">
+    <p id="483ce824-2e0f-49c6-a794-1efe77fa33df">
      Москва. Страстной бульвар, д. Чижова.
      <choice original_editorial_correction="Меблиров[анные]">
       <sic>
@@ -151,7 +180,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="0ef66c9d-4dfe-41c4-93e7-7beff0333fb3" rend="petit left">
+      <p id="0ef66c9d-4dfe-41c4-93e7-7beff0333fb3" rend="petit">
        <name placement="comments" ref="10730" type="person">
         Иван Иванович Петров
        </name>
@@ -159,7 +188,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="29ed79aa-3715-44f5-b725-ba06dee9daf2" rend="petit left">
+      <p id="29ed79aa-3715-44f5-b725-ba06dee9daf2" rend="petit">
        Письмо И. И. Петрова, на которое отвечает Толстой, неизвестно.
       </p>
      </note>

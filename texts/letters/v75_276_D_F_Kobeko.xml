@@ -9,17 +9,41 @@
                 <title type="main">Письмо Д. Ф. Кобеко от 19 декабря 1904 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Д. Ф. Кобеко, 19 декабря 1904 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 75. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 75</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">195-196</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -94,20 +123,20 @@
     <opener index="false">
      276. Д. Ф. Кобеко.1904 г. Декабря 19. Я. П.
     </opener>
-    <p id="7e4b0ed8-40ff-4539-98b0-8c508e17b963" rend="Obrashenie left">
+    <p id="7e4b0ed8-40ff-4539-98b0-8c508e17b963" rend="Obrashenie">
      Милостивый Государь
      <name placement="text" ref="6561" type="person">
       Дмитрий Фомич
      </name>
      ,
     </p>
-    <p id="03d5f06c-f7e4-426f-8d5e-c49d268fb5fa" rend="left">
+    <p id="03d5f06c-f7e4-426f-8d5e-c49d268fb5fa">
      Получил с Вашего любезного разрешения книгу Отщепенцы и с благодарностью
      <hi style="opdelimiter">
       возвращаю.
      </hi>
     </p>
-    <p id="ea155de2-2182-41fb-b184-b5ad6ecd16fa" rend="left">
+    <p id="ea155de2-2182-41fb-b184-b5ad6ecd16fa">
      <pb n="196"/>
      <hi style="npdelimiter">
       С
@@ -120,7 +149,7 @@
      </name>
      .
     </p>
-    <p id="17477c7d-3292-4ca4-8bfe-c9f9d5dd6f29" rend="left">
+    <p id="17477c7d-3292-4ca4-8bfe-c9f9d5dd6f29">
      19 дек. 1904 г.
     </p>
     <noteGrp type="comments">
@@ -130,7 +159,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="4ec09cf4-764d-4d91-96f5-25f8e7d937b7" rend="petit left">
+      <p id="4ec09cf4-764d-4d91-96f5-25f8e7d937b7" rend="petit">
        <name placement="comments" ref="6561" type="person">
         Дмитрий Фомич Кобеко
        </name>
@@ -138,7 +167,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="38e2ffb7-6448-40bd-8905-cf11cfa8809f" rend="petit left">
+      <p id="38e2ffb7-6448-40bd-8905-cf11cfa8809f" rend="petit">
        Кобеко был в Ясной Поляне 28 мая 1908 г. Толстой записал под 29 мая 1908 г. в Дневнике: «Вчера был очень тяжелый
        <choice original_editorial_correction="К[обеко]">
         <sic>
@@ -152,7 +181,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="d4712860-3fa6-46b6-b2d3-04b68435abd9" rend="petit left">
+      <p id="d4712860-3fa6-46b6-b2d3-04b68435abd9" rend="petit">
        Ответ на письмо Кобеко от 3 декабря 1904 г.: «Узнав ваше желание чрез Владимира Васильевича Стасова, имею честь препроводить при сем вашему сиятельству, сроком до 15 января 1905 г., следующее издание: «Соколов Н. В., Отщепенцы, С.-Петербург, 1866».
        <ref target="file:///Volume_75_V.V.Stasovu_260.xml">
         См. письмо № 260

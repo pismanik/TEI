@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v17_460_462_Materialy_k_romanu_Dekabristy_Pomety">
-                    Материалы к роману «Декабристы». Отдельные листы. Tolstoy Digital
+                    Материалы к роману «Декабристы». Отдельные листы. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Декабристы.</title>
                 <title type="sub" resp="volume_editor">Материалы к роману. Отдельные листы</title>
-                <title type="bibl">Толстой Л. Н. Материалы к роману «Декабристы». Отдельные листы // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. Материалы к роману «Декабристы». Отдельные листы // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С. 460–462.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -91,9 +115,10 @@
                     1863, 1877—1879
                 </date>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#ver" target="work_main"/>
@@ -230,7 +255,7 @@
           юстиции
          </reg>
          <orig>
-          юстицiи
+          юстиціи
          </orig>
         </choice>
        </p>
@@ -255,7 +280,7 @@
           Просвещения
          </reg>
          <orig>
-          Просвѣщенiя
+          Просвѣщенія
          </orig>
         </choice>
        </p>
@@ -539,7 +564,7 @@
           колекция
          </reg>
          <orig>
-          колекцiя
+          колекція
          </orig>
         </choice>
         <choice>
@@ -719,7 +744,7 @@
           Карамзинский
          </reg>
          <orig>
-          Карамзинскiй
+          Карамзинскій
          </orig>
         </choice>
         <choice>
@@ -818,7 +843,7 @@
           Потоцкий
          </reg>
          <orig>
-          Потоцкiй
+          Потоцкій
          </orig>
         </choice>
         <choice>
@@ -867,7 +892,7 @@
          863
         </ref>
         <note index="false" xml:id="note863">
-         <span data-class="paragraph" id="65218230-4012-4d3c-a295-4bcf1c8b3825" rend="left">
+         <span data-class="paragraph" id="65218230-4012-4d3c-a295-4bcf1c8b3825">
           <hi rend="italic">
            На страницах 101 и 109 имеются записи, не относящиеся к Декабристам. См. 49 том.
           </hi>
@@ -877,7 +902,7 @@
          864
         </ref>
         <note index="false" xml:id="note864">
-         <span data-class="paragraph" id="b4e55b67-ae39-4895-9284-b8f24ce7800a" rend="left">
+         <span data-class="paragraph" id="b4e55b67-ae39-4895-9284-b8f24ce7800a">
           <hi rend="italic">
            Начиная со слова:
           </hi>
@@ -886,7 +911,7 @@
             Потоцкий
            </reg>
            <orig>
-            Потоцкiй
+            Потоцкій
            </orig>
           </choice>
           <hi rend="italic">
@@ -926,7 +951,7 @@
          865
         </ref>
         <note index="false" xml:id="note865">
-         <span data-class="paragraph" id="0b5f3f8d-03c8-41a1-bb68-fc721c81380f" rend="left">
+         <span data-class="paragraph" id="0b5f3f8d-03c8-41a1-bb68-fc721c81380f">
           <hi rend="italic">
            Со слов:
           </hi>
@@ -1013,7 +1038,7 @@
           освобождение
          </reg>
          <orig>
-          освобожденiе
+          освобожденіе
          </orig>
         </choice>
         . —
@@ -1021,7 +1046,7 @@
       </cell>
      </row>
     </table>
-    <p id="03bceccc-a04a-4bd1-82f4-b254df79faa9" rend="left pages2">
+    <p id="03bceccc-a04a-4bd1-82f4-b254df79faa9" rend="pages2">
      <pb n="461"/>
     </p>
     <table rend="nopad">
@@ -1047,7 +1072,7 @@
           милион
          </reg>
          <orig>
-          милiон
+          миліон
          </orig>
         </choice>
         . отдано
@@ -1126,7 +1151,7 @@
          866
         </ref>
         <note index="false" xml:id="note866">
-         <span data-class="paragraph" id="374f2280-8aeb-42ec-8d26-cffbd348e524" rend="left">
+         <span data-class="paragraph" id="374f2280-8aeb-42ec-8d26-cffbd348e524">
           <hi rend="italic">
            Со слов:
           </hi>
@@ -1275,7 +1300,7 @@
          867
         </ref>
         <note index="false" xml:id="note867">
-         <span data-class="paragraph" id="28a99b18-dae4-43e0-8573-17a0f236e32b" rend="left">
+         <span data-class="paragraph" id="28a99b18-dae4-43e0-8573-17a0f236e32b">
           <hi rend="italic">
            Знак вопроса после:
           </hi>
@@ -1291,7 +1316,7 @@
          868
         </ref>
         <note index="false" xml:id="note868">
-         <span data-class="paragraph" id="28628b5a-fd8f-4c7f-867e-3281028fc810" rend="left">
+         <span data-class="paragraph" id="28628b5a-fd8f-4c7f-867e-3281028fc810">
           <hi rend="italic">
            Со слов:
           </hi>
@@ -1409,7 +1434,7 @@
            ейший
           </reg>
           <orig>
-           ѣйшiй
+           ѣйшій
           </orig>
          </choice>
         </hi>
@@ -1490,7 +1515,7 @@
             просвещения
            </reg>
            <orig>
-            просвѣщенiя
+            просвѣщенія
            </orig>
           </choice>
          </corr>
@@ -1538,7 +1563,7 @@
            исповеданий
           </reg>
           <orig>
-           исповѣданiй
+           исповѣданій
           </orig>
          </choice>
         </hi>
@@ -1548,7 +1573,7 @@
          869
         </ref>
         <note index="false" xml:id="note869">
-         <span data-class="paragraph" id="b55c7ad5-d71e-4c70-8462-8f1bff6f79f9" rend="left">
+         <span data-class="paragraph" id="b55c7ad5-d71e-4c70-8462-8f1bff6f79f9">
           <choice>
            <reg>
             Бетанкур
@@ -1600,7 +1625,7 @@
             Виртембергский
            </reg>
            <orig>
-            Виртембергскiй
+            Виртембергскій
            </orig>
           </choice>
          </corr>
@@ -1611,7 +1636,7 @@
          870
         </ref>
         <note index="false" xml:id="note870">
-         <span data-class="paragraph" id="f8ce0f34-b123-4651-8ce4-bb23aab53b6b" rend="left">
+         <span data-class="paragraph" id="f8ce0f34-b123-4651-8ce4-bb23aab53b6b">
           <choice>
            <reg>
             Деволан
@@ -1675,7 +1700,7 @@
             Канцелярии
            </reg>
            <orig>
-            Канцелярiи
+            Канцеляріи
            </orig>
           </choice>
          </corr>
@@ -1708,7 +1733,7 @@
             Сообщения
            </reg>
            <orig>
-            Сообщенiя
+            Сообщенія
            </orig>
           </choice>
          </corr>
@@ -1721,7 +1746,7 @@
            Сперанский
           </reg>
           <orig>
-           Сперанскiй
+           Сперанскій
           </orig>
          </choice>
         </hi>
@@ -1861,7 +1886,7 @@
             Исакиевский
            </reg>
            <orig>
-            Исакiевскiй
+            Исакіевскій
            </orig>
           </choice>
          </corr>
@@ -1925,7 +1950,7 @@
             назначения
            </reg>
            <orig>
-            назначенiя
+            назначенія
            </orig>
           </choice>
          </corr>
@@ -2001,7 +2026,7 @@
             Бесарабии
            </reg>
            <orig>
-            Бесарабiи
+            Бесарабіи
            </orig>
           </choice>
          </corr>
@@ -2033,7 +2058,7 @@
             Оренбургский
            </reg>
            <orig>
-            Оренбургскiй
+            Оренбургскій
            </orig>
           </choice>
          </corr>
@@ -2118,7 +2143,7 @@
           Колония
          </reg>
          <orig>
-          Колонiя
+          Колонія
          </orig>
         </choice>
         Рос. уступается
@@ -2156,7 +2181,7 @@
             Франции
            </reg>
            <orig>
-            Францiи
+            Франціи
            </orig>
           </choice>
          </corr>
@@ -2179,7 +2204,7 @@
             Испаниией
            </reg>
            <orig>
-            Испанiией
+            Испаніией
            </orig>
           </choice>
          </corr>
@@ -2204,7 +2229,7 @@
             Ангулемский
            </reg>
            <orig>
-            Ангулемскiй
+            Ангулемскій
            </orig>
           </choice>
          </corr>
@@ -2224,7 +2249,7 @@
       </cell>
      </row>
     </table>
-    <p id="b537c0da-164f-4d17-a724-35ce74f02852" rend="left pages2">
+    <p id="b537c0da-164f-4d17-a724-35ce74f02852" rend="pages2">
      <pb n="462"/>
     </p>
     <table rend="nopad">
@@ -2304,7 +2329,7 @@
           Греции
          </reg>
          <orig>
-          Грецiи
+          Греціи
          </orig>
         </choice>
         <choice>
@@ -2320,7 +2345,7 @@
           Гетерии
          </reg>
          <orig>
-          Гетерiи
+          Гетеріи
          </orig>
         </choice>
        </p>
@@ -2351,7 +2376,7 @@
            </reg>
            <orig>
             <name placement="text" ref="5818" type="person">
-             Дмитрiй
+             Дмитрій
             </name>
            </orig>
           </choice>
@@ -2509,7 +2534,7 @@
          871
         </ref>
         <note index="false" xml:id="note871">
-         <span data-class="paragraph" id="0bf8b9ea-003a-4495-9b2c-ff571e41252e" rend="left">
+         <span data-class="paragraph" id="0bf8b9ea-003a-4495-9b2c-ff571e41252e">
           <hi rend="italic">
            Со слов:
           </hi>
@@ -2636,7 +2661,7 @@
             истории
            </reg>
            <orig>
-            исторiи
+            исторіи
            </orig>
           </choice>
          </corr>
@@ -2661,7 +2686,7 @@
             Жуковский
            </reg>
            <orig>
-            Жуковскiй
+            Жуковскій
            </orig>
           </choice>
          </corr>
@@ -2751,7 +2776,7 @@
            </reg>
            <orig>
             <name placement="text" ref="4430" type="person">
-             Дмитрiевъ
+             Дмитріевъ
             </name>
            </orig>
           </choice>
@@ -2859,7 +2884,7 @@
          872
         </ref>
         <note index="false" xml:id="note872">
-         <span data-class="paragraph" id="cbd2f6d8-57e6-45de-916e-b7d2c2495f3a" rend="left">
+         <span data-class="paragraph" id="cbd2f6d8-57e6-45de-916e-b7d2c2495f3a">
           47
           <choice original_editorial_correction="л[ет]">
            <sic>
@@ -2949,7 +2974,7 @@
          873
         </ref>
         <note index="false" xml:id="note873">
-         <span data-class="paragraph" id="b14b3e7f-64a1-4461-bb6c-5fcee878634d" rend="left">
+         <span data-class="paragraph" id="b14b3e7f-64a1-4461-bb6c-5fcee878634d">
           <hi rend="italic">
            Со слов:
           </hi>
@@ -3096,7 +3121,7 @@
           Академии
          </reg>
          <orig>
-          Академiи
+          Академіи
          </orig>
         </choice>
         <choice original_editorial_correction="Худ[ожеств]">
@@ -3179,7 +3204,7 @@
           Бессарабии
          </reg>
          <orig>
-          Бессарабiи
+          Бессарабіи
          </orig>
         </choice>
         .
@@ -3234,7 +3259,7 @@
           Бессарабии
          </reg>
          <orig>
-          Бессарабiи
+          Бессарабіи
          </orig>
         </choice>
         .
@@ -3256,7 +3281,7 @@
           Киеве
          </reg>
          <orig>
-          Кiевѣ
+          Кіевѣ
          </orig>
         </choice>
         .
@@ -3304,7 +3329,7 @@
           дивизии
          </reg>
          <orig>
-          дивизiи
+          дивизіи
          </orig>
         </choice>
         .
@@ -3331,7 +3356,7 @@
           просвещения
          </reg>
          <orig>
-          просвѣщенiя
+          просвѣщенія
          </orig>
         </choice>
         .
@@ -3339,9 +3364,7 @@
       </cell>
      </row>
     </table>
-    <p id="4cc23f6e-3e8f-45ce-be30-13edaa2e4d9f" rend="center">
-     ————
-    </p>
+    <metamark function="line"/>
    </div>
   </body>
  </text>

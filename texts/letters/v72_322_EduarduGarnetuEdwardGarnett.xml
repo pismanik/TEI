@@ -9,17 +9,41 @@
                 <title type="main">Письмо Эдуарду Гарнету (Edward Garnett) от 21 июня 1900 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Эдуарду Гарнету (Edward Garnett), 21 июня 1900 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">396-401</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,16 +127,16 @@
      </name>
      .1900 г. Июня 21. Я. П.
     </opener>
-    <p id="55196f75-1cde-4b68-b2f9-02818834e386" rend="Obrashenie left">
+    <p id="55196f75-1cde-4b68-b2f9-02818834e386" rend="Obrashenie">
      Dear Sir,
     </p>
-    <p id="4a7c94b0-8ad8-4476-acbd-cdfdda2438b6" rend="left">
+    <p id="4a7c94b0-8ad8-4476-acbd-cdfdda2438b6">
      I thank you for your letter of June 6th. When I read it, it seemed to me impossible that I could send any message to the American
      <hi style="opdelimiter">
       people.
      </hi>
     </p>
-    <p id="e93d3d8d-2d29-47d0-8924-b5d66a8b1db6" rend="left">
+    <p id="e93d3d8d-2d29-47d0-8924-b5d66a8b1db6">
      <ref target="#note1">
       1
      </ref>
@@ -208,7 +237,7 @@
      </note>
      — a bright constallation, such as is rarely to be found in the literatures of the world.
     </p>
-    <p id="98c68d34-5733-4def-9ed4-53ead674c77c" rend="left">
+    <p id="98c68d34-5733-4def-9ed4-53ead674c77c">
      And I should like to ask the American people, why they do not pay more attention to these voices (hardly to be replaced by those of Gould,
      <ref target="#note10">
       10
@@ -239,7 +268,7 @@
      </note>
      ) and continue the good work in which they made such hopeful progress.
     </p>
-    <p id="fce4be8c-baea-4965-93c6-7682ab76805e" rend="left">
+    <p id="fce4be8c-baea-4965-93c6-7682ab76805e">
      My kind regards to your wife, and I take opportunity of once more thanking her for her excellent translation of «The Kingdom of God is within you».
      <ref target="#note13">
       13
@@ -258,10 +287,10 @@
     <p id="2c148741-2663-4620-8952-ef8edfceb42e" rend="Obrashenie petit">
      Милостивый государь,
     </p>
-    <p id="93f0dc2f-2ca5-413c-8829-227cf180884f" rend="petit left">
+    <p id="93f0dc2f-2ca5-413c-8829-227cf180884f" rend="petit">
      Благодарю вас за ваше письмо от 6 июня. Когда я читал его, мне казалось невозможным послать какое-либо обращение к американскому народу.
     </p>
-    <p id="140df9ba-40a9-4eee-965f-1db0e72fd59d" rend="petit left">
+    <p id="140df9ba-40a9-4eee-965f-1db0e72fd59d" rend="petit">
      Но, обдумав это еще раз ночью, я почувствовал, что если бы мне пришлось обратиться к американскому народу, то я постарался бы выразить ему мою благодарность за ту большую помощь, которую я получил от его писателей, процветавших в пятидесятых годах. Я бы упомянул Гарисона,
      <ref target="#note14">
       14
@@ -353,7 +382,7 @@
      </note>
      — блестящую плеяду, подобную которой редко можно найти во всемирной литературе.
     </p>
-    <p id="03bd7259-738a-415e-bd70-cb7f567de0e3" rend="petit left">
+    <p id="03bd7259-738a-415e-bd70-cb7f567de0e3" rend="petit">
      И мне хотелось бы спросить американский народ, почему он не обращает больше внимания на эти голоса (которых вряд ли можно заменить голосами Гульда,
      <ref target="#note23">
       23
@@ -384,7 +413,7 @@
      </note>
      ), и почему он не продолжает того хорошего дела, которое столь успешно ими начато.
     </p>
-    <p id="0b393640-067d-43b1-8691-c818ac1da61a" rend="petit left">
+    <p id="0b393640-067d-43b1-8691-c818ac1da61a" rend="petit">
      Передайте мой привет вашей жене. Пользуюсь случаем еще раз поблагодарить ее за прекрасный перевод «Царства божия внутри вас».
      <ref target="#note26">
       26
@@ -405,7 +434,7 @@
     <noteGrp type="comments">
      <note index="false" type="comments">
       <p id="e281cbaa-8b82-4ed4-9f51-ff9126bc21ac" rend="Textpetit_otstup left">
-       Печатается по машинописной копии, хранящейся в AЧ. В копировальной книге № 3, л. 37 письмо, написанное рукой Артура
+       Печатается по машинописной копии, хранящейся в АЧ. В копировальной книге № 3, л. 37 письмо, написанное рукой Артура
        <hi style="opdelimiter">
         Син-Джона,
        </hi>
@@ -417,7 +446,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="97c48f5c-c666-45a2-b830-5ed928837405" rend="petit left">
+      <p id="97c48f5c-c666-45a2-b830-5ed928837405" rend="petit">
        Ответ на письмо
        <name placement="comments" ref="3131" type="person">
         Эдуарда Гарнета (Edward Garnett)

@@ -9,17 +9,41 @@
                 <title type="main">Письмо С. Т. Семенову от 10 апреля 1889 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. Т. Семенову, 10 апреля 1889 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 64. М.: Гос. изд. «Художественная литература», 1953. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 64</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">241-243</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,14 +128,14 @@
      </name>
      .1889 г. Апреля. 10. Москва.
     </opener>
-    <p id="a7f4d1b8-1e3a-43d8-81e3-7e3fad7c1cad" rend="Obrashenie left">
+    <p id="a7f4d1b8-1e3a-43d8-81e3-7e3fad7c1cad" rend="Obrashenie">
      Дорогой
      <name placement="text" ref="12443" type="person">
       Сергей Терентьевич
      </name>
      ,
     </p>
-    <p id="3f8ea300-3c9f-436b-9d03-362d677fe4fe" rend="left">
+    <p id="3f8ea300-3c9f-436b-9d03-362d677fe4fe">
      Получил оба ваши хорошие письма с последними рукописями,
      <ref target="#note1">
       1
@@ -225,7 +255,7 @@
     <p id="5b3738a2-f801-47be-a953-9f8056fef513" rend="right">
      Л. Т.
     </p>
-    <p id="a3fc8e7f-fbfc-41aa-b98b-b8e36f3f26c2" rend="left">
+    <p id="a3fc8e7f-fbfc-41aa-b98b-b8e36f3f26c2">
      Рукописи я ваши прочел. Немилая жена лучше, но еще грубо. Другая тоже имеет этот же недостаток и вся слабее. Я их посылаю обе Черткову.
      <ref target="#note2">
       2
@@ -241,7 +271,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="7bcb19bc-4c5a-4efd-b098-e2a0b3b0744b" rend="petit left">
+      <p id="7bcb19bc-4c5a-4efd-b098-e2a0b3b0744b" rend="petit">
        Письма С. Т. Семенова, на которые отвечает Толстой, неизвестны.
       </p>
      </note>

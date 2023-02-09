@@ -9,17 +9,41 @@
                 <title type="main">Письмо С.А.Толстой от 28 сентября 1882 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 28 сентября 1882 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 83. М.: Гос. изд. «Художественная литература», 1938. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 83</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">363-364</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -122,7 +152,7 @@
      </choice>
      спать.
     </p>
-    <p id="03173b94-ba56-48d1-b9c9-2d7e3ab3d167" rend="left">
+    <p id="03173b94-ba56-48d1-b9c9-2d7e3ab3d167">
      <choice>
       <reg>
        Приехал
@@ -212,7 +242,7 @@
      </choice>
      . —
     </p>
-    <p id="93bcc9f3-3d1a-4e78-9163-3c6b7f3649f3" rend="left">
+    <p id="93bcc9f3-3d1a-4e78-9163-3c6b7f3649f3">
      Мальчики
      <choice>
       <reg>
@@ -679,7 +709,7 @@
      </choice>
      тобой. Пожалуйста не будь строга. —
     </p>
-    <p id="c80489a4-d2ed-4d85-b9d1-0316ae48733a" rend="left">
+    <p id="c80489a4-d2ed-4d85-b9d1-0316ae48733a">
      Мальчики ужасно милы. Такой я счастливый. У
      <choice>
       <reg>
@@ -734,7 +764,7 @@
      </choice>
      , — очень хорошо.
     </p>
-    <p id="b09ba82e-64a8-491f-a58e-b8f388b31bbf" rend="left">
+    <p id="b09ba82e-64a8-491f-a58e-b8f388b31bbf">
      <choice>
       <reg>
        Целую
@@ -818,18 +848,18 @@
       Л.
      </hi>
     </p>
-    <p id="54111212-52dc-4fda-840a-118f19dc94d8" rend="left">
+    <p id="54111212-52dc-4fda-840a-118f19dc94d8">
      <pb n="364"/>
     </p>
     <lb/>
-    <p id="0faae1cb-679b-4301-9fd8-33c07985c885" rend="left">
+    <p id="0faae1cb-679b-4301-9fd8-33c07985c885">
      Яблоки и картофель можешь высылать, и всякую
      <choice>
       <reg>
        провизию
       </reg>
       <orig>
-       провизiю
+       провизію
       </orig>
      </choice>
      ,
@@ -918,7 +948,7 @@
        закрытии
       </reg>
       <orig>
-       закрытiи
+       закрытіи
       </orig>
      </choice>
      1-го
@@ -939,7 +969,7 @@
      </note>
     </p>
     <lb/>
-    <p id="5e555c4a-e03d-4d1b-a9b4-e3fc681f5e5d" rend="left">
+    <p id="5e555c4a-e03d-4d1b-a9b4-e3fc681f5e5d">
      <hi>
       На конверте:
      </hi>
@@ -949,7 +979,7 @@
        Станция
       </reg>
       <orig>
-       Станцiя
+       Станція
       </orig>
      </choice>
      <choice>

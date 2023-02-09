@@ -9,17 +9,41 @@
                 <title type="main">Письмо А. Н. Бибикову с 1 января 1880 г. по 31 декабря 1881 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо А. Н. Бибикову, 1 января 1880 г. — 31 декабря 1881 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 63. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 63</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">88-88</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -77,8 +106,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -97,7 +127,7 @@
      </name>
      .1880—1881? гг.
     </opener>
-    <p id="c75eac9a-4aa9-4203-9a1c-1c90a64a1d9c" rend="Obrashenie left">
+    <p id="c75eac9a-4aa9-4203-9a1c-1c90a64a1d9c" rend="Obrashenie">
      Многоуважаемый
      <choice>
       <reg>
@@ -117,7 +147,7 @@
      </choice>
      !
     </p>
-    <p id="d0e30e24-4685-4f0c-96c3-df2afc474e75" rend="left">
+    <p id="d0e30e24-4685-4f0c-96c3-df2afc474e75">
      Я
      <choice>
       <reg>
@@ -180,7 +210,7 @@
        выхлопотании
       </reg>
       <orig>
-       выхлопотанiи
+       выхлопотаніи
       </orig>
      </choice>
      вида.
@@ -278,7 +308,7 @@
        одолжении
       </reg>
       <orig>
-       одолженiи
+       одолженіи
       </orig>
      </choice>
      .
@@ -294,19 +324,19 @@
      </choice>
      Л. Толстой.
     </p>
-    <p id="33d278be-3685-4036-80f7-342b3496779f" rend="left">
+    <p id="33d278be-3685-4036-80f7-342b3496779f">
      <hi>
       На четвертой странице:
      </hi>
     </p>
-    <p id="fcd0a9d0-627d-46ce-ae42-c19cbdb5bf0c" rend="left">
+    <p id="fcd0a9d0-627d-46ce-ae42-c19cbdb5bf0c">
      Его
      <choice>
       <reg>
        Высокоблагородию
       </reg>
       <orig>
-       Высокоблагородiю
+       Высокоблагородію
       </orig>
      </choice>
      <name placement="text" ref="1390" type="person">
@@ -321,7 +351,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="ac5e89ef-34d8-4d74-b82c-40002ff28c6b" rend="petit left">
+      <p id="ac5e89ef-34d8-4d74-b82c-40002ff28c6b" rend="petit">
        <name placement="comments" ref="1390" type="person">
         Александр Николаевич Бибиков
        </name>

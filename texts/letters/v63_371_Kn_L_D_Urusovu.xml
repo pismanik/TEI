@@ -9,17 +9,41 @@
                 <title type="main">Письмо Кн. Л. Д. Урусову от 22 мая 1885 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо кн. Л. Д. Урусову, 22 мая 1885 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 63. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 63</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">250-252</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,7 +128,7 @@
      </name>
      .1885 г. Мая 22? Я. П.
     </opener>
-    <p id="bdb1ed38-8216-4b48-bc6f-a4c60cf7cbba" rend="left">
+    <p id="bdb1ed38-8216-4b48-bc6f-a4c60cf7cbba">
      <choice>
       <reg>
        Получил
@@ -320,7 +350,7 @@
        удовольствие
       </reg>
       <orig>
-       удовольствiе
+       удовольствіе
       </orig>
      </choice>
      ,
@@ -363,7 +393,7 @@
        уничтожении
       </reg>
       <orig>
-       уничтоженiи
+       уничтоженіи
       </orig>
      </choice>
      <ref target="#note3">
@@ -388,7 +418,7 @@
        понятия
       </reg>
       <orig>
-       понятiя
+       понятія
       </orig>
      </choice>
      Бога
@@ -471,7 +501,7 @@
        учении
       </reg>
       <orig>
-       ученiи
+       ученіи
       </orig>
      </choice>
      <choice>
@@ -479,7 +509,7 @@
        понятие
       </reg>
       <orig>
-       понятiе
+       понятіе
       </orig>
      </choice>
      о
@@ -565,7 +595,7 @@
        общий
       </reg>
       <orig>
-       общiй
+       общій
       </orig>
      </choice>
      <choice>
@@ -582,7 +612,7 @@
        общий
       </reg>
       <orig>
-       общiй
+       общій
       </orig>
      </choice>
      всему существующему и
@@ -609,7 +639,7 @@
        мира
       </reg>
       <orig>
-       мiра
+       міра
       </orig>
      </choice>
      ,
@@ -656,7 +686,7 @@
        условием
       </reg>
       <orig>
-       условiемъ
+       условіемъ
       </orig>
      </choice>
      <choice>
@@ -664,7 +694,7 @@
        соблюдения
       </reg>
       <orig>
-       соблюденiя
+       соблюденія
       </orig>
      </choice>
      <choice>
@@ -784,7 +814,7 @@
        Понятие
       </reg>
       <orig>
-       Понятiе
+       Понятіе
       </orig>
      </choice>
      это,
@@ -844,7 +874,7 @@
        нахождения
       </reg>
       <orig>
-       нахожденiя
+       нахожденія
       </orig>
      </choice>
      <choice>
@@ -887,7 +917,7 @@
         исполнения
        </reg>
        <orig>
-        исполненiя
+        исполненія
        </orig>
       </choice>
      </hi>
@@ -898,7 +928,7 @@
         велений
        </reg>
        <orig>
-        велѣнiй
+        велѣній
        </orig>
       </choice>
      </hi>
@@ -932,7 +962,7 @@
        признание
       </reg>
       <orig>
-       признанiе
+       признаніе
       </orig>
      </choice>
      источника всего
@@ -958,7 +988,7 @@
        исполнения
       </reg>
       <orig>
-       исполненiя
+       исполненія
       </orig>
      </choice>
      — это
@@ -967,7 +997,7 @@
        отречения
       </reg>
       <orig>
-       отреченiя
+       отреченія
       </orig>
      </choice>
      <choice>
@@ -984,7 +1014,7 @@
        приобретения
       </reg>
       <orig>
-       прiобрѣтенiя
+       пріобрѣтенія
       </orig>
      </choice>
      жизни истинной. —
@@ -1053,7 +1083,7 @@
        старшие
       </reg>
       <orig>
-       старшiе
+       старшіе
       </orig>
      </choice>
      только
@@ -1211,10 +1241,10 @@
      , но все жду чего нибудь, что
      <choice>
       <reg>
-       cпасет
+       спасет
       </reg>
       <orig>
-       cпасетъ
+       спасетъ
       </orig>
      </choice>
      меня
@@ -1248,12 +1278,12 @@
        сознанием
       </reg>
       <orig>
-       сознанiемъ
+       сознаніемъ
       </orig>
      </choice>
      .
     </p>
-    <p id="c0cc117b-a0ee-4505-b03c-ba0bf0e7ceab" rend="left">
+    <p id="c0cc117b-a0ee-4505-b03c-ba0bf0e7ceab">
      У
      <choice>
       <reg>
@@ -1462,7 +1492,7 @@
        </name>
       </reg>
       <orig>
-       Дмитрiевна
+       Дмитріевна
       </orig>
      </choice>
      ;
@@ -1538,7 +1568,7 @@
      </choice>
      .
     </p>
-    <p id="72774709-2ac1-4a3f-87cc-f7a34cbc6673" rend="left">
+    <p id="72774709-2ac1-4a3f-87cc-f7a34cbc6673">
      Передайте мой
      <choice>
       <reg>
@@ -1572,7 +1602,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="4131bf12-3d93-49fe-8202-187b33ccd344" rend="petit left">
+      <p id="4131bf12-3d93-49fe-8202-187b33ccd344" rend="petit">
        В данном письме Толстой отвечает на письмо кн. Л. Д. Урусова от 8 мая 1885 г. См. прим. к письму № 354.
       </p>
      </note>

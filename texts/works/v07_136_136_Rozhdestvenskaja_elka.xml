@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v07_136_136_Rozhdestvenskaja_elka" resp="volume_editor">
-                    [Рождественская елка]. Tolstoy Digital
+                    [Рождественская елка]. Произведения. Tolstoy Digital
                 </title>
                 <title type="main" resp="volume_editor">Рождественская елка.</title>
                 <title type="sub">«Она взяла Верочку...»</title>
-                <title type="bibl">Толстой Л. Н. [Рождественская елка] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 7. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. [Рождественская елка] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 7. М.: Гос. изд. «Художественная литература», 1936. С. 136.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1869"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#main" target="work_main"/>
@@ -121,7 +146,7 @@
       * [РОЖДЕСТВЕНСКАЯ ЕЛКА.]
      </hi>
     </head>
-    <p id="0d7cbb8b-90a4-412a-8667-598891626cad" rend="left">
+    <p id="0d7cbb8b-90a4-412a-8667-598891626cad">
      Она взяла
      <choice>
       <reg>
@@ -151,7 +176,7 @@
      </choice>
      ее.
     </p>
-    <p id="efb52652-7bb5-4dbe-a2f7-cd3a5185c79a" rend="left">
+    <p id="efb52652-7bb5-4dbe-a2f7-cd3a5185c79a">
      <choice>
       <reg>
        Вечером
@@ -217,7 +242,7 @@
        большие
       </reg>
       <orig>
-       большiе
+       большіе
       </orig>
      </choice>
      , и свои, и
@@ -226,7 +251,7 @@
        чужие
       </reg>
       <orig>
-       чужiе
+       чужіе
       </orig>
      </choice>
      <choice>
@@ -415,7 +440,7 @@
        крестьянския
       </reg>
       <orig>
-       крестьянскiя
+       крестьянскія
       </orig>
      </choice>
      <choice>
@@ -581,7 +606,7 @@
       135
      </ref>
      <note index="false" xml:id="note135">
-      <span data-class="paragraph" id="d73f67a8-bc0e-47ce-a93b-b71098ad5c59" rend="left">
+      <span data-class="paragraph" id="d73f67a8-bc0e-47ce-a93b-b71098ad5c59">
        <hi rend="italic">
         Край листа оборван.
        </hi>
@@ -593,7 +618,7 @@
        такие
       </reg>
       <orig>
-       такiе
+       такіе
       </orig>
      </choice>
      же прорванные,
@@ -610,7 +635,7 @@
       136
      </ref>
      <note index="false" xml:id="note136">
-      <span data-class="paragraph" id="ca68d17c-81d2-4212-92e5-71ae11fbd168" rend="left">
+      <span data-class="paragraph" id="ca68d17c-81d2-4212-92e5-71ae11fbd168">
        <hi rend="italic">
         Край листа оборван.
        </hi>
@@ -621,7 +646,7 @@
       137
      </ref>
      <note index="false" xml:id="note137">
-      <span data-class="paragraph" id="f4b702e7-2fb0-48fc-b441-ffc6b958ffb8" rend="left">
+      <span data-class="paragraph" id="f4b702e7-2fb0-48fc-b441-ffc6b958ffb8">
        <hi rend="italic">
         Край листа оборван.
        </hi>
@@ -632,7 +657,7 @@
       138
      </ref>
      <note index="false" xml:id="note138">
-      <span data-class="paragraph" id="f55046f3-5e7e-48d9-86d8-b41c393a448d" rend="left">
+      <span data-class="paragraph" id="f55046f3-5e7e-48d9-86d8-b41c393a448d">
        не починила ей од
       </span>
      </note>

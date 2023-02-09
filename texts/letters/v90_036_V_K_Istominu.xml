@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. К. Истомину с 1 декабря 1881 г. по 10 декабря 1881 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. К. Истомину, 1 декабря 1881 г. — 10 декабря 1881 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 90. М.: Гос. изд. «Художественная литература», 1958. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 90</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">247-247</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -98,12 +127,12 @@
      </name>
      .1881 г. Декабрь, начало. Москва.
     </opener>
-    <p id="e41fecea-445e-48c5-bf6e-f9c3c440c1f4" rend="Data left">
-     <em>
+    <p id="e41fecea-445e-48c5-bf6e-f9c3c440c1f4" rend="Data">
+     <hi rend="italic">
       1881 г. Декабрь, начало. Москва.
-     </em>
+     </hi>
     </p>
-    <p id="a8e0c35a-6aa5-43c6-ad3c-e7e5b9468918" rend="Obrashenie left">
+    <p id="a8e0c35a-6aa5-43c6-ad3c-e7e5b9468918" rend="Obrashenie">
      Любезнейший Владимир
      <choice original_editorial_correction="Конст[антинович]">
       <sic>
@@ -115,11 +144,11 @@
      </choice>
      .
     </p>
-    <p id="c106c632-43cd-4c49-8829-e926e375aa03" rend="left">
+    <p id="c106c632-43cd-4c49-8829-e926e375aa03">
      Я переменил не больше 20 строк во всем, но они
-     <em>
+     <hi rend="italic">
       очень
-     </em>
+     </hi>
      нужны, особенно в конце.
      <ref target="#note1">
       1
@@ -167,7 +196,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="5a40d623-dd5f-411d-b408-cbadc2a3d8ed" rend="petit left">
+      <p id="5a40d623-dd5f-411d-b408-cbadc2a3d8ed" rend="petit">
        <name placement="comments" ref="5861" type="person">
         Владимир Константинович Истомин
        </name>

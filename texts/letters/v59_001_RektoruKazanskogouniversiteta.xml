@@ -9,17 +9,41 @@
                 <title type="main">Письмо Ректору Казанского университета. от 29 мая 1844 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Ректору Казанского университета., 29 мая 1844 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">3-5</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -146,12 +176,12 @@
        Прошение
       </reg>
       <orig>
-       Прошенiе
+       Прошеніе
       </orig>
      </choice>
      .
     </p>
-    <p id="679e0e78-194d-482f-8e8e-a841ecac6e48" rend="left">
+    <p id="679e0e78-194d-482f-8e8e-a841ecac6e48">
      Желая поступить
      <choice>
       <reg>
@@ -176,7 +206,7 @@
        отделению
       </reg>
       <orig>
-       отдѣленiю
+       отдѣленію
       </orig>
      </choice>
      <hi>
@@ -200,7 +230,7 @@
        испытанию
       </reg>
       <orig>
-       испытанiю
+       испытанію
       </orig>
      </choice>
      . Акты мои:
@@ -218,7 +248,7 @@
        рождении
       </reg>
       <orig>
-       рожденiи
+       рожденіи
       </orig>
      </choice>
      <choice>
@@ -235,7 +265,7 @@
        Консистории
       </reg>
       <orig>
-       Консисторiи
+       Консисторіи
       </orig>
      </choice>
      <choice>
@@ -272,7 +302,7 @@
        происхождении
       </reg>
       <orig>
-       происхожденiи
+       происхожденіи
       </orig>
      </choice>
      <hi>
@@ -315,7 +345,7 @@
        Собрания
       </reg>
       <orig>
-       Собранiя
+       Собранія
       </orig>
      </choice>
      <choice>
@@ -365,7 +395,7 @@
      </choice>
      Толстой.
     </p>
-    <p id="55b6d518-544b-4c10-ab53-ea528dc417b5" rend="left">
+    <p id="55b6d518-544b-4c10-ab53-ea528dc417b5">
      <choice>
       <reg>
        Свидетельство
@@ -417,12 +447,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="f531d223-7e5f-4220-a4c9-d14ee02d41b9" rend="petit left">
+      <p id="f531d223-7e5f-4220-a4c9-d14ee02d41b9" rend="petit">
        На прошении пометы: «Под.[ано] 29 мая 1844» и «Нет лекарского свидетельства о здоровье, впрочем акты достаточны».
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="3d09f066-c968-4e22-bf0e-2d871f23ffe9" rend="petit left">
+      <p id="3d09f066-c968-4e22-bf0e-2d871f23ffe9" rend="petit">
        После текста прошения рукой Н. И. Лобачевского написано: «Льва Толстого допустить к испытанию во 2-м комитете, объявя
        <hi style="opdelimiter">
         просителю,
@@ -435,7 +465,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="053903ee-fea1-4af7-9e9a-337290fed42d" rend="petit left">
+      <p id="053903ee-fea1-4af7-9e9a-337290fed42d" rend="petit">
        После кончины 30 августа 1841 г. опекунши Николая, Сергея, Дмитрия, Льва и Марии гр. Толстых, гр.
        <name placement="comments" ref="10314" type="person">
         Александры Ильиничны фон-дер-Остен-Сакен
@@ -452,7 +482,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="56e1209e-611d-4042-9f89-f824258a6045" rend="petit left">
+      <p id="56e1209e-611d-4042-9f89-f824258a6045" rend="petit">
        <name placement="comments" ref="7974" type="person">
         Николай Иванович Лобачевский
        </name>

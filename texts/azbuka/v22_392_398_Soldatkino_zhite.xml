@@ -9,18 +9,42 @@
             <title type="bibl">Толстой Л. Н. Азбука // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 22. М.: Гос. изд. «Художественная литература», 1957. С. </title>
             <author>Толстой Лев Николаевич</author>
             <respStmt>
-                <resp>Идея, постановка задач, руководство</resp>
+                <resp>Идея, постановка задач, руководство:</resp>
                 <name>
                     Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                 </name>
-             </respStmt>
+            </respStmt>
             <respStmt>
-                <resp>
-                    Подготовка TEI/XML
-                </resp>
-                <name>
-                    Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                </name>
+                    <resp>
+                        Подготовка TEI/XML:
+                    </resp>
+                    <name>
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>
             </respStmt>
                 <funder>
                     Проект «Слово Толстого»
@@ -29,7 +53,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -41,7 +65,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы были получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -59,7 +83,7 @@
                     </analytic>
                     <monogr>
                         <title level="m">
-                          Полное собрание сочинений.
+                          Полное собрание сочинений: в 90 тт.
                         </title>
                         <imprint>
                             <pubPlace>
@@ -75,7 +99,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -111,7 +135,7 @@
       СОЛДАТКИНО ЖИТЬЕ.
      </hi>
     </head>
-    <p id="398fdeff-ef4c-43b4-960d-6954cfb89fd5" rend="left">
+    <p id="398fdeff-ef4c-43b4-960d-6954cfb89fd5">
      Мы жили
      <choice>
       <reg>
@@ -309,7 +333,7 @@
      </choice>
      эта осталась у меня на лбу.
     </p>
-    <p id="1c655f21-9cb9-4c12-8e29-aaba16edae4a" rend="left">
+    <p id="1c655f21-9cb9-4c12-8e29-aaba16edae4a">
      <choice>
       <reg>
        В
@@ -474,7 +498,7 @@
      </choice>
      .
     </p>
-    <p id="5e9f6754-2c9c-4882-a800-89025568fc05" rend="left">
+    <p id="5e9f6754-2c9c-4882-a800-89025568fc05">
      Помню я — мать стала
      <choice>
       <reg>
@@ -530,13 +554,13 @@
      на крестины.
     </p>
     <lb/>
-    <p id="440e361e-e281-4b9c-acbc-7d6f156088af" rend="left emptyline">
+    <p id="440e361e-e281-4b9c-acbc-7d6f156088af" rend="emptyline">
      <pb n="393"/>
     </p>
     <p id="0257bd36-dd4e-4e1e-8e79-387e4baa6e0b" rend="centerline">
      — 25 —
     </p>
-    <p id="3ecf374f-0073-44f5-9b72-97f8299dafd6" rend="left">
+    <p id="3ecf374f-0073-44f5-9b72-97f8299dafd6">
      Собрался
      <choice>
       <reg>
@@ -664,7 +688,7 @@
      </choice>
      на меня и сказала: «молчи, а то побью»
     </p>
-    <p id="4d493a4b-2a15-499e-aaae-dd9ff373b6dd" rend="left">
+    <p id="4d493a4b-2a15-499e-aaae-dd9ff373b6dd">
      <choice>
       <reg>
        Священник
@@ -716,7 +740,7 @@
      </choice>
      .
     </p>
-    <p id="11218795-3129-48a6-a344-d49123718df3" rend="left">
+    <p id="11218795-3129-48a6-a344-d49123718df3">
      <choice>
       <reg>
        Потом
@@ -768,7 +792,7 @@
      </choice>
      , поблагодарили бабушку и ушли.
     </p>
-    <p id="90a3c056-e0e1-4b45-a73d-761438f85fd6" rend="left">
+    <p id="90a3c056-e0e1-4b45-a73d-761438f85fd6">
      Я
      <choice>
       <reg>
@@ -782,7 +806,7 @@
      </choice>
      матери и говорю:
     </p>
-    <p id="ae550223-015e-42cb-965b-50d3bc9cc524" rend="left">
+    <p id="ae550223-015e-42cb-965b-50d3bc9cc524">
      — «Ma,
      <choice>
       <reg>
@@ -809,7 +833,7 @@
      </choice>
      тебя»
     </p>
-    <p id="c6707124-2365-4f38-aae1-574e468db955" rend="left">
+    <p id="c6707124-2365-4f38-aae1-574e468db955">
      <choice>
       <reg>
        Мальчик
@@ -876,7 +900,7 @@
      </choice>
      .
     </p>
-    <p id="67ad264c-7018-4d4c-adfb-6bd6b2d009ec" rend="left">
+    <p id="67ad264c-7018-4d4c-adfb-6bd6b2d009ec">
      <choice>
       <reg>
        Один
@@ -974,13 +998,13 @@
       </reg>
      </choice>
     </p>
-    <p id="4d432787-ed7f-409c-ace3-91e59abc36a6" rend="left emptyline">
+    <p id="4d432787-ed7f-409c-ace3-91e59abc36a6" rend="emptyline">
      <pb n="394"/>
     </p>
     <p id="9335e2e2-d5a9-4fff-b45c-88e9f5521354" rend="centerline">
      — 26 —
     </p>
-    <p id="93f66964-9c3e-4c24-8d49-64d73c277ce6" rend="notindent">
+    <p id="93f66964-9c3e-4c24-8d49-64d73c277ce6">
      <choice>
       <reg>
        делать
@@ -1066,7 +1090,7 @@
      </choice>
      хоронить.
     </p>
-    <p id="e176cd4e-36f4-467b-80f4-ce8d0288285c" rend="left">
+    <p id="e176cd4e-36f4-467b-80f4-ce8d0288285c">
      Только у
      <choice>
       <reg>
@@ -1307,7 +1331,7 @@
      </choice>
      за Кондрашку».
     </p>
-    <p id="d414c07d-ec59-410b-990a-65aaff2625c0" rend="left">
+    <p id="d414c07d-ec59-410b-990a-65aaff2625c0">
      <choice>
       <reg>
        Потом
@@ -1327,7 +1351,7 @@
      </choice>
      пироги, а тётка Акулина мыла говядину.
     </p>
-    <p id="cbffa3c0-2daf-4e8c-8dd6-693fed95ae86" rend="left">
+    <p id="cbffa3c0-2daf-4e8c-8dd6-693fed95ae86">
      Нянька нарядилась
      <choice>
       <reg>
@@ -1381,7 +1405,7 @@
      </choice>
      много народу, — полная изба
     </p>
-    <p id="ef721af9-5018-4982-ab1d-971c5c2de6a1" rend="left">
+    <p id="ef721af9-5018-4982-ab1d-971c5c2de6a1">
      <choice>
       <reg>
        Потом
@@ -1419,7 +1443,7 @@
        жених
       </reg>
      </choice>
-     Koндрашка
+     Кондрашка
      <choice>
       <reg>
        в
@@ -1516,13 +1540,13 @@
      </choice>
      величать.
     </p>
-    <p id="78dd1225-3d50-43f0-819f-e1b840aa4be1" rend="left emptyline">
+    <p id="78dd1225-3d50-43f0-819f-e1b840aa4be1" rend="emptyline">
      <pb n="395"/>
     </p>
     <p id="35dbc899-49c9-46ff-8653-403bf761a6bd" rend="centerline">
      — 27 —
     </p>
-    <p id="15a0a098-f0b4-452d-9dbc-3331beeb7e58" rend="left">
+    <p id="15a0a098-f0b4-452d-9dbc-3331beeb7e58">
      <choice>
       <reg>
        Потом
@@ -1900,7 +1924,7 @@
      </choice>
      .
     </p>
-    <p id="b35e7d7a-7918-4736-becd-69125ea68fd0" rend="left">
+    <p id="b35e7d7a-7918-4736-becd-69125ea68fd0">
      <choice>
       <reg>
        Потом
@@ -1982,7 +2006,7 @@
      </choice>
      домой.
     </p>
-    <p id="7fd6de0e-b600-4841-99d6-6606ef7a79b9" rend="left">
+    <p id="7fd6de0e-b600-4841-99d6-6606ef7a79b9">
      <choice>
       <reg>
        После
@@ -2049,13 +2073,13 @@
      </choice>
      я ума-разума возьму?
     </p>
-    <p id="9eb3f96b-23c4-4226-88f2-c6dae169bb6e" rend="left emptyline">
+    <p id="9eb3f96b-23c4-4226-88f2-c6dae169bb6e" rend="emptyline">
      <pb n="396"/>
     </p>
     <p id="cb49949f-15bd-408e-9ecf-327024a05cb9" rend="centerline">
      — 28 —
     </p>
-    <p id="e86a4e18-2887-4936-8373-b1f5e82df028" rend="notindent">
+    <p id="e86a4e18-2887-4936-8373-b1f5e82df028">
      <choice>
       <reg>
        как
@@ -2079,7 +2103,7 @@
      </choice>
      она долго плакала и причитала.
     </p>
-    <p id="b052bfb6-ae34-4d84-a5a0-e384e52dd676" rend="left">
+    <p id="b052bfb6-ae34-4d84-a5a0-e384e52dd676">
      <choice>
       <reg>
        Один
@@ -2295,7 +2319,7 @@
      </choice>
      , увидишь.
     </p>
-    <p id="c5b119c7-c291-4ea2-9fb6-b25fb893303a" rend="left">
+    <p id="c5b119c7-c291-4ea2-9fb6-b25fb893303a">
      «Ну
      <choice>
       <reg>
@@ -2310,7 +2334,7 @@
      </choice>
      ».
     </p>
-    <p id="e1b648ef-ba21-420a-95b6-d362d324be9d" rend="left">
+    <p id="e1b648ef-ba21-420a-95b6-d362d324be9d">
      <choice>
       <reg>
        Солдат
@@ -2539,7 +2563,7 @@
      </choice>
      .
     </p>
-    <p id="72c2a36c-603c-4cd2-a5fb-247377fd2e7d" rend="left">
+    <p id="72c2a36c-603c-4cd2-a5fb-247377fd2e7d">
      <choice>
       <reg>
        Потом
@@ -2593,7 +2617,7 @@
      </choice>
      .
     </p>
-    <p id="c5a3b54c-a7b6-4c65-a616-6e1dfc2353a1" rend="left">
+    <p id="c5a3b54c-a7b6-4c65-a616-6e1dfc2353a1">
      <choice>
       <reg>
        Как
@@ -2641,13 +2665,13 @@
      </choice>
      :
     </p>
-    <p id="cc94d2fa-17a5-40d9-9a67-d1b372117512" rend="left emptyline">
+    <p id="cc94d2fa-17a5-40d9-9a67-d1b372117512" rend="emptyline">
      <pb n="397"/>
     </p>
     <p id="3c81ba94-7b25-45d4-a3d5-8e3af1df150d" rend="centerline">
      — 29 —
     </p>
-    <p id="93a56002-30c3-4a2e-8dd0-bc7a84c344c6" rend="left">
+    <p id="93a56002-30c3-4a2e-8dd0-bc7a84c344c6">
      «свою дочь не
      <choice>
       <reg>
@@ -2892,7 +2916,7 @@
      </choice>
      матери. Мать обрадовалась, заторопилась и понесла хоронить.
     </p>
-    <p id="bc749632-5d02-4220-9798-00c43dbf89f3" rend="left">
+    <p id="bc749632-5d02-4220-9798-00c43dbf89f3">
      <choice>
       <reg>
        Потом
@@ -2962,7 +2986,7 @@
      </choice>
      .
     </p>
-    <p id="49241420-83a6-4a68-8ca1-1cbebe1cab78" rend="left">
+    <p id="49241420-83a6-4a68-8ca1-1cbebe1cab78">
      Поутру мать
      <choice>
       <reg>
@@ -3046,7 +3070,7 @@
      </choice>
      .
     </p>
-    <p id="b4175194-99e8-4038-85b0-0189d91f6337" rend="left">
+    <p id="b4175194-99e8-4038-85b0-0189d91f6337">
      <choice>
       <reg>
        Отец
@@ -3139,7 +3163,7 @@
      </choice>
      :
     </p>
-    <p id="7648229d-1994-43b2-942a-ebbdac97f685" rend="left">
+    <p id="7648229d-1994-43b2-942a-ebbdac97f685">
      «
      <choice>
       <reg>
@@ -3154,7 +3178,7 @@
      </choice>
      много на всё надо».
     </p>
-    <p id="2a037715-b5f8-41f7-aead-490363bea5b4" rend="left">
+    <p id="2a037715-b5f8-41f7-aead-490363bea5b4">
      А
      <choice>
       <reg>
@@ -3201,7 +3225,7 @@
      </choice>
      на меня.
     </p>
-    <p id="1af09afa-8ed8-4813-b967-f73d310b0389" rend="left">
+    <p id="1af09afa-8ed8-4813-b967-f73d310b0389">
      <choice>
       <reg>
        Вот
@@ -3231,13 +3255,13 @@
      </choice>
      и
     </p>
-    <p id="0a0a8b0d-9b34-4c98-8d18-c4dc265e9f2c" rend="left emptyline">
+    <p id="0a0a8b0d-9b34-4c98-8d18-c4dc265e9f2c" rend="emptyline">
      <pb n="398"/>
     </p>
     <p id="b8583cd0-718b-49f6-8498-2fb9f0d10527" rend="centerline">
      — 30 —
     </p>
-    <p id="2c67b7c9-74a9-4ac7-810d-0256c56543e7" rend="notindent">
+    <p id="2c67b7c9-74a9-4ac7-810d-0256c56543e7">
      <choice>
       <reg>
        говорит
@@ -3284,7 +3308,7 @@
      </choice>
      со двора.
     </p>
-    <p id="87e82714-b6a1-4a6c-ae1b-0f8f039ea6f5" rend="left">
+    <p id="87e82714-b6a1-4a6c-ae1b-0f8f039ea6f5">
      <choice>
       <reg>
        Отец
@@ -3548,7 +3572,7 @@
      </choice>
      ».
     </p>
-    <p id="1b9d1c11-393e-472a-b213-a19c168a9c36" rend="left">
+    <p id="1b9d1c11-393e-472a-b213-a19c168a9c36">
      Мать дала
      <choice>
       <reg>
@@ -3667,7 +3691,7 @@
      </choice>
      ».
     </p>
-    <p id="f921974d-8e80-4fc8-8ec6-37d29967efbe" rend="left">
+    <p id="f921974d-8e80-4fc8-8ec6-37d29967efbe">
      <choice>
       <reg>
        С

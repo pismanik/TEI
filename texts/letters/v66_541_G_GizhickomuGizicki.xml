@@ -9,17 +9,41 @@
                 <title type="main">Письмо Г. Гижицкому (Gizicki) от 5 октября 1893 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Г. Гижицкому (Gizicki), 5 октября 1893 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 66. М.: Гос. изд. «Художественная литература», 1953. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 66</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">401-402</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,10 +127,10 @@
      </name>
      . Черновое.1893г. Октября 5. Я. П.
     </opener>
-    <p id="c450bc86-a5f1-47b3-a448-4ddddca66f3d" rend="Obrashenie left">
+    <p id="c450bc86-a5f1-47b3-a448-4ddddca66f3d" rend="Obrashenie">
      Geehrter Herr.
     </p>
-    <p id="9931025b-cd92-4efd-9215-90d6a1c303bb" rend="left">
+    <p id="9931025b-cd92-4efd-9215-90d6a1c303bb">
      Ich hatte die Absicht ihren wehrten Brief sogleich zu beantworten. Aber die von ihnen so gut aufgestellten Fragen sind für mich von einem so tiefen Interesse, dass ich so viel wie möglich gründlich zu beantworten suchte, was mir mehr Zeit nahm als ich glaubte, so dass ich nur erst jetzt mit meiner Antwort fertig bin. Die Antwort, ein Artikel von ungefähr einem Druckbogen, habe ich Russisch geschrieben
      <ref target="#note1">
       1
@@ -124,10 +153,10 @@
     <p id="e0605ee5-f08e-442b-8e47-4b1e289d3c28" rend="right">
      L. Tolstoy.
     </p>
-    <p id="49c4e06a-d5bb-4363-a200-ede5026be206" rend="Obrashenie petit left">
+    <p id="49c4e06a-d5bb-4363-a200-ede5026be206" rend="Obrashenie petit">
      Милостивый государь.
     </p>
-    <p id="dc76cc57-1655-47ce-ba53-5a3a444d378e" rend="petit left">
+    <p id="dc76cc57-1655-47ce-ba53-5a3a444d378e" rend="petit">
      Я имел намерение немедленно ответить на ваше достойное письмо. Но так хорошо поставленные вами вопросы представляют для меня такой глубокой интерес, что я старался ответить насколько возможно обстоятельно, что отняло у меня больше времени, чем я думал, так что я только теперь покончил с моим ответом. Ответ, статью приблизительно в один печатный лист, я написал по-русски
      <ref target="#note3">
       3
@@ -160,7 +189,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="63e1494c-dfb0-444f-ab34-93cd134a2cb5" rend="petit left">
+      <p id="63e1494c-dfb0-444f-ab34-93cd134a2cb5" rend="petit">
        <name placement="comments" ref="3339" type="person">
         Георг фон Гижицкий (Georg von Gizicki
        </name>
@@ -168,7 +197,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="0085540e-dee7-4d5e-ba46-8b076e9dcccb" rend="petit left">
+      <p id="0085540e-dee7-4d5e-ba46-8b076e9dcccb" rend="petit">
        Ответ на письмо Гижицкого от 6 августа нов. ст. 1893 г. на немецком языке, в котором Гижицкий, сообщая о целях основанного им «Этического общества для содействия социально-этическим реформам», задавал Толстому два вопроса от имени редакции журнала «Этической культуры»: «1. Что вы понимаете под религией? 2. Верите ли вы в возможность независимой от религии
        <hi style="opdelimiter">
         морали?»

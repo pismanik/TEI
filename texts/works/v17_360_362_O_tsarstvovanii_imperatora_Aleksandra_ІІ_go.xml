@@ -4,24 +4,48 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v17_360_362_O_tsarstvovanii_imperatora_Aleksandra_ІІ_go" resp="volume_editor">
-                    [О царствовании императора Александра ІІ-го]. Tolstoy Digital
+                    [О царствовании императора Александра ІІ-го]. Произведения. Tolstoy Digital
                 </title>
                 <title type="main" resp="volume_editor">О царствовании императора Александра ІІ-го</title>
-                <title type="bibl">Толстой Л. Н. [О царствовании императора Александра ІІ-го] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. [О царствовании императора Александра ІІ-го] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С. 360–362.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -30,7 +54,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -42,7 +66,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -73,7 +97,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -88,9 +112,10 @@
             <creation>
                 <date when="1877"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#main" target="work_main"/>
@@ -114,7 +139,7 @@
     <p id="cc2288d4-184c-4ca0-9d82-5bf09fb612b6" rend="center">
      (1877 г.)
     </p>
-    <p id="ac919104-b76d-49d2-969b-0f75f9cca5f8" rend="left">
+    <p id="ac919104-b76d-49d2-969b-0f75f9cca5f8">
      <del>
       <choice>
        <reg>
@@ -153,7 +178,7 @@
         царствования
        </reg>
        <orig>
-        царствованiя
+        царствованія
        </orig>
       </choice>
       началось и новое царство,
@@ -187,7 +212,7 @@
         мнения
        </reg>
        <orig>
-        мнѣнiя
+        мнѣнія
        </orig>
       </choice>
       <choice>
@@ -203,13 +228,13 @@
         России
        </reg>
        <orig>
-        Россiи
+        Россіи
        </orig>
       </choice>
       .
      </del>
     </p>
-    <p id="25e32b75-1998-4f0e-855c-d84a86c85397" rend="left">
+    <p id="25e32b75-1998-4f0e-855c-d84a86c85397">
      Правительство
      <choice>
       <reg>
@@ -224,7 +249,7 @@
        царствования
       </reg>
       <orig>
-       царствованiя
+       царствованія
       </orig>
      </choice>
      импер. Николая руководилось своими
@@ -233,7 +258,7 @@
        преданиями
       </reg>
       <orig>
-       преданiями
+       преданіями
       </orig>
      </choice>
      и своей личной волей, т. е.
@@ -417,7 +442,7 @@
        выражения
       </reg>
       <orig>
-       выраженiя
+       выраженія
       </orig>
      </choice>
      <choice>
@@ -433,7 +458,7 @@
        мнений
       </reg>
       <orig>
-       мнѣнiй
+       мнѣній
       </orig>
      </choice>
      и
@@ -500,7 +525,7 @@
        мнений
       </reg>
       <orig>
-       мнѣнiй
+       мнѣній
       </orig>
      </choice>
      о
@@ -522,7 +547,7 @@
      </choice>
      .
     </p>
-    <p id="6a180563-3f7f-4acd-aa3a-96633c994aac" rend="left">
+    <p id="6a180563-3f7f-4acd-aa3a-96633c994aac">
      Имп.
      <name placement="text" ref="9799" type="person">
       Николай
@@ -540,7 +565,7 @@
       555
      </ref>
      <note index="false" xml:id="note555">
-      <span data-class="paragraph" id="7bad2787-9958-4fd9-820e-401af7d8bf44" rend="left">
+      <span data-class="paragraph" id="7bad2787-9958-4fd9-820e-401af7d8bf44">
        несчастной,
        <choice>
         <reg>
@@ -644,14 +669,14 @@
        царствование
       </reg>
       <orig>
-       царствованiе
+       царствованіе
       </orig>
      </choice>
      <ref target="#note556">
       556
      </ref>
      <note index="false" xml:id="note556">
-      <span data-class="paragraph" id="61e8d07b-078b-4555-a23a-f63e622c0ccb" rend="left">
+      <span data-class="paragraph" id="61e8d07b-078b-4555-a23a-f63e622c0ccb">
        признало
       </span>
      </note>
@@ -724,7 +749,7 @@
        управление
       </reg>
       <orig>
-       управленiе
+       управленіе
       </orig>
      </choice>
      <choice>
@@ -888,7 +913,7 @@
        царствования
       </reg>
       <orig>
-       царствованiя
+       царствованія
       </orig>
      </choice>
      <name placement="text" ref="9799" type="person">
@@ -909,7 +934,7 @@
        презрение
       </reg>
       <orig>
-       презрѣнiе
+       презрѣніе
       </orig>
      </choice>
      <choice>
@@ -925,7 +950,7 @@
        мнениям
       </reg>
       <orig>
-       мнѣнiямъ
+       мнѣніямъ
       </orig>
      </choice>
      <choice>
@@ -967,7 +992,7 @@
        мнениям
       </reg>
       <orig>
-       мнѣнiямъ
+       мнѣніямъ
       </orig>
      </choice>
      .
@@ -1009,7 +1034,7 @@
        мнениям
       </reg>
       <orig>
-       мнѣнiямъ
+       мнѣніямъ
       </orig>
      </choice>
      , [а] сами люди,
@@ -1018,7 +1043,7 @@
        желавшие
       </reg>
       <orig>
-       желавшiе
+       желавшіе
       </orig>
      </choice>
      выражать свои
@@ -1027,7 +1052,7 @@
        мнения
       </reg>
       <orig>
-       мнѣнiя
+       мнѣнія
       </orig>
      </choice>
      , столь долго лишенные
@@ -1062,7 +1087,7 @@
        мнения
       </reg>
       <orig>
-       мнѣнiя
+       мнѣнія
       </orig>
      </choice>
      , и правительство не
@@ -1101,14 +1126,14 @@
      </choice>
      . —
     </p>
-    <p id="ddb517af-4b79-4a3e-b37b-2639faf1a540" rend="left">
+    <p id="ddb517af-4b79-4a3e-b37b-2639faf1a540">
      Первое, на что накинулось
      <choice>
       <reg>
        мнение
       </reg>
       <orig>
-       мнѣнiе
+       мнѣніе
       </orig>
      </choice>
      людей
@@ -1131,7 +1156,7 @@
       557
      </ref>
      <note index="false" xml:id="note557">
-      <span data-class="paragraph" id="918b2dff-dae6-4f23-b971-187ea17db37b" rend="left">
+      <span data-class="paragraph" id="918b2dff-dae6-4f23-b971-187ea17db37b">
        <hi rend="italic">
         Первоначально было:
        </hi>
@@ -1160,7 +1185,7 @@
        событий
       </reg>
       <orig>
-       событiй
+       событій
       </orig>
      </choice>
      , и когда
@@ -1178,7 +1203,7 @@
        тогдашния
       </reg>
       <orig>
-       тогдашнiя
+       тогдашнія
       </orig>
      </choice>
      толки.
@@ -1282,7 +1307,7 @@
        взятия
       </reg>
       <orig>
-       взятiя
+       взятія
       </orig>
      </choice>
      Парижа и
@@ -1343,7 +1368,7 @@
        Турцией
       </reg>
       <orig>
-       Турцiей
+       Турціей
       </orig>
      </choice>
      , теперь,
@@ -1370,7 +1395,7 @@
        пригатовлений
       </reg>
       <orig>
-       пригатовленiй
+       пригатовленій
       </orig>
      </choice>
      , мы
@@ -1502,7 +1527,7 @@
        бившийся
       </reg>
       <orig>
-       бившiйся
+       бившійся
       </orig>
      </choice>
      со всей Европой, были
@@ -1519,7 +1544,7 @@
        укрепления
       </reg>
       <orig>
-       укрѣпленiя
+       укрѣпленія
       </orig>
      </choice>
      ,
@@ -1536,7 +1561,7 @@
        отбившия
       </reg>
       <orig>
-       отбившiя
+       отбившія
       </orig>
      </choice>
      <choice>
@@ -1544,7 +1569,7 @@
        нападения
       </reg>
       <orig>
-       нападенiя
+       нападенія
       </orig>
      </choice>
      <choice>
@@ -1569,7 +1594,7 @@
        армия
       </reg>
       <orig>
-       армiя
+       армія
       </orig>
      </choice>
      , совершившая защиту 11
@@ -1621,7 +1646,7 @@
        царствованием
       </reg>
       <orig>
-       царствованiемъ
+       царствованіемъ
       </orig>
      </choice>
      . Мы приняли постыдный
@@ -1639,7 +1664,7 @@
        преобразование
       </reg>
       <orig>
-       преобразованiе
+       преобразованіе
       </orig>
      </choice>
      . Одно
@@ -1655,7 +1680,7 @@
       558
      </ref>
      <note index="false" xml:id="note558">
-      <span data-class="paragraph" id="fbfa5499-c5b1-4419-bc53-6b5b5bf45b95" rend="left">
+      <span data-class="paragraph" id="fbfa5499-c5b1-4419-bc53-6b5b5bf45b95">
        <choice>
         <reg>
          главных
@@ -1708,7 +1733,7 @@
          преобразований
         </reg>
         <orig>
-         преобразованiй
+         преобразованій
         </orig>
        </choice>
       </corr>
@@ -1790,7 +1815,7 @@
       559
      </ref>
      <note index="false" xml:id="note559">
-      <span data-class="paragraph" id="607eefb0-ff3b-46e4-b189-a9b41cec82e7" rend="left">
+      <span data-class="paragraph" id="607eefb0-ff3b-46e4-b189-a9b41cec82e7">
        <hi rend="italic">
         В подлиннике по ошибке написано:
        </hi>
@@ -1819,7 +1844,7 @@
        уничтожение
       </reg>
       <orig>
-       уничтоженiе
+       уничтоженіе
       </orig>
      </choice>
      <choice>
@@ -1832,14 +1857,14 @@
      </choice>
      права. —
     </p>
-    <p id="6be06abf-4726-42a9-aaac-78eee44b6cd2" rend="left">
+    <p id="6be06abf-4726-42a9-aaac-78eee44b6cd2">
      <pb n="362"/>
      <choice>
       <reg>
        Уничтожение
       </reg>
       <orig>
-       Уничтоженiе
+       Уничтоженіе
       </orig>
      </choice>
      <choice>
@@ -1881,7 +1906,7 @@
        России
       </reg>
       <orig>
-       Россiи
+       Россіи
       </orig>
      </choice>
      ,
@@ -1915,7 +1940,7 @@
        злоупотреблений
       </reg>
       <orig>
-       злоупотребленiй
+       злоупотребленій
       </orig>
      </choice>
      , было нравственно справедливо и потому
@@ -1933,7 +1958,7 @@
        желании
       </reg>
       <orig>
-       желанiи
+       желаніи
       </orig>
      </choice>
      Государя уничтожить его, естественно, что
@@ -1966,7 +1991,7 @@
        мнения
       </reg>
       <orig>
-       мнѣнiя
+       мнѣнія
       </orig>
      </choice>
      образованной толпы слились
@@ -1992,7 +2017,7 @@
        желание
       </reg>
       <orig>
-       желанiе
+       желаніе
       </orig>
      </choice>
      уничтожить его. По
@@ -2001,7 +2026,7 @@
        преданиям
       </reg>
       <orig>
-       преданiямъ
+       преданіямъ
       </orig>
      </choice>
      правительства
@@ -2168,7 +2193,7 @@
        мнение
       </reg>
       <orig>
-       мнѣнiе
+       мнѣніе
       </orig>
      </choice>
      образованной толпы,
@@ -2213,7 +2238,7 @@
          самоотвержение
         </reg>
         <orig>
-         самоотверженiе
+         самоотверженіе
         </orig>
        </choice>
       </sic>
@@ -2223,7 +2248,7 @@
          самоотвержением
         </reg>
         <orig>
-         самоотверженiемъ
+         самоотверженіемъ
         </orig>
        </choice>
       </corr>
@@ -2234,7 +2259,7 @@
        вследствие
       </reg>
       <orig>
-       вслѣдствiе
+       вслѣдствіе
       </orig>
      </choice>
      <choice>
@@ -2263,13 +2288,13 @@
       </orig>
      </choice>
      <add n="n560" stage="в подлиннике">
-      <span data-class="paragraph" id="78e2402e-1c38-4ed6-81ee-c9776846b151" rend="left">
+      <span data-class="paragraph" id="78e2402e-1c38-4ed6-81ee-c9776846b151">
        <choice>
         <reg>
          желавшие
         </reg>
         <orig>
-         желавшiе
+         желавшіе
         </orig>
        </choice>
       </span>
@@ -2298,7 +2323,7 @@
        глубокий
       </reg>
       <orig>
-       глубокiй
+       глубокій
       </orig>
      </choice>
      <choice>
@@ -2306,7 +2331,7 @@
        политический
       </reg>
       <orig>
-       политическiй
+       политическій
       </orig>
      </choice>
      <choice>
@@ -2323,7 +2348,7 @@
        совпадение
       </reg>
       <orig>
-       совпаденiе
+       совпаденіе
       </orig>
      </choice>
      , но правительство
@@ -2366,7 +2391,7 @@
        мнению
       </reg>
       <orig>
-       мнѣнiю
+       мнѣнію
       </orig>
      </choice>
      толпы и
@@ -2409,7 +2434,7 @@
        исполнение
       </reg>
       <orig>
-       исполненiе
+       исполненіе
       </orig>
      </choice>
      эту
@@ -2445,7 +2470,7 @@
        революционной
       </reg>
       <orig>
-       революцiонной
+       революціонной
       </orig>
      </choice>
      , крайне либеральной
@@ -2480,12 +2505,12 @@
        исполнение
       </reg>
       <orig>
-       исполненiе
+       исполненіе
       </orig>
      </choice>
      .
      <add n="n561" place="на полях">
-      <span data-class="paragraph" id="6b31a663-b980-4ee2-9daa-f59bcd7d3db4" rend="left">
+      <span data-class="paragraph" id="6b31a663-b980-4ee2-9daa-f59bcd7d3db4">
        <choice original_editorial_correction="Конст[антин]">
         <sic>
          Конст
@@ -2550,7 +2575,7 @@
            мнению
           </reg>
           <orig>
-           мнѣнiю
+           мнѣнію
           </orig>
          </choice>
         </corr>
@@ -2559,9 +2584,7 @@
       </span>
      </add>
     </p>
-    <p id="d4909e4b-1549-4790-9b4c-5f91f4ee1481" rend="center">
-     ————
-    </p>
+    <metamark function="line"/>
    </div>
   </body>
  </text>

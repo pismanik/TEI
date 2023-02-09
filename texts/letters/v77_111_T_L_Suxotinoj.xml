@@ -9,17 +9,41 @@
                 <title type="main">Письмо Т. Л. Сухотиной от 7 мая 1907 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Т. Л. Сухотиной, 7 мая 1907 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 77. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 77</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">99-100</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,7 +127,7 @@
      </name>
      .1907 г. Мая 7. Я. П.
     </opener>
-    <p id="f1f99771-15f1-4ed8-a2d5-60cd6638bac1" rend="left">
+    <p id="f1f99771-15f1-4ed8-a2d5-60cd6638bac1">
      Если придешь, очень хороший, умный корреспондент
      <choice original_editorial_correction="америка[нский]">
       <sic>
@@ -120,12 +149,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="13787c5d-011f-474e-a0e4-7eb066d8f6a1" rend="petit left">
+      <p id="13787c5d-011f-474e-a0e4-7eb066d8f6a1" rend="petit">
        Ответ на записку Т. Л. Сухотиной от того же числа, 7 мая: «Папаша, не надо ли тебя освободить? Я их позову прогуляться, а потом завтракать».
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="be33bcb0-078c-4978-a1e0-8d19fc4feb99" rend="petit left">
+      <p id="be33bcb0-078c-4978-a1e0-8d19fc4feb99" rend="petit">
        7 мая 1907 г. к Толстому приезжал редактор-издатель газеты «The New-York Times»
        <name placement="comments" ref="1704" type="person">
         Стефан Бонсел (Stephan Bonsol)
@@ -138,7 +167,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="81995b32-5ca8-4464-912d-dd69204a6b9b" rend="left emptyline">
+      <p id="81995b32-5ca8-4464-912d-dd69204a6b9b" rend="emptyline">
        <pb n="100"/>
       </p>
      </note>

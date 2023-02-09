@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v03_274_277_Varianty_iz_rukopisi_Razzhalovannogo">
-                    [Варианты из рукописи «Разжалованного»]. Tolstoy Digital
+                    [Варианты из рукописи «Разжалованного»]. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Разжалованный.</title>
                 <title type="sub" resp="volume_editor">Варианты из рукописи</title>
-                <title type="bibl">Толстой Л. Н. [Варианты из рукописи «Разжалованного»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 3. М.: Гос. изд. «Художественная литература», 1935. С.</title>
+                <title type="bibl">Толстой Л. Н. [Варианты из рукописи «Разжалованного»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 3. М.: Гос. изд. «Художественная литература», 1935. С. 274–277.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1856"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#ver" target="work_main"/>
@@ -119,7 +144,7 @@
      . Места, которые с несомненностью или с большой долей вероятия можно счесть пострадавшими от цензуры, обозначены звездочкой.
     </p>
     <lb/>
-    <p id="0552cc62-c4dc-4114-93e3-306367770058" rend="left">
+    <p id="0552cc62-c4dc-4114-93e3-306367770058">
      Стр. 75, строка 17.
      <hi rend="italic">
       Слова:
@@ -129,7 +154,7 @@
       нет в ркп.
      </hi>
     </p>
-    <p id="523dd10a-2f99-4b78-8cc5-a3e1de9bc4e3" rend="left">
+    <p id="523dd10a-2f99-4b78-8cc5-a3e1de9bc4e3">
      * Стр. 76, строка 26.
      <hi rend="italic">
       После слов:
@@ -153,7 +178,7 @@
        солдатский
       </reg>
       <orig>
-       солдатскiй
+       солдатскій
       </orig>
      </choice>
      <choice>
@@ -161,7 +186,7 @@
        Георгиевский
       </reg>
       <orig>
-       Георгiевскiй
+       Георгіевскій
       </orig>
      </choice>
      <choice>
@@ -174,7 +199,7 @@
      </choice>
      ,
     </p>
-    <p id="bb36c074-11cc-4683-bc96-a97b69fa2d44" rend="left">
+    <p id="bb36c074-11cc-4683-bc96-a97b69fa2d44">
      Стр. 76, строка 29.
      <hi rend="italic">
       После слова:
@@ -212,7 +237,7 @@
      </choice>
      его.
     </p>
-    <p id="9fdd274c-d2db-42c2-a390-86c0ecc3bc74" rend="left">
+    <p id="9fdd274c-d2db-42c2-a390-86c0ecc3bc74">
      Стр. 77, строка 26.
      <hi rend="italic">
       Вместо:
@@ -223,7 +248,7 @@
      </hi>
      особенно для немолодого
     </p>
-    <p id="83cd8382-b90f-4f69-bdc8-0ff4161f950d" rend="left">
+    <p id="83cd8382-b90f-4f69-bdc8-0ff4161f950d">
      Стр. 78, строка 21.
      <hi rend="italic">
       После слова:
@@ -234,7 +259,7 @@
      </hi>
      дряннаго
     </p>
-    <p id="48f74423-f00f-460b-b643-bbbe767a4ea7" rend="left">
+    <p id="48f74423-f00f-460b-b643-bbbe767a4ea7">
      Стр. 78, строки 36—39.
      <hi rend="italic">
       Вместо:
@@ -248,7 +273,7 @@
       в ркп.:
      </hi>
     </p>
-    <p id="7afa7fa9-1082-4f14-bb61-55e5a7166b5f" rend="left">
+    <p id="7afa7fa9-1082-4f14-bb61-55e5a7166b5f">
      —
      <choice>
       <reg>
@@ -298,7 +323,7 @@
        нижний
       </reg>
       <orig>
-       нижнiй
+       нижній
       </orig>
      </choice>
      <choice>
@@ -358,12 +383,12 @@
        выражение
       </reg>
       <orig>
-       выраженiе
+       выраженіе
       </orig>
      </choice>
      ,
     </p>
-    <p id="6c37e15c-803a-48c1-b3a4-4eea4ea17bf4" rend="left">
+    <p id="6c37e15c-803a-48c1-b3a4-4eea4ea17bf4">
      * Стр. 79, строки 5—6.
      <hi rend="italic">
       Вместо:
@@ -374,7 +399,7 @@
      </hi>
      ругали начальство,
     </p>
-    <p id="d97f9f33-1be3-4972-bf80-e6f5d1173d96" rend="left">
+    <p id="d97f9f33-1be3-4972-bf80-e6f5d1173d96">
      * Стр. 79, строки 16—18.
      <hi rend="italic">
       Вместо:
@@ -388,7 +413,7 @@
       в ркп.:
      </hi>
     </p>
-    <p id="746f0881-3c8f-4a59-8722-64ba09d8d0bd" rend="left">
+    <p id="746f0881-3c8f-4a59-8722-64ba09d8d0bd">
      —
      <choice>
       <reg>
@@ -485,7 +510,7 @@
      </choice>
      .
     </p>
-    <p id="03ac1b98-14aa-40c2-8079-e1ac3a0255f4" rend="left">
+    <p id="03ac1b98-14aa-40c2-8079-e1ac3a0255f4">
      —
      <choice>
       <reg>
@@ -531,7 +556,7 @@
       </orig>
      </choice>
     </p>
-    <p id="630b6c61-2f0d-40c6-a2bf-2a7a611f8ff6" rend="left">
+    <p id="630b6c61-2f0d-40c6-a2bf-2a7a611f8ff6">
      * Стр. 80, строка 5.
      <hi rend="italic">
       После слов:
@@ -629,7 +654,7 @@
      </choice>
      :
     </p>
-    <p id="e176af93-f7dd-4420-b6d6-7fea9d074fd6" rend="left">
+    <p id="e176af93-f7dd-4420-b6d6-7fea9d074fd6">
      —
      <choice>
       <reg>
@@ -675,7 +700,7 @@
       </orig>
      </choice>
     </p>
-    <p id="800bd234-2c3f-4c57-8843-dd0f8e6bcd99" rend="left">
+    <p id="800bd234-2c3f-4c57-8843-dd0f8e6bcd99">
      <pb n="275"/>
      * Стр. 80, строка 10.
      <hi rend="italic">
@@ -690,7 +715,7 @@
       в ркп.:
      </hi>
     </p>
-    <p id="c3975141-c7b0-4032-9797-50b4d56ba853" rend="left">
+    <p id="c3975141-c7b0-4032-9797-50b4d56ba853">
      — Я его знаю, —
      <choice>
       <reg>
@@ -727,7 +752,7 @@
      </choice>
      .
     </p>
-    <p id="47d92fbb-9b92-4f2c-8418-c502df58227b" rend="left">
+    <p id="47d92fbb-9b92-4f2c-8418-c502df58227b">
      * Стр. 80, строка 20—23.
      <hi rend="italic">
       Вместо: я
@@ -822,12 +847,12 @@
        предположению
       </reg>
       <orig>
-       предположенiю
+       предположенію
       </orig>
      </choice>
      .
     </p>
-    <p id="eb9b45f9-c88f-4798-b015-cdf6f1ff858e" rend="left">
+    <p id="eb9b45f9-c88f-4798-b015-cdf6f1ff858e">
      Стр. 80, строки 30—31.
      <hi rend="italic">
       Слов:
@@ -842,7 +867,7 @@
      </hi>
      .
     </p>
-    <p id="d81eb6f0-2b28-4adc-a92f-2706ccb7fb83" rend="left">
+    <p id="d81eb6f0-2b28-4adc-a92f-2706ccb7fb83">
      * Стр. 80, строки 32—33.
      <hi rend="italic">
       Вместо:
@@ -873,7 +898,7 @@
       в ркп.:
      </hi>
     </p>
-    <p id="8534204c-0b9b-4d44-bdf3-97f6f3025faf" rend="left">
+    <p id="8534204c-0b9b-4d44-bdf3-97f6f3025faf">
      —
      <choice>
       <reg>
@@ -932,12 +957,12 @@
        счастие
       </reg>
       <orig>
-       счастiе
+       счастіе
       </orig>
      </choice>
      .
     </p>
-    <p id="8e2f9de3-b48a-4d8a-99a5-ae0060d68f5b" rend="left">
+    <p id="8e2f9de3-b48a-4d8a-99a5-ae0060d68f5b">
      — Неужели вы думаете, что
      <choice>
       <reg>
@@ -993,7 +1018,7 @@
      </choice>
      теперь проигрался?
     </p>
-    <p id="5babbf15-43ea-44b0-82ac-fb8a9a9b4372" rend="left">
+    <p id="5babbf15-43ea-44b0-82ac-fb8a9a9b4372">
      — Нашла коса на камень,
      <choice>
       <reg>
@@ -1005,7 +1030,7 @@
      </choice>
      и все.
     </p>
-    <p id="1677ed11-2081-4033-a4f1-8163dbe624ae" rend="left">
+    <p id="1677ed11-2081-4033-a4f1-8163dbe624ae">
      Во время
      <choice>
       <reg>
@@ -1039,7 +1064,7 @@
        выражением
       </reg>
       <orig>
-       выраженiемъ
+       выраженіемъ
       </orig>
      </choice>
      своего лица, ненатурально
@@ -1066,7 +1091,7 @@
        подозрением
       </reg>
       <orig>
-       подозрѣнiемъ
+       подозрѣніемъ
       </orig>
      </choice>
      О. на
@@ -1134,7 +1159,7 @@
        приятель
       </reg>
       <orig>
-       прiятель
+       пріятель
       </orig>
      </choice>
      .
@@ -1166,7 +1191,7 @@
      </choice>
      слышать.
     </p>
-    <p id="d98204f5-0be2-45c2-9fdf-0a474aeaa1c5" rend="left">
+    <p id="d98204f5-0be2-45c2-9fdf-0a474aeaa1c5">
      Стр. 80, строка 37.
      <hi rend="italic">
       Слов:
@@ -1177,7 +1202,7 @@
      </hi>
      .
     </p>
-    <p id="21666b90-1a03-40f3-b8d0-37f5f50f8e79" rend="left">
+    <p id="21666b90-1a03-40f3-b8d0-37f5f50f8e79">
      * Стр. 81, строка 1.
      <hi rend="italic">
       Вместо:
@@ -1197,7 +1222,7 @@
      </choice>
      .
     </p>
-    <p id="d63d1bce-9c30-400c-9aee-8943f187b15b" rend="left">
+    <p id="d63d1bce-9c30-400c-9aee-8943f187b15b">
      * Стр. 81, строки 1—2.
      <hi rend="italic">
       Слов:
@@ -1211,7 +1236,7 @@
       нет в ркп.
      </hi>
     </p>
-    <p id="745426dd-c6be-40e9-9246-a97d27ddf8a2" rend="left">
+    <p id="745426dd-c6be-40e9-9246-a97d27ddf8a2">
      * Стр. 82, строка 11.
      <hi rend="italic">
       После слов:
@@ -1267,7 +1292,7 @@
        русский
       </reg>
       <orig>
-       русскiй
+       русскій
       </orig>
      </choice>
      , особенно петербургской
@@ -1285,7 +1310,7 @@
        выражающийся
       </reg>
       <orig>
-       выражающiйся
+       выражающійся
       </orig>
      </choice>
      только
@@ -1302,7 +1327,7 @@
        подобострастии
       </reg>
       <orig>
-       подобострастiи
+       подобострастіи
       </orig>
      </choice>
      <choice>
@@ -1343,7 +1368,7 @@
       173
      </ref>
      <note index="false" xml:id="note173">
-      <span data-class="paragraph" id="22ce315e-1b12-4872-83d8-264146ebddbc" rend="left">
+      <span data-class="paragraph" id="22ce315e-1b12-4872-83d8-264146ebddbc">
        (приличием,)
       </span>
      </note>
@@ -1362,7 +1387,7 @@
        мир
       </reg>
       <orig>
-       мiръ
+       міръ
       </orig>
      </choice>
      <choice>
@@ -1370,7 +1395,7 @@
        Божий
       </reg>
       <orig>
-       Божiй
+       Божій
       </orig>
      </choice>
      , и
@@ -1388,7 +1413,7 @@
        никакие
       </reg>
       <orig>
-       никакiя
+       никакія
       </orig>
      </choice>
      <choice>
@@ -1396,7 +1421,7 @@
        несчастия
       </reg>
       <orig>
-       несчастiя
+       несчастія
       </orig>
      </choice>
      , никакое
@@ -1405,7 +1430,7 @@
        влияние
       </reg>
       <orig>
-       влiянiе
+       вліяніе
       </orig>
      </choice>
      не
@@ -1422,7 +1447,7 @@
        состоянии
       </reg>
       <orig>
-       состоянiи
+       состояніи
       </orig>
      </choice>
      выбить
@@ -1464,7 +1489,7 @@
        воспитанием
       </reg>
       <orig>
-       воспитанiемъ
+       воспитаніемъ
       </orig>
      </choice>
      и еще хуже —
@@ -1510,7 +1535,7 @@
      </choice>
      нему.
     </p>
-    <p id="3ba05846-a573-49a1-8aab-28218388a09a" rend="left">
+    <p id="3ba05846-a573-49a1-8aab-28218388a09a">
      * Стр. 82, строки 15—17.
      <hi rend="italic">
       Вместо:
@@ -1555,7 +1580,7 @@
        состояние
       </reg>
       <orig>
-       состоянiе
+       состояніе
       </orig>
      </choice>
      , и зная
@@ -1564,7 +1589,7 @@
        направление
       </reg>
       <orig>
-       направленiе
+       направленіе
       </orig>
      </choice>
      сестры, я
@@ -1603,7 +1628,7 @@
      </choice>
      .
     </p>
-    <p id="d0316ed9-a84a-46db-b976-69aef8605930" rend="left">
+    <p id="d0316ed9-a84a-46db-b976-69aef8605930">
      <pb n="276"/>
      * Стр. 83, строка 30.
      <hi rend="italic">
@@ -1631,7 +1656,7 @@
      </choice>
      ,
     </p>
-    <p id="9b1c38e0-12bf-4960-9d44-135306d7fbe3" rend="left">
+    <p id="9b1c38e0-12bf-4960-9d44-135306d7fbe3">
      * Стр. 83, строка 33*
      <hi rend="italic">
       Вместо:
@@ -1642,7 +1667,7 @@
      </hi>
      ужаснаго общества
     </p>
-    <p id="63748600-add7-4ffc-b63f-2726811a6659" rend="left">
+    <p id="63748600-add7-4ffc-b63f-2726811a6659">
      Стр. 84, строка 2.
      <hi rend="italic">
       После слова:
@@ -1661,7 +1686,7 @@
      </choice>
      ,
     </p>
-    <p id="7dbe3c13-44e6-4be4-b039-d77f3b082c0e" rend="left">
+    <p id="7dbe3c13-44e6-4be4-b039-d77f3b082c0e">
      *Стр. 84, строка 27.
      <hi rend="italic">
       Вместо: —
@@ -1697,7 +1722,7 @@
      </choice>
      ,
     </p>
-    <p id="48308c62-355f-41ef-b832-d372cd511f3b" rend="left">
+    <p id="48308c62-355f-41ef-b832-d372cd511f3b">
      Стр. 85, строка 25.
      <hi rend="italic">
       Вместо: —
@@ -1725,7 +1750,7 @@
      </choice>
      ,
     </p>
-    <p id="7cc2e27b-fad4-41f6-b112-5d65bf428dce" rend="left">
+    <p id="7cc2e27b-fad4-41f6-b112-5d65bf428dce">
      Стр. 87, строки 18—19.
      <hi rend="italic">
       После слов:
@@ -1735,7 +1760,7 @@
       174
      </ref>
      <note index="false" xml:id="note174">
-      <span data-class="paragraph" id="1ad9a3da-9abe-4a34-af31-7b5fb43705bd" rend="left">
+      <span data-class="paragraph" id="1ad9a3da-9abe-4a34-af31-7b5fb43705bd">
        (светский жаргон)
       </span>
      </note>
@@ -1754,7 +1779,7 @@
      </choice>
      и всегда удивлялся, что меня находили
     </p>
-    <p id="baa82dc4-beaa-4c38-ac31-da5cf9a537a0" rend="left">
+    <p id="baa82dc4-beaa-4c38-ac31-da5cf9a537a0">
      * Стр. 87, строка 23.
      <hi rend="italic">
       После слов:
@@ -1822,7 +1847,7 @@
        мнение
       </reg>
       <orig>
-       мнѣнiе
+       мнѣніе
       </orig>
      </choice>
      , и
@@ -1854,7 +1879,7 @@
      </choice>
      .
     </p>
-    <p id="8bf03c3e-f805-4836-b89e-1633c6298d58" rend="left">
+    <p id="8bf03c3e-f805-4836-b89e-1633c6298d58">
      * Стр. 87, строка 28.
      <hi rend="italic">
       Вместо:
@@ -1881,7 +1906,7 @@
      </choice>
      ,
     </p>
-    <p id="0f6859d3-49c0-4141-8666-397f2ce0291c" rend="left">
+    <p id="0f6859d3-49c0-4141-8666-397f2ce0291c">
      * Стр. 88, строка 14.
      <hi rend="italic">
       Вместо:
@@ -1908,7 +1933,7 @@
      </choice>
      ,
     </p>
-    <p id="d0a3a49b-a749-4f78-9a31-0710c7bae607" rend="left">
+    <p id="d0a3a49b-a749-4f78-9a31-0710c7bae607">
      * Стр. 88, строка 15.
      <hi rend="italic">
       Вместо:
@@ -1917,7 +1942,7 @@
      <hi rend="italic">
       в ркп.:
      </hi>
-     С-iй
+     С-ій
      <choice>
       <reg>
        полк
@@ -1931,7 +1956,7 @@
       Так-же и ниже.
      </hi>
     </p>
-    <p id="32b4c566-c69f-4b83-9285-222cbac0f2e1" rend="left">
+    <p id="32b4c566-c69f-4b83-9285-222cbac0f2e1">
      * Стр. 88, строка 26.
      <hi rend="italic">
       Вместо:
@@ -1942,7 +1967,7 @@
      </hi>
      гадко
     </p>
-    <p id="17709768-b537-4c9b-885c-67886f2a42aa" rend="left">
+    <p id="17709768-b537-4c9b-885c-67886f2a42aa">
      * Стр. 88, строки 27—33.
      <hi rend="italic">
       Слов:
@@ -1956,7 +1981,7 @@
       нет в ркп.
      </hi>
     </p>
-    <p id="51d7c7fc-7ae8-4c68-b286-83783b58ad29" rend="left">
+    <p id="51d7c7fc-7ae8-4c68-b286-83783b58ad29">
      * Стр. 89, строка 2.
      <hi rend="italic">
       После слов:
@@ -2065,7 +2090,7 @@
      </choice>
      .
     </p>
-    <p id="08594993-8a94-4e82-b2bf-5c63a8498393" rend="left">
+    <p id="08594993-8a94-4e82-b2bf-5c63a8498393">
      * Стр. 89, строка 7.
      <hi rend="italic">
       После слова:
@@ -2076,7 +2101,7 @@
      </hi>
      подлыми
     </p>
-    <p id="3a973571-9c8c-4a8c-b2d6-92d20c2c016d" rend="left">
+    <p id="3a973571-9c8c-4a8c-b2d6-92d20c2c016d">
      * Стр. 89, строка 9.
      <hi rend="italic">
       После слов:
@@ -2108,7 +2133,7 @@
        России
       </reg>
       <orig>
-       Россiи
+       Россіи
       </orig>
      </choice>
      ) и солдатами — это
@@ -2125,7 +2150,7 @@
        какие-то
       </reg>
       <orig>
-       какiе-то
+       какіе-то
       </orig>
      </choice>
      ,
@@ -2164,7 +2189,7 @@
      </choice>
      ,
     </p>
-    <p id="aa0ed01a-786f-4fad-af40-c7a062812d5b" rend="left">
+    <p id="aa0ed01a-786f-4fad-af40-c7a062812d5b">
      * Стр. 89, строка 23.
      <hi rend="italic">
       Вместо:
@@ -2175,7 +2200,7 @@
      </hi>
      свиньи офицеры
     </p>
-    <p id="65990d5b-e8eb-4bc7-af23-f4898495ee50" rend="left">
+    <p id="65990d5b-e8eb-4bc7-af23-f4898495ee50">
      Стр. 89, строка 33.
      <hi rend="italic">
       Слов:
@@ -2185,7 +2210,7 @@
       нет в ркп.
      </hi>
     </p>
-    <p id="43ea93bb-c5a8-4343-bbbd-52e43d0125ad" rend="left">
+    <p id="43ea93bb-c5a8-4343-bbbd-52e43d0125ad">
      * Стр. 90, строка 8.
      <hi rend="italic">
       После слов:
@@ -2195,7 +2220,7 @@
       175
      </ref>
      <note index="false" xml:id="note175">
-      <span data-class="paragraph" id="96171977-d0b4-45f2-a8f1-c03295af999d" rend="left">
+      <span data-class="paragraph" id="96171977-d0b4-45f2-a8f1-c03295af999d">
        [под огнем,]
       </span>
      </note>
@@ -2208,7 +2233,7 @@
       176
      </ref>
      <note index="false" xml:id="note176">
-      <span data-class="paragraph" id="255ef9db-d11b-4b21-935b-53e5ec2c6e50" rend="left">
+      <span data-class="paragraph" id="255ef9db-d11b-4b21-935b-53e5ec2c6e50">
        [мне дали вот это]
       </span>
      </note>
@@ -2240,7 +2265,7 @@
      </choice>
      ,
     </p>
-    <p id="ecaac9e0-f597-40e4-8f90-caef56329798" rend="left">
+    <p id="ecaac9e0-f597-40e4-8f90-caef56329798">
      <pb n="277"/>
      * Стр. 90, строка 14.
      <hi rend="italic">
@@ -2285,7 +2310,7 @@
      </choice>
      солдаты,
     </p>
-    <p id="f2610c43-cb2e-4274-a3b3-d3c16793f0f1" rend="left">
+    <p id="f2610c43-cb2e-4274-a3b3-d3c16793f0f1">
      * Стр. 90, строка 19.
      <hi rend="italic">
       Вместо:
@@ -2320,7 +2345,7 @@
      </choice>
      ,
     </p>
-    <p id="47bb3651-3b4b-45ea-8576-7f977e47e61f" rend="left">
+    <p id="47bb3651-3b4b-45ea-8576-7f977e47e61f">
      * Стр. 90, строка 22.
      <hi rend="italic">
       Вместо:
@@ -2331,7 +2356,7 @@
      </hi>
      пьянство,
     </p>
-    <p id="041b8ae0-8078-4428-8f37-72ceaea407b5" rend="left">
+    <p id="041b8ae0-8078-4428-8f37-72ceaea407b5">
      * Стр. 90, строка 27.
      <hi rend="italic">
       После слов:
@@ -2342,7 +2367,7 @@
      </hi>
      Юнкера, это общество невозможное, солдаты, фельдфебеля........
     </p>
-    <p id="12a7a987-f622-454d-a817-2ea3f3ed9b41" rend="left">
+    <p id="12a7a987-f622-454d-a817-2ea3f3ed9b41">
      Стр. 95, строка 2.
      <hi rend="italic">
       После слова:
@@ -2353,7 +2378,7 @@
      </hi>
      и ужъ сейчасъ она бѣжитъ навстрѣчу, и слышу ея голосъ.
     </p>
-    <p id="e410e9ce-c696-4c99-a115-86e6029380c1" rend="left">
+    <p id="e410e9ce-c696-4c99-a115-86e6029380c1">
      * Стр. 96, строка 24.
      <hi rend="italic">
       Вместо:
@@ -2364,7 +2389,7 @@
      </hi>
      у Алферова
     </p>
-    <p id="42cac031-203f-4118-81ed-72ad5c08a164" rend="left">
+    <p id="42cac031-203f-4118-81ed-72ad5c08a164">
      Стр. 96, строка 35.
      <hi rend="italic">
       После слов:
@@ -2453,9 +2478,7 @@
      </choice>
      свою дружбу.
     </p>
-    <p id="35469455-60e4-4be9-92bc-1f110d49be7e" rend="center">
-     ————
-    </p>
+    <metamark function="line"/>
    </div>
   </body>
  </text>

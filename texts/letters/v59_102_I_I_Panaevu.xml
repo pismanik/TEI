@@ -9,17 +9,41 @@
                 <title type="main">Письмо И. И. Панаеву от 16 июня 1855 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо И. И. Панаеву, 16 июня 1855 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">319-320</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -107,10 +137,10 @@
      </choice>
      .
     </opener>
-    <p id="796b9ab7-7935-4bfb-a70d-25f1b65eb337" rend="Obrashenie left">
+    <p id="796b9ab7-7935-4bfb-a70d-25f1b65eb337" rend="Obrashenie">
      Милостивый Государь!
     </p>
-    <p id="24005d1a-6b04-48e1-ac6b-502d829a340c" rend="Obrashenie1 left">
+    <p id="24005d1a-6b04-48e1-ac6b-502d829a340c" rend="Obrashenie1">
      <choice>
       <reg>
        <name placement="text" ref="10447" type="person">
@@ -135,14 +165,14 @@
      </choice>
      !
     </p>
-    <p id="b6fb24df-fd4f-4149-a7a9-2f415291be4a" rend="left">
+    <p id="b6fb24df-fd4f-4149-a7a9-2f415291be4a">
      Чтобы сдержать свое
      <choice>
       <reg>
        обещание
       </reg>
       <orig>
-       обѣщанiе
+       обѣщаніе
       </orig>
      </choice>
      <ref target="#note1">
@@ -248,7 +278,7 @@
        сочинения
       </reg>
       <orig>
-       сочиненiя
+       сочиненія
       </orig>
      </choice>
      ,
@@ -455,7 +485,7 @@
        мнение
       </reg>
       <orig>
-       мнѣнiе
+       мнѣніе
       </orig>
      </choice>
      , которое и прошу
@@ -491,7 +521,7 @@
        Следующий
       </reg>
       <orig>
-       Слѣдующiй
+       Слѣдующій
       </orig>
      </choice>
      <choice>
@@ -600,7 +630,7 @@
        примечании
       </reg>
       <orig>
-       примѣчанiи
+       примѣчаніи
       </orig>
      </choice>
      <choice>
@@ -727,7 +757,7 @@
        печатания
       </reg>
       <orig>
-       печатанiя
+       печатанія
       </orig>
      </choice>
      , печатайте, ежели
@@ -777,7 +807,7 @@
        нетерпением
       </reg>
       <orig>
-       нетерпѣнiемъ
+       нетерпѣніемъ
       </orig>
      </choice>
      ожидая Вашего
@@ -811,7 +841,7 @@
        уважением
       </reg>
       <orig>
-       уваженiемъ
+       уваженіемъ
       </orig>
      </choice>
      <choice>
@@ -827,19 +857,19 @@
       [вырезано несколько строк].
      </hi>
     </p>
-    <p id="7154d8ac-7c52-46cc-ab87-115ebf34d13d" rend="left">
+    <p id="7154d8ac-7c52-46cc-ab87-115ebf34d13d">
      16
      <choice>
       <reg>
        июня
       </reg>
       <orig>
-       iюня
+       іюня
       </orig>
      </choice>
      1855.
     </p>
-    <p id="fe12e33b-939c-45be-b3b1-137349c3e759" rend="left">
+    <p id="fe12e33b-939c-45be-b3b1-137349c3e759">
      <choice>
       <reg>
        Буюк
@@ -857,7 +887,7 @@
      </note>
     </p>
     <lb/>
-    <p id="94f57f51-558e-4102-97e1-ecbbd64f8961" rend="left">
+    <p id="94f57f51-558e-4102-97e1-ecbbd64f8961">
      <hi>
       На 4 странице:
      </hi>
@@ -869,7 +899,7 @@
        Высокоблагородию
       </reg>
       <orig>
-       Высокоблагородiю
+       Высокоблагородію
       </orig>
      </choice>
      <name placement="text" ref="10447" type="person">

@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v07_322_324_Variant_iz_rukopisi_B_komedii_Zarazhennoe_semejstvo">
-                    [Вариант из рукописи Б комедии «Зараженное семейство»]. Tolstoy Digital
+                    [Вариант из рукописи Б комедии «Зараженное семейство»]. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Зараженное семейство.</title>
                 <title type="sub" resp="volume_editor">Вариант из рукописи Б</title>
-                <title type="bibl">Толстой Л. Н. [Вариант из рукописи Б комедии «Зараженное семейство»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 7. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. [Вариант из рукописи Б комедии «Зараженное семейство»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 7. М.: Гос. изд. «Художественная литература», 1936. С. 322–324.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1864"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#ver" target="work_main"/>
@@ -116,7 +141,7 @@
    </div>
    <div type="section" xml:id="h000012019">
     <head rend="title_level1 center">
-     ДРAMAТИЧЕСКИЕ ПРОИЗВЕДЕНИЯ
+     ДРАМАТИЧЕСКИЕ ПРОИЗВЕДЕНИЯ
     </head>
    </div>
    <div type="section" xml:id="h000012019007">
@@ -223,7 +248,7 @@
      </choice>
      .
     </p>
-    <p id="cf3479b0-a2b6-4b18-ab41-51fb7049b79e" rend="left">
+    <p id="cf3479b0-a2b6-4b18-ab41-51fb7049b79e">
      <hi rend="italic">
       Ив. Мих. (
       <choice>
@@ -429,7 +454,7 @@
      </choice>
      и больше ничего.
     </p>
-    <p id="9b40c4db-6291-4dbc-8b0b-b6cadaab17ce" rend="left">
+    <p id="9b40c4db-6291-4dbc-8b0b-b6cadaab17ce">
      <hi rend="italic">
       Староста.
      </hi>
@@ -637,7 +662,7 @@
        мир
       </reg>
       <orig>
-       мiръ
+       міръ
       </orig>
      </choice>
      ,
@@ -651,7 +676,7 @@
      </choice>
      ...
     </p>
-    <p id="d9608540-c662-47fc-962f-110005069cee" rend="left">
+    <p id="d9608540-c662-47fc-962f-110005069cee">
      <hi rend="italic">
       И. М.
      </hi>
@@ -674,7 +699,7 @@
      </choice>
      дни?
     </p>
-    <p id="e8f73e98-f3ca-45bf-80f1-99265dbb2de8" rend="left">
+    <p id="e8f73e98-f3ca-45bf-80f1-99265dbb2de8">
      <hi rend="italic">
       Ст.
      </hi>
@@ -698,7 +723,7 @@
      </choice>
      при Посреднику...
     </p>
-    <p id="9f5b5ed6-cbb2-4386-8da3-7959c89f8403" rend="left">
+    <p id="9f5b5ed6-cbb2-4386-8da3-7959c89f8403">
      <hi rend="italic">
       И. М
      </hi>
@@ -722,7 +747,7 @@
      </choice>
      , а вы что?
     </p>
-    <p id="e0ab890c-935f-4415-a080-aa48c70f7c99" rend="left">
+    <p id="e0ab890c-935f-4415-a080-aa48c70f7c99">
      <hi rend="italic">
       <choice>
        <reg>
@@ -777,7 +802,7 @@
      </choice>
      .
     </p>
-    <p id="b1359584-e59c-4077-b8ed-c516fb1b2549" rend="left">
+    <p id="b1359584-e59c-4077-b8ed-c516fb1b2549">
      <hi rend="italic">
       Ив. М.
      </hi>
@@ -840,7 +865,7 @@
      </choice>
      !
     </p>
-    <p id="a0fcbeba-0067-490d-b636-d897271119a7" rend="left">
+    <p id="a0fcbeba-0067-490d-b636-d897271119a7">
      <hi rend="italic">
       <choice>
        <reg>
@@ -881,7 +906,7 @@
      </choice>
      ты какой!
     </p>
-    <p id="95170777-7e68-4021-bdad-c551ce0a3b95" rend="left">
+    <p id="95170777-7e68-4021-bdad-c551ce0a3b95">
      <hi rend="italic">
       Ст.
      </hi>
@@ -923,7 +948,7 @@
      </choice>
      судить надо.
     </p>
-    <p id="f9b0dc0f-f7e2-4c26-8495-e4d2787dfadb" rend="left">
+    <p id="f9b0dc0f-f7e2-4c26-8495-e4d2787dfadb">
      <hi rend="italic">
       Ив. М
      </hi>
@@ -938,7 +963,7 @@
      </choice>
      , я только спрашиваю?
     </p>
-    <p id="f299d221-9a1e-4bbd-8874-ce86e4775ad9" rend="left">
+    <p id="f299d221-9a1e-4bbd-8874-ce86e4775ad9">
      <hi rend="italic">
       <choice>
        <reg>
@@ -970,7 +995,7 @@
      </choice>
      это вы глупо говорите, господа!
     </p>
-    <p id="e3edddbc-55db-436a-8da4-2a94d28803f3" rend="left">
+    <p id="e3edddbc-55db-436a-8da4-2a94d28803f3">
      <hi rend="italic">
       Ив. М.
      </hi>
@@ -1052,7 +1077,7 @@
      </choice>
      ? Есть?
     </p>
-    <p id="61f6a979-df41-4695-9aa2-50f1678373ca" rend="left">
+    <p id="61f6a979-df41-4695-9aa2-50f1678373ca">
      <hi rend="italic">
       Староста.
      </hi>
@@ -1079,7 +1104,7 @@
        миром
       </reg>
       <orig>
-       мiромъ
+       міромъ
       </orig>
      </choice>
      послужили,
@@ -1128,7 +1153,7 @@
      </choice>
      ?
     </p>
-    <p id="96c73a59-a491-4ba3-875a-86939fd98a31" rend="left">
+    <p id="96c73a59-a491-4ba3-875a-86939fd98a31">
      <hi rend="italic">
       Ив. М.
      </hi>
@@ -1148,7 +1173,7 @@
         усилием
        </reg>
        <orig>
-        усилiемъ
+        усиліемъ
        </orig>
       </choice>
       спокойно).
@@ -1236,12 +1261,12 @@
        отношениях
       </reg>
       <orig>
-       отношенiяхъ
+       отношеніяхъ
       </orig>
      </choice>
      ....
     </p>
-    <p id="634f474a-a3ac-46fd-91d9-e1da3a898972" rend="left">
+    <p id="634f474a-a3ac-46fd-91d9-e1da3a898972">
      <hi rend="italic">
       Стар
      </hi>
@@ -1330,7 +1355,7 @@
        согластию
       </reg>
       <orig>
-       согластiю
+       согластію
       </orig>
      </choice>
      ; только не обидно ли
@@ -1344,7 +1369,7 @@
      </choice>
      ?
     </p>
-    <p id="0a23f003-001b-46f0-b011-08d4dc04eec2" rend="left">
+    <p id="0a23f003-001b-46f0-b011-08d4dc04eec2">
      <hi rend="italic">
       <choice>
        <reg>
@@ -1392,7 +1417,7 @@
      </choice>
      !
     </p>
-    <p id="a3aeb65b-dd2e-4f05-b97b-db14f1ce53b7" rend="left">
+    <p id="a3aeb65b-dd2e-4f05-b97b-db14f1ce53b7">
      <hi rend="italic">
       Ив. Мих. (вставая, и
       <choice>
@@ -1433,7 +1458,7 @@
        Василий
       </reg>
       <orig>
-       Василiй
+       Василій
       </orig>
      </choice>
      . — Ну,
@@ -1447,7 +1472,7 @@
      </choice>
      !
     </p>
-    <p id="baa5d399-899e-4f74-9831-d1b582304189" rend="left">
+    <p id="baa5d399-899e-4f74-9831-d1b582304189">
      <hi rend="italic">
       <choice>
        <reg>
@@ -1543,7 +1568,7 @@
       .)
      </hi>
     </p>
-    <p id="20bb079c-4fe1-4c7f-b52f-882eb8db02e2" rend="left">
+    <p id="20bb079c-4fe1-4c7f-b52f-882eb8db02e2">
      <hi rend="italic">
       Ив. Мих. (Садится
       <choice>
@@ -1591,7 +1616,7 @@
      </choice>
      .
     </p>
-    <p id="5ada9745-32a7-46f1-ac04-da5ec0b6c417" rend="left">
+    <p id="5ada9745-32a7-46f1-ac04-da5ec0b6c417">
      <pb n="324"/>
      <hi rend="italic">
       K.M. (
@@ -1625,13 +1650,13 @@
      </choice>
      .
     </p>
-    <p id="59053f7a-0340-445a-885a-38889731a9e0" rend="left">
+    <p id="59053f7a-0340-445a-885a-38889731a9e0">
      <hi rend="italic">
       Ив. М.
      </hi>
      Что ты?
     </p>
-    <p id="6cea9254-fd52-4b81-8d23-0cdba904f24f" rend="left">
+    <p id="6cea9254-fd52-4b81-8d23-0cdba904f24f">
      <hi rend="italic">
       К. М.
      </hi>
@@ -1700,7 +1725,7 @@
        России
       </reg>
       <orig>
-       Россiи
+       Россіи
       </orig>
      </choice>
      : что преграда
@@ -1709,7 +1734,7 @@
        установлению
       </reg>
       <orig>
-       установленiю
+       установленію
       </orig>
      </choice>
      <choice>
@@ -1734,7 +1759,7 @@
        отношений
       </reg>
       <orig>
-       отношенiй
+       отношеній
       </orig>
      </choice>
      между
@@ -1752,7 +1777,7 @@
        пролетарием
       </reg>
       <orig>
-       пролетарiемъ
+       пролетаріемъ
       </orig>
      </choice>
      <choice>
@@ -1776,7 +1801,7 @@
        неуважении
       </reg>
       <orig>
-       неуваженiи
+       неуваженіи
       </orig>
      </choice>
      <choice>
@@ -1793,12 +1818,12 @@
        братии
       </reg>
       <orig>
-       братiи
+       братіи
       </orig>
      </choice>
      .
     </p>
-    <p id="115ee1b2-7ae0-4809-9b71-e2fb7a8aadaf" rend="left">
+    <p id="115ee1b2-7ae0-4809-9b71-e2fb7a8aadaf">
      <hi rend="italic">
       Ив. М.
      </hi>
@@ -1888,7 +1913,7 @@
        братией
       </reg>
       <orig>
-       братiей
+       братіей
       </orig>
      </choice>
      . Ты бы
@@ -2012,7 +2037,7 @@
        экономическия
       </reg>
       <orig>
-       экономическiя
+       экономическія
       </orig>
      </choice>
      основы, и все, и меньшая братья, и

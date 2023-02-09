@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Ю. Волконской от 1 июля 1904 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Ю. Волконской, 1 июля 1904 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 75. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 75</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">141-141</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,7 +127,7 @@
      </name>
      .1904 г. Июля 1. Я. П.
     </opener>
-    <p id="64d9f5bc-841b-4b84-8d4d-59a386007334" rend="left">
+    <p id="64d9f5bc-841b-4b84-8d4d-59a386007334">
      Очень сожалею, милая
      <name placement="text" ref="2766" type="person">
       Варвара Юрьевна
@@ -188,7 +217,7 @@
      </name>
      .
     </p>
-    <p id="5c68069c-fbec-44f3-a0be-5849d4e3ad26" rend="left">
+    <p id="5c68069c-fbec-44f3-a0be-5849d4e3ad26">
      1904. 1 июля.
     </p>
     <noteGrp type="comments">
@@ -198,7 +227,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="6bb84ce3-8750-43f4-b8eb-56be57e943b1" rend="petit left">
+      <p id="6bb84ce3-8750-43f4-b8eb-56be57e943b1" rend="petit">
        <name placement="comments" ref="2766" type="person">
         Варвара Юрьевна Волконская
        </name>
@@ -206,7 +235,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="0cf6fbab-11a0-427c-8e08-e73241629d47" rend="petit left">
+      <p id="0cf6fbab-11a0-427c-8e08-e73241629d47" rend="petit">
        В. Ю. Волконская с Толстым познакомилась тринадцати лет, в 1856 г., в Москве, в доме своего двоюродного брата
        <name placement="comments" ref="2776" type="person">
         Александра Алексеевича Волконского
@@ -215,7 +244,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="5ca87d5c-c9f2-47b7-b5f6-736da9ed6d93" rend="petit left">
+      <p id="5ca87d5c-c9f2-47b7-b5f6-736da9ed6d93" rend="petit">
        Ответ на письмо Волконской от 20 июня 1904 г., в котором она просила разрешения у Толстого послать ему для просмотра немецкий роман C. Viebig «Das tägliche Brot», который она переводит на русский язык.
       </p>
      </note>

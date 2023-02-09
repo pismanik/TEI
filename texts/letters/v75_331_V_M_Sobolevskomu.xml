@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. М. Соболевскому от 10 марта 1905 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. М. Соболевскому, 10 марта 1905 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 75. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 75</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">235-236</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -98,14 +127,14 @@
      </name>
      .1905 г. Марта 10. Я. П.
     </opener>
-    <p id="980f137b-9173-4716-af81-2d9cf1de3a80" rend="Obrashenie left">
+    <p id="980f137b-9173-4716-af81-2d9cf1de3a80" rend="Obrashenie">
      Дорогой
      <name placement="text" ref="12869" type="person">
       Василий Михайлович
      </name>
      ,
     </p>
-    <p id="8afefdf6-8dfe-4cdc-8a49-0aba4f079a53" rend="left">
+    <p id="8afefdf6-8dfe-4cdc-8a49-0aba4f079a53">
      Хотя
      <choice original_editorial_correction="Дмит[рий]">
       <sic>
@@ -141,7 +170,7 @@
      </note>
      Либава, Среднедорожная, 17.
     </p>
-    <p id="17d0eaaf-e586-4e4d-bdda-335c388acc0d" rend="left">
+    <p id="17d0eaaf-e586-4e4d-bdda-335c388acc0d">
      Он работал в газете,
      <ref target="#note3">
       3
@@ -154,7 +183,7 @@
     <p id="338c39eb-4ba9-4623-9f55-e1f1cdc9e2c3" rend="right">
      Ваш Лев Толстой.
     </p>
-    <p id="6e44105e-db89-44e4-a450-9d35323f4336" rend="left">
+    <p id="6e44105e-db89-44e4-a450-9d35323f4336">
      10 марта 1905.
     </p>
     <noteGrp type="comments">
@@ -164,7 +193,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="d2d65a28-aa4b-4aa1-84af-14970c7ee8b2" rend="petit left">
+      <p id="d2d65a28-aa4b-4aa1-84af-14970c7ee8b2" rend="petit">
        <name placement="comments" ref="12869" type="person">
         Василий Михайлович Соболевский
        </name>

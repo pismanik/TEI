@@ -9,17 +9,41 @@
                 <title type="main">Письмо Самюелю Джонсу (Samuel Jones) от 12 января 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Самюелю Джонсу (Samuel Jones), 12 января 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">25-27</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -94,10 +123,10 @@
     <opener index="false">
      * 9. Самюелю Джонсу (Samuel Jones).1899 г. Января 12/24. Москва.
     </opener>
-    <p id="4faddb04-749f-4f60-81ab-78759d46710e" rend="Obrashenie left">
+    <p id="4faddb04-749f-4f60-81ab-78759d46710e" rend="Obrashenie">
      Dear friend,
     </p>
-    <p id="bc4329da-2d03-42e9-b9a1-bd9856565edd" rend="left">
+    <p id="bc4329da-2d03-42e9-b9a1-bd9856565edd">
      I beg you to pardon me for not answering your letter, which gave me great pleasure, for such a long time. Please to receive my warmest thanks for it and for the pamphlets.
      <ref target="#note1">
       1
@@ -118,7 +147,7 @@
      </note>
      and have explained my reason for it that I will have the pleasure to send to you when it will be translated.
     </p>
-    <p id="5bf183bf-adf4-4fde-b299-8d3187efe5f5" rend="left">
+    <p id="5bf183bf-adf4-4fde-b299-8d3187efe5f5">
      Thanking you for your sympathy to my activity and hoping that a part of what you say about it would be true, I am, dear friend,
     </p>
     <p id="033ef57f-5a24-4327-950f-9221a3931697" rend="right rightindent">
@@ -127,10 +156,10 @@
     <p id="588a28f4-c7a6-48ed-ac31-8cb18ea1ecc2" rend="right">
      Leo Tolstoy.
     </p>
-    <p id="85959e2e-1d85-4e37-8f5c-c5e3dd97f12b" rend="left">
+    <p id="85959e2e-1d85-4e37-8f5c-c5e3dd97f12b">
      24 January 1899.
     </p>
-    <p id="968c5baa-6136-403e-a966-764afd691fb3" rend="left">
+    <p id="968c5baa-6136-403e-a966-764afd691fb3">
      <pb n="26"/>
     </p>
     <p id="d1a53461-5e5a-49b0-8679-b1edc6732a65" rend="Obrashenie petit">
@@ -161,7 +190,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="45520e61-b0de-4e7e-9620-ff990fda0c05" rend="petit left">
+      <p id="45520e61-b0de-4e7e-9620-ff990fda0c05" rend="petit">
        Благодаря вас за сочувствие к моей деятельности и надеясь, что часть того, что вы о ней говорите — правда, остаюсь, дорогой друг,
       </p>
      </note>
@@ -179,7 +208,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="a5588c21-210b-472e-b205-d3683600da33" rend="petit left">
+      <p id="a5588c21-210b-472e-b205-d3683600da33" rend="petit">
        24 Января 1899.
       </p>
      </note>
@@ -189,7 +218,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="36756289-138f-41d0-bcf6-ef888e471168" rend="petit left">
+      <p id="36756289-138f-41d0-bcf6-ef888e471168" rend="petit">
        Самюель Джонс (Samuel Jones) — городской голова г. Толедо, САСШ, близкий знакомый
        <name placement="comments" ref="7195" type="person">
         Эрнеста Кросби
@@ -201,7 +230,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="e834db84-f8a3-4ee1-a43f-fb47d43b32c2" rend="petit left">
+      <p id="e834db84-f8a3-4ee1-a43f-fb47d43b32c2" rend="petit">
        <pb n="27"/>
        <hi style="npdelimiter">
         Ответ

@@ -1,92 +1,97 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v84_519_a16"> Письма и документы. Tolstoy Digital </title>
-                <title type="main">Письмо С. А. Толстой от 16 мая 1892 г. </title>
-                <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 16 мая 1892 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 84. М.: Гос. изд. «Художественная литература», 1949. С. </title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name> Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский </name>
-                </respStmt>
-                <respStmt>
-                    <resp> Подготовка TEI/XML </resp>
-                    <name> Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова </name>
-                </respStmt>
-                <funder> Проект «Слово Толстого» </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName> Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого» </orgName>
-                </publisher>
-                <availability>
-                    <p id="dc6910d8-25d0-445a-ad7a-62bdfce4ac1e"> Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa) </p>
-                </availability>
-                <date from="2015-01-01" to="2022-01-01"/>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Л. Н. </author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 84</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date from="1949-01-01" to="1949-12-31"/>
-                        </imprint>
-                        <biblScope unit="vol">84</biblScope>
-                        <biblScope unit="page">151-152</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л. Н. Толстой. Полное собрание сочинений</title>
-                    </series>
-                </biblStruct>
-                <bibl>Публикуется впервые</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy_front.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Бегичевка</placeName>
-                    <date from="1892-05-16" to="1892-12-31"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="13844">Толстая Софья Андреевна, рожд. Берс</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="ru"/>
-            </langUsage>
-            <textClass>
-                <catRef ana="#letters_np" target="type_neprosto"/>
-                <catRef ana="#letters" target="type"/>
-                <catRef ana="#sent" target="sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">519</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="a16_519">
-  <body>
-   <div>
-    <p id="a05bb6b7-15fc-402d-8285-ae97f94953e4">
-      <pb n="151"></pb>
-    </p>
-    <p id="2e4604af-c2da-4941-a59b-81ab4be3ce4d">
-      <span index="false" class="opener"> *519.1892 г. Мая 16. Бегичевка. </span>
-    </p>
-    <p id="d048d563-29e1-4a7a-afd6-8ca72eab42a3" rend="left"> Вышли 3500 руб. Ге <a href="#" data-type="snoska" id="note1"> 1 </a>
-     <span class="note" id="note1"> H. Н. Ге — сын художника, </span> скорее. Через Петра <a href="#" data-type="snoska" id="note2"> 2 </a>
-     <span class="note" id="note2"> П. Н. Ге — сын художника. </span> Нежин Толстой Мск Хамовники 15 графине Софье Толстой. </p>
-    </div>
-  </body>
- </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:id="v84_519_a16">Письма и документы. Tolstoy Digital </title>
+        <title type="main">Письмо С. А. Толстой от 16 мая 1892 г. </title>
+        <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 16 мая 1892 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 84. М.: Гос. изд. «Художественная литература», 1949. С. </title>
+        <respStmt>
+          <resp>Идея, постановка задач, руководство: </resp>
+          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
+        </respStmt>
+        <respStmt>
+          <resp> Подготовка TEI/XML: </resp>
+          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров, Никита Северин, Елена Северина</name>
+        </respStmt>
+        <funder> Проект «Слово Толстого» </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого» </orgName>
+        </publisher>
+        <availability>
+          <p id="dc6910d8-25d0-445a-ad7a-62bdfce4ac1e">Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa) </p>
+        </availability>
+        <date from="2015-01-01" to="2022-01-01"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>Публикуемые документы был получены с сайта tolstoy. ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. </note>
+      </notesStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author>Толстой Лев Николаевич </author>
+          </analytic>
+          <monogr>
+            <title level="m">Полное собрание сочинений. Том 84 </title>
+            <imprint>
+              <pubPlace>Москва </pubPlace>
+              <publisher>Государственное издательство «Художественная литература» </publisher>
+              <date from="1949-01-01" to="1949-12-31"/>
+            </imprint>
+            <biblScope unit="vol">84 </biblScope>
+            <biblScope unit="page">151-152 </biblScope>
+          </monogr>
+          <series>
+            <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт. </title>
+          </series>
+        </biblStruct>
+        <bibl>Публикуется впервые </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <xi:include href="../../reference/taxonomy_front.xml"/>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sending">
+          <persName ref="13883">Л. Н. Толстой </persName>
+          <placeName>Бегичевка </placeName>
+          <date from="1892-05-16" to="1892-12-31"/>
+        </correspAction>
+        <correspAction type="receiving">
+          <persName ref="13844">Толстая Софья Андреевна, рожд. Берс </persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="ru"/>
+      </langUsage>
+      <textClass>
+        <catRef ana="#letters_np" target="type_neprosto"/>
+        <catRef ana="#letters" target="type"/>
+        <catRef ana="#sent" target="sent"/>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <xenoData>
+    <number type="in a volume">519 </number>
+  </xenoData>
+  <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="a16_519">
+    <body>
+      <div>
+        <p id="fe89ba2f-65ea-43f1-9b26-c9daec57ad0e">
+          <pb n="151"></pb>
+        </p>
+        <p id="82e92841-d3a8-4908-baaf-4a119f2571b0">
+          <span index="false" class="opener">*519.1892 г. Мая 16. Бегичевка. </span>
+        </p>
+        <p id="d048d563-29e1-4a7a-afd6-8ca72eab42a3">Вышли 3500 руб. Ге<a href="#" data-type="snoska" id="note1">1</a>
+          <span class="note" id="note1">H. Н. Ге — сын художника, </span>скорее. Через Петра<a href="#" data-type="snoska" id="note2">2</a>
+          <span class="note" id="note2">П. Н. Ге — сын художника. </span>Нежин Толстой Мск Хамовники 15 графине Софье Толстой.</p>
+      </div>
+    </body>
+  </text>
 </TEI>

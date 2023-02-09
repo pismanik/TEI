@@ -9,17 +9,41 @@
                 <title type="main">Письмо Альберту Шкарвану (Albert Skarvan) от 26 августа 1909 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Альберту Шкарвану (Albert Skarvan), 26 августа 1909 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 80. М.: Гос. изд. «Художественная литература», 1955. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 80</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">70-71</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -98,7 +127,7 @@
      </name>
      .1909 г. Августа 26. Я. П.
     </opener>
-    <p id="1cace70b-944d-4622-bdd5-e6dbc8bbafe9" rend="left">
+    <p id="1cace70b-944d-4622-bdd5-e6dbc8bbafe9">
      Спасибо вам, милый друг Шкарван, и за ваше письмо и за перевод — еще не получен — и за добрые чувства ко мне. Письмо ваше к Гале
      <ref target="#note1">
       1
@@ -145,7 +174,7 @@
       .
      </note>
     </p>
-    <p id="8c9d9c8d-c9db-4ae6-aff6-f0d5e53759e4" rend="left">
+    <p id="8c9d9c8d-c9db-4ae6-aff6-f0d5e53759e4">
      Рад, что вам хорошо, вне тяжелых условий, но еще более буду рад узнать, что вам хорошо и в тяжелых условиях.
      <hi style="opdelimiter">
       Тяжелые
@@ -169,7 +198,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="02ed11eb-53c9-404e-aab2-b3083f883f08" rend="petit left">
+      <p id="02ed11eb-53c9-404e-aab2-b3083f883f08" rend="petit">
        Об
        <name placement="comments" ref="15678" type="person">
         Альберте Шкарване
@@ -178,7 +207,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="cd09d7b1-c6cc-4b03-bb9e-ff14b6f9af39" rend="petit left">
+      <p id="cd09d7b1-c6cc-4b03-bb9e-ff14b6f9af39" rend="petit">
        Ответ на письмо Шкарвана от 2 сентября н. ст. 1909 г. по поводу предложения концертной дирекции Жюль-Закс (
        <ref target="file:///Volume_80_RedakciigazetyMorgenPost_78.xml">
         см. письмо № 78

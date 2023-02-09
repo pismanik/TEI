@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v17_445_460_Materialy_k_romanu_Dekabristy_Zapisnye_knizhki">
-                    Материалы к роману «Декабристы». Записные книжки. Tolstoy Digital
+                    Материалы к роману «Декабристы». Записные книжки. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Декабристы.</title>
                 <title type="sub" resp="volume_editor">Материалы к роману. Записные книжки</title>
-                <title type="bibl">Толстой Л. Н. Материалы к роману «Декабристы». Записные книжки // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. Материалы к роману «Декабристы». Записные книжки // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С. 445–460.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -91,9 +115,10 @@
                     1863, 1877—1879
                 </date>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#ver" target="work_main"/>
@@ -137,7 +162,7 @@
          820
         </ref>
         <note index="false" xml:id="note820">
-         <span data-class="paragraph" id="278ea56b-8459-4d08-81df-a43bf0b11e76" rend="left">
+         <span data-class="paragraph" id="278ea56b-8459-4d08-81df-a43bf0b11e76">
           <hi rend="italic">
            Вся страница написана карандашом.
           </hi>
@@ -183,7 +208,7 @@
           Свиязева
          </reg>
          <orig>
-          Свiязева
+          Свіязева
          </orig>
         </choice>
         <choice>
@@ -256,9 +281,7 @@
        <p id="32314806-8b14-43aa-b5e1-432fee59f572" rend="center">
         Авеля.
        </p>
-       <p id="06693309-fc3d-49ac-b779-3c82f716b57d" rend="center">
-        ————
-       </p>
+    <metamark function="line"/>
       </cell>
      </row>
      <row>
@@ -286,7 +309,7 @@
           поселениях
          </reg>
          <orig>
-          поселенiяхъ
+          поселеніяхъ
          </orig>
         </choice>
         .
@@ -295,9 +318,7 @@
      </row>
      <row>
       <cell>
-       <p id="88137b44-a18f-442a-9d36-fab8032636ed" rend="center">
-        ————
-       </p>
+    <metamark function="line"/>
       </cell>
      </row>
      <row>
@@ -317,9 +338,7 @@
      </row>
      <row>
       <cell>
-       <p id="f6b21c6a-36fb-4d75-a591-2b6310e2afda" rend="center">
-        ————
-       </p>
+    <metamark function="line"/>
       </cell>
      </row>
      <row>
@@ -330,7 +349,7 @@
          821
         </ref>
         <note index="false" xml:id="note821">
-         <span data-class="paragraph" id="0e9d8d5b-bbbf-472c-a885-02a0e6113725" rend="left">
+         <span data-class="paragraph" id="0e9d8d5b-bbbf-472c-a885-02a0e6113725">
           <hi rend="italic">
            Вся страница написана карандашом.
           </hi>
@@ -356,7 +375,7 @@
          822
         </ref>
         <note index="false" xml:id="note822">
-         <span data-class="paragraph" id="fe3ce5b4-fd02-48c2-8c9d-2e6d92712d9b" rend="left">
+         <span data-class="paragraph" id="fe3ce5b4-fd02-48c2-8c9d-2e6d92712d9b">
           <hi rend="italic">
            Написано карандашом.
           </hi>
@@ -389,7 +408,7 @@
           Описание
          </reg>
          <orig>
-          Описанiе
+          Описаніе
          </orig>
         </choice>
         школы
@@ -433,7 +452,7 @@
          823
         </ref>
         <note index="false" xml:id="note823">
-         <span data-class="paragraph" id="53154c22-c89f-499b-adcb-6b84fa27a0ec" rend="left">
+         <span data-class="paragraph" id="53154c22-c89f-499b-adcb-6b84fa27a0ec">
           <hi rend="italic">
            Следующая запись:
           </hi>
@@ -497,7 +516,7 @@
             Ростовский
            </reg>
            <orig>
-            Ростовскiй
+            Ростовскій
            </orig>
           </choice>
          </corr>
@@ -516,7 +535,7 @@
           Юстиции
          </reg>
          <orig>
-          Юстицiи
+          Юстиціи
          </orig>
         </choice>
         .
@@ -589,7 +608,7 @@
       </cell>
      </row>
     </table>
-    <p id="3c9c32d1-c6de-4a0b-bd73-2e84492f5e5d" rend="left pages2">
+    <p id="3c9c32d1-c6de-4a0b-bd73-2e84492f5e5d" rend="pages2">
      <pb n="446"/>
     </p>
     <table>
@@ -641,7 +660,7 @@
           России
          </reg>
          <orig>
-          Россiи
+          Россіи
          </orig>
         </choice>
         у
@@ -720,7 +739,7 @@
          824
         </ref>
         <note index="false" xml:id="note824">
-         <span data-class="paragraph" id="5108eb9e-c82f-4087-89b4-4b6ddfb20a51" rend="left">
+         <span data-class="paragraph" id="5108eb9e-c82f-4087-89b4-4b6ddfb20a51">
           <hi rend="italic">
            Следующая запись:
           </hi>
@@ -794,7 +813,7 @@
           губернии
          </reg>
          <orig>
-          губернiи
+          губерніи
          </orig>
         </choice>
         . (
@@ -862,7 +881,7 @@
          825
         </ref>
         <note index="false" xml:id="note825">
-         <span data-class="paragraph" id="38477733-23c6-4c01-929d-f307a518ff02" rend="left">
+         <span data-class="paragraph" id="38477733-23c6-4c01-929d-f307a518ff02">
           <hi rend="italic">
            Цыфра
           </hi>
@@ -927,9 +946,7 @@
      </row>
      <row>
       <cell>
-       <p id="36aeea20-2abc-4679-a3b2-7e0cd8c6582e" rend="center">
-        ————
-       </p>
+    <metamark function="line"/>
       </cell>
      </row>
      <row>
@@ -950,9 +967,7 @@
        </p>
       </cell>
       <cell>
-       <p id="e5c5fac7-91c8-4db9-b4be-4ca848eb1537" rend="center">
-        ————
-       </p>
+    <metamark function="line"/>
       </cell>
      </row>
      <row>
@@ -964,7 +979,7 @@
           события
          </reg>
          <orig>
-          событiя
+          событія
          </orig>
         </choice>
         <choice>
@@ -1113,7 +1128,7 @@
           Конституции
          </reg>
          <orig>
-          Конституцiи
+          Конституціи
          </orig>
         </choice>
         .
@@ -1124,7 +1139,7 @@
           Австрия
          </reg>
          <orig>
-          Австрiя
+          Австрія
          </orig>
         </choice>
         <choice>
@@ -1165,7 +1180,7 @@
           Пруссия
          </reg>
          <orig>
-          Пруссiя
+          Пруссія
          </orig>
         </choice>
         <choice>
@@ -1198,7 +1213,7 @@
           собрание
          </reg>
          <orig>
-          собранiе
+          собраніе
          </orig>
         </choice>
         . — Запретить журналы
@@ -1207,7 +1222,7 @@
           лекции
          </reg>
          <orig>
-          лекцiи
+          лекціи
          </orig>
         </choice>
         —
@@ -1235,7 +1250,7 @@
          826
         </ref>
         <note index="false" xml:id="note826">
-         <span data-class="paragraph" id="c1810042-9a20-49db-8699-68e1210895e1" rend="left">
+         <span data-class="paragraph" id="c1810042-9a20-49db-8699-68e1210895e1">
           <hi rend="italic">
            Всё начало страницы написано карандашом кончая:
           </hi>
@@ -1248,7 +1263,7 @@
           историей
          </reg>
          <orig>
-          исторiей
+          исторіей
          </orig>
         </choice>
         <choice>
@@ -1256,7 +1271,7 @@
           Германии
          </reg>
          <orig>
-          Германiи
+          Германіи
          </orig>
         </choice>
         занимается, чтобы соединить
@@ -1274,7 +1289,7 @@
           Русские
          </reg>
          <orig>
-          Русскiе
+          Русскіе
          </orig>
         </choice>
         —
@@ -1302,7 +1317,7 @@
           Франция
          </reg>
          <orig>
-          Францiя
+          Франція
          </orig>
         </choice>
         18
@@ -1362,7 +1377,7 @@
           Берийской
          </reg>
          <orig>
-          Берiйской
+          Берійской
          </orig>
         </choice>
         <choice>
@@ -1389,7 +1404,7 @@
           Берийской
          </reg>
          <orig>
-          Берiйской
+          Берійской
          </orig>
         </choice>
         <choice>
@@ -1461,7 +1476,7 @@
           конституционали
          </reg>
          <orig>
-          конституцiонали
+          конституціонали
          </orig>
         </choice>
         . В. Constant
@@ -1477,7 +1492,7 @@
       </cell>
      </row>
     </table>
-    <p id="4c912610-e1a4-4ead-baca-c06bf6b47e04" rend="left pages2">
+    <p id="4c912610-e1a4-4ead-baca-c06bf6b47e04" rend="pages2">
      <pb n="447"/>
     </p>
     <table>
@@ -1498,7 +1513,7 @@
           Испания
          </reg>
          <orig>
-          Испанiя
+          Испанія
          </orig>
         </choice>
         <choice>
@@ -1523,7 +1538,7 @@
           Риего
          </reg>
          <orig>
-          Рiего
+          Ріего
          </orig>
         </choice>
         .
@@ -1532,7 +1547,7 @@
           Конституцию
          </reg>
          <orig>
-          Конституцiю
+          Конституцію
          </orig>
         </choice>
         силой
@@ -1540,7 +1555,7 @@
          827
         </ref>
         <note index="false" xml:id="note827">
-         <span data-class="paragraph" id="d4556442-0cac-4760-bdd4-c8babd77b51d" rend="left">
+         <span data-class="paragraph" id="d4556442-0cac-4760-bdd4-c8babd77b51d">
           <hi rend="italic">
            Два слова вписаны карандашом.
           </hi>
@@ -1553,7 +1568,7 @@
           Португалия
          </reg>
          <orig>
-          Португалiя
+          Португалія
          </orig>
         </choice>
         .
@@ -1591,7 +1606,7 @@
           конституцию
          </reg>
          <orig>
-          конституцiю
+          конституцію
          </orig>
         </choice>
         .
@@ -1613,7 +1628,7 @@
          828
         </ref>
         <note index="false" xml:id="note828">
-         <span data-class="paragraph" id="c18cd095-4ba0-4b42-9591-e8055ce83cae" rend="left">
+         <span data-class="paragraph" id="c18cd095-4ba0-4b42-9591-e8055ce83cae">
           <hi rend="italic">
            Цыфра
           </hi>
@@ -1629,7 +1644,7 @@
           Карбонарии
          </reg>
          <orig>
-          Карбонарiи
+          Карбонаріи
          </orig>
         </choice>
         ).
@@ -1637,7 +1652,7 @@
          829
         </ref>
         <note index="false" xml:id="note829">
-         <span data-class="paragraph" id="c55c4247-8523-418f-825d-54bf2c88b2da" rend="left">
+         <span data-class="paragraph" id="c55c4247-8523-418f-825d-54bf2c88b2da">
           <hi rend="italic">
            Со слов:
           </hi>
@@ -1651,7 +1666,7 @@
             Карбонарии
            </reg>
            <orig>
-            Карбонарiи
+            Карбонаріи
            </orig>
           </choice>
           )
@@ -1700,7 +1715,7 @@
           Биография
          </reg>
          <orig>
-          Бiографiя
+          Біографія
          </orig>
         </choice>
         <name placement="text" ref="9346" type="person">
@@ -1712,7 +1727,7 @@
           Издание
          </reg>
          <orig>
-          Изданiе
+          Изданіе
          </orig>
         </choice>
         Университета.
@@ -1742,7 +1757,7 @@
           биография
          </reg>
          <orig>
-          бiографiя
+          біографія
          </orig>
         </choice>
         .
@@ -1752,7 +1767,7 @@
          830
         </ref>
         <note index="false" xml:id="note830">
-         <span data-class="paragraph" id="f14677d8-f990-4240-8cc4-1c1d45e25b8e" rend="left">
+         <span data-class="paragraph" id="f14677d8-f990-4240-8cc4-1c1d45e25b8e">
           <hi rend="italic">
            Со слов:
           </hi>
@@ -1830,7 +1845,7 @@
          831
         </ref>
         <note index="false" xml:id="note831">
-         <span data-class="paragraph" id="f1f65891-7496-4fcf-89f3-45e5c7bfce93" rend="left">
+         <span data-class="paragraph" id="f1f65891-7496-4fcf-89f3-45e5c7bfce93">
           <hi rend="italic">
            Эти три слова написаны поперек страницы сбоку и очерчены прямыми линиями.
           </hi>
@@ -2349,7 +2364,7 @@
            </reg>
            <orig>
             <name placement="text" ref="6301" type="person">
-             Анастасiя
+             Анастасія
             </name>
            </orig>
           </choice>
@@ -2372,7 +2387,7 @@
          832
         </ref>
         <note index="false" xml:id="note832">
-         <span data-class="paragraph" id="b81e587b-91a8-4020-9af8-199c1bb6ea63" rend="left">
+         <span data-class="paragraph" id="b81e587b-91a8-4020-9af8-199c1bb6ea63">
           дочь
          </span>
         </note>
@@ -2427,7 +2442,7 @@
          833
         </ref>
         <note index="false" xml:id="note833">
-         <span data-class="paragraph" id="4fb0665c-7fb8-4cb3-870f-b32bb6bf3499" rend="left">
+         <span data-class="paragraph" id="4fb0665c-7fb8-4cb3-870f-b32bb6bf3499">
           <name placement="note" ref="12201" type="person">
            Чернышевой
           </name>
@@ -2457,7 +2472,7 @@
       </cell>
      </row>
     </table>
-    <p id="e798de2f-7439-4ab5-8486-6a5d47bd6785" rend="left pages2">
+    <p id="e798de2f-7439-4ab5-8486-6a5d47bd6785" rend="pages2">
      <pb n="448"/>
     </p>
     <table>
@@ -2584,7 +2599,7 @@
           губернии
          </reg>
          <orig>
-          губернiи
+          губерніи
          </orig>
         </choice>
        </p>
@@ -2666,7 +2681,7 @@
           Родионовна
          </reg>
          <orig>
-          Родiоновна
+          Родіоновна
          </orig>
         </choice>
        </p>
@@ -2697,7 +2712,7 @@
             Английской
            </reg>
            <orig>
-            Англiйской
+            Англійской
            </orig>
           </choice>
          </corr>
@@ -2871,7 +2886,7 @@
           имения
          </reg>
          <orig>
-          имѣнiя
+          имѣнія
          </orig>
         </choice>
         Скорняково
@@ -3019,7 +3034,7 @@
             Дмитриевичем
            </reg>
            <orig>
-            Дмитрiевичемъ
+            Дмитріевичемъ
            </orig>
           </choice>
          </corr>
@@ -3127,7 +3142,7 @@
           Гусарский
          </reg>
          <orig>
-          Гусарскiй
+          Гусарскій
          </orig>
         </choice>
         <choice>
@@ -3163,7 +3178,7 @@
          834
         </ref>
         <note index="false" xml:id="note834">
-         <span data-class="paragraph" id="43c2e6e7-05d3-4bd1-a1ef-635f4e313347" rend="left">
+         <span data-class="paragraph" id="43c2e6e7-05d3-4bd1-a1ef-635f4e313347">
           его
          </span>
         </note>
@@ -3333,7 +3348,7 @@
           убийцы
          </reg>
          <orig>
-          убiйцы
+          убійцы
          </orig>
         </choice>
         <choice original_editorial_correction="Петр[а]">
@@ -3413,7 +3428,7 @@
       </cell>
      </row>
     </table>
-    <p id="fa0469ee-1a2d-40ea-9508-edc817c9c1d8" rend="left pages2">
+    <p id="fa0469ee-1a2d-40ea-9508-edc817c9c1d8" rend="pages2">
      <pb n="449"/>
     </p>
     <table>
@@ -3729,7 +3744,7 @@
            Какие
           </reg>
           <orig>
-           Какiя
+           Какія
           </orig>
          </choice>
          связи?
@@ -3792,7 +3807,7 @@
           переодевание
          </reg>
          <orig>
-          переодѣванiе
+          переодѣваніе
          </orig>
         </choice>
        </p>
@@ -3847,7 +3862,7 @@
          835
         </ref>
         <note index="false" xml:id="note835">
-         <span data-class="paragraph" id="70159883-335a-4d48-a27b-602c125b9c00" rend="left">
+         <span data-class="paragraph" id="70159883-335a-4d48-a27b-602c125b9c00">
           <hi rend="italic">
            Последние 3 слова написаны карандашом.
           </hi>
@@ -3939,7 +3954,7 @@
          836
         </ref>
         <note index="false" xml:id="note836">
-         <span data-class="paragraph" id="27f4d398-00eb-4fc1-8360-1abc5bb2596b" rend="left">
+         <span data-class="paragraph" id="27f4d398-00eb-4fc1-8360-1abc5bb2596b">
           Сост
          </span>
         </note>
@@ -3948,7 +3963,7 @@
           Состояние
          </reg>
          <orig>
-          Состоянiе
+          Состояніе
          </orig>
         </choice>
        </p>
@@ -3963,7 +3978,7 @@
           </name>
          </reg>
          <orig>
-          Фотiя
+          Фотія
          </orig>
         </choice>
        </p>
@@ -3974,7 +3989,7 @@
           имением
          </reg>
          <orig>
-          имѣнiемъ
+          имѣніемъ
          </orig>
         </choice>
        </p>
@@ -4055,7 +4070,7 @@
            </reg>
            <orig>
             <name placement="text" ref="15261" type="person">
-             Григорiй
+             Григорій
             </name>
            </orig>
           </choice>
@@ -4157,7 +4172,7 @@
           Состояние
          </reg>
          <orig>
-          Состоянiе
+          Состояніе
          </orig>
         </choice>
        </p>
@@ -4187,7 +4202,7 @@
           Религиозность
          </reg>
          <orig>
-          Религiозность
+          Религіозность
          </orig>
         </choice>
        </p>
@@ -4237,7 +4252,7 @@
       </cell>
      </row>
     </table>
-    <p id="27c779b1-03c6-4feb-bc69-72eebaa872c1" rend="left pages2">
+    <p id="27c779b1-03c6-4feb-bc69-72eebaa872c1" rend="pages2">
      <pb n="450"/>
     </p>
     <table>
@@ -4250,7 +4265,7 @@
           Имения
          </reg>
          <orig>
-          Имѣнiя
+          Имѣнія
          </orig>
         </choice>
        </p>
@@ -4362,7 +4377,7 @@
           Афинские
          </reg>
          <orig>
-          Афинскiе
+          Афинскіе
          </orig>
         </choice>
         вечера.
@@ -4611,7 +4626,7 @@
            Одуевский
           </reg>
           <orig>
-           Одуевскiй
+           Одуевскій
           </orig>
          </choice>
          Ив
@@ -4657,7 +4672,7 @@
           Маиор
          </reg>
          <orig>
-          Маiоръ
+          Маіоръ
          </orig>
         </choice>
         ,
@@ -4866,7 +4881,7 @@
          </reg>
          <orig>
           <name placement="text" ref="10110" type="person">
-           Сергiй
+           Сергій
           </name>
          </orig>
         </choice>
@@ -4943,7 +4958,7 @@
             Французский
            </reg>
            <orig>
-            Французскiй
+            Французскій
            </orig>
           </choice>
          </corr>
@@ -4974,7 +4989,7 @@
             Академии
            </reg>
            <orig>
-            Академiи
+            Академіи
            </orig>
           </choice>
          </corr>
@@ -4989,7 +5004,7 @@
             Русский
            </reg>
            <orig>
-            Русскiй
+            Русскій
            </orig>
           </choice>
          </corr>
@@ -5006,7 +5021,7 @@
          837
         </ref>
         <note index="false" xml:id="note837">
-         <span data-class="paragraph" id="56ebd842-25b9-48c2-87ab-1fcc09537423" rend="left">
+         <span data-class="paragraph" id="56ebd842-25b9-48c2-87ab-1fcc09537423">
           <hi rend="italic">
            Слова начиная с:
           </hi>
@@ -5043,7 +5058,7 @@
           Владимирской
          </reg>
          <orig>
-          Владимiрской
+          Владимірской
          </orig>
         </choice>
         <choice original_editorial_correction="губерн[ии]">
@@ -5056,7 +5071,7 @@
             губернии
            </reg>
            <orig>
-            губернiи
+            губерніи
            </orig>
           </choice>
          </corr>
@@ -5158,7 +5173,7 @@
       </cell>
      </row>
     </table>
-    <p id="65c81a48-4c47-4ab1-a76d-9401a1f39c9b" rend="left pages2">
+    <p id="65c81a48-4c47-4ab1-a76d-9401a1f39c9b" rend="pages2">
      <pb n="451"/>
     </p>
     <table>
@@ -5202,7 +5217,7 @@
            </reg>
            <orig>
             <name placement="text" ref="7623" type="person">
-             Дмитрiй
+             Дмитрій
             </name>
            </orig>
           </choice>
@@ -5274,7 +5289,7 @@
         </hi>
         [
         <hi rend="italic">
-         iй
+         ій
         </hi>
         ]
         <hi rend="italic">
@@ -5306,7 +5321,7 @@
          838
         </ref>
         <note index="false" xml:id="note838">
-         <span data-class="paragraph" id="d6fa7214-59d9-49be-ae2a-89a610ae84d6" rend="left">
+         <span data-class="paragraph" id="d6fa7214-59d9-49be-ae2a-89a610ae84d6">
           Ло
          </span>
         </note>
@@ -5539,7 +5554,7 @@
             Просвещения
            </reg>
            <orig>
-            Просвѣщенiя
+            Просвѣщенія
            </orig>
           </choice>
          </corr>
@@ -5641,7 +5656,7 @@
           губернии
          </reg>
          <orig>
-          губернiи
+          губерніи
          </orig>
         </choice>
         <hi rend="italic"/>
@@ -5707,7 +5722,7 @@
          839
         </ref>
         <note index="false" xml:id="note839">
-         <span data-class="paragraph" id="0e734559-223e-4e54-9a9f-9bb9c7e950f2" rend="left">
+         <span data-class="paragraph" id="0e734559-223e-4e54-9a9f-9bb9c7e950f2">
           <hi rend="italic">
            Строка написана карандашом.
           </hi>
@@ -5740,7 +5755,7 @@
          840
         </ref>
         <note index="false" xml:id="note840">
-         <span data-class="paragraph" id="7ae3f80c-b73d-432a-959c-2354eeb57afe" rend="left">
+         <span data-class="paragraph" id="7ae3f80c-b73d-432a-959c-2354eeb57afe">
           <hi rend="italic">
            Строка написана карандашом.
           </hi>
@@ -5796,7 +5811,7 @@
           повесившиеся
          </reg>
          <orig>
-          повѣсившiеся
+          повѣсившіеся
          </orig>
         </choice>
         .
@@ -5951,7 +5966,7 @@
           гимназии
          </reg>
          <orig>
-          гимназiи
+          гимназіи
          </orig>
         </choice>
        </p>
@@ -6008,7 +6023,7 @@
           Понятовский
          </reg>
          <orig>
-          Понятовскiй
+          Понятовскій
          </orig>
         </choice>
        </p>
@@ -6068,7 +6083,7 @@
          </reg>
          <orig>
           <name placement="text" ref="12612" type="person">
-           Сиклитикiя
+           Сиклитикія
           </name>
          </orig>
         </choice>
@@ -6080,7 +6095,7 @@
       </cell>
      </row>
     </table>
-    <p id="3ded8ec5-4603-4c47-9241-6e03fa10dc23" rend="left pages2">
+    <p id="3ded8ec5-4603-4c47-9241-6e03fa10dc23" rend="pages2">
      <pb n="452"/>
     </p>
     <table>
@@ -6321,7 +6336,7 @@
             французские
            </reg>
            <orig>
-            французскiе
+            французскіе
            </orig>
           </choice>
          </corr>
@@ -6380,7 +6395,7 @@
           Россию
          </reg>
          <orig>
-          Россiю
+          Россію
          </orig>
         </choice>
         .
@@ -6409,10 +6424,10 @@
           пансионе
          </reg>
          <orig>
-          пансiонѣ
+          пансіонѣ
          </orig>
         </choice>
-        Нiх
+        Ніх
         <choice>
          <reg>
           в
@@ -6490,7 +6505,7 @@
           сообщения
          </reg>
          <orig>
-          сообщенiя
+          сообщенія
          </orig>
         </choice>
         (
@@ -6535,7 +6550,7 @@
           сообщения
          </reg>
          <orig>
-          сообщенiя
+          сообщенія
          </orig>
         </choice>
         . У
@@ -6650,7 +6665,7 @@
           поступление
          </reg>
          <orig>
-          поступленiе
+          поступленіе
          </orig>
         </choice>
         <choice>
@@ -6667,7 +6682,7 @@
           История
          </reg>
          <orig>
-          Исторiя
+          Исторія
          </orig>
         </choice>
         <choice original_editorial_correction="Семенов[ского]">
@@ -6856,7 +6871,7 @@
           Маиор
          </reg>
          <orig>
-          Маiоръ
+          Маіоръ
          </orig>
         </choice>
         <choice original_editorial_correction="Лейтенан[т]">
@@ -6878,7 +6893,7 @@
          841
         </ref>
         <note index="false" xml:id="note841">
-         <span data-class="paragraph" id="4c5aa33a-9b25-4dae-9a34-885a8e052f3e" rend="left">
+         <span data-class="paragraph" id="4c5aa33a-9b25-4dae-9a34-885a8e052f3e">
           <choice original_editorial_correction="Лейтенан[т]">
            <sic>
             Лейтенан
@@ -6902,7 +6917,7 @@
             Маиор
            </reg>
            <orig>
-            Маiоръ
+            Маіоръ
            </orig>
           </choice>
          </span>
@@ -6961,7 +6976,7 @@
           колегии
          </reg>
          <orig>
-          колегiи
+          колегіи
          </orig>
         </choice>
         .
@@ -6978,7 +6993,7 @@
           Испании
          </reg>
          <orig>
-          Испанiи
+          Испаніи
          </orig>
         </choice>
         .
@@ -7034,7 +7049,7 @@
             Россию
            </reg>
            <orig>
-            Россiю
+            Россію
            </orig>
           </choice>
          </corr>
@@ -7100,7 +7115,7 @@
             губернию
            </reg>
            <orig>
-            губернiю
+            губернію
            </orig>
           </choice>
          </corr>
@@ -7185,7 +7200,7 @@
          842
         </ref>
         <note index="false" xml:id="note842">
-         <span data-class="paragraph" id="b23ccedb-7821-4819-9ccb-ea11afeb9f12" rend="left">
+         <span data-class="paragraph" id="b23ccedb-7821-4819-9ccb-ea11afeb9f12">
           <del>
            1 М.
            <hi rend="italic">
@@ -7272,7 +7287,7 @@
           получение
          </reg>
          <orig>
-          полученiе
+          полученіе
          </orig>
         </choice>
         <choice>
@@ -7280,7 +7295,7 @@
           маиората
          </reg>
          <orig>
-          маiората
+          маіората
          </orig>
         </choice>
         <choice>
@@ -7316,7 +7331,7 @@
       </cell>
      </row>
     </table>
-    <p id="32b8bdfd-079d-42b9-bd5e-152e14c0ad63" rend="left pages2">
+    <p id="32b8bdfd-079d-42b9-bd5e-152e14c0ad63" rend="pages2">
      <pb n="453"/>
     </p>
     <table>
@@ -7520,7 +7535,7 @@
           близкий
          </reg>
          <orig>
-          близкiй
+          близкій
          </orig>
         </choice>
         <choice>
@@ -7650,7 +7665,7 @@
           Манифестация
          </reg>
          <orig>
-          Манифестацiя
+          Манифестація
          </orig>
         </choice>
         .
@@ -7658,7 +7673,7 @@
          843
         </ref>
         <note index="false" xml:id="note843">
-         <span data-class="paragraph" id="4f843a78-65bf-4927-bebc-fec716bef197" rend="left">
+         <span data-class="paragraph" id="4f843a78-65bf-4927-bebc-fec716bef197">
           <hi rend="italic">
            Написано одно слово карандашом.
           </hi>
@@ -7783,7 +7798,7 @@
           Городничий
          </reg>
          <orig>
-          Городничiй
+          Городничій
          </orig>
         </choice>
         Бронни
@@ -7805,7 +7820,7 @@
          844
         </ref>
         <note index="false" xml:id="note844">
-         <span data-class="paragraph" id="55062091-188a-4197-8435-fa55229efa9c" rend="left">
+         <span data-class="paragraph" id="55062091-188a-4197-8435-fa55229efa9c">
           <hi rend="italic">
            Слова:
           </hi>
@@ -7814,7 +7829,7 @@
             Городничий
            </reg>
            <orig>
-            Городничiй
+            Городничій
            </orig>
           </choice>
           Бронни Галицина 3 брата. 1
@@ -8109,7 +8124,7 @@
       </cell>
      </row>
     </table>
-    <p id="4e534d11-57df-4c62-b3b6-bb7da052ce41" rend="left pages2">
+    <p id="4e534d11-57df-4c62-b3b6-bb7da052ce41" rend="pages2">
      <pb n="454"/>
     </p>
     <table>
@@ -8201,7 +8216,7 @@
           пансионе
          </reg>
          <orig>
-          пансiонѣ
+          пансіонѣ
          </orig>
         </choice>
        </p>
@@ -8242,7 +8257,7 @@
           гвардейский
          </reg>
          <orig>
-          гвардейскiй
+          гвардейскій
          </orig>
         </choice>
         <choice>
@@ -8413,7 +8428,7 @@
          845
         </ref>
         <note index="false" xml:id="note845">
-         <span data-class="paragraph" id="e8b0b9f9-abc3-4592-b15c-d73027339225" rend="left">
+         <span data-class="paragraph" id="e8b0b9f9-abc3-4592-b15c-d73027339225">
           <hi rend="italic">
            Это обведено кружком.
           </hi>
@@ -8453,7 +8468,7 @@
          846
         </ref>
         <note index="false" xml:id="note846">
-         <span data-class="paragraph" id="cccf5fe6-f084-4d77-9433-c38dfe516183" rend="left">
+         <span data-class="paragraph" id="cccf5fe6-f084-4d77-9433-c38dfe516183">
           <hi rend="italic">
            Можно прочесть и:
           </hi>
@@ -8610,7 +8625,7 @@
           губернии
          </reg>
          <orig>
-          губернiи
+          губерніи
          </orig>
         </choice>
         <choice original_editorial_correction="Спас[с]кого">
@@ -8686,7 +8701,7 @@
            </reg>
            <orig>
             <name placement="text" ref="10000" type="person">
-             Евгенiй
+             Евгеній
             </name>
            </orig>
           </choice>
@@ -8861,7 +8876,7 @@
             бывший
            </reg>
            <orig>
-            бывшiй
+            бывшій
            </orig>
           </choice>
          </corr>
@@ -9046,7 +9061,7 @@
           Религиозный
          </reg>
          <orig>
-          Религiозный
+          Религіозный
          </orig>
         </choice>
        </p>
@@ -9068,7 +9083,7 @@
       </cell>
      </row>
     </table>
-    <p id="07de7ad6-1456-4ad5-a664-488e7c010c4c" rend="left pages2">
+    <p id="07de7ad6-1456-4ad5-a664-488e7c010c4c" rend="pages2">
      <pb n="455"/>
     </p>
     <table>
@@ -9106,7 +9121,7 @@
           Долгоногий
          </reg>
          <orig>
-          Долгоногiй
+          Долгоногій
          </orig>
         </choice>
        </p>
@@ -9188,7 +9203,7 @@
           </name>
          </reg>
          <orig>
-          Евгенiй
+          Евгеній
          </orig>
         </choice>
        </p>
@@ -9384,7 +9399,7 @@
             </name>
            </reg>
            <orig>
-            Евгенiй
+            Евгеній
            </orig>
           </choice>
          </corr>
@@ -9416,7 +9431,7 @@
          847
         </ref>
         <note index="false" xml:id="note847">
-         <span data-class="paragraph" id="e0e52151-32ab-47e0-8e05-d58ceea6a7cd" rend="left">
+         <span data-class="paragraph" id="e0e52151-32ab-47e0-8e05-d58ceea6a7cd">
           <hi rend="italic">
            Слово:
           </hi>
@@ -9459,7 +9474,7 @@
          848
         </ref>
         <note index="false" xml:id="note848">
-         <span data-class="paragraph" id="e4a1e6d5-74d2-4b54-a00c-d2a3d3dc2242" rend="left">
+         <span data-class="paragraph" id="e4a1e6d5-74d2-4b54-a00c-d2a3d3dc2242">
           <hi rend="italic">
            Слова:
           </hi>
@@ -9480,7 +9495,7 @@
        </p>
        <p id="4c887a1b-8c31-4bf5-a3e1-136299d5368f">
         <del>
-         Поcл
+         Посл
         </del>
        </p>
        <p id="1549e0e8-31ba-4952-9d88-52c95ca73439">
@@ -9518,7 +9533,7 @@
          849
         </ref>
         <note index="false" xml:id="note849">
-         <span data-class="paragraph" id="2c058cfd-7e6c-469d-bd09-482d0fd90bb9" rend="left">
+         <span data-class="paragraph" id="2c058cfd-7e6c-469d-bd09-482d0fd90bb9">
           <hi rend="italic">
            Написано карандашом.
           </hi>
@@ -9603,7 +9618,7 @@
           </name>
          </reg>
          <orig>
-          Одоевскiй
+          Одоевскій
          </orig>
         </choice>
        </p>
@@ -9623,7 +9638,7 @@
           Раевский
          </reg>
          <orig>
-          Раевскiй
+          Раевскій
          </orig>
         </choice>
         на
@@ -9863,7 +9878,7 @@
          850
         </ref>
         <note index="false" xml:id="note850">
-         <span data-class="paragraph" id="6392d66d-f500-4cbe-b9aa-8e9287765a5d" rend="left">
+         <span data-class="paragraph" id="6392d66d-f500-4cbe-b9aa-8e9287765a5d">
           <hi rend="italic">
            Со слова:
           </hi>
@@ -9940,7 +9955,7 @@
          851
         </ref>
         <note index="false" xml:id="note851">
-         <span data-class="paragraph" id="8c32f1d2-d5d1-4741-83e3-bb90a7c738c4" rend="left">
+         <span data-class="paragraph" id="8c32f1d2-d5d1-4741-83e3-bb90a7c738c4">
           <hi rend="italic">
            Слова на стр. 35 написаны карандашом.
           </hi>
@@ -9992,7 +10007,7 @@
          852
         </ref>
         <note index="false" xml:id="note852">
-         <span data-class="paragraph" id="1151ca8b-6134-446e-bbaf-0f02e514e14b" rend="left">
+         <span data-class="paragraph" id="1151ca8b-6134-446e-bbaf-0f02e514e14b">
           <choice>
            <reg>
             <name placement="note" ref="8111" type="person">
@@ -10017,7 +10032,7 @@
       </cell>
      </row>
     </table>
-    <p id="56ab433f-380b-46b6-b7b4-e16682f466e6" rend="left pages2">
+    <p id="56ab433f-380b-46b6-b7b4-e16682f466e6" rend="pages2">
      <pb n="456"/>
     </p>
     <table>
@@ -10194,7 +10209,7 @@
           Замечание
          </reg>
          <orig>
-          Замѣчанiе
+          Замѣчаніе
          </orig>
         </choice>
         <choice original_editorial_correction="Матв[ея]">
@@ -10277,7 +10292,7 @@
             правлении
            </reg>
            <orig>
-            правленiи
+            правленіи
            </orig>
           </choice>
          </corr>
@@ -10290,7 +10305,7 @@
           городские
          </reg>
          <orig>
-          городскiе
+          городскіе
          </orig>
         </choice>
        </p>
@@ -10326,7 +10341,7 @@
           Дамские
          </reg>
          <orig>
-          Дамскiе
+          Дамскіе
          </orig>
         </choice>
         прически уборы
@@ -10392,7 +10407,7 @@
           Вадковский
          </reg>
          <orig>
-          Вадковскiй
+          Вадковскій
          </orig>
         </choice>
        </p>
@@ -10432,7 +10447,7 @@
           Биография
          </reg>
          <orig>
-          Бiографiя
+          Біографія
          </orig>
         </choice>
        </p>
@@ -10693,7 +10708,7 @@
          853
         </ref>
         <note index="false" xml:id="note853">
-         <span data-class="paragraph" id="b91efbdf-fa92-4afd-b6f7-05e5b45c3363" rend="left">
+         <span data-class="paragraph" id="b91efbdf-fa92-4afd-b6f7-05e5b45c3363">
           <hi rend="italic">
            Стр. 103 вся написана карандашом.
           </hi>
@@ -10714,7 +10729,7 @@
       </cell>
      </row>
     </table>
-    <p id="1b362224-281c-4a57-903d-cf2304ff7ec8" rend="left pages2">
+    <p id="1b362224-281c-4a57-903d-cf2304ff7ec8" rend="pages2">
      <pb n="457"/>
     </p>
     <table>
@@ -10726,7 +10741,7 @@
          854
         </ref>
         <note index="false" xml:id="note854">
-         <span data-class="paragraph" id="d842a41a-ceb1-41c5-9cd8-d30d11591bf7" rend="left">
+         <span data-class="paragraph" id="d842a41a-ceb1-41c5-9cd8-d30d11591bf7">
           <hi rend="italic">
            Записи на странице сделаны верхом вниз по отношению ко всему остальному тексту.
           </hi>
@@ -10795,9 +10810,7 @@
      </row>
      <row>
       <cell>
-       <p id="df348edf-ab32-42dd-9a57-d694859eb193" rend="center">
-        ————
-       </p>
+    <metamark function="line"/>
       </cell>
      </row>
      <row>
@@ -10846,7 +10859,7 @@
           обручение
          </reg>
          <orig>
-          обрученiе
+          обрученіе
          </orig>
         </choice>
         <choice original_editorial_correction="Ан[ны]">
@@ -10945,9 +10958,7 @@
      </row>
      <row>
       <cell>
-       <p id="b0cc81e8-e99c-479f-95ce-8025ec9004b5" rend="center">
-        ————
-       </p>
+    <metamark function="line"/>
       </cell>
      </row>
      <row>
@@ -11099,7 +11110,7 @@
             </name>
            </reg>
            <orig>
-            Дмитрiеву
+            Дмитріеву
            </orig>
           </choice>
          </corr>
@@ -11114,7 +11125,7 @@
            Дмитриева
           </reg>
           <orig>
-           Дмитрiева
+           Дмитріева
           </orig>
          </choice>
         </del>
@@ -11175,7 +11186,7 @@
           России
          </reg>
          <orig>
-          Россiи
+          Россіи
          </orig>
         </choice>
         — правительственное.
@@ -11246,7 +11257,7 @@
           Киеве
          </reg>
          <orig>
-          Кiевѣ
+          Кіевѣ
          </orig>
         </choice>
         <choice>
@@ -11266,7 +11277,7 @@
            Сперанский
           </reg>
           <orig>
-           Сперанскiй
+           Сперанскій
           </orig>
          </choice>
         </hi>
@@ -11311,7 +11322,7 @@
            Разумовский
           </reg>
           <orig>
-           Разумовскiй
+           Разумовскій
           </orig>
          </choice>
         </hi>
@@ -11354,7 +11365,7 @@
           Академии
          </reg>
          <orig>
-          Академiи
+          Академіи
          </orig>
         </choice>
        </p>
@@ -11369,7 +11380,7 @@
          855
         </ref>
         <note index="false" xml:id="note855">
-         <span data-class="paragraph" id="89a6317a-ebfe-431a-82e5-487a726c86e9" rend="left">
+         <span data-class="paragraph" id="89a6317a-ebfe-431a-82e5-487a726c86e9">
           <hi rend="italic">
            Начиная с этого слова до конца страницы написано другими чернилами и спустя какое-то время после того, как было написано предыдущее.
           </hi>
@@ -11393,7 +11404,7 @@
            освещения
           </reg>
           <orig>
-           освѣщенiя
+           освѣщенія
           </orig>
          </choice>
         </hi>
@@ -11419,7 +11430,7 @@
            Разумовский
           </reg>
           <orig>
-           Разумовскiй
+           Разумовскій
           </orig>
          </choice>
         </hi>
@@ -11508,7 +11519,7 @@
           Дмитрий
          </reg>
          <orig>
-          Дмитрiй
+          Дмитрій
          </orig>
         </choice>
         <choice>
@@ -11534,7 +11545,7 @@
           Ростовский
          </reg>
          <orig>
-          Ростовскiй
+          Ростовскій
          </orig>
         </choice>
         &gt;
@@ -11564,7 +11575,7 @@
            Дмитриев
           </reg>
           <orig>
-           Дмитрiевъ
+           Дмитріевъ
           </orig>
          </choice>
         </del>
@@ -11581,7 +11592,7 @@
           юстиции
          </reg>
          <orig>
-          юстицiи
+          юстиціи
          </orig>
         </choice>
         .
@@ -11633,7 +11644,7 @@
           маленький
          </reg>
          <orig>
-          маленькiй
+          маленькій
          </orig>
         </choice>
         <choice>
@@ -11641,7 +11652,7 @@
           гаденький
          </reg>
          <orig>
-          гаденькiй
+          гаденькій
          </orig>
         </choice>
        </p>
@@ -11651,7 +11662,7 @@
           Дмитрий
          </reg>
          <orig>
-          Дмитрiй
+          Дмитрій
          </orig>
         </choice>
         <choice>
@@ -11666,7 +11677,7 @@
       </cell>
      </row>
     </table>
-    <p id="d8416ab3-55e0-4e4a-8914-2b76eedb70eb" rend="left pages2">
+    <p id="d8416ab3-55e0-4e4a-8914-2b76eedb70eb" rend="pages2">
      <pb n="458"/>
     </p>
     <table>
@@ -11783,7 +11794,7 @@
           России
          </reg>
          <orig>
-          Россiи
+          Россіи
          </orig>
         </choice>
         <choice original_editorial_correction="обществен[ное]">
@@ -11852,7 +11863,7 @@
            Грибовский
           </reg>
           <orig>
-           Грибовскiй
+           Грибовскій
           </orig>
          </choice>
         </hi>
@@ -11862,7 +11873,7 @@
           бывший
          </reg>
          <orig>
-          бывшiй
+          бывшій
          </orig>
         </choice>
         <choice>
@@ -12051,7 +12062,7 @@
           Нелединский-Мелецкий
          </reg>
          <orig>
-          Нелединскiй-Мелецкiй
+          Нелединскій-Мелецкій
          </orig>
         </choice>
         .
@@ -12148,7 +12159,7 @@
          856
         </ref>
         <note index="false" xml:id="note856">
-         <span data-class="paragraph" id="fe50c390-b7e4-41bf-a659-33ccf4292066" rend="left">
+         <span data-class="paragraph" id="fe50c390-b7e4-41bf-a659-33ccf4292066">
           <hi rend="italic">
            Слова
           </hi>
@@ -12231,7 +12242,7 @@
            Липецкия
           </reg>
           <orig>
-           Липецкiя
+           Липецкія
           </orig>
          </choice>
          воды
@@ -12259,7 +12270,7 @@
           Жуковский
          </reg>
          <orig>
-          Жуковскiй
+          Жуковскій
          </orig>
         </choice>
         .
@@ -12283,7 +12294,7 @@
      </row>
      <row>
       <cell>
-       <p id="addffe32-c606-44b4-82c7-1d780e38a893" rend="petit left">
+       <p id="addffe32-c606-44b4-82c7-1d780e38a893" rend="petit">
         Хотитель господа между
         <choice>
          <reg>
@@ -12359,7 +12370,7 @@
           бледнеющий
          </reg>
          <orig>
-          блѣднѣющiй
+          блѣднѣющій
          </orig>
         </choice>
         <choice>
@@ -12390,7 +12401,7 @@
         </choice>
         .
        </p>
-       <p id="c7549aa3-2eb1-4636-b9e3-3483bc146ca9" rend="petit left">
+       <p id="c7549aa3-2eb1-4636-b9e3-3483bc146ca9" rend="petit">
         Они
         <choice>
          <reg>
@@ -12596,7 +12607,7 @@
           историограф
          </reg>
          <orig>
-          исторiографъ
+          исторіографъ
          </orig>
         </choice>
         .
@@ -12653,7 +12664,7 @@
           участие
          </reg>
          <orig>
-          участiе
+          участіе
          </orig>
         </choice>
         .
@@ -12701,7 +12712,7 @@
       </cell>
      </row>
     </table>
-    <p id="5d30580a-908a-433e-8b73-37b60983bebe" rend="left pages2">
+    <p id="5d30580a-908a-433e-8b73-37b60983bebe" rend="pages2">
      <pb n="459"/>
     </p>
     <table>
@@ -12742,7 +12753,7 @@
          857
         </ref>
         <note index="false" xml:id="note857">
-         <span data-class="paragraph" id="79d35a5e-adf0-46db-9ad1-39b9484713dc" rend="left">
+         <span data-class="paragraph" id="79d35a5e-adf0-46db-9ad1-39b9484713dc">
           <hi rend="italic">
            Под этим написан карандашом адрес, не имеющий отношения к записям о декабристах. См. том 49.
           </hi>
@@ -12815,7 +12826,7 @@
           России
          </reg>
          <orig>
-          Россiи
+          Россіи
          </orig>
         </choice>
         <choice original_editorial_correction="литерат[урное]">
@@ -12882,7 +12893,7 @@
           </name>
          </reg>
          <orig>
-          Дмитрiевъ
+          Дмитріевъ
          </orig>
         </choice>
         ,
@@ -12986,7 +12997,7 @@
          858
         </ref>
         <note index="false" resp="LNT" xml:id="note858">
-         <span data-class="paragraph" id="8403b0e3-d5b5-4173-996c-1524eeefb00b" rend="left">
+         <span data-class="paragraph" id="8403b0e3-d5b5-4173-996c-1524eeefb00b">
           <choice>
            <sic>
             <choice>
@@ -12994,7 +13005,7 @@
               России
              </reg>
              <orig>
-              Россiи
+              Россіи
              </orig>
             </choice>
            </sic>
@@ -13015,7 +13026,7 @@
          859
         </ref>
         <note index="false" xml:id="note859">
-         <span data-class="paragraph" id="d2806f7f-0b66-479b-8475-ea918931c8ce" rend="left">
+         <span data-class="paragraph" id="d2806f7f-0b66-479b-8475-ea918931c8ce">
           <hi rend="italic">
            На странице 9-й имеется запись, датированная 6 июня 1884 г. и не имеющая отношения к декабристам. См. том 49.
           </hi>
@@ -13059,7 +13070,7 @@
          860
         </ref>
         <note index="false" xml:id="note860">
-         <span data-class="paragraph" id="413542ef-2ba8-472b-a163-f240f244ca1d" rend="left">
+         <span data-class="paragraph" id="413542ef-2ba8-472b-a163-f240f244ca1d">
           <hi rend="italic">
            Обе строки написаны карандашом. Дальше идут записи, сделанные в книжке, перевернутой верхом вниз.
           </hi>
@@ -13080,7 +13091,7 @@
          861
         </ref>
         <note index="false" xml:id="note861">
-         <span data-class="paragraph" id="8ea202cc-97cb-4e9b-845a-bf978b39e4b7" rend="left">
+         <span data-class="paragraph" id="8ea202cc-97cb-4e9b-845a-bf978b39e4b7">
           <hi rend="italic">
            Начиная со слов:
           </hi>
@@ -13123,9 +13134,7 @@
      </row>
      <row>
       <cell>
-       <p id="f094e377-0034-4f62-bcf2-b5848ae9b12b" rend="center">
-        ————
-       </p>
+    <metamark function="line"/>
       </cell>
      </row>
      <row>
@@ -13382,7 +13391,7 @@
           Василий
          </reg>
          <orig>
-          Василiй
+          Василій
          </orig>
         </choice>
         <choice>
@@ -13397,7 +13406,7 @@
       </cell>
      </row>
     </table>
-    <p id="a612d9ab-5a67-4f29-881b-9192c749f929" rend="left pages2">
+    <p id="a612d9ab-5a67-4f29-881b-9192c749f929" rend="pages2">
      <pb n="460"/>
     </p>
     <table>
@@ -13425,7 +13434,7 @@
           пропавший
          </reg>
          <orig>
-          пропавшiй
+          пропавшій
          </orig>
         </choice>
         . —
@@ -13462,7 +13471,7 @@
           </name>
          </reg>
          <orig>
-          Каховскiй
+          Каховскій
          </orig>
         </choice>
         ?
@@ -13490,7 +13499,7 @@
          862
         </ref>
         <note index="false" xml:id="note862">
-         <span data-class="paragraph" id="b4430e66-ad7b-4ce7-8a8f-c7addce5254d" rend="left">
+         <span data-class="paragraph" id="b4430e66-ad7b-4ce7-8a8f-c7addce5254d">
           <hi rend="italic">
            На страницах 101 и 109 имеются записи, не относящиеся к Декабристам. См. 49 том.
           </hi>

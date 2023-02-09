@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v04_363_364_Roman_russkogo_pomeschika_Predislovie_ne_dlja_chitatelja_a_dlja_avtora">
-                    «Роман русского помещика». Предисловие не для читателя, а для автора. Tolstoy Digital
+                    «Роман русского помещика». Предисловие не для читателя, а для автора. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Роман русского помещика.</title>
                 <title type="sub">Предисловие не для читателя, а для автора</title>
-                <title type="bibl">Толстой Л. Н. «Роман русского помещика». Предисловие не для читателя, а для автора // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 4. М.: Гос. изд. «Художественная литература», 1935. С.</title>
+                <title type="bibl">Толстой Л. Н. «Роман русского помещика». Предисловие не для читателя, а для автора // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 4. М.: Гос. изд. «Художественная литература», 1935. С. 363–364.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1854"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#ver" target="work_main"/>
@@ -113,7 +138,7 @@
      <lb/>
      ПРЕДИСЛОВІЕ НЕ ДЛЯ ЧИТАТЕЛЯ, А ДЛЯ АВТОРА.
     </head>
-    <p id="2f05d258-6bc7-4a5b-b7a9-ab282aa933b4" rend="left">
+    <p id="2f05d258-6bc7-4a5b-b7a9-ab282aa933b4">
      Главное основное чувство, которое
      <choice>
       <reg>
@@ -164,7 +189,7 @@
        губернския
       </reg>
       <orig>
-       губернскiя
+       губернскія
       </orig>
      </choice>
      и
@@ -173,7 +198,7 @@
        кавказския
       </reg>
       <orig>
-       кавказскiя
+       кавказскія
       </orig>
      </choice>
      <choice>
@@ -224,7 +249,7 @@
        спокойствии
       </reg>
       <orig>
-       спокойствiи
+       спокойствіи
       </orig>
      </choice>
      , не
@@ -306,14 +331,14 @@
      </choice>
      .
     </p>
-    <p id="e44d252f-e239-4e6d-a344-11566a3712eb" rend="left">
+    <p id="e44d252f-e239-4e6d-a344-11566a3712eb">
      Главная мысль
      <choice>
       <reg>
        сочинения
       </reg>
       <orig>
-       сочиненiя
+       сочиненія
       </orig>
      </choice>
      :
@@ -322,7 +347,7 @@
        счастие
       </reg>
       <orig>
-       счастiе
+       счастіе
       </orig>
      </choice>
      есть
@@ -336,7 +361,7 @@
      </choice>
      .
     </p>
-    <p id="086c34e1-b958-416e-8c20-a112466e58b4" rend="left">
+    <p id="086c34e1-b958-416e-8c20-a112466e58b4">
      Юность
      <choice>
       <reg>
@@ -387,7 +412,7 @@
        стремлении
       </reg>
       <orig>
-       стремленiи
+       стремленіи
       </orig>
      </choice>
      <choice>
@@ -422,7 +447,7 @@
        несчастия
       </reg>
       <orig>
-       несчастiя
+       несчастія
       </orig>
      </choice>
      <choice>
@@ -473,7 +498,7 @@
        основании
       </reg>
       <orig>
-       основанiи
+       основаніи
       </orig>
      </choice>
      и
@@ -507,7 +532,7 @@
        увлечение
       </reg>
       <orig>
-       увлеченiе
+       увлеченіе
       </orig>
      </choice>
      юности, ошибки и
@@ -516,7 +541,7 @@
        увлечение
       </reg>
       <orig>
-       увлеченiе
+       увлеченіе
       </orig>
      </choice>
      страстями.
@@ -525,7 +550,7 @@
        Исправление
       </reg>
       <orig>
-       Исправленiе
+       Исправленіе
       </orig>
      </choice>
      и счастье. Побочный мысли:
@@ -587,12 +612,12 @@
        тщеславие
       </reg>
       <orig>
-       тщеславiе
+       тщеславіе
       </orig>
      </choice>
      , б) корысть, с) страсти: а') женщины, б') карты, с') вино.
     </p>
-    <p id="4fdcb242-3fb3-48d9-a467-07cc3b6ff189" rend="left">
+    <p id="4fdcb242-3fb3-48d9-a467-07cc3b6ff189">
      (Отрицательная мысль: любовь,
      <choice>
       <reg>
@@ -630,7 +655,7 @@
      </choice>
      ).
     </p>
-    <p id="6633e46a-b6df-4ba5-b4c9-7894a4d2562e" rend="left">
+    <p id="6633e46a-b6df-4ba5-b4c9-7894a4d2562e">
      <choice original_editorial_correction="П[обочная]">
       <sic>
        П
@@ -667,7 +692,7 @@
      </choice>
      его нужно делать.
     </p>
-    <p id="edc96774-4ee6-4701-9a38-22aaa1ded943" rend="left">
+    <p id="edc96774-4ee6-4701-9a38-22aaa1ded943">
      <choice>
       <reg>
        Главные
@@ -678,7 +703,7 @@
      </choice>
      лица.
     </p>
-    <p id="5db88468-4580-4574-82de-571ae38a06e2" rend="left">
+    <p id="5db88468-4580-4574-82de-571ae38a06e2">
      1) Герой.
      <choice>
       <reg>
@@ -694,7 +719,7 @@
        увлекающийся
       </reg>
       <orig>
-       увлекающiйся
+       увлекающійся
       </orig>
      </choice>
      <choice>
@@ -733,7 +758,7 @@
      </choice>
      ему.
     </p>
-    <p id="1aab4987-4c40-493b-951b-4167b9479916" rend="left">
+    <p id="1aab4987-4c40-493b-951b-4167b9479916">
      2)
      <choice original_editorial_correction="Представит[ельница]">
       <sic>
@@ -754,10 +779,10 @@
      </choice>
      прошедшее) старая дева, тетка его невесты (представительницы любви ко всему изящному и первая любовь его).
     </p>
-    <p id="c1e18eb4-420b-480e-88bd-c3503deabb22" rend="left">
+    <p id="c1e18eb4-420b-480e-88bd-c3503deabb22">
      3) Его невеста.
     </p>
-    <p id="bd82d16d-8b86-42cb-a5b1-11aa273ba225" rend="left">
+    <p id="bd82d16d-8b86-42cb-a5b1-11aa273ba225">
      <pb n="364"/>
      4) Представитель
      <choice>
@@ -765,7 +790,7 @@
        тщеславия
       </reg>
       <orig>
-       тщеславiя
+       тщеславія
       </orig>
      </choice>
      <choice>
@@ -788,7 +813,7 @@
       </span>
      </note>
     </p>
-    <p id="66e2b454-6475-44ea-aa15-d14b3296e4b6" rend="left">
+    <p id="66e2b454-6475-44ea-aa15-d14b3296e4b6">
      5) Представитель любви
      <choice>
       <reg>
@@ -812,7 +837,7 @@
        тщеславия
       </reg>
       <orig>
-       тщеславiя
+       тщеславія
       </orig>
      </choice>
      <choice original_editorial_correction="Костинь[ка]">
@@ -825,7 +850,7 @@
      </choice>
      .
     </p>
-    <p id="7a1b76db-b6fb-4d6f-85e0-c7f5f5b457b8" rend="left">
+    <p id="7a1b76db-b6fb-4d6f-85e0-c7f5f5b457b8">
      6)
      <choice original_editorial_correction="Предст[авитель]">
       <sic>
@@ -871,7 +896,7 @@
      </choice>
      ).
     </p>
-    <p id="cc20b178-3d49-4bae-9c42-c719f5371054" rend="left">
+    <p id="cc20b178-3d49-4bae-9c42-c719f5371054">
      7)
      <choice original_editorial_correction="Пред[ставитель]">
       <sic>
@@ -910,7 +935,7 @@
      </choice>
      .
     </p>
-    <p id="b3d7724c-ac4f-4d2b-b38b-812997aa9981" rend="left">
+    <p id="b3d7724c-ac4f-4d2b-b38b-812997aa9981">
      8)
      <choice original_editorial_correction="Представ[итель]">
       <sic>
@@ -926,7 +951,7 @@
        деревенский
       </reg>
       <orig>
-       деревенскiй
+       деревенскій
       </orig>
      </choice>
      (
@@ -942,7 +967,7 @@
      </choice>
      ).
     </p>
-    <p id="fff4f4b2-cab7-4d55-8aaf-86f2a586d813" rend="left">
+    <p id="fff4f4b2-cab7-4d55-8aaf-86f2a586d813">
      9)
      <choice original_editorial_correction="Представ[итель]">
       <sic>
@@ -978,7 +1003,7 @@
      </choice>
      .
     </p>
-    <p id="2662a8e9-6ea4-4c6c-b6b5-8aa9e579c384" rend="left">
+    <p id="2662a8e9-6ea4-4c6c-b6b5-8aa9e579c384">
      10)
      <choice original_editorial_correction="Представ[ительницы]">
       <sic>
@@ -993,7 +1018,7 @@
        тщеславия
       </reg>
       <orig>
-       тщеславiя
+       тщеславія
       </orig>
      </choice>
      его тетушка городская и
@@ -1007,7 +1032,7 @@
      </choice>
      сестра.
     </p>
-    <p id="50feb669-cc2f-4e6c-a91f-29dc6b2b508b" rend="left">
+    <p id="50feb669-cc2f-4e6c-a91f-29dc6b2b508b">
      <choice>
       <reg>
        Обедня
@@ -1068,13 +1093,13 @@
      </choice>
      .
     </p>
-    <p id="1513b6e9-a402-4f99-93ce-547403b5e8a9" rend="left">
+    <p id="1513b6e9-a402-4f99-93ce-547403b5e8a9">
      <choice>
       <reg>
        Описание
       </reg>
       <orig>
-       Описанiе
+       Описаніе
       </orig>
      </choice>
      <choice original_editorial_correction="к[нязя]">
@@ -1113,7 +1138,7 @@
      </note>
      К.
     </p>
-    <p id="82c8368b-8d4e-4248-9d9c-5e346e6e721f" rend="left">
+    <p id="82c8368b-8d4e-4248-9d9c-5e346e6e721f">
      Знакомство
      <choice>
       <reg>
@@ -1140,7 +1165,7 @@
      </choice>
      . Тяжба.
     </p>
-    <p id="a5d474b5-4afa-459f-b93e-ec0586df93ab" rend="left">
+    <p id="a5d474b5-4afa-459f-b93e-ec0586df93ab">
      Тетка его
      <choice>
       <reg>
@@ -1179,7 +1204,7 @@
      </choice>
      , взгляда молодежи на чувства и боится за любовь своей племянницы. —
     </p>
-    <p id="ea0f3857-0969-4dd2-a02f-6e068c3214e5" rend="left">
+    <p id="ea0f3857-0969-4dd2-a02f-6e068c3214e5">
      Полагая
      <choice>
       <reg>
@@ -1262,7 +1287,7 @@
        сожитии
       </reg>
       <orig>
-       сожитiи
+       сожитіи
       </orig>
      </choice>
      ,
@@ -1305,7 +1330,7 @@
        хладнокровии
       </reg>
       <orig>
-       хладнокровiи
+       хладнокровіи
       </orig>
      </choice>
      ,
@@ -1314,7 +1339,7 @@
        бесстрастии
       </reg>
       <orig>
-       безстрастiи
+       безстрастіи
       </orig>
      </choice>
      .

@@ -9,17 +9,41 @@
                 <title type="main">Письмо Н. И. Королеву от 4 апреля 1904 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Н. И. Королеву, 4 апреля 1904 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 75. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 75</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">67-67</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,13 +127,13 @@
      </name>
      .1904 г. Апреля 4. Я. П.
     </opener>
-    <p id="a621506b-1bc1-4d10-962d-308b16510759" rend="Obrashenie left">
+    <p id="a621506b-1bc1-4d10-962d-308b16510759" rend="Obrashenie">
      <name placement="text" ref="6929" type="person">
       Никифор Ильич
      </name>
      ,
     </p>
-    <p id="c0aa6515-acb1-4a51-8589-f02d8cd7afd3" rend="left">
+    <p id="c0aa6515-acb1-4a51-8589-f02d8cd7afd3">
      Получил письмо ваше, написанное в истинном христианском духе, и оно доставило мне удовольствие, за которое и благодарю вас.
     </p>
     <p id="20e08e93-4fbe-46f9-9e6a-be9d94869618" rend="right rightindent">
@@ -116,7 +145,7 @@
      </name>
      .
     </p>
-    <p id="8fd9df73-41ef-4322-906e-bec52941e229" rend="left">
+    <p id="8fd9df73-41ef-4322-906e-bec52941e229">
      1904. 4 апреля.
     </p>
     <noteGrp type="comments">
@@ -126,7 +155,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="c0a11aa1-87ae-4989-97c5-5ca706db7cf2" rend="petit left">
+      <p id="c0a11aa1-87ae-4989-97c5-5ca706db7cf2" rend="petit">
        Никифор
        <name placement="comments" ref="6929" type="person">
         Ильич Королев
@@ -135,7 +164,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="64634d7e-2da1-42a1-8370-1af587c0bbfc" rend="petit left">
+      <p id="64634d7e-2da1-42a1-8370-1af587c0bbfc" rend="petit">
        Ответ на письмо Королева от 27 или 28 марта 1904 г., в котором он благодарил Толстого за его писания.
       </p>
      </note>

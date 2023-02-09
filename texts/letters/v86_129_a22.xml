@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову от 22 января 1887 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 22 января 1887 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 86. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 86</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">17-18</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 129.1887 г. Января 22. Москва.
     </opener>
-    <p id="e6c75249-9fae-49cf-8000-bdf043ca4dda" rend="left">
+    <p id="e6c75249-9fae-49cf-8000-bdf043ca4dda">
      Посылаю
      <choice>
       <reg>
@@ -278,7 +308,7 @@
      </choice>
      .
     </p>
-    <p id="f22946cf-4c40-4d37-9fcd-7ea11adb0795" rend="left">
+    <p id="f22946cf-4c40-4d37-9fcd-7ea11adb0795">
      <choice>
       <reg>
        Адрес
@@ -300,7 +330,7 @@
       .
      </hi>
     </p>
-    <p id="51b80181-b5c9-427a-99cc-50af0eae2ffa" rend="left">
+    <p id="51b80181-b5c9-427a-99cc-50af0eae2ffa">
      Посылки вашей еще не
      <choice>
       <reg>
@@ -339,7 +369,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="9e3c1b8c-83d7-44b6-b4f7-96ca65486790" rend="petit left">
+      <p id="9e3c1b8c-83d7-44b6-b4f7-96ca65486790" rend="petit">
        Письмо это содержит ответ на письмо Черткова от 20 января 1887 г., в котором Чертков пишет о том, чем он руководствовался, выражая желание печатать драму «Власть тьмы» с обоими вариантами: «Дорогой
        <name placement="comments" ref="13883" type="person">
         Лев Николаевич
@@ -348,7 +378,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="ffad459f-640b-482d-a034-89393d101489" rend="petit left">
+      <p id="ffad459f-640b-482d-a034-89393d101489" rend="petit">
        Вот какие были мои мотивы. Но повторяю, я знаю, что вам все это виднее и вы лучше рассудите. Сейчас не могу больше писать.
        <hi style="opdelimiter">
         Рукописи

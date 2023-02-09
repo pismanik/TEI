@@ -9,17 +9,41 @@
                 <title type="main">Письмо Е. А. Исупову от 14 марта 1895 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Е. А. Исупову, 14 марта 1895 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 68. М.: Гос. изд. «Художественная литература», 1954. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 68</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">48-49</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,13 +127,13 @@
      </name>
      .1895 г. Марта 14. Москва.
     </opener>
-    <p id="f9c2bc37-3839-4020-9ce0-8acf2fb50f4b" rend="Obrashenie left">
+    <p id="f9c2bc37-3839-4020-9ce0-8acf2fb50f4b" rend="Obrashenie">
      <name placement="text" ref="5873" type="person">
       Егор Александрович
      </name>
      ,
     </p>
-    <p id="8881f4bf-4874-4008-860d-3fd3e56d384d" rend="left">
+    <p id="8881f4bf-4874-4008-860d-3fd3e56d384d">
      Рассказ ваш я получил и прочел.
      <ref target="#note1">
       1
@@ -155,10 +184,10 @@
      </name>
      .
     </p>
-    <p id="0c339c31-7328-4328-aff2-b7e41f2525f3" rend="left">
+    <p id="0c339c31-7328-4328-aff2-b7e41f2525f3">
      Рукопись возвращаю.
     </p>
-    <p id="3d266d21-e143-4ff1-b7fe-0fcf43e96a92" rend="left">
+    <p id="3d266d21-e143-4ff1-b7fe-0fcf43e96a92">
      14 марта 1895.
     </p>
     <noteGrp type="comments">
@@ -168,7 +197,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="b9609407-6519-4ff8-a1b8-a744ab9f43e3" rend="petit left">
+      <p id="b9609407-6519-4ff8-a1b8-a744ab9f43e3" rend="petit">
        <name placement="comments" ref="5873" type="person">
         Егор Александрович Исупов
        </name>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо С. Д. Толь от 1 июля 1904 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. Д. Толь, 1 июля 1904 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 75. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 75</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">136-137</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -101,10 +130,10 @@
      </name>
      .1904 г. Июля 1. Я. П.
     </opener>
-    <p id="d2020d31-e3f6-4b9e-948c-595f8e0bf892" rend="Obrashenie left">
+    <p id="d2020d31-e3f6-4b9e-948c-595f8e0bf892" rend="Obrashenie">
      Графиня Софья Дмитриевна,
     </p>
-    <p id="a996fb96-d1b1-408a-b989-c2466d076203" rend="left">
+    <p id="a996fb96-d1b1-408a-b989-c2466d076203">
      Я очень благодарен вам за то, что вы подписались под вашим письмом. А то я часто получаю такого же рода письма и, желая ответить на них, не могу сделать этого. Хочется ответить,
      <choice original_editorial_correction="п[отому]">
       <sic>
@@ -186,7 +215,7 @@
      </choice>
      верю Христу и закону бога.
     </p>
-    <p id="7b2cee6f-a7d1-46af-aff5-6225fa1c8b30" rend="left">
+    <p id="7b2cee6f-a7d1-46af-aff5-6225fa1c8b30">
      Смягчающим мою вину обстоятельством может, хотя немного, служить то, что, тогда как вы живете в Петербурге в среде торжественных приготовлений и воздействий войны, я
      <hi style="opdelimiter">
       живу
@@ -249,7 +278,7 @@
      </name>
      .
     </p>
-    <p id="7c7637e5-4d4f-4b65-87f3-971048c84c0a" rend="left">
+    <p id="7c7637e5-4d4f-4b65-87f3-971048c84c0a">
      1 июля 1904.
     </p>
     <noteGrp type="comments">
@@ -259,12 +288,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="7f6ca76d-ccbc-4d01-861f-b9240d2077c7" rend="petit left">
+      <p id="7f6ca76d-ccbc-4d01-861f-b9240d2077c7" rend="petit">
        Впервые опубликовано без даты Б, IV, стр. 96—97.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="410a1e16-1847-4d19-947f-511a2ca6bc90" rend="petit left">
+      <p id="410a1e16-1847-4d19-947f-511a2ca6bc90" rend="petit">
        <name placement="comments" ref="13921" type="person">
         Софья Дмитриевна
         <ref id="tol'" target="slovar">
@@ -279,7 +308,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="d44c68ee-95be-441b-8f35-51752836188d" rend="petit left">
+      <p id="d44c68ee-95be-441b-8f35-51752836188d" rend="petit">
        Ответ на письмо С. Д.
        <ref id="tol'" target="slovar">
         Толь

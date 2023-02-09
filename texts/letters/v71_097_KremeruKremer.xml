@@ -9,17 +9,41 @@
                 <title type="main">Письмо Кремеру (Krémer) от 25 марта 1898 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Кремеру (Krémer), 25 марта 1898 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 71. М.: Гос. изд. «Художественная литература», 1954. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 71</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">339-339</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -101,10 +130,10 @@
     <p id="e99d14b4-704f-4119-9868-6bad96eec71e" rend="right">
      Moscou.
     </p>
-    <p id="b63ab3a1-7e33-48c4-a57f-024de76ca122" rend="Obrashenie left">
+    <p id="b63ab3a1-7e33-48c4-a57f-024de76ca122" rend="Obrashenie">
      Cher Monsieur Krémer,
     </p>
-    <p id="cdb9e1b9-f937-41e2-97f7-30984647d4b7" rend="left">
+    <p id="cdb9e1b9-f937-41e2-97f7-30984647d4b7">
      J’ai reçu votre lettre et le manuscrit. Je n’ai eu le temps que de le feuilleter. Je vois que nous avons puisé à la même source, et que les résultats auxquelles nous sommes arrivés sont les mêmes. Cela m’a été une grande joie. Je ne manquerai pas de lire avec attention votre ouvrage et je vous écrirai encore. En attendant je vous prie de recevoir l’assurance de ma sympathie et de mon estime.
     </p>
     <p id="0ca73273-2059-4c50-9cd7-52c94f16640a" rend="right">
@@ -118,10 +147,10 @@
      Москва.
     </p>
     <lb/>
-    <p id="85a52579-df9e-4b6b-b971-676aa52ce5eb" rend="Obrashenie petit left">
+    <p id="85a52579-df9e-4b6b-b971-676aa52ce5eb" rend="Obrashenie petit">
      Дорогой господин Кремер,
     </p>
-    <p id="169e8a81-d707-4888-ada1-028a4a4d899e" rend="petit left">
+    <p id="169e8a81-d707-4888-ada1-028a4a4d899e" rend="petit">
      Я получил ваше письмо и рукопись. Успел ее только перелистать. Вижу, что мы черпали из одного и того же источника и что выводы, к которым мы пришли, одни и те же. Это было для меня большой радостью. Непременно внимательно прочту ваш труд и напишу вам еще. А пока прошу вас принять уверение в моей симпатии и уважении.
     </p>
     <p id="01a25329-3d5c-4ea3-a549-810a29473f4b" rend="petit right">
@@ -137,7 +166,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="5c2e2ef2-5d22-47f3-a42c-1726d95f5ad2" rend="petit left">
+      <p id="5c2e2ef2-5d22-47f3-a42c-1726d95f5ad2" rend="petit">
        Ответ на письмо католического священника из селения Бретнах (в немецкой Лотарингии)
        <name placement="comments" ref="7143" type="person">
         Кремера (Krémer)

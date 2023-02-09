@@ -4,24 +4,48 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v38_216_225_Ot_nej_vse_kachestva">
-                    [От ней все качества]. Tolstoy Digital
+                    [От ней все качества]. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">От ней все качества</title>
-                <title type="bibl">Толстой Л. Н. [От ней все качества] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 38. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. [От ней все качества] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 38. М.: Гос. изд. «Художественная литература», 1936. С. 216–225.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -30,7 +54,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -42,7 +66,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -73,7 +97,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -88,9 +112,10 @@
             <creation>
                 <date when="1910"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#main" target="work_main"/>
@@ -139,7 +164,7 @@
       </choice>
       ЛИЦА:
      </p>
-     <p id="5309db92-9aa8-4af7-8fcc-6292b176a7a5" rend="left">
+     <p id="5309db92-9aa8-4af7-8fcc-6292b176a7a5">
       <hi rend="Razradka">
        Старуха Акулина
       </hi>
@@ -163,7 +188,7 @@
       </choice>
       .
      </p>
-     <p id="a608bb4a-53c1-4e0f-a281-e7f0b69def56" rend="left">
+     <p id="a608bb4a-53c1-4e0f-a281-e7f0b69def56">
       <hi rend="Razradka">
        Михайла
       </hi>
@@ -195,7 +220,7 @@
       </choice>
       , страстный, самолюбивый, тщеславный, сильный.
      </p>
-     <p id="73429db5-9790-495f-b29f-a5e6e19bb43a" rend="left">
+     <p id="73429db5-9790-495f-b29f-a5e6e19bb43a">
       <hi rend="Razradka">
        Марфа
       </hi>
@@ -242,14 +267,14 @@
       </choice>
       , дочь Марфы и Михайлы.
      </p>
-     <p id="c028b644-ac3d-405e-9993-b3c7b359ce84" rend="left">
+     <p id="c028b644-ac3d-405e-9993-b3c7b359ce84">
       <hi rend="Razradka">
        <choice>
         <reg>
          Десятский
         </reg>
         <orig>
-         Десятскiй
+         Десятскій
         </orig>
        </choice>
        <choice>
@@ -290,14 +315,14 @@
       </choice>
       .
      </p>
-     <p id="bbf5ee78-cfae-4734-beef-4a0ebfc55db8" rend="left">
+     <p id="bbf5ee78-cfae-4734-beef-4a0ebfc55db8">
       <hi rend="Razradka">
        <choice>
         <reg>
          Прохожий
         </reg>
         <orig>
-         Прохожiй
+         Прохожій
         </orig>
        </choice>
       </hi>
@@ -346,7 +371,7 @@
       </choice>
       .
      </p>
-     <p id="7d8f1a7c-8747-41c9-81c1-f116b70a9082" rend="left">
+     <p id="7d8f1a7c-8747-41c9-81c1-f116b70a9082">
       <hi rend="Razradka">
        <choice>
         <reg>
@@ -368,7 +393,7 @@
       </choice>
       , балагурь, веселый, глупый.
      </p>
-     <p id="9c8efa87-dcd9-4862-985d-712dd4278274" rend="left">
+     <p id="9c8efa87-dcd9-4862-985d-712dd4278274">
       <hi rend="Razradka">
        <choice>
         <reg>
@@ -450,10 +475,10 @@
      <hi rend="italic">
       <choice>
        <reg>
-        мњсит
+        месит
        </reg>
        <orig>
-        мњситъ
+        мѣситъ
        </orig>
       </choice>
       <choice>
@@ -464,7 +489,7 @@
         хлѣбы
        </orig>
       </choice>
-      . Дњвочка
+      . Дѣвочка
      </hi>
      <hi rend="Razradka">
       Парашка
@@ -482,7 +507,7 @@
       люльку.
      </hi>
     </p>
-    <p id="0de4a931-e46c-4d93-a6a2-5e5e6ae84b0f" rend="left">
+    <p id="0de4a931-e46c-4d93-a6a2-5e5e6ae84b0f">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -559,7 +584,7 @@
      </choice>
      . А все я виновата.
     </p>
-    <p id="a215d455-27fa-4032-b2d4-3b70f6e84fa5" rend="left">
+    <p id="a215d455-27fa-4032-b2d4-3b70f6e84fa5">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -569,7 +594,7 @@
        ближний
       </reg>
       <orig>
-       ближнiй
+       ближній
       </orig>
      </choice>
      <choice>
@@ -582,7 +607,7 @@
      </choice>
      . Пока что...
     </p>
-    <p id="f35cecff-b761-4a6f-8678-7d555cb1ae12" rend="left">
+    <p id="f35cecff-b761-4a6f-8678-7d555cb1ae12">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -624,7 +649,7 @@
      </choice>
      . Мыкаешься, мыкаешься, а только и радости.
     </p>
-    <p id="4ae7f9a2-5f14-44f9-8368-44ccdcab413b" rend="left">
+    <p id="4ae7f9a2-5f14-44f9-8368-44ccdcab413b">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -674,7 +699,7 @@
      </choice>
      .
     </p>
-    <p id="437deed3-7a58-4e91-9b37-0344acbd9d5c" rend="left">
+    <p id="437deed3-7a58-4e91-9b37-0344acbd9d5c">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -804,7 +829,7 @@
         десятский
        </reg>
        <orig>
-        десятскiй
+        десятскій
        </orig>
       </choice>
      </hi>
@@ -827,13 +852,13 @@
         прохожий
        </reg>
        <orig>
-        прохожiй
+        прохожій
        </orig>
       </choice>
      </hi>
      .
     </p>
-    <p id="7a4151c3-7ccb-4edf-84ce-50aa8fd5e6c3" rend="left">
+    <p id="7a4151c3-7ccb-4edf-84ce-50aa8fd5e6c3">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -872,14 +897,14 @@
      </choice>
      .
     </p>
-    <p id="56a7bc24-b96f-4dad-a94b-43dae6aafb2b" rend="left">
+    <p id="56a7bc24-b96f-4dad-a94b-43dae6aafb2b">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -901,12 +926,12 @@
        почтение
       </reg>
       <orig>
-       почтенiе
+       почтеніе
       </orig>
      </choice>
      .
     </p>
-    <p id="da08bcf1-fb3b-437d-b07e-d58307ba711d" rend="left">
+    <p id="da08bcf1-fb3b-437d-b07e-d58307ba711d">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -1085,7 +1110,7 @@
      </choice>
      .
     </p>
-    <p id="4ff57d78-cc12-4771-863b-2e02f67258b4" rend="left">
+    <p id="4ff57d78-cc12-4771-863b-2e02f67258b4">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -1107,7 +1132,7 @@
      </choice>
      .
     </p>
-    <p id="1ecfba60-8987-420f-b5f9-7c388a895a64" rend="left">
+    <p id="1ecfba60-8987-420f-b5f9-7c388a895a64">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -1122,7 +1147,7 @@
      </choice>
      .
     </p>
-    <p id="09d25f2a-e67e-4384-a239-54e830e1d7eb" rend="left">
+    <p id="09d25f2a-e67e-4384-a239-54e830e1d7eb">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -1162,7 +1187,7 @@
      </choice>
      .
     </p>
-    <p id="0a9c10f7-5aef-4b9a-98e2-b25595d3a7da" rend="left">
+    <p id="0a9c10f7-5aef-4b9a-98e2-b25595d3a7da">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -1189,20 +1214,20 @@
      </choice>
      будешь.
     </p>
-    <p id="9dbcc6cd-53bc-4193-9376-86f4c6bff10c" rend="left">
+    <p id="9dbcc6cd-53bc-4193-9376-86f4c6bff10c">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
      . Приношу благодарность. Покушать бы, если бы можно.
     </p>
-    <p id="6d13f67e-3408-4826-8c95-35ba9533c7c5" rend="left">
+    <p id="6d13f67e-3408-4826-8c95-35ba9533c7c5">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -1252,14 +1277,14 @@
      </choice>
      ?
     </p>
-    <p id="286e4961-284c-40c5-bf00-14568e2400e4" rend="left">
+    <p id="286e4961-284c-40c5-bf00-14568e2400e4">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -1281,7 +1306,7 @@
        званию
       </reg>
       <orig>
-       званiю
+       званію
       </orig>
      </choice>
      своему не
@@ -1337,7 +1362,7 @@
      </choice>
      ...
     </p>
-    <p id="8deecee3-ef9f-481e-8e7a-dcafbee79135" rend="left">
+    <p id="8deecee3-ef9f-481e-8e7a-dcafbee79135">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -1389,14 +1414,14 @@
       прохожему).
      </hi>
     </p>
-    <p id="7554652e-bc25-4853-9fe0-712a99a93604" rend="left">
+    <p id="7554652e-bc25-4853-9fe0-712a99a93604">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -1412,29 +1437,29 @@
       </choice>
       <choice>
        <reg>
-        хлњб
+        хлеб
        </reg>
        <orig>
-        хлњбъ
+        хлѣбъ
        </orig>
       </choice>
       ).
      </hi>
      Мерси.
      <hi rend="italic">
-      (Сидить на конникњ и жадно
+      (Сидить на конникѣ и жадно
       <choice>
        <reg>
-        њст
+        ест
        </reg>
        <orig>
-        њстъ
+        ѣстъ
        </orig>
       </choice>
       .)
      </hi>
     </p>
-    <p id="f1b1bf85-d541-4e39-a0b3-4e0905d1f7da" rend="left">
+    <p id="f1b1bf85-d541-4e39-a0b3-4e0905d1f7da">
      <choice>
       <reg>
        Тарас
@@ -1454,7 +1479,7 @@
      </choice>
      же?
     </p>
-    <p id="1eca9b78-fc96-404f-ac79-828c0d21c16e" rend="left">
+    <p id="1eca9b78-fc96-404f-ac79-828c0d21c16e">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -1513,7 +1538,7 @@
      </choice>
      бы чего не случилось.
     </p>
-    <p id="af296fae-550f-49c6-ad63-b1afbf1ac866" rend="left">
+    <p id="af296fae-550f-49c6-ad63-b1afbf1ac866">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -1526,7 +1551,7 @@
      </hi>
      . Чего же случится?
     </p>
-    <p id="c21f5220-6f45-456e-ac43-96be2d9b6d77" rend="left">
+    <p id="c21f5220-6f45-456e-ac43-96be2d9b6d77">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -1585,7 +1610,7 @@
      </choice>
      и теперь того и жду, что пьяный вернется.
     </p>
-    <p id="d67f9644-f9b0-46da-bc18-1f3d05454d4b" rend="left">
+    <p id="d67f9644-f9b0-46da-bc18-1f3d05454d4b">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -1630,7 +1655,7 @@
      </choice>
      докука.
     </p>
-    <p id="b09f2067-c634-4ea4-99f9-b89c82b61f4d" rend="left">
+    <p id="b09f2067-c634-4ea4-99f9-b89c82b61f4d">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -1679,7 +1704,7 @@
      </choice>
      .
     </p>
-    <p id="a85654e6-5f33-4ef1-85c5-4e1a4aa78972" rend="left">
+    <p id="a85654e6-5f33-4ef1-85c5-4e1a4aa78972">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -1691,7 +1716,7 @@
       </choice>
      </hi>
      <hi rend="italic">
-      (усмњхается).
+      (усмѣхается).
      </hi>
      Ну
      <choice>
@@ -1730,7 +1755,7 @@
      </choice>
      .
     </p>
-    <p id="2eddfeb9-5477-4e46-93ad-8c213ea6777b" rend="left">
+    <p id="2eddfeb9-5477-4e46-93ad-8c213ea6777b">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -1814,7 +1839,7 @@
      </choice>
      .
     </p>
-    <p id="edf48aac-c499-4528-a632-1cede02a6d67" rend="left">
+    <p id="edf48aac-c499-4528-a632-1cede02a6d67">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -1903,7 +1928,7 @@
      </choice>
      .
     </p>
-    <p id="0ca9128f-4654-4d9e-91fb-daf6d1377b1a" rend="left">
+    <p id="0ca9128f-4654-4d9e-91fb-daf6d1377b1a">
      <pb n="218"/>
      <choice>
       <reg>
@@ -1985,7 +2010,7 @@
      </choice>
      .
     </p>
-    <p id="dea0da49-ce25-4ced-89f7-0a5069fff53b" rend="left">
+    <p id="dea0da49-ce25-4ced-89f7-0a5069fff53b">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -2009,7 +2034,7 @@
      </choice>
      .
     </p>
-    <p id="f561933c-a8b9-470e-9d49-e2ca073d6392" rend="left">
+    <p id="f561933c-a8b9-470e-9d49-e2ca073d6392">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -2070,7 +2095,7 @@
        компании
       </reg>
       <orig>
-       компанiи
+       компаніи
       </orig>
      </choice>
      . Ну и
@@ -2101,7 +2126,7 @@
      </choice>
      .
     </p>
-    <p id="484b97b3-b984-4dab-a135-1b6f0534d01b" rend="left">
+    <p id="484b97b3-b984-4dab-a135-1b6f0534d01b">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -2247,14 +2272,14 @@
      </choice>
      житье наше бабье...
     </p>
-    <p id="e8360d68-7607-4982-86cb-22fd3dd3c9d4" rend="left">
+    <p id="e8360d68-7607-4982-86cb-22fd3dd3c9d4">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -2325,7 +2350,7 @@
      </choice>
      .
     </p>
-    <p id="93a0c101-97b6-4b6d-b861-4467574a9339" rend="left">
+    <p id="93a0c101-97b6-4b6d-b861-4467574a9339">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -2347,14 +2372,14 @@
      </choice>
      пофей сбила.
     </p>
-    <p id="ba5ecc86-ce29-4e0e-96ee-b9ebe6f87abc" rend="left">
+    <p id="ba5ecc86-ce29-4e0e-96ee-b9ebe6f87abc">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -2387,7 +2412,7 @@
      </choice>
      иная быть, кабы не она.
     </p>
-    <p id="b128aa5c-439e-4152-bd23-a82c6b0852d5" rend="left">
+    <p id="b128aa5c-439e-4152-bd23-a82c6b0852d5">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -2444,14 +2469,14 @@
      </choice>
      никакого.
     </p>
-    <p id="ef96b27d-ce9f-468f-bdd3-c78d9e0f873f" rend="left">
+    <p id="ef96b27d-ce9f-468f-bdd3-c78d9e0f873f">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -2479,7 +2504,7 @@
        енерции
       </reg>
       <orig>
-       енерцiи
+       енерціи
       </orig>
      </choice>
      <choice>
@@ -2510,7 +2535,7 @@
      </choice>
      .
     </p>
-    <p id="86203a71-1535-4995-bd13-fe611bb92057" rend="left">
+    <p id="86203a71-1535-4995-bd13-fe611bb92057">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -2560,14 +2585,14 @@
      </choice>
      собаку.
     </p>
-    <p id="ca3d6a40-d5ab-4ec5-b89d-e64c34d28890" rend="left">
+    <p id="ca3d6a40-d5ab-4ec5-b89d-e64c34d28890">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -2577,7 +2602,7 @@
        такие
       </reg>
       <orig>
-       такiе
+       такіе
       </orig>
      </choice>
      люди, субъекты, значить, что вовсе
@@ -2612,7 +2637,7 @@
        несоответствующие
       </reg>
       <orig>
-       несоотвѣтствующiе
+       несоотвѣтствующіе
       </orig>
      </choice>
      <choice>
@@ -2774,7 +2799,7 @@
      </choice>
      что попало.
     </p>
-    <p id="1d24f099-6b78-4d9a-84fa-0b251ba6f13a" rend="left">
+    <p id="1d24f099-6b78-4d9a-84fa-0b251ba6f13a">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -2797,14 +2822,14 @@
      </choice>
      .
     </p>
-    <p id="26763cfa-9027-4e6e-8d2f-ecb1a5572e61" rend="left">
+    <p id="26763cfa-9027-4e6e-8d2f-ecb1a5572e61">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -2861,7 +2886,7 @@
      </choice>
      такая.
     </p>
-    <p id="d8bf76e5-17dc-404f-826c-510ca41e7290" rend="left">
+    <p id="d8bf76e5-17dc-404f-826c-510ca41e7290">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -2921,7 +2946,7 @@
       .)
      </hi>
     </p>
-    <p id="2a259f14-0c4c-45ab-8cd0-eefecbb8137d" rend="left">
+    <p id="2a259f14-0c4c-45ab-8cd0-eefecbb8137d">
      <hi rend="italic">
       (Марфа
       <choice>
@@ -2944,7 +2969,7 @@
       уходить).
      </hi>
     </p>
-    <p id="78b0ce1c-9cb5-4aba-bca4-7b689625db57" rend="left">
+    <p id="78b0ce1c-9cb5-4aba-bca4-7b689625db57">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -3014,7 +3039,7 @@
      </choice>
      ему еще.
     </p>
-    <p id="f3568f52-a9db-4373-a794-531c9d9c3cdf" rend="left">
+    <p id="f3568f52-a9db-4373-a794-531c9d9c3cdf">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -3049,7 +3074,7 @@
       .)
      </hi>
     </p>
-    <p id="2ad5e790-7bfa-48b8-b693-2410a0053f9a" rend="left">
+    <p id="2ad5e790-7bfa-48b8-b693-2410a0053f9a">
      (
      <hi rend="italic">
       Акулина
@@ -3108,14 +3133,14 @@
       прохожему.)
      </hi>
     </p>
-    <p id="88e0f687-d12c-48d9-8c46-6ea42a6921a6" rend="left">
+    <p id="88e0f687-d12c-48d9-8c46-6ea42a6921a6">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -3154,7 +3179,7 @@
      </choice>
      .
     </p>
-    <p id="3798aa02-c43e-4fce-9062-c332b24cf4b5" rend="left">
+    <p id="3798aa02-c43e-4fce-9062-c332b24cf4b5">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -3177,14 +3202,14 @@
      </choice>
      будешь?
     </p>
-    <p id="59b95800-24dd-4d09-ba20-cacccdb60fb0" rend="left">
+    <p id="59b95800-24dd-4d09-ba20-cacccdb60fb0">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -3207,7 +3232,7 @@
      </choice>
      .
     </p>
-    <p id="6e723325-487a-4a2f-bd90-c7aeae753ba1" rend="left">
+    <p id="6e723325-487a-4a2f-bd90-c7aeae753ba1">
      <pb n="219"/>
      Акулина. Что
      <choice>
@@ -3229,14 +3254,14 @@
      </choice>
      ?
     </p>
-    <p id="e6df56a7-b5cc-4ef0-80c6-37690eeedbe6" rend="left">
+    <p id="e6df56a7-b5cc-4ef0-80c6-37690eeedbe6">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -3251,7 +3276,7 @@
      </choice>
      .
     </p>
-    <p id="5288e7e1-eadd-4781-ab36-b88b41a54e0d" rend="left">
+    <p id="5288e7e1-eadd-4781-ab36-b88b41a54e0d">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -3292,14 +3317,14 @@
      </choice>
      сбился.
     </p>
-    <p id="f0f5b06d-0ac1-4b2d-8273-d16105cb7dbb" rend="left">
+    <p id="f0f5b06d-0ac1-4b2d-8273-d16105cb7dbb">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -3318,7 +3343,7 @@
        такие
       </reg>
       <orig>
-       такiя
+       такія
       </orig>
      </choice>
      , что честному
@@ -3332,7 +3357,7 @@
      </choice>
      прожить нельзя.
     </p>
-    <p id="5749c95a-8691-470c-841c-dbc3f2d4105f" rend="left">
+    <p id="5749c95a-8691-470c-841c-dbc3f2d4105f">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -3385,7 +3410,7 @@
      </choice>
      мое сердце.
     </p>
-    <p id="409dd2e4-ffa6-4cdc-a31c-3534cd335d84" rend="left">
+    <p id="409dd2e4-ffa6-4cdc-a31c-3534cd335d84">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -3400,7 +3425,7 @@
      </choice>
      ли?
     </p>
-    <p id="1fa4d53f-98bb-471d-a7f1-6143d044f74b" rend="left">
+    <p id="1fa4d53f-98bb-471d-a7f1-6143d044f74b">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -3480,7 +3505,7 @@
      </choice>
      слово...
     </p>
-    <p id="d23d694b-d19d-441a-a199-c5c604792f14" rend="left">
+    <p id="d23d694b-d19d-441a-a199-c5c604792f14">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -3502,12 +3527,12 @@
        последний
       </reg>
       <orig>
-       послѣднiй
+       послѣдній
       </orig>
      </choice>
      . Наказывала привезти?
     </p>
-    <p id="f4769ea8-82e7-4878-b6f6-351584ed8b18" rend="left">
+    <p id="f4769ea8-82e7-4878-b6f6-351584ed8b18">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -3602,7 +3627,7 @@
       .)
      </hi>
     </p>
-    <p id="77cb0464-b82a-459c-b3cc-2fe478ee61c7" rend="left">
+    <p id="77cb0464-b82a-459c-b3cc-2fe478ee61c7">
      <hi rend="italic">
       (
       <choice>
@@ -3610,7 +3635,7 @@
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
       <choice>
@@ -3632,7 +3657,7 @@
       стола.)
      </hi>
     </p>
-    <p id="fad3f0c8-bf7f-4cf9-adf8-5b612e96a3f4" rend="left">
+    <p id="fad3f0c8-bf7f-4cf9-adf8-5b612e96a3f4">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -3673,14 +3698,14 @@
      </choice>
      .
     </p>
-    <p id="efee2090-3870-4ddc-af56-b38ad67b8c69" rend="left">
+    <p id="efee2090-3870-4ddc-af56-b38ad67b8c69">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -3690,7 +3715,7 @@
        гостеприимное
       </reg>
       <orig>
-       гостепрiимное
+       гостепріимное
       </orig>
      </choice>
      <choice>
@@ -3698,7 +3723,7 @@
        радушие
       </reg>
       <orig>
-       радушiе
+       радушіе
       </orig>
      </choice>
      .
@@ -3732,7 +3757,7 @@
       столу.)
      </hi>
     </p>
-    <p id="a207d24f-b392-49f3-b14c-3c3b0dd05a33" rend="left">
+    <p id="a207d24f-b392-49f3-b14c-3c3b0dd05a33">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -3797,14 +3822,14 @@
      </choice>
      ?
     </p>
-    <p id="4e5d9ff4-5331-43df-a263-dbb17693f8bf" rend="left">
+    <p id="4e5d9ff4-5331-43df-a263-dbb17693f8bf">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -3856,12 +3881,12 @@
        сословия
       </reg>
       <orig>
-       сословiя
+       сословія
       </orig>
      </choice>
      .
     </p>
-    <p id="6bb2184d-aeef-45ed-a63a-8482930a42db" rend="left">
+    <p id="6bb2184d-aeef-45ed-a63a-8482930a42db">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -3888,14 +3913,14 @@
       ему чашку.)
      </hi>
     </p>
-    <p id="94d7583f-5c49-4163-b9ee-aca57d097166" rend="left">
+    <p id="94d7583f-5c49-4163-b9ee-aca57d097166">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -3930,7 +3955,7 @@
        польский
       </reg>
       <orig>
-       польскiй
+       польскій
       </orig>
      </choice>
      <choice>
@@ -3964,7 +3989,7 @@
        многие
       </reg>
       <orig>
-       многiе
+       многіе
       </orig>
      </choice>
      были, и матерей тоже
@@ -3982,12 +4007,12 @@
        биография
       </reg>
       <orig>
-       бiографiя
+       біографія
       </orig>
      </choice>
      моя затруднительная.
     </p>
-    <p id="baee6c86-1f39-4be3-9b6f-89d991b66cdd" rend="left">
+    <p id="baee6c86-1f39-4be3-9b6f-89d991b66cdd">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -4019,14 +4044,14 @@
      </choice>
      ?
     </p>
-    <p id="1c1d92e1-4274-4d1a-81a8-91bdc1b45d5f" rend="left">
+    <p id="1c1d92e1-4274-4d1a-81a8-91bdc1b45d5f">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -4045,7 +4070,7 @@
        восприемница
       </reg>
       <orig>
-       воспрiемница
+       воспріемница
       </orig>
      </choice>
      .
@@ -4105,7 +4130,7 @@
        пердагогия
       </reg>
       <orig>
-       пердагогiя
+       пердагогія
       </orig>
      </choice>
      его
@@ -4331,7 +4356,7 @@
        фракции
       </reg>
       <orig>
-       фракцiи
+       фракціи
       </orig>
      </choice>
      находился. Умственную словесность
@@ -4370,7 +4395,7 @@
      </choice>
      талантами аграмадными.
     </p>
-    <p id="415b34f2-90ac-4b49-8c89-7d78b1d5f757" rend="left">
+    <p id="415b34f2-90ac-4b49-8c89-7d78b1d5f757">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -4393,14 +4418,14 @@
      </choice>
      .
     </p>
-    <p id="e3186877-d27c-4441-9fd2-84e942f483e1" rend="left">
+    <p id="e3186877-d27c-4441-9fd2-84e942f483e1">
      <hi rend="Razradka">
       <choice>
        <reg>
         ИИрохожий
        </reg>
        <orig>
-        IIрохожiй
+        IIрохожій
        </orig>
       </choice>
      </hi>
@@ -4419,7 +4444,7 @@
        деспотический
       </reg>
       <orig>
-       деспотическiй
+       деспотическій
       </orig>
      </choice>
      <choice>
@@ -4462,31 +4487,31 @@
        заключение
       </reg>
       <orig>
-       заключенiе
+       заключеніе
       </orig>
      </choice>
      свободы, значить!
     </p>
-    <p id="9f1a728d-70c9-4969-8fca-e54fc8ef9d10" rend="left">
+    <p id="9f1a728d-70c9-4969-8fca-e54fc8ef9d10">
      <hi rend="Razradka">
-      Maрфа
+      Марфа
      </hi>
      . За что же?
     </p>
-    <p id="f0796cf1-d619-40cd-bea3-b616e9bbe81c" rend="left">
+    <p id="f0796cf1-d619-40cd-bea3-b616e9bbe81c">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
      . За права.
     </p>
-    <p id="dd86944a-0a78-427c-94d3-d7d7008933f3" rend="left">
+    <p id="dd86944a-0a78-427c-94d3-d7d7008933f3">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -4496,19 +4521,19 @@
        какие
       </reg>
       <orig>
-       какiя
+       какія
       </orig>
      </choice>
      же это права?
     </p>
-    <p id="90802333-59ed-43e9-b4ac-41429c13a3c4" rend="left">
+    <p id="90802333-59ed-43e9-b4ac-41429c13a3c4">
      <pb n="220"/>
      <choice>
       <reg>
        Прохожий
       </reg>
       <orig>
-       Прохожiй
+       Прохожій
       </orig>
      </choice>
      . За
@@ -4517,7 +4542,7 @@
        какие
       </reg>
       <orig>
-       какiя
+       какія
       </orig>
      </choice>
      права? A
@@ -4526,7 +4551,7 @@
        такие
       </reg>
       <orig>
-       такiя
+       такія
       </orig>
      </choice>
      права,
@@ -4559,7 +4584,7 @@
       28
      </ref>
      <note index="false" xml:id="note28">
-      <span data-class="paragraph" id="53e0c1a9-5054-4397-a219-f19bc126cdaf" rend="left">
+      <span data-class="paragraph" id="53e0c1a9-5054-4397-a219-f19bc126cdaf">
        <hi rend="italic">
         В подлиннике:
        </hi>
@@ -4580,7 +4605,7 @@
        трудящийся
       </reg>
       <orig>
-       трудящiйся
+       трудящійся
       </orig>
      </choice>
      <choice>
@@ -4588,7 +4613,7 @@
        пролетарий
       </reg>
       <orig>
-       пролетарiй
+       пролетарій
       </orig>
      </choice>
      <choice>
@@ -4605,12 +4630,12 @@
        вознаграждение
       </reg>
       <orig>
-       вознагражденiе
+       вознагражденіе
       </orig>
      </choice>
      труда.
     </p>
-    <p id="421f54ce-20ff-4623-a84b-7aee510c79bc" rend="left">
+    <p id="421f54ce-20ff-4623-a84b-7aee510c79bc">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -4634,14 +4659,14 @@
      </choice>
      ?
     </p>
-    <p id="be05171f-06e3-4cf0-a719-9221f6085d6b" rend="left">
+    <p id="be05171f-06e3-4cf0-a719-9221f6085d6b">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -4681,7 +4706,7 @@
      </choice>
      .
     </p>
-    <p id="840accfd-87b4-475b-bf47-04cef4e9d2af" rend="left">
+    <p id="840accfd-87b4-475b-bf47-04cef4e9d2af">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -4731,14 +4756,14 @@
      </choice>
      же теперь?
     </p>
-    <p id="58bf4f3c-433c-4594-9388-174cba5afc49" rend="left">
+    <p id="58bf4f3c-433c-4594-9388-174cba5afc49">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -4788,7 +4813,7 @@
      </choice>
      какую хоть работу, только возьми.
     </p>
-    <p id="61c4fa17-14da-4044-921e-f87318e1f889" rend="left">
+    <p id="61c4fa17-14da-4044-921e-f87318e1f889">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -4803,14 +4828,14 @@
      </choice>
      пейте еще.
     </p>
-    <p id="c4b042bc-697a-4585-bb68-08e5214fb6c9" rend="left">
+    <p id="c4b042bc-697a-4585-bb68-08e5214fb6c9">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -4825,7 +4850,7 @@
      </choice>
      .
     </p>
-    <p id="e38c4cd0-5544-495d-a138-f56e09ef12cd" rend="left">
+    <p id="e38c4cd0-5544-495d-a138-f56e09ef12cd">
      <hi rend="italic">
       (
       <choice>
@@ -4872,7 +4897,7 @@
       .)
      </hi>
     </p>
-    <p id="e3669813-110a-4c14-84c6-39fe37f78acf" rend="left">
+    <p id="e3669813-110a-4c14-84c6-39fe37f78acf">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -4912,7 +4937,7 @@
      </choice>
      чаю.
     </p>
-    <p id="c60b2056-655e-46c1-a773-50604ef451e1" rend="left">
+    <p id="c60b2056-655e-46c1-a773-50604ef451e1">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -4973,7 +4998,7 @@
      </choice>
      .
     </p>
-    <p id="26e740d7-c59a-4edf-86eb-84936978dab4" rend="left">
+    <p id="26e740d7-c59a-4edf-86eb-84936978dab4">
      (
      <hi rend="italic">
       Вваливается Михайла и
@@ -4988,7 +5013,7 @@
       , оба пьяные.)
      </hi>
     </p>
-    <p id="2327cc0b-3333-436f-8a94-5795fba17711" rend="left">
+    <p id="2327cc0b-3333-436f-8a94-5795fba17711">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -5199,7 +5224,7 @@
       .)
      </hi>
     </p>
-    <p id="b2414de2-d51d-434e-8ee7-0a14618b14e0" rend="left">
+    <p id="b2414de2-d51d-434e-8ee7-0a14618b14e0">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -5261,7 +5286,7 @@
      </hi>
      Давай чашки.
     </p>
-    <p id="1c072cd6-7970-4a13-b022-72abd7edcc86" rend="left">
+    <p id="1c072cd6-7970-4a13-b022-72abd7edcc86">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -5285,7 +5310,7 @@
      </choice>
      ?
     </p>
-    <p id="d3e3debe-5241-4bf7-86bf-d2b1626c6877" rend="left">
+    <p id="d3e3debe-5241-4bf7-86bf-d2b1626c6877">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -5307,7 +5332,7 @@
      </choice>
      чего, ядрена палка, лучше, и попили, и погуляли, и домой привезли.
     </p>
-    <p id="d8303254-5e3a-4257-8400-1f74b0cf83f9" rend="left">
+    <p id="d8303254-5e3a-4257-8400-1f74b0cf83f9">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -5343,14 +5368,14 @@
      </hi>
      Пей и ты.
     </p>
-    <p id="570bac22-9d99-4496-8af6-7eca0343d3b0" rend="left">
+    <p id="570bac22-9d99-4496-8af6-7eca0343d3b0">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -5379,7 +5404,7 @@
       .)
      </hi>
     </p>
-    <p id="6f2d2e23-c8e6-4290-ac08-c8dd16c823b9" rend="left">
+    <p id="6f2d2e23-c8e6-4290-ac08-c8dd16c823b9">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -5439,14 +5464,14 @@
       еще.)
      </hi>
     </p>
-    <p id="01ce42bb-12a6-43af-9dd0-4dd86e906399" rend="left">
+    <p id="01ce42bb-12a6-43af-9dd0-4dd86e906399">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -5502,12 +5527,12 @@
        предприятиях
       </reg>
       <orig>
-       предпрiятiяхъ
+       предпріятіяхъ
       </orig>
      </choice>
      .
     </p>
-    <p id="1a80774e-5071-4cef-af3f-a3118e34c582" rend="left">
+    <p id="1a80774e-5071-4cef-af3f-a3118e34c582">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -5543,7 +5568,7 @@
      </choice>
      ?
     </p>
-    <p id="16290895-746d-4341-9a45-9b799efbe96b" rend="left">
+    <p id="16290895-746d-4341-9a45-9b799efbe96b">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -5565,7 +5590,7 @@
      </choice>
      пропили, едрена палка. Правда, Михайла?
     </p>
-    <p id="9a22c23b-2347-4302-85f9-b0ba5860baa9" rend="left">
+    <p id="9a22c23b-2347-4302-85f9-b0ba5860baa9">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -5624,7 +5649,7 @@
      </choice>
      и погулять можно.
     </p>
-    <p id="3d6961e4-dc64-4f4c-97eb-31d4d91ef853" rend="left">
+    <p id="3d6961e4-dc64-4f4c-97eb-31d4d91ef853">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -5648,7 +5673,7 @@
      </choice>
      что...
     </p>
-    <p id="55cc222f-da5d-4bb8-966e-07a8609669e4" rend="left">
+    <p id="55cc222f-da5d-4bb8-966e-07a8609669e4">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -5657,7 +5682,7 @@
       (угрожающе.)
      </hi>
     </p>
-    <p id="d1c65e36-646c-48a3-bee1-510393c54a30" rend="left">
+    <p id="d1c65e36-646c-48a3-bee1-510393c54a30">
      <pb n="221"/>
      <hi rend="Razradka">
       Марфа
@@ -5691,13 +5716,13 @@
      </choice>
      .
     </p>
-    <p id="9704e59b-4052-4dc9-87f6-ec8be85c5fe6" rend="left">
+    <p id="9704e59b-4052-4dc9-87f6-ec8be85c5fe6">
      <hi rend="Razradka">
       Михайла
      </hi>
      . Марфа, смотри!
     </p>
-    <p id="4b1f8b84-eb8d-4de0-a6b8-403a104b4a04" rend="left">
+    <p id="4b1f8b84-eb8d-4de0-a6b8-403a104b4a04">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -5721,7 +5746,7 @@
      </choice>
      не хочу.
     </p>
-    <p id="0f3dc513-ea7c-4741-b0ac-6a7450de2ff9" rend="left">
+    <p id="0f3dc513-ea7c-4741-b0ac-6a7450de2ff9">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -5736,7 +5761,7 @@
      </choice>
      .
     </p>
-    <p id="51a44832-bcfd-4d78-9e45-bcd9aac27f16" rend="left">
+    <p id="51a44832-bcfd-4d78-9e45-bcd9aac27f16">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -5760,7 +5785,7 @@
      </choice>
      тобой не хочу.
     </p>
-    <p id="737c9359-6b3d-4a0c-8e44-41170822911d" rend="left">
+    <p id="737c9359-6b3d-4a0c-8e44-41170822911d">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -5775,9 +5800,9 @@
      </choice>
      ты шкура собачья. Ты что сказала?
     </p>
-    <p id="f73d0349-1b3d-4def-ad5e-7f8d05efb133" rend="left">
+    <p id="f73d0349-1b3d-4def-ad5e-7f8d05efb133">
      <hi rend="Razradka">
-      Maрфа
+      Марфа
      </hi>
      <hi rend="italic">
       (
@@ -5789,7 +5814,7 @@
         качаетъ
        </orig>
       </choice>
-      люльку. Дњти
+      люльку. Дѣти
       <choice>
        <reg>
         испуганные
@@ -5837,7 +5862,7 @@
      </choice>
      и все.
     </p>
-    <p id="f1e284a8-5192-4726-bb25-b98c8b9a758e" rend="left">
+    <p id="f1e284a8-5192-4726-bb25-b98c8b9a758e">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -5868,7 +5893,7 @@
         бьетъ
        </orig>
       </choice>
-      ее по головњ,
+      ее по головѣ,
       <choice>
        <reg>
         сбивает
@@ -5897,7 +5922,7 @@
      </choice>
      .
     </p>
-    <p id="174e3293-9a3b-4f73-8132-b94aa4c7c253" rend="left">
+    <p id="174e3293-9a3b-4f73-8132-b94aa4c7c253">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -5906,10 +5931,10 @@
       (
       <choice>
        <reg>
-        Бњжит
+        Бѣжит
        </reg>
        <orig>
-        Бњжитъ
+        Бѣжитъ
        </orig>
       </choice>
       <choice>
@@ -5939,7 +5964,7 @@
       двери.)
      </hi>
     </p>
-    <p id="fac48b3c-0bbe-4a13-ab63-5403c5a419b4" rend="left">
+    <p id="fac48b3c-0bbe-4a13-ab63-5403c5a419b4">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -5948,14 +5973,14 @@
       Бросается за ней.)
      </hi>
     </p>
-    <p id="7525024f-7f52-42a4-8ee8-f3dfa52e2dc4" rend="left">
+    <p id="7525024f-7f52-42a4-8ee8-f3dfa52e2dc4">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -6008,7 +6033,7 @@
      </choice>
      права.
     </p>
-    <p id="3e5739bc-69c1-41e7-bc54-bd5830e01362" rend="left">
+    <p id="3e5739bc-69c1-41e7-bc54-bd5830e01362">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -6028,7 +6053,7 @@
         удивлением
        </reg>
        <orig>
-        удивленiемъ
+        удивленіемъ
        </orig>
       </choice>
       <choice>
@@ -6061,14 +6086,14 @@
      </choice>
      ?
     </p>
-    <p id="96813a23-2945-4c05-b4ac-a5c57cf4c139" rend="left">
+    <p id="96813a23-2945-4c05-b4ac-a5c57cf4c139">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -6095,7 +6120,7 @@
        женский
       </reg>
       <orig>
-       женскiй
+       женскій
       </orig>
      </choice>
      <choice>
@@ -6112,12 +6137,12 @@
        оскорблениям
       </reg>
       <orig>
-       оскорбленiямъ
+       оскорбленіямъ
       </orig>
      </choice>
      .
     </p>
-    <p id="0a0819c7-5890-4e7a-98ce-84515ca259a3" rend="left">
+    <p id="0a0819c7-5890-4e7a-98ce-84515ca259a3">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -6136,7 +6161,7 @@
        сукин
       </reg>
       <orig>
-       сукiнъ
+       сукінъ
       </orig>
      </choice>
      <choice>
@@ -6177,14 +6202,14 @@
       .)
      </hi>
     </p>
-    <p id="ff774816-dcc3-492e-81e7-6bc86715e202" rend="left">
+    <p id="ff774816-dcc3-492e-81e7-6bc86715e202">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -6218,12 +6243,12 @@
        эксплытацию
       </reg>
       <orig>
-       эксплытацiю
+       эксплытацію
       </orig>
      </choice>
      производить.
     </p>
-    <p id="00e74dcd-028b-43f5-b8b4-d8739f814b04" rend="left">
+    <p id="00e74dcd-028b-43f5-b8b4-d8739f814b04">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -6242,7 +6267,7 @@
        остолбацию
       </reg>
       <orig>
-       остолбацiю
+       остолбацію
       </orig>
      </choice>
      <choice>
@@ -6255,14 +6280,14 @@
      </choice>
      , что кверху тормашками...
     </p>
-    <p id="d579052a-6d63-4f70-90c6-5c504b9d6680" rend="left">
+    <p id="d579052a-6d63-4f70-90c6-5c504b9d6680">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -6288,7 +6313,7 @@
       лицо.)
      </hi>
     </p>
-    <p id="e17e1e59-dc90-4636-a379-6e2da9b92fe8" rend="left">
+    <p id="e17e1e59-dc90-4636-a379-6e2da9b92fe8">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -6324,20 +6349,20 @@
      </choice>
      я двину?
     </p>
-    <p id="9c52535b-0285-41fb-a809-0e6cc783e7dc" rend="left">
+    <p id="9c52535b-0285-41fb-a809-0e6cc783e7dc">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
      . Я говорю бей.
     </p>
-    <p id="61c92e87-7613-4540-b1cf-10cdff345030" rend="left">
+    <p id="61c92e87-7613-4540-b1cf-10cdff345030">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -6372,7 +6397,7 @@
       головой.)
      </hi>
     </p>
-    <p id="680191f5-6539-488f-8081-528ad375e7f1" rend="left">
+    <p id="680191f5-6539-488f-8081-528ad375e7f1">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -6422,20 +6447,20 @@
      </choice>
      , едрена палка.
     </p>
-    <p id="3f45e57b-73d0-4c91-ba77-f220d2ca955f" rend="left">
+    <p id="3f45e57b-73d0-4c91-ba77-f220d2ca955f">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
      . Я за права стою.
     </p>
-    <p id="a3315dab-dd4e-4e49-ba8b-7a2d2eb1ed30" rend="left">
+    <p id="a3315dab-dd4e-4e49-ba8b-7a2d2eb1ed30">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -6514,7 +6539,7 @@
      </choice>
      дребезги.
     </p>
-    <p id="05b02488-4224-40b3-852e-c1f640ae7115" rend="left">
+    <p id="05b02488-4224-40b3-852e-c1f640ae7115">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -6538,7 +6563,7 @@
      </choice>
      что...
     </p>
-    <p id="5c3a325a-c9d0-4ebb-bcf2-4f59ac655981" rend="left">
+    <p id="5c3a325a-c9d0-4ebb-bcf2-4f59ac655981">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -6604,7 +6629,7 @@
      </choice>
      .
     </p>
-    <p id="8ba9af70-ed86-4b6e-96ee-88da1f8179d9" rend="left">
+    <p id="8ba9af70-ed86-4b6e-96ee-88da1f8179d9">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -6619,7 +6644,7 @@
      </choice>
      я приказывала.
     </p>
-    <p id="3c1d805f-c5fb-4868-a9c3-94c8566af663" rend="left">
+    <p id="3c1d805f-c5fb-4868-a9c3-94c8566af663">
      <pb n="222"/>
      Михайла (
      <hi rend="italic">
@@ -6715,7 +6740,7 @@
        сословие
       </reg>
       <orig>
-       сословiе
+       сословіе
       </orig>
      </choice>
      .
@@ -6733,14 +6758,14 @@
      </hi>
      На, пей.
     </p>
-    <p id="fbca9274-9a20-4f9f-ba93-a9ff099ff71b" rend="left">
+    <p id="fbca9274-9a20-4f9f-ba93-a9ff099ff71b">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -6758,7 +6783,7 @@
      </hi>
      Пейте сами.
     </p>
-    <p id="dcf18445-5b6b-4b60-a343-e1c904d25ad0" rend="left">
+    <p id="dcf18445-5b6b-4b60-a343-e1c904d25ad0">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -6773,14 +6798,14 @@
      </choice>
      ломаться.
     </p>
-    <p id="5266cbfc-b73d-4f9c-95c5-09ea0f144d87" rend="left">
+    <p id="5266cbfc-b73d-4f9c-95c5-09ea0f144d87">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -6798,7 +6823,7 @@
      </hi>
      Будьте благополучны.
     </p>
-    <p id="abd81327-09eb-4475-9d77-538a5a595f60" rend="left">
+    <p id="abd81327-09eb-4475-9d77-538a5a595f60">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -6960,7 +6985,7 @@
      </choice>
      говорю?
     </p>
-    <p id="125d799d-0271-4c36-baf1-ed7f81b86a9e" rend="left">
+    <p id="125d799d-0271-4c36-baf1-ed7f81b86a9e">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -6993,20 +7018,20 @@
      </choice>
      поднимать.
     </p>
-    <p id="c29eae1c-c01a-4486-afd2-7092c9393ff5" rend="left">
+    <p id="c29eae1c-c01a-4486-afd2-7092c9393ff5">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
      . Потому необразованность.
     </p>
-    <p id="ab9a3c12-3082-4603-aed8-080c9f65ea7a" rend="left">
+    <p id="ab9a3c12-3082-4603-aed8-080c9f65ea7a">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -7040,7 +7065,7 @@
       .)
      </hi>
     </p>
-    <p id="6f45c4ae-79f8-4acd-9e97-bb5ce8af3a51" rend="left">
+    <p id="6f45c4ae-79f8-4acd-9e97-bb5ce8af3a51">
      <hi rend="italic">
       (
       <choice>
@@ -7048,7 +7073,7 @@
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
       <choice>
@@ -7062,7 +7087,7 @@
       .)
      </hi>
     </p>
-    <p id="0b2763e7-00c3-439b-b0a9-ea8e56ad2990" rend="left">
+    <p id="0b2763e7-00c3-439b-b0a9-ea8e56ad2990">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -7137,7 +7162,7 @@
      </choice>
      .
     </p>
-    <p id="55357a46-103f-40db-8cec-dcb9ad5724b6" rend="left">
+    <p id="55357a46-103f-40db-8cec-dcb9ad5724b6">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -7169,14 +7194,14 @@
      </choice>
      ?
     </p>
-    <p id="713b5a8f-192b-4145-8a2f-efabfeed2e31" rend="left">
+    <p id="713b5a8f-192b-4145-8a2f-efabfeed2e31">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -7187,7 +7212,7 @@
         захмелевший
        </reg>
        <orig>
-        захмелѣвшiй
+        захмелѣвшій
        </orig>
       </choice>
       ).
@@ -7198,7 +7223,7 @@
        экспроприацию
       </reg>
       <orig>
-       экспропрiацiю
+       экспропріацію
       </orig>
      </choice>
      <choice>
@@ -7211,7 +7236,7 @@
      </choice>
      .
     </p>
-    <p id="5334308a-a2ab-4191-8ff3-53264f49c503" rend="left">
+    <p id="5334308a-a2ab-4191-8ff3-53264f49c503">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -7226,14 +7251,14 @@
      </choice>
      же?
     </p>
-    <p id="eab50808-12a4-4a1c-bce5-a3d168689698" rend="left">
+    <p id="eab50808-12a4-4a1c-bce5-a3d168689698">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -7319,20 +7344,20 @@
      </choice>
      тысячи триста рублей.
     </p>
-    <p id="ad16abf2-d87a-465d-859e-550685192004" rend="left">
+    <p id="ad16abf2-d87a-465d-859e-550685192004">
      <hi rend="Razradka">
       Акулина
      </hi>
      . О Господи. —
     </p>
-    <p id="6a9b8d1c-ad52-42b0-a367-1ef464b264c7" rend="left">
+    <p id="6a9b8d1c-ad52-42b0-a367-1ef464b264c7">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -7408,7 +7433,7 @@
      </choice>
      тюрьму заключили.
     </p>
-    <p id="3545d13c-4409-4b77-8e2b-41fd5cdbd3e8" rend="left">
+    <p id="3545d13c-4409-4b77-8e2b-41fd5cdbd3e8">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -7421,14 +7446,14 @@
      </hi>
      . И денежки отобрали?
     </p>
-    <p id="29586f72-fbea-4894-8794-787986929f9a" rend="left">
+    <p id="29586f72-fbea-4894-8794-787986929f9a">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -7526,7 +7551,7 @@
        партии
       </reg>
       <orig>
-       партiи
+       партіи
       </orig>
      </choice>
      <choice>
@@ -7534,7 +7559,7 @@
        экспроприацию
       </reg>
       <orig>
-       экспропрiацiю
+       экспропріацію
       </orig>
      </choice>
      совершили.
@@ -7636,12 +7661,12 @@
        заточение
       </reg>
       <orig>
-       заточенiе
+       заточеніе
       </orig>
      </choice>
      свободной жизни.
     </p>
-    <p id="5e8b6103-9ec0-4f3d-be9c-bd229e2bda75" rend="left">
+    <p id="5e8b6103-9ec0-4f3d-be9c-bd229e2bda75">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -7713,13 +7738,13 @@
      </hi>
      Пей, едрена палка.
     </p>
-    <p id="e49cf39d-5d8f-4544-a5e9-870cd2654c6b" rend="left">
+    <p id="e49cf39d-5d8f-4544-a5e9-870cd2654c6b">
      <hi rend="Razradka">
       Акулина
      </hi>
      . Тьфу, нехорошо говоришь ты.
     </p>
-    <p id="feff9dbf-750c-4485-989e-d8549fc54f97" rend="left">
+    <p id="feff9dbf-750c-4485-989e-d8549fc54f97">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -7741,7 +7766,7 @@
      </choice>
      поговорка у меня: едрена палка, едрена палка. Будь здорова, бабушка.
     </p>
-    <p id="6262d7d3-50dd-40a8-83e3-fc1bd787fb01" rend="left">
+    <p id="6262d7d3-50dd-40a8-83e3-fc1bd787fb01">
      <hi rend="italic">
       (Марфа
       <choice>
@@ -7764,7 +7789,7 @@
       чай.)
      </hi>
     </p>
-    <p id="8b72a4fa-b7d3-4196-ba8b-007385900ae6" rend="left">
+    <p id="8b72a4fa-b7d3-4196-ba8b-007385900ae6">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -7840,7 +7865,7 @@
      </choice>
      .
     </p>
-    <p id="5af13a9f-9a50-4519-ac95-c765268f3cc8" rend="left">
+    <p id="5af13a9f-9a50-4519-ac95-c765268f3cc8">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -7862,14 +7887,14 @@
      </choice>
      и хорошо. Бабушка Акулина. Пей. Я угощаю.
     </p>
-    <p id="442f182b-46f4-4183-a302-b9bbeb99924b" rend="left">
+    <p id="442f182b-46f4-4183-a302-b9bbeb99924b">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -7888,7 +7913,7 @@
        енерции
       </reg>
       <orig>
-       енерцiи
+       енерціи
       </orig>
      </choice>
      . То все
@@ -7905,7 +7930,7 @@
        меланхолии
       </reg>
       <orig>
-       меланхолiи
+       меланхоліи
       </orig>
      </choice>
      находились, а теперь одна
@@ -7914,7 +7939,7 @@
        приятность
       </reg>
       <orig>
-       прiятность
+       пріятность
       </orig>
      </choice>
      . Дружеское
@@ -7923,7 +7948,7 @@
        расположение
       </reg>
       <orig>
-       расположенiе
+       расположеніе
       </orig>
      </choice>
      . Бабушка, я любовь
@@ -7974,7 +7999,7 @@
        миленькие
       </reg>
       <orig>
-       миленькiе
+       миленькіе
       </orig>
      </choice>
      . (
@@ -7993,13 +8018,13 @@
         революционную
        </reg>
        <orig>
-        революцiонную
+        революціонную
        </orig>
       </choice>
-      пњсню.)
+      пѣсню.)
      </hi>
     </p>
-    <p id="56e77463-0257-4ca9-b5c0-4c4c29748e16" rend="left">
+    <p id="56e77463-0257-4ca9-b5c0-4c4c29748e16">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -8062,10 +8087,10 @@
       Марфа и Акулина.
       <choice>
        <reg>
-        Xозяин
+        Хозяин
        </reg>
        <orig>
-        Xозяинъ
+        Хозяинъ
        </orig>
       </choice>
      </hi>
@@ -8081,7 +8106,7 @@
       .
      </hi>
     </p>
-    <p id="f3df77b6-97b6-4e4e-afe6-87fc34e4c357" rend="left">
+    <p id="f3df77b6-97b6-4e4e-afe6-87fc34e4c357">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -8116,7 +8141,7 @@
      </choice>
      нарубить.
     </p>
-    <p id="63ef7efa-ea10-4706-a8ff-cc6ed24630e1" rend="left">
+    <p id="63ef7efa-ea10-4706-a8ff-cc6ed24630e1">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -8206,7 +8231,7 @@
       одна за другой.)
      </hi>
     </p>
-    <p id="0e190134-e60a-47a6-940d-c2a5e31dd516" rend="left">
+    <p id="0e190134-e60a-47a6-940d-c2a5e31dd516">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -8302,7 +8327,7 @@
      </hi>
      Пойти запрягать.
     </p>
-    <p id="066c4376-c2c8-44a1-afdf-a7ce04cf8cba" rend="left">
+    <p id="066c4376-c2c8-44a1-afdf-a7ce04cf8cba">
      <hi rend="italic">
       (
       <choice>
@@ -8324,7 +8349,7 @@
       дровами Марфа),
      </hi>
     </p>
-    <p id="11f93dec-c2e8-45a0-8ab5-529a1d3f6273" rend="left">
+    <p id="11f93dec-c2e8-45a0-8ab5-529a1d3f6273">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -8334,7 +8359,7 @@
        вчерашний
       </reg>
       <orig>
-       вчерашнiй
+       вчерашній
       </orig>
      </choice>
      побирушка. Аль
@@ -8348,7 +8373,7 @@
      </choice>
      .
     </p>
-    <p id="591a78c2-6734-481a-989b-89b98311a3ec" rend="left">
+    <p id="591a78c2-6734-481a-989b-89b98311a3ec">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -8363,7 +8388,7 @@
      </choice>
      , не видать.
     </p>
-    <p id="eb7ce752-c0d3-411a-97c1-21e680a2c020" rend="left">
+    <p id="eb7ce752-c0d3-411a-97c1-21e680a2c020">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -8403,13 +8428,13 @@
      </choice>
      , видно, умный.
     </p>
-    <p id="27ef37b6-75f6-41cf-afaa-cd17552fc3f0" rend="left">
+    <p id="27ef37b6-75f6-41cf-afaa-cd17552fc3f0">
      <hi rend="Razradka">
       Михайла
      </hi>
      . За тебя заступился.
     </p>
-    <p id="aa75891d-9aaa-4ee0-ba2c-067b936f923e" rend="left">
+    <p id="aa75891d-9aaa-4ee0-ba2c-067b936f923e">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -8424,7 +8449,7 @@
      </choice>
      .
     </p>
-    <p id="239939b9-e4ef-4043-a914-351c62c401b4" rend="left">
+    <p id="239939b9-e4ef-4043-a914-351c62c401b4">
      (
      <hi rend="italic">
       Михайла
@@ -8439,7 +8464,7 @@
       .)
      </hi>
     </p>
-    <p id="ce1d7867-acd5-4e52-aa7e-f919307b0ce1" rend="left">
+    <p id="ce1d7867-acd5-4e52-aa7e-f919307b0ce1">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -8457,7 +8482,7 @@
        вчерашние
       </reg>
       <orig>
-       вчерашнiе
+       вчерашніе
       </orig>
      </choice>
      ты
@@ -8471,7 +8496,7 @@
      </choice>
      что ль?
     </p>
-    <p id="94061a7c-75d8-463c-b1e7-66d13e58cf6a" rend="left">
+    <p id="94061a7c-75d8-463c-b1e7-66d13e58cf6a">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -8486,7 +8511,7 @@
      </choice>
      ты взяла.
     </p>
-    <p id="a935ee4e-bf0a-48ef-b879-fb4777b41fd0" rend="left">
+    <p id="a935ee4e-bf0a-48ef-b879-fb4777b41fd0">
      (
      <hi rend="italic">
       <choice>
@@ -8517,7 +8542,7 @@
       .)
      </hi>
     </p>
-    <p id="68cf0088-ceda-4b99-b941-66d0bd5e9782" rend="left">
+    <p id="68cf0088-ceda-4b99-b941-66d0bd5e9782">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -8543,13 +8568,13 @@
      </hi>
      Матушка, не ты взяла покупку?
     </p>
-    <p id="b5ecac42-b0cd-41c1-9859-4ebe09806c8c" rend="left">
+    <p id="b5ecac42-b0cd-41c1-9859-4ebe09806c8c">
      <hi rend="Razradka">
       Акулина
      </hi>
      . И знать не знаю.
     </p>
-    <p id="504b2fb7-d03e-418f-a391-717f950605b3" rend="left">
+    <p id="504b2fb7-d03e-418f-a391-717f950605b3">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -8573,7 +8598,7 @@
      </choice>
      .
     </p>
-    <p id="384db2bb-3eb5-4525-9b43-500a6ca35480" rend="left">
+    <p id="384db2bb-3eb5-4525-9b43-500a6ca35480">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -8588,7 +8613,7 @@
      </choice>
      .
     </p>
-    <p id="8db8ef71-5d6e-4650-b7d2-1630b8f61a77" rend="left">
+    <p id="8db8ef71-5d6e-4650-b7d2-1630b8f61a77">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -8615,7 +8640,7 @@
       .)
      </hi>
     </p>
-    <p id="e21cdeae-494e-4b99-8201-338b60aa686b" rend="left">
+    <p id="e21cdeae-494e-4b99-8201-338b60aa686b">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -8649,7 +8674,7 @@
       .)
      </hi>
     </p>
-    <p id="d0d7db47-1d74-4e08-9e7e-55d1d9547862" rend="left">
+    <p id="d0d7db47-1d74-4e08-9e7e-55d1d9547862">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -8680,7 +8705,7 @@
      </choice>
      , что ли.
     </p>
-    <p id="534b7735-91cc-444a-88f6-98c77c7b6152" rend="left">
+    <p id="534b7735-91cc-444a-88f6-98c77c7b6152">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -8713,7 +8738,7 @@
      </choice>
      .
     </p>
-    <p id="ba251f90-4d9d-4bf4-9288-f3e68ee0db4b" rend="left">
+    <p id="ba251f90-4d9d-4bf4-9288-f3e68ee0db4b">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -8743,7 +8768,7 @@
      </choice>
      , что же такое?
     </p>
-    <p id="ba04373c-c946-484b-8e57-21492fea5404" rend="left">
+    <p id="ba04373c-c946-484b-8e57-21492fea5404">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -8844,7 +8869,7 @@
      </choice>
      .
     </p>
-    <p id="08c6f145-22d5-4b61-9031-e63a10775233" rend="left">
+    <p id="08c6f145-22d5-4b61-9031-e63a10775233">
      <pb n="224"/>
      Михайла.
      <choice>
@@ -8875,7 +8900,7 @@
      </choice>
      .
     </p>
-    <p id="6f1c954d-1ead-40bd-93b7-35d82cd1bb73" rend="left">
+    <p id="6f1c954d-1ead-40bd-93b7-35d82cd1bb73">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -8892,12 +8917,12 @@
        прохожий
       </reg>
       <orig>
-       прохожiй
+       прохожій
       </orig>
      </choice>
      ?
     </p>
-    <p id="7cf7e200-6f22-4b9e-af4c-94d7e746270e" rend="left">
+    <p id="7cf7e200-6f22-4b9e-af4c-94d7e746270e">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -8912,7 +8937,7 @@
      </choice>
      себя худощавый, безбородый.
     </p>
-    <p id="a2e2b94b-a204-46a5-a760-4e8e52a8f271" rend="left">
+    <p id="a2e2b94b-a204-46a5-a760-4e8e52a8f271">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -8935,7 +8960,7 @@
      </choice>
      .
     </p>
-    <p id="9d5a58ab-aae7-4603-86ca-2146d709b941" rend="left">
+    <p id="9d5a58ab-aae7-4603-86ca-2146d709b941">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -8965,13 +8990,13 @@
      </choice>
      горбинкой?
     </p>
-    <p id="13c6ba7c-4150-402e-89db-e35fccd72d1a" rend="left">
+    <p id="13c6ba7c-4150-402e-89db-e35fccd72d1a">
      <hi rend="Razradka">
       Михайла
      </hi>
      . Ну да.
     </p>
-    <p id="f822cc6f-0c3e-4ab7-9b53-55b76e62ad5b" rend="left">
+    <p id="f822cc6f-0c3e-4ab7-9b53-55b76e62ad5b">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -9010,7 +9035,7 @@
      </choice>
      .
     </p>
-    <p id="950435cf-0038-43b1-8173-4c10349d5e8e" rend="left">
+    <p id="950435cf-0038-43b1-8173-4c10349d5e8e">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -9043,7 +9068,7 @@
      </choice>
      ?
     </p>
-    <p id="5ed08448-aa14-44f1-99eb-c0fa44b49203" rend="left">
+    <p id="5ed08448-aa14-44f1-99eb-c0fa44b49203">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -9074,7 +9099,7 @@
      </choice>
      .
     </p>
-    <p id="70c8bf55-9135-4e62-8cac-0622fd4d9fa6" rend="left">
+    <p id="70c8bf55-9135-4e62-8cac-0622fd4d9fa6">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -9107,10 +9132,10 @@
       </choice>
       <choice>
        <reg>
-        сосњдом
+        сосѣдом
        </reg>
        <orig>
-        сосњдомъ
+        сосѣдомъ
        </orig>
       </choice>
       ).
@@ -9135,7 +9160,7 @@
      </choice>
      это.
     </p>
-    <p id="17582f29-bda1-472b-bbd1-16b34f6edf34" rend="left">
+    <p id="17582f29-bda1-472b-bbd1-16b34f6edf34">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -9176,7 +9201,7 @@
      </choice>
      .
     </p>
-    <p id="64f0dfe0-d78c-4d53-88e0-d362335f3b70" rend="left">
+    <p id="64f0dfe0-d78c-4d53-88e0-d362335f3b70">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -9576,7 +9601,7 @@
        Горячий
       </reg>
       <orig>
-       Горячiй
+       Горячій
       </orig>
      </choice>
      <choice>
@@ -9711,7 +9736,7 @@
      </choice>
      дерево облюбовать.
     </p>
-    <p id="d1b3ee0a-ccbe-4ec3-b380-df359b35e705" rend="left">
+    <p id="d1b3ee0a-ccbe-4ec3-b380-df359b35e705">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -9783,12 +9808,12 @@
        хороший
       </reg>
       <orig>
-       хорошiй
+       хорошій
       </orig>
      </choice>
      .
     </p>
-    <p id="4df9cd72-08af-43b9-b616-cd94e6d56a74" rend="left">
+    <p id="4df9cd72-08af-43b9-b616-cd94e6d56a74">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -9812,7 +9837,7 @@
      </choice>
      такого нечего.
     </p>
-    <p id="f326dde7-a920-49e3-9d19-22cde33ed689" rend="left">
+    <p id="f326dde7-a920-49e3-9d19-22cde33ed689">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -9844,7 +9869,7 @@
      </choice>
      , видно.
     </p>
-    <p id="88588898-b275-42da-8e6e-c5fd12cafa8f" rend="left">
+    <p id="88588898-b275-42da-8e6e-c5fd12cafa8f">
      <hi rend="italic">
       (
       <choice>
@@ -9919,7 +9944,7 @@
       .)
      </hi>
     </p>
-    <p id="9e796ee3-30f6-4bc5-89e8-36399b3e7e84" rend="left">
+    <p id="9e796ee3-30f6-4bc5-89e8-36399b3e7e84">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -9966,7 +9991,7 @@
         къ
        </orig>
       </choice>
-      женњ).
+      женѣ).
      </hi>
      У него
      <choice>
@@ -10004,7 +10029,7 @@
      </choice>
      .
     </p>
-    <p id="078ac032-9ace-4828-bfc1-ace8fcf515f0" rend="left">
+    <p id="078ac032-9ace-4828-bfc1-ace8fcf515f0">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -10047,7 +10072,7 @@
      </choice>
      .
     </p>
-    <p id="2bc43f37-796b-40eb-869a-927db8efdda7" rend="left">
+    <p id="2bc43f37-796b-40eb-869a-927db8efdda7">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -10122,14 +10147,14 @@
      </choice>
      что попало.
     </p>
-    <p id="130887eb-062a-4c68-83bb-6d245865cec5" rend="left">
+    <p id="130887eb-062a-4c68-83bb-6d245865cec5">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -10148,7 +10173,7 @@
         волнении
        </reg>
        <orig>
-        волненiи
+        волненіи
        </orig>
       </choice>
       ).
@@ -10168,7 +10193,7 @@
        экспроприатор
       </reg>
       <orig>
-       экспропрiаторъ
+       экспропріаторъ
       </orig>
      </choice>
      . Я
@@ -10200,7 +10225,7 @@
      </choice>
      .
     </p>
-    <p id="db1dfcbe-3583-4170-b646-d084fba19858" rend="left">
+    <p id="db1dfcbe-3583-4170-b646-d084fba19858">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -10239,14 +10264,14 @@
      </choice>
      уряднику?
     </p>
-    <p id="28897ab7-4961-441b-a74d-83513bc6316a" rend="left">
+    <p id="28897ab7-4961-441b-a74d-83513bc6316a">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -10265,12 +10290,12 @@
        убеждения
       </reg>
       <orig>
-       убѣжденiя
+       убѣжденія
       </orig>
      </choice>
      . Кабы вы были люди образованные, вы бы могли понимать...
     </p>
-    <p id="7bae4806-8d05-4f6a-9ede-288fce215a0f" rend="left">
+    <p id="7bae4806-8d05-4f6a-9ede-288fce215a0f">
      <pb n="225"/>
      Марфа
      <hi rend="italic">
@@ -10330,7 +10355,7 @@
      </choice>
      .
     </p>
-    <p id="1d898307-cefd-4dc5-907d-9b3f961b9c51" rend="left">
+    <p id="1d898307-cefd-4dc5-907d-9b3f961b9c51">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -10412,13 +10437,13 @@
      </choice>
      .
     </p>
-    <p id="edaf687c-690d-42cc-b436-6a23a347ad30" rend="left">
+    <p id="edaf687c-690d-42cc-b436-6a23a347ad30">
      <hi rend="Razradka">
       Марфа
      </hi>
      . Жалко его сердечного.
     </p>
-    <p id="5053b6a3-5f42-4910-a870-19aef4d0e08e" rend="left">
+    <p id="5053b6a3-5f42-4910-a870-19aef4d0e08e">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -10552,7 +10577,7 @@
        положении
       </reg>
       <orig>
-       положенiи
+       положеніи
       </orig>
      </choice>
      , a
@@ -10658,7 +10683,7 @@
        положении
       </reg>
       <orig>
-       положенiи
+       положеніи
       </orig>
      </choice>
      , и не хочу я тебя
@@ -10740,7 +10765,7 @@
      </hi>
      А ты меня учить хочешь.
     </p>
-    <p id="c5d7a983-2521-4aa6-90bd-b585339e5d0a" rend="left">
+    <p id="c5d7a983-2521-4aa6-90bd-b585339e5d0a">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -10771,7 +10796,7 @@
      </choice>
      .
     </p>
-    <p id="ba0f505c-976e-45f5-b46e-aa305852aace" rend="left">
+    <p id="ba0f505c-976e-45f5-b46e-aa305852aace">
      <hi rend="Razradka">
       Михайла
      </hi>
@@ -10866,18 +10891,18 @@
         Къ
        </orig>
       </choice>
-      женњ.)
+      женѣ.)
      </hi>
      А ты меня учить хочешь. Иди, сказано иди. Растабарывать нечего.
     </p>
-    <p id="d9a18cac-d64d-45c6-9978-d9ab7ba2007f" rend="left">
+    <p id="d9a18cac-d64d-45c6-9978-d9ab7ba2007f">
      <hi rend="Razradka">
       <choice>
        <reg>
         Прохожий
        </reg>
        <orig>
-        Прохожiй
+        Прохожій
        </orig>
       </choice>
      </hi>
@@ -11040,7 +11065,7 @@
       .)
      </hi>
     </p>
-    <p id="4876fdf0-9ee0-46ff-a92f-11230b757360" rend="left">
+    <p id="4876fdf0-9ee0-46ff-a92f-11230b757360">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -11070,16 +11095,16 @@
      </choice>
      , сердешный.
     </p>
-    <p id="43a08b20-6978-40c5-83c2-bf8f2e67ea3e" rend="left">
+    <p id="43a08b20-6978-40c5-83c2-bf8f2e67ea3e">
      <hi rend="Razradka">
       Михайлa
      </hi>
      <hi rend="italic">
-      (женњ).
+      (женѣ).
      </hi>
      А ты меня учить хочешь.
     </p>
-    <p id="64fc9d03-a383-4f4a-88df-18e4c7988c7e" rend="left">
+    <p id="64fc9d03-a383-4f4a-88df-18e4c7988c7e">
      <hi rend="Razradka">
       Акулина
      </hi>
@@ -11102,7 +11127,7 @@
      </choice>
      .
     </p>
-    <p id="474e0755-3914-42f4-86f5-280ba7a6c60a" rend="left">
+    <p id="474e0755-3914-42f4-86f5-280ba7a6c60a">
      <hi rend="Razradka">
       Марфа
      </hi>
@@ -11117,7 +11142,7 @@
      </choice>
      , а то бы и на заварку не было.
     </p>
-    <p id="967f0e74-ed7d-480b-a427-bb62a719258f" rend="center italic left">
+    <p id="967f0e74-ed7d-480b-a427-bb62a719258f" rend="center italic">
      <hi rend="italic">
       <choice>
        <reg>

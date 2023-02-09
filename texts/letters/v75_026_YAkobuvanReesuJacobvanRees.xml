@@ -9,17 +9,41 @@
                 <title type="main">Письмо Якобу ван Реесу (Jacob van Rees) от 21 января 1904 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Якобу ван Реесу (Jacob van Rees), 21 января 1904 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 75. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 75</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">25-26</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -94,14 +123,14 @@
     <opener index="false">
      * 26.
      <name placement="text" ref="11598" type="person">
-      Якобу ван Рееcу (Jacob van Rees)
+      Якобу ван Peecy (Jacob van Rees)
      </name>
      .1904 г. Января 21/февраля 3. Я. П.
     </opener>
-    <p id="943299ab-f240-4c59-8df6-4707544a569f" rend="Obrashenie left">
+    <p id="943299ab-f240-4c59-8df6-4707544a569f" rend="Obrashenie">
      Lieber Freund!
     </p>
-    <p id="157b6291-85b3-4c0b-bcf3-a020987925e5" rend="left">
+    <p id="157b6291-85b3-4c0b-bcf3-a020987925e5">
      Es war mir eine grosse Freude Ihren Brief mit den guten Nachrichten von Jan Terwey’s
      <ref target="#note1">
       1
@@ -114,16 +143,16 @@
      </note>
      Weigerung vom Militärdienste zu erhalten und wieder mit Ihnen in Verkehr zu kommen.
     </p>
-    <p id="92f01ea7-6735-4822-8a81-42b945500c9b" rend="left">
+    <p id="92f01ea7-6735-4822-8a81-42b945500c9b">
      Obgleich ich den Kummer seiner Mutter und die schweren Stunden, die er zu ertragen hat, vom Herzen bedauere, kann ich seine Absagung nicht anders als eine gute Nachricht ansehen. In Russland mit jedem Jahre kommen solche Fälle öfters und öfters vor, und wenn ich von solchen Fällen wie auch von Terwey höre, empfinde ich immer dasselbe gemischte Gefühl: von Neid, dass nicht ich, sondern ein anderer diese gute That vollbracht hat, von Schande, dass ich in Ruhe und Wohlsein lebe, indem ein anderer für uns leidet, und von Reue, dass ich mit meinen Schreiben vielleicht die Uisache dieses Leidens war.
     </p>
-    <p id="36659527-2ea6-4f03-bc18-c06dba909396" rend="left">
+    <p id="36659527-2ea6-4f03-bc18-c06dba909396">
      Das lebhaftigste Gefühl aber, das ich bei solchen Nachrichten empfinde, ist Freude für den Vorschritt der Erfüllung des Reiches Gottes, und Liebe für die Menschen, die für diese Erfüllung leiden.
     </p>
-    <p id="d7430b57-7b35-41ed-9abf-390f3aa2dadb" rend="left">
+    <p id="d7430b57-7b35-41ed-9abf-390f3aa2dadb">
      Uebergeben Sie, ich bitte, Terwey meine Liebe, wenn es ihm angenehm sein kann, und seien Sie so gut mich von seinem weiteren Schicksale zu benachrichten.
     </p>
-    <p id="8c6d3dee-2de1-43cc-bf11-92311e7873fc" rend="left">
+    <p id="8c6d3dee-2de1-43cc-bf11-92311e7873fc">
      Es freut mich sehr dass Ihre religiöse Weltanschauung mehr und mehr verbreitet wird. Man muss wirken mit der vollen Ueberzeugung, dass man den Erfolg seiner Tätigkeit nicht sehen wird, und jeden Zeichen des Erfolges als Etwas Unerwartetes annehmen doch des ungeachtet fest glauben dass der Erfolg nicht fehlen kann.
     </p>
     <p id="68a7360d-7b2a-4945-9469-4dcefb213fe0" rend="subtitle centerline">
@@ -135,17 +164,17 @@
     <p id="685f95cc-1413-4901-93b4-afe4bfbec58d" rend="right">
      Leo Tolstoy.
     </p>
-    <p id="4c7e8329-a7c2-4972-80a7-f1abc1782d88" rend="left">
+    <p id="4c7e8329-a7c2-4972-80a7-f1abc1782d88">
      3. II. 904
     </p>
-    <p id="30e17996-2544-4aaf-b8dc-ca1b1beb315a" rend="left">
+    <p id="30e17996-2544-4aaf-b8dc-ca1b1beb315a">
      Jasnaja Polyana.
     </p>
     <lb/>
-    <p id="226ccdd9-10ed-47cd-99be-1fd085b493b7" rend="Obrashenie petit left">
+    <p id="226ccdd9-10ed-47cd-99be-1fd085b493b7" rend="Obrashenie petit">
      Дорогой друг!
     </p>
-    <p id="fd1852b6-dcac-4356-ba60-0a5df85f791c" rend="petit left">
+    <p id="fd1852b6-dcac-4356-ba60-0a5df85f791c" rend="petit">
      Очень рад был получить ваше письмо с хорошими вестями об отказе
      <name placement="text" ref="13652" type="person">
       Яна Тервея
@@ -179,10 +208,10 @@
      </name>
      .
     </p>
-    <p id="73bae8ee-aad1-435e-8716-82f35739aa08" rend="petit left">
+    <p id="73bae8ee-aad1-435e-8716-82f35739aa08" rend="petit">
      3. II. 904
     </p>
-    <p id="bf9a63ab-bc8f-433d-873c-7607ba977a0f" rend="petit left">
+    <p id="bf9a63ab-bc8f-433d-873c-7607ba977a0f" rend="petit">
      Ясная Поляна.
     </p>
     <noteGrp type="comments">
@@ -192,7 +221,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="0d0b666e-e428-48e6-a620-74dd259ef64a" rend="petit left">
+      <p id="0d0b666e-e428-48e6-a620-74dd259ef64a" rend="petit">
        <name placement="comments" ref="11598" type="person">
         Якоб ван Реес
        </name>
@@ -200,7 +229,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="978fa0b0-6d17-4806-988c-e1d0384fcb4a" rend="petit left">
+      <p id="978fa0b0-6d17-4806-988c-e1d0384fcb4a" rend="petit">
        Ответ на большое письмо ван Рееса от 8 января н. с. 1904 г., в котором он сообщал об отказе голландца
        <name placement="comments" ref="13652" type="person">
         Яна Тервея

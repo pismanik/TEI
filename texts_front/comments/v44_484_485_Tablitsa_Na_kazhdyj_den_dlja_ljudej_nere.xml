@@ -1,92 +1,93 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v44_484_485_Tablitsa_Na_kazhdyj_den_dlja_ljudej_nere"> Комментарии. Tolstoy Digital </title>
-                <title type="main">«На каждый день». Таблица для людей нерелигиозных</title>
-                <title type="bibl">Гусев H. Н. Таблица «На каждый день» для людей нерелигиозных // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 44. М.: Гос. изд. «Художественная литература», 1932. С. </title>
-                <author>Н. Гусев</author>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name> Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp> Подготовка TEI/XML </resp>
-                    <name> Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова </name>                                 
-                </respStmt>
-                    <funder> Проект «Слово Толстого» </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName> Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого» </orgName>
-                </publisher>
-                <availability>
-                    <p id="76ccfb82-cb76-406b-b6fc-940765609ac9"> Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa) </p>
-                </availability>
-                <date from="2015-01-01" to="2022-01-01"/>
-            </publicationStmt>
-            <notesStmt>
-                <note> Публикуемые документы был получены с сайта tolstoy. ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author> Толстой Лев Николаевич </author>
-                        <title level="a"> Таблица «На каждый день» для людей нерелигиозных </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m"> Полное собрание сочинений. Том 44 </title>
-                        <imprint>
-                            <pubPlace> Москва </pubPlace>
-                            <publisher> Государственное издательство «Художественная литература» </publisher>
-                            <date from="1932-01-01" to="1932-12-31"/>
-                        </imprint>
-                        <biblScope unit="volume">44</biblScope>
-                        <biblScope unit="page">484-485</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s"> Л. Н. Толстой. Полное собрание сочинений. </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy_front.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef ana="#comments" target="type"/>
-                <catRef ana="#comments_works" target="comments_type"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <body>
-   <div id="ref13" type="section">
-    <p id="a3b07848-4d25-478e-b7a1-43e2b723d54a">
-      <pb n="484"></pb>
-    </p>
-    <p id="2595a852-9087-42fe-a406-78e0cb56ef3d">
-      <h3 class="center"> ТАБЛИЦА «НА КАЖДЫЙ ДЕНЬ» ДЛЯ ЛЮДЕЙ НЕРЕЛИГИОЗНЫХ </h3>
-    </p>
-    <div rend="image">
-     <p id="2e617b17-202e-4eba-bc8e-4f65dadf7cc8">
-      <img alt="" class="image" src="./img/b00008406.png"></img>
-    </p>
-    </div>
-    <p id="38c5abe9-f21f-4e9a-81b8-4991e1f38d18" rend="left">
-     <sup> 1 </sup> Отсутствие мыслей в этих числах объясняется тем, что в последней их редакции автором не были сделаны соответствующие пометки. </p>
-    <p id="cf8b2c2b-155e-4b82-9ce4-c02ce7cbd83a" rend="left">
-     <pb n="485"></pb>
-    </p>
-    <div rend="image">
-     <p id="e40381e9-9466-4329-81a9-957829bc27eb">
-      <img alt="" class="image" src="./img/b00008409.png"></img>
-    </p>
-    </div>
-   </div>
-  </body>
- </text></TEI>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:id="v44_484_485_Tablitsa_Na_kazhdyj_den_dlja_ljudej_nere">Комментарии. Tolstoy Digital </title>
+        <title type="main">«На каждый день». Таблица для людей нерелигиозных </title>
+        <title type="bibl">Гусев H. Н. Таблица «На каждый день» для людей нерелигиозных // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 44. М.: Гос. изд. «Художественная литература», 1932. С. </title>
+        <author>Н. Гусев </author>
+        <respStmt>
+          <resp>Идея, постановка задач, руководство: </resp>
+          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
+        </respStmt>
+        <respStmt>
+          <resp> Подготовка TEI/XML: </resp>
+          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров, Никита Северин, Елена Северина</name>
+        </respStmt>
+        <funder> Проект «Слово Толстого» </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого» </orgName>
+        </publisher>
+        <availability>
+          <p id="76ccfb82-cb76-406b-b6fc-940765609ac9">Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa) </p>
+        </availability>
+        <date from="2015-01-01" to="2022-01-01"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>Публикуемые документы был получены с сайта tolstoy. ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. </note>
+      </notesStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author>Толстой Лев Николаевич </author>
+            <title level="a">Таблица «На каждый день» для людей нерелигиозных </title>
+          </analytic>
+          <monogr>
+            <title level="m">Полное собрание сочинений. Том 44 </title>
+            <imprint>
+              <pubPlace>Москва </pubPlace>
+              <publisher>Государственное издательство «Художественная литература» </publisher>
+              <date from="1932-01-01" to="1932-12-31"/>
+            </imprint>
+            <biblScope unit="volume">44 </biblScope>
+            <biblScope unit="page">484-485 </biblScope>
+          </monogr>
+          <series>
+            <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт. </title>
+          </series>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <xi:include href="../../reference/taxonomy_front.xml"/>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef ana="#comments" target="type"/>
+        <catRef ana="#comments_works" target="comments_type"/>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <body>
+      <div id="ref13" type="section">
+        <p id="c49a15c2-d9ce-4df2-8c2a-11950893653d">
+          <pb n="484"></pb>
+        </p>
+        <p id="cbd0eef9-3f06-4a30-8062-0c441f491db6">
+          <h3 class="center">ТАБЛИЦА «НА КАЖДЫЙ ДЕНЬ» ДЛЯ ЛЮДЕЙ НЕРЕЛИГИОЗНЫХ </h3>
+        </p>
+        <div rend="image">
+          <p id="811bff6d-6649-4225-aad8-f040129ee60b">
+            <img alt="" class="image" src="./img/b00008406.png"></img>
+          </p>
+        </div>
+        <p id="38c5abe9-f21f-4e9a-81b8-4991e1f38d18">
+          <sup>1 </sup>Отсутствие мыслей в этих числах объясняется тем, что в последней их редакции автором не были сделаны соответствующие пометки.</p>
+        <p id="cf8b2c2b-155e-4b82-9ce4-c02ce7cbd83a">
+          <pb n="485"></pb>
+        </p>
+        <div rend="image">
+          <p id="bdea5836-cfc4-4465-bc17-a8d4961d633f">
+            <img alt="" class="image" src="./img/b00008409.png"></img>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

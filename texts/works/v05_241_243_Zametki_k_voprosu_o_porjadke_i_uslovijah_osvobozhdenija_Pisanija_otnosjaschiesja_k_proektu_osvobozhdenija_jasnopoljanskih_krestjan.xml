@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v05_241_243_Zametki_k_voprosu_o_porjadke_i_uslovijah_osvobozhdenija_Pisanija_otnosjaschiesja_k_proektu_osvobozhdenija_jasnopoljanskih_krestjan" resp="volume_editor">
-                    2. [Заметки (А и Б) к вопросу о порядке и условиях освобождения]. Tolstoy Digital
+                    2. [Заметки (А и Б) к вопросу о порядке и условиях освобождения]. Произведения. Tolstoy Digital
                 </title>
                 <title type="main" resp="volume_editor">Заметки к вопросу о порядке и условиях освобождения.</title>
                 <title type="sub">Писания, относящиеся к проекту освобождения яснополянских крестьян</title>
-                <title type="bibl">Толстой Л. Н. 2. [Заметки (А и Б) к вопросу о порядке и условиях освобождения] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 5. М.: Гос. изд. «Художественная литература», 1935. С.</title>
+                <title type="bibl">Толстой Л. Н. 2. [Заметки (А и Б) к вопросу о порядке и условиях освобождения] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 5. М.: Гос. изд. «Художественная литература», 1935. С. 241–243.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1856"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#main" target="work_main"/>
@@ -122,15 +147,9 @@
      <head n="level2" type="editorial">
       [А]
      </head>
-     <p id="baeac31d-d9f4-4139-ae97-36ee0a223ebc" rend="left">
+     <p id="baeac31d-d9f4-4139-ae97-36ee0a223ebc">
       Помѣщикъ отдѣляетъ на крестьянскую общину извѣстную часть земли, не менѣе назначеннаго закономъ minimum’а по 4
-      <hi rend="sup">
-       1
-      </hi>
-      /
-      <hi rend="sub">
-       2
-      </hi>
+      <num type="fraction" value="1/2">1/2</num>
       <choice original_editorial_correction="дес[ятинъ]">
        <sic>
         дес
@@ -278,7 +297,7 @@
           установлении
          </reg>
          <orig>
-          установленiи
+          установленіи
          </orig>
         </choice>
        </corr>
@@ -288,7 +307,7 @@
         имения
        </reg>
        <orig>
-        имѣнiя
+        имѣнія
        </orig>
       </choice>
       ,
@@ -361,7 +380,7 @@
       </choice>
       . —
      </p>
-     <p id="699248c1-fe7a-42ff-b7bb-bf6b4d6b6f64" rend="left">
+     <p id="699248c1-fe7a-42ff-b7bb-bf6b4d6b6f64">
       Крестьяне увольняются
       <choice>
        <reg>
@@ -390,13 +409,13 @@
       </choice>
       . —
      </p>
-     <p id="69aa2364-9768-4ae4-b8cf-7d09107674ea" rend="left">
+     <p id="69aa2364-9768-4ae4-b8cf-7d09107674ea">
       <choice>
        <reg>
         Имение
        </reg>
        <orig>
-        Имѣнiе
+        Имѣніе
        </orig>
       </choice>
       не
@@ -410,7 +429,7 @@
       </choice>
       быть перезакладываемо. —
      </p>
-     <p id="82fdd550-54d4-407e-8ea9-d113870cf30c" rend="left">
+     <p id="82fdd550-54d4-407e-8ea9-d113870cf30c">
       Сумма, выплачиваемая
       <choice>
        <reg>
@@ -435,7 +454,7 @@
         установление
        </reg>
        <orig>
-        установленiе
+        установленіе
        </orig>
       </choice>
       . Ежели не
@@ -558,7 +577,7 @@
       </choice>
       крестьянской общиной. —
      </p>
-     <p id="9b9aa56e-e342-47a9-9997-3825c352d8a6" rend="left">
+     <p id="9b9aa56e-e342-47a9-9997-3825c352d8a6">
       Крестьяне
       <choice>
        <reg>
@@ -581,7 +600,7 @@
         ведение
        </reg>
        <orig>
-        веденiе
+        веденіе
        </orig>
       </choice>
       <choice original_editorial_correction="М[инистерства]">
@@ -624,16 +643,16 @@
       </choice>
       .
      </p>
-     <p id="2371897d-d195-4261-bc21-fa2b6c12e692" rend="left">
+     <p id="2371897d-d195-4261-bc21-fa2b6c12e692">
       Ежели Министерство Государственныхъ Имуществъ несогласно весь долгъ принять на крестьянъ съ землею, то по согласію съ Кредитнымъ установленіемъ раздѣляютъ долгъ, частью на крестьянскую, частью на помѣщичью землю. —
      </p>
-     <p id="8c0dd57f-210b-48af-b188-f016ea0a7edc" rend="left">
+     <p id="8c0dd57f-210b-48af-b188-f016ea0a7edc">
       Условіе со стороны крестьянъ должно быть добровольно. —
      </p>
-     <p id="199aaee6-68bb-49a0-b220-bb5073646aac" rend="left">
+     <p id="199aaee6-68bb-49a0-b220-bb5073646aac">
       Помѣщикъ, въ случае неуплаты крестьянъ, можетъ по урочной работѣ удовлетворять себя.
      </p>
-     <p id="6314df1b-148a-4fcb-99e4-faf1f06b2c75" rend="left">
+     <p id="6314df1b-148a-4fcb-99e4-faf1f06b2c75">
       По истеченіи срока выкупа изъ Кредитнаго установленія крестьяне съ землей свободны.
      </p>
     </div>
@@ -641,7 +660,7 @@
      <head n="level2" type="editorial">
       [Б]
      </head>
-     <p id="61bc6a6f-b0ea-4201-9f3f-c6361710aea2" rend="left">
+     <p id="61bc6a6f-b0ea-4201-9f3f-c6361710aea2">
       <choice original_editorial_correction="Пом[ѣщикъ]">
        <sic>
         Пом
@@ -731,7 +750,7 @@
       </choice>
       повинностей.
      </p>
-     <p id="9bebdbf6-9fe2-4244-aa7f-1aa547f4be0d" rend="left">
+     <p id="9bebdbf6-9fe2-4244-aa7f-1aa547f4be0d">
       2)
       <choice>
        <reg>
@@ -741,13 +760,7 @@
         Отдѣляетъ
        </orig>
       </choice>
-      <hi rend="sup">
-       1
-      </hi>
-      /
-      <hi rend="sub">
-       2
-      </hi>
+      <num type="fraction" value="1/2">1/2</num>
       дес. на душу
       <choice>
        <reg>
@@ -799,7 +812,7 @@
       </choice>
       .
      </p>
-     <p id="92ba207d-7849-409f-a990-ff081a601ce0" rend="left">
+     <p id="92ba207d-7849-409f-a990-ff081a601ce0">
       3)
       <choice>
        <reg>
@@ -828,13 +841,7 @@
        </orig>
       </choice>
       4
-      <hi rend="sup">
-       1
-      </hi>
-      /
-      <hi rend="sub">
-       2
-      </hi>
+      <num type="fraction" value="1/2">1/2</num>
       дес. на тягло, или ту землю, которой они
       <choice>
        <reg>
@@ -858,7 +865,7 @@
         условиях
        </reg>
        <orig>
-        условiяхъ
+        условіяхъ
        </orig>
       </choice>
       , ежели крестьянская община на то
@@ -872,7 +879,7 @@
       </choice>
       согласна:
      </p>
-     <p id="47759a8f-8c87-4fc3-bcbc-5df5e2df6c8b" rend="left">
+     <p id="47759a8f-8c87-4fc3-bcbc-5df5e2df6c8b">
       а) община
       <choice>
        <reg>
@@ -903,7 +910,7 @@
         продолжении
        </reg>
        <orig>
-        продолженiи
+        продолженіи
        </orig>
       </choice>
       <choice>
@@ -916,7 +923,7 @@
       </choice>
       срока наемную справочную плату ежегодно за каждую десятину;
      </p>
-     <p id="59b1c950-b0f4-4bbf-b243-9000ee8ec6b8" rend="left">
+     <p id="59b1c950-b0f4-4bbf-b243-9000ee8ec6b8">
       в)
       <choice>
        <reg>
@@ -957,7 +964,7 @@
         погашения
        </reg>
        <orig>
-        погашенiя
+        погашенія
        </orig>
       </choice>
       <ref target="#note209">
@@ -998,14 +1005,14 @@
       </choice>
       .
      </p>
-     <p id="7387a785-ba48-48b2-b1ac-8616ed896432" rend="left">
+     <p id="7387a785-ba48-48b2-b1ac-8616ed896432">
       4)
       <choice>
        <reg>
         Имение
        </reg>
        <orig>
-        Имѣнiе
+        Имѣніе
        </orig>
       </choice>
       <choice>
@@ -1029,7 +1036,7 @@
         ведение
        </reg>
        <orig>
-        вѣденiе
+        вѣденіе
        </orig>
       </choice>
       <choice>
@@ -1050,14 +1057,14 @@
       </choice>
       .
      </p>
-     <p id="181b58cd-7fc0-444d-b5ab-bf10f02e216d" rend="left">
+     <p id="181b58cd-7fc0-444d-b5ab-bf10f02e216d">
       5) По
       <choice>
        <reg>
         истечении
        </reg>
        <orig>
-        истеченiи
+        истеченіи
        </orig>
       </choice>
       <choice>
@@ -1159,7 +1166,7 @@
       </choice>
       земли.
      </p>
-     <p id="9fd67cec-eca9-4dab-8df2-098103286a96" rend="left">
+     <p id="9fd67cec-eca9-4dab-8df2-098103286a96">
       6)
       <choice>
        <reg>
@@ -1174,7 +1181,7 @@
         имении
        </reg>
        <orig>
-        имѣнiи
+        имѣніи
        </orig>
       </choice>
       <choice>
@@ -1252,7 +1259,7 @@
         обезпечение
        </reg>
        <orig>
-        обезпеченiе
+        обезпеченіе
        </orig>
       </choice>
       <choice original_editorial_correction="крест[ьянской]">
@@ -1309,7 +1316,7 @@
           учреждению
          </reg>
          <orig>
-          учрежденiю
+          учрежденію
          </orig>
         </choice>
        </corr>
@@ -1407,7 +1414,7 @@
           погашения
          </reg>
          <orig>
-          погашенiя
+          погашенія
          </orig>
         </choice>
         ,
@@ -1433,7 +1440,7 @@
           установление
          </reg>
          <orig>
-          установленiе
+          установленіе
          </orig>
         </choice>
         , то
@@ -1506,7 +1513,7 @@
           ведение
          </reg>
          <orig>
-          вѣденiе
+          вѣденіе
          </orig>
         </choice>
         <choice>
@@ -1514,7 +1521,7 @@
           имение
          </reg>
          <orig>
-          имѣнiе
+          имѣніе
          </orig>
         </choice>
         <choice>
@@ -1669,7 +1676,7 @@
         обезпечением
        </reg>
        <orig>
-        обезпеченiемъ
+        обезпеченіемъ
        </orig>
       </choice>
       долга крестьянскую землю, то
@@ -1701,7 +1708,7 @@
         установлению
        </reg>
        <orig>
-        установленiю
+        установленію
        </orig>
       </choice>
       по ценности земли на
@@ -1736,7 +1743,7 @@
         установлению
        </reg>
        <orig>
-        установленiю
+        установленію
        </orig>
       </choice>
       ,
@@ -1785,7 +1792,7 @@
       </choice>
       .
      </p>
-     <p id="dc31bb49-6419-49ea-9069-8ff96b39606f" rend="left">
+     <p id="dc31bb49-6419-49ea-9069-8ff96b39606f">
       7) Для уплаты
       <choice>
        <reg>
@@ -1818,7 +1825,7 @@
         согласию
        </reg>
        <orig>
-        согласiю
+        согласію
        </orig>
       </choice>
       удовлетворять
@@ -1875,7 +1882,7 @@
       </choice>
       .
      </p>
-     <p id="962ba3e8-65f0-40d9-a4da-072ed592fef7" rend="left">
+     <p id="962ba3e8-65f0-40d9-a4da-072ed592fef7">
       8) Дворовые
       <choice>
        <reg>

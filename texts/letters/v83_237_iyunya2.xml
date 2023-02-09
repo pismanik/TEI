@@ -9,17 +9,41 @@
                 <title type="main">Письмо С.А.Толстой от 2 июня 1883 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 2 июня 1883 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 83. М.: Гос. изд. «Художественная литература», 1938. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 83</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">382-383</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -102,7 +132,7 @@
         июня
        </reg>
        <orig>
-        iюня
+        іюня
        </orig>
       </choice>
       ,
@@ -117,7 +147,7 @@
       .
      </hi>
     </p>
-    <p id="9bf74882-9d49-4b42-a1f7-509a91dc0aae" rend="left">
+    <p id="9bf74882-9d49-4b42-a1f7-509a91dc0aae">
      <choice>
       <reg>
        Последнее
@@ -207,7 +237,7 @@
        путешествием
       </reg>
       <orig>
-       путешествiемъ
+       путешествіемъ
       </orig>
      </choice>
      и
@@ -311,7 +341,7 @@
        присутствие
       </reg>
       <orig>
-       присутствiе
+       присутствіе
       </orig>
      </choice>
      <choice>
@@ -335,7 +365,7 @@
        спокойствие
       </reg>
       <orig>
-       спокойствiе
+       спокойствіе
       </orig>
      </choice>
      , но не
@@ -420,7 +450,7 @@
        усердием
       </reg>
       <orig>
-       усердiемъ
+       усердіемъ
       </orig>
      </choice>
      ; но
@@ -536,7 +566,7 @@
        отчаяние
       </reg>
       <orig>
-       отчаянiе
+       отчаяніе
       </orig>
      </choice>
      .
@@ -814,7 +844,7 @@
      </choice>
      .
     </p>
-    <p id="3f99858e-c1dc-412b-86bd-d1a61e02eeaa" rend="left">
+    <p id="3f99858e-c1dc-412b-86bd-d1a61e02eeaa">
      Живется
      <choice>
       <reg>
@@ -935,7 +965,7 @@
         </reg>
         <orig>
          <name placement="text" ref="250" type="person">
-          Василiемъ
+          Василіемъ
          </name>
         </orig>
        </choice>
@@ -1118,7 +1148,7 @@
      </choice>
      , что я окумысился.
     </p>
-    <p id="a9af724e-0ab7-4b0d-83bc-26ec451c30c0" rend="left">
+    <p id="a9af724e-0ab7-4b0d-83bc-26ec451c30c0">
      <choice>
       <reg>
        Здесь
@@ -1200,7 +1230,7 @@
         </reg>
         <orig>
          <name placement="text" ref="250" type="person">
-          Василiемъ
+          Василіемъ
          </name>
         </orig>
        </choice>
@@ -1288,7 +1318,7 @@
        христианском
       </reg>
       <orig>
-       христiанскомъ
+       христіанскомъ
       </orig>
      </choice>
      <choice>
@@ -1334,7 +1364,7 @@
        сношений
       </reg>
       <orig>
-       сношенiй
+       сношеній
       </orig>
      </choice>
      <choice>
@@ -1467,7 +1497,7 @@
        сравнении
       </reg>
       <orig>
-       сравненiи
+       сравненіи
       </orig>
      </choice>
      <choice>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. А. Маклакову от 21 января 1908 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. А. Маклакову, 21 января 1908 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 78. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 78</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">31-32</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,7 +127,7 @@
      </name>
      .1908 г. Января 21. Я. П.
     </opener>
-    <p id="6ea01673-b74c-4e33-be69-b5a2f23b7987" rend="left">
+    <p id="6ea01673-b74c-4e33-be69-b5a2f23b7987">
      Вы меня обяжете, милый
      <name placement="text" ref="8358" type="person">
       Василий Алексеевич
@@ -121,7 +150,7 @@
      </name>
      .
     </p>
-    <p id="d5b15829-fe8b-463a-b639-62a7f18bded6" rend="left">
+    <p id="d5b15829-fe8b-463a-b639-62a7f18bded6">
      21 янв. 1908.
     </p>
     <noteGrp type="comments">
@@ -135,7 +164,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="1750c2ad-5001-4ed2-b3f0-4042289e0d3c" rend="petit left">
+      <p id="1750c2ad-5001-4ed2-b3f0-4042289e0d3c" rend="petit">
        О судебном деле H. Е. Фельтена
        <ref target="file:///Volume_77_H.E.Feltenu_182.xml">
         см. т. 77, письмо № 182
@@ -144,7 +173,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="83400c94-7590-4436-8695-b6e1b2bda203" rend="left">
+      <p id="83400c94-7590-4436-8695-b6e1b2bda203">
        <pb n="32"/>
       </p>
      </note>

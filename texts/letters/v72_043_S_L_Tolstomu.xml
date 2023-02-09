@@ -9,17 +9,41 @@
                 <title type="main">Письмо С. Л. Толстому от 15 февраля 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. Л. Толстому, 15 февраля 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">72-74</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,7 +128,7 @@
      </name>
      .1899 г. Февраля 15, Москва.
     </opener>
-    <p id="dd8c1011-b748-462b-97f2-751dc26ad52b" rend="left">
+    <p id="dd8c1011-b748-462b-97f2-751dc26ad52b">
      <choice>
       <reg>
        Получил
@@ -396,7 +426,7 @@
        полиции
       </reg>
       <orig>
-       полицiи
+       полиціи
       </orig>
      </choice>
      . St. John,
@@ -423,7 +453,7 @@
        присоединение
       </reg>
       <orig>
-       присоединенiе
+       присоединеніе
       </orig>
      </choice>
      <choice>
@@ -513,7 +543,7 @@
          Кипрские
         </reg>
         <orig>
-         Кипрскiе
+         Кипрскіе
         </orig>
        </choice>
       </corr>
@@ -593,7 +623,7 @@
        обзаведение
       </reg>
       <orig>
-       обзаведенiе
+       обзаведеніе
       </orig>
      </choice>
      ,
@@ -736,7 +766,7 @@
        Киев
       </reg>
       <orig>
-       Кiевъ
+       Кіевъ
       </orig>
      </choice>
      <choice>
@@ -785,7 +815,7 @@
        воспаление
       </reg>
       <orig>
-       воспаленiе
+       воспаленіе
       </orig>
      </choice>
      <choice>
@@ -1102,7 +1132,7 @@
       Шекеры — секта, возникшая в 1747 г. в Манчестере и переселившаяся в Северную Америку. Основные положения секты: безбрачие, отказ от военной службы и присяги, общность имущества. Толстой особенно интересовался этой сектой в 1889 г., когда писал «Крейцерову сонату»; был в переписке с шекерами. См. Дневник и письма 1889 г., тт. 50 и 64. Учение шекеров изложено в книгах: Nordhoff, «The Communistic Societies of the United States», London, 1875; Evans, «Shaker’s Compendium of the Origin, History, Principles etc.», New-York, 1856.
      </note>
     </p>
-    <p id="ae12355f-097a-4acb-8988-42ddbb698400" rend="left">
+    <p id="ae12355f-097a-4acb-8988-42ddbb698400">
      Таня
      <ref target="#note9">
       9
@@ -1231,7 +1261,7 @@
        отвращение
       </reg>
       <orig>
-       отвращенiе
+       отвращеніе
       </orig>
      </choice>
      <choice>
@@ -1247,7 +1277,7 @@
        Воскресению
       </reg>
       <orig>
-       Воскресенiю
+       Воскресенію
       </orig>
      </choice>
      <ref target="#note14">
@@ -1283,7 +1313,7 @@
        продолжение
       </reg>
       <orig>
-       продолженiе
+       продолженіе
       </orig>
      </choice>
      <hi style="opdelimiter">
@@ -1292,13 +1322,13 @@
         исправлений
        </reg>
        <orig>
-        исправленiй
+        исправленій
        </orig>
       </choice>
       .
      </hi>
     </p>
-    <p id="92f054f8-48ef-4508-b727-ec6a555220c6" rend="left">
+    <p id="92f054f8-48ef-4508-b727-ec6a555220c6">
      <pb n="73"/>
      <hi style="npdelimiter">
       Душевно
@@ -1321,13 +1351,13 @@
        болѣе
       </orig>
      </choice>
-     спoкойнo, твердо и радостно вижу, все большее
+     спокойно, твердо и радостно вижу, все большее
      <choice>
       <reg>
        движение
       </reg>
       <orig>
-       движенiе
+       движеніе
       </orig>
      </choice>
      <choice>
@@ -1378,7 +1408,7 @@
        Свидание
       </reg>
       <orig>
-       Свиданiе
+       Свиданіе
       </orig>
      </choice>
      <choice>
@@ -1517,7 +1547,7 @@
        конференции
       </reg>
       <orig>
-       конференцiи
+       конференціи
       </orig>
      </choice>
      ,
@@ -1598,7 +1628,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="2e208d59-c75b-40b9-bf7d-01745d2ff73f" rend="petit left">
+      <p id="2e208d59-c75b-40b9-bf7d-01745d2ff73f" rend="petit">
        <name placement="comments" ref="13905" type="person">
         Сергей Львович Толстой
        </name>

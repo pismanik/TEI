@@ -9,17 +9,41 @@
                 <title type="main">Письмо С. С. Громеке от 10 марта 1859 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. С. Громеке, 10 марта 1859 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 60. М.: Гос. изд. «Художественная литература», 1949. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 60</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">280-280</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,7 +127,7 @@
      </name>
      .1859 г. Марта 10. Петербург.
     </opener>
-    <p id="9d1ea7d7-f313-47e2-ad90-4d7c3544a67f" rend="left">
+    <p id="9d1ea7d7-f313-47e2-ad90-4d7c3544a67f">
      Выручите меня, любезный
      <name placement="text" ref="3922" type="person">
       Степан Степанович
@@ -122,22 +151,22 @@
      </note>
      —
     </p>
-    <p id="b5bf74d5-585d-472d-830c-fca85f70c40d" rend="left">
+    <p id="b5bf74d5-585d-472d-830c-fca85f70c40d">
      До свиданья.
     </p>
     <p id="10462884-002f-43c8-a96b-e89d990f2c13" rend="right">
      Ваш Гр. Л. Толстой.
     </p>
-    <p id="cfe3a30e-1f4e-4622-9b80-7e3871df9b72" rend="left">
+    <p id="cfe3a30e-1f4e-4622-9b80-7e3871df9b72">
      Я никуда выдти не могу без вещей. Спасите.
     </p>
     <lb/>
-    <p id="a26cecfa-2f33-40bb-bae4-9312d4ce4551" rend="left">
+    <p id="a26cecfa-2f33-40bb-bae4-9312d4ce4551">
      <hi>
       На четвертой странице:
      </hi>
     </p>
-    <p id="d0bce109-e6ed-458f-bc04-2d70b545ab0c" rend="left">
+    <p id="d0bce109-e6ed-458f-bc04-2d70b545ab0c">
      Его
      <name placement="text" ref="3922" type="person">
       Высокоблагородию Степану Степановичу Громеке
@@ -151,7 +180,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="29dbd7f7-ab7f-4172-a388-3ce02dbb98be" rend="petit left">
+      <p id="29dbd7f7-ab7f-4172-a388-3ce02dbb98be" rend="petit">
        <name placement="comments" ref="3922" type="person">
         Степан Степанович Громека
        </name>

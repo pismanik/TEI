@@ -9,17 +9,41 @@
                 <title type="main">Письмо Н. Н. Страхову от 28 декабря 1880 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Н. Н. Страхову, 28 декабря 1880 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 63. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 63</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">38-39</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      36. Н. Н. Страхову.1880 г. Декабря 28? Я. П.
     </opener>
-    <p id="f28a3e70-0f81-42dd-9b14-9f3af45d2fa3" rend="left">
+    <p id="f28a3e70-0f81-42dd-9b14-9f3af45d2fa3">
      Не стою я, дорогой Николай
      <choice>
       <reg>
@@ -136,7 +166,7 @@
        последние
       </reg>
       <orig>
-       послѣднiе
+       послѣдніе
       </orig>
      </choice>
      ,
@@ -184,7 +214,7 @@
      </choice>
      .
     </p>
-    <p id="950eb928-e1e7-4899-95d8-1bebbd7e1c20" rend="left">
+    <p id="950eb928-e1e7-4899-95d8-1bebbd7e1c20">
      Пожалуйста, напишите
      <choice>
       <reg>
@@ -262,7 +292,7 @@
        Искушение
       </reg>
       <orig>
-       Искушенiе
+       Искушеніе
       </orig>
      </choice>
      у
@@ -430,7 +460,7 @@
      </choice>
      его. —
     </p>
-    <p id="db23c3b0-e416-40bf-91fb-66d9e4871144" rend="left">
+    <p id="db23c3b0-e416-40bf-91fb-66d9e4871144">
      Да еще
      <choice>
       <reg>
@@ -470,7 +500,7 @@
        предисловие
       </reg>
       <orig>
-       предисловiе
+       предисловіе
       </orig>
      </choice>
      <choice>
@@ -594,7 +624,7 @@
      </choice>
      отречься.
     </p>
-    <p id="bdd90306-efd6-4438-881a-28903551687e" rend="left">
+    <p id="bdd90306-efd6-4438-881a-28903551687e">
      Судя по
      <choice>
       <reg>
@@ -818,7 +848,7 @@
        занятия
       </reg>
       <orig>
-       занятiя
+       занятія
       </orig>
      </choice>
      , чтобы быть
@@ -840,7 +870,7 @@
      </choice>
      .
     </p>
-    <p id="bf6f1ed2-1e91-4d13-aed4-22e73f67cc03" rend="left">
+    <p id="bf6f1ed2-1e91-4d13-aed4-22e73f67cc03">
      У
      <choice>
       <reg>
@@ -924,14 +954,14 @@
      </choice>
      Л. Толстой.
     </p>
-    <p id="0fa21ffc-43da-45d8-84a3-39031510f704" rend="left">
+    <p id="0fa21ffc-43da-45d8-84a3-39031510f704">
      Хвалю ваше
      <choice>
       <reg>
        предисловие
       </reg>
       <orig>
-       предисловiе
+       предисловіе
       </orig>
      </choice>
      [
@@ -976,7 +1006,7 @@
        религиозного
       </reg>
       <orig>
-       религiознаго
+       религіознаго
       </orig>
      </choice>
      <choice>
@@ -984,12 +1014,12 @@
        настроения
       </reg>
       <orig>
-       настроенiя
+       настроенія
       </orig>
      </choice>
      .
     </p>
-    <p id="69f9a696-0a8e-48fe-9bf7-9767eae75978" rend="left">
+    <p id="69f9a696-0a8e-48fe-9bf7-9767eae75978">
      — Если случится, что
      <choice>
       <reg>
@@ -1013,7 +1043,7 @@
        приобрести
       </reg>
       <orig>
-       прiобрѣсти
+       пріобрѣсти
       </orig>
      </choice>
      книгу о
@@ -1038,7 +1068,7 @@
        сочинения
       </reg>
       <orig>
-       сочиненiя
+       сочиненія
       </orig>
      </choice>
      — такую книгу, чтобы дала ясное
@@ -1047,7 +1077,7 @@
        понятие
       </reg>
       <orig>
-       понятiе
+       понятіе
       </orig>
      </choice>
      о
@@ -1068,7 +1098,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="f663da5a-2a23-4716-8e5d-b6a71dd3a2cc" rend="petit left">
+      <p id="f663da5a-2a23-4716-8e5d-b6a71dd3a2cc" rend="petit">
        В настоящем письме Толстой отвечает на письма Н. Н. Страхова: от 25 декабря 1880 г. и, вероятно, на письмо, датированное: «Вторая половина ноября 1880 г.» (см. ПС, №№ 147 и 149).
       </p>
      </note>

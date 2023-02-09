@@ -9,17 +9,41 @@
                 <title type="main">Письмо К. Толстой от 1 августа 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо К. Толстой, 1 августа 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">168-171</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,7 +128,7 @@
      </name>
      .1899 г. Августа 1. Я. П.
     </opener>
-    <p id="2a460f26-8612-487e-af3c-4f07723b6441" rend="left">
+    <p id="2a460f26-8612-487e-af3c-4f07723b6441">
      Простите меня, пожалуйста, что я не
      <choice>
       <reg>
@@ -196,7 +226,7 @@
      </choice>
      .
     </p>
-    <p id="2f2da395-87da-4e81-9083-f1fd93d64586" rend="left">
+    <p id="2f2da395-87da-4e81-9083-f1fd93d64586">
      Очень
      <choice>
       <reg>
@@ -378,7 +408,7 @@
        вознаграждение
       </reg>
       <orig>
-       вознагражденiе
+       вознагражденіе
       </orig>
      </choice>
      , которое
@@ -400,14 +430,14 @@
      </choice>
      достаточно.
     </p>
-    <p id="19295f6f-5c30-4050-81ff-76b3b33837ae" rend="left">
+    <p id="19295f6f-5c30-4050-81ff-76b3b33837ae">
      Всей душой сочувствую вашему
      <choice>
       <reg>
        положению
       </reg>
       <orig>
-       положенiю
+       положенію
       </orig>
      </choice>
      и очень бы
@@ -450,7 +480,7 @@
        освобождению
       </reg>
       <orig>
-       освобожденiю
+       освобожденію
       </orig>
      </choice>
      <choice>
@@ -474,20 +504,20 @@
      </choice>
      Толстой.
     </p>
-    <p id="7de8d180-48a7-4546-a7a2-4f54f388a5a3" rend="left">
+    <p id="7de8d180-48a7-4546-a7a2-4f54f388a5a3">
      1 августа 99 г.
     </p>
-    <p id="32883a88-789e-420c-9e69-7122c259d65c" rend="left">
+    <p id="32883a88-789e-420c-9e69-7122c259d65c">
      Ясная Поляна.
     </p>
     <noteGrp type="comments">
      <note index="false" type="comments">
       <p id="a46d7dfc-b065-47a8-9312-42e491107720" rend="Textpetit_otstup left">
-       Печатается по листам копировальной книги, хранящимся в AЧ. Местонахождение автографа неизвестно. Дата проставлена рукой О. К. Толстой. Публикуется впервые.
+       Печатается по листам копировальной книги, хранящимся в АЧ. Местонахождение автографа неизвестно. Дата проставлена рукой О. К. Толстой. Публикуется впервые.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="45134f97-de07-492e-9d64-66a25acb08f7" rend="petit left">
+      <p id="45134f97-de07-492e-9d64-66a25acb08f7" rend="petit">
        <name placement="comments" ref="13830" type="person">
         Клавдия Толстая
        </name>
@@ -499,7 +529,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="67b4a774-55e7-4fe2-9085-f4e6dc655795" rend="petit left">
+      <p id="67b4a774-55e7-4fe2-9085-f4e6dc655795" rend="petit">
        Ответ на письмо К. Толстой от 1 июня 1899 г. (почт. шт.): «Ваше сиятельство, в минуту жизни трудную мне попались Ваши сочинения последних лет, и я ухватилась за них как за якорь спасения. Простите, что я беспокою Вас своим письмом; оно, может быть, совершенно не
        <hi style="opdelimiter">
         во-время;
@@ -537,7 +567,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="ee177e91-fd43-4d9b-9440-27893517ab5a" rend="petit left">
+      <p id="ee177e91-fd43-4d9b-9440-27893517ab5a" rend="petit">
        <name placement="comments" ref="13989" type="person">
         Дмитрий Федорович Трепов
        </name>
@@ -545,12 +575,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="b10d6b3a-e7c6-4e1d-8bae-8c8cb681f784" rend="petit left">
+      <p id="b10d6b3a-e7c6-4e1d-8bae-8c8cb681f784" rend="petit">
        Вел. кн. Сергей Александрович Романов (1857—1905) — московский ген.-губернатор; убит бомбой в 1905 г. Иваном Платоновичем Каляевым.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="6323e542-fdc6-432b-9928-0ff8d4e0b80f" rend="petit left">
+      <p id="6323e542-fdc6-432b-9928-0ff8d4e0b80f" rend="petit">
        В ответном письме от 27 августа
        <name placement="comments" ref="13830" type="person">
         Клавдия Толстая
@@ -591,7 +621,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="d6535a9b-d91e-4aec-bd46-77fd1882d61c" rend="emptyline left">
+      <p id="d6535a9b-d91e-4aec-bd46-77fd1882d61c" rend="emptyline">
        <pb n="171"/>
       </p>
      </note>

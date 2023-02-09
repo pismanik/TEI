@@ -9,17 +9,41 @@
                 <title type="main">Письмо А. М. Калмыковой от 24 мая 1885 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо А. М. Калмыковой, 24 мая 1885 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 63. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 63</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">252-253</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,13 +128,13 @@
      </name>
      .1885 г. Мая 24? Я. П.
     </opener>
-    <p id="a9e431f8-3ada-4694-ac8f-3a73a8401efa" rend="Obrashenie left">
+    <p id="a9e431f8-3ada-4694-ac8f-3a73a8401efa" rend="Obrashenie">
      <name placement="text" ref="6021" type="person">
       Александра Михайловна
      </name>
      .
     </p>
-    <p id="dab3d38f-317d-45fa-8ef4-ebcf2be50393" rend="left">
+    <p id="dab3d38f-317d-45fa-8ef4-ebcf2be50393">
      <choice>
       <reg>
        Получил
@@ -291,7 +321,7 @@
        удовлетворение
       </reg>
       <orig>
-       удовлетворенiе
+       удовлетвореніе
       </orig>
      </choice>
      , ни
@@ -375,7 +405,7 @@
      </choice>
      и было бы работать. —
     </p>
-    <p id="cd1ad06c-23f1-4c5a-96ae-fe7d88d66142" rend="left">
+    <p id="cd1ad06c-23f1-4c5a-96ae-fe7d88d66142">
      <choice>
       <reg>
        Мне
@@ -390,7 +420,7 @@
        последний
       </reg>
       <orig>
-       послѣднiй
+       послѣдній
       </orig>
      </choice>
      <choice>
@@ -433,7 +463,7 @@
        Апологию
       </reg>
       <orig>
-       Апологiю
+       Апологію
       </orig>
      </choice>
      и
@@ -498,7 +528,7 @@
      </choice>
      .
     </p>
-    <p id="f18d6d2c-e36c-4a84-ace3-4dfe7e0d6711" rend="left">
+    <p id="f18d6d2c-e36c-4a84-ace3-4dfe7e0d6711">
      Отчего вы не пишете
      <choice>
       <reg>
@@ -532,7 +562,7 @@
       А. М. Калмыкова писала: «Рухнули все мои планы на лето — пожить с доктором где-нибудь в деревне. (Это не жалоба, а сожаление.)» (Из письма А. М. Калмыковой от 9 мая 1885 г. АТБ.) Дальше в письме Калмыковой об этом нет никакого упоминания.
      </note>
     </p>
-    <p id="e123ca7e-b0f3-4379-bfde-f8613be4bf31" rend="left">
+    <p id="e123ca7e-b0f3-4379-bfde-f8613be4bf31">
      Жена и
      <choice original_editorial_correction="Тат[ьяна]">
       <sic>
@@ -572,7 +602,7 @@
      </name>
      .
     </p>
-    <p id="8fc31f03-4da9-4cf0-943e-7685e0fca6de" rend="left">
+    <p id="8fc31f03-4da9-4cf0-943e-7685e0fca6de">
      <choice>
       <reg>
        Адрес
@@ -583,7 +613,7 @@
      </choice>
      : Тула (только).
     </p>
-    <p id="4e7fb34f-a56d-4988-9509-66d0623d42f8" rend="left">
+    <p id="4e7fb34f-a56d-4988-9509-66d0623d42f8">
      Да еще хочется
      <choice>
       <reg>
@@ -642,7 +672,7 @@
        рассуждение
       </reg>
       <orig>
-       разсужденiе
+       разсужденіе
       </orig>
      </choice>
      о
@@ -656,12 +686,12 @@
      </choice>
      , что нравственности можно и должно учиться.
     </p>
-    <p id="388f3892-e03e-4ed9-843d-dbc617536429" rend="left">
+    <p id="388f3892-e03e-4ed9-843d-dbc617536429">
      <hi>
       На конверте:
      </hi>
     </p>
-    <p id="9c63d288-9ac7-49d9-9f75-cdcc57283f1d" rend="left">
+    <p id="9c63d288-9ac7-49d9-9f75-cdcc57283f1d">
      <choice>
       <reg>
        Харьков
@@ -713,7 +743,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="cf658296-7811-48b6-a004-c0bf887224ee" rend="petit left">
+      <p id="cf658296-7811-48b6-a004-c0bf887224ee" rend="petit">
        Письма А. М. Калмыковой, на которые отвечает Толстой, датированы: 9 и 18 мая 1885 г. (АТБ).
       </p>
      </note>

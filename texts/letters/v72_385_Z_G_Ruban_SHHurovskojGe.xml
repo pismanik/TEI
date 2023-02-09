@@ -9,17 +9,41 @@
                 <title type="main">Письмо З. Г. Рубан-Щуровской (Ге) от 2 октября 1900 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо З. Г. Рубан-Щуровской (Ге), 2 октября 1900 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">469-470</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 385. З. Г. Рубан-Щуровской (Ге).1900 г. Октября 2. Я. П.
     </opener>
-    <p id="9fcea393-b64b-459e-a7cb-d109b2635d44" rend="left">
+    <p id="9fcea393-b64b-459e-a7cb-d109b2635d44">
      Если вы будете
      <choice>
       <reg>
@@ -203,7 +233,7 @@
        занимающие
       </reg>
       <orig>
-       занимающiе
+       занимающіе
       </orig>
      </choice>
      <choice>
@@ -344,7 +374,7 @@
        воспитании
       </reg>
       <orig>
-       воспитанiи
+       воспитаніи
       </orig>
      </choice>
      <choice>
@@ -361,7 +391,7 @@
        поколения
       </reg>
       <orig>
-       поколѣнiя
+       поколѣнія
       </orig>
      </choice>
      .
@@ -384,13 +414,13 @@
      </name>
      .
     </p>
-    <p id="87c30fbf-0308-497c-af7b-6f86214c22ff" rend="left">
+    <p id="87c30fbf-0308-497c-af7b-6f86214c22ff">
      2 Окт. 1900.
     </p>
-    <p id="ad7bc9a8-0b3b-43af-baea-3f221dc11f76" rend="left">
+    <p id="ad7bc9a8-0b3b-43af-baea-3f221dc11f76">
      <pb n="470"/>
     </p>
-    <p id="082ecc8a-7359-45ff-8d0c-708dc308bfae" rend="left">
+    <p id="082ecc8a-7359-45ff-8d0c-708dc308bfae">
      <hi>
       На конверте:
      </hi>
@@ -441,7 +471,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="53bcbe32-f232-4753-bd5e-e1e4fe73af7a" rend="petit left">
+      <p id="53bcbe32-f232-4753-bd5e-e1e4fe73af7a" rend="petit">
        О Зое Григорьевне Рубан-Щуровской (Ге)
        <ref target="file:///Volume_72_Z.G.Ruban-SHHurovskojGe_46.xml">
         см. письмо № 46
@@ -450,7 +480,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="ed8b3ae6-c0e7-43b8-badd-79d82cfec690" rend="petit left">
+      <p id="ed8b3ae6-c0e7-43b8-badd-79d82cfec690" rend="petit">
        Ответ на письмо З. Г. Рубан из Алушты от 23 сентября 1900 г. (почт. шт.). Рубан писала о волновавшем ее вопросе воспитания детей: «Идя одним путем, я как бы сама привожу их на заклание, и мне здесь кажется что-то жестокое, во всех же других путях мне чувствуется фальшь, и эта неуверенность так тяжела и дальше становится нестерпимой. В чем-то я тут путаюсь, и хочется мне притти к Вам. Вы, наверно, увидите мою ошибку». Свидание состоялось в феврале 1901 г. в Москве.
       </p>
      </note>

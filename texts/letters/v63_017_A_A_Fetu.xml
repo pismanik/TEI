@@ -9,17 +9,41 @@
                 <title type="main">Письмо А. А. Фету от 31 мая 1880 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо А. А. Фету, 31 мая 1880 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 63. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 63</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">17-18</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,7 +128,7 @@
      </name>
      .1880 г. Мая 31? Я. П.
     </opener>
-    <p id="b989e7d7-db98-42f5-90ee-da37c2b4a8e6" rend="left">
+    <p id="b989e7d7-db98-42f5-90ee-da37c2b4a8e6">
      Прежде
      <choice>
       <reg>
@@ -202,7 +232,7 @@
       </reg>
       <orig>
        <name placement="text" ref="14499" type="person">
-        Афанасiй
+        Афанасій
        </name>
       </orig>
      </choice>
@@ -258,7 +288,7 @@
        нерасположение
       </reg>
       <orig>
-       нерасположенiе
+       нерасположеніе
       </orig>
      </choice>
      ,
@@ -320,7 +350,7 @@
        умиления
       </reg>
       <orig>
-       умиленiя
+       умиленія
       </orig>
      </choice>
      и стыда за свою неряшливость. Неряшливость — и ничего больше.
@@ -347,7 +377,7 @@
        последния
       </reg>
       <orig>
-       послѣднiя
+       послѣднія
       </orig>
      </choice>
      <choice>
@@ -355,7 +385,7 @@
        впечатления
       </reg>
       <orig>
-       впечатлѣнiя
+       впечатлѣнія
       </orig>
      </choice>
      <choice>
@@ -379,7 +409,7 @@
        отношениях
       </reg>
       <orig>
-       отношенiяхъ
+       отношеніяхъ
       </orig>
      </choice>
      . Вы
@@ -460,7 +490,7 @@
        вследствии
       </reg>
       <orig>
-       вслѣдствiи
+       вслѣдствіи
       </orig>
      </choice>
      <choice>
@@ -485,7 +515,7 @@
        занятий
       </reg>
       <orig>
-       занятiй
+       занятій
       </orig>
      </choice>
      <choice>
@@ -679,7 +709,7 @@
        объяснения
       </reg>
       <orig>
-       объясненiя
+       объясненія
       </orig>
      </choice>
      , за чтò вы недовольны мной. Опять мои
@@ -688,7 +718,7 @@
        занятия
       </reg>
       <orig>
-       занятiя
+       занятія
       </orig>
      </choice>
      немного
@@ -711,7 +741,7 @@
      </choice>
      простить меня за это.
     </p>
-    <p id="53700b5b-8177-463d-8091-daea46f78855" rend="left">
+    <p id="53700b5b-8177-463d-8091-daea46f78855">
      <choice>
       <reg>
        В
@@ -769,7 +799,7 @@
        предложение
       </reg>
       <orig>
-       предложенiе
+       предложеніе
       </orig>
      </choice>
      <choice>
@@ -856,7 +886,7 @@
        предложения
       </reg>
       <orig>
-       предложенiя
+       предложенія
       </orig>
      </choice>
      <choice>
@@ -1039,7 +1069,7 @@
        предложение
       </reg>
       <orig>
-       предложенiе
+       предложеніе
       </orig>
      </choice>
      <choice>
@@ -1337,7 +1367,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="a43aa338-5091-42a5-b5ca-d75fad266637" rend="petit left">
+      <p id="a43aa338-5091-42a5-b5ca-d75fad266637" rend="petit">
        Письмо А. А. Фета, на которое отвечает Толстой,
        <hi style="opdelimiter">
         неизвестно.

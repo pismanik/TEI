@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову от 17 февраля 1890 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 17 февраля 1890 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 87. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 87</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">9-12</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 250.1890 г. Февраля 17? Я. П.
     </opener>
-    <p id="d51e00e6-536d-4b68-a201-8a375e0fbfb3" rend="left">
+    <p id="d51e00e6-536d-4b68-a201-8a375e0fbfb3">
      <choice>
       <reg>
        Как
@@ -118,7 +148,7 @@
        обещание
       </reg>
       <orig>
-       обѣщанiе
+       обѣщаніе
       </orig>
      </choice>
      присылать выписки. Прошу
@@ -181,7 +211,7 @@
      </choice>
      .
     </p>
-    <p id="fcbe5f10-5f94-4acb-a191-aed959fa9c0f" rend="left">
+    <p id="fcbe5f10-5f94-4acb-a191-aed959fa9c0f">
      <hi>
       2
      </hi>
@@ -345,7 +375,7 @@
        станции
       </reg>
       <orig>
-       станцiи
+       станціи
       </orig>
      </choice>
      , а
@@ -567,7 +597,7 @@
        сочинение
       </reg>
       <orig>
-       сочиненiе
+       сочиненіе
       </orig>
      </choice>
      , не
@@ -584,7 +614,7 @@
        сочинений
       </reg>
       <orig>
-       сочиненiй
+       сочиненій
       </orig>
      </choice>
      , не
@@ -593,7 +623,7 @@
        просвещение
       </reg>
       <orig>
-       просвѣщенiе
+       просвѣщеніе
       </orig>
      </choice>
      народа, не
@@ -602,7 +632,7 @@
        объединение
       </reg>
       <orig>
-       объединенiе
+       объединеніе
       </orig>
      </choice>
      <choice>
@@ -610,7 +640,7 @@
        Германии
       </reg>
       <orig>
-       Германiи
+       Германіи
       </orig>
      </choice>
      и т. п., а
@@ -635,7 +665,7 @@
        издыхания
       </reg>
       <orig>
-       издыханiя
+       издыханія
       </orig>
      </choice>
      ,
@@ -820,7 +850,7 @@
        значения
       </reg>
       <orig>
-       значенiя
+       значенія
       </orig>
      </choice>
      до
@@ -837,12 +867,12 @@
        издыхания
       </reg>
       <orig>
-       издыханiя
+       издыханія
       </orig>
      </choice>
      . Это радостно, бодрительно.
     </p>
-    <p id="8543bcc6-682b-4ba0-8b71-0dd8aa590472" rend="left">
+    <p id="8543bcc6-682b-4ba0-8b71-0dd8aa590472">
      <hi>
       5
      </hi>
@@ -896,7 +926,7 @@
        претерпевший
       </reg>
       <orig>
-       претерпѣвшiй
+       претерпѣвшій
       </orig>
      </choice>
      до конца
@@ -922,7 +952,7 @@
      </hi>
      —
     </p>
-    <p id="a61a9b54-1ca2-4835-826c-ba28cb2a66fb" rend="left">
+    <p id="a61a9b54-1ca2-4835-826c-ba28cb2a66fb">
      <choice>
       <reg>
        Узнал
@@ -944,7 +974,7 @@
        огорчением
       </reg>
       <orig>
-       огорченiемъ
+       огорченіемъ
       </orig>
      </choice>
      , что
@@ -1087,7 +1117,7 @@
        разрешение
       </reg>
       <orig>
-       разрѣшенiе
+       разрѣшеніе
       </orig>
      </choice>
      <choice>
@@ -1125,7 +1155,7 @@
      </choice>
      его сердцу листка.
     </p>
-    <p id="e9ab5f83-e3d5-4c1c-9ff3-d70bd351816e" rend="left">
+    <p id="e9ab5f83-e3d5-4c1c-9ff3-d70bd351816e">
      Если увидите Рачинского, поклонитесь ему
      <choice>
       <reg>
@@ -1178,7 +1208,7 @@
      </choice>
      .
     </p>
-    <p id="f37e66e5-6289-4077-b377-eddc336c2ccf" rend="left">
+    <p id="f37e66e5-6289-4077-b377-eddc336c2ccf">
      Я распорядился достать
      <choice>
       <reg>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову от 21 декабря 1888 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 21 декабря 1888 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 86. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 86</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">193-196</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 207.1888 г. Декабря 21. Москва.
     </opener>
-    <p id="49e98039-6ba6-4b9d-9ab1-ee6e949127f4" rend="left">
+    <p id="49e98039-6ba6-4b9d-9ab1-ee6e949127f4">
      Вчера
      <choice>
       <reg>
@@ -155,7 +185,7 @@
        чтения
       </reg>
       <orig>
-       чтенiя
+       чтенія
       </orig>
      </choice>
      . Я
@@ -233,7 +263,7 @@
        вступлении
       </reg>
       <orig>
-       вступленiи
+       вступленіи
       </orig>
      </choice>
      <choice>
@@ -286,7 +316,7 @@
        распределение
       </reg>
       <orig>
-       распредѣленiе
+       распредѣленіе
       </orig>
      </choice>
      другое, то я не
@@ -394,7 +424,7 @@
        вступление
       </reg>
       <orig>
-       вступленiе
+       вступленіе
       </orig>
      </choice>
      , но его лучше тогда оставить.
@@ -454,10 +484,10 @@
        <corr>
         <choice>
          <reg>
-          Иoaнн
+          Иоанн
          </reg>
          <orig>
-          Ioaннъ
+          Іоаннъ
          </orig>
         </choice>
        </corr>
@@ -516,7 +546,7 @@
           </name>
          </reg>
          <orig>
-          Аврелiй
+          Аврелій
          </orig>
         </choice>
        </corr>
@@ -546,7 +576,7 @@
         Диоген
        </reg>
        <orig>
-        Дiогенъ
+        Діогенъ
        </orig>
       </choice>
      </hi>
@@ -567,7 +597,7 @@
      </hi>
      —
     </p>
-    <p id="228a96b6-2515-4034-897e-ced47aa632ae" rend="left">
+    <p id="228a96b6-2515-4034-897e-ced47aa632ae">
      Теперь о
      <choice>
       <reg>
@@ -844,7 +874,7 @@
        распоряжений
       </reg>
       <orig>
-       распоряженiй
+       распоряженій
       </orig>
      </choice>
      <choice original_editorial_correction="правит[ельства]">
@@ -887,7 +917,7 @@
        изобретений
       </reg>
       <orig>
-       изобрѣтенiй
+       изобрѣтеній
       </orig>
      </choice>
      ,
@@ -982,7 +1012,7 @@
        истории
       </reg>
       <orig>
-       исторiи
+       исторіи
       </orig>
      </choice>
      ,
@@ -991,7 +1021,7 @@
        поэзии
       </reg>
       <orig>
-       поэзiи
+       поэзіи
       </orig>
      </choice>
      ,
@@ -1000,7 +1030,7 @@
        знания
       </reg>
       <orig>
-       знанiя
+       знанія
       </orig>
      </choice>
      <choice>
@@ -1048,7 +1078,7 @@
      </choice>
      ясно, и я буду пробовать.
     </p>
-    <p id="f3537cf2-0672-444e-a399-18afedfc865e" rend="left">
+    <p id="f3537cf2-0672-444e-a399-18afedfc865e">
      <choice>
       <reg>
        Эпиктет
@@ -1102,7 +1132,7 @@
      </choice>
      ?
     </p>
-    <p id="79ee790e-37a6-4029-833c-67954df4b420" rend="left">
+    <p id="79ee790e-37a6-4029-833c-67954df4b420">
      <choice>
       <reg>
        Как
@@ -1126,7 +1156,7 @@
        состояние
       </reg>
       <orig>
-       состоянiе
+       состояніе
       </orig>
      </choice>
      и, право, чувствую
@@ -1150,7 +1180,7 @@
       лучшему.
      </hi>
     </p>
-    <p id="a4ed8121-2970-4684-b2a5-77b5f8aa99eb" rend="left">
+    <p id="a4ed8121-2970-4684-b2a5-77b5f8aa99eb">
      <pb n="194"/>
      <hi style="npdelimiter">
       Посылаю
@@ -1190,7 +1220,7 @@
        Тихомировым
       </reg>
       <orig>
-       Тихомiровымъ
+       Тихоміровымъ
       </orig>
      </choice>
      .
@@ -1203,7 +1233,7 @@
        мнение
       </reg>
       <orig>
-       мнѣнiе
+       мнѣніе
       </orig>
      </choice>
      .
@@ -1214,7 +1244,7 @@
          Тихомир
         </reg>
         <orig>
-         Тихомiр
+         Тихомір
         </orig>
        </choice>
       </sic>
@@ -1224,7 +1254,7 @@
          Тихомиров
         </reg>
         <orig>
-         Тихомiровъ
+         Тихоміровъ
         </orig>
        </choice>
       </corr>
@@ -1251,7 +1281,7 @@
        изданием
       </reg>
       <orig>
-       изданiемъ
+       изданіемъ
       </orig>
      </choice>
      .
@@ -1259,7 +1289,7 @@
       12
      </hi>
     </p>
-    <p id="86306648-e13d-44b5-8a7e-fa509ef55c3e" rend="left">
+    <p id="86306648-e13d-44b5-8a7e-fa509ef55c3e">
      А
      <choice>
       <reg>
@@ -1279,7 +1309,7 @@
      </choice>
      ?
     </p>
-    <p id="036f0cab-dfa6-4989-ba0e-4c322e917613" rend="left">
+    <p id="036f0cab-dfa6-4989-ba0e-4c322e917613">
      <choice>
       <reg>
        Целую
@@ -1317,7 +1347,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="9bab1cb7-09eb-441a-9e45-d381dd1534a7" rend="petit left">
+      <p id="9bab1cb7-09eb-441a-9e45-d381dd1534a7" rend="petit">
        Толстой отвечает Черткову на его письмо, написанное во второй половине декабря, в котором он писал: «Посылаю вам, дорогой
        <choice original_editorial_correction="Л[ев]">
         <sic>
@@ -1376,7 +1406,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="ab28af6d-fbc3-46e4-9404-576b3ae0be97" rend="petit left">
+      <p id="ab28af6d-fbc3-46e4-9404-576b3ae0be97" rend="petit">
        Вместе с тем Толстой откликнулся на письмо Черткова от 7 декабря, в котором Чертков, между прочим, писал ему, что вновь перестал курить.
       </p>
      </note>

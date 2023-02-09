@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v01_242_244_Znanie_muzyki_subektivnoe_i_obektivnoe">
-                    [«Знание музыки - субъективное и объективное...»]. Tolstoy Digital
+                    [«Знание музыки - субъективное и объективное...»]. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">«Знание музыки - субъективное и объективное…»</title>
                 <title type="sub" resp="volume_editor">Три отрывка о музыке. Отрывок II</title>
-                <title type="bibl">Толстой Л. Н. [«Знание музыки - субъективное и объективное...»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 1. М.: Гос. изд. «Художественная литература», 1935. С.</title>
+                <title type="bibl">Толстой Л. Н. [«Знание музыки - субъективное и объективное...»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 1. М.: Гос. изд. «Художественная литература», 1935. С. 242–244.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1850"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#main" target="work_main"/>
@@ -113,13 +138,13 @@
      <head xml:id="h53">
       [*ОТРЫВОК II.]
      </head>
-     <p id="c5ac6dc6-c24b-444a-a0d7-535734cc8d84" rend="left">
+     <p id="c5ac6dc6-c24b-444a-a0d7-535734cc8d84">
       <choice>
        <reg>
         Знание
        </reg>
        <orig>
-        Знанiе
+        Знаніе
        </orig>
       </choice>
       музыки — субъективное и объективное. Объективное есть
@@ -128,7 +153,7 @@
         знание
        </reg>
        <orig>
-        знанiе
+        знаніе
        </orig>
       </choice>
       <choice>
@@ -136,7 +161,7 @@
         теории
        </reg>
        <orig>
-        теорiи
+        теоріи
        </orig>
       </choice>
       музыки, т. е.
@@ -171,7 +196,7 @@
         знание
        </reg>
        <orig>
-        знанiе
+        знаніе
        </orig>
       </choice>
       <choice>
@@ -188,7 +213,7 @@
         знание
        </reg>
        <orig>
-        знанiе
+        знаніе
        </orig>
       </choice>
       <choice>
@@ -196,12 +221,12 @@
         воспроизведения
        </reg>
        <orig>
-        воспроизведенiя
+        воспроизведенія
        </orig>
       </choice>
       музыки. Начало музыки есть способность выразить какую нибудь музыкальную мысль. —
      </p>
-     <p id="988c696a-9059-467a-bb71-ad55b20796f8" rend="left">
+     <p id="988c696a-9059-467a-bb71-ad55b20796f8">
       Музыкальная мысль есть
       <choice original_editorial_correction="соедин[ение]">
        <sic>
@@ -213,7 +238,7 @@
           соединение
          </reg>
          <orig>
-          соединенiе
+          соединеніе
          </orig>
         </choice>
        </corr>
@@ -255,7 +280,7 @@
       </choice>
       . —
      </p>
-     <p id="28a5dc7a-8b11-4a00-b699-008c16e527ef" rend="left">
+     <p id="28a5dc7a-8b11-4a00-b699-008c16e527ef">
       Мысли эти выражаются на
       <choice>
        <reg>
@@ -280,7 +305,7 @@
         облегчения
        </reg>
        <orig>
-        облегченiя
+        облегченія
        </orig>
       </choice>
       <choice>
@@ -296,7 +321,7 @@
         выражение
        </reg>
        <orig>
-        выраженiе
+        выраженіе
        </orig>
       </choice>
       <choice original_editorial_correction="музыкал[ьных]">
@@ -346,12 +371,12 @@
         выражение
        </reg>
        <orig>
-        выраженiе
+        выраженіе
        </orig>
       </choice>
       оной.
      </p>
-     <p id="fe47ca01-bc05-48cd-b7da-28a7e5685702" rend="left">
+     <p id="fe47ca01-bc05-48cd-b7da-28a7e5685702">
       Способность составлять
       <choice original_editorial_correction="музыкаль[ную]">
        <sic>
@@ -367,7 +392,7 @@
         фантазией
        </reg>
        <orig>
-        фантазiей
+        фантазіей
        </orig>
       </choice>
       , способность понимать эту мысль заключается
@@ -416,7 +441,7 @@
         присутствии
        </reg>
        <orig>
-        присутствiи
+        присутствіи
        </orig>
       </choice>
       что
@@ -438,7 +463,7 @@
       </choice>
       чувства.
      </p>
-     <p id="816ec875-3cd5-4b6f-87b0-860fb4cf9cf3" rend="left">
+     <p id="816ec875-3cd5-4b6f-87b0-860fb4cf9cf3">
       <choice original_editorial_correction="Музыкал[ьным]">
        <sic>
         Музыкал
@@ -514,7 +539,7 @@
       </choice>
       единство оной. —
      </p>
-     <p id="d0afee62-1954-4a04-823d-c049819075ff" rend="left">
+     <p id="d0afee62-1954-4a04-823d-c049819075ff">
       Способность передавать
       <choice original_editorial_correction="музыкальн[ую]">
        <sic>
@@ -564,7 +589,7 @@
         упражнения
        </reg>
        <orig>
-        упражненiя
+        упражненія
        </orig>
       </choice>
       или
@@ -573,7 +598,7 @@
         изучения
        </reg>
        <orig>
-        изученiя
+        изученія
        </orig>
       </choice>
       музыки, т. е. смотря
@@ -621,7 +646,7 @@
       </choice>
       .
      </p>
-     <p id="db664199-7236-462f-a058-a5cbdf096047" rend="left">
+     <p id="db664199-7236-462f-a058-a5cbdf096047">
       И
       <choice>
        <reg>
@@ -644,7 +669,7 @@
         изучение
        </reg>
        <orig>
-        изученiе
+        изученіе
        </orig>
       </choice>
       музыки [
@@ -670,7 +695,7 @@
         развитии
        </reg>
        <orig>
-        развитiи
+        развитіи
        </orig>
       </choice>
       способности
@@ -679,7 +704,7 @@
         фантазии
        </reg>
        <orig>
-        фантазiи
+        фантазіи
        </orig>
       </choice>
       , 2)
@@ -696,7 +721,7 @@
         развитии
        </reg>
        <orig>
-        развитiи
+        развитіи
        </orig>
       </choice>
       <choice original_editorial_correction="музык[ального]">
@@ -728,7 +753,7 @@
         развитии
        </reg>
        <orig>
-        развитiи
+        развитіи
        </orig>
       </choice>
       : а) музыкальной памяти и b)
@@ -785,7 +810,7 @@
         Отделение
        </reg>
        <orig>
-        Отдѣленiе
+        Отдѣленіе
        </orig>
       </choice>
       .
@@ -793,13 +818,13 @@
      <p id="039d06cd-5640-4ace-85b4-78eda5935c00" rend="center">
       1-я часть
      </p>
-     <p id="6c9f0246-fff7-4f7a-a8dc-022370e0c71b" rend="left">
+     <p id="6c9f0246-fff7-4f7a-a8dc-022370e0c71b">
       <choice>
        <reg>
         Развитие
        </reg>
        <orig>
-        Развитiе
+        Развитіе
        </orig>
       </choice>
       музыкальной памяти.
@@ -807,14 +832,14 @@
      <p id="6e82b953-1b26-4dc0-9d6c-6d8d1708ef1e" rend="center">
       2-я часть
      </p>
-     <p id="0e980d88-3a89-439b-b121-d3d6c79f0fc1" rend="left">
+     <p id="0e980d88-3a89-439b-b121-d3d6c79f0fc1">
       1-е.
       <choice>
        <reg>
         Выражение
        </reg>
        <orig>
-        Выраженiе
+        Выраженіе
        </orig>
       </choice>
       мысли на
@@ -849,24 +874,24 @@
         пения
        </reg>
        <orig>
-        пѣнiя
+        пѣнія
        </orig>
       </choice>
       )
      </p>
-     <p id="6e98466e-30f1-47f8-a9a9-ef470d221392" rend="left">
+     <p id="6e98466e-30f1-47f8-a9a9-ef470d221392">
       Школа
       <choice>
        <reg>
         фортепиано
        </reg>
        <orig>
-        фортепiано
+        фортепіано
        </orig>
       </choice>
       .
      </p>
-     <p id="581fccb9-f1f6-4ebf-a96a-7596c6b73c76" rend="left">
+     <p id="581fccb9-f1f6-4ebf-a96a-7596c6b73c76">
       2.
       <choice original_editorial_correction="Выраж[ение]">
        <sic>
@@ -878,7 +903,7 @@
           Выражение
          </reg>
          <orig>
-          Выраженiе
+          Выраженіе
          </orig>
         </choice>
        </corr>
@@ -909,10 +934,10 @@
       </choice>
       .
      </p>
-     <p id="15742b85-3a08-4a7f-b622-0f344fce1c23" rend="left">
+     <p id="15742b85-3a08-4a7f-b622-0f344fce1c23">
       ..........................................................................................................................................................................
      </p>
-     <p id="18196c9e-22e5-40be-82e9-d2661388a226" rend="left">
+     <p id="18196c9e-22e5-40be-82e9-d2661388a226">
       (
       <choice>
        <reg>
@@ -932,7 +957,7 @@
       </choice>
       )
      </p>
-     <p id="10c079fd-10c2-4149-8ea5-9e01928f2c9e" rend="left">
+     <p id="10c079fd-10c2-4149-8ea5-9e01928f2c9e">
       <pb n="243"/>
       3.
       <choice>
@@ -940,7 +965,7 @@
         Развитие
        </reg>
        <orig>
-        Развитiе
+        Развитіе
        </orig>
       </choice>
       способности передавать
@@ -1005,7 +1030,7 @@
       </choice>
       памяти музыки и памяти письма. - - - -
      </p>
-     <p id="691db291-8c3d-4c27-ac1a-d9d169e7d5fc" rend="left">
+     <p id="691db291-8c3d-4c27-ac1a-d9d169e7d5fc">
       И
       <choice>
        <reg>
@@ -1026,14 +1051,14 @@
       </choice>
       и обратно.
      </p>
-     <p id="a0bc9b4f-952b-46e5-b11d-bc2228c8f82e" rend="left">
+     <p id="a0bc9b4f-952b-46e5-b11d-bc2228c8f82e">
       4)
       <choice>
        <reg>
         Упражнения
        </reg>
        <orig>
-        Упражненiя
+        Упражненія
        </orig>
       </choice>
       . - - - - -
@@ -1044,7 +1069,7 @@
         Отношение
        </reg>
        <orig>
-        Отношенiе
+        Отношеніе
        </orig>
       </choice>
       <choice>
@@ -1068,18 +1093,18 @@
         отношении
        </reg>
        <orig>
-        отношенiи
+        отношеніи
        </orig>
       </choice>
       силы - - -
      </p>
-     <p id="0e609c0d-96a3-46f2-977b-367236ade041" rend="left">
+     <p id="0e609c0d-96a3-46f2-977b-367236ade041">
       <choice>
        <reg>
         Отношение
        </reg>
        <orig>
-        Отношенiе
+        Отношеніе
        </orig>
       </choice>
       это
@@ -1119,7 +1144,7 @@
       </choice>
       употребляется различная степень силы. - - -
      </p>
-     <p id="1d74e008-598b-45e9-9793-0e7f8ba3544e" rend="left">
+     <p id="1d74e008-598b-45e9-9793-0e7f8ba3544e">
       <choice>
        <reg>
         Разделить
@@ -1186,7 +1211,7 @@
         определения
        </reg>
        <orig>
-        опредѣленiя
+        опредѣленія
        </orig>
       </choice>
       <choice original_editorial_correction="прост[ой]">
@@ -1234,7 +1259,7 @@
         ударяющий
        </reg>
        <orig>
-        ударяющiй
+        ударяющій
        </orig>
       </choice>
       по
@@ -1256,13 +1281,13 @@
        <graphic rend="alt:" url="./img/i000020000000.png" xml:id="i5"/>
       </figure>
      </p>
-     <p id="6ad93863-ccc1-4cc2-8200-8c771385a4af" rend="left">
+     <p id="6ad93863-ccc1-4cc2-8200-8c771385a4af">
       <choice>
        <reg>
         Изучение
        </reg>
        <orig>
-        Изученiе
+        Изученіе
        </orig>
       </choice>
       <choice>
@@ -1270,7 +1295,7 @@
         сочинения
        </reg>
        <orig>
-        сочиненiя
+        сочиненія
        </orig>
       </choice>
       —
@@ -1279,14 +1304,14 @@
       </unclear>
       три. - - - -
      </p>
-     <p id="bb8b69c1-6b19-4fd1-862f-225019186716" rend="left">
+     <p id="bb8b69c1-6b19-4fd1-862f-225019186716">
       1) Правила
       <choice>
        <reg>
         общия
        </reg>
        <orig>
-        общiя
+        общія
        </orig>
       </choice>
       касательно
@@ -1300,7 +1325,7 @@
           отношения
          </reg>
          <orig>
-          отношенiя
+          отношенія
          </orig>
         </choice>
        </corr>
@@ -1316,7 +1341,7 @@
           соединения
          </reg>
          <orig>
-          соединенiя
+          соединенія
          </orig>
         </choice>
        </corr>
@@ -1355,14 +1380,14 @@
       </choice>
       .
      </p>
-     <p id="67dd84d9-b715-48b7-b471-388ccf1a044d" rend="left">
+     <p id="67dd84d9-b715-48b7-b471-388ccf1a044d">
       2) Правила
       <choice>
        <reg>
         общия
        </reg>
        <orig>
-        общiя
+        общія
        </orig>
       </choice>
       <choice original_editorial_correction="кас[ательно]">
@@ -1383,7 +1408,7 @@
           отношения
          </reg>
          <orig>
-          отношенiя
+          отношенія
          </orig>
         </choice>
        </corr>
@@ -1399,14 +1424,14 @@
       </choice>
       .
      </p>
-     <p id="bcc77e6a-a672-439d-894b-750f4c16a606" rend="left">
+     <p id="bcc77e6a-a672-439d-894b-750f4c16a606">
       3) правила
       <choice>
        <reg>
         общия
        </reg>
        <orig>
-        общiя
+        общія
        </orig>
       </choice>
       касательно
@@ -1420,7 +1445,7 @@
           отношения
          </reg>
          <orig>
-          отношенiя
+          отношенія
          </orig>
         </choice>
        </corr>
@@ -1441,19 +1466,19 @@
          Аксентуация
         </reg>
         <orig>
-         Аксентуацiя
+         Аксентуація
         </orig>
        </choice>
       </hi>
       . - - - - - - - - - -
      </p>
-     <p id="7fe69951-3397-4adb-814c-08d5c5b15bee" rend="left">
+     <p id="7fe69951-3397-4adb-814c-08d5c5b15bee">
       <choice>
        <reg>
         Отношений
        </reg>
        <orig>
-        Отношенiй
+        Отношеній
        </orig>
       </choice>
       <choice>
@@ -1511,14 +1536,14 @@
       </choice>
       5. —
      </p>
-     <p id="1b2f791e-0999-49e0-a30f-d69c97a3c59f" rend="left">
+     <p id="1b2f791e-0999-49e0-a30f-d69c97a3c59f">
       По времени вообще (
       <choice>
        <reg>
         движение
        </reg>
        <orig>
-        движенiе
+        движеніе
        </orig>
       </choice>
       быстрое и тихое) и особенное, т. е. каждая нота
@@ -1549,13 +1574,7 @@
        </corr>
       </choice>
       , принято же до
-      <hi rend="sup">
-       1
-      </hi>
-      /
-      <hi rend="sub">
-       64
-      </hi>
+      <num type="fraction" value="1/64">1/64</num>
       . — Для
       <choice>
        <reg>
@@ -1571,7 +1590,7 @@
         деление
        </reg>
        <orig>
-        дѣленiе
+        дѣленіе
        </orig>
       </choice>
       на такты, т. е.
@@ -1585,14 +1604,14 @@
       </choice>
       части по времени.
      </p>
-     <p id="f4f6a78e-94f7-4138-8818-c2a1eebe32c1" rend="left">
+     <p id="f4f6a78e-94f7-4138-8818-c2a1eebe32c1">
       Для
       <choice>
        <reg>
         означения
        </reg>
        <orig>
-        означенiя
+        означенія
        </orig>
       </choice>
       <choice>
@@ -1652,7 +1671,7 @@
         деление
        </reg>
        <orig>
-        дѣленiе
+        дѣленіе
        </orig>
       </choice>
       :
@@ -1662,14 +1681,14 @@
        <graphic rend="alt:" url="./img/i000020100000.png" xml:id="i6"/>
       </figure>
      </p>
-     <p id="6803a22c-103c-4fd1-a321-a72c831096ec" rend="left">
+     <p id="6803a22c-103c-4fd1-a321-a72c831096ec">
       Для
       <choice>
        <reg>
         означения
        </reg>
        <orig>
-        означенiя
+        означенія
        </orig>
       </choice>
       силы

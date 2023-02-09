@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. В. Стасову от 3 января 1884 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. В. Стасову, 3 января 1884 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 63. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 63</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">147-147</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,7 +128,7 @@
      </name>
      .1884 г. Января 3? Москва.
     </opener>
-    <p id="b0da46ea-7335-419d-b26d-22b400bbf027" rend="Obrashenie left">
+    <p id="b0da46ea-7335-419d-b26d-22b400bbf027" rend="Obrashenie">
      <choice>
       <reg>
        <name placement="text" ref="13128" type="person">
@@ -107,7 +137,7 @@
       </reg>
       <orig>
        <name placement="text" ref="13128" type="person">
-        Владимiръ
+        Владиміръ
        </name>
       </orig>
      </choice>
@@ -123,7 +153,7 @@
      </choice>
      !
     </p>
-    <p id="1440bb5f-937c-43b3-83e4-08425c748eb0" rend="left">
+    <p id="1440bb5f-937c-43b3-83e4-08425c748eb0">
      Вы балуете людей своей добротой, а меня больше
      <choice>
       <reg>
@@ -209,7 +239,7 @@
        обративший
       </reg>
       <orig>
-       обратившiй
+       обратившій
       </orig>
      </choice>
      на себя
@@ -218,7 +248,7 @@
        внимание
       </reg>
       <orig>
-       вниманiе
+       вниманіе
       </orig>
      </choice>
      <choice>
@@ -297,7 +327,7 @@
        происхождение
       </reg>
       <orig>
-       происхожденiе
+       происхожденіе
       </orig>
      </choice>
      , того, чтобы прочесть пробную
@@ -306,7 +336,7 @@
        лекцию
       </reg>
       <orig>
-       лекцiю
+       лекцію
       </orig>
      </choice>
      на
@@ -324,7 +354,7 @@
        Лекция
       </reg>
       <orig>
-       Лекцiя
+       Лекція
       </orig>
      </choice>
      <choice>
@@ -341,7 +371,7 @@
        диссертация
       </reg>
       <orig>
-       диссертацiя
+       диссертація
       </orig>
      </choice>
      его) огромный
@@ -413,7 +443,7 @@
        мира
       </reg>
       <orig>
-       мiра
+       міра
       </orig>
      </choice>
      —
@@ -439,7 +469,7 @@
        утверждение
       </reg>
       <orig>
-       утвержденiе
+       утвержденіе
       </orig>
      </choice>
      Министра.
@@ -483,7 +513,7 @@
        отчаянии
       </reg>
       <orig>
-       отчаянiи
+       отчаяніи
       </orig>
      </choice>
      .
@@ -519,7 +549,7 @@
        умением
       </reg>
       <orig>
-       умѣнiемъ
+       умѣніемъ
       </orig>
      </choice>
      помочь ему
@@ -650,19 +680,19 @@
      </choice>
      Л. Толстой.
     </p>
-    <p id="03f1f314-039b-420a-90c6-74d33f280a51" rend="left">
+    <p id="03f1f314-039b-420a-90c6-74d33f280a51">
      <hi>
       На конверте:
      </hi>
     </p>
-    <p id="43324d13-96c4-4282-bd41-bd63dec848e7" rend="left">
+    <p id="43324d13-96c4-4282-bd41-bd63dec848e7">
      Публичная
      <choice>
       <reg>
        библиотека
       </reg>
       <orig>
-       библiотека
+       библіотека
       </orig>
      </choice>
      ,
@@ -671,7 +701,7 @@
        Владимиру
       </reg>
       <orig>
-       Владимiру
+       Владиміру
       </orig>
      </choice>
      Васильевичу Стасову.

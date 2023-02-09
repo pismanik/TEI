@@ -9,17 +9,41 @@
                 <title type="main">Письмо гр. А. А. Толстой от 16 июля 1857 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо гр. А. А. Толстой, 16 июля 1857 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 60. М.: Гос. изд. «Художественная литература», 1949. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 60</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">219-220</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,10 +128,10 @@
      </name>
      .1857 г. Июля 16/28. Баден-Баден.
     </opener>
-    <p id="a4ed33ce-71fb-47dc-928f-5ec69be342c2" rend="Obrashenie left">
+    <p id="a4ed33ce-71fb-47dc-928f-5ec69be342c2" rend="Obrashenie">
      Милая бабушка!
     </p>
-    <p id="e26b073e-fba9-46cf-973f-fe1e9680bc77" rend="left">
+    <p id="e26b073e-fba9-46cf-973f-fe1e9680bc77">
      Странное и смешное дело, о котором я вам пишу. Ну, да что выйдет, то выйдет. Попутала меня нелегкая поехать в Baden, а в Бадене рулетка, и я проиграл всё до копейки. Но это бы ничего, потому что я распорядился, чтобы мне прислали, и на прожиток достал; но дорогой я сошелся с Французом,
      <ref target="#note1">
       1
@@ -135,16 +165,16 @@
      </hi>
      переставайте любить меня так, как я сотой доли того не стою. —
     </p>
-    <p id="5d3e729f-1348-466e-bcc8-243c05fad7f3" rend="left">
+    <p id="5d3e729f-1348-466e-bcc8-243c05fad7f3">
      Когда буду в нормальном положении, напишу подробно, а теперь стыдно таким людям, как вы, даже мысленно в глаза смотреть. —
     </p>
-    <p id="dfec64e0-b971-49a7-ab1b-09dae2d1344d" rend="left">
+    <p id="dfec64e0-b971-49a7-ab1b-09dae2d1344d">
      Прощайте и простите. —
     </p>
-    <p id="be3d4c83-7daa-4f8c-bee5-7c840216cccc" rend="left">
+    <p id="be3d4c83-7daa-4f8c-bee5-7c840216cccc">
      Адрес: Baden-Baden, Hôtel Hollande.
     </p>
-    <p id="ea751b5e-ccca-4901-9d2f-7940eddfda2f" rend="left">
+    <p id="ea751b5e-ccca-4901-9d2f-7940eddfda2f">
      Обеим бабушкам
      <ref target="#note3">
       3
@@ -157,10 +187,10 @@
     <p id="3c86fc4f-589a-40f8-85db-3819045ba059" rend="right">
      Ваш Гр. Л. Толстой.
     </p>
-    <p id="3958bc10-03d4-4312-9b72-3f3ca0648a07" rend="left">
+    <p id="3958bc10-03d4-4312-9b72-3f3ca0648a07">
      28 июля.
     </p>
-    <p id="6da5af3f-ca1d-4b55-9e06-cdf7ee4d09cb" rend="left">
+    <p id="6da5af3f-ca1d-4b55-9e06-cdf7ee4d09cb">
      Заметьте: 28.
      <ref target="#note4">
       4
@@ -169,7 +199,7 @@
       Толстой придавал большое значение числу «28», это был год и день его рождения (1828 г., августа 28).
      </note>
     </p>
-    <p id="2a63951a-b7d3-481f-a2a3-34b10a125db0" rend="left">
+    <p id="2a63951a-b7d3-481f-a2a3-34b10a125db0">
      Если можно, ответьте по телеграфу franco. —
     </p>
     <noteGrp type="comments"/>

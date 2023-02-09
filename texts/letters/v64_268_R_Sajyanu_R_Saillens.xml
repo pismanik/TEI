@@ -9,17 +9,41 @@
                 <title type="main">Письмо Р. Сайяну (R. Saillens) с 1 октября 1888 г. по 31 октября 1888 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Р. Сайяну (R. Saillens), 1 октября 1888 г. — 31 октября 1888 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 64. М.: Гос. изд. «Художественная литература», 1953. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 64</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">188-190</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -94,7 +123,7 @@
     <opener index="false">
      268. Р. Сайяну (R. Saillens).1888г. Октябрь? Я. П.
     </opener>
-    <p id="0951047b-59ca-4d61-9a63-0d1c26d0a406" rend="left">
+    <p id="0951047b-59ca-4d61-9a63-0d1c26d0a406">
      Monsieur. Je suis vraiment désolé de vous avoir causé de la peine et je vous prie de me pardonner ma faute, qui est bien involontaire, comme vous allez voir. Il parait en Russie une feuille mensuelle très peu répandue: le Rabochie,
      <ref target="#note1">
       1
@@ -146,7 +175,7 @@
      </hi>
      d’un plagiat involontaire, et c’est avec le plus grand plaisir que je constate içi par cette lettre que le récit: Là où est l’amour, là est Dieun’est qu’une traduction et une adaption aux moeurs russes de vorte admirable récit Martin.
     </p>
-    <p id="0fa57462-2a99-4eb3-8067-e42a99d2d031" rend="left">
+    <p id="0fa57462-2a99-4eb3-8067-e42a99d2d031">
      Je vous prie, Monsieur, d’excuser ma négligence et de recevoir l’assurance de mes sentiments fraternels.
     </p>
     <p id="37faff0b-dd53-4b5c-81c1-6c7abc0e934d" rend="right">
@@ -159,7 +188,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="c987f027-ee87-4900-9009-8809a12dc5d8" rend="petit left">
+      <p id="c987f027-ee87-4900-9009-8809a12dc5d8" rend="petit">
        В России выходит очень мало распространенный ежемесячный листок «Рабочий».
        <ref target="#note4">
         4
@@ -197,12 +226,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="e8a7f53f-e2f8-46d5-aeba-547294bf7ef2" rend="petit left">
+      <p id="e8a7f53f-e2f8-46d5-aeba-547294bf7ef2" rend="petit">
        Вот каким образом, милостивый государь, я, к моему великому сожалению, оказался виновен перед вами в неумышленном плагиате, и настоящим письмом с величайшим удовольствием подтверждаю, что рассказ «Где любовь, там и Бог» есть не что иное, как перевод и приспособление к русским нравам вашего чудесного рассказа «Le père Martin».
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="60190807-c7f5-4702-b1e2-15c6ab115574" rend="petit left">
+      <p id="60190807-c7f5-4702-b1e2-15c6ab115574" rend="petit">
        Прошу вас, милостивый государь, простить мне мою небрежность и принять уверение в моих братских чувствах.
       </p>
      </note>
@@ -220,7 +249,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="feafe63c-6353-4268-a44c-ce82ff471925" rend="petit left">
+      <p id="feafe63c-6353-4268-a44c-ce82ff471925" rend="petit">
        <name placement="comments" ref="12159" type="person">
         Рубен Сайян (Ruben Saillens)
        </name>
@@ -228,7 +257,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="9dcc24f2-f034-44ab-8999-64279fb110de" rend="petit left">
+      <p id="9dcc24f2-f034-44ab-8999-64279fb110de" rend="petit">
        «Я был удивлен и несколько огорчен, — писал Р. Сайян Толстому, — обнаружив в одном из томов ваших последних произведений, под названием “Иван Дурак” (в переводе Е. Гальперина-Каминского),
        <hi style="opdelimiter">
         рассказ
@@ -241,12 +270,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="f00501a1-e5ac-4898-990c-053ce64e218c" rend="petit left">
+      <p id="f00501a1-e5ac-4898-990c-053ce64e218c" rend="petit">
        Автор, без сомнения, не отказал бы вам, если бы вы обратились к нему за разрешением переделать эту рождественскую сказку в русский рассказ. Но поставьте себя на его место и сознайтесь, что вам было бы неприятно встретить в иностранной печати одно из созданных вами лиц, и притом за подписью другого автора! Правда, одна и та же мысль может возникнуть в двух различных умах, хотя бы один и превосходил значительно другого. Но совершенно невозможно, чтоб два автора, не заимствуя друг у друга, могли бы дать своему герою одно и то же имя (Мартин), одно и то же ремесло (сапожник), одно и то же семейное положение (бездетный вдовец); невозможно, чтоб они цитировали одни и те же места из Евангелия и изображали бы тех же второстепенных лиц (подметальщика улиц, мать с ребенком).
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="01a97e07-b514-4952-a41c-56ce8104eb41" rend="petit left">
+      <p id="01a97e07-b514-4952-a41c-56ce8104eb41" rend="petit">
        Имею честь послать вам мою сказку, под названием “Le père Martin”, появившуюся в печати 13 декабря 1882 г. в “Народном листке г. Марселя”, и выпущенную отдельной книжкой в следующем году фирмой Моннера, Париж.... Я не сомневаюсь, милостивый государь, что вы, с присущей вам честностью, признаетесь, что, случайно напав на мой рассказ, не зная, где меня найти, сочли возможным воспользоваться понравившейся вам темой. И я не сомневаюсь также в том, что вы сделаете всё от вас зависящее, чтоб исправить нанесенный мне матерьяльный и нравственный ущерб» (перевод с французского).
       </p>
      </note>

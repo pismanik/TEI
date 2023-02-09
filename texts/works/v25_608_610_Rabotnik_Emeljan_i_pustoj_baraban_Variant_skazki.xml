@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v25_608_610_Rabotnik_Emeljan_i_pustoj_baraban_Variant_skazki">
-                    Работник Емельян и пустой барабан. Tolstoy Digital
+                    Работник Емельян и пустой барабан. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Работник Емельян.</title>
                 <title type="sub" resp="volume_editor">Вариант</title>
-                <title type="bibl">Толстой Л. Н. Работник Емельян и пустой барабан // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 25. М.: Гос. изд. «Художественная литература», 1937. С.</title>
+                <title type="bibl">Толстой Л. Н. Работник Емельян и пустой барабан // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 25. М.: Гос. изд. «Художественная литература», 1937. С. 608–610.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1882"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#ver" target="work_main"/>
@@ -112,7 +137,7 @@
      * [ВАРИАНТ СКАЗКИ «РАБОТНИК ЕМЕЛЬЯН И ПУСТОЙ БАРАБАН»]
     </head>
     <div>
-     <p id="b4e96596-a3d3-4c8b-a153-44e5bcde7055" rend="left">
+     <p id="b4e96596-a3d3-4c8b-a153-44e5bcde7055">
       <choice>
        <reg>
         Посидела
@@ -1022,7 +1047,7 @@
       </choice>
       проси.
      </p>
-     <p id="ae0d4b82-9e50-4f21-adeb-dc45d56cade7" rend="left">
+     <p id="ae0d4b82-9e50-4f21-adeb-dc45d56cade7">
       А
       <choice>
        <reg>
@@ -1034,7 +1059,7 @@
       </choice>
       же я найду?
      </p>
-     <p id="0c83c6f1-7b9b-439c-beae-809eb0c3bebd" rend="left">
+     <p id="0c83c6f1-7b9b-439c-beae-809eb0c3bebd">
       Я,
       <choice>
        <reg>
@@ -1191,7 +1216,7 @@
          провизией
         </reg>
         <orig>
-         провизiей
+         провизіей
         </orig>
        </choice>
       </del>
@@ -1270,7 +1295,7 @@
         провизия
        </reg>
        <orig>
-        провизiя
+        провизія
        </orig>
       </choice>
       ,
@@ -1558,7 +1583,7 @@
       </choice>
       .
      </p>
-     <p id="52b97f07-2b86-4594-b736-7219a0af375a" rend="left">
+     <p id="52b97f07-2b86-4594-b736-7219a0af375a">
       <choice>
        <reg>
         Подумал
@@ -1769,7 +1794,7 @@
       </choice>
       домой.
      </p>
-     <p id="86f14612-460c-44f6-ae33-0631834926de" rend="left">
+     <p id="86f14612-460c-44f6-ae33-0631834926de">
       <choice>
        <reg>
         Прошел
@@ -2042,7 +2067,7 @@
       </choice>
       ты того не знай чего. Теперь ты всему голова.
      </p>
-     <p id="f36a06d5-6d66-41d1-ada3-d63de5f1da0e" rend="left">
+     <p id="f36a06d5-6d66-41d1-ada3-d63de5f1da0e">
       Распрощался
       <choice>
        <reg>
@@ -2128,7 +2153,7 @@
      <head rend="title_level3 left">
       * № 2.
      </head>
-     <p id="63e05716-e7b8-4844-8917-6c4d658bca6d" rend="left">
+     <p id="63e05716-e7b8-4844-8917-6c4d658bca6d">
       Надо его работой замучить, чтобы
       <choice>
        <reg>
@@ -2431,7 +2456,7 @@
       </choice>
       .
      </p>
-     <p id="5067bb0e-d1ec-4546-98d0-02f7d95b5a47" rend="left">
+     <p id="5067bb0e-d1ec-4546-98d0-02f7d95b5a47">
       <choice>
        <reg>
         Позвал
@@ -2680,7 +2705,7 @@
       </choice>
       .
      </p>
-     <p id="1d89a4d3-e028-4c0e-af9c-db85809cfc49" rend="left">
+     <p id="1d89a4d3-e028-4c0e-af9c-db85809cfc49">
       Ну,
       <choice>
        <reg>
@@ -2719,9 +2744,7 @@
       </choice>
       можешь.
      </p>
-     <p id="139a5d64-297b-4f53-b469-e1ac8dfb6e0b" rend="subtitle centerline">
-      ————
-     </p>
+    <metamark function="line"/>
      <lb/>
     </div>
    </div>

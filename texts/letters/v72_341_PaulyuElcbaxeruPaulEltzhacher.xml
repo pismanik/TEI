@@ -9,17 +9,41 @@
                 <title type="main">Письмо Паулю Эльцбахеру (Paul Eltzhacher) от 1 августа 1900 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Паулю Эльцбахеру (Paul Eltzhacher), 1 августа 1900 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">424-426</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,10 +127,10 @@
      </name>
      .1900 г. Августа 1/13. Я. П.
     </opener>
-    <p id="7a1cedef-d78c-41a4-925f-ec6aad22b6e1" rend="Obrashenie left">
+    <p id="7a1cedef-d78c-41a4-925f-ec6aad22b6e1" rend="Obrashenie">
      Verehrter Herr,
     </p>
-    <p id="57650ca6-ac79-4852-895f-0e8c77606585" rend="left">
+    <p id="57650ca6-ac79-4852-895f-0e8c77606585">
      Beide Exemplare Ihres Buches
      <hi>
       1
@@ -126,7 +155,7 @@
      </choice>
      nicht wohl.
     </p>
-    <p id="530ddb9f-cc57-4465-aa37-a2b2b3093d6b" rend="left">
+    <p id="530ddb9f-cc57-4465-aa37-a2b2b3093d6b">
      Ihr Buch macht für den Anarchismus dasselbe, was vor 30 Jahren für den Sozialismus gemacht war; führt ihn ein in das Program der politischen
      <choice original_editorial_correction="Wissens[c]haften">
       <sic>
@@ -138,7 +167,7 @@
      </choice>
      . Ihr Buch hat mir auserordentlich gefallen. Es ist rein objectiv, verständlich und — so viel ich urtheilen kann — sind im Buche die Quellen vortrefflich bearbeitet.
     </p>
-    <p id="91fc3866-1a26-4ae1-9741-859feedb4212" rend="left">
+    <p id="91fc3866-1a26-4ae1-9741-859feedb4212">
      Mir scheint nur,
      <choice original_editorial_correction="das[s]">
       <sic>
@@ -168,24 +197,24 @@
     <p id="d805a210-6529-477a-8162-6c19d7b23476" rend="right">
      Leo Tolstoy.
     </p>
-    <p id="5c33c3e7-559d-41da-b6b7-b7d39767756d" rend="left">
+    <p id="5c33c3e7-559d-41da-b6b7-b7d39767756d">
      1900. 12 August.
     </p>
     <lb/>
     <p id="1cde27ec-bbbb-46ca-89d2-3b13fd5d0a21" rend="Obrashenie petit">
      Милостивый государь,
     </p>
-    <p id="fe9f939e-3164-49f7-bbb0-816f2ffadfec" rend="petit left">
+    <p id="fe9f939e-3164-49f7-bbb0-816f2ffadfec" rend="petit">
      Оба экземпляра вашей книги
      <hi>
       1
      </hi>
      мною получены, последний только несколько дней тому назад. От души благодарю вас за их присылку. Простите, что так долго не писал; я был болен и до сих пор еще не вполне поправился.
     </p>
-    <p id="3000892f-d4ef-43ea-a4b1-648ddeabad5d" rend="petit left">
+    <p id="3000892f-d4ef-43ea-a4b1-648ddeabad5d" rend="petit">
      Ваша книга делает для анархизма то, что 30 лет назад было сделано для социализма: вводит его в программу политических наук. Ваша книга мне чрезвычайно понравилась. Она совершенно объективна, понятна, и, насколько я могу судить, источники в ней отлично использованы.
     </p>
-    <p id="b27b3c44-464f-4d6b-8a3a-acdda386bbac" rend="petit left">
+    <p id="b27b3c44-464f-4d6b-8a3a-acdda386bbac" rend="petit">
      Мне кажется только, что я не анархист в смысле политического реформатора. В оглавлении вашей книги под словом «насилие» сделаны указания на разные страницы из других сочинений, но ни одной ссылки на мои. Не доказательство ли это того, что то учение, которое вы мне приписываете и которое, в сущности, есть не что иное, как учение Христа, вовсе не политическое, а религиозное учение?
      <hi>
       2
@@ -200,7 +229,7 @@
      </name>
      .
     </p>
-    <p id="4b687933-781b-4ca7-ae49-801478ec9b1e" rend="petit left">
+    <p id="4b687933-781b-4ca7-ae49-801478ec9b1e" rend="petit">
      1900. 12
      <hi style="opdelimiter">
       Августа
@@ -217,7 +246,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="5e63d7f8-b816-4046-9e8a-0db6cd23dae0" rend="petit left">
+      <p id="5e63d7f8-b816-4046-9e8a-0db6cd23dae0" rend="petit">
        Ответ на письмо доктора
        <name placement="comments" ref="15965" type="person">
         Пауля Эльцбахера

@@ -9,17 +9,41 @@
                 <title type="main">Письмо Рубену Сайяну (Ruben Saillens) от 20 марта 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Рубену Сайяну (Ruben Saillens), 20 марта 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">99-100</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,10 +128,10 @@
      </name>
      .1899г. Марта 20. Москва.
     </opener>
-    <p id="f972a158-5376-4032-aa0f-794d97dec83a" rend="Obrashenie left">
+    <p id="f972a158-5376-4032-aa0f-794d97dec83a" rend="Obrashenie">
      Monsieur,
     </p>
-    <p id="fae50345-4839-4af2-86a0-da039aa26c55" rend="left">
+    <p id="fae50345-4839-4af2-86a0-da039aa26c55">
      Comme je vous l’ai écrit, dans toutes les éditions russes qui se font de mes écrits, il est dit que le récit: Où est l’amour est Dieu a été emprunté à une traduction faite du Français (et qui n’est autre chose que votre récit: le Père Martin).
      <ref target="#note1">
       1
@@ -117,13 +147,13 @@
       Толстой отказался от авторских прав в 1891 году.
      </note>
     </p>
-    <p id="27478ba6-a6ba-437f-b90e-15037d83ffa7" rend="left">
+    <p id="27478ba6-a6ba-437f-b90e-15037d83ffa7">
      Recevez, Monsieur, l’assurance de mes sentiments distingués.
     </p>
     <p id="91c249ab-108f-4333-b817-d71b4058b2a8" rend="right">
      Léon Tolstoy.
     </p>
-    <p id="921e6170-fe1b-44fe-a2cd-b52cf4d829c0" rend="left">
+    <p id="921e6170-fe1b-44fe-a2cd-b52cf4d829c0">
      20 Mars 1899.
     </p>
     <lb/>
@@ -150,7 +180,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="af2a9339-bf8e-4713-89d9-6dea8d77f3ea" rend="petit left">
+      <p id="af2a9339-bf8e-4713-89d9-6dea8d77f3ea" rend="petit">
        Примите, милостивый государь, уверения в моих лучших чувствах.
       </p>
      </note>
@@ -163,7 +193,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="6bdf028d-1777-405f-a83f-3f098f409b6f" rend="petit left">
+      <p id="6bdf028d-1777-405f-a83f-3f098f409b6f" rend="petit">
        20 Марта 1899.
       </p>
      </note>
@@ -173,7 +203,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="2bdc8901-cac5-4adc-aeb6-08f3c749fa05" rend="petit left">
+      <p id="2bdc8901-cac5-4adc-aeb6-08f3c749fa05" rend="petit">
        <name placement="comments" ref="12159" type="person">
         Рубен Сайян (Ruben Saillens)
        </name>
@@ -181,7 +211,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="e2c2e50d-9394-44ce-807f-9a5e5f7bc7eb" rend="petit left">
+      <p id="e2c2e50d-9394-44ce-807f-9a5e5f7bc7eb" rend="petit">
        Один из рассказов Сайяна, «Le Père Martin» («Отец Мартин»), напечатанный в основанном им журнале «La Feuille populaire de Marseille» 1882, декабрь, был переведен с небольшими переделками на русский язык и напечатан в периодическом листке русских последователей Редстока, «пашковцев», «Русский рабочий» 1884, I, без указания автора, под названием «Дядя Мартын». Толстой подвергнул этот перевод обработке и отдал рассказ для печати,
        <hi>
         без

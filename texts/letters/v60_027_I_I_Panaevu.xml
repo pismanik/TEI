@@ -9,17 +9,41 @@
                 <title type="main">Письмо И. И. Панаеву от 6 октября 1856 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо И. И. Панаеву, 6 октября 1856 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 60. М.: Гос. изд. «Художественная литература», 1949. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 60</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">91-93</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -98,7 +127,7 @@
      </name>
      .1856 г. Октября 6. Я. П.
     </opener>
-    <p id="09f9e183-0c3a-4a77-b207-cec48c2773a9" rend="left">
+    <p id="09f9e183-0c3a-4a77-b207-cec48c2773a9">
      Я отвечал на ваше первое письмо,
      <ref target="#note1">
       1
@@ -171,10 +200,10 @@
      </name>
      .
     </p>
-    <p id="9aeee990-1eb0-43fa-a52f-3c25f6f60ff1" rend="left">
+    <p id="9aeee990-1eb0-43fa-a52f-3c25f6f60ff1">
      6 Октября.
     </p>
-    <p id="a307748e-e6a4-4510-b0c8-2d0216604d3a" rend="left">
+    <p id="a307748e-e6a4-4510-b0c8-2d0216604d3a">
      Ясная.
     </p>
     <noteGrp type="comments">
@@ -184,7 +213,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="d98f7fd5-5734-4797-8b5c-8de5342a3f60" rend="petit left">
+      <p id="d98f7fd5-5734-4797-8b5c-8de5342a3f60" rend="petit">
        <name placement="comments" ref="10447" type="person">
         Иван Иванович Панаев
        </name>
@@ -192,7 +221,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="cdad63d1-0090-4dc9-b022-5402065422cd" rend="petit left">
+      <p id="cdad63d1-0090-4dc9-b022-5402065422cd" rend="petit">
        Письмо является ответом на два письма И. И. Панаева: от 16 августа и 25 сентября 1856 г. (опубликованы в «Красной
        <ref id="nov'" target="slovar">
         нови

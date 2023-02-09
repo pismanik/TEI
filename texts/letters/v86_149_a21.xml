@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову от 21 июля 1887 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 21 июля 1887 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 86. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 86</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">68-70</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 149.1887 г. Июля 21. Я. П.
     </opener>
-    <p id="a44a136e-c501-4f46-9599-ab5680626b50" rend="left">
+    <p id="a44a136e-c501-4f46-9599-ab5680626b50">
      <choice>
       <reg>
        Устал
@@ -271,7 +301,7 @@
        писанием
       </reg>
       <orig>
-       писанiемъ
+       писаніемъ
       </orig>
      </choice>
      о «
@@ -377,7 +407,7 @@
          Юлии
         </reg>
         <orig>
-         Юлiи
+         Юліи
         </orig>
        </choice>
       </corr>
@@ -393,7 +423,7 @@
          Памфилии
         </reg>
         <orig>
-         Памфилiи
+         Памфиліи
         </orig>
        </choice>
       </corr>
@@ -526,7 +556,7 @@
        впечатлению
       </reg>
       <orig>
-       впечатлѣнiю
+       впечатлѣнію
       </orig>
      </choice>
      .
@@ -540,7 +570,7 @@
          Памфилий
         </reg>
         <orig>
-         Памфилiй
+         Памфилій
         </orig>
        </choice>
       </corr>
@@ -609,7 +639,7 @@
        опровержение
       </reg>
       <orig>
-       опроверженiе
+       опроверженіе
       </orig>
      </choice>
      есть всегда
@@ -618,7 +648,7 @@
        опровержение
       </reg>
       <orig>
-       опроверженiе
+       опроверженіе
       </orig>
      </choice>
      и на доказательства — антидоказательства. Ну да
@@ -890,7 +920,7 @@
        христианского
       </reg>
       <orig>
-       христiанскаго
+       христіанскаго
       </orig>
      </choice>
      духа по
@@ -947,7 +977,7 @@
      </choice>
      длинноты, я думаю, можно напечатать.
     </p>
-    <p id="90e782f6-163d-4108-ad73-d51316eee420" rend="left">
+    <p id="90e782f6-163d-4108-ad73-d51316eee420">
      Ну прощайте. Что не
      <choice>
       <reg>
@@ -1058,7 +1088,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="0e31c256-88b2-4a85-b48f-d4092f2a55d9" rend="petit left">
+      <p id="0e31c256-88b2-4a85-b48f-d4092f2a55d9" rend="petit">
        Пока до свиданья или до следующего письма, дорогой друг,
        <choice original_editorial_correction="Л[ев]">
         <sic>

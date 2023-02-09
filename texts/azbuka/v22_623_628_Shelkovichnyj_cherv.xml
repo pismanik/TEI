@@ -9,18 +9,42 @@
             <title type="bibl">Толстой Л. Н. Азбука // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 22. М.: Гос. изд. «Художественная литература», 1957. С. </title>
             <author>Толстой Лев Николаевич</author>
             <respStmt>
-                <resp>Идея, постановка задач, руководство</resp>
+                <resp>Идея, постановка задач, руководство:</resp>
                 <name>
                     Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                 </name>
-             </respStmt>
+            </respStmt>
             <respStmt>
-                <resp>
-                    Подготовка TEI/XML
-                </resp>
-                <name>
-                    Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                </name>
+                    <resp>
+                        Подготовка TEI/XML:
+                    </resp>
+                    <name>
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>
             </respStmt>
                 <funder>
                     Проект «Слово Толстого»
@@ -29,7 +53,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -41,7 +65,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы были получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -59,7 +83,7 @@
                     </analytic>
                     <monogr>
                         <title level="m">
-                          Полное собрание сочинений.
+                          Полное собрание сочинений: в 90 тт.
                         </title>
                         <imprint>
                             <pubPlace>
@@ -75,7 +99,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -111,7 +135,7 @@
       ШЕЛКОВИЧНЫЙ ЧЕРВЬ.
      </hi>
     </head>
-    <p id="6293e7d5-5149-450f-b8fd-cb7db213291a" rend="left">
+    <p id="6293e7d5-5149-450f-b8fd-cb7db213291a">
      У меня были
      <choice>
       <reg>
@@ -159,13 +183,13 @@
       </reg>
      </choice>
     </p>
-    <p id="2cae1cec-d998-4d83-bf23-835ff7ad2ec5" rend="left emptyline">
+    <p id="2cae1cec-d998-4d83-bf23-835ff7ad2ec5" rend="emptyline">
      <pb n="624"/>
     </p>
     <p id="d8283d36-c9a2-446b-bfcb-bc143e4de45e" rend="centerline">
      — 64 —
     </p>
-    <p id="e6f10b92-a93d-47da-a9e2-1e0233d50b24" rend="notindent">
+    <p id="e6f10b92-a93d-47da-a9e2-1e0233d50b24">
      <choice>
       <reg>
        семян
@@ -267,7 +291,7 @@
       </reg>
      </choice>
     </p>
-    <p id="c63f0434-75b9-4a0d-9711-0a4db3e7d4b4" rend="left">
+    <p id="c63f0434-75b9-4a0d-9711-0a4db3e7d4b4">
      <choice>
       <reg>
        Семечки
@@ -293,7 +317,7 @@
      </choice>
      .
     </p>
-    <p id="a6be70a1-42ae-4e9b-8874-3b884df36159" rend="left">
+    <p id="a6be70a1-42ae-4e9b-8874-3b884df36159">
      Но
      <choice>
       <reg>
@@ -443,7 +467,7 @@
      </choice>
      .
     </p>
-    <p id="774807af-b337-4f0d-8dc3-8cac74cd620a" rend="left">
+    <p id="774807af-b337-4f0d-8dc3-8cac74cd620a">
      На другое утро я рано
      <choice>
       <reg>
@@ -507,7 +531,7 @@
      </choice>
      .
     </p>
-    <p id="7fe0c3c2-2394-4b33-8fdf-9a3ef2a8dd51" rend="left">
+    <p id="7fe0c3c2-2394-4b33-8fdf-9a3ef2a8dd51">
      Червячки были черные, мохнатые и
      <choice>
       <reg>
@@ -656,7 +680,7 @@
      </choice>
      меня учили.
     </p>
-    <p id="26390dd7-be96-4abd-bf28-5a83ef31a997" rend="left">
+    <p id="26390dd7-be96-4abd-bf28-5a83ef31a997">
      Пока я
      <choice>
       <reg>
@@ -725,13 +749,13 @@
      </choice>
      карандаши,
     </p>
-    <p id="faff487c-d624-4c41-8e8b-67213e9975ec" rend="left emptyline">
+    <p id="faff487c-d624-4c41-8e8b-67213e9975ec" rend="emptyline">
      <pb n="625"/>
     </p>
     <p id="90aae347-1c2a-480e-817c-4577d6bf929d" rend="centerline">
      — 65 —
     </p>
-    <p id="ed39f196-6460-4249-aaf9-6eb938214f90" rend="notindent">
+    <p id="ed39f196-6460-4249-aaf9-6eb938214f90">
      ножницы и бумагу. Тогда я
      <choice>
       <reg>
@@ -820,7 +844,7 @@
      </choice>
      .
     </p>
-    <p id="79df4dc8-ba38-40ef-91be-7d9f92da50b2" rend="left">
+    <p id="79df4dc8-ba38-40ef-91be-7d9f92da50b2">
      На
      <choice>
       <reg>
@@ -976,7 +1000,7 @@
      </choice>
      .
     </p>
-    <p id="c9ff32a4-4e54-46f4-aa7d-4b3ca5474162" rend="left">
+    <p id="c9ff32a4-4e54-46f4-aa7d-4b3ca5474162">
      Они лежали у меня на
      <choice>
       <reg>
@@ -1097,7 +1121,7 @@
      </choice>
      .
     </p>
-    <p id="755f23d6-7c89-4046-869a-01c94f313728" rend="left">
+    <p id="755f23d6-7c89-4046-869a-01c94f313728">
      <choice>
       <reg>
        Целые
@@ -1178,7 +1202,7 @@
      </choice>
      .
     </p>
-    <p id="5b941407-bde7-4459-87cc-0c0f5aa84569" rend="left">
+    <p id="5b941407-bde7-4459-87cc-0c0f5aa84569">
      <choice>
       <reg>
        Так
@@ -1249,13 +1273,13 @@
      </choice>
      вечеру на
     </p>
-    <p id="9f0e7255-6bf3-454f-a85d-12edd9f70d31" rend="left emptyline">
+    <p id="9f0e7255-6bf3-454f-a85d-12edd9f70d31" rend="emptyline">
      <pb n="626"/>
     </p>
     <p id="429eb3ec-3fb3-42c4-b2fd-2fd991133a42" rend="centerline">
      — 66 —
     </p>
-    <p id="b6d8ef40-7b41-4f3c-b07a-b7ce68e26871" rend="notindent">
+    <p id="b6d8ef40-7b41-4f3c-b07a-b7ce68e26871">
      5-й день точно —
      <choice>
       <reg>
@@ -1300,7 +1324,7 @@
      </choice>
      и шевелиться.
     </p>
-    <p id="2e62725e-a467-4c36-b9fd-4447393d8497" rend="left">
+    <p id="2e62725e-a467-4c36-b9fd-4447393d8497">
      На
      <choice>
       <reg>
@@ -1371,7 +1395,7 @@
      </choice>
      новую.
     </p>
-    <p id="2d67d826-fac2-4aec-99af-75846e42cf07" rend="left">
+    <p id="2d67d826-fac2-4aec-99af-75846e42cf07">
      Мы караулили по
      <choice>
       <reg>
@@ -1637,7 +1661,7 @@
      </choice>
      .
     </p>
-    <p id="b2afe885-f531-4428-998d-de8eeaae6b6e" rend="left">
+    <p id="b2afe885-f531-4428-998d-de8eeaae6b6e">
      <choice>
       <reg>
        Других
@@ -1691,7 +1715,7 @@
      </choice>
      старой рубашки.
     </p>
-    <p id="15252bad-b50a-4b96-a531-f9e7f7060654" rend="left">
+    <p id="15252bad-b50a-4b96-a531-f9e7f7060654">
      Перелинявши, червяки
      <choice>
       <reg>
@@ -1776,13 +1800,13 @@
      </choice>
      , и стали уже
     </p>
-    <p id="a724ab96-f5cc-4fe5-88a3-679a8d23dade" rend="left emptyline">
+    <p id="a724ab96-f5cc-4fe5-88a3-679a8d23dade" rend="emptyline">
      <pb n="627"/>
     </p>
     <p id="b7b1d41d-a3ab-4481-a5b7-b2516c32e5f5" rend="centerline">
      — 67 —
     </p>
-    <p id="9c30acd1-88f3-48eb-936f-b4ff4a47b673" rend="notindent">
+    <p id="9c30acd1-88f3-48eb-936f-b4ff4a47b673">
      очень велики и толсты, и мы едва
      <choice>
       <reg>
@@ -1802,7 +1826,7 @@
      </choice>
      .
     </p>
-    <p id="4627c921-8c7a-49f0-aa31-ec54e7b8555d" rend="left">
+    <p id="4627c921-8c7a-49f0-aa31-ec54e7b8555d">
      На 9-й день
      <choice>
       <reg>
@@ -1913,7 +1937,7 @@
      </choice>
      .
     </p>
-    <p id="3f5a0346-ae90-4327-bfef-793a073c7c7a" rend="left">
+    <p id="3f5a0346-ae90-4327-bfef-793a073c7c7a">
      Я
      <choice>
       <reg>
@@ -1949,7 +1973,7 @@
      </choice>
      .
     </p>
-    <p id="f1aa53b4-d067-4431-b98f-2cdca33d4938" rend="left">
+    <p id="f1aa53b4-d067-4431-b98f-2cdca33d4938">
      <choice>
       <reg>
        Старшие
@@ -2145,7 +2169,7 @@
      </choice>
      .
     </p>
-    <p id="4e989be5-5fc1-4c25-a150-d4577cc56586" rend="left">
+    <p id="4e989be5-5fc1-4c25-a150-d4577cc56586">
      <choice>
       <reg>
        Через
@@ -2170,7 +2194,7 @@
      </choice>
      .
     </p>
-    <p id="5b5da75c-41f1-43b0-8dd1-7432322ec38b" rend="left">
+    <p id="5b5da75c-41f1-43b0-8dd1-7432322ec38b">
      <choice>
       <reg>
        Потом
@@ -2277,13 +2301,13 @@
      </choice>
      каждую секунду по обороту. За то уже
     </p>
-    <p id="0354f729-6f01-403a-adf0-0f5c4d2ed53f" rend="left emptyline">
+    <p id="0354f729-6f01-403a-adf0-0f5c4d2ed53f" rend="emptyline">
      <pb n="628"/>
     </p>
     <p id="afbfb969-0ef0-49a7-9031-88b646379b39" rend="centerline">
      — 68 —
     </p>
-    <p id="f2fc9e21-37c4-423b-92b9-905e97225c80" rend="notindent">
+    <p id="f2fc9e21-37c4-423b-92b9-905e97225c80">
      <choice>
       <reg>
        после
@@ -2346,7 +2370,7 @@
      </choice>
      .
     </p>
-    <p id="b71167d3-e2a9-41bc-9aba-0398b0b84209" rend="left">
+    <p id="b71167d3-e2a9-41bc-9aba-0398b0b84209">
      Я
      <choice>
       <reg>
@@ -2438,7 +2462,7 @@
      </choice>
      .
     </p>
-    <p id="c8fa1ef8-4fe0-479e-af8c-ada60b170b43" rend="left">
+    <p id="c8fa1ef8-4fe0-479e-af8c-ada60b170b43">
      На 20-й день, я
      <choice>
       <reg>
@@ -2683,7 +2707,7 @@
      </choice>
      на окно.
     </p>
-    <p id="0a5679b5-f206-4055-841a-1d4fc2fef473" rend="left">
+    <p id="0a5679b5-f206-4055-841a-1d4fc2fef473">
      <choice>
       <reg>
        Через
@@ -2738,7 +2762,7 @@
      </choice>
      .
     </p>
-    <p id="7ca5d179-1091-4b4c-bcae-c93afb663bb4" rend="left">
+    <p id="7ca5d179-1091-4b4c-bcae-c93afb663bb4">
      На другой
      <choice>
       <reg>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо Т. А. Ергольской и гр. Е. А. Толстой от 19 октября 1848 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Т. А. Ергольской и гр. Е. А. Толстой, 19 октября 1848 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">21-22</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -103,7 +132,7 @@
      </name>
      .1848 г. Октября 19...26. Москва.
     </opener>
-    <p id="71d9428a-40ce-45c2-bda8-2d5f185444ab" rend="left">
+    <p id="71d9428a-40ce-45c2-bda8-2d5f185444ab">
      La nouvelle qu’on m’a donnée à la Banque est
      <choice original_editorial_correction="vrai[e]">
       <sic>
@@ -115,13 +144,13 @@
      </choice>
      je ne puis concevoir quelle est la cause de cette méprise. Dites, je vous prie, mes chères tantes, à André qu’il m’envoie les quittances des payements faits l’année 1848. — Dites aussi à Valérien qu’il tâche de se procurer de l’argent pour payer au moins quelque partie de la somme de 1195 roub. arg. d’arriérés qu’il nous reste à payer à tout deux. — Je me porte assez bien et me traite de même. Je n’ai pas encore commencé mes occupations par ce que j’ai trop peu de temps à moi; tantôt ce sont les affaires, tantôt ce sont les personnes qui viennent qui me dérangent.
     </p>
-    <p id="586dbe08-9016-4b79-959f-e4bc4e9e92d3" rend="left">
+    <p id="586dbe08-9016-4b79-959f-e4bc4e9e92d3">
      Adieu. Que faites vous?
     </p>
-    <p id="1d928178-ee63-4947-aac5-6c20b6f516b7" rend="left">
+    <p id="1d928178-ee63-4947-aac5-6c20b6f516b7">
      Gomment va la santé de Marie. Où est Serge? Pourquoi ne m’écrivez vous pas?
     </p>
-    <p id="f29042ee-86f4-4bef-b236-3fb832e2e26b" rend="left">
+    <p id="f29042ee-86f4-4bef-b236-3fb832e2e26b">
      La Princesse Serge
      <ref target="#note1">
       1
@@ -150,7 +179,7 @@
      </note>
      d’après ce que je lui ai raconté et elle m’a absolument recommandé de lui dire qu’elle l’aime beaucoup et qu’elle a grande envie de le voir.
     </p>
-    <p id="79842fbe-e572-4ceb-ad18-f6c58ec084eb" rend="left">
+    <p id="79842fbe-e572-4ceb-ad18-f6c58ec084eb">
      Dans l’armoire qui reste chez Marie il y a 4 volumes reliés du Dictionaire
      <ref target="#note3">
       3
@@ -160,7 +189,7 @@
      </note>
      Enciclopédique que vous aurez la bonté de m’envoyer.
     </p>
-    <p id="6a9e129b-a5df-491f-9f76-5ed7b9fca3f4" rend="left">
+    <p id="6a9e129b-a5df-491f-9f76-5ed7b9fca3f4">
      Je baise les mains à ma
      <choice original_editorial_correction="t[ante]">
       <sic>
@@ -181,7 +210,7 @@
       </name>
       . О ней см. прим. 7 к п. № 4.
      </note>
-     embrasse Mar. et Valérien. Никол. Cepг.
+     embrasse Mar. et Valérien. Никол. Серг.
      <ref target="#note5">
       5
      </ref>
@@ -200,17 +229,17 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="f4d11291-3eac-490a-821a-52c10a80efe1" rend="petit left">
+      <p id="f4d11291-3eac-490a-821a-52c10a80efe1" rend="petit">
        Прощайте. Что вы поделываете?
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="41ff2285-eb2c-40d6-8c2b-0bfbb36fcc34" rend="petit left">
+      <p id="41ff2285-eb2c-40d6-8c2b-0bfbb36fcc34" rend="petit">
        Как здоровье Машеньки? Где Сережа? Почему вы мне не пишете?
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="6ca94061-6a15-48df-b55d-6adb7bbc0d85" rend="petit left">
+      <p id="6ca94061-6a15-48df-b55d-6adb7bbc0d85" rend="petit">
        Жена кн. Сергея
        <ref target="#note6">
         6
@@ -244,7 +273,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="58743358-2936-426d-9725-d99a9b225f30" rend="petit left">
+      <p id="58743358-2936-426d-9725-d99a9b225f30" rend="petit">
        <pb n="22"/>
        <hi style="npdelimiter">
         В
@@ -260,7 +289,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="29842956-3959-4b5b-9495-12f98740bb5d" rend="petit left">
+      <p id="29842956-3959-4b5b-9495-12f98740bb5d" rend="petit">
        Целую руки тетеньке Лизе
        <ref target="#note9">
         9

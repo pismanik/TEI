@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v26_475_476_Varianty_k_Zapiskam_sumashedshego">
-                    Варианты к «Запискам сумашедшего». Tolstoy Digital
+                    Варианты к «Запискам сумашедшего». Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Записки сумасшедшего.</title>
                 <title type="sub" resp="volume_editor">Варианты</title>
-                <title type="bibl">Толстой Л. Н. Варианты к «Запискам сумашедшего» // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 26. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. Варианты к «Запискам сумашедшего» // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 26. М.: Гос. изд. «Художественная литература», 1936. С. 475–476.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1887"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#ver" target="work_main"/>
@@ -126,7 +151,7 @@
     <head n="level2" type="editorial">
      * № 1.
     </head>
-    <p id="c7204c68-f1a1-4c49-9743-e80160c7f720" rend="left">
+    <p id="c7204c68-f1a1-4c49-9743-e80160c7f720">
      <del>
       Я сумашедший.
       <choice>
@@ -141,7 +166,7 @@
        26
       </ref>
       <note index="false" xml:id="note26">
-       <span data-class="paragraph" id="9f16611c-6293-4709-83f2-fedbf21289a7" rend="left">
+       <span data-class="paragraph" id="9f16611c-6293-4709-83f2-fedbf21289a7">
         почти
         <choice>
          <reg>
@@ -193,7 +218,7 @@
         сумашедший
        </reg>
        <orig>
-        сумашедшiй
+        сумашедшій
        </orig>
       </choice>
       , но давно уже это со мной началось,
@@ -392,14 +417,14 @@
     <head n="level2" type="editorial">
      * № 2.
     </head>
-    <p id="fa22616e-17ee-4280-8108-8308638aa278" rend="left">
+    <p id="fa22616e-17ee-4280-8108-8308638aa278">
      <del>
       На меня находила мысль
       <ref target="#note27">
        27
       </ref>
       <note index="false" xml:id="note27">
-       <span data-class="paragraph" id="a84ecaf9-ccd3-4619-b721-011d21950c02" rend="left">
+       <span data-class="paragraph" id="a84ecaf9-ccd3-4619-b721-011d21950c02">
         о
         <choice>
          <reg>
@@ -592,7 +617,7 @@
     <head n="level2" type="editorial">
      * № 3.
     </head>
-    <p id="225bb101-6379-4c2c-8471-ee0392d70861" rend="left">
+    <p id="225bb101-6379-4c2c-8471-ee0392d70861">
      <del>
       За что они его били?
       <choice>
@@ -721,7 +746,7 @@
     <head n="level2" type="editorial">
      * № 4.
     </head>
-    <p id="c3ab957a-4f98-4fc0-9432-d50d51491cb4" rend="left">
+    <p id="c3ab957a-4f98-4fc0-9432-d50d51491cb4">
      <del>
       <choice>
        <reg>
@@ -807,7 +832,7 @@
         мире
        </reg>
        <orig>
-        мiрѣ
+        мірѣ
        </orig>
       </choice>
       . Я
@@ -878,7 +903,7 @@
         гимназии
        </reg>
        <orig>
-        гимназiи
+        гимназіи
        </orig>
       </choice>
       <choice>
@@ -955,14 +980,14 @@
     <head n="level2" type="editorial">
      № 5.
     </head>
-    <p id="0aa54270-4201-46e8-8675-6b6d5053f187" rend="left">
+    <p id="0aa54270-4201-46e8-8675-6b6d5053f187">
      <del>
       Это была пустыня, черезъ которую я проходилъ, пустыня наслажденій плотскихъ, отупѣнія душевнаго и мертвенности. — И вступленіе въ эту пустыню и выходъ изъ нея сопровождались одинаково борьбой и страданіями. 14 лѣтъ это были борьба и страданія смерти, 35 лѣтъ это были борьба и страданія родовъ. 14 лѣтъ, когда я узналъ порокъ тѣлеснаго наслажденія, и
       <ref target="#note28">
        28
       </ref>
       <note index="false" xml:id="note28">
-       <span data-class="paragraph" id="0455d2fb-0c9e-46e1-a763-b1499bd51869" rend="left">
+       <span data-class="paragraph" id="0455d2fb-0c9e-46e1-a763-b1499bd51869">
         почему то
        </span>
       </note>
@@ -971,7 +996,7 @@
        29
       </ref>
       <note index="false" xml:id="note29">
-       <span data-class="paragraph" id="684c8fb4-fa86-4f38-b9df-74ee14f7c3cc" rend="left">
+       <span data-class="paragraph" id="684c8fb4-fa86-4f38-b9df-74ee14f7c3cc">
         противилось.
        </span>
       </note>
@@ -989,7 +1014,7 @@
     <head n="level2" type="editorial">
      * № 6.
     </head>
-    <p id="b09a7062-cc49-43fa-b1b8-a2fd09f73a80" rend="left">
+    <p id="b09a7062-cc49-43fa-b1b8-a2fd09f73a80">
      <choice>
       <reg>
        С
@@ -1004,7 +1029,7 @@
        сумашествие
       </reg>
       <orig>
-       сумашествiе
+       сумашествіе
       </orig>
      </choice>
      постоянное. Я называю его
@@ -1022,7 +1047,7 @@
        периоды
       </reg>
       <orig>
-       перiоды
+       періоды
       </orig>
      </choice>
      <choice>
@@ -1038,7 +1063,7 @@
        состояния
       </reg>
       <orig>
-       состоянiя
+       состоянія
       </orig>
      </choice>
      , я
@@ -1063,7 +1088,7 @@
        состоянии
       </reg>
       <orig>
-       состоянiи
+       состояніи
       </orig>
      </choice>
      <choice>
@@ -1079,7 +1104,7 @@
        страдание
       </reg>
       <orig>
-       страданiе
+       страданіе
       </orig>
      </choice>
      . Я вернулся домой счастливый и веселый,
@@ -1090,7 +1115,7 @@
         отсутствия
        </reg>
        <orig>
-        отсутствiя
+        отсутствія
        </orig>
       </choice>
       <choice>
@@ -1165,7 +1190,7 @@
         громкий
        </reg>
        <orig>
-        громкiй
+        громкій
        </orig>
       </choice>
       <choice>
@@ -1236,7 +1261,7 @@
        николаевский
       </reg>
       <orig>
-       николаевскiй
+       николаевскій
       </orig>
      </choice>
      и
@@ -1329,7 +1354,7 @@
       30
      </ref>
      <note index="false" xml:id="note30">
-      <span data-class="paragraph" id="de8d03e9-17cb-4eff-aa2e-7ea35a1e86d6" rend="left">
+      <span data-class="paragraph" id="de8d03e9-17cb-4eff-aa2e-7ea35a1e86d6">
        Во время моего отсут
       </span>
      </note>
@@ -1356,7 +1381,7 @@
        Нищие
       </reg>
       <orig>
-       Нищiе
+       Нищіе
       </orig>
      </choice>
      мои остановились у двери,
@@ -1422,7 +1447,7 @@
          Евангелие
         </reg>
         <orig>
-         Евангелiе
+         Евангеліе
         </orig>
        </choice>
       </corr>
@@ -1481,7 +1506,7 @@
      </choice>
      переднюю.
     </p>
-    <p id="7c07207d-abc0-46fc-8985-fb7fdae22dee" rend="left">
+    <p id="7c07207d-abc0-46fc-8985-fb7fdae22dee">
      — Войдите, войдите,
      <choice>
       <reg>
@@ -1555,7 +1580,7 @@
      </choice>
      , узнаю, спрошу.
     </p>
-    <p id="c2a8d070-8fa1-4d04-96b3-fbd0964cc881" rend="left">
+    <p id="c2a8d070-8fa1-4d04-96b3-fbd0964cc881">
      Я
      <choice>
       <reg>
@@ -1577,7 +1602,7 @@
       31
      </ref>
      <note index="false" xml:id="note31">
-      <span data-class="paragraph" id="302f663d-59d0-42b8-a3f3-6526733327bb" rend="left">
+      <span data-class="paragraph" id="302f663d-59d0-42b8-a3f3-6526733327bb">
        гостиную.
       </span>
      </note>

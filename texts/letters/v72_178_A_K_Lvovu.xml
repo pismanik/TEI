@@ -9,17 +9,41 @@
                 <title type="main">Письмо А. К. Львову от 27 сентября 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо А. К. Львову, 27 сентября 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">195-197</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,7 +128,7 @@
      </name>
      .1899 г. Сентября 27. Я. П.
     </opener>
-    <p id="03c2fd26-a89b-4703-94e4-cd1ae6d11d72" rend="Obrashenie left">
+    <p id="03c2fd26-a89b-4703-94e4-cd1ae6d11d72" rend="Obrashenie">
      <choice>
       <reg>
        <name placement="text" ref="8140" type="person">
@@ -123,7 +153,7 @@
      </choice>
      ,
     </p>
-    <p id="eeed39e8-b5a2-47a2-ad74-9c06beb79bb9" rend="left">
+    <p id="eeed39e8-b5a2-47a2-ad74-9c06beb79bb9">
      Я думаю
      <choice>
       <reg>
@@ -156,7 +186,7 @@
        посланиях
       </reg>
       <orig>
-       посланiяхъ
+       посланіяхъ
       </orig>
      </choice>
      Павла, да и
@@ -173,7 +203,7 @@
        Евангелии
       </reg>
       <orig>
-       Евангелiи
+       Евангеліи
       </orig>
      </choice>
      , что если
@@ -231,7 +261,7 @@
       </note>
      </hi>
     </p>
-    <p id="a58af703-a044-458b-b814-a377399126fa" rend="left">
+    <p id="a58af703-a044-458b-b814-a377399126fa">
      <pb n="196"/>
      <hi style="npdelimiter">
       <choice>
@@ -320,7 +350,7 @@
        осуществления
       </reg>
       <orig>
-       осуществленiя
+       осуществленія
       </orig>
      </choice>
      .
@@ -398,7 +428,7 @@
        увлечению
       </reg>
       <orig>
-       увлеченiю
+       увлеченію
       </orig>
      </choice>
      , a
@@ -412,7 +442,7 @@
      </choice>
      и сознательно.
     </p>
-    <p id="d61b053c-0db2-45fb-84f4-f85b383cbc37" rend="left">
+    <p id="d61b053c-0db2-45fb-84f4-f85b383cbc37">
      То, чтò
      <choice>
       <reg>
@@ -445,7 +475,7 @@
        какие
       </reg>
       <orig>
-       какiя
+       какія
       </orig>
      </choice>
      <choice>
@@ -579,7 +609,7 @@
      </choice>
      .
     </p>
-    <p id="381e5a46-49dc-4875-a731-e87789f0b0ee" rend="left">
+    <p id="381e5a46-49dc-4875-a731-e87789f0b0ee">
      <choice>
       <reg>
        Вот
@@ -637,7 +667,7 @@
        следующий
       </reg>
       <orig>
-       слѣдующiй
+       слѣдующій
       </orig>
      </choice>
      : или
@@ -673,7 +703,7 @@
        жений
       </reg>
       <orig>
-       женiй
+       женій
       </orig>
      </choice>
      и
@@ -682,7 +712,7 @@
        условий
       </reg>
       <orig>
-       условiй
+       условій
       </orig>
      </choice>
      о
@@ -715,20 +745,20 @@
      </choice>
      Толстой.
     </p>
-    <p id="002b27e2-f56d-4284-a0f8-9b9999f3aa8a" rend="left">
+    <p id="002b27e2-f56d-4284-a0f8-9b9999f3aa8a">
      27 Сент.
     </p>
-    <p id="505794fd-d776-4ffb-8825-7a601732bcbf" rend="left">
+    <p id="505794fd-d776-4ffb-8825-7a601732bcbf">
      1899 г.
     </p>
     <noteGrp type="comments">
      <note index="false" type="comments">
       <p id="74b16ddf-14bb-474c-9e14-0d12d5cdddcf" rend="Textpetit_otstup left">
-       Печатается по листам копировальной книги, хранящимся в AЧ. Местонахождение подлинника неизвестно. Написано и датировано рукой М. Л. Оболенской, подпись собственноручная. Публикуется впервые.
+       Печатается по листам копировальной книги, хранящимся в АЧ. Местонахождение подлинника неизвестно. Написано и датировано рукой М. Л. Оболенской, подпись собственноручная. Публикуется впервые.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="cc394339-00fd-4893-8dd0-0a4a3399d75c" rend="petit left">
+      <p id="cc394339-00fd-4893-8dd0-0a4a3399d75c" rend="petit">
        Ответ на письмо
        <name placement="comments" ref="8140" type="person">
         Александра Константиновича Львова

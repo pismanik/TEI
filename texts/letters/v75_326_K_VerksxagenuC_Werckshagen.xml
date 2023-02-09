@@ -9,17 +9,41 @@
                 <title type="main">Письмо К. Верксхагену (C. Werckshagen) от 7 марта 1905 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо К. Верксхагену (C. Werckshagen), 7 марта 1905 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 75. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 75</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">231-232</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -94,10 +123,10 @@
     <opener index="false">
      * 326. К. Верксхагену (C. Werckshagen).1905 г. Марта 7/20. Я. П.
     </opener>
-    <p id="86c5cf9d-f0f1-45e8-8e92-f8c3fcfaf56e" rend="Obrashenie left">
+    <p id="86c5cf9d-f0f1-45e8-8e92-f8c3fcfaf56e" rend="Obrashenie">
      Geehrter Herr!
     </p>
-    <p id="46af151b-3e62-45c5-b5c1-ddbd0d1db004" rend="left">
+    <p id="46af151b-3e62-45c5-b5c1-ddbd0d1db004">
      Ich danke sehr für die Sendung Ihres freimaurerischen Buches.
      <ref target="#note1">
       1
@@ -124,14 +153,14 @@
     <p id="7dacd2c0-4dbe-4552-bfd7-c49cf3b6a9c1" rend="right">
      Leo Tolstoy.
     </p>
-    <p id="2f80da8f-4d75-4d07-9bbd-eb5a2fad1365" rend="left">
+    <p id="2f80da8f-4d75-4d07-9bbd-eb5a2fad1365">
      7/20 März 1905
     </p>
     <lb/>
-    <p id="6a55af21-87f5-4a5d-862f-02896fe4b995" rend="Obrashenie left">
+    <p id="6a55af21-87f5-4a5d-862f-02896fe4b995" rend="Obrashenie">
      Милостивый государь!
     </p>
-    <p id="ae86517d-95e8-47d4-ac24-c8c4fb77cd3f" rend="left">
+    <p id="ae86517d-95e8-47d4-ac24-c8c4fb77cd3f">
      Очень благодарен вам за присылку вашей масонской книги.
      <ref target="#note3">
       3
@@ -161,7 +190,7 @@
      </name>
      .
     </p>
-    <p id="f63a0e26-ed56-4905-b19b-c86aa082d619" rend="left">
+    <p id="f63a0e26-ed56-4905-b19b-c86aa082d619">
      7/20 марта 1905
     </p>
     <noteGrp type="comments">
@@ -171,12 +200,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="1f75858e-73a8-4d91-ad92-9bcfd7c7c367" rend="petit left">
+      <p id="1f75858e-73a8-4d91-ad92-9bcfd7c7c367" rend="petit">
        К. Верксхаген (C. Werckshagen, ум. 1910?) — пастор, в 1905 г. жил в Берлине.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="00cb0161-eae2-4544-9012-ca6aebb04240" rend="petit left">
+      <p id="00cb0161-eae2-4544-9012-ca6aebb04240" rend="petit">
        Ответ на письмо Верксхагена от 4 марта н. с. 1905 г., в котором он, извещая Толстого о посылке ему книжки масонского журнала «Am rauhen Stein» со своей статьей о Толстом, писал: «Коротенькая статейка эта — отрывок доклада, читанного мною прошлую зиму в бременском “Goethebund”... Я был бы очень рад, если бы вы одобрили отдельные места этой работы».
       </p>
      </note>

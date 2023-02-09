@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову от 28 марта 1884 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 28 марта 1884 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 85. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 85</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">44-46</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 11.1884 г. Марта 28. Москва.
     </opener>
-    <p id="85a684f9-06d9-49a8-b747-7d6cf6e6d1fd" rend="Obrashenie left">
+    <p id="85a684f9-06d9-49a8-b747-7d6cf6e6d1fd" rend="Obrashenie">
      Милый
      <choice>
       <reg>
@@ -104,7 +134,7 @@
       </reg>
       <orig>
        <name placement="text" ref="15284" type="person">
-        Владимiръ
+        Владиміръ
        </name>
       </orig>
      </choice>
@@ -120,14 +150,14 @@
      </choice>
      ,
     </p>
-    <p id="ecd723d0-aaf1-4e3f-b9c5-d3fda9749336" rend="left">
+    <p id="ecd723d0-aaf1-4e3f-b9c5-d3fda9749336">
      Письма ваши для меня радость и
      <choice>
       <reg>
        утешение
       </reg>
       <orig>
-       утѣшенiе
+       утѣшеніе
       </orig>
      </choice>
      . А
@@ -172,12 +202,12 @@
        утешение
       </reg>
       <orig>
-       утѣшенiе
+       утѣшеніе
       </orig>
      </choice>
      , — поддержка бодрости духа.
     </p>
-    <p id="a0e86b56-eae0-48c8-91da-b7fe85f06f5d" rend="left">
+    <p id="a0e86b56-eae0-48c8-91da-b7fe85f06f5d">
      Я понимаю вашу réticence
      <hi>
       1
@@ -197,7 +227,7 @@
        исполнение
       </reg>
       <orig>
-       исполненiе
+       исполненіе
       </orig>
      </choice>
      <choice>
@@ -205,7 +235,7 @@
        учения
       </reg>
       <orig>
-       ученiя
+       ученія
       </orig>
      </choice>
      не для
@@ -223,7 +253,7 @@
        учению
       </reg>
       <orig>
-       ученiю
+       ученію
       </orig>
      </choice>
      Христа
@@ -439,7 +469,7 @@
        разногласия
       </reg>
       <orig>
-       разногласiя
+       разногласія
       </orig>
      </choice>
      со мной и даже не волнуюсь, я знаю
@@ -527,7 +557,7 @@
        разногласие
       </reg>
       <orig>
-       разногласiе
+       разногласіе
       </orig>
      </choice>
      только
@@ -740,7 +770,7 @@
      </choice>
      сердиться хочется и я едва удерживаюсь.
     </p>
-    <p id="380e0a26-8264-4fc4-8347-ac3c45e0005f" rend="left">
+    <p id="380e0a26-8264-4fc4-8347-ac3c45e0005f">
      До
      <choice>
       <reg>
@@ -755,7 +785,7 @@
        свидания
       </reg>
       <orig>
-       свиданiя
+       свиданія
       </orig>
      </choice>
      .

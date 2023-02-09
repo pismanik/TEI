@@ -9,17 +9,41 @@
                 <title type="main">Письмо П. М. Ледерле от 30 сентября 1903 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо П. М. Ледерле, 30 сентября 1903 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 74. М.: Гос. изд. «Художественная литература», 1954. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 74</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">193-194</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,13 +127,13 @@
      </name>
      .1903 г. Сентября 30. Я. П.
     </opener>
-    <p id="d7e400d1-0248-4183-845d-810a86edaf79" rend="Obrashenie left">
+    <p id="d7e400d1-0248-4183-845d-810a86edaf79" rend="Obrashenie">
      <name placement="text" ref="7744" type="person">
       Петр Михайлович
      </name>
      ,
     </p>
-    <p id="518d75f9-d8f8-425b-ac34-2eeb593496c7" rend="left">
+    <p id="518d75f9-d8f8-425b-ac34-2eeb593496c7">
      Я виноват перед вами за то, что долго не отвечал на ваше письмо, в особенности
      <choice original_editorial_correction="п[отому]">
       <sic>
@@ -133,7 +162,7 @@
      </hi>
      не изменять его и дождаться ожидающей вас награды, внутренней, невидимой, но самой действительной. Хочется всегда сказать: претерпевый до конца спасен будет.
     </p>
-    <p id="1da4e820-3c3a-457a-bdd2-8ea4a4eec12e" rend="left">
+    <p id="1da4e820-3c3a-457a-bdd2-8ea4a4eec12e">
      Еще раз благодарю вас за ваше письмо.
     </p>
     <p id="2e2bc054-932f-48d4-b97f-854ba3c8cd6c" rend="right">
@@ -142,7 +171,7 @@
      </name>
      .
     </p>
-    <p id="afb62023-ef80-467c-9d53-d4ea49708a41" rend="left">
+    <p id="afb62023-ef80-467c-9d53-d4ea49708a41">
      30 сент. 1903.
     </p>
     <noteGrp type="comments">
@@ -152,7 +181,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="af52a32d-15f4-4cd1-ba79-2af3a9aaa716" rend="petit left">
+      <p id="af52a32d-15f4-4cd1-ba79-2af3a9aaa716" rend="petit">
        <name placement="comments" ref="7744" type="person">
         Петр Михайлович Ледерле
        </name>
@@ -164,7 +193,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="3185eeac-f8d1-4581-b8ee-0b0828a67160" rend="petit left">
+      <p id="3185eeac-f8d1-4581-b8ee-0b0828a67160" rend="petit">
        Ответ на письмо П. М. Ледерле от 28 августа 1903 г.
       </p>
      </note>

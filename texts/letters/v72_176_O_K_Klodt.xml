@@ -9,17 +9,41 @@
                 <title type="main">Письмо О. К. Клодт от 27 сентября 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо О. К. Клодт, 27 сентября 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">192-193</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 176. О. К. Клодт.1899 г. Сентября 27. Я. П.
     </opener>
-    <p id="23e6c560-ecce-460e-a4ac-733ed01757a6" rend="left">
+    <p id="23e6c560-ecce-460e-a4ac-733ed01757a6">
      Дорогая
      <name placement="text" ref="6518" type="person">
       Ольга Константиновна
@@ -158,7 +188,7 @@
       Клодт занималась преподаванием грамоты детям сторожа помещичьей усадьбы под г. Лугой, у которого она в то время жила.
      </note>
     </p>
-    <p id="f763879e-e34d-42a0-8899-bcd7b2be21bb" rend="left">
+    <p id="f763879e-e34d-42a0-8899-bcd7b2be21bb">
      Простите меня, что не
      <choice>
       <reg>
@@ -223,7 +253,7 @@
      </choice>
      .
     </p>
-    <p id="6ebc7751-084f-444a-a1c9-ed2be11c546e" rend="left">
+    <p id="6ebc7751-084f-444a-a1c9-ed2be11c546e">
      <choice>
       <reg>
        В
@@ -295,7 +325,7 @@
       , финский писатель, единомышленник Толстого. См. о нем письма 1895 г., т. 65 и письмо № 315. Упоминаемое письмо Ернефельта к Толстому в архиве не обнаружено.
      </note>
     </p>
-    <p id="e99dca34-1729-4cde-ac05-a202fbaa2242" rend="left">
+    <p id="e99dca34-1729-4cde-ac05-a202fbaa2242">
      Передайте мою любовь ему и его брату,
      <ref target="#note4">
       4
@@ -367,7 +397,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="0d975382-8ecd-47cf-bbff-2c727c280fbe" rend="petit left">
+      <p id="0d975382-8ecd-47cf-bbff-2c727c280fbe" rend="petit">
        <name placement="comments" ref="6518" type="person">
         Ольга Константиновна Клодт
        </name>

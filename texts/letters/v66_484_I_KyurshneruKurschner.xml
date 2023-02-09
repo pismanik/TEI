@@ -9,17 +9,41 @@
                 <title type="main">Письмо И. Кюршнеру (Kürschner) от 22 июня 1893 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо И. Кюршнеру (Kürschner), 22 июня 1893 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 66. М.: Гос. изд. «Художественная литература», 1953. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 66</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">356-357</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -94,10 +123,10 @@
     <opener index="false">
      * 484. Иосифу фон Кюршнеру (Joseph von Kürschner). Черновое.1893 г. Июня 22. Я. П.
     </opener>
-    <p id="08891a52-9a26-4a1f-81d7-864e269371f2" rend="Obrashenie left">
+    <p id="08891a52-9a26-4a1f-81d7-864e269371f2" rend="Obrashenie">
      Monsieur,
     </p>
-    <p id="dcf51563-a2f7-4af7-b344-ce8b31ea53ff" rend="left">
+    <p id="dcf51563-a2f7-4af7-b344-ce8b31ea53ff">
      Je regrette beaucoup de ne pouvoir consentir à votre proposition de publier l’ouvrage que je vous ai fait parvenir dans votre journal. Cet écrit perdrait beaucoup en paraissant mensuellement et surtout sans le dernier chapitre qui doit déjà vous être parvenu. Tous les jugements portés sur l’ouvrage publié en parties sans la conclusion
      <ref target="#note1">
       1
@@ -106,7 +135,7 @@
       Пропуск в черновике.
      </note>
     </p>
-    <p id="9d09a7bd-45da-47ed-acac-9866f275c434" rend="left">
+    <p id="9d09a7bd-45da-47ed-acac-9866f275c434">
      ne produiraient que des malentendus. C’est pourquoi la condition de publier l’ouvrage en entier posée aux traducteurs est une condition sine qua non.
      <ref target="#note2">
       2
@@ -124,10 +153,10 @@
       На этом слове автограф обрывается.
      </note>
     </p>
-    <p id="e7e590a9-b00c-420d-b6f2-c036b0e36c29" rend="Obrashenie petit left">
+    <p id="e7e590a9-b00c-420d-b6f2-c036b0e36c29" rend="Obrashenie petit">
      Милостивый государь,
     </p>
-    <p id="781a8bbb-e740-458f-a7a7-977dc0b108f8" rend="petit left">
+    <p id="781a8bbb-e740-458f-a7a7-977dc0b108f8" rend="petit">
      Я очень сожалею, что не могу согласиться на ваше предложение напечатать в вашем журнале произведение, которое я вам послал. Это писание потеряло бы очень много, появляясь ежемесячно и в особенности без последней главы, которую вы, вероятно, уже получили. Все суждения о сочинении, появляющемся по частям без заключения
      <ref target="#note4">
       4
@@ -159,12 +188,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="0e8bcbb6-2b9f-4cf7-82e1-8faf5ad50474" rend="petit left">
+      <p id="0e8bcbb6-2b9f-4cf7-82e1-8faf5ad50474" rend="petit">
        Иосиф фон Кюршнер (Joseph von Kürschner, 1853—1902) — профессор, литературный директор «Общества немецких изданий» («Deutsche Verlags Anstalt») и издатель ряда журналов. В 1890 г. издал повесть Толстого «Ходите в свете пока есть свет» в немецком переводе Р. Лёвенфельда. В 1893 г. издал в Штутгарте «Первую ступень» («Die erste Sprosse»).
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="4568fe9e-39d9-4e4a-b6f7-554e9ece512a" rend="petit left">
+      <p id="4568fe9e-39d9-4e4a-b6f7-554e9ece512a" rend="petit">
        Получив через H. A. Касаткина (
        <ref target="file:///Volume_66_E.I.Popovu_454.xml">
         см. письмо № 454
@@ -173,7 +202,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="d6a46b27-8240-4669-a0ea-0e98f344ff3b" rend="petit left">
+      <p id="d6a46b27-8240-4669-a0ea-0e98f344ff3b" rend="petit">
        Ответ на письмо Кюршнера на французском языке из Эйзенаха от 16 июня 1893 г., в котором Кюршнер соглашался с доводами Толстого, переданными в письме T. Л. Толстой, о невозможности печатания трактата «Царство божие внутри вас» в журнале.
       </p>
      </note>

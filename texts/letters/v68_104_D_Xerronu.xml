@@ -9,17 +9,41 @@
                 <title type="main">Письмо Д. Херрону от 13 июня 1895 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Д. Херрону, 13 июня 1895 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 68. М.: Гос. изд. «Художественная литература», 1954. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 68</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">106-107</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,13 +127,13 @@
      </name>
      .1895г. Июня 13. Я. П.
     </opener>
-    <p id="bcfa2ef6-2d6b-4e52-b1a0-6b252905d51d" rend="Obrashenie left">
+    <p id="bcfa2ef6-2d6b-4e52-b1a0-6b252905d51d" rend="Obrashenie">
      Dear Mr. Herron,
     </p>
-    <p id="f332a6aa-6a7c-471a-89c8-1aa56f936aab" rend="left">
+    <p id="f332a6aa-6a7c-471a-89c8-1aa56f936aab">
      I had in my hands one of your books, but I had not time to read it, so that I knew before you wrote to me your name and your work, and greatly sympathised with it, that is with your work.
     </p>
-    <p id="9c696bdf-229c-498c-8c9c-8fb7d1a0edc1" rend="left">
+    <p id="9c696bdf-229c-498c-8c9c-8fb7d1a0edc1">
      I thank you heartily for the books that you sent to me. I received them to day and will begin with the Christian state and hope that I will be induced to read them all. I have finished the first. I will write to you my genuine opinion of it.
      <ref target="#note1">
       1
@@ -126,7 +155,7 @@
      </hi>
     </p>
     <lb/>
-    <p id="e99724f4-2306-40c6-9a0e-b450df7f46f4" rend="Obrashenie petit left">
+    <p id="e99724f4-2306-40c6-9a0e-b450df7f46f4" rend="Obrashenie petit">
      <pb n="107"/>
      <hi style="npdelimiter">
       Дорогой
@@ -140,7 +169,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="59ed4afb-860d-4222-a286-56ae75db87a0" rend="petit left">
+      <p id="59ed4afb-860d-4222-a286-56ae75db87a0" rend="petit">
        Сердечно благодарю вас за книги, которые вы прислали мне. Я получил их нынче, собираюсь начать с «Христианского государства» и надеюсь, что это побудит меня прочесть их все. Первую из них уже кончил. Напишу вам мое искреннее мнение о ней.
        <ref target="#note2">
         2
@@ -168,7 +197,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="e4958928-8d3a-4769-9a84-8e6c243c5747" rend="petit left">
+      <p id="e4958928-8d3a-4769-9a84-8e6c243c5747" rend="petit">
        <name placement="comments" ref="14885" type="person">
         Джордж Херрон
        </name>
@@ -176,7 +205,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="2f377d9b-5add-4508-b9f0-922efb11bdbd" rend="petit left">
+      <p id="2f377d9b-5add-4508-b9f0-922efb11bdbd" rend="petit">
        Ответ на письмо Херрона от 3 июня н. ст., в котором он просил Толстого сообщить ему свое мнение о присланной им брошюре «Христианское государство».
       </p>
      </note>

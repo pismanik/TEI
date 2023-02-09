@@ -9,17 +9,41 @@
                 <title type="main">Письмо А. М. Калмыковой от 16 апреля 1885 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо А. М. Калмыковой, 16 апреля 1885 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 63. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 63</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">237-238</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,13 +128,13 @@
      </name>
      .1885 г. Апреля 16? Москва.
     </opener>
-    <p id="eb8ae354-c03b-434c-8241-0601f6785111" rend="Obrashenie left">
+    <p id="eb8ae354-c03b-434c-8241-0601f6785111" rend="Obrashenie">
      <name placement="text" ref="6021" type="person">
       Александра Михайловна
      </name>
      !
     </p>
-    <p id="d0bf6282-3c7b-4234-a26c-30ab05eb8408" rend="left">
+    <p id="d0bf6282-3c7b-4234-a26c-30ab05eb8408">
      Очень
      <choice>
       <reg>
@@ -171,7 +201,7 @@
        вероятиям
       </reg>
       <orig>
-       вѣроятiямъ
+       вѣроятіямъ
       </orig>
      </choice>
      я буду
@@ -211,14 +241,14 @@
      </choice>
      печатать.
     </p>
-    <p id="b1e5c6ba-6fc9-48f6-aee3-74d3325494af" rend="left">
+    <p id="b1e5c6ba-6fc9-48f6-aee3-74d3325494af">
      То, что вы говорите о
      <choice>
       <reg>
        житии
       </reg>
       <orig>
-       житiи
+       житіи
       </orig>
      </choice>
      <choice original_editorial_correction="Кир[илла]">
@@ -247,7 +277,7 @@
          Мефодия
         </reg>
         <orig>
-         Меѳодiя
+         Меѳодія
         </orig>
        </choice>
       </corr>
@@ -337,7 +367,7 @@
          </name>
         </reg>
         <orig>
-         Аврелiя
+         Аврелія
         </orig>
        </choice>
       </corr>
@@ -348,7 +378,7 @@
        какие
       </reg>
       <orig>
-       какiе
+       какіе
       </orig>
      </choice>
      есть, найдете
@@ -375,7 +405,7 @@
          библиот
         </reg>
         <orig>
-         библiот
+         библіот
         </orig>
        </choice>
       </sic>
@@ -385,7 +415,7 @@
          библиотеке
         </reg>
         <orig>
-         библiотекѣ
+         библіотекѣ
         </orig>
        </choice>
       </corr>
@@ -409,7 +439,7 @@
      </choice>
      . —
     </p>
-    <p id="69675422-dbfd-43bb-b6b4-6dededdfe0eb" rend="left">
+    <p id="69675422-dbfd-43bb-b6b4-6dededdfe0eb">
      Не лучше ли Сократа отдать
      <choice>
       <reg>
@@ -460,7 +490,7 @@
        чтение
       </reg>
       <orig>
-       чтенiе
+       чтеніе
       </orig>
      </choice>
      о
@@ -490,7 +520,7 @@
          Мефодии
         </reg>
         <orig>
-         Меѳодiи
+         Меѳодіи
         </orig>
        </choice>
       </corr>
@@ -556,7 +586,7 @@
      </choice>
      желаю.
     </p>
-    <p id="d0229997-73f5-4529-94c5-9481489df01a" rend="left">
+    <p id="d0229997-73f5-4529-94c5-9481489df01a">
      До свиданья.
     </p>
     <p id="b0f316e2-1bc1-45f8-9dc9-0850d6fe0ab8" rend="right">
@@ -565,12 +595,12 @@
      </name>
      .
     </p>
-    <p id="b7e17176-29c8-4227-823a-66026fd0c1d5" rend="left">
+    <p id="b7e17176-29c8-4227-823a-66026fd0c1d5">
      <hi>
       На конверте:
      </hi>
     </p>
-    <p id="52e8dc56-cf23-4fbc-b313-e7b10435cb1b" rend="left">
+    <p id="52e8dc56-cf23-4fbc-b313-e7b10435cb1b">
      Харьков. 30. Рымарская.
      <choice>
       <reg>
@@ -607,7 +637,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="2ba604e5-206d-4b33-bd5c-7eb4c240bcc9" rend="petit left">
+      <p id="2ba604e5-206d-4b33-bd5c-7eb4c240bcc9" rend="petit">
        Письмо А. М. Калмыковой, на которое отвечает Толстой, датировано: «6—12 апреля 1885 г.» (АТБ).
       </p>
      </note>

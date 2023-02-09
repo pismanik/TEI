@@ -9,17 +9,41 @@
                 <title type="main">Письмо Эдвину Маркгему (Edwin Markham) от 5 февраля 1900 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Эдвину Маркгему (Edwin Markham), 5 февраля 1900 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">298-299</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -101,16 +130,16 @@
     <p id="d2e2342e-14c5-48f3-8ec8-cc26940763ef" rend="right">
      Edwin Markham
     </p>
-    <p id="cf0d4a4c-ccf8-4cd5-9b2c-2cc1eb000337" rend="Obrashenie left">
+    <p id="cf0d4a4c-ccf8-4cd5-9b2c-2cc1eb000337" rend="Obrashenie">
      Dear Sir,
     </p>
-    <p id="a8082837-02f2-4b9c-ad24-16cf7f2eab0c" rend="left">
+    <p id="a8082837-02f2-4b9c-ad24-16cf7f2eab0c">
      I received your book of poems and thank you very much for sending it to me with your kind letter.
     </p>
-    <p id="77d72dfa-4173-4751-bb70-61aa96839af9" rend="left">
+    <p id="77d72dfa-4173-4751-bb70-61aa96839af9">
      I like your poetry and especially the first poem which gives the key to the whole book.
     </p>
-    <p id="fbe6a63d-bd2b-4975-aa97-98fffee19461" rend="left">
+    <p id="fbe6a63d-bd2b-4975-aa97-98fffee19461">
      It is a great joy for me to have such friends as you across the world, as you say it.
     </p>
     <p id="367d576e-384d-410c-9ec9-48fa082e9aaf" rend="right rightindent">
@@ -119,7 +148,7 @@
     <p id="3f4facbe-7425-4c5f-bc34-fb93ec5dec21" rend="right">
      Leo Tolstoy.
     </p>
-    <p id="710810c2-d69a-4637-bb4b-ada12138cc1d" rend="left">
+    <p id="710810c2-d69a-4637-bb4b-ada12138cc1d">
      5 February 1900.
     </p>
     <lb/>
@@ -129,13 +158,13 @@
     <p id="1a3f6c2e-c516-4729-9f7a-8131aaaebe2a" rend="Obrashenie petit">
      Милостивый государь,
     </p>
-    <p id="c97e7818-66b2-4eb7-9937-db6b4507a92a" rend="petit left">
+    <p id="c97e7818-66b2-4eb7-9937-db6b4507a92a" rend="petit">
      Я получил вашу книгу поэм и очень благодарю вас за то, что прислали ее с вашим милым письмом.
     </p>
-    <p id="47958b08-58a2-4cec-8dcc-9b5801bab2bd" rend="petit left">
+    <p id="47958b08-58a2-4cec-8dcc-9b5801bab2bd" rend="petit">
      Мне нравятся ваши стихи, в особенности первая поэма, служащая ключом ко всей книге.
     </p>
-    <p id="56af5a0a-5314-4a67-840c-54dc44eff9d4" rend="petit left">
+    <p id="56af5a0a-5314-4a67-840c-54dc44eff9d4" rend="petit">
      Для меня большая радость иметь таких друзей, как вы, по ту сторону земли, как вы говорите.
     </p>
     <p id="1ee4e5c8-f172-467e-b6ef-869b7dc9eabe" rend="petit right rightindent">
@@ -148,7 +177,7 @@
      .
     </p>
     <lb/>
-    <p id="88b9bb98-25e7-428d-870a-a80f874ac1c3" rend="petit left">
+    <p id="88b9bb98-25e7-428d-870a-a80f874ac1c3" rend="petit">
      5 Февраля
      <hi style="opdelimiter">
       1900.
@@ -191,11 +220,11 @@
        <hi style="npdelimiter">
         Печатается
        </hi>
-       по листу копировальной книги, хранящемуся в AЧ. Местонахождение автографа неизвестно. В России публикуется впервые, о публикации за границей сведений не имеется.
+       по листу копировальной книги, хранящемуся в АЧ. Местонахождение автографа неизвестно. В России публикуется впервые, о публикации за границей сведений не имеется.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="8a719dce-bfdc-4791-a9a4-6820f8b87d87" rend="petit left">
+      <p id="8a719dce-bfdc-4791-a9a4-6820f8b87d87" rend="petit">
        <name placement="comments" ref="8544" type="person">
         Эдвин Маркгем (Edwin Markham)
        </name>
@@ -203,7 +232,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="54ced0f2-cabf-4934-8f4c-3a6f43e4f2c1" rend="petit left">
+      <p id="54ced0f2-cabf-4934-8f4c-3a6f43e4f2c1" rend="petit">
        По поручению Маркгема Толстому была прислана его книга «The Man with the Hoe. And other Poems» [«Человек с мотыгой. И другие стихотворения»], New York, Doubleday and Mc Clure C°, 1899, с надписью автора: «For Count Leo Tolstoy with affectionate salutation across the world. Edwin Markham, Brooklyn, N. Y. Jan. 5, 1900» [«Графу Льву Толстому с любящим приветом, с той стороны земли.
        <name placement="comments" ref="8544" type="person">
         Эдвин Маркгем

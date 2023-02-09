@@ -9,17 +9,41 @@
                 <title type="main">Письмо С. О. Грузенбергу от 3 марта 1909 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. О. Грузенбергу, 3 марта 1909 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 79. М.: Гос. изд. «Художественная литература», 1955. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 79</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">100-101</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -101,13 +130,13 @@
     <p id="d69c24a9-3284-45d4-9ee4-e3428a952852" rend="right">
      3 марта. 09 года.
     </p>
-    <p id="00885535-7243-42b4-971f-5469a4c005a6" rend="Obrashenie left">
+    <p id="00885535-7243-42b4-971f-5469a4c005a6" rend="Obrashenie">
      <name placement="text" ref="3946" type="person">
       Семен Осипович
      </name>
      ,
     </p>
-    <p id="faffcadd-5db5-43a6-bb00-bb0ba35f7a6f" rend="left">
+    <p id="faffcadd-5db5-43a6-bb00-bb0ba35f7a6f">
      Всегда считал жизнь величайшим благом, за которое нельзя быть достаточно благодарным. Чем дольше живу и чем больше приближаюсь к смерти, тем сознание этого блага становится во мне всё сильнее и сильнее.
     </p>
     <noteGrp type="comments">
@@ -117,7 +146,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="bcaf3158-00c4-4984-ab2f-ff742072c886" rend="petit left">
+      <p id="bcaf3158-00c4-4984-ab2f-ff742072c886" rend="petit">
        <name placement="comments" ref="3946" type="person">
         Семен Осипович Грузенберг
        </name>
@@ -128,7 +157,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="772ec3dc-8702-400b-94d1-9ecab81dd738" rend="petit left">
+      <p id="772ec3dc-8702-400b-94d1-9ecab81dd738" rend="petit">
        <pb n="101"/>
        <hi style="npdelimiter">
         В

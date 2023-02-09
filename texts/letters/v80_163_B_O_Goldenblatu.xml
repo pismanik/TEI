@@ -9,17 +9,41 @@
                 <title type="main">Письмо Б. О. Гольденблату от 30 сентября 1909 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Б. О. Гольденблату, 30 сентября 1909 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 80. М.: Гос. изд. «Художественная литература», 1955. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 80</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">120-121</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -94,13 +123,13 @@
     <opener index="false">
      * 163. Б. О. Гольденблату.1909 г. Сентября 30. Я. П.
     </opener>
-    <p id="4fbc5227-a6d0-47ab-b6d7-4ead14647d3c" rend="Obrashenie left">
+    <p id="4fbc5227-a6d0-47ab-b6d7-4ead14647d3c" rend="Obrashenie">
      <name placement="text" ref="3588" type="person">
       Борис Осипович
      </name>
      ,
     </p>
-    <p id="58560de3-259e-4d93-a265-dd6f8882d728" rend="left">
+    <p id="58560de3-259e-4d93-a265-dd6f8882d728">
      Будьте так добры, помогите подателю Н. Филичеву в его деле.
     </p>
     <p id="74a052b4-b14f-48b2-9f26-471d5550e30a" rend="right">
@@ -109,7 +138,7 @@
      </name>
      .
     </p>
-    <p id="1cf5bfab-29d3-4921-9a35-3f8fa063b82f" rend="left">
+    <p id="1cf5bfab-29d3-4921-9a35-3f8fa063b82f">
      30 сент.
      <hi style="opdelimiter">
       1909.
@@ -126,7 +155,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="01d30a1d-90f2-4aab-82f9-fd23697360bc" rend="petit left">
+      <p id="01d30a1d-90f2-4aab-82f9-fd23697360bc" rend="petit">
        <name placement="comments" ref="3588" type="person">
         Борис Осипович Гольденблат
        </name>
@@ -134,7 +163,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="418631aa-f035-47b4-a9fe-bf87ae32eeaf" rend="petit left">
+      <p id="418631aa-f035-47b4-a9fe-bf87ae32eeaf" rend="petit">
        Дополнительных сведений о Н. Филичеве редакция не имеет.
       </p>
      </note>

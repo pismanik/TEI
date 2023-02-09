@@ -4,24 +4,48 @@
         <fileDesc>
              <titleStmt>                
                 <title xml:id="v58_163_164_Zapisnaja_knizhka_1910_g_No_2">
-                    Дневники и записные книжки. Tolstoy Digital
+                    Записные книжки. Tolstoy Digital
                 </title>
                 <title type="main">Записная книжка № 2, 1910 г. </title>
                 <title type="bibl">Толстой Л. Н. [Записная книжка 1910 г. № 2] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 58. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                              
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -30,7 +54,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -42,7 +66,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -73,7 +97,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -88,7 +112,9 @@
             <creation>
                 <date when="1910"/>
          </creation>
-            <textClass> 
+            <langUsage>
+  <language ident="ru-petr1708"/>
+</langUsage><textClass> 
                 <catRef ana="#notes" target="type"/>
            </textClass>
         </profileDesc>
@@ -103,14 +129,14 @@
      ЗАПИСНАЯ КНИЖКА № 2.
     </head>
     <div type="entry">
-     <p id="a85c051d-6228-4957-adb4-dc2b89927d1b" rend="left">
+     <p id="a85c051d-6228-4957-adb4-dc2b89927d1b">
       Постараюсь исполнить ваше
       <choice>
        <reg>
         желание
        </reg>
        <orig>
-        желанiе
+        желаніе
        </orig>
       </choice>
       и для этого
@@ -160,7 +186,7 @@
         последний
        </reg>
        <orig>
-        послѣднiй
+        послѣдній
        </orig>
       </choice>
       <choice>
@@ -186,7 +212,7 @@
         включающий
        </reg>
        <orig>
-        включающiй
+        включающій
        </orig>
       </choice>
       <choice>
@@ -211,7 +237,7 @@
         предшествующие
        </reg>
        <orig>
-        предшествующiе
+        предшествующіе
        </orig>
       </choice>
       : вы спрашиваете..... выписать
@@ -275,7 +301,7 @@
       </note>
       .
      </p>
-     <p id="0f2697a7-1b74-4cfc-9054-333a759b2bf1" rend="left">
+     <p id="0f2697a7-1b74-4cfc-9054-333a759b2bf1">
       <choice>
        <reg>
         Ответ
@@ -294,7 +320,7 @@
       </choice>
       :
      </p>
-     <p id="f335ddad-ff98-46b6-87a3-efb4d845dab8" rend="left">
+     <p id="f335ddad-ff98-46b6-87a3-efb4d845dab8">
       <hi>
        Пускай
        <choice>
@@ -326,7 +352,7 @@
        .
       </hi>
      </p>
-     <p id="1e2991e1-595b-4767-9294-a8abdef25ecd" rend="left">
+     <p id="1e2991e1-595b-4767-9294-a8abdef25ecd">
       Выписать
       <choice>
        <reg>
@@ -369,7 +395,7 @@
       </choice>
       134.
      </p>
-     <p id="2d787ebe-5ed8-42f7-ab97-523f8b4bd1c4" rend="left">
+     <p id="2d787ebe-5ed8-42f7-ab97-523f8b4bd1c4">
       Для души
       <choice>
        <reg>
@@ -414,7 +440,7 @@
       </choice>
       232
      </p>
-     <p id="2bd5d970-52c7-4000-a6d7-411d4bf1046d" rend="left">
+     <p id="2bd5d970-52c7-4000-a6d7-411d4bf1046d">
       <choice>
        <reg>
         Саше
@@ -482,7 +508,7 @@
       </choice>
       .
      </p>
-     <p id="3e3d66ec-c0c3-4640-b206-9a2bca6dd208" rend="left">
+     <p id="3e3d66ec-c0c3-4640-b206-9a2bca6dd208">
       2) Письмо
       <choice original_editorial_correction="мона[ха]">
        <sic>
@@ -493,7 +519,7 @@
        </corr>
       </choice>
      </p>
-     <p id="a7dfe059-e2ed-456e-956c-4b6be67afec8" rend="left">
+     <p id="a7dfe059-e2ed-456e-956c-4b6be67afec8">
       3) Письмо
       <choice>
        <reg>
@@ -513,7 +539,7 @@
           Редакцию
          </reg>
          <orig>
-          Редакцiю
+          Редакцію
          </orig>
         </choice>
        </corr>
@@ -528,7 +554,7 @@
        </orig>
       </choice>
      </p>
-     <p id="ceb4585e-c892-41d8-817c-98c4a28950f1" rend="left">
+     <p id="ceb4585e-c892-41d8-817c-98c4a28950f1">
       4) О 35
       <choice original_editorial_correction="тыс[ячахъ]">
        <sic>
@@ -547,16 +573,14 @@
       </choice>
       .
      </p>
-     <p id="c41d8eab-fd3f-4279-84ac-a14eb8ad2329" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="5d4d8f74-259a-4a3c-b94b-928c67f16db7" rend="left">
+     <metamark function="line"/>
+     <p id="5d4d8f74-259a-4a3c-b94b-928c67f16db7">
       Булгакову:
      </p>
-     <p id="aafc576d-7c7b-4a6e-bdc1-68c0c72d2107" rend="left">
+     <p id="aafc576d-7c7b-4a6e-bdc1-68c0c72d2107">
       1) письмо.
      </p>
-     <p id="035dc57c-9551-4b0d-b869-c7a12a3a5e4e" rend="left">
+     <p id="035dc57c-9551-4b0d-b869-c7a12a3a5e4e">
       2) книжки о
       <choice original_editorial_correction="пьянс[твѣ]">
        <sic>
@@ -577,7 +601,7 @@
      <table>
       <row>
        <cell>
-        <p id="f8005ab2-e308-4c3b-aa94-8e4e913a47c0" rend="left">
+        <p id="f8005ab2-e308-4c3b-aa94-8e4e913a47c0">
          <choice>
           <reg>
            Саше
@@ -590,7 +614,7 @@
         </p>
        </cell>
        <cell>
-        <p id="6ac13249-02f6-4000-97ae-a7571dd57d4d" rend="left">
+        <p id="6ac13249-02f6-4000-97ae-a7571dd57d4d">
          1) Письмо о
          <choice original_editorial_correction="пьянс[твѣ]">
           <sic>
@@ -615,7 +639,7 @@
         <lb/>
        </cell>
        <cell>
-        <p id="9e1fb7f4-cf8e-4081-9e65-aee61a085ef9" rend="left">
+        <p id="9e1fb7f4-cf8e-4081-9e65-aee61a085ef9">
          2)
          <choice>
           <reg>
@@ -633,24 +657,22 @@
         <lb/>
        </cell>
        <cell>
-        <p id="bee62709-6173-4f3a-b2e4-2190659d70d5" rend="left">
+        <p id="bee62709-6173-4f3a-b2e4-2190659d70d5">
          3)
          <choice>
           <reg>
            Предисловие
           </reg>
           <orig>
-           Предисловiе
+           Предисловіе
           </orig>
          </choice>
         </p>
        </cell>
       </row>
      </table>
-     <p id="f66bdb2f-4dbe-4ac1-b20b-c280c2adbb43" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="416bcbb2-9819-442b-94db-8f7c78c81cbf" rend="left">
+     <metamark function="line"/>
+     <p id="416bcbb2-9819-442b-94db-8f7c78c81cbf">
       <ref target="#note473">
        473
       </ref>
@@ -683,7 +705,7 @@
             Воздержание
            </reg>
            <orig>
-            Воздержанiе
+            Воздержаніе
            </orig>
           </choice>
          </corr>
@@ -692,12 +714,12 @@
       </note>
       Письмо Рюрикова
      </p>
-     <p id="9c4655d1-a04d-4042-a5b9-9587db434c65" rend="left">
+     <p id="9c4655d1-a04d-4042-a5b9-9587db434c65">
       <hi style="opdelimiter">
        Семенова
       </hi>
      </p>
-     <p id="9c756b1a-c979-4d27-880e-4a906dfec332" rend="left">
+     <p id="9c756b1a-c979-4d27-880e-4a906dfec332">
       <pb n="164"/>
       <hi style="npdelimiter">
        <choice original_editorial_correction="Булг[акову]">
@@ -744,7 +766,7 @@
       </choice>
       и отправить.
      </p>
-     <p id="23fdf27c-945e-4118-b092-d06701bda3b0" rend="left">
+     <p id="23fdf27c-945e-4118-b092-d06701bda3b0">
       Найти длинное
       <choice original_editorial_correction="пись[мо]">
        <sic>
@@ -764,7 +786,7 @@
       </choice>
       .
      </p>
-     <p id="d934512c-d442-4083-9cb4-59799d2f87aa" rend="left">
+     <p id="d934512c-d442-4083-9cb4-59799d2f87aa">
       Какое письмо
       <choice>
        <reg>
@@ -776,17 +798,15 @@
       </choice>
       Изюмченко?
      </p>
-     <p id="e1a3e597-e9c0-4153-a7c9-b9544caf4577" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="34201f2d-3a17-4a7a-b1bd-3cad8f52fa9d" rend="left">
+     <metamark function="line"/>
+     <p id="34201f2d-3a17-4a7a-b1bd-3cad8f52fa9d">
       <del>
        <choice>
         <reg>
          Предисловие
         </reg>
         <orig>
-         Предисловiе
+         Предисловіе
         </orig>
        </choice>
        <choice original_editorial_correction="Н[а]">
@@ -815,10 +835,8 @@
        </choice>
       </del>
      </p>
-     <p id="957fd758-5f30-42b1-9826-b82566cc377c" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="532ad7e1-b829-49d6-ac71-0118877b6463" rend="left">
+     <metamark function="line"/>
+     <p id="532ad7e1-b829-49d6-ac71-0118877b6463">
       Письмо китайца.
       <ref target="#note474">
        474
@@ -827,10 +845,8 @@
        Переделано из: китайцу
       </note>
      </p>
-     <p id="e8c8fde5-4b94-49e2-aad3-fa380947f2b8" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="45b1b060-87f2-4fdb-874e-2adc12c6db24" rend="left">
+     <metamark function="line"/>
+     <p id="45b1b060-87f2-4fdb-874e-2adc12c6db24">
       Прибавить 1-ю
       <choice original_editorial_correction="запов[ѣдь]">
        <sic>
@@ -848,22 +864,20 @@
        </corr>
       </choice>
      </p>
-     <p id="81a7a863-4415-4f1e-973e-e3afdb10bf6d" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="d387aa31-7d58-4b53-9941-a2772552ff0d" rend="left">
+     <metamark function="line"/>
+     <p id="d387aa31-7d58-4b53-9941-a2772552ff0d">
       Харада,
      </p>
-     <p id="a9b671b9-5721-4e60-bff7-4504fca2d7a9" rend="left">
+     <p id="a9b671b9-5721-4e60-bff7-4504fca2d7a9">
       Мидзутаки.
      </p>
-     <p id="88b89dbe-689c-444d-98cf-a47f580d10a3" rend="left">
+     <p id="88b89dbe-689c-444d-98cf-a47f580d10a3">
       <choice>
        <reg>
         Китайский
        </reg>
        <orig>
-        Китайскiй
+        Китайскій
        </orig>
       </choice>
       <choice>
@@ -875,10 +889,10 @@
        </orig>
       </choice>
      </p>
-     <p id="f85bf868-d737-449e-9afe-4c182571eecb" rend="left">
+     <p id="f85bf868-d737-449e-9afe-4c182571eecb">
       Письмо Канди (Индуса)
      </p>
-     <p id="718d6513-8b59-4b22-be62-f0f90e7285d2" rend="left">
+     <p id="718d6513-8b59-4b22-be62-f0f90e7285d2">
       <choice>
        <reg>
         Ольге
@@ -889,10 +903,8 @@
       </choice>
       написать Ганди
      </p>
-     <p id="c6bbe744-4c03-43e7-9de5-d662212f79e2" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="e56a38b9-680c-4aad-8172-51a725ef9f9e" rend="left">
+     <metamark function="line"/>
+     <p id="e56a38b9-680c-4aad-8172-51a725ef9f9e">
       <choice original_editorial_correction="Русск[ое]">
        <sic>
         Русск
@@ -910,7 +922,7 @@
        </corr>
       </choice>
      </p>
-     <p id="0864ecd5-859d-4bb4-829b-df77fb558b48" rend="left">
+     <p id="0864ecd5-859d-4bb4-829b-df77fb558b48">
       <choice original_editorial_correction="Черныш[евскій]">
        <sic>
         Черныш
@@ -921,19 +933,15 @@
           Чернышевский
          </reg>
          <orig>
-          Чернышевскiй
+          Чернышевскій
          </orig>
         </choice>
        </corr>
       </choice>
       стр. 103 и 107.
      </p>
-     <p id="427222a2-0b58-4822-9530-5550e7b152a8" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="63dbba73-216f-494c-b7ca-11f38278c41c" rend="center">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
+     <metamark function="line"/>
     </div>
    </div>
   </body>

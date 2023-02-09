@@ -9,17 +9,41 @@
                 <title type="main">Письмо Генриху фон Зибольду (Heinrich von Siebold) от 30 апреля 1907 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Генриху фон Зибольду (Heinrich von Siebold), 30 апреля 1907 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 77. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 77</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">92-93</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,10 +127,10 @@
      </name>
      .1907г. Апреля 30/мая 13. Я. П.
     </opener>
-    <p id="94c6b2ac-439e-43e4-9c0b-e0a8df53f82b" rend="Obrashenie left">
+    <p id="94c6b2ac-439e-43e4-9c0b-e0a8df53f82b" rend="Obrashenie">
      Geehrter Herr!
     </p>
-    <p id="eb3c7e14-dedd-48df-9140-6352ef8180d5" rend="left">
+    <p id="eb3c7e14-dedd-48df-9140-6352ef8180d5">
      Danke Ihnen für die zugesandten Brochüren.
      <ref target="#note1">
       1
@@ -130,17 +159,17 @@
     <p id="aeff216a-4341-4961-9ef7-c14779a25232" rend="right">
      Leo Tolstoy.
     </p>
-    <p id="ef9b3c27-e2f9-4c12-af4a-b2b0afbfe0d0" rend="left">
+    <p id="ef9b3c27-e2f9-4c12-af4a-b2b0afbfe0d0">
      13 Mai/30 Apr. 07.
     </p>
-    <p id="baa5f4f4-16a2-4a67-b707-3d13b30e5e6e" rend="left">
+    <p id="baa5f4f4-16a2-4a67-b707-3d13b30e5e6e">
      Jasnaja Poliana.
     </p>
     <lb/>
-    <p id="c2acc1af-0678-4b08-8878-7d3e74e405cf" rend="Obrashenie petit left">
+    <p id="c2acc1af-0678-4b08-8878-7d3e74e405cf" rend="Obrashenie petit">
      Милостивый государь!
     </p>
-    <p id="ddd82d18-b111-4135-9602-3556a4a09be2" rend="petit left">
+    <p id="ddd82d18-b111-4135-9602-3556a4a09be2" rend="petit">
      Благодарю вас за присланные брошюры.
      <ref target="#note3">
       3
@@ -175,10 +204,10 @@
      </name>
      .
     </p>
-    <p id="71247da9-c2b4-41b7-829b-21f3a8db09fb" rend="petit left">
+    <p id="71247da9-c2b4-41b7-829b-21f3a8db09fb" rend="petit">
      13 мая/30 апр. 07.
     </p>
-    <p id="223d5ce4-7620-4815-ad72-15d83739d366" rend="petit left">
+    <p id="223d5ce4-7620-4815-ad72-15d83739d366" rend="petit">
      Ясная Поляна.
     </p>
     <noteGrp type="comments">
@@ -188,7 +217,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="66b4c6ce-3898-4053-a1e0-a12315dc6ac5" rend="petit left">
+      <p id="66b4c6ce-3898-4053-a1e0-a12315dc6ac5" rend="petit">
        <name placement="comments" ref="5407" type="person">
         Генрих фон Зибольд
        </name>
@@ -200,7 +229,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="da20b1eb-a59b-4cec-9a24-f4adc7df6647" rend="petit left">
+      <p id="da20b1eb-a59b-4cec-9a24-f4adc7df6647" rend="petit">
        Ответ на письмо Зибольда от 26 апреля н. ст. 1907 г. Зибольд писал, что он вполне солидарен с взглядами Толстого на китайский народ, выраженными в письме к
        <name placement="comments" ref="7250" type="person">
         Ку Хун-мину

@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову от 1 сентября 1886 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 1 сентября 1886 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 85. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 85</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">383-385</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,13 +124,13 @@
     <opener index="false">
      * 116.1886 г. Сентября 1. Я. П.
     </opener>
-    <p id="58e9c62f-d1ef-49e3-bb65-1daaeae443eb" rend="left">
+    <p id="58e9c62f-d1ef-49e3-bb65-1daaeae443eb">
      <choice>
       <reg>
        Положение
       </reg>
       <orig>
-       Положенiе
+       Положеніе
       </orig>
      </choice>
      мое все тоже, милый
@@ -135,7 +165,7 @@
        состояние
       </reg>
       <orig>
-       состоянiе
+       состояніе
       </orig>
      </choice>
      такое, что чувствую, что струя жизни —
@@ -144,7 +174,7 @@
        служения
       </reg>
       <orig>
-       служенiя
+       служенія
       </orig>
      </choice>
      — съузилась
@@ -223,7 +253,7 @@
        нетерпения
       </reg>
       <orig>
-       нетерпѣнiя
+       нетерпѣнія
       </orig>
      </choice>
      того, что
@@ -237,7 +267,7 @@
      </choice>
      , и дорожу капельками.
     </p>
-    <p id="a596e1e8-b74e-4dc4-a95f-33f864bc035b" rend="left">
+    <p id="a596e1e8-b74e-4dc4-a95f-33f864bc035b">
      <choice original_editorial_correction="Ник[олай]">
       <sic>
        Ник
@@ -480,7 +510,7 @@
      Л. Т.
     </p>
     <lb/>
-    <p id="5fc18044-3e59-484b-9442-a59bd5304971" rend="left">
+    <p id="5fc18044-3e59-484b-9442-a59bd5304971">
      Вчера
      <choice>
       <reg>
@@ -594,7 +624,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="c4fe0f6c-1c6f-4d7b-a43e-1f155ca14f98" rend="petit left">
+      <p id="c4fe0f6c-1c6f-4d7b-a43e-1f155ca14f98" rend="petit">
        Письмо это написано Черткову в Лизиновку вскоре после того, как он уехал туда из Ясной поляны, — до получения какого-либо письма от него.
       </p>
      </note>

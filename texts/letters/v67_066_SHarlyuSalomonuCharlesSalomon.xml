@@ -9,17 +9,41 @@
                 <title type="main">Письмо Шарлю Саломону (Charles Salomon) от 5 марта 1894 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Шарлю Саломону (Charles Salomon), 5 марта 1894 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 67. М.: Гос. изд. «Художественная литература», 1955. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 67</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">65-66</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -98,10 +127,10 @@
      </name>
      .1894 г. Марта 5. Москва.
     </opener>
-    <p id="4ccedb08-da61-46b8-a56e-8c7f9e41d562" rend="Obrashenie left">
+    <p id="4ccedb08-da61-46b8-a56e-8c7f9e41d562" rend="Obrashenie">
      Cher Monsieur Salomon,
     </p>
-    <p id="9fb6e3d2-ffe3-4381-9e70-ccc69363ca3a" rend="left">
+    <p id="9fb6e3d2-ffe3-4381-9e70-ccc69363ca3a">
      Je vous suis très reconnaissant pour la traduction et la publication de la déclaration,
      <ref target="#note1">
       1
@@ -135,14 +164,14 @@
     <p id="6fdf99f9-1141-402e-bd83-84fabc401348" rend="right">
      Léon Tolstoy.
     </p>
-    <p id="71c46e1c-08b1-4058-959b-9cdb58ab7068" rend="left">
+    <p id="71c46e1c-08b1-4058-959b-9cdb58ab7068">
      5/17 Mars 1894.
     </p>
     <lb/>
-    <p id="63d4ab30-2039-4865-bc51-c6b9ed9de121" rend="Obrashenie petit left">
+    <p id="63d4ab30-2039-4865-bc51-c6b9ed9de121" rend="Obrashenie petit">
      Дорогой г. Саломон,
     </p>
-    <p id="d66748fb-4bd9-4dc5-9606-6140f702d160" rend="petit left">
+    <p id="d66748fb-4bd9-4dc5-9606-6140f702d160" rend="petit">
      Очень благодарен вам за перевод и напечатание заявления,
      <ref target="#note3">
       3
@@ -165,7 +194,7 @@
     <p id="b854c676-accd-46cd-94ba-d4f446426336" rend="petit right">
      Ваш Лев Толстой.
     </p>
-    <p id="f1c5e7fc-ebbb-4f73-ad95-cfce2e22f202" rend="petit left">
+    <p id="f1c5e7fc-ebbb-4f73-ad95-cfce2e22f202" rend="petit">
      5/17 марта 1894.
     </p>
     <noteGrp type="comments">
@@ -175,7 +204,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="99bcb3dd-e552-4cb0-82b5-6bda91f8d4c4" rend="petit left">
+      <p id="99bcb3dd-e552-4cb0-82b5-6bda91f8d4c4" rend="petit">
        Ответ на письмо Ш. Саломона от 11 марта н. ст. 1894 г.
       </p>
      </note>

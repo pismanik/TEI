@@ -9,17 +9,41 @@
                 <title type="main">Письмо Т. А. Ергольской и гр. Е. А. Толстой от 19 октября 1848 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Т. А. Ергольской и гр. Е. А. Толстой, 19 октября 1848 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">18-21</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -79,8 +108,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -99,7 +129,7 @@
      </name>
      .1848 г. Октября 19. Моста.
     </opener>
-    <p id="f8776bb8-32f0-475b-a501-eefa228358dd" rend="Obrashenie left">
+    <p id="f8776bb8-32f0-475b-a501-eefa228358dd" rend="Obrashenie">
      Mes chères tantes!
      <ref target="#note1">
       1
@@ -116,7 +146,7 @@
       . О них см. вступ. и 7 прим. к п. № 4.
      </note>
     </p>
-    <p id="8f710c72-db1d-42e9-a6de-712c1d5d32f8" rend="left">
+    <p id="8f710c72-db1d-42e9-a6de-712c1d5d32f8">
      Je me porte comme toujours ni bien ni mal; cependant j’ai commencé à me traiter aujourd’hui, même Over
      <ref target="#note2">
       2
@@ -236,7 +266,7 @@
      </choice>
      gens, dont je n’ai pas besoin; j’y déménagerai dans deux ou trois semaines. —
     </p>
-    <p id="87ecf927-5742-47a0-91b4-4ad860fb1f16" rend="left">
+    <p id="87ecf927-5742-47a0-91b4-4ad860fb1f16">
      J’ai été à la banque où on m’a donné de fort mauvaises nouvelles. — Au lieu de 200 roub. d’arriérés comme nous l’avions pensé on m’a dit qu’il y en avait encore pour 1195 argent. Peut être que les derniers envois ne sont pas compris dans ce compte. Dans- tous les cas dites à André,
      <ref target="#note6">
       6
@@ -388,7 +418,7 @@
        следующия
       </reg>
       <orig>
-       слѣдующiя
+       слѣдующія
       </orig>
      </choice>
      <choice>
@@ -435,7 +465,7 @@
        получении
       </reg>
       <orig>
-       полученiи
+       полученіи
       </orig>
      </choice>
      <choice>
@@ -563,7 +593,7 @@
          </name>
         </reg>
         <orig>
-         Дмитрiевичъ
+         Дмитріевичъ
         </orig>
        </choice>
       </corr>
@@ -593,7 +623,7 @@
        разрешение
       </reg>
       <orig>
-       разрѣшенiе
+       разрѣшеніе
       </orig>
      </choice>
      , — ежели же
@@ -602,7 +632,7 @@
        разрешения
       </reg>
       <orig>
-       разрѣшенiя
+       разрѣшенія
       </orig>
      </choice>
      не
@@ -625,7 +655,7 @@
      </choice>
      Москву.
     </p>
-    <p id="535197f3-0bad-4cd4-b43f-95691613e969" rend="left">
+    <p id="535197f3-0bad-4cd4-b43f-95691613e969">
      J’ai été chez le P. A.
      <ref target="#note10">
       10
@@ -658,14 +688,14 @@
       —
      </hi>
     </p>
-    <p id="470f3b91-5972-4915-b102-f4134b675cab" rend="left">
+    <p id="470f3b91-5972-4915-b102-f4134b675cab">
      <pb n="19"/>
      <hi style="npdelimiter">
       Dites
      </hi>
      à André qu’il vende pour 200 argent de farine ou de blé et m’envoie l’argent au plus vite. —
     </p>
-    <p id="99505a6a-7cd6-452d-bbe4-ed6db6c25453" rend="left">
+    <p id="99505a6a-7cd6-452d-bbe4-ed6db6c25453">
      Les comissions que vous avez données à Pauline
      <ref target="#note13">
       13
@@ -678,7 +708,7 @@
      </note>
      sont toutes prêtes.
     </p>
-    <p id="d0079931-a74d-4d42-9916-45521ff5c9c8" rend="left">
+    <p id="d0079931-a74d-4d42-9916-45521ff5c9c8">
      <choice>
       <reg>
        Из
@@ -708,19 +738,19 @@
      шляпу.
     </p>
     <lb/>
-    <p id="b04a780a-5a8d-4034-8cfe-f01da2eb10a9" rend="left">
+    <p id="b04a780a-5a8d-4034-8cfe-f01da2eb10a9">
      <hi>
       На 4 странице:
      </hi>
     </p>
-    <p id="c6272ff2-89bc-4591-b64e-2a96f7bd2e92" rend="left">
+    <p id="c6272ff2-89bc-4591-b64e-2a96f7bd2e92">
      Ея высокоблагородію
      <name placement="text" ref="4947" type="person">
       Татьянѣ Александровнѣ Ергольской
      </name>
      . Въ городъ Тулу. В Ясныя Поляны.
     </p>
-    <p id="bb3dbe3e-5525-4a7e-a504-9b3b4cd57c7e" rend="Obrashenie petit left">
+    <p id="bb3dbe3e-5525-4a7e-a504-9b3b4cd57c7e" rend="Obrashenie petit">
      Дорогие мои тетеньки!
      <ref target="#note14">
       14
@@ -737,7 +767,7 @@
       . О них см. вступ. и 7 прим. к п. № 4.
      </note>
     </p>
-    <p id="5b47dc80-29ae-4619-bdb9-9420c33cecec" rend="petit left">
+    <p id="5b47dc80-29ae-4619-bdb9-9420c33cecec" rend="petit">
      Здоровье мое по обыкновению ни хорошо, ни плохо; тем не менее я начал лечиться, и сегодня
      <name placement="note" ref="10044" type="person">
       Овер
@@ -817,7 +847,7 @@
         Песковскомъ
        </orig>
       </choice>
-      переулкњ у Собачей площадки
+      переулкѣ у Собачей площадки
       <choice>
        <reg>
         в
@@ -826,7 +856,7 @@
         въ
        </orig>
       </choice>
-      домњ Ивановой.
+      домѣ Ивановой.
      </hi>
      <ref target="#note18">
       18
@@ -840,7 +870,7 @@
      </note>
      * — В том же дворе я снял флигель за 50 рублей ассигнациями в месяц с мебелью, кухней и помещением для людей, в которых я не нуждаюсь; переберусь я туда через две или три недели.
     </p>
-    <p id="a02a1cbd-eef4-4457-9f69-a87a22f50e0c" rend="petit left">
+    <p id="a02a1cbd-eef4-4457-9f69-a87a22f50e0c" rend="petit">
      Был в банке, где мне сообщили плохие известия. — Вместо просроченных 200 рублей, как мы думали, оказывается еще 1195 р. серебром. Может быть, последние платежи не внесены в этот счет. Во всяком случае, скажите Андрею,
      <ref target="#note19">
       19
@@ -992,7 +1022,7 @@
        следующия
       </reg>
       <orig>
-       слѣдующiя
+       слѣдующія
       </orig>
      </choice>
      <choice>
@@ -1039,7 +1069,7 @@
        получении
       </reg>
       <orig>
-       полученiи
+       полученіи
       </orig>
      </choice>
      этих
@@ -1143,7 +1173,7 @@
          Дмитриевич
         </reg>
         <orig>
-         Дмитрiевичъ
+         Дмитріевичъ
         </orig>
        </choice>
       </corr>
@@ -1163,7 +1193,7 @@
        разрешение
       </reg>
       <orig>
-       разрѣшенiе
+       разрѣшеніе
       </orig>
      </choice>
      , — ежели же
@@ -1172,7 +1202,7 @@
        разрешения
       </reg>
       <orig>
-       разрѣшенiя
+       разрѣшенія
       </orig>
      </choice>
      не
@@ -1195,7 +1225,7 @@
      </choice>
      Москву. *
     </p>
-    <p id="11e135cd-ab84-48bc-9954-375c2a535ee8" rend="petit left">
+    <p id="11e135cd-ab84-48bc-9954-375c2a535ee8" rend="petit">
      Я был у кн. А.
      <ref target="#note22">
       22
@@ -1225,10 +1255,10 @@
       Гр. Марья Николаевна Толстая (1830—1912), сестра Толстого, с 1847 г.замужем за гр. Валерьяном Петровичем Толстым (1813—1865). О ней см. вступ. прим. к п. № 42.
      </note>
     </p>
-    <p id="99028f9e-8e7a-4afe-9d72-087aefc30df9" rend="petit left">
+    <p id="99028f9e-8e7a-4afe-9d72-087aefc30df9" rend="petit">
      Скажите Андрею, чтобы он продал на 200 р. с. муки или ржи и немедленно выслал мне деньги.
     </p>
-    <p id="205b46de-1408-4dbe-b908-29bba587b1db" rend="petit left">
+    <p id="205b46de-1408-4dbe-b908-29bba587b1db" rend="petit">
      Поручения, которые вы дали Пашеньке,
      <ref target="#note25">
       25
@@ -1241,7 +1271,7 @@
      </note>
      все исполнены.
     </p>
-    <p id="79315f40-4622-4d96-be20-19d7e29d7d95" rend="petit left">
+    <p id="79315f40-4622-4d96-be20-19d7e29d7d95" rend="petit">
      *
      <choice>
       <reg>

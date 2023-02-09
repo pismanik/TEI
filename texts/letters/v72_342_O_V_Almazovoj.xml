@@ -9,17 +9,41 @@
                 <title type="main">Письмо О. В. Алмазовой от 2 августа 1900 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо О. В. Алмазовой, 2 августа 1900 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">426-427</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      *342. О. В. Алмазовой.1900 г. Августа 2. Я. П.
     </opener>
-    <p id="bc2dbf58-5779-4cab-b371-a61caead0de7" rend="left">
+    <p id="bc2dbf58-5779-4cab-b371-a61caead0de7">
      Дорогая
      <name placement="text" ref="331" type="person">
       Ольга Васильевна
@@ -144,7 +174,7 @@
      </choice>
      , и теперь еще чувствую слабость.
     </p>
-    <p id="983f87b6-4600-4143-b8f2-63bbc60eecf1" rend="left">
+    <p id="983f87b6-4600-4143-b8f2-63bbc60eecf1">
      Сказать, что я
      <choice>
       <reg>
@@ -432,7 +462,7 @@
        приучил
       </reg>
       <orig>
-       прiучилъ
+       пріучилъ
       </orig>
      </choice>
      <choice>
@@ -449,7 +479,7 @@
        служение
       </reg>
       <orig>
-       служенiе
+       служеніе
       </orig>
      </choice>
      ,
@@ -534,7 +564,7 @@
        сочувствие
       </reg>
       <orig>
-       сочувствiе
+       сочувствіе
       </orig>
      </choice>
      <choice>
@@ -562,7 +592,7 @@
        Любящий
       </reg>
       <orig>
-       Любящiй
+       Любящій
       </orig>
      </choice>
      <choice>
@@ -583,7 +613,7 @@
      </choice>
      Толстой.
     </p>
-    <p id="f9d7fd0f-994a-4126-b0bb-66605cdf32a5" rend="left">
+    <p id="f9d7fd0f-994a-4126-b0bb-66605cdf32a5">
      2 Авг. 1900.
     </p>
     <noteGrp type="comments">
@@ -593,7 +623,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="fabedcd7-a2c9-428d-8d09-352ceb71c67b" rend="petit left">
+      <p id="fabedcd7-a2c9-428d-8d09-352ceb71c67b" rend="petit">
        Об О. В. Алмазовой
        <ref target="file:///Volume_72_O.V.Almazovoj_303.xml">
         см. письмо № 303
@@ -602,7 +632,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="8cb12c7c-8038-42a4-a766-ef977484fd52" rend="petit left">
+      <p id="8cb12c7c-8038-42a4-a766-ef977484fd52" rend="petit">
        Ответ на письмо Алмазовой, с извещением о смерти ее мужа,
        <hi style="opdelimiter">
         Алексея

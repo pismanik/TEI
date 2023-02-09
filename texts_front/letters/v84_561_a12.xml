@@ -1,97 +1,102 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v84_561_a12"> Письма и документы. Tolstoy Digital </title>
-                <title type="main">Письмо С. А. Толстой от 12 февраля 1893 г. </title>
-                <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 12 февраля 1893 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 84. М.: Гос. изд. «Художественная литература», 1949. С. </title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name> Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский </name>
-                </respStmt>
-                <respStmt>
-                    <resp> Подготовка TEI/XML </resp>
-                    <name> Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова </name>
-                </respStmt>
-                <funder> Проект «Слово Толстого» </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName> Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого» </orgName>
-                </publisher>
-                <availability>
-                    <p id="1e9b59b1-e250-43f4-a16c-41d8a56d2185"> Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa) </p>
-                </availability>
-                <date from="2015-01-01" to="2022-01-01"/>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Л. Н. </author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 84</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date from="1949-01-01" to="1949-12-31"/>
-                        </imprint>
-                        <biblScope unit="vol">84</biblScope>
-                        <biblScope unit="page">183-184</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л. Н. Толстой. Полное собрание сочинений</title>
-                    </series>
-                </biblStruct>
-                <bibl/>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy_front.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Бегичевка</placeName>
-                    <date from="1893-02-12" to="1893-12-31"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="13844">Толстая Софья Андреевна, рожд. Берс</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="ru"/>
-            </langUsage>
-            <textClass>
-                <catRef ana="#letters_np" target="type_neprosto"/>
-                <catRef ana="#letters" target="type"/>
-                <catRef ana="#sent" target="sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">561</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="a12_561">
-  <body>
-   <div>
-    <p id="bb6505fc-f5e8-48b2-90c7-75872b01242c">
-      <pb n="183"></pb>
-    </p>
-    <p id="f60291a3-c7e7-4578-85d9-f42935881f57">
-      <span index="false" class="opener"> 561.1893 г. Февраля 12. Бегичевка. </span>
-    </p>
-    <p id="a3380c7d-5565-4c60-aa87-dec71e1a8f5c" rend="left"> Пользуемся случаем на Клекотки. Девочки написали тебе, <a href="#" data-type="snoska" id="note1"> 1 </a>
-     <span class="note" id="note1"> Коллективное письмо к С. А. Толстой Т. Л. и М. Л. Толстых от 12 февраля. </span> я приписываю. Очень поспешаем, чтобы поскорее вернуться. Письма, если нужные, то присылай сейчас. Не могу еще сказать верно, когда вернемся, но очень хочется поскорее. Я писал тебе, почему нельзя сейчас же. Мы здоровы и все друг друга бережем, поэтому ты за нас не бойся. Девочки, равно и я, только здоровеем. </p>
-    <p id="1de20805-25ab-47cb-864f-bef79639fc1e" rend="right"> Л. Т. </p>
-    <p id="691282ed-3032-413a-9dc5-9ee330ea4500">
-      <br/>
-    </p>
-    <p id="808b09aa-3209-4e91-9981-68c0ddd544bc" rend="left">
-     <hi> На обороте: </hi> Москва. Хамовнический пер., дом № 15. Графине Софье Андревне Толстой. </p>
-    </div>
-  </body>
- </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:id="v84_561_a12">Письма и документы. Tolstoy Digital </title>
+        <title type="main">Письмо С. А. Толстой от 12 февраля 1893 г. </title>
+        <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 12 февраля 1893 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 84. М.: Гос. изд. «Художественная литература», 1949. С. </title>
+        <respStmt>
+          <resp>Идея, постановка задач, руководство: </resp>
+          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
+        </respStmt>
+        <respStmt>
+          <resp> Подготовка TEI/XML: </resp>
+          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров, Никита Северин, Елена Северина</name>
+        </respStmt>
+        <funder> Проект «Слово Толстого» </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого» </orgName>
+        </publisher>
+        <availability>
+          <p id="1e9b59b1-e250-43f4-a16c-41d8a56d2185">Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa) </p>
+        </availability>
+        <date from="2015-01-01" to="2022-01-01"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>Публикуемые документы был получены с сайта tolstoy. ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. </note>
+      </notesStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author>Толстой Лев Николаевич </author>
+          </analytic>
+          <monogr>
+            <title level="m">Полное собрание сочинений. Том 84 </title>
+            <imprint>
+              <pubPlace>Москва </pubPlace>
+              <publisher>Государственное издательство «Художественная литература» </publisher>
+              <date from="1949-01-01" to="1949-12-31"/>
+            </imprint>
+            <biblScope unit="vol">84 </biblScope>
+            <biblScope unit="page">183-184 </biblScope>
+          </monogr>
+          <series>
+            <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт. </title>
+          </series>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <xi:include href="../../reference/taxonomy_front.xml"/>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sending">
+          <persName ref="13883">Л. Н. Толстой </persName>
+          <placeName>Бегичевка </placeName>
+          <date from="1893-02-12" to="1893-12-31"/>
+        </correspAction>
+        <correspAction type="receiving">
+          <persName ref="13844">Толстая Софья Андреевна, рожд. Берс </persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="ru"/>
+      </langUsage>
+      <textClass>
+        <catRef ana="#letters_np" target="type_neprosto"/>
+        <catRef ana="#letters" target="type"/>
+        <catRef ana="#sent" target="sent"/>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <xenoData>
+    <number type="in a volume">561 </number>
+  </xenoData>
+  <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="a12_561">
+    <body>
+      <div>
+        <p id="a694a2ee-ac8d-4f1f-9729-212722d98f88">
+          <pb n="183"></pb>
+        </p>
+        <p id="0b05ca84-26a7-43b7-82c4-918dd8a06914">
+          <span index="false" class="opener">561.1893 г. Февраля 12. Бегичевка. </span>
+        </p>
+        <p id="a3380c7d-5565-4c60-aa87-dec71e1a8f5c">Пользуемся случаем на Клекотки. Девочки написали тебе,<a href="#" data-type="snoska" id="note1">1</a>
+          <span class="note" id="note1">Коллективное письмо к С. А. Толстой Т. Л. и М. Л. Толстых от 12 февраля. </span>я приписываю. Очень поспешаем, чтобы поскорее вернуться. Письма, если нужные, то присылай сейчас. Не могу еще сказать верно, когда вернемся, но очень хочется поскорее. Я писал тебе, почему нельзя сейчас же. Мы здоровы и все друг друга бережем, поэтому ты за нас не бойся. Девочки, равно и я, только здоровеем. </p>
+        <p id="1de20805-25ab-47cb-864f-bef79639fc1e" rend="right">Л. Т. </p>
+        <p id="aa9a38fd-4213-4127-97b5-96f6dbd3c1a4">
+          <br/>
+        </p>
+        <p id="808b09aa-3209-4e91-9981-68c0ddd544bc">
+          <hi>На обороте: </hi>Москва. Хамовнический пер., дом № 15. Графине Софье Андревне Толстой.</p>
+      </div>
+    </body>
+  </text>
 </TEI>

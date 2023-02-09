@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову от 7 ноября 1889 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 7 ноября 1889 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 86. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 86</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">274-275</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 239.1889 г. Ноября 7. Я. П.
     </opener>
-    <p id="5671e773-7a1e-4d0d-89ca-ffaff96b591d" rend="left">
+    <p id="5671e773-7a1e-4d0d-89ca-ffaff96b591d">
      Я
      <choice>
       <reg>
@@ -173,7 +203,7 @@
      </choice>
      . —
     </p>
-    <p id="b0087364-5842-4aa5-b5f6-1251cc89f9cc" rend="left">
+    <p id="b0087364-5842-4aa5-b5f6-1251cc89f9cc">
      И я очень радуюсь теперь вашему плану.
      <choice>
       <reg>
@@ -229,7 +259,7 @@
        хороший
       </reg>
       <orig>
-       хорошiй
+       хорошій
       </orig>
      </choice>
      <choice>
@@ -362,7 +392,7 @@
        освещение
       </reg>
       <orig>
-       освѣщенiе
+       освѣщеніе
       </orig>
      </choice>
      <choice>
@@ -426,7 +456,7 @@
        Изложение
       </reg>
       <orig>
-       Изложенiе
+       Изложеніе
       </orig>
      </choice>
      прекрасно
@@ -475,7 +505,7 @@
      </choice>
      все, что надо. Л. Т.
     </p>
-    <p id="c4e7e33e-d397-4b69-b923-f90dacf040d7" rend="left">
+    <p id="c4e7e33e-d397-4b69-b923-f90dacf040d7">
      Что Поша?
      <choice original_editorial_correction="Р[угин]">
       <sic>
@@ -543,13 +573,13 @@
      </note>
     </p>
     <lb/>
-    <p id="83aaac37-bfbe-42ef-9bc7-0de8343e902f" rend="left">
+    <p id="83aaac37-bfbe-42ef-9bc7-0de8343e902f">
      <hi>
       На обратной стороне:
      </hi>
      [Воронежской губ. Россоша,
     </p>
-    <p id="1513f8c3-2c5f-45b2-b6a1-4062376b6cb3" rend="left">
+    <p id="1513f8c3-2c5f-45b2-b6a1-4062376b6cb3">
      Владимиру Григорьевичу Черткову.]
     </p>
     <noteGrp type="comments">
@@ -562,7 +592,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="603a35b4-6783-44b3-9895-969b937aa88f" rend="petit left">
+      <p id="603a35b4-6783-44b3-9895-969b937aa88f" rend="petit">
        <pb n="275"/>
        <hi style="npdelimiter">
         Толстой

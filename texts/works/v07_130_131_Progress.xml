@@ -4,24 +4,48 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v07_130_131_Progress">
-                    Прогресс. Tolstoy Digital
+                    Прогресс. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Прогресс</title>
-                <title type="bibl">Толстой Л. Н. Прогресс // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 7. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. Прогресс // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 7. М.: Гос. изд. «Художественная литература», 1936. С. 130–131.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -30,7 +54,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -42,7 +66,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -73,7 +97,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -88,9 +112,10 @@
             <creation>
                 <date when="1868"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#main" target="work_main"/>
@@ -129,19 +154,19 @@
       .
      </hi>
     </head>
-    <p id="e2d490d5-a620-4bdf-9385-b046e2bf4a6e" rend="left">
+    <p id="e2d490d5-a620-4bdf-9385-b046e2bf4a6e">
      1868
     </p>
-    <p id="2dacaf36-a3cb-4d37-ae22-38b947ddc987" rend="left">
+    <p id="2dacaf36-a3cb-4d37-ae22-38b947ddc987">
      2 Nоября
     </p>
-    <p id="cffd5e89-a19b-4500-9c70-6b51b3b0c6cb" rend="left">
+    <p id="cffd5e89-a19b-4500-9c70-6b51b3b0c6cb">
      <choice>
       <reg>
        Уменьшение
       </reg>
       <orig>
-       Уменьшенiе
+       Уменьшеніе
       </orig>
      </choice>
      <choice>
@@ -149,19 +174,19 @@
        народонаселения
       </reg>
       <orig>
-       народонаселенiя
+       народонаселенія
       </orig>
      </choice>
      разными средствами.
     </p>
-    <p id="d4ceb770-009b-4b9f-8928-cecdc1bb3a81" rend="left">
+    <p id="d4ceb770-009b-4b9f-8928-cecdc1bb3a81">
      1)
      <choice>
       <reg>
        Принесение
       </reg>
       <orig>
-       Принесенiе
+       Принесеніе
       </orig>
      </choice>
      людей
@@ -175,7 +200,7 @@
      </choice>
      жертву.
     </p>
-    <p id="1eba3f66-62a8-4ec0-a642-9ba7ae430601" rend="left">
+    <p id="1eba3f66-62a8-4ec0-a642-9ba7ae430601">
      2) Цирки
      <choice>
       <reg>
@@ -187,10 +212,10 @@
      </choice>
      .
     </p>
-    <p id="fa5a1758-0e2d-4eab-ba02-cc09a332d024" rend="left">
+    <p id="fa5a1758-0e2d-4eab-ba02-cc09a332d024">
      3) Войны.
     </p>
-    <p id="03df20c9-0fb0-4c16-864e-b2e38ef51cc4" rend="left">
+    <p id="03df20c9-0fb0-4c16-864e-b2e38ef51cc4">
      4)
      <choice>
       <reg>
@@ -206,7 +231,7 @@
        Турции
       </reg>
       <orig>
-       Турцiи
+       Турціи
       </orig>
      </choice>
      —
@@ -215,7 +240,7 @@
        уменьшение
       </reg>
       <orig>
-       уменьшенiе
+       уменьшеніе
       </orig>
      </choice>
      , многоженство
@@ -233,12 +258,12 @@
        увеличение
       </reg>
       <orig>
-       увеличенiе
+       увеличеніе
       </orig>
      </choice>
      .
     </p>
-    <p id="3e5901ff-6e50-4df3-8e02-e92cdc516101" rend="left">
+    <p id="3e5901ff-6e50-4df3-8e02-e92cdc516101">
      <choice>
       <reg>
        Прескот
@@ -279,7 +304,7 @@
        обагощения
       </reg>
       <orig>
-       обагощенiя
+       обагощенія
       </orig>
      </choice>
      . — Они жили и умирали,
@@ -415,7 +440,7 @@
        поощрение
       </reg>
       <orig>
-       поощренiе
+       поощреніе
       </orig>
      </choice>
      . Они были впереди С. А.
@@ -429,13 +454,13 @@
      </choice>
      .
     </p>
-    <p id="32e6c1a7-382b-4923-b38c-42f8e56eafab" rend="left">
+    <p id="32e6c1a7-382b-4923-b38c-42f8e56eafab">
      <choice>
       <reg>
        Лучшие
       </reg>
       <orig>
-       Лучшiе
+       Лучшіе
       </orig>
      </choice>
      умы направлены
@@ -461,7 +486,7 @@
        орудия
       </reg>
       <orig>
-       орудiя
+       орудія
       </orig>
      </choice>
      смерти и со-
@@ -470,7 +495,7 @@
        общения
       </reg>
       <orig>
-       общенiя
+       общенія
       </orig>
      </choice>
      . — Оба
@@ -479,7 +504,7 @@
        орудия
       </reg>
       <orig>
-       орудiя
+       орудія
       </orig>
      </choice>
      <choice>
@@ -487,18 +512,18 @@
        уничтожения
       </reg>
       <orig>
-       уничтоженiя
+       уничтоженія
       </orig>
      </choice>
      . —
     </p>
-    <p id="b9044df7-f83c-4346-8b84-8f85f8b67e47" rend="left">
+    <p id="b9044df7-f83c-4346-8b84-8f85f8b67e47">
      <hi rend="italic">
       Власть и свобода
      </hi>
      .
     </p>
-    <p id="64e57548-79c0-4064-ad1c-e6d20db5471c" rend="left">
+    <p id="64e57548-79c0-4064-ad1c-e6d20db5471c">
      Главный
      <choice>
       <reg>
@@ -521,7 +546,7 @@
        мечтания
       </reg>
       <orig>
-       мечтанiя
+       мечтанія
       </orig>
      </choice>
      о
@@ -616,7 +641,7 @@
        осуществлению
       </reg>
       <orig>
-       осуществленiю
+       осуществленію
       </orig>
      </choice>
      своей прихоти — и
@@ -647,7 +672,7 @@
      </choice>
      благу абсолютному.
     </p>
-    <p id="e1d0d992-49ab-4c0d-a8a1-8187c32bcf04" rend="left">
+    <p id="e1d0d992-49ab-4c0d-a8a1-8187c32bcf04">
      <del>
       Власть и свобода
       <choice>
@@ -692,7 +717,7 @@
        разветвление
       </reg>
       <orig>
-       развѣтвленiе
+       развѣтвленіе
       </orig>
      </choice>
      власти. Для
@@ -772,24 +797,24 @@
        разветвление
       </reg>
       <orig>
-       развѣтвленiе
+       развѣтвленіе
       </orig>
      </choice>
      власти (собственность есть власть).
     </p>
-    <p id="6acbfa03-945c-4386-b76a-b2e1305cdf00" rend="left">
+    <p id="6acbfa03-945c-4386-b76a-b2e1305cdf00">
      <hi rend="italic">
       Настоящая свобода
      </hi>
      неотъемлема. —
     </p>
-    <p id="a16c252f-6db8-4489-87e5-947ef9717183" rend="left">
+    <p id="a16c252f-6db8-4489-87e5-947ef9717183">
      <choice>
       <reg>
        Нападение
       </reg>
       <orig>
-       Нападенiе
+       Нападеніе
       </orig>
      </choice>
      <name placement="text" ref="195" type="person">
@@ -832,11 +857,11 @@
      </choice>
      поддумана причина. —
     </p>
-    <p id="4134d412-cc94-44e6-9055-eee26db1dcce" rend="left">
+    <p id="4134d412-cc94-44e6-9055-eee26db1dcce">
      <pb n="131"/>
      9 Nоября 1869. —
     </p>
-    <p id="c0964546-d06c-4b42-af1d-1e4a12158a48" rend="left">
+    <p id="c0964546-d06c-4b42-af1d-1e4a12158a48">
      Почему свобода
      <choice>
       <reg>
@@ -861,7 +886,7 @@
        сообщения
       </reg>
       <orig>
-       сообщенiя
+       сообщенія
       </orig>
      </choice>
      — есть благо — непостижимо, ежели не
@@ -875,7 +900,7 @@
      </choice>
      идеала прогресса.
     </p>
-    <p id="86045e3c-d966-4509-b7dc-d90b31901990" rend="left">
+    <p id="86045e3c-d966-4509-b7dc-d90b31901990">
      <choice>
       <reg>
        Идеал
@@ -889,7 +914,7 @@
        настоящий
       </reg>
       <orig>
-       настоящiй
+       настоящій
       </orig>
      </choice>
      — есть жизнь —
@@ -898,7 +923,7 @@
        занятия
       </reg>
       <orig>
-       занятiя
+       занятія
       </orig>
      </choice>
      —
@@ -907,7 +932,7 @@
        продолжение
       </reg>
       <orig>
-       продолженiе
+       продолженіе
       </orig>
      </choice>
      рода,
@@ -916,7 +941,7 @@
        увеличение
       </reg>
       <orig>
-       увеличенiе
+       увеличеніе
       </orig>
      </choice>
      искусства, рода
@@ -934,12 +959,12 @@
        знания
       </reg>
       <orig>
-       знанiя
+       знанія
       </orig>
      </choice>
      , труда людей.
     </p>
-    <p id="d387d2ea-6ded-4d9e-9eb4-6d78b2f1630b" rend="left">
+    <p id="d387d2ea-6ded-4d9e-9eb4-6d78b2f1630b">
      <choice>
       <reg>
        Прогресс
@@ -954,7 +979,7 @@
        сообщение
       </reg>
       <orig>
-       сообщенiе
+       сообщеніе
       </orig>
      </choice>
      ,
@@ -972,7 +997,7 @@
        эксплуатация
       </reg>
       <orig>
-       эксплуатацiя
+       эксплуатація
       </orig>
      </choice>
      .
@@ -992,7 +1017,7 @@
         чатание
        </reg>
        <orig>
-        чатанiе
+        чатаніе
        </orig>
       </choice>
      </hi>
@@ -1004,7 +1029,7 @@
         знаний
        </reg>
        <orig>
-        знанiй
+        знаній
        </orig>
       </choice>
       довольно рукописи,
@@ -1044,7 +1069,7 @@
      </choice>
      блага.
     </p>
-    <p id="5aa36ea0-e4ee-4f75-bf46-d336727897c0" rend="left">
+    <p id="5aa36ea0-e4ee-4f75-bf46-d336727897c0">
      <choice>
       <reg>
        Из
@@ -1059,7 +1084,7 @@
        губернии
       </reg>
       <orig>
-       губернiи
+       губерніи
       </orig>
      </choice>
      увозить рожь
@@ -1110,7 +1135,7 @@
        декорации
       </reg>
       <orig>
-       декорацiи
+       декораціи
       </orig>
      </choice>
      <choice>
@@ -1172,7 +1197,7 @@
      </choice>
      .
     </p>
-    <p id="ad505784-b849-45ce-8938-0489c922c142" rend="left">
+    <p id="ad505784-b849-45ce-8938-0489c922c142">
      <hi rend="italic">
       <choice>
        <reg>
@@ -1206,7 +1231,7 @@
      </hi>
      .
     </p>
-    <p id="254a1410-ac35-48b6-9187-ecf84f76dd47" rend="left">
+    <p id="254a1410-ac35-48b6-9187-ecf84f76dd47">
      Мы
      <choice>
       <reg>
@@ -1247,7 +1272,7 @@
        основании
       </reg>
       <orig>
-       основанiи
+       основаніи
       </orig>
      </choice>
      , на
@@ -1303,12 +1328,12 @@
      </choice>
      Суда или всего того, что для него выгодно.
     </p>
-    <p id="1fb3afaa-ee41-4ae5-9594-f87177bb8743" rend="left">
+    <p id="1fb3afaa-ee41-4ae5-9594-f87177bb8743">
      <ref target="#note125">
       125
      </ref>
      <note index="false" xml:id="note125">
-      <span data-class="paragraph" id="e9f42b5b-33df-47d8-9823-885fe4ad6ea8" rend="left">
+      <span data-class="paragraph" id="e9f42b5b-33df-47d8-9823-885fe4ad6ea8">
        <hi rend="italic">
         Со слов:
        </hi>
@@ -1336,7 +1361,7 @@
        Прежние
       </reg>
       <orig>
-       Прежнiе
+       Прежніе
       </orig>
      </choice>
      идеалы
@@ -1345,7 +1370,7 @@
        истории
       </reg>
       <orig>
-       исторiи
+       исторіи
       </orig>
      </choice>
      :
@@ -1354,7 +1379,7 @@
        величие
       </reg>
       <orig>
-       величiе
+       величіе
       </orig>
      </choice>
      <choice>
@@ -1380,19 +1405,19 @@
        Христианство
       </reg>
       <orig>
-       Христiанство
+       Христіанство
       </orig>
      </choice>
      .
     </p>
-    <p id="4a5a8fe8-e21d-404f-bd28-f5b6d3d42864" rend="left">
+    <p id="4a5a8fe8-e21d-404f-bd28-f5b6d3d42864">
      —
      <choice>
       <reg>
        Теперешния
       </reg>
       <orig>
-       Теперешнiя
+       Теперешнія
       </orig>
      </choice>
      —
@@ -1401,7 +1426,7 @@
        цивилизация
       </reg>
       <orig>
-       цивилизацiя
+       цивилизація
       </orig>
      </choice>
      .
@@ -1409,7 +1434,7 @@
       126
      </ref>
      <note index="false" xml:id="note126">
-      <span data-class="paragraph" id="8dd9e5e3-03fd-4480-9d0a-338456075872" rend="left">
+      <span data-class="paragraph" id="8dd9e5e3-03fd-4480-9d0a-338456075872">
        <hi rend="italic">
         Со слов:
        </hi>

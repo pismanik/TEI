@@ -9,17 +9,41 @@
                 <title type="main">Письмо Э. Кросби (Е. Crosby) от 12 апреля 1906 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Э. Кросби (Е. Crosby), 12 апреля 1906 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 76. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 76</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">137-139</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -101,10 +130,10 @@
     <p id="dac1696d-14b3-4f25-9f3c-be284996af5e" rend="right">
      Ernest Crosby.
     </p>
-    <p id="fd8541f9-b7eb-4670-a1ac-41c311f98ded" rend="Obrashenie left">
+    <p id="fd8541f9-b7eb-4670-a1ac-41c311f98ded" rend="Obrashenie">
      Dear friend,
     </p>
-    <p id="f4f87bf4-f5dc-40e7-8713-0f578f302246" rend="left">
+    <p id="f4f87bf4-f5dc-40e7-8713-0f578f302246">
      I am sorry that I gave you so much trouble with the Independent.
      <ref target="#note1">
       1
@@ -154,7 +183,7 @@
      </note>
      has been translated in Russian which is a proof that it is good.
     </p>
-    <p id="be46c230-db6d-4815-b7bf-702344c22bf2" rend="left">
+    <p id="be46c230-db6d-4815-b7bf-702344c22bf2">
      I think that though your lecturing may be very useful, your energy can be better employed in bookwriting; I read always with great pleasure your articles in the Crank,
      <ref target="#note6">
       6
@@ -164,7 +193,7 @@
      </note>
      a very good publication.
     </p>
-    <p id="d39fe7fb-a632-4a71-986a-b690d9796b15" rend="left">
+    <p id="d39fe7fb-a632-4a71-986a-b690d9796b15">
      I am sorry for the Americans, not for Adin Balou,
      <ref target="#note7">
       7
@@ -174,10 +203,10 @@
      </note>
      that his name and work are unknown to them.
     </p>
-    <p id="20134710-5a43-4e30-9f50-7b9233057a1d" rend="left">
+    <p id="20134710-5a43-4e30-9f50-7b9233057a1d">
      Do not wait to come to Russia till our revolution is settled. It will not be so soon. As to the disturbances that are going on now, they are only the precursors of the great revolution, which I hope will begin at once everywhere and will consist in the annihilation of state power.
     </p>
-    <p id="bfb6ab0e-836c-404c-847c-a284096dae7d" rend="left">
+    <p id="bfb6ab0e-836c-404c-847c-a284096dae7d">
      You are still a young man and can have the opportunity to see the great change. Not so I. Therefore the sooner you come the more chances I will have to see you again before my great voyage.
     </p>
     <p id="2d99954f-3f78-4809-9480-0fe16e5cfff1" rend="right rightindent left">
@@ -186,7 +215,7 @@
     <p id="8a8fb489-1664-4187-9e6c-44f76f8e9014" rend="right">
      Leo Tolstoy.
     </p>
-    <p id="80105dc8-cc99-4032-86e2-3d0b1ca02351" rend="left">
+    <p id="80105dc8-cc99-4032-86e2-3d0b1ca02351">
      25 April 1906.
     </p>
     <lb/>
@@ -197,10 +226,10 @@
      .
     </p>
     <lb/>
-    <p id="a9a6fdcf-2f40-4717-9450-40bb57d1673c" rend="Obrashenie petit left">
+    <p id="a9a6fdcf-2f40-4717-9450-40bb57d1673c" rend="Obrashenie petit">
      Дорогой друг,
     </p>
-    <p id="78735057-ca94-4c13-98e5-3ac6231f809a" rend="petit left">
+    <p id="78735057-ca94-4c13-98e5-3ac6231f809a" rend="petit">
      Сожалею, что доставил вам столько неприятностей с «The Independent».
      <ref target="#note8">
       8
@@ -242,7 +271,7 @@
      </note>
      переведена на русский язык, что доказывает, что она хороша.
     </p>
-    <p id="26470bd1-f8f8-4775-a2b7-276631421d99" rend="petit left">
+    <p id="26470bd1-f8f8-4775-a2b7-276631421d99" rend="petit">
      Хотя ваши лекции, может быть, и очень полезны, я думаю, что ваша энергия могла бы получить лучшее применение в писании книг: я всегда с большим удовольствием читаю ваши статьи в «The Crank»,
      <ref target="#note13">
       13
@@ -252,7 +281,7 @@
      </note>
      очень хорошем журнале.
     </p>
-    <p id="1e55330d-7fbd-441f-8ff3-eaf535533ac1" rend="petit left">
+    <p id="1e55330d-7fbd-441f-8ff3-eaf535533ac1" rend="petit">
      Я жалею не Адина Балу,
      <ref target="#note14">
       14
@@ -262,13 +291,13 @@
      </note>
      а американцев, которые не знают его имени и трудов.
     </p>
-    <p id="f163d764-c947-4dcd-a75e-055d27ecbd82" rend="petit left">
+    <p id="f163d764-c947-4dcd-a75e-055d27ecbd82" rend="petit">
      Не откладывайте своего приезда в Россию до окончания нашей революции. Это будет не так скоро. Что касается беспорядков, происходящих сейчас, они только предвестники великой революции, которая, надеюсь, начнется везде одновременно и будет состоять в уничтожении государственной
      <hi style="opdelimiter">
       власти.
      </hi>
     </p>
-    <p id="a380e73b-5df8-494c-b17b-c53d71365676" rend="petit left">
+    <p id="a380e73b-5df8-494c-b17b-c53d71365676" rend="petit">
      <pb n="139"/>
      <hi style="npdelimiter">
       Вы
@@ -284,14 +313,14 @@
      </name>
      .
     </p>
-    <p id="23bef48d-86aa-4ee6-8418-906bd6bc58a3" rend="petit left">
+    <p id="23bef48d-86aa-4ee6-8418-906bd6bc58a3" rend="petit">
      25 апреля 1906.
     </p>
     <lb/>
-    <p id="3f749060-39d0-442f-a4c4-38bd6efd235a" rend="petit left">
+    <p id="3f749060-39d0-442f-a4c4-38bd6efd235a" rend="petit">
      Печатается по копировальной книге № 7, лл. 41—42.
     </p>
-    <p id="49a7c022-d50e-4b6a-a980-cdf379e93eb8" rend="petit left">
+    <p id="49a7c022-d50e-4b6a-a980-cdf379e93eb8" rend="petit">
      Ответ на несохранившееся письмо Кросби.
     </p>
     <noteGrp type="comments"/>

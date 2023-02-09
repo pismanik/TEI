@@ -9,17 +9,41 @@
                 <title type="main">Письмо Т. А. Ергольской от 9 декабря 1850 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Т. А. Ергольской, 9 декабря 1850 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">69-73</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -101,10 +131,10 @@
     <p id="c8641f13-5cc0-43cd-8129-f00f47e1c275" rend="right">
      9 Décembre.
     </p>
-    <p id="a0abf5ba-d007-414b-a432-59dbe835db72" rend="left">
+    <p id="a0abf5ba-d007-414b-a432-59dbe835db72">
      Ma fluxion va mieux; mais je n’ai pas encore quitté la chambre et je compte le faire demain c’est à dire dimanche.
     </p>
-    <p id="c6a3d9d3-afb6-46db-9b56-c00ca31c96f2" rend="left">
+    <p id="c6a3d9d3-afb6-46db-9b56-c00ca31c96f2">
      J’irai chez le Comte Zakrevsky,
      <ref target="#note1">
       1
@@ -259,7 +289,7 @@
      </choice>
      добра. — Je dis cela à propos que je suis, dans un sens, même content d’avoir été malade et obligé de ne pas sortir pendant près d’une semaine; j’ai eu au moins le temps de m’installer
      <hi>
-      оглядњться
+      оглядѣться
      </hi>
      , sans cela je risquais de faire
      <choice original_editorial_correction="com[me]">
@@ -420,8 +450,8 @@
      </choice>
      à Moscou pour me faire payer des 80 четв. de blé que je lui avais vendu et je n’ai pu recevoir l’argent jusqu’à présent, ce qui m’est fort désagreable puisque j’avais rabattu de 50 kop. sur la четв. pour avoir l’argent d’avance.
     </p>
-    <p id="4ec0d3a0-6b5b-4976-9dba-e03fd83e7226" rend="left">
-     Adieu, je bаisе vos mains, je suis étonné de n’avoir encore reçu une lettre de vous. — Dans ma dernière j’ai tout-à-fait oublié Ник. Cepr.
+    <p id="4ec0d3a0-6b5b-4976-9dba-e03fd83e7226">
+     Adieu, je baise vos mains, je suis étonné de n’avoir encore reçu une lettre de vous. — Dans ma dernière j’ai tout-à-fait oublié Ник. Cepr.
      <ref target="#note16">
       16
      </ref>
@@ -433,7 +463,7 @@
      </note>
      mais je suis sûr que vous avez supléé à mon oubli par votre délicatesse en disant que j’écris aussi un mot pour lui.
     </p>
-    <p id="f2ba6cb3-3e84-402f-9547-efca5e3c0103" rend="left">
+    <p id="f2ba6cb3-3e84-402f-9547-efca5e3c0103">
      Dites-lui que je n’ai pas encore eu le temps de baiser les reliques; mais que je ne manqueraide le faire sitôt rétabli.
      <ref target="#note17">
       17
@@ -515,7 +545,7 @@
      </choice>
      помню.
     </p>
-    <p id="30784871-7fa3-48fc-84e9-a44e1b43faeb" rend="left">
+    <p id="30784871-7fa3-48fc-84e9-a44e1b43faeb">
      Avez vous des nouvelles des frères et de Marie?
     </p>
     <p id="7a786599-aa3b-4ca5-bef4-f8adb08a0e07" rend="petit right">
@@ -524,7 +554,7 @@
     <p id="e8be860f-9f15-4ca6-a604-41c48b26ade4" rend="Obrashenie petit">
      Дорогая тетенька!
     </p>
-    <p id="429a8cbb-4515-44dd-9623-3b0cb2850f13" rend="petit left">
+    <p id="429a8cbb-4515-44dd-9623-3b0cb2850f13" rend="petit">
      Флюс у меня проходит, но я еще не выхожу из дому, а рассчитываю это сделать завтра, т. е. в воскресенье.
     </p>
     <p id="e9d7dfdd-c462-4ad0-8192-1d48da387d76" rend="Textpetit_otstup left">
@@ -624,7 +654,7 @@
      </choice>
      добра*; говорю это по поводу того, что я отчасти рад, что болезнь меня продержала дома целую неделю; по крайней мере успел устроиться,
      <hi>
-      *оглядњтъся*
+      *оглядѣтъся*
      </hi>
      , а то могло бы произойти то же, что с Машенькой
      <ref target="#note26">
@@ -635,7 +665,7 @@
      </note>
      в Пирогове; я уже писал вам, что моя квартира очень хороша, она состоит из четырех комнат: столовая с маленьким роялем, который я взял на прокат, гостиная с диванами, 6 стульями, столами орехового дерева, накрытыми красным сукном, и тремя зеркалами, кабинет, где мой письменный стол, бюро и диван, постоянно напоминающий мне наши споры по поводу его, и еще комната, которая достаточно велика, чтобы служить и спальней и уборной, да еще маленькая прихожая; обедаю я дома, ем *щи* и *кашу* и вполне доволен; жду только варенье и *наливку* и тогда будет всё по моим деревенским привычкам. За 40 р. сер. приобрел сани, *пошевни*, которые здесь в моде, Сережа, наверное, знает какие, я купил всю упряжь, очень нарядную.
     </p>
-    <p id="9f820f71-226e-4df0-8599-ef9b3af5e905" rend="petit left">
+    <p id="9f820f71-226e-4df0-8599-ef9b3af5e905" rend="petit">
      Кстати о Сереже,
      <ref target="#note27">
       27
@@ -703,7 +733,7 @@
      </choice>
      * сыграл со мною также плохую шутку; он мне дал записку к своему московскому комиссионеру, который должен был уплатить мне за проданные ему 80 четвертей ржи; денег я до сих пор не получил, что мне чрезвычайно неприятно, так как за уплату вперед я сделал скидку в 50 коп. на четверть.
     </p>
-    <p id="e3860dff-f057-4400-a29d-07590e6882aa" rend="petit left">
+    <p id="e3860dff-f057-4400-a29d-07590e6882aa" rend="petit">
      Прощайте, целую ваши ручки, удивляюсь, что от вас еще нет письма. — В прошлый раз совсем забыл *
      <name placement="text" ref="2699" type="person">
       Николая
@@ -802,7 +832,7 @@
      </choice>
      помню.*
     </p>
-    <p id="d7b087cc-e00b-4c0c-acb0-f8b8d58fd240" rend="petit left">
+    <p id="d7b087cc-e00b-4c0c-acb0-f8b8d58fd240" rend="petit">
      Какие известия о братьях и Машеньке?
     </p>
     <noteGrp type="comments">

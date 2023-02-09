@@ -9,17 +9,41 @@
                 <title type="main">Письмо А. М. Кузминскому от 2 января 1886 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо А. М. Кузминскому, 2 января 1886 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 63. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 63</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">322-322</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,7 +128,7 @@
      </name>
      .1886 г. Января 2? Москва.
     </opener>
-    <p id="0d3fba42-4b6a-4af9-8443-722a4e5e139b" rend="Obrashenie left">
+    <p id="0d3fba42-4b6a-4af9-8443-722a4e5e139b" rend="Obrashenie">
      Милый
      <choice>
       <reg>
@@ -132,7 +162,7 @@
      </choice>
      !
     </p>
-    <p id="c4452a7f-caf6-438f-8873-16e8559054d0" rend="left">
+    <p id="c4452a7f-caf6-438f-8873-16e8559054d0">
      Меня
      <choice>
       <reg>
@@ -156,7 +186,7 @@
        близкий
       </reg>
       <orig>
-       близкiй
+       близкій
       </orig>
      </choice>
      <choice>
@@ -249,7 +279,7 @@
        лишившийся
       </reg>
       <orig>
-       лишившiйся
+       лишившійся
       </orig>
      </choice>
      <choice>
@@ -335,7 +365,7 @@
        фамилия
       </reg>
       <orig>
-       фамилiя
+       фамилія
       </orig>
      </choice>
      брата чиновника) и
@@ -381,7 +411,7 @@
      </name>
      .
     </p>
-    <p id="0de5c3b4-a2e2-49d9-bafe-301676de577f" rend="left">
+    <p id="0de5c3b4-a2e2-49d9-bafe-301676de577f">
      Мы
      <choice>
       <reg>
@@ -447,7 +477,7 @@
        сведения
       </reg>
       <orig>
-       свѣденiя
+       свѣденія
       </orig>
      </choice>
      неудовлетворительные,
@@ -482,7 +512,7 @@
        сведения
       </reg>
       <orig>
-       свѣдѣнiя
+       свѣдѣнія
       </orig>
      </choice>
      <choice>
@@ -499,7 +529,7 @@
        хорошия
       </reg>
       <orig>
-       хорошiя
+       хорошія
       </orig>
      </choice>
      .
@@ -551,7 +581,7 @@
        обсуждению
       </reg>
       <orig>
-       обсужденiю
+       обсужденію
       </orig>
      </choice>
      до нашего
@@ -617,7 +647,7 @@
        приятные
       </reg>
       <orig>
-       прiятные
+       пріятные
       </orig>
      </choice>
      <choice>
@@ -665,12 +695,12 @@
      </choice>
      . —
     </p>
-    <p id="afb7c457-45d6-4737-bb5d-8648aaa1c2be" rend="left">
+    <p id="afb7c457-45d6-4737-bb5d-8648aaa1c2be">
      <hi>
       На конверте:
      </hi>
     </p>
-    <p id="3d3dd1c7-e181-488a-bb6c-752e442d293c" rend="left">
+    <p id="3d3dd1c7-e181-488a-bb6c-752e442d293c">
      <choice>
       <reg>
        Петербург

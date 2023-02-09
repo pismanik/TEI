@@ -9,17 +9,41 @@
                 <title type="main">Письмо А. Ф. Марксу от 3 июня 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо А. Ф. Марксу, 3 июня 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">135-136</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,10 +128,10 @@
      </name>
      .1899 г. Июня 3. Я. П.
     </opener>
-    <p id="6b23c009-1cc7-47d1-9e91-09aa3bcae122" rend="Obrashenie left">
+    <p id="6b23c009-1cc7-47d1-9e91-09aa3bcae122" rend="Obrashenie">
      Милостивый Государь.
     </p>
-    <p id="0f730c14-6d75-4cd3-9cc2-a40a4fb0d669" rend="Obrashenie1 left">
+    <p id="0f730c14-6d75-4cd3-9cc2-a40a4fb0d669" rend="Obrashenie1">
      <choice>
       <reg>
        <name placement="text" ref="8559" type="person">
@@ -126,7 +156,7 @@
      </choice>
      ,
     </p>
-    <p id="fbfd443a-bffa-4a77-b987-ad1510906c67" rend="left">
+    <p id="fbfd443a-bffa-4a77-b987-ad1510906c67">
      <choice>
       <reg>
        В
@@ -141,7 +171,7 @@
        сокращение
       </reg>
       <orig>
-       сокращенiе
+       сокращеніе
       </orig>
      </choice>
      текста «
@@ -150,7 +180,7 @@
        Воскресения
       </reg>
       <orig>
-       Воскресенiя
+       Воскресенія
       </orig>
      </choice>
      », происходящее
@@ -192,7 +222,7 @@
        печатание
       </reg>
       <orig>
-       печатанiе
+       печатаніе
       </orig>
      </choice>
      этого текста
@@ -236,7 +266,7 @@
        издания
       </reg>
       <orig>
-       изданiя
+       изданія
       </orig>
      </choice>
      ,
@@ -305,7 +335,7 @@
        расписания
       </reg>
       <orig>
-       расписанiя
+       расписанія
       </orig>
      </choice>
      <choice>
@@ -331,7 +361,7 @@
        расписанию
       </reg>
       <orig>
-       расписанiю
+       расписанію
       </orig>
      </choice>
      надо печатать три главы, и одна
@@ -438,7 +468,7 @@
        окончании
       </reg>
       <orig>
-       окончанiи
+       окончаніи
       </orig>
      </choice>
      первой части
@@ -447,7 +477,7 @@
        Воскресения
       </reg>
       <orig>
-       Воскресенiя
+       Воскресенія
       </orig>
      </choice>
      задержать
@@ -456,7 +486,7 @@
        печатание
       </reg>
       <orig>
-       печатанiе
+       печатаніе
       </orig>
      </choice>
      на одну
@@ -482,7 +512,7 @@
        изданиям
       </reg>
       <orig>
-       изданiямъ
+       изданіямъ
       </orig>
      </choice>
      стать
@@ -629,7 +659,7 @@
        желание
       </reg>
       <orig>
-       желанiе
+       желаніе
       </orig>
      </choice>
      , когда они стали опережать ваше
@@ -638,7 +668,7 @@
        издание
       </reg>
       <orig>
-       изданiе
+       изданіе
       </orig>
      </choice>
      . —
@@ -681,7 +711,7 @@
        издания
       </reg>
       <orig>
-       изданiя
+       изданія
       </orig>
      </choice>
      » и которая очень нуждается,
@@ -703,7 +733,7 @@
      </choice>
      потери.
     </p>
-    <p id="6d015d7f-86fd-45c9-9e3d-7a1cb2cffa07" rend="left">
+    <p id="6d015d7f-86fd-45c9-9e3d-7a1cb2cffa07">
      Принося
      <choice>
       <reg>
@@ -727,7 +757,7 @@
        исполнение
       </reg>
       <orig>
-       исполненiе
+       исполненіе
       </orig>
      </choice>
      моей просьбы, остаюсь
@@ -752,7 +782,7 @@
        уважением
       </reg>
       <orig>
-       уваженiемъ
+       уваженіемъ
       </orig>
      </choice>
      готовый
@@ -791,11 +821,11 @@
      </name>
      .
     </p>
-    <p id="590d7ea8-5867-41c1-8200-d2c9ba3674f0" rend="left">
+    <p id="590d7ea8-5867-41c1-8200-d2c9ba3674f0">
      3 Іюня.
     </p>
     <lb/>
-    <p id="c3746b52-f0f6-4c81-a0f8-13740a3e1e32" rend="left">
+    <p id="c3746b52-f0f6-4c81-a0f8-13740a3e1e32">
      <choice>
       <reg>
        Надеюсь
@@ -819,13 +849,13 @@
        заканчивающия
       </reg>
       <orig>
-       заканчивающiя
+       заканчивающія
       </orig>
      </choice>
      2-ю часть.
     </p>
     <lb/>
-    <p id="99cff23b-9d71-4140-b6b3-b8c6cb98259b" rend="left">
+    <p id="99cff23b-9d71-4140-b6b3-b8c6cb98259b">
      (
      <hi>
       1
@@ -860,7 +890,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="c65c7566-7163-4c05-a2ea-bda062e980d8" rend="petit left">
+      <p id="c65c7566-7163-4c05-a2ea-bda062e980d8" rend="petit">
        <pb n="136"/>
        <hi style="npdelimiter">
         Толстой

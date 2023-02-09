@@ -9,17 +9,41 @@
                 <title type="main">Письмо С.А.Толстой от 1 октября 1882 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 1 октября 1882 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 83. М.: Гос. изд. «Художественная литература», 1938. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 83</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">366-367</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      225.1882 г. Октября 1. Москва.
     </opener>
-    <p id="46ee5faf-6031-45fd-8f37-91d754e9c6f0" rend="left">
+    <p id="46ee5faf-6031-45fd-8f37-91d754e9c6f0">
      Сегодня Пятница —
      <choice>
       <reg>
@@ -445,7 +475,7 @@
        оставшиеся
       </reg>
       <orig>
-       оставшiеся
+       оставшіеся
       </orig>
      </choice>
      . Все очень акуратно, но, уходя,
@@ -523,7 +553,7 @@
      </choice>
      .
     </p>
-    <p id="24aae901-97c1-4c20-98f3-2d5290c72213" rend="left">
+    <p id="24aae901-97c1-4c20-98f3-2d5290c72213">
      Вся эта всеобщая нищета и погоня, и забота только о
      <choice>
       <reg>
@@ -553,7 +583,7 @@
      </choice>
      жалко.
     </p>
-    <p id="66e442fb-d0d2-46f6-a0ee-a40c8fc47f03" rend="left">
+    <p id="66e442fb-d0d2-46f6-a0ee-a40c8fc47f03">
      Теперь 8
      <choice>
       <reg>
@@ -626,7 +656,7 @@
      </choice>
      сколько можно. —
     </p>
-    <p id="a151192c-1613-4466-a9ed-794541b107d2" rend="left">
+    <p id="a151192c-1613-4466-a9ed-794541b107d2">
      <choice>
       <reg>
        Как
@@ -667,7 +697,7 @@
        известий
       </reg>
       <orig>
-       извѣстiй
+       извѣстій
       </orig>
      </choice>
      .
@@ -698,7 +728,7 @@
      </choice>
      ? И все ли благополучно?
     </p>
-    <p id="231c31f8-a3ef-4a81-8ddb-0f964bd5c85e" rend="left">
+    <p id="231c31f8-a3ef-4a81-8ddb-0f964bd5c85e">
      Лошадей можно высылать, но я боюсь, что у тебя не
      <choice>
       <reg>
@@ -754,7 +784,7 @@
      </choice>
      .
     </p>
-    <p id="028ae873-3819-46a9-97a2-ef1c85721bd6" rend="left">
+    <p id="028ae873-3819-46a9-97a2-ef1c85721bd6">
      На
      <choice>
       <reg>
@@ -824,7 +854,7 @@
      </note>
     </p>
     <lb/>
-    <p id="42171e85-7331-4168-9fa1-7615df15ac2c" rend="left">
+    <p id="42171e85-7331-4168-9fa1-7615df15ac2c">
      <hi>
       На конверте:
      </hi>
@@ -834,7 +864,7 @@
        Станция
       </reg>
       <orig>
-       Станцiя
+       Станція
       </orig>
      </choice>
      <choice>

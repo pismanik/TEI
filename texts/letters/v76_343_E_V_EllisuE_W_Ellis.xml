@@ -9,17 +9,41 @@
                 <title type="main">Письмо Э. В. Эллису (E. W. Ellis) от 3 декабря 1906 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Э. В. Эллису (E. W. Ellis), 3 декабря 1906 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 76. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 76</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">253-254</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -101,10 +130,10 @@
     <p id="4019c158-02da-4161-9789-4667cfac6bea" rend="right">
      E. W. Ellis.
     </p>
-    <p id="9fb27e40-8b90-4c37-9a28-9abe3bf98b43" rend="Obrashenie left">
+    <p id="9fb27e40-8b90-4c37-9a28-9abe3bf98b43" rend="Obrashenie">
      Dear sir,
     </p>
-    <p id="17ff2813-d39c-4f1f-8f91-085a9514d0cb" rend="left">
+    <p id="17ff2813-d39c-4f1f-8f91-085a9514d0cb">
      I quite agree with you about Shelley.
      <ref target="#note1">
       1
@@ -117,7 +146,7 @@
       true.
      </hi>
     </p>
-    <p id="1adaa554-883e-4704-b0cb-9e407efb94e7" rend="left">
+    <p id="1adaa554-883e-4704-b0cb-9e407efb94e7">
      <pb n="254"/>
      <hi style="npdelimiter">
       I
@@ -130,10 +159,10 @@
     <p id="000a0f23-8313-4503-a87f-19772f46648d" rend="right">
      Leo Tolstoy.
     </p>
-    <p id="b0e771c2-d400-4e61-ae25-786ceae6d02e" rend="left">
+    <p id="b0e771c2-d400-4e61-ae25-786ceae6d02e">
      3 Dec.
     </p>
-    <p id="b24cf33a-c341-4539-a458-10dab808e9f9" rend="left">
+    <p id="b24cf33a-c341-4539-a458-10dab808e9f9">
      1906.
     </p>
     <lb/>
@@ -141,10 +170,10 @@
      Э. В. Эллису.
     </p>
     <lb/>
-    <p id="52a65cbc-759c-4850-bb94-69afd563defe" rend="Obrashenie petit left">
+    <p id="52a65cbc-759c-4850-bb94-69afd563defe" rend="Obrashenie petit">
      Милостивый государь,
     </p>
-    <p id="0a5cfce1-d143-4f60-b720-0260dd43c30c" rend="petit left">
+    <p id="0a5cfce1-d143-4f60-b720-0260dd43c30c" rend="petit">
      Я совершенно согласен с вами относительно Шелли.
      <ref target="#note2">
       2
@@ -157,7 +186,7 @@
      </note>
      Он не дал того, что мог бы дать и, конечно, дал бы миру. У него были самые возвышенные стремления, и он был всегда искренен и смел.
     </p>
-    <p id="6b4eab3b-c180-4f15-9933-00895313958e" rend="petit left">
+    <p id="6b4eab3b-c180-4f15-9933-00895313958e" rend="petit">
      Рад был узнать, что вы согласны с моим мнением о достоинствах сочинений Шекспира.
     </p>
     <p id="49b54ee4-5bc8-47d3-9946-187d78f9f24e" rend="petit right rightindent">
@@ -169,10 +198,10 @@
      </name>
      .
     </p>
-    <p id="b0718d6e-ce6a-4261-9a2e-4db3b327cc82" rend="petit left">
+    <p id="b0718d6e-ce6a-4261-9a2e-4db3b327cc82" rend="petit">
      3 дек.
     </p>
-    <p id="7a5532a3-74aa-495f-83f0-2e927fc04d5d" rend="petit left">
+    <p id="7a5532a3-74aa-495f-83f0-2e927fc04d5d" rend="petit">
      1906.
     </p>
     <noteGrp type="comments">
@@ -182,7 +211,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="105a1aa4-489b-4b31-98da-bdaba8db73d1" rend="petit left">
+      <p id="105a1aa4-489b-4b31-98da-bdaba8db73d1" rend="petit">
        Ответ на письмо Э. В. Эллиса (из Суффолка, Англия) от 29 ноября н. с. 1906 г.
       </p>
      </note>

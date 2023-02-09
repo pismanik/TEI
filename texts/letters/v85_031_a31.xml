@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову от 31 октября 1884 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 31 октября 1884 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 85. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 85</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">110-112</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 31.1884 г. Октября 31. Я. П.
     </opener>
-    <p id="8cca2703-ee3e-444a-bd3d-ff42dc23e1f7" rend="left">
+    <p id="8cca2703-ee3e-444a-bd3d-ff42dc23e1f7">
      Что вы
      <choice>
       <reg>
@@ -315,7 +345,7 @@
        общением
       </reg>
       <orig>
-       общенiемъ
+       общеніемъ
       </orig>
      </choice>
      <choice>
@@ -555,35 +585,35 @@
      </name>
      .
     </p>
-    <p id="d319dc91-54b8-456d-baf8-9d6c721af34f" rend="left">
+    <p id="d319dc91-54b8-456d-baf8-9d6c721af34f">
      Воронежской губер.
     </p>
-    <p id="014e4b7f-0c7b-4e19-8da9-4200b1aaa0d7" rend="left">
+    <p id="014e4b7f-0c7b-4e19-8da9-4200b1aaa0d7">
      <choice>
       <reg>
        Станция
       </reg>
       <orig>
-       Станцiя
+       Станція
       </orig>
      </choice>
      Россошь
     </p>
-    <p id="6a3a8a4d-7a5d-441f-8017-61a66fa1f906" rend="left">
+    <p id="6a3a8a4d-7a5d-441f-8017-61a66fa1f906">
      Лизиновка
     </p>
-    <p id="b15dd381-46cb-4bb0-aefa-02e1ba47a5f2" rend="left">
+    <p id="b15dd381-46cb-4bb0-aefa-02e1ba47a5f2">
      <choice>
       <reg>
        Владимиру
       </reg>
       <orig>
-       Владимiру
+       Владиміру
       </orig>
      </choice>
      Григорьевичу
     </p>
-    <p id="774b3c6f-e9a3-4b58-8b03-470f66213177" rend="left">
+    <p id="774b3c6f-e9a3-4b58-8b03-470f66213177">
      Черткову.
     </p>
     <noteGrp type="comments">
@@ -593,7 +623,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="0bec04fc-5bed-4436-8da2-8422b801bc57" rend="petit left">
+      <p id="0bec04fc-5bed-4436-8da2-8422b801bc57" rend="petit">
        Толстой не уехал с семьей в Москву, как предполагал в письме от 10 октября и телеграмме от 15 октября, а остался в Ясной поляне до 2 ноября. Комментируемое письмо его написано, очевидно, в ожидании писем от Черткова, которые должны были задержаться доставкой, так как согласно указаниям Толстого адресовались в Москву
       </p>
      </note>

@@ -9,18 +9,42 @@
             <title type="bibl">Толстой Л. Н. Азбука // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 22. М.: Гос. изд. «Художественная литература», 1957. С. </title>
             <author>Толстой Лев Николаевич</author>
             <respStmt>
-                <resp>Идея, постановка задач, руководство</resp>
+                <resp>Идея, постановка задач, руководство:</resp>
                 <name>
                     Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                 </name>
-             </respStmt>
+            </respStmt>
             <respStmt>
-                <resp>
-                    Подготовка TEI/XML
-                </resp>
-                <name>
-                    Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                </name>
+                    <resp>
+                        Подготовка TEI/XML:
+                    </resp>
+                    <name>
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>
             </respStmt>
                 <funder>
                     Проект «Слово Толстого»
@@ -29,7 +53,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -41,7 +65,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы были получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -59,7 +83,7 @@
                     </analytic>
                     <monogr>
                         <title level="m">
-                          Полное собрание сочинений.
+                          Полное собрание сочинений: в 90 тт.
                         </title>
                         <imprint>
                             <pubPlace>
@@ -75,7 +99,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -111,7 +135,7 @@
       ОХОТА ПУЩЕ НЕВОЛИ.
      </hi>
     </head>
-    <p id="bfa094d9-7cbd-414f-8461-93b30a797565" rend="left">
+    <p id="bfa094d9-7cbd-414f-8461-93b30a797565">
      Мы были на
      <choice>
       <reg>
@@ -178,7 +202,7 @@
      </choice>
      .
     </p>
-    <p id="b69fd11a-cc5b-4bb4-9275-8a57af1ecacf" rend="left">
+    <p id="b69fd11a-cc5b-4bb4-9275-8a57af1ecacf">
      Мы сошлись
      <choice>
       <reg>
@@ -221,7 +245,7 @@
      </choice>
      уляжется.
     </p>
-    <p id="c07ea6c1-fd40-4303-bf23-b746bf168357" rend="left">
+    <p id="c07ea6c1-fd40-4303-bf23-b746bf168357">
      Стали мы спрашивать
      <choice>
       <reg>
@@ -269,13 +293,13 @@
      </choice>
      пять обойти можно, а
     </p>
-    <p id="18701b47-def3-430c-832a-c32aa2b77298" rend="left emptyline">
+    <p id="18701b47-def3-430c-832a-c32aa2b77298" rend="emptyline">
      <pb n="580"/>
     </p>
     <p id="522097f0-0966-47b0-a2d2-1be0537739ae" rend="centerline">
      — 20 —
     </p>
-    <p id="649393c2-bb65-42c0-9dab-bdf1af38af3f" rend="notindent">
+    <p id="649393c2-bb65-42c0-9dab-bdf1af38af3f">
      теперь за
      <choice>
       <reg>
@@ -296,7 +320,7 @@
      </choice>
      ».
     </p>
-    <p id="79673fb4-da92-4819-baa1-a12a76555cd5" rend="left">
+    <p id="79673fb4-da92-4819-baa1-a12a76555cd5">
      А молодой
      <choice>
       <reg>
@@ -385,7 +409,7 @@
      </choice>
      догоню».
     </p>
-    <p id="ea1abefb-b589-4186-b520-b1b547cf4454" rend="left">
+    <p id="ea1abefb-b589-4186-b520-b1b547cf4454">
      И
      <choice>
       <reg>
@@ -406,7 +430,7 @@
      </choice>
      подождать.
     </p>
-    <p id="f718b51c-adcc-4b34-83e3-9fd55a983d7b" rend="left">
+    <p id="f718b51c-adcc-4b34-83e3-9fd55a983d7b">
      Я и говорю: «Да что спорить. Вы
      <choice>
       <reg>
@@ -455,7 +479,7 @@
      </choice>
      нынче нечего, а еще не поздно».
     </p>
-    <p id="88480c8e-5952-4d96-b1ef-4b42a45ef95e" rend="left">
+    <p id="88480c8e-5952-4d96-b1ef-4b42a45ef95e">
      <choice>
       <reg>
        Так
@@ -469,7 +493,7 @@
      </choice>
      .
     </p>
-    <p id="8603c09e-6576-41d3-bdb9-ec8f0f4aa3ad" rend="left">
+    <p id="8603c09e-6576-41d3-bdb9-ec8f0f4aa3ad">
      Товарищи пошли
      <choice>
       <reg>
@@ -523,7 +547,7 @@
      </choice>
      .
     </p>
-    <p id="4c178025-d7a4-4f7e-bfbd-24207a964411" rend="left">
+    <p id="4c178025-d7a4-4f7e-bfbd-24207a964411">
      <choice>
       <reg>
        Как
@@ -569,7 +593,7 @@
      </choice>
      .
     </p>
-    <p id="dd753b86-5453-42c0-92b3-1eb24bab5962" rend="left">
+    <p id="dd753b86-5453-42c0-92b3-1eb24bab5962">
      Погода была хорошая: морозно и тихо. Но ходьба на
      <choice>
       <reg>
@@ -649,7 +673,7 @@
      </choice>
      и больше.
     </p>
-    <p id="a0f4d2e5-e086-4b89-aed4-0112d9775fdb" rend="left">
+    <p id="a0f4d2e5-e086-4b89-aed4-0112d9775fdb">
      <choice>
       <reg>
        Медвежий
@@ -805,13 +829,13 @@
      </choice>
      .
     </p>
-    <p id="ba9e3dc7-385c-4af2-8fed-ea1d9201a2f7" rend="left emptyline">
+    <p id="ba9e3dc7-385c-4af2-8fed-ea1d9201a2f7" rend="emptyline">
      <pb n="581"/>
     </p>
     <p id="833f8544-fbfd-4fad-ad47-26187fb96b29" rend="centerline">
      — 21 —
     </p>
-    <p id="98bce44c-e21a-4f87-8a39-13d0aad540c6" rend="left">
+    <p id="98bce44c-e21a-4f87-8a39-13d0aad540c6">
      Присаживаться
      <choice>
       <reg>
@@ -854,7 +878,7 @@
      </choice>
      . Только тише идти надо; не кричать, не кашлять, а то спугнешь».
     </p>
-    <p id="7170d207-cdb6-425e-957e-43bd82fc3e8a" rend="left">
+    <p id="7170d207-cdb6-425e-957e-43bd82fc3e8a">
      Пошли мы прочь
      <choice>
       <reg>
@@ -1058,7 +1082,7 @@
      </choice>
      .
     </p>
-    <p id="5f469bb0-7af3-4914-b652-30cadec97bdd" rend="left">
+    <p id="5f469bb0-7af3-4914-b652-30cadec97bdd">
      Пошли мы по
      <choice>
       <reg>
@@ -1146,7 +1170,7 @@
      </choice>
      деревню».
     </p>
-    <p id="ced742fd-5303-4cd9-9d3f-e9b1c97d0bfd" rend="left">
+    <p id="ced742fd-5303-4cd9-9d3f-e9b1c97d0bfd">
      Прошли мы
      <choice>
       <reg>
@@ -1432,7 +1456,7 @@
      </choice>
      ».
     </p>
-    <p id="5cffe461-ff3e-4cd5-94bf-650228621737" rend="left">
+    <p id="5cffe461-ff3e-4cd5-94bf-650228621737">
      Пошли мы
      <choice>
       <reg>
@@ -1492,13 +1516,13 @@
       </reg>
      </choice>
     </p>
-    <p id="53b56253-cc82-4c8b-93a2-5bf71db33272" rend="left emptyline">
+    <p id="53b56253-cc82-4c8b-93a2-5bf71db33272" rend="emptyline">
      <pb n="582"/>
     </p>
     <p id="250fbbb0-e3a3-4fe8-a5e7-bc2eb194e253" rend="centerline">
      — 22 —
     </p>
-    <p id="0b13cdf1-f5d9-404c-aab4-b77a2f304101" rend="notindent">
+    <p id="0b13cdf1-f5d9-404c-aab4-b77a2f304101">
      елочка подвернется, то лыжа свернется
      <choice>
       <reg>
@@ -1632,7 +1656,7 @@
      </choice>
      .
     </p>
-    <p id="738d83f1-f7a3-4a26-8f42-c2e8ba025835" rend="left">
+    <p id="738d83f1-f7a3-4a26-8f42-c2e8ba025835">
      Дали мы
      <choice>
       <reg>
@@ -1728,7 +1752,7 @@
      </choice>
      ».
     </p>
-    <p id="0f6677d6-9ec3-4901-b2a8-186a9a0a3f03" rend="left">
+    <p id="0f6677d6-9ec3-4901-b2a8-186a9a0a3f03">
      Взяли мы прочь, прошли еще
      <choice>
       <reg>
@@ -1856,7 +1880,7 @@
      </choice>
      , теперь отдохнуть надо».
     </p>
-    <p id="04718849-8bfe-44c5-b63c-fafecd7a1457" rend="left">
+    <p id="04718849-8bfe-44c5-b63c-fafecd7a1457">
      А
      <choice>
       <reg>
@@ -1992,7 +2016,7 @@
      </choice>
      , а то остудишься».
     </p>
-    <p id="264a3712-ad5b-4c1d-856f-5a4f8b992c74" rend="left">
+    <p id="264a3712-ad5b-4c1d-856f-5a4f8b992c74">
      <choice>
       <reg>
        Наломал
@@ -2060,13 +2084,13 @@
      </choice>
      не помню я,
     </p>
-    <p id="65544f38-f8a5-48cc-a743-ec970c46b1bc" rend="left emptyline">
+    <p id="65544f38-f8a5-48cc-a743-ec970c46b1bc" rend="emptyline">
      <pb n="583"/>
     </p>
     <p id="aa94a3ab-9b84-41eb-88ee-73cd51c6ffde" rend="centerline">
      — 23 —
     </p>
-    <p id="3c06bd39-d0f7-4043-90dc-a1167623faa3" rend="notindent">
+    <p id="3c06bd39-d0f7-4043-90dc-a1167623faa3">
      <choice>
       <reg>
        как
@@ -2085,7 +2109,7 @@
      </choice>
      два. Треснуло что-то.
     </p>
-    <p id="90521108-34ab-4e68-b3c5-d254526de0d3" rend="left">
+    <p id="90521108-34ab-4e68-b3c5-d254526de0d3">
      Я
      <choice>
       <reg>
@@ -2283,7 +2307,7 @@
      </choice>
      .
     </p>
-    <p id="81ad5a8d-ffdd-446e-8168-80b4e4b8460f" rend="left">
+    <p id="81ad5a8d-ffdd-446e-8168-80b4e4b8460f">
      <choice>
       <reg>
        В
@@ -2464,7 +2488,7 @@
      </choice>
      заячьи. И осинки обглоданы. Это зайцы кормились.
     </p>
-    <p id="5045c5e5-e723-4f73-b1ff-27740004e9a1" rend="left">
+    <p id="5045c5e5-e723-4f73-b1ff-27740004e9a1">
      Вышли мы на дорогу, привязали лыжи за собой и пошли по
      <choice>
       <reg>
@@ -2564,7 +2588,7 @@
      </choice>
      .
     </p>
-    <p id="a3956ff9-d9da-4c63-8bc8-f1dcf92ef5b9" rend="left">
+    <p id="a3956ff9-d9da-4c63-8bc8-f1dcf92ef5b9">
      <choice>
       <reg>
        Товарищ
@@ -2613,13 +2637,13 @@
      </choice>
      утру собрать
     </p>
-    <p id="033ede57-2e6c-4746-9865-4e4fdaa5c39e" rend="left emptyline">
+    <p id="033ede57-2e6c-4746-9865-4e4fdaa5c39e" rend="emptyline">
      <pb n="584"/>
     </p>
     <p id="cc950616-2f44-47fe-8508-c85b30b504ed" rend="centerline">
      — 24 —
     </p>
-    <p id="a30bba42-615d-42a6-9930-035a9f13cbf2" rend="notindent">
+    <p id="a30bba42-615d-42a6-9930-035a9f13cbf2">
      <choice>
       <reg>
        загонщиков
@@ -2632,7 +2656,7 @@
      </choice>
      . Поужинали и легли спать.
     </p>
-    <p id="f1e3ba89-c7b5-437b-afb8-994a6c2d8909" rend="left">
+    <p id="f1e3ba89-c7b5-437b-afb8-994a6c2d8909">
      Я бы
      <choice>
       <reg>
@@ -2697,7 +2721,7 @@
      </choice>
      что-то возится.
     </p>
-    <p id="7937c190-4c72-4235-929c-21b83c75db25" rend="left">
+    <p id="7937c190-4c72-4235-929c-21b83c75db25">
      — «А
      <choice>
       <reg>
@@ -2796,7 +2820,7 @@
      </choice>
      .
     </p>
-    <p id="1c68d7c4-9837-4fa1-b166-215e7dc75a3e" rend="left">
+    <p id="1c68d7c4-9837-4fa1-b166-215e7dc75a3e">
      <choice>
       <reg>
        Мороз
@@ -2826,7 +2850,7 @@
      </choice>
      на верху и иней садился.
     </p>
-    <p id="e5839083-d047-4ff3-8d12-c32d4897f30b" rend="left">
+    <p id="e5839083-d047-4ff3-8d12-c32d4897f30b">
      <choice>
       <reg>
        Проехали
@@ -2895,7 +2919,7 @@
      </choice>
      дубинами.
     </p>
-    <p id="a1ff2e7d-5c67-46ef-8e10-994fe05bd815" rend="left">
+    <p id="a1ff2e7d-5c67-46ef-8e10-994fe05bd815">
      <choice>
       <reg>
        Слезли
@@ -2932,7 +2956,7 @@
      </choice>
      бабами.
     </p>
-    <p id="8a5a31ce-9dc8-4796-a0ee-a3959f93ef17" rend="left">
+    <p id="8a5a31ce-9dc8-4796-a0ee-a3959f93ef17">
      И
      <choice>
       <reg>
@@ -3034,7 +3058,7 @@
      </choice>
      .
     </p>
-    <p id="0d59f600-9002-4145-bab9-ff423b934c6b" rend="left">
+    <p id="0d59f600-9002-4145-bab9-ff423b934c6b">
      Дорожка хоть и натоптана, да тяжело идти; за то падать нèкуда, —
      <choice>
       <reg>
@@ -3054,7 +3078,7 @@
      </choice>
      идешь.
     </p>
-    <p id="83d5618a-f05d-4081-8dc5-3d860da26398" rend="left">
+    <p id="83d5618a-f05d-4081-8dc5-3d860da26398">
      Прошли мы
      <choice>
       <reg>
@@ -3129,7 +3153,7 @@
      </choice>
      нему шли.
     </p>
-    <p id="63cdc679-ed60-46e2-bf30-2cc4d575a626" rend="left">
+    <p id="63cdc679-ed60-46e2-bf30-2cc4d575a626">
      Подошли мы
      <choice>
       <reg>
@@ -3172,7 +3196,7 @@
      </choice>
      .
     </p>
-    <p id="f0e18af2-76f4-43ad-8304-a90cd02dd1d4" rend="left">
+    <p id="f0e18af2-76f4-43ad-8304-a90cd02dd1d4">
      На
      <choice>
       <reg>
@@ -3212,13 +3236,13 @@
       </reg>
      </choice>
     </p>
-    <p id="b0d04c72-185c-45d9-813a-3717725cb185" rend="left emptyline">
+    <p id="b0d04c72-185c-45d9-813a-3717725cb185" rend="emptyline">
      <pb n="585"/>
     </p>
     <p id="c33fcb1e-ac48-427c-a9b6-f1818b08fe64" rend="centerline">
      — 25 —
     </p>
-    <p id="356e3cb7-09b0-40fa-b252-abf91d97b4d2" rend="notindent">
+    <p id="356e3cb7-09b0-40fa-b252-abf91d97b4d2">
      <choice>
       <reg>
        загонщик
@@ -3328,7 +3352,7 @@
      </choice>
      товарища.
     </p>
-    <p id="24c04f91-686f-4f46-b257-6632e85d0eaa" rend="left">
+    <p id="24c04f91-686f-4f46-b257-6632e85d0eaa">
      <choice>
       <reg>
        Осмотрел
@@ -3485,7 +3509,7 @@
      </choice>
      легко вынимается.
     </p>
-    <p id="6381bc1c-958d-496b-92e8-00af68cbe1d9" rend="left">
+    <p id="6381bc1c-958d-496b-92e8-00af68cbe1d9">
      Только я устроился, слышу —
      <choice>
       <reg>
@@ -3565,7 +3589,7 @@
      </choice>
      !» кричали бабы тонкими голосами.
     </p>
-    <p id="270a3c5c-416d-46c6-bee3-4fa102fdd0bc" rend="left">
+    <p id="270a3c5c-416d-46c6-bee3-4fa102fdd0bc">
      <choice>
       <reg>
        Медведь
@@ -3720,13 +3744,13 @@
      </choice>
      что-то черное, большое. Приложился
     </p>
-    <p id="25ee129c-518c-40c6-9fab-05138b74d0fb" rend="left emptyline">
+    <p id="25ee129c-518c-40c6-9fab-05138b74d0fb" rend="emptyline">
      <pb n="586"/>
     </p>
     <p id="f9e32a9f-aa94-476a-b1d3-628838d0bfc7" rend="centerline">
      — 26 —
     </p>
-    <p id="af230801-13c4-42fa-8b27-487f5a852715" rend="notindent">
+    <p id="af230801-13c4-42fa-8b27-487f5a852715">
      я и жду. Думаю, не
      <choice>
       <reg>
@@ -3952,7 +3976,7 @@
      </choice>
      ! Сюда! Сюда! Ой, ой! Ай, ай, ай!»
     </p>
-    <p id="d6a1ed74-57d2-46f9-a115-4f1156ad3dd6" rend="left">
+    <p id="d6a1ed74-57d2-46f9-a115-4f1156ad3dd6">
      Видно — на
      <choice>
       <reg>
@@ -4302,13 +4326,13 @@
       </reg>
      </choice>
     </p>
-    <p id="f832a929-5bcf-40e5-86a2-de6117297b09" rend="left emptyline">
+    <p id="f832a929-5bcf-40e5-86a2-de6117297b09" rend="emptyline">
      <pb n="587"/>
     </p>
     <p id="a656a7da-392f-4c73-8f53-dbd3dffa7b33" rend="centerline">
      — 27 —
     </p>
-    <p id="836e70d9-d991-4619-8815-7db9f8e12ce7" rend="notindent">
+    <p id="836e70d9-d991-4619-8815-7db9f8e12ce7">
      стороны. И вижу я по
      <choice>
       <reg>
@@ -4457,7 +4481,7 @@
      </choice>
      .
     </p>
-    <p id="e5807530-93ae-4bfa-b57c-24643eff8352" rend="left">
+    <p id="e5807530-93ae-4bfa-b57c-24643eff8352">
      <choice>
       <reg>
        Приподнял
@@ -4846,13 +4870,13 @@
      </choice>
      . Слышу
     </p>
-    <p id="8d139a9d-5ec4-47a7-a976-7689d641a2c0" rend="left emptyline">
+    <p id="8d139a9d-5ec4-47a7-a976-7689d641a2c0" rend="emptyline">
      <pb n="588"/>
     </p>
     <p id="a19c5a83-2545-4e81-9a8b-cb30bac10d68" rend="centerline">
      — 28 —
     </p>
-    <p id="5a60e87d-551c-40c8-9694-2165ed454159" rend="notindent">
+    <p id="5a60e87d-551c-40c8-9694-2165ed454159">
      <choice>
       <reg>
        вдруг
@@ -4894,7 +4918,7 @@
      </choice>
      .
     </p>
-    <p id="332e74db-bacb-4bfe-85f6-ef04971a9aaf" rend="left">
+    <p id="332e74db-bacb-4bfe-85f6-ef04971a9aaf">
      Когда
      <choice>
       <reg>
@@ -5124,7 +5148,7 @@
      </choice>
      ! Брось! Брось!»
     </p>
-    <p id="20580617-dae2-4f9b-94ce-f092a4d6678b" rend="left">
+    <p id="20580617-dae2-4f9b-94ce-f092a4d6678b">
      Послушался
      <choice>
       <reg>
@@ -5169,7 +5193,7 @@
      </choice>
      мясо; а сгоряча больно не было.
     </p>
-    <p id="ef82ee75-ea0c-4c19-b438-2d902b150459" rend="left">
+    <p id="ef82ee75-ea0c-4c19-b438-2d902b150459">
      <choice>
       <reg>
        Прибежал
@@ -5397,10 +5421,10 @@
      </choice>
      доктору.
     </p>
-    <p id="261976f8-df5c-4016-9ea4-31a7ca40e8c8" rend="left">
+    <p id="261976f8-df5c-4016-9ea4-31a7ca40e8c8">
      Докторъ зашилъ мнѣ раны шелкомъ, и онѣ стали заживать.
     </p>
-    <p id="cdab0423-97a3-4d19-b8a4-2ce5e1a83ea7" rend="left">
+    <p id="cdab0423-97a3-4d19-b8a4-2ce5e1a83ea7">
      <choice>
       <reg>
        Через
@@ -5442,13 +5466,13 @@
       </reg>
      </choice>
     </p>
-    <p id="04c3ae1d-f89b-4c6e-9d9a-53bbe5c5c21f" rend="left emptyline">
+    <p id="04c3ae1d-f89b-4c6e-9d9a-53bbe5c5c21f" rend="emptyline">
      <pb n="589"/>
     </p>
     <p id="3a45cc99-2e83-4679-880c-44b6bf7e5ac2" rend="centerline">
      — 29 —
     </p>
-    <p id="a15fc59d-3801-4c12-b5d9-619446d68886" rend="notindent">
+    <p id="a15fc59d-3801-4c12-b5d9-619446d68886">
      <choice>
       <reg>
        изе
@@ -5522,7 +5546,7 @@
      </choice>
      .
     </p>
-    <p id="36d533e8-7a20-4ef3-8c80-e28e4da2d2ad" rend="left">
+    <p id="36d533e8-7a20-4ef3-8c80-e28e4da2d2ad">
      <choice>
       <reg>
        Медведь
@@ -5552,7 +5576,7 @@
      </choice>
      прекрасная, черная шкура.
     </p>
-    <p id="9021f56a-839a-429c-9222-64974ec29256" rend="left">
+    <p id="9021f56a-839a-429c-9222-64974ec29256">
      Я сдѣлалъ изъ нея чучелу, и она лежитъ у меня въ горницѣ. Раны у меня на лбу зажили, такъ что только чуть-чуть видно, гдѣ онѣ были.
     </p>
    </div>

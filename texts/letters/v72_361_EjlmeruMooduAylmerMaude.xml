@@ -9,17 +9,41 @@
                 <title type="main">Письмо Эйльмеру Мооду (Aylmer Maude) с 1 сентября 1900 г. по 30 сентября 1900 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Эйльмеру Мооду (Aylmer Maude), 1 сентября 1900 г. — 30 сентября 1900 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">447-449</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 361. Эйльмеру Мооду (Aylmer Maude).1900 г. Сентября начало. Я. П.
     </opener>
-    <p id="4b92d2c5-972e-4b70-b199-ecabd50f5e78" rend="left">
+    <p id="4b92d2c5-972e-4b70-b199-ecabd50f5e78">
      1) Грузовщики — только на
      <choice original_editorial_correction="Московск[ой]">
       <sic>
@@ -109,7 +139,7 @@
        станции
       </reg>
       <orig>
-       станцiи
+       станціи
       </orig>
      </choice>
      .
@@ -124,7 +154,7 @@
       товарной станции? Читатель может понять, что на всей линии Московско-казанской железной дороги» (курсив здесь и далее наш). В книге: Leo Tolstoy, «The Slavery of our Times». Translated from the Russian MS by Aylmer Maude. With Introduction by Translator. «The Free Age Press», Mal don, 1900, стр. 23, это место дано в таком переводе: «...there are two hundred and fifty such goods-porters at the Kursk Station in Moscow [таких гру зовщиков на Курском [sic!] вокзале в Москве 250 человек]».
      </note>
     </p>
-    <p id="0a5267a6-80c8-48ca-bbc9-a0fa036c86b6" rend="left">
+    <p id="0a5267a6-80c8-48ca-bbc9-a0fa036c86b6">
      2)
      <choice>
       <reg>
@@ -184,7 +214,7 @@
       </note>
      </hi>
     </p>
-    <p id="ec09dda0-89fb-4c46-b856-696a0f3cd492" rend="left">
+    <p id="ec09dda0-89fb-4c46-b856-696a0f3cd492">
      <pb n="448"/>
      <hi style="npdelimiter">
       3) На
@@ -277,14 +307,14 @@
       </hi>
      </note>
     </p>
-    <p id="a2888f2c-0a07-4b46-8873-dd1292d3f06d" rend="left">
+    <p id="a2888f2c-0a07-4b46-8873-dd1292d3f06d">
      4) Говоря о
      <choice>
       <reg>
        стеснениях
       </reg>
       <orig>
-       стѣсненiяхъ
+       стѣсненіяхъ
       </orig>
      </choice>
      свободы,
@@ -359,7 +389,7 @@
        рабочие
       </reg>
       <orig>
-       рабочiе
+       рабочіе
       </orig>
      </choice>
      <choice>
@@ -400,7 +430,7 @@
        другие
       </reg>
       <orig>
-       другiя
+       другія
       </orig>
      </choice>
      <choice>
@@ -408,7 +438,7 @@
        стеснения
       </reg>
       <orig>
-       стѣсненiя
+       стѣсненія
       </orig>
      </choice>
      свободы,
@@ -450,7 +480,7 @@
        стеснения
       </reg>
       <orig>
-       стѣсненiя
+       стѣсненія
       </orig>
      </choice>
      свободы,
@@ -491,7 +521,7 @@
        последствиями
       </reg>
       <orig>
-       послѣдствiями
+       послѣдствіями
       </orig>
      </choice>
      <choice>
@@ -499,7 +529,7 @@
        насилия
       </reg>
       <orig>
-       насилiя
+       насилія
       </orig>
      </choice>
      <choice>
@@ -543,7 +573,7 @@
        незнание
       </reg>
       <orig>
-       незнанiе
+       незнаніе
       </orig>
      </choice>
      , лучше выпустить это
@@ -567,7 +597,7 @@
       и т. д.». Боюсь, что это будет непонятно английскому читателю. У нас кооперативные общества добровольные; они противоположны тому, что вы подразумеваете». В переводе Моода, стр. 86, эти слова выпущены.
      </note>
     </p>
-    <p id="7d993cd8-2da3-45b4-a835-2cbb73725abc" rend="left">
+    <p id="7d993cd8-2da3-45b4-a835-2cbb73725abc">
      5) Понятой — witness.
      <ref target="#note5">
       5
@@ -580,7 +610,7 @@
       Как перевести: witness [свидетель], или assistant [помощник]?».
      </note>
     </p>
-    <p id="d3fa5d25-ecc7-4ff9-8d74-4e694894aa54" rend="left">
+    <p id="d3fa5d25-ecc7-4ff9-8d74-4e694894aa54">
      Я бы
      <choice>
       <reg>
@@ -650,7 +680,7 @@
      </choice>
      форму.
     </p>
-    <p id="e2e9f277-ba46-41b1-941f-5fc10f33765b" rend="left">
+    <p id="e2e9f277-ba46-41b1-941f-5fc10f33765b">
      Дружески жму руки
      <choice>
       <reg>
@@ -712,7 +742,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="7120b604-7319-4ed0-a2e6-b2e0ce856f4c" rend="petit left">
+      <p id="7120b604-7319-4ed0-a2e6-b2e0ce856f4c" rend="petit">
        Ответ на письмо Эйльмера Моода от 13 сентября н. ст. 1900 г., по поводу предпринятого им перевода «Рабства нашего времени». Приводя ряд выдержек из статьи, Моод спрашивал совета относительно встретившихся затруднений.
       </p>
      </note>

@@ -4,25 +4,49 @@
         <fileDesc>
              <titleStmt>                
                 <title xml:id="v46_077_078_1851_06_02">
-                    Дневники и записные книжки. Tolstoy Digital
+                    Дневники. Tolstoy Digital
                 </title>
                 <title type="main">Тетрадь Г. Дневник,</title>
                 <title type="sub">2 июня 1851 г.</title>
                 <title type="bibl">Толстой Л. Н. [Тетрадь Г. Дневник 1851–1854] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 46. М.: Гос. изд. «Художественная литература», 1937. С. </title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
-                 </respStmt>
+                </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,7 +113,9 @@
             <creation>
                 <date when="1851-06-02"/>
          </creation>          
-            <textClass> 
+            <langUsage>
+  <language ident="ru-petr1708"/>
+</langUsage><textClass> 
                 <catRef ana="#diaries" target="type"/>
            </textClass>
         </profileDesc>
@@ -109,7 +135,7 @@
       </date>
      </dateline>
     </opener>
-    <p id="2059a2e9-f935-4535-98fe-d0e5121cb86a" rend="left">
+    <p id="2059a2e9-f935-4535-98fe-d0e5121cb86a">
      Свою же грусть я чувствую, но понять и представить
      <choice>
       <reg>
@@ -170,7 +196,7 @@
        воображением
       </reg>
       <orig>
-       воображенiемъ
+       воображеніемъ
       </orig>
      </choice>
      ; но
@@ -188,7 +214,7 @@
        Воображение
       </reg>
       <orig>
-       Воображенiе
+       Воображеніе
       </orig>
      </choice>
      <choice>
@@ -223,7 +249,7 @@
        наслаждение
       </reg>
       <orig>
-       наслажденiе
+       наслажденіе
       </orig>
      </choice>
      , — но и
@@ -439,7 +465,7 @@
         религию
        </reg>
        <orig>
-        религiю
+        религію
        </orig>
       </choice>
       <hi>
@@ -548,7 +574,7 @@
       —
      </hi>
     </p>
-    <p id="76e9365f-fb54-409d-b5ee-3c15e0d60363" rend="left">
+    <p id="76e9365f-fb54-409d-b5ee-3c15e0d60363">
      <pb n="78"/>
      <hi style="npdelimiter">
       <choice>
@@ -574,7 +600,7 @@
        неприятных
       </reg>
       <orig>
-       непрiятныхъ
+       непріятныхъ
       </orig>
      </choice>
      <choice>
@@ -643,7 +669,7 @@
        наслаждений
       </reg>
       <orig>
-       наслажденiй
+       наслажденій
       </orig>
      </choice>
      ,
@@ -661,7 +687,7 @@
        желаний
       </reg>
       <orig>
-       желанiй
+       желаній
       </orig>
      </choice>
      ,
@@ -703,7 +729,7 @@
        счастие
       </reg>
       <orig>
-       счастiе
+       счастіе
       </orig>
      </choice>
      , и
@@ -814,7 +840,7 @@
        равнодушии
       </reg>
       <orig>
-       равнодушiи
+       равнодушіи
       </orig>
      </choice>
      <choice>
@@ -911,7 +937,7 @@
        убеждением
       </reg>
       <orig>
-       убѣжденiемъ
+       убѣжденіемъ
       </orig>
      </choice>
      , что ждать нечего
@@ -955,7 +981,7 @@
        наслаждением
       </reg>
       <orig>
-       наслажденiемъ
+       наслажденіемъ
       </orig>
      </choice>
      о
@@ -1033,7 +1059,7 @@
        отчаяние
       </reg>
       <orig>
-       отчаянiе
+       отчаяніе
       </orig>
      </choice>
      , что у меня
@@ -1090,7 +1116,7 @@
      </choice>
      . Писать тоже немогу, судя по этому — глупо.
     </p>
-    <p id="fac88efc-60f3-4187-9c60-79690c5f6f6d" rend="left">
+    <p id="fac88efc-60f3-4187-9c60-79690c5f6f6d">
      Et puis cette horrible nécessité de traduire par des mots et aligner en pattes de mouches des pensées ardentes, vives, mobiles, comme des rayons de soleil teignant les nuages de l’air. Où fuir le métier, Grand Dieu!
      <ref target="#note485">
       485
@@ -1099,7 +1125,7 @@
       [А потом — эта ужасная необходимость переводить на слова и строчить каракулями горячие, живые и подвижные мысли, подобные лучам солнца, озаряющим воздушные облака. Куда бежать от ремесла! Великий Боже!]
      </note>
     </p>
-    <p id="27557874-1394-4c4e-822c-a38936dab9e3" rend="left">
+    <p id="27557874-1394-4c4e-822c-a38936dab9e3">
      Et quae fuerunt vitia, mores sunt. — (Sénèque).
      <ref target="#note486">
       486
@@ -1118,7 +1144,7 @@
      </note>
      —
     </p>
-    <p id="f2c29fcb-9bf5-4625-a8a4-f882e79ea5cc" rend="left">
+    <p id="f2c29fcb-9bf5-4625-a8a4-f882e79ea5cc">
      La conversation est un trafic; et si l’on l’entreprend sans fonds, la balance penche et le commerce tombe (Sterne
      <hi>
       ).

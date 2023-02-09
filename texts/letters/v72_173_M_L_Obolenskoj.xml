@@ -9,17 +9,41 @@
                 <title type="main">Письмо М. Л. Оболенской с 1 сентября 1899 г. по 30 сентября 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо М. Л. Оболенской, 1 сентября 1899 г. — 30 сентября 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">186-189</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,7 +128,7 @@
      </name>
      .1899 г. Сентября середина. Я. П.
     </opener>
-    <p id="9bf1a6e7-549b-4096-9ea5-218f4b06228a" rend="left">
+    <p id="9bf1a6e7-549b-4096-9ea5-218f4b06228a">
      Очень
      <choice>
       <reg>
@@ -246,7 +276,7 @@
        Такие
       </reg>
       <orig>
-       Такiя
+       Такія
       </orig>
      </choice>
      <choice>
@@ -263,7 +293,7 @@
        разрушающия
       </reg>
       <orig>
-       разрушающiя
+       разрушающія
       </orig>
      </choice>
      <hi style="opdelimiter">
@@ -285,7 +315,7 @@
        желания
       </reg>
       <orig>
-       желанiя
+       желанія
       </orig>
      </choice>
      о
@@ -325,10 +355,10 @@
      </choice>
      <choice>
       <reg>
-       cебе
+       себе
       </reg>
       <orig>
-       cебѣ
+       себѣ
       </orig>
      </choice>
      . Не
@@ -486,7 +516,7 @@
        текущий
       </reg>
       <orig>
-       текущiй
+       текущій
       </orig>
      </choice>
      <choice>
@@ -497,7 +527,7 @@
        счетъ
       </orig>
      </choice>
-     cъ
+     съ
      <choice>
       <reg>
        Богом
@@ -521,7 +551,7 @@
        такие
       </reg>
       <orig>
-       такiя
+       такія
       </orig>
      </choice>
      .
@@ -530,7 +560,7 @@
        события
       </reg>
       <orig>
-       событiя
+       событія
       </orig>
      </choice>
      <choice>
@@ -677,7 +707,7 @@
        ѣхать
       </orig>
      </choice>
-     не разумно — обременить cобой и
+     не разумно — обременить собой и
      <choice>
       <reg>
        себе
@@ -699,7 +729,7 @@
       4
      </hi>
     </p>
-    <p id="acecb20c-7cf6-474a-a631-90fd43f06020" rend="left">
+    <p id="acecb20c-7cf6-474a-a631-90fd43f06020">
      На то, чтò ты пишешь
      <choice>
       <reg>
@@ -792,7 +822,7 @@
        неверие
       </reg>
       <orig>
-       невѣрiе
+       невѣріе
       </orig>
      </choice>
      . Такое
@@ -801,7 +831,7 @@
        обращение
       </reg>
       <orig>
-       обращенiе
+       обращеніе
       </orig>
      </choice>
      ,
@@ -828,7 +858,7 @@
        неверие
       </reg>
       <orig>
-       невѣрiе
+       невѣріе
       </orig>
      </choice>
      —
@@ -837,7 +867,7 @@
        неверие
       </reg>
       <orig>
-       невѣрiе
+       невѣріе
       </orig>
      </choice>
      <choice>
@@ -950,7 +980,7 @@
       5
      </hi>
     </p>
-    <p id="a1b41cde-d26d-4240-92f9-e401912ab339" rend="left">
+    <p id="a1b41cde-d26d-4240-92f9-e401912ab339">
      Богь есть,
      <choice original_editorial_correction="п[отому]">
       <sic>
@@ -974,7 +1004,7 @@
        мир
       </reg>
       <orig>
-       мiръ
+       міръ
       </orig>
      </choice>
      и я, но думать о
@@ -1167,7 +1197,7 @@
        существование
       </reg>
       <orig>
-       существованiе
+       существованіе
       </orig>
      </choice>
      и
@@ -1181,7 +1211,7 @@
      </choice>
      .
     </p>
-    <p id="eb8c456f-3446-4d3a-bba5-976c05747439" rend="left">
+    <p id="eb8c456f-3446-4d3a-bba5-976c05747439">
      <choice>
       <reg>
        Как
@@ -1220,7 +1250,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="575946cf-cc8b-46d0-a5b9-298cc36804dc" rend="petit left">
+      <p id="575946cf-cc8b-46d0-a5b9-298cc36804dc" rend="petit">
        Ответ на письма М. Л. Оболенской от 27 и 29 августа 1899 г. с подробным описанием ее религиозных сомнений. Она писала: «Нынешнее лето, благодаря тому, что болезнь была такая, что я полтора месяца пролежала в полном сознании, я много передумала, и часто хотелось тебя
        <hi style="opdelimiter">
         видеть.

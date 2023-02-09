@@ -9,18 +9,42 @@
             <title type="bibl">Толстой Л. Н. Азбука // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 22. М.: Гос. изд. «Художественная литература», 1957. С. </title>
             <author>Толстой Лев Николаевич</author>
             <respStmt>
-                <resp>Идея, постановка задач, руководство</resp>
+                <resp>Идея, постановка задач, руководство:</resp>
                 <name>
                     Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                 </name>
-             </respStmt>
+            </respStmt>
             <respStmt>
-                <resp>
-                    Подготовка TEI/XML
-                </resp>
-                <name>
-                    Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                </name>
+                    <resp>
+                        Подготовка TEI/XML:
+                    </resp>
+                    <name>
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>
             </respStmt>
                 <funder>
                     Проект «Слово Толстого»
@@ -29,7 +53,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -41,7 +65,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы были получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -59,7 +83,7 @@
                     </analytic>
                     <monogr>
                         <title level="m">
-                          Полное собрание сочинений.
+                          Полное собрание сочинений: в 90 тт.
                         </title>
                         <imprint>
                             <pubPlace>
@@ -75,7 +99,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -122,7 +146,7 @@
       .
      </hi>
     </head>
-    <p id="ac5501a6-a013-4bac-b8a9-7edc3d8b71b5" rend="left">
+    <p id="ac5501a6-a013-4bac-b8a9-7edc3d8b71b5">
      Когда царь
      <choice>
       <reg>
@@ -321,13 +345,13 @@
      </choice>
      не плакал, а только потупился.
     </p>
-    <p id="1f0e2ce0-77ab-40fd-9f49-c92115c11e6f" rend="left emptyline">
+    <p id="1f0e2ce0-77ab-40fd-9f49-c92115c11e6f" rend="emptyline">
      <pb n="248"/>
     </p>
     <p id="e08bd25d-9db2-4a0c-b1df-c802c6a1c6e1" rend="centerline">
      — 46 —
     </p>
-    <p id="edb75021-1073-455b-bf2f-f471b23aec19" rend="left">
+    <p id="edb75021-1073-455b-bf2f-f471b23aec19">
      Когда
      <choice>
       <reg>
@@ -375,7 +399,7 @@
      </choice>
      вели убивать.
     </p>
-    <p id="9e7bb425-3a1b-4652-80c8-7e046bc1c694" rend="left">
+    <p id="9e7bb425-3a1b-4652-80c8-7e046bc1c694">
      <choice>
       <reg>
        Псаменит
@@ -441,7 +465,7 @@
      </choice>
      только потупился.
     </p>
-    <p id="d166039b-ab14-456b-875c-7441e131d989" rend="left">
+    <p id="d166039b-ab14-456b-875c-7441e131d989">
      <choice>
       <reg>
        Потом
@@ -471,7 +495,7 @@
      </choice>
      .
     </p>
-    <p id="ac1df96f-6af3-4300-86f6-24c51be77b5b" rend="left">
+    <p id="ac1df96f-6af3-4300-86f6-24c51be77b5b">
      <choice>
       <reg>
        Он
@@ -581,7 +605,7 @@
      </choice>
      :
     </p>
-    <p id="b14d7848-a94d-4831-9959-b1a6ca209ce3" rend="left">
+    <p id="b14d7848-a94d-4831-9959-b1a6ca209ce3">
      «
      <choice>
       <reg>
@@ -636,7 +660,7 @@
      </choice>
      ?».
     </p>
-    <p id="e95e5b9b-3070-435e-a8af-dc0fa6a3adff" rend="left">
+    <p id="e95e5b9b-3070-435e-a8af-dc0fa6a3adff">
      <choice>
       <reg>
        Псаменит
@@ -649,7 +673,7 @@
      </choice>
      :
     </p>
-    <p id="d7bdb5ea-5155-4786-b41b-8b916dfbd5d2" rend="left">
+    <p id="d7bdb5ea-5155-4786-b41b-8b916dfbd5d2">
      «
      <choice>
       <reg>
@@ -704,7 +728,7 @@
      </choice>
      нищету».
     </p>
-    <p id="39be8640-aca5-45ae-8cee-8b815d1aa5b3" rend="left">
+    <p id="39be8640-aca5-45ae-8cee-8b815d1aa5b3">
      <choice>
       <reg>
        Был
@@ -776,7 +800,7 @@
      </choice>
      заплакали.
     </p>
-    <p id="030f19a3-f865-425a-9b18-d30acdd8e281" rend="left">
+    <p id="030f19a3-f865-425a-9b18-d30acdd8e281">
      И на самого Камбиза нашла жалость, и
      <choice>
       <reg>
@@ -819,13 +843,13 @@
      </choice>
      —
     </p>
-    <p id="fc555f8c-77b1-4d69-bab8-334270f28db3" rend="left emptyline">
+    <p id="fc555f8c-77b1-4d69-bab8-334270f28db3" rend="emptyline">
      <pb n="249"/>
     </p>
     <p id="45e2085b-c986-41f9-ba46-369be3f09aea" rend="centerline">
      — 47 —
     </p>
-    <p id="cbb0681e-4f86-46d6-bbaa-ffe5e5707bb2" rend="notindent">
+    <p id="cbb0681e-4f86-46d6-bbaa-ffe5e5707bb2">
      <choice>
       <reg>
        он

@@ -4,25 +4,49 @@
         <fileDesc>
              <titleStmt>                
                 <title xml:id="v49_050_050_1881_07_07">
-                    Дневники и записные книжки. Tolstoy Digital
+                    Дневники. Tolstoy Digital
                 </title>
                 <title type="main">Дневник,</title>
                 <title type="sub">7 июля 1881 г.</title>
                 <title type="bibl">Толстой Л. Н. [Дневник 1881 г.] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 49. М.: Гос. изд. «Художественная литература», 1952. С. </title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
-                 </respStmt>
+                </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -109,13 +133,11 @@
       </date>
      </dateline>
     </opener>
-    <p id="ad2c12fe-7cb5-4b0d-ac9a-8aed4093010d" rend="left">
+    <p id="ad2c12fe-7cb5-4b0d-ac9a-8aed4093010d">
      Кормилицы внучка. Отнимать надо, хлеба нет. — Не пахан пар, подати. —
     </p>
-    <p id="2eeb7c78-46c0-4a85-b73f-e1b83cffad71" rend="left">
-     <metamark function="line"/>
-    </p>
-    <p id="7ecdb053-e744-45c1-bbc5-327f3a4cd3af" rend="left">
+    <metamark function="line"/>
+    <p id="7ecdb053-e744-45c1-bbc5-327f3a4cd3af">
      <name placement="text" ref="15906" type="person">
       Щукин
      </name>
@@ -125,24 +147,18 @@
      </name>
      . — Бессарабские старообрядцы.
     </p>
-    <p id="84f5ae44-c331-4b61-b228-a51f878838da" rend="left">
-     <metamark function="line"/>
-    </p>
-    <p id="49aafa4b-737f-4ec2-ba51-cd01151ea802" rend="left">
+    <metamark function="line"/>
+    <p id="49aafa4b-737f-4ec2-ba51-cd01151ea802">
      Старуха беззубая, морщинистая — лжет, что из-под Крапивны. Сноха гонит.
     </p>
-    <p id="226c3fea-3252-431a-9924-eab12e52793f" rend="left">
+    <p id="226c3fea-3252-431a-9924-eab12e52793f">
      Женщина с девочкой. Ягодненская. Больной глаз, плачет. Лжет о печке, слезы льются на камень. —
     </p>
-    <p id="1a6aa00b-a90a-4d69-bea0-355fd58d1f79" rend="left">
-     <metamark function="line"/>
-    </p>
-    <p id="ecf77b70-4d66-48c0-9a3d-c9bde4c45833" rend="left">
+    <metamark function="line"/>
+    <p id="ecf77b70-4d66-48c0-9a3d-c9bde4c45833">
      Два солдата — из Тулы и Киева по монастырям.
     </p>
-    <p id="6e1b5a5d-d638-49c2-b178-fb0772f30f3d" rend="left">
-     <metamark function="line"/>
-    </p>
+    <metamark function="line"/>
    </div>
   </body>
  </text>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову от 11 марта 1888 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 11 марта 1888 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 86. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 86</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">132-135</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 184.1888 г. Марта 11. Москва.
     </opener>
-    <p id="18dbe582-3f63-415e-93d9-926bd554c6fb" rend="left">
+    <p id="18dbe582-3f63-415e-93d9-926bd554c6fb">
      <choice>
       <reg>
        Получил
@@ -230,7 +260,7 @@
        волнением
       </reg>
       <orig>
-       волненiемъ
+       волненіемъ
       </orig>
      </choice>
      — предполагая, что это
@@ -361,7 +391,7 @@
        отношению
       </reg>
       <orig>
-       отношенiю
+       отношенію
       </orig>
      </choice>
      <choice>
@@ -418,7 +448,7 @@
      </choice>
      жаль за себя. Вы простите.
     </p>
-    <p id="44e30745-39dc-41c1-b278-b66577c5e460" rend="left">
+    <p id="44e30745-39dc-41c1-b278-b66577c5e460">
      Емельяну
      <choice>
       <reg>
@@ -446,7 +476,7 @@
      </note>
      Рукописи и письма посылаю. —
     </p>
-    <p id="9541e3cf-9c0a-4f87-946f-9186c7d4ed3e" rend="left">
+    <p id="9541e3cf-9c0a-4f87-946f-9186c7d4ed3e">
      Письма
      <choice original_editorial_correction="Сыт[ину]">
       <sic>
@@ -462,7 +492,7 @@
        Bop
       </sic>
       <corr>
-       Bopoпaeвy
+       Воропаеву
       </corr>
      </choice>
      <ref target="#note2">
@@ -494,7 +524,7 @@
        раздражение
       </reg>
       <orig>
-       раздраженiе
+       раздраженіе
       </orig>
      </choice>
      , а мысль самая правильная.
@@ -576,7 +606,7 @@
        Заключение
       </reg>
       <orig>
-       Заключенiе
+       Заключеніе
       </orig>
      </choice>
      все длинно, хотя и хорошо, и не нужно,
@@ -629,7 +659,7 @@
        заключения
       </reg>
       <orig>
-       заключенiя
+       заключенія
       </orig>
      </choice>
      я бы
@@ -675,7 +705,7 @@
         предание
        </reg>
        <orig>
-        преданiе
+        преданіе
        </orig>
       </choice>
      </hi>
@@ -775,14 +805,14 @@
      </choice>
      цензурной безопасности.
     </p>
-    <p id="7db329af-acad-4ee5-b917-165e1d9e0269" rend="left">
+    <p id="7db329af-acad-4ee5-b917-165e1d9e0269">
      Это
      <choice>
       <reg>
        чтение
       </reg>
       <orig>
-       чтенiе
+       чтеніе
       </orig>
      </choice>
      меня раззадорило: хочется писать
@@ -891,7 +921,7 @@
        такие
       </reg>
       <orig>
-       такiе
+       такіе
       </orig>
      </choice>
      <ref target="#note5">
@@ -949,7 +979,7 @@
        комедию
       </reg>
       <orig>
-       комедiю
+       комедію
       </orig>
      </choice>
      — посылаю ее
@@ -987,7 +1017,7 @@
        Покровский
       </reg>
       <orig>
-       Покровскiй
+       Покровскій
       </orig>
      </choice>
      <choice>
@@ -1051,7 +1081,7 @@
        любящий
       </reg>
       <orig>
-       любящiй
+       любящій
       </orig>
      </choice>
      <choice>
@@ -1074,7 +1104,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="1b19e5bb-141c-4842-93b6-4d78ecc9f340" rend="petit left">
+      <p id="1b19e5bb-141c-4842-93b6-4d78ecc9f340" rend="petit">
        В этом письме Толстой отвечает на письмо Черткова от 7 марта 1888 г. (см. прим. к письму № 183 от 4 марта 1888 г.,) и на письма Черткова, одно из которых помечено 6 марта 1888 г., другое бездатное, датируемое А. К. Чертковой началом февраля 1888 г. В письме от 6 марта 1888 г. Чертков писал Толстому: «Дорогой Л [ев]
        <choice original_editorial_correction="Н[иколаевич]">
         <sic>
@@ -1088,7 +1118,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="c0cbe70e-51c8-4a92-9cf9-6249bd5c62f9" rend="petit left">
+      <p id="c0cbe70e-51c8-4a92-9cf9-6249bd5c62f9" rend="petit">
        В письме от начала февраля 1888 г. Чертков писал по поводу посылаемой Толстому рукописи книжки об
        <name placement="comments" ref="210" type="person">
         Александре Македонском

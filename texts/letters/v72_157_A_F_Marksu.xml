@@ -9,17 +9,41 @@
                 <title type="main">Письмо А. Ф. Марксу с 8 августа 1899 г. по 9 августа 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо А. Ф. Марксу, 8 августа 1899 г. — 9 августа 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">172-173</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,10 +128,10 @@
      </name>
      .1899 г. Августа 8—9? Я. П.
     </opener>
-    <p id="ef82d7ad-cd6c-490b-84fb-2245caa16f36" rend="Obrashenie left">
+    <p id="ef82d7ad-cd6c-490b-84fb-2245caa16f36" rend="Obrashenie">
      Милостивый Государь
     </p>
-    <p id="549eded2-63e3-4b5e-aa56-c9b990baf88c" rend="Obrashenie1 left">
+    <p id="549eded2-63e3-4b5e-aa56-c9b990baf88c" rend="Obrashenie1">
      <choice>
       <reg>
        <name placement="text" ref="8559" type="person">
@@ -126,7 +156,7 @@
      </choice>
      ,
     </p>
-    <p id="45c125ed-3b8b-4e5a-bd0e-1e57965997d2" rend="left">
+    <p id="45c125ed-3b8b-4e5a-bd0e-1e57965997d2">
      Посылаю
      <choice>
       <reg>
@@ -203,7 +233,7 @@
        желания
       </reg>
       <orig>
-       желанiя
+       желанія
       </orig>
      </choice>
      : прислать теперь
@@ -217,7 +247,7 @@
      </choice>
      .
     </p>
-    <p id="ef8b550d-376e-4fc0-a7dd-d234f068e783" rend="left">
+    <p id="ef8b550d-376e-4fc0-a7dd-d234f068e783">
      <choice>
       <reg>
        С
@@ -239,7 +269,7 @@
        уважением
       </reg>
       <orig>
-       уваженiемъ
+       уваженіемъ
       </orig>
      </choice>
      готовый
@@ -285,7 +315,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="4cb3da20-e7b2-4d9f-9355-f465197c9738" rend="petit left">
+      <p id="4cb3da20-e7b2-4d9f-9355-f465197c9738" rend="petit">
        В конце июля, начале августа 1899 г. А. Ф. Маркс был очень встревожен тем, что корректуры «Воскресения» Толстой доставлял с опозданием. Беспокоило его также отсутствие в редакции конца третьей части романа. Издательство полагало, что провести через цензуру было бы легче не отдельные главы, а законченное произведение. 20 июля Маркс писал Толстому (перевод с французского): «До сих пор я получил только 24 главу Вашего романа, тогда как продолжение и конец должны были бы уж
        <hi>
         е

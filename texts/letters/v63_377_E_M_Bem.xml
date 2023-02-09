@@ -9,17 +9,41 @@
                 <title type="main">Письмо Е. М. Бем от 6 июня 1885 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Е. М. Бем, 6 июня 1885 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 63. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 63</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">256-257</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,13 +128,13 @@
      </name>
      .1885 г. Июня 6? Я. П.
     </opener>
-    <p id="068d4051-98d6-47f5-b034-1523ee52faf5" rend="Obrashenie left">
+    <p id="068d4051-98d6-47f5-b034-1523ee52faf5" rend="Obrashenie">
      <name placement="text" ref="1221" type="person">
       Елизавета Меркурьевна
      </name>
      .
     </p>
-    <p id="21272a16-e85c-41f9-b7d0-5f73f62dfc2c" rend="left">
+    <p id="21272a16-e85c-41f9-b7d0-5f73f62dfc2c">
      Очень
      <choice>
       <reg>
@@ -154,7 +184,7 @@
       —
      </hi>
     </p>
-    <p id="e1135b3d-f58e-456d-b89c-71ff7026ee68" rend="left">
+    <p id="e1135b3d-f58e-456d-b89c-71ff7026ee68">
      <pb n="257"/>
      <hi style="npdelimiter">
       Не
@@ -165,7 +195,7 @@
        издание
       </reg>
       <orig>
-       изданiе
+       изданіе
       </orig>
      </choice>
      <choice>
@@ -208,7 +238,7 @@
        близкие
       </reg>
       <orig>
-       близкiе
+       близкіе
       </orig>
      </choice>
      <choice>
@@ -258,7 +288,7 @@
        изданий
       </reg>
       <orig>
-       изданiй
+       изданій
       </orig>
      </choice>
      на Б. Дворянской 25.
@@ -275,7 +305,7 @@
        участие
       </reg>
       <orig>
-       участiе
+       участіе
       </orig>
      </choice>
      <choice>
@@ -307,7 +337,7 @@
        Савицкий
       </reg>
       <orig>
-       Савицкiй
+       Савицкій
       </orig>
      </choice>
      ,
@@ -480,7 +510,7 @@
      </choice>
      .
     </p>
-    <p id="d9dbee4b-f87d-4957-837c-7005c94add5c" rend="left">
+    <p id="d9dbee4b-f87d-4957-837c-7005c94add5c">
      Во
      <choice>
       <reg>
@@ -536,12 +566,12 @@
      </name>
      .
     </p>
-    <p id="fb2bd079-2b82-47c4-93ef-9579743dbfd6" rend="left">
+    <p id="fb2bd079-2b82-47c4-93ef-9579743dbfd6">
      <hi>
       На конверте:
      </hi>
     </p>
-    <p id="6f867773-7207-4605-bc71-bcbc6d48dc52" rend="left">
+    <p id="6f867773-7207-4605-bc71-bcbc6d48dc52">
      <choice>
       <reg>
        Петербург
@@ -584,7 +614,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="60b88d27-19bf-4249-acde-164ffa9f6d0f" rend="petit left">
+      <p id="60b88d27-19bf-4249-acde-164ffa9f6d0f" rend="petit">
        <name placement="comments" ref="1221" type="person">
         Елизавета Меркурьевна Бем
        </name>

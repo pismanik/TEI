@@ -4,24 +4,48 @@
         <fileDesc>
              <titleStmt>                
                 <title xml:id="v55_299_299_Zapisi_na_liste_1904_g">
-                    Дневники и записные книжки. Tolstoy Digital
+                    Записные книжки. Tolstoy Digital
                 </title>
                 <title type="main">Записи на листе, 1904 г.</title>
                 <title type="bibl">Толстой Л. Н. [Записи на листе 1904 г.] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 55. М.: Гос. изд. «Художественная литература», 1937. С. </title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                              
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -30,7 +54,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -42,7 +66,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -73,7 +97,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -88,7 +112,9 @@
             <creation>
                 <date when="1904"/>
          </creation>
-            <textClass> 
+            <langUsage>
+  <language ident="ru-petr1708"/>
+</langUsage><textClass> 
                 <catRef ana="#notes" target="type"/>
            </textClass>
         </profileDesc>
@@ -103,7 +129,7 @@
      ЗАПИСИ НА ЛИСТКЕ.
     </head>
     <div type="entry">
-     <p id="6bd57e93-36d1-45b7-b4df-4b15a59df1c8" rend="left">
+     <p id="6bd57e93-36d1-45b7-b4df-4b15a59df1c8">
       <choice>
        <reg>
         Дух
@@ -137,14 +163,14 @@
       </choice>
       .
      </p>
-     <p id="252d3379-8bae-47bc-8390-204d03596f0d" rend="left">
+     <p id="252d3379-8bae-47bc-8390-204d03596f0d">
       Время, соединяющее
       <choice>
        <reg>
         одинакия
        </reg>
        <orig>
-        одинакiя
+        одинакія
        </orig>
       </choice>
       существа
@@ -189,10 +215,8 @@
        Ср. Дневник 15 сентября 1904 г., 1.
       </note>
      </p>
-     <p id="bfc03ef8-53c4-49a9-9873-484d9928d60e" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="77c815d0-d892-47a5-a087-0adbe8252b5b" rend="left">
+     <metamark function="line"/>
+     <p id="77c815d0-d892-47a5-a087-0adbe8252b5b">
       <choice original_editorial_correction="Сер[е]жа">
        <sic>
         Сержа
@@ -207,7 +231,7 @@
         оправдание
        </reg>
        <orig>
-        оправданiе
+        оправданіе
        </orig>
       </choice>
       <choice original_editorial_correction="либерализм[а]">
@@ -226,10 +250,8 @@
        Ср. Дневник 15 сентября 1904 г., 2.
       </note>
      </p>
-     <p id="1b201e34-50b7-4bcb-a3b6-571a2b625004" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="50a8e772-6b57-482c-aaad-c5ffb92ecc78" rend="left">
+     <metamark function="line"/>
+     <p id="50a8e772-6b57-482c-aaad-c5ffb92ecc78">
       <choice>
        <reg>
         Отпор
@@ -254,16 +276,14 @@
        Ср. Дневник 15 сентября 1904 г., 3.
       </note>
      </p>
-     <p id="35bad61e-a308-4abf-ace2-acc8d9b1a8c3" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="77bdf502-ab7c-4a7b-a392-4890dbebeafe" rend="left">
+     <metamark function="line"/>
+     <p id="77bdf502-ab7c-4a7b-a392-4890dbebeafe">
       <choice>
        <reg>
         Религия
        </reg>
        <orig>
-        Религiя
+        Религія
        </orig>
       </choice>
       <choice>
@@ -290,10 +310,8 @@
        Ср. Дневник 15 сентября 1904 г., 4.
       </note>
      </p>
-     <p id="433f17c8-2132-4d08-a008-b287b528c112" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="e76ae5c4-83af-48fb-a58e-dd761a872b04" rend="left">
+     <metamark function="line"/>
+     <p id="e76ae5c4-83af-48fb-a58e-dd761a872b04">
       Не
       <choice>
        <reg>
@@ -328,16 +346,14 @@
        Ср. Дневник 15 сентября 1904 г., 5.
       </note>
      </p>
-     <p id="932dd5d9-2948-47f1-8900-2f062b721590" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="6e8ef6f0-26dc-489f-af92-27ed3a054b77" rend="left">
+     <metamark function="line"/>
+     <p id="6e8ef6f0-26dc-489f-af92-27ed3a054b77">
       <choice>
        <reg>
         Засыпание
        </reg>
        <orig>
-        Засыпанiе
+        Засыпаніе
        </orig>
       </choice>
       =
@@ -346,7 +362,7 @@
         пробуждение
        </reg>
        <orig>
-        пробужденiе
+        пробужденіе
        </orig>
       </choice>
       .
@@ -357,10 +373,8 @@
        Ср. Дневник 15 сентября 1904 г., 6.
       </note>
      </p>
-     <p id="e48cf0d7-1b15-46af-841e-b11ce9a46919" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="82c9b5a0-8ce1-49ed-937c-ed96050ed84a" rend="left">
+     <metamark function="line"/>
+     <p id="82c9b5a0-8ce1-49ed-937c-ed96050ed84a">
       <choice>
        <reg>
         Как
@@ -374,7 +388,7 @@
         мир
        </reg>
        <orig>
-        мiръ
+        міръ
        </orig>
       </choice>
       <choice>
@@ -382,7 +396,7 @@
         другие
        </reg>
        <orig>
-        другiе
+        другіе
        </orig>
       </choice>
       —
@@ -391,7 +405,7 @@
         собачий
        </reg>
        <orig>
-        собачiй
+        собачій
        </orig>
       </choice>
       —
@@ -400,7 +414,7 @@
         мыший
        </reg>
        <orig>
-        мышiй
+        мышій
        </orig>
       </choice>
       .
@@ -411,16 +425,14 @@
        Ср. Дневник 15 сентября 1904 г., 7.
       </note>
      </p>
-     <p id="28da16df-e412-4d3e-a07d-b7168592e1ff" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="7a474eb4-8d8f-4dd0-bcfe-588fd05962b8" rend="left">
+     <metamark function="line"/>
+     <p id="7a474eb4-8d8f-4dd0-bcfe-588fd05962b8">
       <choice>
        <reg>
         Социализм
        </reg>
        <orig>
-        Соцiализмъ
+        Соціализмъ
        </orig>
       </choice>
       —
@@ -458,7 +470,7 @@
           содержания
          </reg>
          <orig>
-          содержанiя
+          содержанія
          </orig>
         </choice>
        </corr>
@@ -498,10 +510,8 @@
       </choice>
       бы видна была несостоятельность.
      </p>
-     <p id="c9e8bc5f-d547-44f0-9d95-158e17460e63" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="ddd20c12-2931-4d27-afca-4959e34d8d3d" rend="left">
+     <metamark function="line"/>
+     <p id="ddd20c12-2931-4d27-afca-4959e34d8d3d">
       <choice>
        <reg>
         Закон
@@ -536,9 +546,7 @@
        Ср. Дневник 15 сентября 1904 г., 15.
       </note>
      </p>
-     <p id="80c6fcc0-da50-465a-a265-6d5bff137b72" rend="subtitle centerline">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
     </div>
    </div>
   </body>

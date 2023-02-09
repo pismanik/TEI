@@ -9,17 +9,41 @@
                 <title type="main">Письмо А. Ф. Марксу от 22 октября 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо А. Ф. Марксу, 22 октября 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">218-220</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,10 +128,10 @@
      </name>
      .1899 г. Октября 22. Я. П.
     </opener>
-    <p id="2e5c4101-028b-4c96-bfb5-5ca3223626d1" rend="Obrashenie left">
+    <p id="2e5c4101-028b-4c96-bfb5-5ca3223626d1" rend="Obrashenie">
      Милостивый Государь
     </p>
-    <p id="fce60e5c-bc91-4050-8113-114eb767ea92" rend="Obrashenie1 left">
+    <p id="fce60e5c-bc91-4050-8113-114eb767ea92" rend="Obrashenie1">
      <choice>
       <reg>
        <name placement="text" ref="8559" type="person">
@@ -126,7 +156,7 @@
      </choice>
      ,
     </p>
-    <p id="3780ef2c-6d4e-4e15-a270-b44814d1cfbb" rend="left">
+    <p id="3780ef2c-6d4e-4e15-a270-b44814d1cfbb">
      Посылаю
      <choice>
       <reg>
@@ -176,7 +206,7 @@
        следующия
       </reg>
       <orig>
-       слѣдующiя
+       слѣдующія
       </orig>
      </choice>
      до 19-й включительно. Очень прошу
@@ -233,7 +263,7 @@
        исправления
       </reg>
       <orig>
-       исправленiя
+       исправленія
       </orig>
      </choice>
      , а также и
@@ -467,7 +497,7 @@
      </choice>
      .
     </p>
-    <p id="de995969-712d-4862-aae8-895160cca163" rend="left">
+    <p id="de995969-712d-4862-aae8-895160cca163">
      <choice>
       <reg>
        С
@@ -489,7 +519,7 @@
        уважением
       </reg>
       <orig>
-       уваженiемъ
+       уваженіемъ
       </orig>
      </choice>
      остаюсь готовый
@@ -510,7 +540,7 @@
       </orig>
      </choice>
     </p>
-    <p id="f4ab34aa-b08f-458a-a2e2-f49bef8c6bab" rend="left">
+    <p id="f4ab34aa-b08f-458a-a2e2-f49bef8c6bab">
      22 Окт. 1899.
     </p>
     <p id="1c538b5e-c8ce-4d75-9f51-7320f87014a5" rend="right">

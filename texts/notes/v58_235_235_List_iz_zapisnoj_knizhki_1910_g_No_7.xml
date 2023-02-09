@@ -4,24 +4,48 @@
         <fileDesc>
              <titleStmt>                
                 <title xml:id="v58_235_235_List_iz_zapisnoj_knizhki_1910_g_No_7">
-                    Дневники и записные книжки. Tolstoy Digital
+                    Записные книжки. Tolstoy Digital
                 </title>
                 <title type="main">Лист из записной книжки №7, 1910 г. </title>
                 <title type="bibl">Толстой Л. Н. [Лист из записной книжки 1910 г., №7] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 58. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                              
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -30,7 +54,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -42,7 +66,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -73,7 +97,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -88,7 +112,9 @@
             <creation>
                 <date when="1910"/>
          </creation>
-            <textClass> 
+            <langUsage>
+  <language ident="ru-petr1708"/>
+</langUsage><textClass> 
                 <catRef ana="#notes" target="type"/>
            </textClass>
         </profileDesc>
@@ -103,13 +129,13 @@
      ЛИСТ ИЗ ЗАПИСНОЙ КНИЖКИ, № 7.
     </head>
     <div type="entry">
-     <p id="d714b151-b854-48b2-aea0-d55fde80b2bd" rend="left">
+     <p id="d714b151-b854-48b2-aea0-d55fde80b2bd">
       Мыло.
      </p>
-     <p id="04f725a1-9e59-4c5f-938d-1faa623bb667" rend="left">
+     <p id="04f725a1-9e59-4c5f-938d-1faa623bb667">
       Ногтевая щеточка.
      </p>
-     <p id="cebae315-580c-4d22-b566-a849cafb9e3c" rend="left">
+     <p id="cebae315-580c-4d22-b566-a849cafb9e3c">
       <choice>
        <reg>
         Блок-нот
@@ -120,16 +146,16 @@
       </choice>
       .
      </p>
-     <p id="5ebe8fbf-ff40-4e67-b78c-7ab47dd3c122" rend="left">
+     <p id="5ebe8fbf-ff40-4e67-b78c-7ab47dd3c122">
       Кофе.
      </p>
-     <p id="54d33d1c-c3b2-4233-876a-884721e5bf1a" rend="left">
+     <p id="54d33d1c-c3b2-4233-876a-884721e5bf1a">
       Губка.
      </p>
      <p id="f93939cd-56be-4b62-8115-783748909194" rend="center">
       ==============
      </p>
-     <p id="dc523140-bc1b-429b-b7ab-c142bf0019b6" rend="left">
+     <p id="dc523140-bc1b-429b-b7ab-c142bf0019b6">
       1)
       <choice original_editorial_correction="Феодорит[ъ]">
        <sic>
@@ -165,7 +191,7 @@
       </choice>
       .
      </p>
-     <p id="ff531fba-7b02-4296-a741-4978b8dfd9c8" rend="left">
+     <p id="ff531fba-7b02-4296-a741-4978b8dfd9c8">
       2)
       <choice original_editorial_correction="Священ[никъ]">
        <sic>
@@ -193,7 +219,7 @@
       </choice>
       .
      </p>
-     <p id="70b09adf-f994-471e-85fd-e4554cfff0be" rend="left">
+     <p id="70b09adf-f994-471e-85fd-e4554cfff0be">
       3)
       <choice>
        <reg>
@@ -221,12 +247,10 @@
       </choice>
       — экономка.
      </p>
-     <p id="8163f06f-0ddd-437f-a70b-af7e68f5ee85" rend="left">
+     <p id="8163f06f-0ddd-437f-a70b-af7e68f5ee85">
       4) Охота; дуэль и лобовые.
      </p>
-     <p id="2c391e16-4c23-497d-b774-8b363663f66f" rend="center">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
     </div>
    </div>
   </body>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо Н. А. Некрасову от 26 декабря 1852 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Н. А. Некрасову, 26 декабря 1852 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">221-222</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -101,10 +131,10 @@
     <p id="11607cf2-d0ba-490e-8922-eac957c76384" rend="right">
      26 декабря.
     </p>
-    <p id="4ffa3f44-262f-4ef9-8e6f-c559df5a7f85" rend="Obrashenie left">
+    <p id="4ffa3f44-262f-4ef9-8e6f-c559df5a7f85" rend="Obrashenie">
      Милостивый Государь!
     </p>
-    <p id="241057cd-9928-4242-95a7-d874fadf7e01" rend="left">
+    <p id="241057cd-9928-4242-95a7-d874fadf7e01">
      Посылаю небольшой
      <choice>
       <reg>
@@ -153,7 +183,7 @@
        условиях
       </reg>
       <orig>
-       условiяхъ
+       условіяхъ
       </orig>
      </choice>
      , то будьте
@@ -171,7 +201,7 @@
        следующия
       </reg>
       <orig>
-       слѣдующiя
+       слѣдующія
       </orig>
      </choice>
      мои просьбы: не выпускайте, не прибавляйте, и главное, не
@@ -265,12 +295,12 @@
        изменения
       </reg>
       <orig>
-       измѣненiя
+       измѣненія
       </orig>
      </choice>
      , то лучше подождать печатать и объясниться.
     </p>
-    <p id="ea6f5eac-9b2c-4e2a-8e02-ea39190e04fa" rend="left">
+    <p id="ea6f5eac-9b2c-4e2a-8e02-ea39190e04fa">
      Ежели,
      <choice>
       <reg>
@@ -285,7 +315,7 @@
        чаяния
       </reg>
       <orig>
-       чаянiя
+       чаянія
       </orig>
      </choice>
      , Цензура
@@ -395,7 +425,7 @@
        вариянта
       </reg>
       <orig>
-       варiянта
+       варіянта
       </orig>
      </choice>
      ,
@@ -471,7 +501,7 @@
        отношении
       </reg>
       <orig>
-       отношенiи
+       отношеніи
       </orig>
      </choice>
      ; просмотрите и вставьте
@@ -494,14 +524,14 @@
      </choice>
      .
     </p>
-    <p id="0546f3cf-6d5f-4c6d-848f-f327b6f39b54" rend="left">
+    <p id="0546f3cf-6d5f-4c6d-848f-f327b6f39b54">
      Я полагаю, что
      <choice>
       <reg>
        примечания
       </reg>
       <orig>
-       примѣчанiя
+       примѣчанія
       </orig>
      </choice>
      ,
@@ -583,7 +613,7 @@
      </choice>
      читателей.
     </p>
-    <p id="fd5a31b5-5555-4418-81b1-c006f31598b2" rend="left">
+    <p id="fd5a31b5-5555-4418-81b1-c006f31598b2">
      <choice>
       <reg>
        Я бы
@@ -607,7 +637,7 @@
        деления
       </reg>
       <orig>
-       дѣленiя
+       дѣленія
       </orig>
      </choice>
      ,
@@ -642,7 +672,7 @@
       —
      </hi>
     </p>
-    <p id="c2e4bc7c-e8ac-4244-847c-3c6a1e6ae076" rend="left">
+    <p id="c2e4bc7c-e8ac-4244-847c-3c6a1e6ae076">
      <pb n="222"/>
      <hi style="npdelimiter">
       Извините,
@@ -685,7 +715,7 @@
        ожидании
       </reg>
       <orig>
-       ожиданiи
+       ожиданіи
       </orig>
      </choice>
      вашего
@@ -703,7 +733,7 @@
        мнения
       </reg>
       <orig>
-       мнѣнiя
+       мнѣнія
       </orig>
      </choice>
      о
@@ -754,7 +784,7 @@
        уважением
       </reg>
       <orig>
-       уваженiемъ
+       уваженіемъ
       </orig>
      </choice>
      ,
@@ -771,7 +801,7 @@
        покорнейший
       </reg>
       <orig>
-       покорнѣйшiй
+       покорнѣйшій
       </orig>
      </choice>
      слуга.

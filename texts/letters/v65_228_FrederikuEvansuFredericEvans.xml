@@ -9,17 +9,41 @@
                 <title type="main">Письмо Фредерику Эвансу (Frederic Evans) от 27 января 1891 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Фредерику Эвансу (Frederic Evans), 27 января 1891 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 65. М.: Гос. изд. «Художественная литература», 1953. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 65</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">240-242</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -94,7 +123,7 @@
     <opener index="false">
      * 228. Фредерику Эвансу (Frederic W. Evans).1891г. Января 27 — февраля 6? Я. П.
     </opener>
-    <p id="502626b5-505d-44d3-9e35-5bd49941d556" rend="left">
+    <p id="502626b5-505d-44d3-9e35-5bd49941d556">
      <choice original_editorial_correction="D[ear]">
       <sic>
        D
@@ -149,7 +178,7 @@
     <p id="6c5ba6dc-a2b1-4aa7-a604-7539578f7424" rend="right">
      Leo Tolstoy.
     </p>
-    <p id="28b479b4-e10f-4f73-b8e2-9d7938669d72" rend="left">
+    <p id="28b479b4-e10f-4f73-b8e2-9d7938669d72">
      I received your tracts, you say in your letter that [you] have sent me books, did you mean them or did you send me books calling the tracts books? I received more than a year the Oregon paper World Advance Thought, sometimes. I saw in it your articles.
      <ref target="#note2">
       2
@@ -159,7 +188,7 @@
      </note>
      I am very thankful to the editor for sending this paper; in every № I get spiritual nourishment if it were not for some spiritistic tendency that is foreign to me. Who is the editor and how long ago has it been founded?
     </p>
-    <p id="676375ce-43fe-47c1-a9f8-d47626321648" rend="left">
+    <p id="676375ce-43fe-47c1-a9f8-d47626321648">
      [I] agree with all its religious views. I like this paper very much.
     </p>
     <noteGrp type="comments">
@@ -184,7 +213,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="3679829f-d526-4ced-acc3-1f75e8f93b13" rend="petit left">
+      <p id="3679829f-d526-4ced-acc3-1f75e8f93b13" rend="petit">
        Я получил ваши брошюры. Вы говорите в вашем письме, что послали мне книги. Именно ли о книгах вы писали, или вы послали брошюры, назвав их книгами? Я получал время от времени, более года тому назад, орегонский журнал «World’s Advance Thought». Иногда встречал в нем ваши статьи.
        <ref target="#note4">
         4
@@ -209,17 +238,17 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="ba8948b2-3645-48cf-bee1-79c098cf2995" rend="petit left">
+      <p id="ba8948b2-3645-48cf-bee1-79c098cf2995" rend="petit">
        Фредерик Эванс (Frederic W. Ewans, 1808—1893) — американец, шекер, проповедник, автор ряда брошюр и листовок, посвященных изложению мировоззрения секты шекеров и ее истории.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="d4f494bf-7bf9-4d9b-9295-b21da706eb86" rend="petit left">
+      <p id="d4f494bf-7bf9-4d9b-9295-b21da706eb86" rend="petit">
        Ответ на письмо Эванса (на английском языке) от 6 декабря нов. ст. 1890 г., в котором Эванс извещал, что послал Толстому свои брошюры, излагающие учение шекеров и историю этой секты, а также высказывал свои мысли о некоторой общности их взглядов с Толстым.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="a4c803c2-b060-49ab-8f6b-05d181d81fee" rend="petit left">
+      <p id="a4c803c2-b060-49ab-8f6b-05d181d81fee" rend="petit">
        На конверте письма Эванса помета Толстого: «Я отвечу». Ответ Толстой начал на отдельном листе, но, написав несколько строк, оставил его. На этом листе потом Толстой написал письмо к М. М. Лисицыну (см. № 219).
       </p>
      </note>

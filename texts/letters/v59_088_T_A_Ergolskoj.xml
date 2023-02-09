@@ -9,17 +9,41 @@
                 <title type="main">Письмо Т. А. Ергольской от 5 июля 1854 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Т. А. Ергольской, 5 июля 1854 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">269-277</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,10 +128,10 @@
      </name>
      .1854 г. Июля 5. Бухарест.
     </opener>
-    <p id="1120dcd6-1c19-423e-bc85-64cc9d33d4bf" rend="Obrashenie left">
+    <p id="1120dcd6-1c19-423e-bc85-64cc9d33d4bf" rend="Obrashenie">
      Chère et excellente tante!
     </p>
-    <p id="6c6d4399-1321-4916-9540-7db68e690c0a" rend="left">
+    <p id="6c6d4399-1321-4916-9540-7db68e690c0a">
      Figurez vous, que ce n’est que hier j’ai reçu votre lettre e celle de Dmitri du 14 Avril et écrites encore de Koursk.
      <ref target="#note1">
       1
@@ -205,10 +235,10 @@
      </note>
      et l’argent que peuvent couter les frais de poste.
     </p>
-    <p id="02fed7f7-b7ef-40d9-b385-c3f4440ea084" rend="left">
+    <p id="02fed7f7-b7ef-40d9-b385-c3f4440ea084">
      5 Juillet. Bucarest.
     </p>
-    <p id="3c3754b2-7b75-46ef-85d9-c662bee6f579" rend="left">
+    <p id="3c3754b2-7b75-46ef-85d9-c662bee6f579">
      Je félicite Serge sur son jour de naissance. Dites lui je vous prie que c’est mal à lui de ne m’avoir écrit jusqu’à présent. Quoique jusqu’à présent j’ai fait la même chose, je suis plus excusable. 1) parceque je suis seul à écrire à tous et 2) parceque quoique je ne lui écrive pas à lui il lit toujours mes lettres, à vous, à Nicolas ou à Valérien tandis que moi je n’ai de lui d’autres nouvelles qu’il se porte bien et qu’il est allé à Lébédiane. Au reste j’espère, que Nic. Serge et Basil
      <ref target="#note7">
       7
@@ -226,19 +256,19 @@
      et que je recevrai d’eux tous une lettre de là. —
     </p>
     <lb/>
-    <p id="c7cc51a5-6e6d-4ff4-95d9-3e9107f32719" rend="left">
+    <p id="c7cc51a5-6e6d-4ff4-95d9-3e9107f32719">
      <hi>
       На конверте:
      </hi>
     </p>
-    <p id="4f836c42-3302-404a-a305-2dcfd388b5de" rend="left">
-     Eя
+    <p id="4f836c42-3302-404a-a305-2dcfd388b5de">
+     Ея
      <choice>
       <reg>
        Высокоблагородию
       </reg>
       <orig>
-       Высокоблагородiю
+       Высокоблагородію
       </orig>
      </choice>
      <choice>
@@ -283,7 +313,7 @@
     <p id="2361c21d-13c7-4787-bbf3-c33d43ae8d7b" rend="Obrashenie petit">
      Дорогая и чудесная тетенька!
     </p>
-    <p id="d03bcfe5-b56f-401f-9ac4-43e19fbd216f" rend="petit left">
+    <p id="d03bcfe5-b56f-401f-9ac4-43e19fbd216f" rend="petit">
      Представьте себе, что я только вчера получил ваше и Митенькино письмо от 14-го апреля, писанное еще из Курска.
      <ref target="#note9">
       9
@@ -301,7 +331,7 @@
      </hi>
      В первую ночь, которую я провел в лагере, этот страшный шум разбудил и напугал меня; думая, что это нападение, я поспешил велеть оседлать свою лошадь; но люди, проведшие уже некоторое время в лагере, сказали мне, что беспокоиться нечего, что и канонада такая, и ружейная стрельба вещь обычная, прозванная в шутку «Аллах». — Я лег, но не мог заснуть и стал забавляться тем, что, с часами в руках, считал пушечные выстрелы; насчитал я 100 взрывов в минуту. Вблизи однако всё это не так страшно, как кажется, ночью в полной темноте точно соревновались между собой, кто больше потратит пороха и тысячами пушечных выстрелов убито было самое большое человек 30 с той и другой стороны.
     </p>
-    <p id="116a8d36-5b60-4a21-8507-953a032ccd7b" rend="petit left">
+    <p id="116a8d36-5b60-4a21-8507-953a032ccd7b" rend="petit">
      Вы мне позволите, милая тетенька, обратиться в этом письме к Николеньке; начав рассказывать о подробностях войны, я хотел бы продолжать обращаться к мужчине, который поймет меня и сможет разъяснить то, что вам покажется неясным. — Итак, вот что происходило перед нашими глазами ежедневно, а когда меня посылали с приказами в траншеи, и я принимал в нем участие; но бывали у нас и необычайные зрелища, как например, накануне штурма, когда при одном из неприятельских батальонов взорвали мину в 240 пудов пороха.
      <ref target="#note10">
       10
@@ -362,16 +392,16 @@
      </note>
      которое я ему раньше передал, приложив деньги на почтовые расходы.
     </p>
-    <p id="2c4ca97c-92be-49a3-b512-e2a33ebdeba7" rend="petit left">
+    <p id="2c4ca97c-92be-49a3-b512-e2a33ebdeba7" rend="petit">
      5 июля. Бухарест.
     </p>
-    <p id="e07a2ec0-0e67-4f17-b2e9-0f477d4679fb" rend="petit left">
+    <p id="e07a2ec0-0e67-4f17-b2e9-0f477d4679fb" rend="petit">
      Поздравляю Сережу со днем его рождения. Попеняйте ему за то, что он не написал мне до сих пор. Положим, что и я не писал, но мне это
      <hi style="opdelimiter">
       извинительно.
      </hi>
     </p>
-    <p id="71ac41d8-1b6c-4c41-96b9-5ff43a800d2a" rend="petit left">
+    <p id="71ac41d8-1b6c-4c41-96b9-5ff43a800d2a" rend="petit">
      <pb n="276"/>
      <hi style="npdelimiter">
       Во

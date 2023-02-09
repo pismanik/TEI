@@ -9,17 +9,41 @@
                 <title type="main">Письмо Т. А. Ергольской от 24 декабря 1850 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Т. А. Ергольской, 24 декабря 1850 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">81-83</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -97,10 +127,10 @@
     <p id="528f97a3-8498-432e-a4ff-5b6f17332ddd" rend="right">
      1850
     </p>
-    <p id="2cf673d6-1a46-45e8-93cf-c121765320dd" rend="Obrashenie left">
+    <p id="2cf673d6-1a46-45e8-93cf-c121765320dd" rend="Obrashenie">
      Chère Tante!
     </p>
-    <p id="ccf015c5-b591-4686-b610-bcbeb43bc242" rend="left">
+    <p id="ccf015c5-b591-4686-b610-bcbeb43bc242">
      Je m’étonne et ne cesse de m’étonner de votre silence; quoique j’aie reçu hier votre lettre du 16
      <choice original_editorial_correction="Décembr[e]">
       <sic>
@@ -147,7 +177,7 @@
      </choice>
      beaucoup sur son compte.
     </p>
-    <p id="a7a3e128-958a-4f3e-9dd2-be81d7b27dd5" rend="left">
+    <p id="a7a3e128-958a-4f3e-9dd2-be81d7b27dd5">
      L’histoire de M-me Simon n’est pas encore terminée; hier même on m’a raconté; comme quoi un commis de M. Sim étant venu chez Mr. Kabiline pour avoir une explication avec lui est tombé mort dans sa chambre; on ne sait encore à quoi attribuer cette mort subite.
      <ref target="#note3">
       3
@@ -176,7 +206,7 @@
      </choice>
      pas; je dis «je crois» mais j’espère bientôt vous dire pour sûr; vous savez, il est très pénible de quitter une idée qu’on a eue pendant longtemps.
     </p>
-    <p id="4abc6295-18c3-4abe-9f3a-032b05193416" rend="left">
+    <p id="4abc6295-18c3-4abe-9f3a-032b05193416">
      Dernièrement j’ai rencontré
      <hi>
       <choice>
@@ -274,10 +304,10 @@
      </choice>
      .
     </p>
-    <p id="9c04b0df-d500-4ff1-80d7-5d5f21aa97dd" rend="left">
+    <p id="9c04b0df-d500-4ff1-80d7-5d5f21aa97dd">
      Adieu, je baise vos mains, au revoir.
     </p>
-    <p id="0d3eba1c-72ee-48b7-8176-0fc6ffdf8b23" rend="left">
+    <p id="0d3eba1c-72ee-48b7-8176-0fc6ffdf8b23">
      Je salue le moine.
      <ref target="#note9">
       9
@@ -295,7 +325,7 @@
     <p id="cdfbc30f-141a-4867-b82f-242423b038fb" rend="Obrashenie petit">
      Дорогая тетенька!
     </p>
-    <p id="fe7b18fb-a7e8-4e0f-83c4-4629ec3d465e" rend="petit left">
+    <p id="fe7b18fb-a7e8-4e0f-83c4-4629ec3d465e" rend="petit">
      Меня удивляет и не перестает удивлять ваше молчание, не взирая на то, что вчера я получил ваше письмо от 16 декабря,
      <ref target="#note10">
       10
@@ -312,7 +342,7 @@
      </note>
      Здоровье мое прекрасно, но зато мой карман не в цветущем состоянии. — Ежели деньги, которые я жду от Сережи и из *Ясного*, еще не высланы, задержите их, иначе мы разминемся в пути. Вы верно уже видели Петра и повторение той же комедии. Ни прощать его, ни требовать отчета мне не пришлось, так как меня это никак не касалось. Есть ли известия о Николеньке? Начинаю беспокоиться о нем.
     </p>
-    <p id="5676dc8b-e9ee-49c2-9291-5f5dd0b5f9ee" rend="petit left">
+    <p id="5676dc8b-e9ee-49c2-9291-5f5dd0b5f9ee" rend="petit">
      История г-жи Симон не окончена; еще вчера слышал, будто бы служащий ее явился к Кобылину за какими-то объяснениями и там скоропостижно скончался. Причина смерти еще не выяснена.
      <ref target="#note12">
       12
@@ -332,7 +362,7 @@
      </note>
      Всё, что вы говорите о страсти к игре, справедливо, и часто об этом сам думаю. Поэтому, я думаю, что больше играть не буду, — говорю «думаю», а надеюсь скоро сказать вам, что уверен, что не буду играть, но вы знаете, как трудно бывает отказаться от той мысли, которая долго вас занимала.—
     </p>
-    <p id="2e6d3e5b-03bd-4ea5-895b-5e69e72a22ac" rend="petit left">
+    <p id="2e6d3e5b-03bd-4ea5-895b-5e69e72a22ac" rend="petit">
      Ha-днях встретил в банке
      <hi>
       *Чулкова
@@ -375,10 +405,10 @@
      </note>
      Скажите Сереже, что я его целую, что все его поручения исполнены и добросовестно.
     </p>
-    <p id="f6305b1d-c692-4323-9578-129052760d37" rend="petit left">
+    <p id="f6305b1d-c692-4323-9578-129052760d37" rend="petit">
      Прощайте, целую ваши ручки.
     </p>
-    <p id="e67c67a9-ded5-438b-93d6-157a2ed90287" rend="petit left">
+    <p id="e67c67a9-ded5-438b-93d6-157a2ed90287" rend="petit">
      Монаху
      <ref target="#note17">
       17

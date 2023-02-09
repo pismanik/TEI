@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v27_554_554_Variant_predislovija_k_state_V_G_Chertkova_Zlaja_zabava">
-                    Вариант предисловия к статье В. Г. Черткова «Злая забава». Tolstoy Digital
+                    Вариант предисловия к статье В. Г. Черткова «Злая забава». Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Предисловие к статье В. Г. Черткова «Злая забава».</title>
                 <title type="sub">Вариант</title>
-                <title type="bibl">Толстой Л. Н. Вариант предисловия к статье В. Г. Черткова «Злая забава» // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 27. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. Вариант предисловия к статье В. Г. Черткова «Злая забава» // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 27. М.: Гос. изд. «Художественная литература», 1936. С. 554–554.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1890"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#ver" target="work_main"/>
@@ -120,7 +145,7 @@
     <head n="level1" type="editorial">
      * [ВАРИАНТ ПРЕДИСЛОВИЯ К СТАТЬЕ В. Г. ЧЕРТКОВА «ЗЛАЯ ЗАБАВА».]
     </head>
-    <p id="44ded4b6-e824-4343-b0f5-5f0b12f85d3d" rend="left">
+    <p id="44ded4b6-e824-4343-b0f5-5f0b12f85d3d">
      <choice>
       <reg>
        Как
@@ -135,7 +160,7 @@
        распространение
       </reg>
       <orig>
-       распространенiе
+       распространеніе
       </orig>
      </choice>
      , чтобы
@@ -162,7 +187,7 @@
        начинающие
       </reg>
       <orig>
-       начинающiе
+       начинающіе
       </orig>
      </choice>
      прочли бы ее. Пускай ни
@@ -206,7 +231,7 @@
        сомнение
       </reg>
       <orig>
-       сомнѣнiе
+       сомнѣніе
       </orig>
      </choice>
      заронится
@@ -255,13 +280,13 @@
       260
      </ref>
      <note index="false" xml:id="note260">
-      <span data-class="paragraph" id="2bc400e2-11ac-47ef-bed8-953f0e52799c" rend="left">
+      <span data-class="paragraph" id="2bc400e2-11ac-47ef-bed8-953f0e52799c">
        <choice>
         <reg>
          Сомнение
         </reg>
         <orig>
-         Сомнѣнiе
+         Сомнѣніе
         </orig>
        </choice>
        это есть зерно. Оно
@@ -299,7 +324,7 @@
        начинающие
       </reg>
       <orig>
-       начинающiе
+       начинающіе
       </orig>
      </choice>
      <choice>
@@ -351,7 +376,7 @@
        занятием
       </reg>
       <orig>
-       занятiемъ
+       занятіемъ
       </orig>
      </choice>
      .
@@ -403,7 +428,7 @@
        короткий
       </reg>
       <orig>
-       короткiй
+       короткій
       </orig>
      </choice>
      <choice>
@@ -459,7 +484,7 @@
      </choice>
      .
     </p>
-    <p id="2c67b004-ff17-4f3a-ae14-c899bcac1857" rend="left">
+    <p id="2c67b004-ff17-4f3a-ae14-c899bcac1857">
      <hi rend="italic">
       Молодой
       <choice>
@@ -525,14 +550,14 @@
      </choice>
      ?
     </p>
-    <p id="a03479e7-db3d-4514-9821-fbc7dd173d97" rend="left">
+    <p id="a03479e7-db3d-4514-9821-fbc7dd173d97">
      <hi rend="italic">
       <choice>
        <reg>
         Бывший
        </reg>
        <orig>
-        Бывшiй
+        Бывшій
        </orig>
       </choice>
       <choice>
@@ -589,9 +614,7 @@
      </choice>
      существа?
     </p>
-    <p id="61f4112e-cfb5-4734-a57a-daf4219abb90" rend="subtitle center centerline">
-     ————
-    </p>
+    <metamark function="line"/>
     <lb/>
    </div>
   </body>

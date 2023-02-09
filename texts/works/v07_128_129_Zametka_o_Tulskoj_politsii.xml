@@ -4,24 +4,48 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v07_128_129_Zametka_o_Tulskoj_politsii" resp="volume_editor">
-                    [Заметка о Тульской полиции]. Tolstoy Digital
+                    [Заметка о Тульской полиции]. Произведения. Tolstoy Digital
                 </title>
                 <title type="main" resp="volume_editor">Заметка о Тульской полиции</title>
-                <title type="bibl">Толстой Л. Н. [Заметка о Тульской полиции] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 7. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. [Заметка о Тульской полиции] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 7. М.: Гос. изд. «Художественная литература», 1936. С. 128–129.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -30,7 +54,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -42,7 +66,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -73,7 +97,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -88,9 +112,10 @@
             <creation>
                 <date when="1865"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#main" target="work_main"/>
@@ -120,7 +145,7 @@
       * [ЗАМЕТКА О ТУЛЬСКОЙ ПОЛИЦИИ.]
      </hi>
     </head>
-    <p id="bec282e6-4a00-4a35-a1c7-86403f06fdbe" rend="left">
+    <p id="bec282e6-4a00-4a35-a1c7-86403f06fdbe">
      <choice>
       <reg>
        Доктор
@@ -161,7 +186,7 @@
       119
      </ref>
      <note index="false" xml:id="note119">
-      <span data-class="paragraph" id="8c7c4796-2a8a-4b5f-a195-b438dc68d0dd" rend="left">
+      <span data-class="paragraph" id="8c7c4796-2a8a-4b5f-a195-b438dc68d0dd">
        <hi rend="italic">
         Многоточие в подлиннике
        </hi>
@@ -250,7 +275,7 @@
        правосудием
       </reg>
       <orig>
-       правосудiемъ
+       правосудіемъ
       </orig>
      </choice>
      за неучтивое
@@ -259,7 +284,7 @@
        махание
       </reg>
       <orig>
-       маханiе
+       маханіе
       </orig>
      </choice>
      руками
@@ -276,7 +301,7 @@
        полицией
       </reg>
       <orig>
-       полицiей
+       полиціей
       </orig>
      </choice>
      , которая осматривала его
@@ -285,7 +310,7 @@
        заведение
       </reg>
       <orig>
-       заведенiе
+       заведеніе
       </orig>
      </choice>
      <choice>
@@ -326,7 +351,7 @@
       120
      </ref>
      <note index="false" xml:id="note120">
-      <span data-class="paragraph" id="46bf8d18-9317-4373-8b73-c8982aad82a0" rend="left">
+      <span data-class="paragraph" id="46bf8d18-9317-4373-8b73-c8982aad82a0">
        [паштет из гусиной печенки]
       </span>
      </note>
@@ -344,7 +369,7 @@
        здравия
       </reg>
       <orig>
-       здравiя
+       здравія
       </orig>
      </choice>
      горошка. И по
@@ -387,7 +412,7 @@
        движению
       </reg>
       <orig>
-       движенiю
+       движенію
       </orig>
      </choice>
      нашего отечества на пути прогресса (кажется, я
@@ -423,7 +448,7 @@
        полиция
       </reg>
       <orig>
-       полицiя
+       полиція
       </orig>
      </choice>
      . Вчера я на
@@ -457,12 +482,12 @@
        облагорожение
       </reg>
       <orig>
-       облагороженiе
+       облагороженіе
       </orig>
      </choice>
      . —
     </p>
-    <p id="354f3456-10d8-4efe-a751-d57145db0c43" rend="left">
+    <p id="354f3456-10d8-4efe-a751-d57145db0c43">
      24 марта, 21 день тому
      <choice>
       <reg>
@@ -605,7 +630,7 @@
        предложение
       </reg>
       <orig>
-       предложенiе
+       предложеніе
       </orig>
      </choice>
      <choice>
@@ -629,7 +654,7 @@
       121
      </ref>
      <note index="false" xml:id="note121">
-      <span data-class="paragraph" id="2369a19a-d016-4d4e-bbd8-8bbc23e3ce6c" rend="left">
+      <span data-class="paragraph" id="2369a19a-d016-4d4e-bbd8-8bbc23e3ce6c">
        но подойдя
        <choice>
         <reg>
@@ -680,7 +705,7 @@
          Предложение
         </reg>
         <orig>
-         Предложенiе
+         Предложеніе
         </orig>
        </choice>
        ямщика показалось
@@ -882,7 +907,7 @@
        известием
       </reg>
       <orig>
-       извѣстiемъ
+       извѣстіемъ
       </orig>
      </choice>
      , что
@@ -956,7 +981,7 @@
       122
      </ref>
      <note index="false" xml:id="note122">
-      <span data-class="paragraph" id="71db9831-d7aa-4e8b-87ae-e640c5340dcc" rend="left">
+      <span data-class="paragraph" id="71db9831-d7aa-4e8b-87ae-e640c5340dcc">
        <choice>
         <reg>
          в
@@ -978,7 +1003,7 @@
          говения
         </reg>
         <orig>
-         говѣнiя
+         говѣнія
         </orig>
        </choice>
       </span>
@@ -988,7 +1013,7 @@
        ожидание
       </reg>
       <orig>
-       ожиданiе
+       ожиданіе
       </orig>
      </choice>
      учредилось потому, что
@@ -1036,7 +1061,7 @@
      </choice>
      дней.
     </p>
-    <p id="c040be1a-d3d5-40ba-90b2-9a3d16eb70ae" rend="left">
+    <p id="c040be1a-d3d5-40ba-90b2-9a3d16eb70ae">
      Посланный мой
      <choice>
       <reg>
@@ -1078,7 +1103,7 @@
        полиции
       </reg>
       <orig>
-       полицiи
+       полиціи
       </orig>
      </choice>
      отвергли его
@@ -1087,7 +1112,7 @@
        предложение
       </reg>
       <orig>
-       предложенiе
+       предложеніе
       </orig>
      </choice>
      , и я даже боюсь,
@@ -1157,7 +1182,7 @@
        Полиция
       </reg>
       <orig>
-       Полицiя
+       Полиція
       </orig>
      </choice>
      , мы
@@ -1179,14 +1204,14 @@
      </choice>
      сказать, облагорожена. Слава Богу.
     </p>
-    <p id="a54ac082-b7ab-4fc3-b08b-6625dcf9c771" rend="left">
+    <p id="a54ac082-b7ab-4fc3-b08b-6625dcf9c771">
      Посланный мой и
      <choice>
       <reg>
        другие
       </reg>
       <orig>
-       другiе
+       другіе
       </orig>
      </choice>
      мужики и извощики, у
@@ -1238,7 +1263,7 @@
        полицию
       </reg>
       <orig>
-       полицiю
+       полицію
       </orig>
      </choice>
      только по своему
@@ -1261,7 +1286,7 @@
      </choice>
      надо извинить.
     </p>
-    <p id="5b8061a7-9e00-438a-8efa-c4e54fc7b353" rend="left">
+    <p id="5b8061a7-9e00-438a-8efa-c4e54fc7b353">
      <choice>
       <reg>
        Человек
@@ -1342,7 +1367,7 @@
       123
      </ref>
      <note index="false" xml:id="note123">
-      <span data-class="paragraph" id="2dcd2901-f240-4724-9cc5-986b2b3266fd" rend="left">
+      <span data-class="paragraph" id="2dcd2901-f240-4724-9cc5-986b2b3266fd">
        Плачь
        <choice>
         <reg>
@@ -1604,7 +1629,7 @@
       124
      </ref>
      <note index="false" xml:id="note124">
-      <span data-class="paragraph" id="5fcb0bae-eda0-45f8-84e8-639c3e9461f3" rend="left">
+      <span data-class="paragraph" id="5fcb0bae-eda0-45f8-84e8-639c3e9461f3">
        Плачь
        <choice>
         <reg>
@@ -1627,7 +1652,7 @@
       </span>
      </note>
     </p>
-    <p id="e0cf309a-687c-44b4-b89b-9eedf333bc51" rend="left">
+    <p id="e0cf309a-687c-44b4-b89b-9eedf333bc51">
      <choice>
       <reg>
        Невежественный
@@ -1675,7 +1700,7 @@
        зрения
       </reg>
       <orig>
-       зрѣнiя
+       зрѣнія
       </orig>
      </choice>
      ]
@@ -1717,7 +1742,7 @@
        полиция
       </reg>
       <orig>
-       полицiя
+       полиція
       </orig>
      </choice>
      поживилась бы на
@@ -1770,7 +1795,7 @@
        большие
       </reg>
       <orig>
-       большiе
+       большіе
       </orig>
      </choice>
      убытки, заплатили бы
@@ -1779,7 +1804,7 @@
        полиции
       </reg>
       <orig>
-       полицiи
+       полиціи
       </orig>
      </choice>
      и всетаки меньше понесли бы
@@ -1841,7 +1866,7 @@
        полиции
       </reg>
       <orig>
-       полицiи
+       полиціи
       </orig>
      </choice>
      и
@@ -1889,7 +1914,7 @@
      </choice>
      голода.
     </p>
-    <p id="7cd8cb59-0ccf-4448-bc06-430cc49f49ff" rend="left">
+    <p id="7cd8cb59-0ccf-4448-bc06-430cc49f49ff">
      <del>
       Но
       <choice>
@@ -2016,7 +2041,7 @@
         распоряжение
        </reg>
        <orig>
-        распоряженiе
+        распоряженіе
        </orig>
       </choice>
       и сознавать, что на то должны быть важные, не доступные нашему
@@ -2025,7 +2050,7 @@
         понятию
        </reg>
        <orig>
-        понятiю
+        понятію
        </orig>
       </choice>
       причины, и уважать власти.
@@ -2066,7 +2091,7 @@
       Тулу.
      </del>
     </p>
-    <p id="c6fa3278-e182-4bb7-a3d7-2e3e9d4b2d0f" rend="left">
+    <p id="c6fa3278-e182-4bb7-a3d7-2e3e9d4b2d0f">
      Но хотя легкомысленные и несовременные люди и
      <choice>
       <reg>
@@ -2090,7 +2115,7 @@
        облагораживанием
       </reg>
       <orig>
-       облагораживанiемъ
+       облагораживаніемъ
       </orig>
      </choice>
      <choice>
@@ -2098,7 +2123,7 @@
        полиции
       </reg>
       <orig>
-       полицiи
+       полиціи
       </orig>
      </choice>
      нужно бы было принять
@@ -2143,7 +2168,7 @@
        проезжающие
       </reg>
       <orig>
-       проѣзжающiе
+       проѣзжающіе
       </orig>
      </choice>
      вощики, хозяева и мужики; но я не
@@ -2213,7 +2238,7 @@
        всравнении
       </reg>
       <orig>
-       всравненiи
+       всравненіи
       </orig>
      </choice>
      <choice>
@@ -2229,7 +2254,7 @@
        убеждением
       </reg>
       <orig>
-       убѣжденiемъ
+       убѣжденіемъ
       </orig>
      </choice>
      ,
@@ -2246,7 +2271,7 @@
        приобретенным
       </reg>
       <orig>
-       прiобрѣтеннымъ
+       пріобрѣтеннымъ
       </orig>
      </choice>
      ,
@@ -2268,7 +2293,7 @@
          облагорожении
         </reg>
         <orig>
-         облагороженiи
+         облагороженіи
         </orig>
        </choice>
       </corr>
@@ -2279,7 +2304,7 @@
        полиции
       </reg>
       <orig>
-       полицiи
+       полиціи
       </orig>
      </choice>
      и
@@ -2304,7 +2329,7 @@
        сознании
       </reg>
       <orig>
-       сознанiи
+       сознаніи
       </orig>
      </choice>
      , что мы быстро двигаемся, (ежели я не ошибочно выражаюсь) на пути прогресса». Ура!

@@ -9,18 +9,42 @@
             <title type="bibl">Толстой Л. Н. Азбука // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 22. М.: Гос. изд. «Художественная литература», 1957. С. </title>
             <author>Толстой Лев Николаевич</author>
             <respStmt>
-                <resp>Идея, постановка задач, руководство</resp>
+                <resp>Идея, постановка задач, руководство:</resp>
                 <name>
                     Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                 </name>
-             </respStmt>
+            </respStmt>
             <respStmt>
-                <resp>
-                    Подготовка TEI/XML
-                </resp>
-                <name>
-                    Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                </name>
+                    <resp>
+                        Подготовка TEI/XML:
+                    </resp>
+                    <name>
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>
             </respStmt>
                 <funder>
                     Проект «Слово Толстого»
@@ -29,7 +53,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -41,7 +65,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы были получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -59,7 +83,7 @@
                     </analytic>
                     <monogr>
                         <title level="m">
-                          Полное собрание сочинений.
+                          Полное собрание сочинений: в 90 тт.
                         </title>
                         <imprint>
                             <pubPlace>
@@ -75,7 +99,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -90,7 +114,9 @@
             <creation>
                 <date when="1872"/>
             </creation>
-            <textClass> 
+            <langUsage>
+  <language ident="ru-petr1708"/>
+</langUsage><textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#fiction" target="sphere"/>
                 <catRef ana="#kids" target="genre"/>
@@ -112,7 +138,7 @@
      </hi>
     </head>
     <div type="poem">
-     <lg rend="left">
+     <lg>
       <l id="dd431103-2729-4c46-927f-e4dbeee7a41b" rend="v">
        Что не мелки часты
        <choice>
@@ -420,7 +446,7 @@
          учение
         </reg>
         <orig>
-         ученiе
+         ученіе
         </orig>
        </choice>
        .
@@ -453,14 +479,14 @@
       </l>
      </lg>
     </div>
-    <p id="5530a8da-eeb9-4a48-a974-01e266be6999" rend="left emptyline">
+    <p id="5530a8da-eeb9-4a48-a974-01e266be6999" rend="emptyline">
      <pb n="449"/>
     </p>
     <p id="9ca5eb2d-9cb6-4863-b40e-7ca01ab18fd9" rend="centerline">
      — 81 —
     </p>
     <div type="poem">
-     <lg rend="left">
+     <lg>
       <l id="253e0989-a18a-441b-bcb8-6a2db6ac8652" rend="v">
        Обучился другой мудрости —
       </l>
@@ -702,7 +728,7 @@
          Киева
         </reg>
         <orig>
-         Кiева
+         Кіева
         </orig>
        </choice>
        ,
@@ -891,7 +917,7 @@
          глубокие
         </reg>
         <orig>
-         глубокiе
+         глубокіе
         </orig>
        </choice>
        ,
@@ -972,7 +998,7 @@
          Киева
         </reg>
         <orig>
-         Кiева
+         Кіева
         </orig>
        </choice>
        ,
@@ -999,14 +1025,14 @@
       </l>
      </lg>
     </div>
-    <p id="dabfd376-81c1-4f2c-ad52-b52c73f55838" rend="left emptyline">
+    <p id="dabfd376-81c1-4f2c-ad52-b52c73f55838" rend="emptyline">
      <pb n="450"/>
     </p>
     <p id="a4368886-46ff-48a6-89c3-5a687206190b" rend="centerline">
      — 82 —
     </p>
     <div type="poem">
-     <lg rend="left">
+     <lg>
       <l id="a712192a-7f2e-4193-b769-ff1a1fea3daf" rend="v">
        «Вы, дружина моя храбрая,
       </l>
@@ -1237,7 +1263,7 @@
          дремучие
         </reg>
         <orig>
-         дремучiе
+         дремучіе
         </orig>
        </choice>
        ,
@@ -1344,7 +1370,7 @@
          Киева
         </reg>
         <orig>
-         Кiева
+         Кіева
         </orig>
        </choice>
        ,
@@ -1443,7 +1469,7 @@
          дремучиих
         </reg>
         <orig>
-         дремучiихъ
+         дремучіихъ
         </orig>
        </choice>
        ;
@@ -1550,7 +1576,7 @@
          середний
         </reg>
         <orig>
-         середнiй
+         середній
         </orig>
        </choice>
        что за
@@ -1566,14 +1592,14 @@
       </l>
      </lg>
     </div>
-    <p id="f330427e-df32-4a55-98c7-6d1ef8ae7975" rend="left emptyline">
+    <p id="f330427e-df32-4a55-98c7-6d1ef8ae7975" rend="emptyline">
      <pb n="451"/>
     </p>
     <p id="0e9c6b27-4a56-419b-974c-56c85a6b5007" rend="centerline">
      — 83 —
     </p>
     <div type="poem">
-     <lg rend="left">
+     <lg>
       <l id="f07c0f8f-c73f-4b60-bd59-5c25bec0d181" rend="v">
        A
        <choice>
@@ -1807,7 +1833,7 @@
          Киев-град
         </reg>
         <orig>
-         Кiевъ-градъ
+         Кіевъ-градъ
         </orig>
        </choice>
        ,
@@ -1974,14 +2000,14 @@
       </l>
      </lg>
     </div>
-    <p id="78449c5d-600a-47f5-84cb-0c7be2af0d67" rend="left emptyline">
+    <p id="78449c5d-600a-47f5-84cb-0c7be2af0d67" rend="emptyline">
      <pb n="452"/>
     </p>
     <p id="59faab7d-548f-4216-96c5-fb2b32d79f11" rend="centerline">
      — 84 —
     </p>
     <div type="poem">
-     <lg rend="left">
+     <lg>
       <l id="1a906107-2775-4346-9a49-370458830bb9" rend="v">
        «Наши
        <choice>
@@ -2018,7 +2044,7 @@
          Киев-град
         </reg>
         <orig>
-         Кiевъ-градъ
+         Кіевъ-градъ
         </orig>
        </choice>
        ,
@@ -2227,7 +2253,7 @@
          глубокие
         </reg>
         <orig>
-         глубокiе
+         глубокіе
         </orig>
        </choice>
        —
@@ -2367,7 +2393,7 @@
          Киеву
         </reg>
         <orig>
-         Кiеву
+         Кіеву
         </orig>
        </choice>
        ,
@@ -2441,7 +2467,7 @@
          крепкия
         </reg>
         <orig>
-         крѣпкiя
+         крѣпкія
         </orig>
        </choice>
        ,
@@ -2476,7 +2502,7 @@
          рыбий
         </reg>
         <orig>
-         рыбiй
+         рыбій
         </orig>
        </choice>
        <choice>
@@ -2583,14 +2609,14 @@
       </l>
      </lg>
     </div>
-    <p id="21671838-e426-4f67-802d-073ee6bf2c1f" rend="left emptyline">
+    <p id="21671838-e426-4f67-802d-073ee6bf2c1f" rend="emptyline">
      <pb n="453"/>
     </p>
     <p id="0466c3cc-1c0b-4680-b125-de247f959cf6" rend="centerline">
      — 85 —
     </p>
     <div type="poem">
-     <lg rend="left">
+     <lg>
       <l id="4e5e880e-86a1-4405-a350-cc0acbb4b9ab" rend="v">
        «
        <choice>
@@ -2899,7 +2925,7 @@
          Турецкиим
         </reg>
         <orig>
-         Турецкiимъ
+         Турецкіимъ
         </orig>
        </choice>
       </l>
@@ -2943,7 +2969,7 @@
          лучшиих
         </reg>
         <orig>
-         лучшiихъ
+         лучшіихъ
         </orig>
        </choice>
       </l>
@@ -3017,7 +3043,7 @@
          Турецкиим
         </reg>
         <orig>
-         Турецкiимъ
+         Турецкіимъ
         </orig>
        </choice>
       </l>
@@ -3073,7 +3099,7 @@
          лучшиих
         </reg>
         <orig>
-         лучшiихъ
+         лучшіихъ
         </orig>
        </choice>
       </l>
@@ -3174,7 +3200,7 @@
          крепкие
         </reg>
         <orig>
-         крѣпкiе
+         крѣпкіе
         </orig>
        </choice>
        .
@@ -3208,14 +3234,14 @@
       </l>
      </lg>
     </div>
-    <p id="ae984032-ce3a-4850-b50c-6afa74f3e9d6" rend="left emptyline">
+    <p id="ae984032-ce3a-4850-b50c-6afa74f3e9d6" rend="emptyline">
      <pb n="454"/>
     </p>
     <p id="1c2c4bbd-3d47-41eb-a0b0-84ee5ab66c77" rend="centerline">
      — 86 —
     </p>
     <div type="poem">
-     <lg rend="left">
+     <lg>
       <l id="00a55dbf-6401-4ed1-993b-42a40f1571d5" rend="v">
        «Хоть нога сломать, а выставить!»
       </l>
@@ -3254,7 +3280,7 @@
          крепкие
         </reg>
         <orig>
-         крѣпкiе
+         крѣпкіе
         </orig>
        </choice>
        ;

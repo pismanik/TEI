@@ -9,17 +9,41 @@
                 <title type="main">Письмо П. В. Веригину от 2 января 1904 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо П. В. Веригину, 2 января 1904 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 75. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 75</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">4-7</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,14 +127,14 @@
      </name>
      .1904 г. Января 2. Я. П.
     </opener>
-    <p id="966ad92e-e6d5-450d-9723-526d50a7ee7b" rend="Obrashenie left">
+    <p id="966ad92e-e6d5-450d-9723-526d50a7ee7b" rend="Obrashenie">
      Любезный брат
      <name placement="text" ref="2459" type="person">
       Петр Васильевич
      </name>
      ,
     </p>
-    <p id="d49b7cb0-ba92-41d6-aee7-f9ae607b5d01" rend="left">
+    <p id="d49b7cb0-ba92-41d6-aee7-f9ae607b5d01">
      Получил ваше письмо с чеками и переслал деньги старичкам.
      <ref target="#note1">
       1
@@ -148,7 +177,7 @@
       .
      </note>
     </p>
-    <p id="0db476ef-cd50-4338-ac60-668cf32b52e9" rend="left">
+    <p id="0db476ef-cd50-4338-ac60-668cf32b52e9">
      Прилагаю вам письмо Муравьева
      <ref target="#note4">
       4
@@ -239,7 +268,7 @@
      </name>
      .
     </p>
-    <p id="0d58f254-5dc9-4b24-8fcd-d6673da59cfa" rend="left">
+    <p id="0d58f254-5dc9-4b24-8fcd-d6673da59cfa">
      2 янв. 1904.
     </p>
     <noteGrp type="comments">
@@ -249,7 +278,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="60398cc9-368b-4c6d-ae96-ac483f8a5497" rend="petit left">
+      <p id="60398cc9-368b-4c6d-ae96-ac483f8a5497" rend="petit">
        <name placement="comments" ref="2459" type="person">
         Петр Васильевич Веригин
        </name>
@@ -257,7 +286,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="fa0e3785-7ab8-41cb-a1ba-de145f6cf83c" rend="petit left">
+      <p id="fa0e3785-7ab8-41cb-a1ba-de145f6cf83c" rend="petit">
        Ответ на письмо Веригина от 1 декабря 1903 г., в котором он описывал жизнь общины духоборов в Канаде, а также осуждал духоборов Фофанова и Щербакова за их чрезмерную торопливость с переселением в Канаду.
       </p>
      </note>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо Е. Н. Тулиновой от 15 апреля 1909 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Е. Н. Тулиновой, 15 апреля 1909 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 79. М.: Гос. изд. «Художественная литература», 1955. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 79</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">157-157</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,23 +127,23 @@
      </name>
      .1909 г. Апреля 15. Я. П.
     </opener>
-    <p id="87ee30c6-2976-4f72-93bb-55f9293601db" rend="Obrashenie left">
+    <p id="87ee30c6-2976-4f72-93bb-55f9293601db" rend="Obrashenie">
      <name placement="text" ref="14101" type="person">
       Елизавета Николаевна
      </name>
      ,
     </p>
-    <p id="cfdd9756-2068-4d40-9660-37f520fac46f" rend="left">
+    <p id="cfdd9756-2068-4d40-9660-37f520fac46f">
      Веру никто не может вызвать в другом человеке. Придет время, и она зародится сама собой. Поэтому никак не могу исполнить вашего желания. Карточку посылаю.
     </p>
     <noteGrp type="comments">
      <note index="false" type="comments">
       <p id="e55d3e59-e8c5-49f8-adc3-18011b079c95" rend="Textpetit_otstup left">
-       Печатается по машинописной копии из AЧ. Дата копии.
+       Печатается по машинописной копии из АЧ. Дата копии.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="e4ec4f92-fd4c-46dd-a1f7-b62eb9363e9a" rend="petit left">
+      <p id="e4ec4f92-fd4c-46dd-a1f7-b62eb9363e9a" rend="petit">
        Ответ на письмо
        <name placement="comments" ref="14101" type="person">
         Елизаветы Николаевны Тулиновой
@@ -123,7 +152,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="5ab0900b-f6c3-418c-8545-dafbd88a78de" rend="petit left">
+      <p id="5ab0900b-f6c3-418c-8545-dafbd88a78de" rend="petit">
        На конверте письма Тулиновой Толстой пометил:
        <choice original_editorial_correction="Б[ез]">
         <sic>

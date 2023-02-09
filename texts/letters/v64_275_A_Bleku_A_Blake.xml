@@ -9,17 +9,41 @@
                 <title type="main">Письмо А. Блэку (A. Blake) от 12 ноября 1888 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо А. Блэку (A. Blake), 12 ноября 1888 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 64. М.: Гос. изд. «Художественная литература», 1953. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 64</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">193-196</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,7 +127,7 @@
      </name>
      .1888 г. Ноября 12. Я. П.
     </opener>
-    <p id="272e9bc6-7aeb-44d6-a715-a1b657fd3897" rend="left">
+    <p id="272e9bc6-7aeb-44d6-a715-a1b657fd3897">
      Thank you for the books you sent me. I read them through immediately and was very pleased to find in them, especially
      <hi style="opdelimiter">
       in
@@ -109,13 +138,13 @@
      </hi>
      Pharisaism, a conception of Christ’s teaching, as he intented it to be understood, and the indignation against those who try to hide it. By many signs of the times I think that «verily, verily I say unto you the hour is coming and now is, when the dead shall hear the voice of the son of God». I think so because not only in you but in many people of different culture I see this awakening consciousness that we are deceived, that the organization of our life is a mockery of the teaching of Christ which we profess. That this life is miserable and sinful, and that it could he blissful and holy. And that for to attain this end we have only to shake off the ancient imposture in which we now live. Do you know the writings of Matthew Arnold? His «Literature and Dogma», Parker’s discourse on religious subjects, Garrison’s «Non-resistance» and his «declaration of sentiments»? All this and many others is the same that you and I speak and write of, viz. that Christ gave us a programme of life as an architect would have given the plan of a building and a deceiver would have stolen the plan and put a false one in it’s stead, to compromise the architect.
     </p>
-    <p id="354d9786-e914-4a04-87dd-fdc1924e1117" rend="left">
+    <p id="354d9786-e914-4a04-87dd-fdc1924e1117">
      I think that many people over the world are begining to get aware that they are Labouring under a mistake and turn to the true teaching of Christ. I think that the hour is coming, but that we must remember the words said by Christ to his disciples. «Be ye therefore wise as serpentes, and harmless as doves». We must remember that every fault of ours destroys God’s work. And therefore according to your wish I do the following comments upon your book. The faults in your book are: 1) That you affirm the dogmas of creation, redemption, resurrection and of the reality of hell and eternal torments. This affirmation cannot be proved, and cannot help to lead a Christian life and must be repulsive to reasonable people. 2) That you admit divorce, which Christ most peremptorily prohibited. Divorce cannot be admitted because it cannot be left to the will of every man to decide when he not more can live with his wife and shall repudiate her.
     </p>
-    <p id="2a317fc3-7a25-415a-8fa4-de895e0808ff" rend="left">
+    <p id="2a317fc3-7a25-415a-8fa4-de895e0808ff">
      Please receive my remarks with the same brotherly feeling with which I write them to you. I need not tell you that I wish to be in communion with you, this communion established itself without our will through the sameness of our thought and purpose.
     </p>
-    <p id="19056443-aca6-4c65-bbc3-049c574019c2" rend="left">
+    <p id="19056443-aca6-4c65-bbc3-049c574019c2">
      I wish with all my heart real success to your book and beg you to write me about it and
      <hi style="opdelimiter">
       yourself.
@@ -136,17 +165,17 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="8ac81526-dfed-4e76-b620-d2cd738617cc" rend="petit left">
+      <p id="8ac81526-dfed-4e76-b620-d2cd738617cc" rend="petit">
        Я думаю, что многие люди по всему свету начинают убеждаться в том, что они страдают напрасно, и возвращаются к истинному учению Христа. Я думаю, что время приближается, но что мы должны помнить слова, сказанные Христом его ученикам: «Итак, будьте мудры, как змии, и кротки, как голуби». Мы должны помнить, что всякая наша ошибка разрушает дело божие. И потому, по вашему желанию, делаю о вашей книге следующие замечания. Ошибки в вашей книге: 1) вы признаете догматы сотворения, искупления, воскресения, существования ада и вечных мук. Эти утверждения не могут быть доказаны и не могут помогать вести христианскую жизнь и должны оттолкнуть многих разумных людей; 2) вы допускаете развод, который Христос самым решительным образом запрещает. Развод нельзя допускать потому, что нельзя предоставить произволу каждого человека решать, когда он больше не может жить с своей женой и должен с нею разойтись.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="3227e287-2f46-449c-8c31-1a53d326e938" rend="petit left">
+      <p id="3227e287-2f46-449c-8c31-1a53d326e938" rend="petit">
        Пожалуйста, примите мои замечания с таким же братским чувством, с каким я пишу вам их. Нечего говорить, что я хотел бы продолжать общение с вами, тем более, что это общение установилось само собой, помимо нашего желания, благодаря общности наших мыслей и целей.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="d1d06370-4c3b-454c-b95d-5349c0093a42" rend="petit left">
+      <p id="d1d06370-4c3b-454c-b95d-5349c0093a42" rend="petit">
        От всего сердца желаю полного успеха вашей книге и прошу вас писать мне об этом и о себе.
       </p>
      </note>
@@ -156,7 +185,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="0425fbc1-623b-4566-9f37-4e1cb92583f4" rend="petit left">
+      <p id="0425fbc1-623b-4566-9f37-4e1cb92583f4" rend="petit">
        <name placement="comments" ref="1503" type="person">
         Альберт Блэк (Albert Blake)
        </name>
@@ -164,7 +193,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="3d32c055-6a64-48fa-9f59-3108ebb34da4" rend="left" style="margin-bottom: -1.5em;">
+      <p id="3d32c055-6a64-48fa-9f59-3108ebb34da4" style="margin-bottom: -1.5em;">
        <pb n="196"/>
       </p>
      </note>

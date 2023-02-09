@@ -9,17 +9,41 @@
                 <title type="main">Письмо Т. А. Берс от 20 марта 1863 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Т. А. Берс, 20 марта 1863 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 61. М.: Гос. изд. «Художественная литература», 1953. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 61</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">8-9</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -94,10 +123,10 @@
     <opener index="false">
      8. Т. А. Берс.1863 г. Марта 20...23. Я. П.
     </opener>
-    <p id="cc7593d5-0e62-4f3f-b057-9a43464da765" rend="Obrashenie left">
+    <p id="cc7593d5-0e62-4f3f-b057-9a43464da765" rend="Obrashenie">
      Mademoiselle!
     </p>
-    <p id="f9577267-411f-4dca-bc19-8e0c1e9a3444" rend="left">
+    <p id="f9577267-411f-4dca-bc19-8e0c1e9a3444">
      Aimer ou avoir aimé cela suffit!... Ne demandez rien ensuite. On n’a pas d’autre perle à trouver dans les plis ténébreux de la vie. Aimer est un accomplissement.
      <ref target="#note1">
       1
@@ -126,7 +155,7 @@
       </p>
      </div>
     </div>
-    <p id="13c242a2-7aa6-40d5-b000-3d07715c3f06" rend="left">
+    <p id="13c242a2-7aa6-40d5-b000-3d07715c3f06">
      La jeune fille n’est qu’une lueur de rêve et n’est pas encore une statue.
      <ref target="#note3">
       3
@@ -136,7 +165,7 @@
      </note>
      —
     </p>
-    <p id="e3922553-f9f0-4ee9-a49b-5878dea8e09b" rend="left">
+    <p id="e3922553-f9f0-4ee9-a49b-5878dea8e09b">
      Кабыла i..... паганец.
      <ref target="#note4">
       4
@@ -145,7 +174,7 @@
       Смысл этих слов не выяснен.
      </note>
     </p>
-    <p id="62412c09-cb2e-4066-8c76-207d2c40a15c" rend="left">
+    <p id="62412c09-cb2e-4066-8c76-207d2c40a15c">
      В центре земли находится камень алатырь, в центре человека находится пупок. Как непостижимы пути Провидения! О, младшая сестра жены своего мужа! В центре
      <hi>
       его
@@ -168,7 +197,7 @@
      </note>
      не может есть ботвиньи. Лошадь возвращается к своему стойлу. Игра случайностей преследует сына праха. Возьми и неси его выше.
     </p>
-    <p id="ad9cf034-1aa7-4d03-bfbb-809781916eda" rend="left">
+    <p id="ad9cf034-1aa7-4d03-bfbb-809781916eda">
      Я видел сон:
      <ref target="#note6">
       6
@@ -258,7 +287,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="3f87a2e9-e416-4183-a744-6f7c76d4324a" rend="petit left">
+      <p id="3f87a2e9-e416-4183-a744-6f7c76d4324a" rend="petit">
        <name placement="comments" ref="7286" type="person">
         Татьяна Андреевна Берс
        </name>

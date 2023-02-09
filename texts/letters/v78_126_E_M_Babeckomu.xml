@@ -9,17 +9,41 @@
                 <title type="main">Письмо Е. М. Бабецкому от 28 апреля 1908 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Е. М. Бабецкому, 28 апреля 1908 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 78. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 78</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">125-126</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -97,16 +126,16 @@
     <p id="d12b3b05-eaca-43e7-a4b6-445a4988f27a" rend="right">
      Ясная Поляна.
     </p>
-    <p id="c5cb439e-5396-4dbf-b21f-c42ba7fb7480" rend="Obrashenie left">
+    <p id="c5cb439e-5396-4dbf-b21f-c42ba7fb7480" rend="Obrashenie">
      <name placement="text" ref="822" type="person">
       Ефим Моисеевич
      </name>
      ,
     </p>
-    <p id="9c1ec02b-83d8-495b-8b77-9792e9ae7176" rend="left">
+    <p id="9c1ec02b-83d8-495b-8b77-9792e9ae7176">
      Благодарю вас за присланные документы, они очень интересны, но из них еще не видно явного доказательства невиновности этого несчастного. Если таковые будут у вас в руках и не трудно вам будет, пришлите их мне, очень вам буду благодарен.
     </p>
-    <p id="307f2c58-7c2a-4cbd-b60c-859d3a593a8c" rend="left">
+    <p id="307f2c58-7c2a-4cbd-b60c-859d3a593a8c">
      Желаю вам всего лучшего. Прощайте.
     </p>
     <p id="36b4c5b4-180e-4793-9ded-9493f0c80e9f" rend="right">
@@ -115,7 +144,7 @@
      </name>
      .
     </p>
-    <p id="abc30c12-bc8f-457e-a9b4-a3834fa88f43" rend="left">
+    <p id="abc30c12-bc8f-457e-a9b4-a3834fa88f43">
      28 апр. 1908.
     </p>
     <noteGrp type="comments">
@@ -125,7 +154,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="42e2fbd0-e9ed-4199-af22-5c48d98b019b" rend="petit left">
+      <p id="42e2fbd0-e9ed-4199-af22-5c48d98b019b" rend="petit">
        Письма
        <name placement="comments" ref="822" type="person">
         Ефима Моисеевича Бабецкого
@@ -134,7 +163,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="a4a0d3ac-e0d1-4bb1-a109-127a40c10eb5" rend="left">
+      <p id="a4a0d3ac-e0d1-4bb1-a109-127a40c10eb5">
        <pb n="126"/>
       </p>
      </note>

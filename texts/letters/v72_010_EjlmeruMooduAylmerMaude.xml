@@ -9,17 +9,41 @@
                 <title type="main">Письмо Эйльмеру Мооду (Aylmer Maude).. от 12 января 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Эйльмеру Мооду (Aylmer Maude).., 12 января 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">27-31</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -97,7 +127,7 @@
     <p id="01fdd0e2-4dbc-4a12-a304-7dde1216af53" rend="right">
      Москва.
     </p>
-    <p id="406ce9a4-2c01-4a92-8ab3-bc04195d2493" rend="Obrashenie left">
+    <p id="406ce9a4-2c01-4a92-8ab3-bc04195d2493" rend="Obrashenie">
      Любезный
      <choice>
       <reg>
@@ -109,7 +139,7 @@
      </choice>
      ,
     </p>
-    <p id="4f820a92-bbc1-43bc-aa69-6823801aa623" rend="left">
+    <p id="4f820a92-bbc1-43bc-aa69-6823801aa623">
      <choice>
       <reg>
        Получил
@@ -172,7 +202,7 @@
        печатания
       </reg>
       <orig>
-       печатанiя
+       печатанія
       </orig>
      </choice>
      перевода
@@ -188,7 +218,7 @@
           Воскресения
          </reg>
          <orig>
-          Воскресенiя
+          Воскресенія
          </orig>
         </choice>
        </corr>
@@ -379,7 +409,7 @@
        настроении
       </reg>
       <orig>
-       настроенiи
+       настроеніи
       </orig>
      </choice>
      , я даже радуюсь всей той
@@ -388,7 +418,7 @@
        неприятности
       </reg>
       <orig>
-       непрiятности
+       непріятности
       </orig>
      </choice>
      , которая] связана
@@ -473,7 +503,7 @@
        приучая
       </reg>
       <orig>
-       прiучая
+       пріучая
       </orig>
      </choice>
      меня
@@ -507,7 +537,7 @@
        суждений
       </reg>
       <orig>
-       сужденiй
+       сужденій
       </orig>
      </choice>
      , только
@@ -524,7 +554,7 @@
        требованиям
       </reg>
       <orig>
-       требованiямъ
+       требованіямъ
       </orig>
      </choice>
      <choice>
@@ -546,7 +576,7 @@
      </choice>
      и очень полезны.
     </p>
-    <p id="1ca8c810-d98e-43e3-9a24-6b4c76f640a8" rend="left">
+    <p id="1ca8c810-d98e-43e3-9a24-6b4c76f640a8">
      Archer
      <ref target="#note4">
       4
@@ -612,7 +642,7 @@
        издание
       </reg>
       <orig>
-       изданiе
+       изданіе
       </orig>
      </choice>
      in bookform
@@ -663,7 +693,7 @@
        неприятности
       </reg>
       <orig>
-       непрiятности
+       непріятности
       </orig>
      </choice>
      и
@@ -672,7 +702,7 @@
        неудовольствия
       </reg>
       <orig>
-       неудовольствiя
+       неудовольствія
       </orig>
      </choice>
      <choice original_editorial_correction="франц[узского]">
@@ -743,7 +773,7 @@
      </choice>
      .
     </p>
-    <p id="99de735a-b02d-4ad4-ab37-9fa1cc23342c" rend="left">
+    <p id="99de735a-b02d-4ad4-ab37-9fa1cc23342c">
      <choice>
       <reg>
        Все
@@ -815,7 +845,7 @@
        заглавия
       </reg>
       <orig>
-       заглавiя
+       заглавія
       </orig>
      </choice>
      пьесы,
@@ -886,7 +916,7 @@
          Воскресения
         </reg>
         <orig>
-         Воскресенiя
+         Воскресенія
         </orig>
        </choice>
       </corr>
@@ -1008,7 +1038,7 @@
        копиях
       </reg>
       <orig>
-       копiяхъ
+       копіяхъ
       </orig>
      </choice>
      . Коректуры же,
@@ -1033,7 +1063,7 @@
        последния
       </reg>
       <orig>
-       послѣднiя
+       послѣднія
       </orig>
      </choice>
      5
@@ -1117,7 +1147,7 @@
      </choice>
      спина, и общая слабость.
     </p>
-    <p id="5bf539f7-4358-4380-9b01-e2052901e4fa" rend="left">
+    <p id="5bf539f7-4358-4380-9b01-e2052901e4fa">
      Прощайте,
      <choice>
       <reg>
@@ -1153,7 +1183,7 @@
        Любящий
       </reg>
       <orig>
-       Любящiй
+       Любящій
       </orig>
      </choice>
      <choice>
@@ -1169,7 +1199,7 @@
      </name>
      .
     </p>
-    <p id="a0450c3e-0413-43fa-bdd8-bbea80d20663" rend="left">
+    <p id="a0450c3e-0413-43fa-bdd8-bbea80d20663">
      12 Янв. 99.
     </p>
     <noteGrp type="comments">
@@ -1187,7 +1217,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="2361de41-9c16-4911-9bd4-f05684597fb8" rend="petit left">
+      <p id="2361de41-9c16-4911-9bd4-f05684597fb8" rend="petit">
        Алексей (Эйльмер) Францевич Моод (Aylmer Maude) (p. 1858 г.) был лично знаком с Толстым с 1887 г., одно время разделял некоторые его взгляды, но впоследствии отошел от этого мировоззрения. Английский биограф и переводчик Толстого, автор двухтомной биографии: «The Life of Tolstoy» (I — «First Fifty Years», London, 1908, sixth edition 1911. II — «Later Years», London, 1910, third edition 1911); книги о духоборах «A Peculiar People, the Doukhobors», New York, Funk and Wagnalis C°, 1904 и других сочинений. В 1898 г. Моод ездил в Канаду для содействия сношениям духоборов с властями при их водворении там, помогал духоборам материально из литературных заработков. См.
        <hi style="opdelimiter">
         письма

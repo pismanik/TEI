@@ -9,17 +9,41 @@
                 <title type="main">Письмо Гр. С. Н. Толстому от 17 апреля 1853 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо гр. С. Н. Толстому, 17 апреля 1853 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">231-234</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -110,7 +140,7 @@
      </choice>
      1853.
     </p>
-    <p id="6d4fbe5b-b05e-4e6f-ae55-ccbaee093003" rend="left">
+    <p id="6d4fbe5b-b05e-4e6f-ae55-ccbaee093003">
      Опять наша переписка прервалась и не по моей
      <choice>
       <reg>
@@ -184,7 +214,7 @@
      </choice>
      не знаю что, и каждую почту — ничего.
     </p>
-    <p id="982b0769-d1ae-420f-a712-a0ffc2b6e923" rend="left">
+    <p id="982b0769-d1ae-420f-a712-a0ffc2b6e923">
      Ты
      <choice>
       <reg>
@@ -415,7 +445,7 @@
        нынешний
       </reg>
       <orig>
-       нынѣшнiй
+       нынѣшній
       </orig>
      </choice>
      <choice>
@@ -457,7 +487,7 @@
        представление
       </reg>
       <orig>
-       представленiе
+       представленіе
       </orig>
      </choice>
      это и
@@ -673,7 +703,7 @@
        представление
       </reg>
       <orig>
-       представленiе
+       представленіе
       </orig>
      </choice>
      . Не найдешь ли ты путь
@@ -913,7 +943,7 @@
        Куринский
       </reg>
       <orig>
-       Куринскiй
+       Куринскій
       </orig>
      </choice>
      или
@@ -922,7 +952,7 @@
        Кабардинский
       </reg>
       <orig>
-       Кабардинскiй
+       Кабардинскій
       </orig>
      </choice>
      <choice>
@@ -956,7 +986,7 @@
        Артиллерию
       </reg>
       <orig>
-       Артиллерiю
+       Артиллерію
       </orig>
      </choice>
      , ежели это возможно, для меня очень важно.
@@ -1214,7 +1244,7 @@
        отличие
       </reg>
       <orig>
-       отличiе
+       отличіе
       </orig>
      </choice>
      , а до
@@ -1270,7 +1300,7 @@
      </choice>
      .
     </p>
-    <p id="80bf63bd-6a84-49c4-82e2-a6985623ad08" rend="left">
+    <p id="80bf63bd-6a84-49c4-82e2-a6985623ad08">
      Я на
      <choice>
       <reg>
@@ -1399,7 +1429,7 @@
      </choice>
      . Скажи Эникееву, ежели ты его увидишь.
     </p>
-    <p id="bca0bca5-69a7-4d27-adc2-aaac2c3a3a51" rend="left">
+    <p id="bca0bca5-69a7-4d27-adc2-aaac2c3a3a51">
      <choice>
       <reg>
        Литературные

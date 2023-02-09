@@ -9,17 +9,41 @@
                 <title type="main">Письмо С. П. Чижову от 2 августа 1900 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. П. Чижову, 2 августа 1900 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">434-434</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 348. С. Л. Чижову.1900 г. Августа 2. Я. П.
     </opener>
-    <p id="20de4daf-26f2-4073-aff0-ee838d70b447" rend="Obrashenie left">
+    <p id="20de4daf-26f2-4073-aff0-ee838d70b447" rend="Obrashenie">
      Дорогой
      <choice>
       <reg>
@@ -120,7 +150,7 @@
      </choice>
      ,
     </p>
-    <p id="f95f55e0-91d3-4b81-9d4f-34d95d79022a" rend="left">
+    <p id="f95f55e0-91d3-4b81-9d4f-34d95d79022a">
      Вчера только
      <choice>
       <reg>
@@ -186,7 +216,7 @@
        положении
       </reg>
       <orig>
-       положенiи
+       положеніи
       </orig>
      </choice>
      <choice>
@@ -221,7 +251,7 @@
        нуждающиеся
       </reg>
       <orig>
-       нуждающiеся
+       нуждающіеся
       </orig>
      </choice>
      <choice>
@@ -306,7 +336,7 @@
        сочувствие
       </reg>
       <orig>
-       сочувствiе
+       сочувствіе
       </orig>
      </choice>
      <choice>
@@ -410,7 +440,7 @@
        сочувствие
       </reg>
       <orig>
-       сочувствiе
+       сочувствіе
       </orig>
      </choice>
      его мужественному поступку,
@@ -449,7 +479,7 @@
      </choice>
      .
     </p>
-    <p id="c76c9a99-868a-4712-8d0e-7568e6a4183d" rend="left">
+    <p id="c76c9a99-868a-4712-8d0e-7568e6a4183d">
      Если нужны
      <choice>
       <reg>
@@ -508,7 +538,7 @@
        смирением
       </reg>
       <orig>
-       смиренiемъ
+       смиреніемъ
       </orig>
      </choice>
      продолжать нести посланное
@@ -525,7 +555,7 @@
        гонение
       </reg>
       <orig>
-       гоненiе
+       гоненіе
       </orig>
      </choice>
      . Пишу не своей рукой, потому что все
@@ -554,7 +584,7 @@
        Любящий
       </reg>
       <orig>
-       Любящiй
+       Любящій
       </orig>
      </choice>
      <choice>
@@ -575,7 +605,7 @@
      </choice>
      Толстой.
     </p>
-    <p id="17512d30-9858-4893-9dca-41d08bf90e3c" rend="left">
+    <p id="17512d30-9858-4893-9dca-41d08bf90e3c">
      3 Августа 1900 г.
     </p>
     <noteGrp type="comments">
@@ -585,7 +615,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="45c16635-0bd4-4c04-b595-3038b4c976d7" rend="petit left">
+      <p id="45c16635-0bd4-4c04-b595-3038b4c976d7" rend="petit">
        О С. П. Чижове
        <ref target="file:///Volume_72_S.P.CHizhovu_222.xml">
         см. письмо № 222

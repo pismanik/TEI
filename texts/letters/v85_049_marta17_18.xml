@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову с 17 марта 1885 г. по 18 марта 1885 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 17 марта 1885 г. — 18 марта 1885 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 85. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 85</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">154-157</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      49.1885 г. Марта 17—18. Симеиз.
     </opener>
-    <p id="2c3f4b85-5af4-4c1d-8001-19a55a8ca90d" rend="left">
+    <p id="2c3f4b85-5af4-4c1d-8001-19a55a8ca90d">
      <choice>
       <reg>
        Получил
@@ -200,7 +230,7 @@
         христианском
        </reg>
        <orig>
-        христiанскомъ
+        христіанскомъ
        </orig>
       </choice>
       .
@@ -236,7 +266,7 @@
        заглавии
       </reg>
       <orig>
-       заглавiи
+       заглавіи
       </orig>
      </choice>
      . —
@@ -254,7 +284,7 @@
        раздробления
       </reg>
       <orig>
-       раздробленiя
+       раздробленія
       </orig>
      </choice>
      ; но вообще
@@ -337,7 +367,7 @@
     <p id="8cc9fbba-42cb-4698-a74a-4ad2ed63fffc" rend="right">
      Толстой.
     </p>
-    <p id="bad9708c-d09d-4cd4-9383-0e75d65b6840" rend="left">
+    <p id="bad9708c-d09d-4cd4-9383-0e75d65b6840">
      <choice>
       <reg>
        Петербург
@@ -347,18 +377,18 @@
       </orig>
      </choice>
     </p>
-    <p id="554cf4f6-7880-404c-9ae2-12e45f3798fc" rend="left">
+    <p id="554cf4f6-7880-404c-9ae2-12e45f3798fc">
      32
      <choice>
       <reg>
        Миллионная
       </reg>
       <orig>
-       Миллiонная
+       Милліонная
       </orig>
      </choice>
     </p>
-    <p id="0ac29b7f-75dd-4253-a211-bed3dc6b92a0" rend="left">
+    <p id="0ac29b7f-75dd-4253-a211-bed3dc6b92a0">
      В. Г.
      <hi style="opdelimiter">
       Черткову.
@@ -375,12 +405,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="27ccb60d-3aa3-49a0-bc7b-9f8e393a6535" rend="petit left">
+      <p id="27ccb60d-3aa3-49a0-bc7b-9f8e393a6535" rend="petit">
        Письмо это является ответом на письмо Черткова от 9 марта, написанное приблизительно через неделю после свидания его с Толстым в Москве, откуда Толстой, как уже указано, уехал 6 марта, сначала в Дятьково, Брянского уезда Орловской губ., где находился в то время больной кн. Л. Д. Урусов, потом, вместе с ним, в Крым, в Симеиз (об этой поездке см. подробности в т. 83, письма к С. А. Толстой за время 7—18 марта 1885 гг.).
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="f27e930c-b4df-454f-9e4c-12763f09769c" rend="petit left">
+      <p id="f27e930c-b4df-454f-9e4c-12763f09769c" rend="petit">
        Приводим письмо Черткова с некоторыми сокращениями: «
        <choice original_editorial_correction="Л[ев]">
         <sic>

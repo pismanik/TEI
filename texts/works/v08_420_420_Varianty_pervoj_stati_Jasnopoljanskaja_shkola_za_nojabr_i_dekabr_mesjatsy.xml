@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v08_420_420_Varianty_pervoj_stati_Jasnopoljanskaja_shkola_za_nojabr_i_dekabr_mesjatsy">
-                    [Варианты первой статьи: «Яснополянская школа зa ноябрь и декабрь месяцы»]. Tolstoy Digital
+                    [Варианты первой статьи: «Яснополянская школа зa ноябрь и декабрь месяцы»]. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Яснополянская школа за ноябрь и декабрь месяцы.</title>
                 <title type="sub" resp="volume_editor">Статья 1-я. Варианты</title>
-                <title type="bibl">Толстой Л. Н. [Варианты первой статьи: «Яснополянская школа зa ноябрь и декабрь месяцы»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 8. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. [Варианты первой статьи: «Яснополянская школа зa ноябрь и декабрь месяцы»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 8. М.: Гос. изд. «Художественная литература», 1936. С. 420.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1862"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#ver" target="work_main"/>
@@ -119,7 +144,7 @@
      </hi>
     </head>
     <div>
-     <p id="b7abcfa7-2f1d-42c1-ac16-6b925b56acfb" rend="left">
+     <p id="b7abcfa7-2f1d-42c1-ac16-6b925b56acfb">
       <hi rend="em">
        5 Марта 1860.
       </hi>
@@ -130,10 +155,10 @@
     <head rend="center margin_16px_0px_4px_0px notindent">
      ВАРИАНТЫ ПЕРВОЙ СТАТЬИ «ЯСНО-ПОЛЯНСКАЯШКОЛА ЗА НОЯБРЬ И ДЕКАБРЬ МЕСЯЦЫ».
     </head>
-    <p id="54e754b6-d0c9-48f4-9f95-088bb7012719" rend="left">
+    <p id="54e754b6-d0c9-48f4-9f95-088bb7012719">
      Стр. 30, строка 18 св.
     </p>
-    <p id="814327fc-c6c6-4644-9fc1-98b951487365" rend="left">
+    <p id="814327fc-c6c6-4644-9fc1-98b951487365">
      <hi rend="em">
       После слов:
      </hi>
@@ -277,10 +302,10 @@
      </choice>
      .
     </p>
-    <p id="cd7cfeed-adce-469e-9dcf-94afad2ebf01" rend="left">
+    <p id="cd7cfeed-adce-469e-9dcf-94afad2ebf01">
      Стр. 31, строка 13 св.
     </p>
-    <p id="a60a22ac-8835-426b-b5f7-575fddaaecd7" rend="left">
+    <p id="a60a22ac-8835-426b-b5f7-575fddaaecd7">
      <hi rend="em">
       Вместо слов:
      </hi>
@@ -444,10 +469,10 @@
      </choice>
      ребятами.
     </p>
-    <p id="16b8ceaa-45a3-49ea-8203-9d57c5daad28" rend="left">
+    <p id="16b8ceaa-45a3-49ea-8203-9d57c5daad28">
      Стр. 32, строка 15 св.
     </p>
-    <p id="be39f7a6-aaf0-409c-b49b-681fb5a9ca29" rend="left">
+    <p id="be39f7a6-aaf0-409c-b49b-681fb5a9ca29">
      <hi rend="em">
       Вместо:
      </hi>
@@ -512,9 +537,7 @@
      </choice>
      другую,
     </p>
-    <p id="86ecd9f1-ddaa-48f0-b446-0c71da0ba034" rend="normal center">
-     ————
-    </p>
+    <metamark function="line"/>
    </div>
   </body>
  </text>

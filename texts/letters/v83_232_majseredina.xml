@@ -9,17 +9,41 @@
                 <title type="main">Письмо С.А.Толстой с 11 мая 1883 г. по 20 мая 1883 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 11 мая 1883 г. — 20 мая 1883 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 83. М.: Гос. изд. «Художественная литература», 1938. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 83</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">375-375</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -77,8 +106,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -93,7 +123,7 @@
     <opener index="false">
      * 232.1883 г. Середина мая.
     </opener>
-    <p id="8afed4b6-fcb8-4298-89d1-8fb8235961fd" rend="left">
+    <p id="8afed4b6-fcb8-4298-89d1-8fb8235961fd">
      1) Если
      <choice>
       <reg>
@@ -137,7 +167,7 @@
      </choice>
      , то послать ей рукопись.
     </p>
-    <p id="361f6f59-fcba-4c1d-a38c-ad149e736b50" rend="left">
+    <p id="361f6f59-fcba-4c1d-a38c-ad149e736b50">
      2) Если
      <choice>
       <reg>
@@ -159,7 +189,7 @@
        требование
       </reg>
       <orig>
-       требованiе
+       требованіе
       </orig>
      </choice>
      <choice>
@@ -167,12 +197,12 @@
        сочинения
       </reg>
       <orig>
-       сочиненiя
+       сочиненія
       </orig>
      </choice>
      , то послать ему старое.
     </p>
-    <p id="7d3525aa-484c-46a8-84b7-92bdb39ebd69" rend="left">
+    <p id="7d3525aa-484c-46a8-84b7-92bdb39ebd69">
      3)
      <choice original_editorial_correction="Дмитр[ию]">
       <sic>
@@ -187,7 +217,7 @@
         </reg>
         <orig>
          <name placement="text" ref="2600" type="person">
-          Дмитрiю
+          Дмитрію
          </name>
         </orig>
        </choice>
@@ -231,7 +261,7 @@
      </choice>
      и дать 10 р.
     </p>
-    <p id="5a16ee7d-36a6-483d-8167-d77c9d04bc88" rend="left">
+    <p id="5a16ee7d-36a6-483d-8167-d77c9d04bc88">
      4) Отдать пуски
      <ref target="#note4">
       4

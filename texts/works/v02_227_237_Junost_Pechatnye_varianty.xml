@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v02_227_237_Junost_Pechatnye_varianty">
-                    Юность. Печатные варианты. Tolstoy Digital
+                    Юность. Печатные варианты. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Юность.</title>
                 <title type="sub">Печатные варианты</title>
-                <title type="bibl">Толстой Л. Н. Юность. Печатные варианты // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 2. М.: Гос. изд. «Художественная литература», 1935. С.</title>
+                <title type="bibl">Толстой Л. Н. Юность. Печатные варианты // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 2. М.: Гос. изд. «Художественная литература», 1935. С. 227–237.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1857"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#fiction" target="sphere"/>
@@ -280,7 +305,7 @@
       Эта же замена и в следующих абзацах.
      </hi>
     </p>
-    <p id="dcb3d4eb-2bc4-4776-95c1-67fe51f02bdc" rend="left pages2">
+    <p id="dcb3d4eb-2bc4-4776-95c1-67fe51f02bdc" rend="pages2">
      <pb n="228"/>
     </p>
     <lb/>
@@ -416,7 +441,7 @@
        <lb/>
       </cell>
       <cell>
-       <p id="d3ef23b1-57ff-46ed-be52-c80529b89730" rend="notindent">
+       <p id="d3ef23b1-57ff-46ed-be52-c80529b89730">
         к нам, в черном сюртуке или фраке, — вместе с своими большими выпущенными воротничками рубашки, халатом, старостами, приказчиками, прогулками на гумно и охотой, много потерял в моих глазах. Карл Иваныч.
        </p>
       </cell>
@@ -568,7 +593,7 @@
      </row>
     </table>
     <lb/>
-    <p id="f0b41763-35d0-464e-877b-e7c2e93dd56b" rend="left pages2">
+    <p id="f0b41763-35d0-464e-877b-e7c2e93dd56b" rend="pages2">
      <pb n="230"/>
     </p>
     <lb/>
@@ -1168,7 +1193,7 @@
        <lb/>
       </cell>
       <cell>
-       <p id="27ca3b1b-5123-44e8-9a0c-3be7b409b72b" rend="notindent">
+       <p id="27ca3b1b-5123-44e8-9a0c-3be7b409b72b">
         после смерти ношусь невидимкой по всем комнатам бабушкиного дома и подслушиваю искренние слезы
        </p>
       </cell>
@@ -1239,7 +1264,7 @@
        </p>
       </cell>
       <cell>
-       <p id="c3dba7a9-889b-4422-9b77-f778dbe484a0" rend="left">
+       <p id="c3dba7a9-889b-4422-9b77-f778dbe484a0">
         — Эх, сударь! не тужите, перемелется, мука будет.
         <lb/>
         Хотя это изречение, не раз и впоследствии поддерживавшее твердость моего духа, несколько утешило
@@ -1778,7 +1803,7 @@
          66
         </ref>
         <note index="false" xml:id="note66">
-         <span data-class="paragraph" id="55a66f13-45e0-4c0a-9f9a-404156ca1c84" rend="left">
+         <span data-class="paragraph" id="55a66f13-45e0-4c0a-9f9a-404156ca1c84">
           <choice original_editorial_correction="[ребенок из хорошей семьи;]">
            <sic/>
            <corr>
@@ -1797,7 +1822,7 @@
          67
         </ref>
         <note index="false" xml:id="note67">
-         <span data-class="paragraph" id="9e3334ff-04a5-4d2e-b2bf-04092def45a1" rend="left">
+         <span data-class="paragraph" id="9e3334ff-04a5-4d2e-b2bf-04092def45a1">
           <choice original_editorial_correction="[человек порядочный.]">
            <sic/>
            <corr>
@@ -1873,7 +1898,7 @@
          68
         </ref>
         <note index="false" xml:id="note68">
-         <span data-class="paragraph" id="0bb40b1c-2d3b-4128-bc5e-8bd60b684ffd" rend="left">
+         <span data-class="paragraph" id="0bb40b1c-2d3b-4128-bc5e-8bd60b684ffd">
           <choice original_editorial_correction="[Как вы смешны!]">
            <sic/>
            <corr>
@@ -1966,9 +1991,7 @@
      </row>
     </table>
     <lb/>
-    <p id="579682fb-5d11-4962-ba0a-30c0b7337c2d" rend="center">
-     ————
-    </p>
+    <metamark function="line"/>
    </div>
   </body>
  </text>

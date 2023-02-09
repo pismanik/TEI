@@ -9,17 +9,41 @@
                 <title type="main">Письмо Т. А. Ергольской от 4 декабря 1850 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Т. А. Ергольской, 4 декабря 1850 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">62-63</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,10 +128,10 @@
      </name>
      .1850 г. Декабря 4. Тула?
     </opener>
-    <p id="9ac89351-c4cc-4ef1-b0f7-5da5c692b191" rend="Obrashenie left">
+    <p id="9ac89351-c4cc-4ef1-b0f7-5da5c692b191" rend="Obrashenie">
      Chère tante!
     </p>
-    <p id="cbefa0ea-fba6-4103-9cd4-4620cd09f9b4" rend="left">
+    <p id="cbefa0ea-fba6-4103-9cd4-4620cd09f9b4">
      J'ai été obligé de passer la nuit à Toula à cause de mon congé qui va m’être apporté,
      <ref target="#note1">
       1
@@ -176,7 +206,7 @@
      </choice>
      .
     </p>
-    <p id="9f1587c5-7be8-49a6-9028-4d1a1b8f7ea6" rend="left">
+    <p id="9f1587c5-7be8-49a6-9028-4d1a1b8f7ea6">
      Adieu, je baise vos
      <choice original_editorial_correction="main[s]">
       <sic>
@@ -194,14 +224,14 @@
       1850.
      </hi>
     </p>
-    <p id="706e9693-c758-43a4-a80d-043ef2131b0f" rend="Obrashenie petit left">
+    <p id="706e9693-c758-43a4-a80d-043ef2131b0f" rend="Obrashenie petit">
      <pb n="63"/>
      <hi style="npdelimiter">
       Дорогая
      </hi>
      тетенька!
     </p>
-    <p id="6ad03d37-0525-425d-b431-881682aec711" rend="petit left">
+    <p id="6ad03d37-0525-425d-b431-881682aec711" rend="petit">
      Я был принужден переночевать в Туле из-за отпуска, который сейчас получу
      <ref target="#note6">
       6

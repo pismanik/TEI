@@ -9,17 +9,41 @@
                 <title type="main">Письмо С.А.Толстой от 10 ноября 1883 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 10 ноября 1883 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 83. М.: Гос. изд. «Художественная литература», 1938. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 83</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">404-406</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -116,7 +146,7 @@
       вечера.
      </hi>
     </p>
-    <p id="cb405203-31bd-4220-9643-439d637655ba" rend="left">
+    <p id="cb405203-31bd-4220-9643-439d637655ba">
      <choice>
       <reg>
        Спал
@@ -285,7 +315,7 @@
        неприятности
       </reg>
       <orig>
-       непрiятности
+       непріятности
       </orig>
      </choice>
      , хлопоты
@@ -781,7 +811,7 @@
       </reg>
       <orig>
        <name placement="text" ref="2600" type="person">
-        Дмитрiй
+        Дмитрій
        </name>
       </orig>
      </choice>
@@ -884,7 +914,7 @@
      </choice>
      и спрячьте.
     </p>
-    <p id="f39a31d8-af5b-493a-9141-b21e3258b4aa" rend="left">
+    <p id="f39a31d8-af5b-493a-9141-b21e3258b4aa">
      <choice>
       <reg>
        Портрет
@@ -1151,7 +1181,7 @@
      </choice>
      . —
     </p>
-    <p id="d3f9b634-5eb7-41bd-a3a8-8e7ac9452542" rend="left">
+    <p id="d3f9b634-5eb7-41bd-a3a8-8e7ac9452542">
      <choice>
       <reg>
        Целую
@@ -1181,7 +1211,7 @@
      .
     </p>
     <lb/>
-    <p id="9cdf0e8e-c937-43c9-aa2c-0acaba5b925a" rend="left">
+    <p id="9cdf0e8e-c937-43c9-aa2c-0acaba5b925a">
      <hi>
       На конверте:
      </hi>

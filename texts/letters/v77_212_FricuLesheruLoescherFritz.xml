@@ -9,17 +9,41 @@
                 <title type="main">Письмо Фрицу Лешеру (Loescher Fritz) от 2 сентября 1907 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Фрицу Лешеру (Loescher Fritz), 2 сентября 1907 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 77. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 77</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">183-184</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,13 +127,13 @@
      </name>
      .1907г. Сентября 2/15. Я. П.
     </opener>
-    <p id="7ff51808-6ea6-4694-9830-3702ba0a3989" rend="left">
+    <p id="7ff51808-6ea6-4694-9830-3702ba0a3989">
      Mit grossem Interesse habe ich Ihre Briefe gelesen und bitte um Entschuldigung, dass ich Ihnen bis jetzt nicht geantwortet habe. Ihre Stimmung die Pflichte der Gegenwart zu erfüllen und an die Zukunft nicht zu denken, sondern dem Leben freien Lauf zu lassen, kann ich nur gutheissen. Ich habe ein Buch betitelt «Für alle Tage» zusammengestellet und lese darin täglich. Auch Ihnen empfehle ich es sehr. Es wird Sie in der Stimmung befestigen, welche Ihnen ersehnt ist.
     </p>
     <p id="7b587821-eaf5-418f-a8f0-7786ba1627d0" rend="right">
      Leo Tolstoy.
     </p>
-    <p id="0074719d-2893-47d2-bf74-d3c4262d9d9f" rend="left">
+    <p id="0074719d-2893-47d2-bf74-d3c4262d9d9f">
      15/2 Sept.
      <hi style="opdelimiter">
       1907.
@@ -126,7 +155,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="069fc584-07d0-44c6-bc31-7b9416534963" rend="petit left">
+      <p id="069fc584-07d0-44c6-bc31-7b9416534963" rend="petit">
        15/2 сент. 1907.
       </p>
      </note>
@@ -136,7 +165,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="bc8780af-4f76-40d4-8ffb-b1f1feb2ad7e" rend="petit left">
+      <p id="bc8780af-4f76-40d4-8ffb-b1f1feb2ad7e" rend="petit">
        Ответ на два письма Фрица Лёшера из Люббена (Германия) от 27 июля и 17 августа н. ст. 1907 г. Первое письмо в архиве не сохранилось, во втором Лёшер писал о каких-то тяжелых семейных осложнениях, без первого письма неясных. Упоминается бракоразводный процесс, решение Лёшера отказаться от иска и от участия во всяких судебных процессах, противоречащих христианской морали. Такое решение дало ему душевное удовлетворение.
       </p>
      </note>

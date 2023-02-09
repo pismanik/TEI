@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. И. Рулеву от 28 сентября 1909 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. И. Рулеву, 28 сентября 1909 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 80. М.: Гос. изд. «Художественная литература», 1955. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 80</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">116-117</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -101,10 +130,10 @@
     <p id="144cbd46-f53e-49fa-aef9-73b906f6633b" rend="right">
      28 сентября 09 г. Ясная Поляна.
     </p>
-    <p id="bf2d2d7c-426d-43b9-bff4-ca7271d5ff13" rend="Obrashenie left">
+    <p id="bf2d2d7c-426d-43b9-bff4-ca7271d5ff13" rend="Obrashenie">
      Любезный брат,
     </p>
-    <p id="dc4266b8-c240-4ff2-9ff8-6ee677751eae" rend="left">
+    <p id="dc4266b8-c240-4ff2-9ff8-6ee677751eae">
      Очень рад был твоему письму. Посылаю тебе несколько книг и желаю, чтобы они тебе были и приятны и полезны.
     </p>
     <noteGrp type="comments">
@@ -114,7 +143,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="dcedf16d-eea6-4af7-a749-aa6a09b06917" rend="petit left">
+      <p id="dcedf16d-eea6-4af7-a749-aa6a09b06917" rend="petit">
        Ответ на письмо крестьянина
        <name placement="comments" ref="11946" type="person">
         Василия Ивановича Рулева
@@ -123,7 +152,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="8ccb9662-1b35-4d60-ac0a-d0969136494d" rend="emptyline left">
+      <p id="8ccb9662-1b35-4d60-ac0a-d0969136494d" rend="emptyline">
        <pb n="117"/>
       </p>
      </note>

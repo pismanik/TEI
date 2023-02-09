@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову от 6 октября 1891 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 6 октября 1891 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 87. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 87</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">106-107</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 300.1891 г. Октября 6? Я. П.
     </opener>
-    <p id="cf5009b4-7cab-4321-929c-90998907d86b" rend="left">
+    <p id="cf5009b4-7cab-4321-929c-90998907d86b">
      Очень
      <choice>
       <reg>
@@ -195,7 +225,7 @@
        пострадавшие
       </reg>
       <orig>
-       пострадавшiе
+       пострадавшіе
       </orig>
      </choice>
      <choice>
@@ -251,7 +281,7 @@
      </choice>
      . —
     </p>
-    <p id="dc5480f8-3eed-426c-8aa7-da2c404d9bad" rend="left">
+    <p id="dc5480f8-3eed-426c-8aa7-da2c404d9bad">
      Кажется, что
      <choice>
       <reg>
@@ -457,7 +487,7 @@
      </choice>
      считаете ее годящейся.
     </p>
-    <p id="95474bb2-927f-4d57-9b2d-893a2beb6759" rend="left">
+    <p id="95474bb2-927f-4d57-9b2d-893a2beb6759">
      <choice>
       <reg>
        Получил
@@ -493,7 +523,7 @@
      </choice>
      .
     </p>
-    <p id="4731a658-2fd1-4806-8a15-4c06646c2775" rend="left">
+    <p id="4731a658-2fd1-4806-8a15-4c06646c2775">
      Впишите
      <choice>
       <reg>
@@ -509,7 +539,7 @@
        заглавия
       </reg>
       <orig>
-       заглавiя
+       заглавія
       </orig>
      </choice>
      <choice>
@@ -534,7 +564,7 @@
        вегетарианстве
       </reg>
       <orig>
-       вегетарiанствѣ
+       вегетаріанствѣ
       </orig>
      </choice>
      ,
@@ -583,7 +613,7 @@
        предложением
       </reg>
       <orig>
-       предложенiемъ
+       предложеніемъ
       </orig>
      </choice>
      <choice>
@@ -628,7 +658,7 @@
          вегетарианстве
         </reg>
         <orig>
-         вегетарiанствѣ
+         вегетаріанствѣ
         </orig>
        </choice>
       </corr>
@@ -642,7 +672,7 @@
      </note>
      Пока прощайте.
     </p>
-    <p id="100cbdd3-dd27-4334-b5df-4b2651a6d9a2" rend="left">
+    <p id="100cbdd3-dd27-4334-b5df-4b2651a6d9a2">
      <choice>
       <reg>
        От
@@ -675,7 +705,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="748762ae-5012-4aeb-9f66-8948edbc6275" rend="petit left">
+      <p id="748762ae-5012-4aeb-9f66-8948edbc6275" rend="petit">
        Толстой отвечает на недатированное «письмо от конца сентября, в котором Чертков писал: «Жду обратно вашу статью «Первая ступень» для того, чтобы приступить к набору книги».
       </p>
      </note>

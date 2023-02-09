@@ -9,17 +9,41 @@
                 <title type="main">Письмо А. С. Скутиной от 13 ноября 1906 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо А. С. Скутиной, 13 ноября 1906 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 76. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 76</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">232-233</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -101,10 +130,10 @@
     <p id="a58c2573-c8eb-418d-a6f4-d46327468e7f" rend="right">
      13 нояб. 1906.
     </p>
-    <p id="c5617584-495d-4e25-b9ea-5bb3a2d0f815" rend="Obrashenie left">
+    <p id="c5617584-495d-4e25-b9ea-5bb3a2d0f815" rend="Obrashenie">
      Афанасья Семеновна,
     </p>
-    <p id="46a6a5b7-2acf-4dd5-adfd-6ac3576a8f7a" rend="left">
+    <p id="46a6a5b7-2acf-4dd5-adfd-6ac3576a8f7a">
      Я прочел ваши стихи
      <ref target="#note1">
       1
@@ -117,7 +146,7 @@
       искусно.
      </hi>
     </p>
-    <p id="a1d7e3a8-751f-470d-8b6b-3f4679dda253" rend="left">
+    <p id="a1d7e3a8-751f-470d-8b6b-3f4679dda253">
      <pb n="233"/>
      <hi style="npdelimiter">
       Советую
@@ -156,7 +185,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="d6df9dda-fa02-4c76-8e0a-12fa6be58291" rend="petit left">
+      <p id="d6df9dda-fa02-4c76-8e0a-12fa6be58291" rend="petit">
        <name placement="comments" ref="12765" type="person">
         Афанасия Семеновна Скутина
        </name>
@@ -164,7 +193,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="e4d7b098-b42d-4f6c-a524-7bc9770254e5" rend="petit left">
+      <p id="e4d7b098-b42d-4f6c-a524-7bc9770254e5" rend="petit">
        Ответ на письмо Скутиной от 19 октября 1906 г.
       </p>
      </note>

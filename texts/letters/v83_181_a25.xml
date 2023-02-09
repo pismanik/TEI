@@ -9,17 +9,41 @@
                 <title type="main">Письмо С.А.Толстой от 25 июля 1881 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 25 июля 1881 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 83. М.: Гос. изд. «Художественная литература», 1938. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 83</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">297-300</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      181.1881 г. Июля 25. Хутор на Моче.
     </opener>
-    <p id="0e3f89c8-e32f-498c-a7ff-ebe0451b8103" rend="left">
+    <p id="0e3f89c8-e32f-498c-a7ff-ebe0451b8103">
      Завтра — воскресенье, и
      <choice>
       <reg>
@@ -253,7 +283,7 @@
        питие
       </reg>
       <orig>
-       питiе
+       питіе
       </orig>
      </choice>
      кумыса
@@ -296,7 +326,7 @@
        впечатлений
       </reg>
       <orig>
-       впечатлѣнiй
+       впечатлѣній
       </orig>
      </choice>
      у меня не было, ни
@@ -380,7 +410,7 @@
        какие
       </reg>
       <orig>
-       какiя
+       какія
       </orig>
      </choice>
      <choice>
@@ -414,7 +444,7 @@
        последние
       </reg>
       <orig>
-       послѣднiе
+       послѣдніе
       </orig>
      </choice>
      дня два раза
@@ -432,7 +462,7 @@
        историю
       </reg>
       <orig>
-       исторiю
+       исторію
       </orig>
      </choice>
      ,
@@ -668,7 +698,7 @@
        Лечение
       </reg>
       <orig>
-       Леченiе
+       Леченіе
       </orig>
      </choice>
      его, я думаю, ты бы одобрила. Теплую подушечку
@@ -720,7 +750,7 @@
        опиумом
       </reg>
       <orig>
-       опiумомъ
+       опіумомъ
       </orig>
      </choice>
      и
@@ -729,7 +759,7 @@
        опиум
       </reg>
       <orig>
-       опiумъ
+       опіумъ
       </orig>
      </choice>
      внутрь по 10 капель 2 раза. —
@@ -738,7 +768,7 @@
        Диета
       </reg>
       <orig>
-       Дiета
+       Діета
       </orig>
      </choice>
      — куриный
@@ -899,7 +929,7 @@
        диету
       </reg>
       <orig>
-       дiету
+       діету
       </orig>
      </choice>
      . — Нищета
@@ -969,7 +999,7 @@
         </reg>
         <orig>
          <name placement="text" ref="250" type="person">
-          Василiя
+          Василія
          </name>
         </orig>
        </choice>
@@ -1096,7 +1126,7 @@
        10-летний
       </reg>
       <orig>
-       10-лѣтнiй
+       10-лѣтній
       </orig>
      </choice>
      <choice>
@@ -1232,7 +1262,7 @@
        бывший
       </reg>
       <orig>
-       бывшiй
+       бывшій
       </orig>
      </choice>
      на
@@ -1327,7 +1357,7 @@
        татарския
       </reg>
       <orig>
-       татарскiя
+       татарскія
       </orig>
      </choice>
      <choice>
@@ -1415,7 +1445,7 @@
      </choice>
      .
     </p>
-    <p id="21bff348-4ca1-419e-a375-174dc6ed8a96" rend="left">
+    <p id="21bff348-4ca1-419e-a375-174dc6ed8a96">
      <choice>
       <reg>
        Старого
@@ -1557,7 +1587,7 @@
      </choice>
      .
     </p>
-    <p id="4972d30a-bc1d-44a8-a714-0002f8d02a82" rend="left">
+    <p id="4972d30a-bc1d-44a8-a714-0002f8d02a82">
      <choice>
       <reg>
        Все
@@ -1621,14 +1651,14 @@
      </choice>
      жары, а теперь второй день пасмурно, и нынче дождь.
     </p>
-    <p id="507ea259-0d3a-46b9-aec8-c27a1a399dd4" rend="left">
+    <p id="507ea259-0d3a-46b9-aec8-c27a1a399dd4">
      На тульской
      <choice>
       <reg>
        станции
       </reg>
       <orig>
-       станцiи
+       станціи
       </orig>
      </choice>
      мы
@@ -1869,7 +1899,7 @@
      </choice>
      .
     </p>
-    <p id="a63a0f9b-eecd-412d-a689-49effb3c5c07" rend="left">
+    <p id="a63a0f9b-eecd-412d-a689-49effb3c5c07">
      Прощай, милая, рости потихоничку свое брюхо,
      <hi>
       11
@@ -1920,7 +1950,7 @@
      . Помни, что твоя жизнь прекрасная.
     </p>
     <lb/>
-    <p id="04fef901-74c3-445c-9487-0892ca251d00" rend="left">
+    <p id="04fef901-74c3-445c-9487-0892ca251d00">
      <hi>
       На конверте:
      </hi>

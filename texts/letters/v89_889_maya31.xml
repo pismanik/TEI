@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову от 31 мая 1910 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 31 мая 1910 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 89. М.: Гос. изд. «Художественная литература», 1957. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 89</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">188-189</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -94,7 +123,7 @@
     <opener index="false">
      * 889.1910 г. Мая 31. Я. П.
     </opener>
-    <p id="75c38813-d3dc-405e-ab4e-d5df75329ea0" rend="left">
+    <p id="75c38813-d3dc-405e-ab4e-d5df75329ea0">
      <choice original_editorial_correction="В[ладимир]">
       <sic>
        В
@@ -126,12 +155,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="8d2fc529-0de8-4a81-a25d-e4bcc639cffe" rend="petit left">
+      <p id="8d2fc529-0de8-4a81-a25d-e4bcc639cffe" rend="petit">
        Речь идет об англичанке Этель Уэджуд (Ethel Wedgewood), которая в своем длинном письме на английском языке (штемпель отправления: «Stone 6 Jun 10») критиковала принцип непротивления злу насилием. Чертков ответил Этель Уэджуд 15 июня н. с. 1910 г.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="00b785e1-1733-4ecd-922d-57546c5d5044" rend="left emptyline">
+      <p id="00b785e1-1733-4ecd-922d-57546c5d5044" rend="emptyline">
        <pb n="189"/>
       </p>
      </note>

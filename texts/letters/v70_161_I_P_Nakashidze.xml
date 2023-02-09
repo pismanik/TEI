@@ -9,17 +9,41 @@
                 <title type="main">Письмо И. П. Накашидзе с 14 сентября 1897 г. по 15 сентября 1897 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо И. П. Накашидзе, 14 сентября 1897 г. — 15 сентября 1897 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 70. М.: Гос. изд. «Художественная литература», 1954. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 70</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">135-136</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,14 +127,14 @@
      </name>
      .1897 г. Сентября 14—15? Я. П.
     </opener>
-    <p id="fda4670e-20e9-4072-99f5-5801af683ac5" rend="Obrashenie left">
+    <p id="fda4670e-20e9-4072-99f5-5801af683ac5" rend="Obrashenie">
      Дорогой
      <name placement="text" ref="9533" type="person">
       Илья Петрович
      </name>
      ,
     </p>
-    <p id="c84d9544-95af-4066-a7c8-7a2838caf76e" rend="left">
+    <p id="c84d9544-95af-4066-a7c8-7a2838caf76e">
      Податель этого наш друг St. John (Синджон)
      <ref target="#note1">
       1
@@ -144,7 +173,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="e872e233-456f-4c3b-b4c8-e2716e070033" rend="petit left">
+      <p id="e872e233-456f-4c3b-b4c8-e2716e070033" rend="petit">
        <name placement="comments" ref="9533" type="person">
         Илья Петрович Накашидзе
        </name>
@@ -155,7 +184,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="1594db09-7abf-4809-8217-da610a764a20" rend="petit left">
+      <p id="1594db09-7abf-4809-8217-da610a764a20" rend="petit">
        <pb n="136"/>
        <hi style="npdelimiter">
         С

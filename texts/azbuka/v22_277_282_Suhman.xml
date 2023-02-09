@@ -9,18 +9,42 @@
             <title type="bibl">Толстой Л. Н. Азбука // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 22. М.: Гос. изд. «Художественная литература», 1957. С. </title>
             <author>Толстой Лев Николаевич</author>
             <respStmt>
-                <resp>Идея, постановка задач, руководство</resp>
+                <resp>Идея, постановка задач, руководство:</resp>
                 <name>
                     Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                 </name>
-             </respStmt>
+            </respStmt>
             <respStmt>
-                <resp>
-                    Подготовка TEI/XML
-                </resp>
-                <name>
-                    Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                </name>
+                    <resp>
+                        Подготовка TEI/XML:
+                    </resp>
+                    <name>
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>
             </respStmt>
                 <funder>
                     Проект «Слово Толстого»
@@ -29,7 +53,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -41,7 +65,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы были получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -59,7 +83,7 @@
                     </analytic>
                     <monogr>
                         <title level="m">
-                          Полное собрание сочинений.
+                          Полное собрание сочинений: в 90 тт.
                         </title>
                         <imprint>
                             <pubPlace>
@@ -75,7 +99,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -117,7 +141,7 @@
      </hi>
     </head>
     <div type="poem">
-     <lg rend="left">
+     <lg>
       <l id="ac82bba4-3acc-48db-9218-482594ab6963" rend="v">
        <choice>
         <reg>
@@ -412,14 +436,14 @@
       </l>
      </lg>
     </div>
-    <p id="a6aa40f4-c820-4050-9d2e-d0d565984aeb" rend="left emptyline">
+    <p id="a6aa40f4-c820-4050-9d2e-d0d565984aeb" rend="emptyline">
      <pb n="278"/>
     </p>
     <p id="037e03b0-9bbc-40ca-bfaa-90adff602943" rend="centerline">
      — 76 —
     </p>
     <div type="poem">
-     <lg rend="left">
+     <lg>
       <l id="e71581df-ea9e-4ca6-ae88-ae7122b1a46e" rend="v">
        — «
        <choice>
@@ -906,14 +930,14 @@
       </l>
      </lg>
     </div>
-    <p id="8c7126f6-a9ce-4ba5-83f7-9f1e9ade79fb" rend="left emptyline">
+    <p id="8c7126f6-a9ce-4ba5-83f7-9f1e9ade79fb" rend="emptyline">
      <pb n="279"/>
     </p>
     <p id="0879931e-2ca6-4752-a35c-6bcef8010074" rend="centerline">
      — 77 —
     </p>
     <div type="poem">
-     <lg rend="left">
+     <lg>
       <l id="fecfaf6c-2aec-4b0c-85ca-087121b34d89" rend="v">
        «Да
        <choice>
@@ -1437,14 +1461,14 @@
       </l>
      </lg>
     </div>
-    <p id="880db867-9069-48c8-9ba7-3ea9c9e48cce" rend="left emptyline">
+    <p id="880db867-9069-48c8-9ba7-3ea9c9e48cce" rend="emptyline">
      <pb n="280"/>
     </p>
     <p id="c2a2650c-35bc-4bd8-8d7f-2d3e0f2bd122" rend="centerline">
      — 78 —
     </p>
     <div type="poem">
-     <lg rend="left">
+     <lg>
       <l id="9592a026-1f07-496a-ae54-d5e013cf9c77" rend="v">
        <choice>
         <reg>
@@ -1917,14 +1941,14 @@
       </l>
      </lg>
     </div>
-    <p id="ba8839a6-0770-4570-a3ab-3960ff38215d" rend="left emptyline">
+    <p id="ba8839a6-0770-4570-a3ab-3960ff38215d" rend="emptyline">
      <pb n="281"/>
     </p>
     <p id="67ab2391-a20b-4662-98f8-ebf9d3435a10" rend="centerline">
      — 79 —
     </p>
     <div type="poem">
-     <lg rend="left">
+     <lg>
       <l id="7d62c4d5-d8b2-46a2-8e8c-68a8fedd5591" rend="v">
        <choice>
         <reg>
@@ -2279,14 +2303,14 @@
       </l>
      </lg>
     </div>
-    <p id="0ba5ac27-e750-4a92-b7de-270cffe2448b" rend="left emptyline">
+    <p id="0ba5ac27-e750-4a92-b7de-270cffe2448b" rend="emptyline">
      <pb n="282"/>
     </p>
     <p id="ff7ff261-1e52-4f29-9e32-7db80a624fe8" rend="centerline">
      — 80 —
     </p>
     <div type="poem">
-     <lg rend="left">
+     <lg>
       <l id="a6fb38d9-64e9-4f29-8504-53b7986b1b74" rend="v">
        «Гой,
        <choice>

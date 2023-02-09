@@ -9,17 +9,41 @@
                 <title type="main">Письмо А. Ф. Марксу от 10 июля 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо А. Ф. Марксу, 10 июля 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">156-157</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -99,10 +129,10 @@
      .1899 г. Июля 10. Я. П.
     </opener>
     <lb/>
-    <p id="8e4f7040-eca2-4bd6-a231-3b026b48178c" rend="Obrashenie left">
+    <p id="8e4f7040-eca2-4bd6-a231-3b026b48178c" rend="Obrashenie">
      Милостивый Государь
     </p>
-    <p id="347742a2-cb3b-49e1-a12b-f0451b0fe236" rend="Obrashenie1 left">
+    <p id="347742a2-cb3b-49e1-a12b-f0451b0fe236" rend="Obrashenie1">
      <choice>
       <reg>
        <name placement="text" ref="8559" type="person">
@@ -127,7 +157,7 @@
      </choice>
      ,
     </p>
-    <p id="031b99cb-f674-4eac-af1f-cbe7796a80ed" rend="left">
+    <p id="031b99cb-f674-4eac-af1f-cbe7796a80ed">
      Будьте
      <choice>
       <reg>
@@ -290,7 +320,7 @@
        неприятная
       </reg>
       <orig>
-       непрiятная
+       непріятная
       </orig>
      </choice>
      <choice>
@@ -327,7 +357,7 @@
       В № 27 «Нивы», в главе VII второй части «Воскресения» была допущена такая ошибка. После абзаца: «Мужики ехали в ночное кормить лошадей...» напечатан абзац: «Слышь, зарастают луга...», вместо того, чтобы вставить тут два абзаца, напечатанные в главе последними: «Даром землю отдам...» и «Ишь, повадился в барские луга...». В отдельном издании А. Ф. Маркса ошибка исправлена.
      </note>
     </p>
-    <p id="c4b91b57-f2e7-4c78-816f-1388b7400bd6" rend="left">
+    <p id="c4b91b57-f2e7-4c78-816f-1388b7400bd6">
      <choice>
       <reg>
        С
@@ -349,7 +379,7 @@
        уважением
       </reg>
       <orig>
-       уваженiемъ
+       уваженіемъ
       </orig>
      </choice>
      остаюсь готовый

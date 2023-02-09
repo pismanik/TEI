@@ -9,17 +9,41 @@
                 <title type="main">Письмо Полю Дежардену (Paul Desjardins) от 9 ноября 1908 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Полю Дежардену (Paul Desjardins), 9 ноября 1908 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 78. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 78</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">255-257</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,10 +127,10 @@
      </name>
      .1908г. Ноября 9. Я. П.
     </opener>
-    <p id="f98d91f5-3f4a-4211-9c26-80a478e1f0a3" rend="Obrashenie left">
+    <p id="f98d91f5-3f4a-4211-9c26-80a478e1f0a3" rend="Obrashenie">
      Cher confrère,
     </p>
-    <p id="3c9826fe-35ad-40b6-96f4-6b237572566e" rend="left">
+    <p id="3c9826fe-35ad-40b6-96f4-6b237572566e">
      Je vous suis très reconnaissant pour votre bonne lettre pleine d’appréciations que je sens ne pas avoir mérité. Je compatis de tout mon coeur à la douleur que vous avez éprouvée à la perte de votre enfant. Mais à mon âge la
      <hi style="opdelimiter">
       mort,
@@ -112,7 +141,7 @@
      </hi>
      parler de la mienne, me paraît n'être qu’une des conditions de notre existence tellement naturelle que quand même elle est prématurée, elle n’agit point sur moi comme elle agissait jadis: comme quelque chose d’exceptionel et de terrible. Notre vie entre deux éternités, dure-t-elle 100 ou 8 ans, n’est ni plus ni moins grande, et ses résultats pour celui qui meurt, comme pour ceux qui restent, sont les mêmes.
     </p>
-    <p id="9403a59a-e58f-4c83-9111-5f67fa691d83" rend="left">
+    <p id="9403a59a-e58f-4c83-9111-5f67fa691d83">
      Excusez-moi du retard que j’ai mis à vous répondre. La cause en est dans les infirmités de ma vieillesse et quelques travaux, à la nécessité desquels ma vanité me fait croire.
      <ref target="#note1">
       1
@@ -138,7 +167,7 @@
      </note>
      et de Stahovitch. Cela aurait été pour moi plus qu’un plaisir.
     </p>
-    <p id="1a81a22e-162b-4305-bf82-e69823d2355d" rend="left">
+    <p id="1a81a22e-162b-4305-bf82-e69823d2355d">
      Je
      <choice original_editorial_correction="v[ou]s">
       <sic>
@@ -154,16 +183,16 @@
      Léon Tolstoy.
     </p>
     <lb/>
-    <p id="5d20deb8-9a3b-44c7-9e0a-195abb044030" rend="Obrashenie petit left">
+    <p id="5d20deb8-9a3b-44c7-9e0a-195abb044030" rend="Obrashenie petit">
      Дорогой собрат,
     </p>
-    <p id="3386ccd7-d707-4b1f-90f5-8c762dd888ea" rend="petit left">
+    <p id="3386ccd7-d707-4b1f-90f5-8c762dd888ea" rend="petit">
      Очень благодарен вам за ваше доброе письмо, полное переоценки, которой, чувствую, я не заслужил.
     </p>
-    <p id="fc3378ac-9f8c-4752-a115-54ba3ace0592" rend="petit left">
+    <p id="fc3378ac-9f8c-4752-a115-54ba3ace0592" rend="petit">
      От всего сердца соболезную вашему горю, которое вы испытали, потеряв своего ребенка. Но в моем возрасте смерть, не говоря уже о моей собственной смерти, кажется мне только одним из условий нашего существования, столь естественным, что, даже когда она бывает преждевременная, она уже не действует на меня, как действовала раньте: как что-то исключительное и ужасное. Наша жизнь между двумя вечностями, длится ли она 100 лет или 8 лет, ни более, ни менее велика, и последствия ее как для того, кто умирает, так и для тех, кто остается, — одни и те же.
     </p>
-    <p id="7d3a33a9-5704-4305-8fb5-6656f6c3b91f" rend="petit left">
+    <p id="7d3a33a9-5704-4305-8fb5-6656f6c3b91f" rend="petit">
      Простите меня за запоздалый ответ; причина этого мое старческое недомогание и некоторые работы, которые имею смелость считать необходимыми.
      <ref target="#note3">
       3
@@ -180,7 +209,7 @@
      </note>
      и Стаховича. Это было бы для меня больше чем удовольствие.
     </p>
-    <p id="d5bef3ec-4285-49bb-85ce-c022d7ad6695" rend="petit left">
+    <p id="d5bef3ec-4285-49bb-85ce-c022d7ad6695" rend="petit">
      Сердечно жму вам руку.
     </p>
     <p id="10552f75-b255-465f-9760-076d580c9e50" rend="petit right">
@@ -195,7 +224,7 @@
       Черновое.
      </hi>
     </p>
-    <p id="3d859150-b84b-48bd-bd08-fa223be5649c" rend="left">
+    <p id="3d859150-b84b-48bd-bd08-fa223be5649c">
      Очень благодарю за ваше доброе, полное незаслуженной (похвалы) переоценки письмо. Очень соболезную вашему горю и прошу простить меня за поздний ответ. Причина: и болезнь, и слабость, и занятия тем самым делом,
      <choice original_editorial_correction="к[оторое]">
       <sic>
@@ -351,7 +380,7 @@
      </choice>
      по саду и т. п. Совестно.
     </p>
-    <p id="7835c244-5687-4dd4-bc85-2e9db9ec9f52" rend="left">
+    <p id="7835c244-5687-4dd4-bc85-2e9db9ec9f52">
      Очень жалею, что вы не могли последовать
      <choice original_editorial_correction="сове[ту]">
       <sic>
@@ -397,7 +426,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="227ac520-b468-4929-8898-a761f62c247e" rend="petit left">
+      <p id="227ac520-b468-4929-8898-a761f62c247e" rend="petit">
        Ответ на недатированное письмо
        <name placement="comments" ref="4247" type="person">
         Поля Дежардена

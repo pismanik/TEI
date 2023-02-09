@@ -9,17 +9,41 @@
                 <title type="main">Письмо С. К. Кузмину от 31 июля 1904 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. К. Кузмину, 31 июля 1904 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 75. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 75</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">147-148</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,13 +127,13 @@
      </name>
      .1904 г. Июля 31. Я. П.
     </opener>
-    <p id="ed7f36cf-41cb-4cdc-a0e9-dcfab1d69d3b" rend="Obrashenie left">
+    <p id="ed7f36cf-41cb-4cdc-a0e9-dcfab1d69d3b" rend="Obrashenie">
      <name placement="text" ref="7340" type="person">
       Сергей Константинович
      </name>
      ,
     </p>
-    <p id="3fe9c714-45af-4007-abf0-c27f5fc5efca" rend="left">
+    <p id="3fe9c714-45af-4007-abf0-c27f5fc5efca">
      Благодарю вас за присланную книгу.
      <ref target="#note1">
       1
@@ -120,10 +149,10 @@
      </name>
      .
     </p>
-    <p id="d18e94d1-b842-4006-b6d4-aae699bf6560" rend="left">
+    <p id="d18e94d1-b842-4006-b6d4-aae699bf6560">
      1904. 31.VII
     </p>
-    <p id="07d19c2a-6201-4420-9bfa-b31ba2be967e" rend="left emptyline">
+    <p id="07d19c2a-6201-4420-9bfa-b31ba2be967e" rend="emptyline">
      <pb n="148"/>
     </p>
     <noteGrp type="comments">
@@ -133,12 +162,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="6c411d04-58a3-4133-b8b4-8c122cdc2307" rend="petit left">
+      <p id="6c411d04-58a3-4133-b8b4-8c122cdc2307" rend="petit">
        Сергей Константинович Кузмин — журналист. В 1904 г. жил в Петербурге. Служил секретарем комитета и совета попечительств о глухонемых.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="51bfa6f3-c743-4bd6-a4b4-fddc2ac2254c" rend="petit left">
+      <p id="51bfa6f3-c743-4bd6-a4b4-fddc2ac2254c" rend="petit">
        Ответ на письмо Кузмина от 29 июня 1904 г.
       </p>
      </note>

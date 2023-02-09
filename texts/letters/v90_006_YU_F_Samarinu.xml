@@ -9,17 +9,41 @@
                 <title type="main">Письмо Ю. Ф. Самарину от 1 июля 1862 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Ю. Ф. Самарину, 1 июля 1862 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 90. М.: Гос. изд. «Художественная литература», 1958. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 90</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">225-225</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -97,12 +126,12 @@
      </name>
      .1862? г. Июля 1.
     </opener>
-    <p id="557f804e-edbb-45ab-abfa-af0332680cab" rend="Data left">
-     <em>
+    <p id="557f804e-edbb-45ab-abfa-af0332680cab" rend="Data">
+     <hi rend="italic">
       1862? г. Июля 1.
-     </em>
+     </hi>
     </p>
-    <p id="1c8d5879-5030-4501-806e-9e85b819bdac" rend="left">
+    <p id="1c8d5879-5030-4501-806e-9e85b819bdac">
      Первобытность первобытностью, а признаюсь, мучаюсь нетерпением получить письма и журналы. В случае, ежели нельзя прислать с сим посланным, пошлите нарочного. Я расхворался последнее время, и, не будь у меня затеянных дел с здешними молоканами, у
      <choice original_editorial_correction="кот[орых]">
       <sic>
@@ -120,32 +149,32 @@
       </sup>
      </hi>
     </p>
-    <p id="ada8383a-5155-492d-a4d4-8d239d58ce70" rend="left">
+    <p id="ada8383a-5155-492d-a4d4-8d239d58ce70">
      <pb n="226"/>
      <hi class="npdelimiter">
       Еще
      </hi>
      бессовестные просьбы:
     </p>
-    <p id="a4748c77-bbad-4fbc-b46d-f55c92e4207e" rend="left">
-     <em>
+    <p id="a4748c77-bbad-4fbc-b46d-f55c92e4207e">
+     <hi rend="italic">
       ваксы
-     </em>
+     </hi>
      ,
     </p>
-    <p id="5ed678da-ab7d-47a6-a30c-e6257d8ad950" rend="left">
-     <em>
+    <p id="5ed678da-ab7d-47a6-a30c-e6257d8ad950">
+     <hi rend="italic">
       спичек
-     </em>
+     </hi>
      ,
     </p>
-    <p id="efe99232-ffbd-4001-a23d-4203c45de511" rend="left">
+    <p id="efe99232-ffbd-4001-a23d-4203c45de511">
      и
-     <em>
+     <hi rend="italic">
       свечей.
-     </em>
+     </hi>
     </p>
-    <p id="164e7d1c-ab36-4ce5-bb3a-bfdea235fc10" rend="left">
+    <p id="164e7d1c-ab36-4ce5-bb3a-bfdea235fc10">
      Прошу еще раз у вас извинения за хлопоты, очень благодарю за помощь.
     </p>
     <p id="a88e93f7-f889-43b2-9ac7-106e85914c93" rend="right rightindent">
@@ -157,7 +186,7 @@
      </name>
      .
     </p>
-    <p id="7fc4bce5-825a-4fb5-b3bb-1b9adecb0f34" rend="left">
+    <p id="7fc4bce5-825a-4fb5-b3bb-1b9adecb0f34">
      1 июля.
     </p>
     <noteGrp type="comments">
@@ -167,7 +196,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="d4842c05-c1ec-4fb8-a171-3d811aa84a74" rend="petit left">
+      <p id="d4842c05-c1ec-4fb8-a171-3d811aa84a74" rend="petit">
        <name placement="comments" ref="12213" type="person">
         Юрий Федорович Самарин
        </name>

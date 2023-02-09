@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v38_341_342_Pismo_v_Rus_s_rugatelnymi_pismami" resp="volume_editor">
-                    Письмо в «Русь» с ругательными письмами. Tolstoy Digital
+                    Письмо в «Русь» с ругательными письмами. Произведения. Tolstoy Digital
                 </title>
                 <title type="main" resp="volume_editor">Письмо в «Русь» с ругательными письмами.</title>
                 <title type="sub">«В числе получаемых мною ругательных писем...»</title>
-                <title type="bibl">Толстой Л. Н. Письмо в «Русь» с ругательными письмами // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 38. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. Письмо в «Русь» с ругательными письмами // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 38. М.: Гос. изд. «Художественная литература», 1936. С. 341–342.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1909"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#main" target="work_main"/>
@@ -112,7 +137,7 @@
     <head n="level1" type="editorial">
      *[ПИСЬМО В «РУСЬ» С РУГАТЕЛЬНЫМИ ПИСЬМАМИ.]
     </head>
-    <p id="6b1044aa-a3ee-46a9-a1c9-8b9bd2972d69" rend="left">
+    <p id="6b1044aa-a3ee-46a9-a1c9-8b9bd2972d69">
      <choice>
       <reg>
        В
@@ -209,7 +234,7 @@
      </choice>
      Петербурга.
     </p>
-    <p id="929be6cb-2992-48b2-9d57-4c8ca2b3e5f4" rend="left">
+    <p id="929be6cb-2992-48b2-9d57-4c8ca2b3e5f4">
      Для меня письмо это было очень важно, потому что открыло
      <choice>
       <reg>
@@ -269,7 +294,7 @@
        существование
       </reg>
       <orig>
-       существованiе
+       существованіе
       </orig>
      </choice>
      <choice>
@@ -318,7 +343,7 @@
        требования
       </reg>
       <orig>
-       требованiя
+       требованія
       </orig>
      </choice>
      которой
@@ -366,7 +391,7 @@
      </choice>
      .
     </p>
-    <p id="dc58eead-f5d4-4f71-9aa6-2ec7e8dcd4a0" rend="left">
+    <p id="dc58eead-f5d4-4f71-9aa6-2ec7e8dcd4a0">
      Предлагаю
      <choice>
       <reg>
@@ -404,7 +429,7 @@
      </choice>
      .
     </p>
-    <p id="108189c0-9e69-40d2-876c-8dfdae9a4f6b" rend="left">
+    <p id="108189c0-9e69-40d2-876c-8dfdae9a4f6b">
      <choice>
       <reg>
        Вот
@@ -415,7 +440,7 @@
      </choice>
      это письмо.
     </p>
-    <p id="1bee3ede-4be4-408d-9d6f-0f24e97601cc" rend="left">
+    <p id="1bee3ede-4be4-408d-9d6f-0f24e97601cc">
      «
      <choice>
       <reg>
@@ -435,7 +460,7 @@
      </choice>
      !
     </p>
-    <p id="7d818c28-055a-475f-8c35-f927d669818c" rend="left">
+    <p id="7d818c28-055a-475f-8c35-f927d669818c">
      «
      <choice>
       <reg>
@@ -600,7 +625,7 @@
        регулирующий
       </reg>
       <orig>
-       регулирующiй
+       регулирующій
       </orig>
      </choice>
      правильность
@@ -609,7 +634,7 @@
        отношений
       </reg>
       <orig>
-       отношенiй
+       отношеній
       </orig>
      </choice>
      между людьми, и
@@ -701,7 +726,7 @@
        убийство
       </reg>
       <orig>
-       убiйство
+       убійство
       </orig>
      </choice>
      <choice>
@@ -792,14 +817,14 @@
      </choice>
      люди.
     </p>
-    <p id="5c119b4c-1f93-4637-a1ab-0b6c8c6c5fe8" rend="left">
+    <p id="5c119b4c-1f93-4637-a1ab-0b6c8c6c5fe8">
      «Или вы полагаете, что
      <choice>
       <reg>
        убийц
       </reg>
       <orig>
-       убiйцъ
+       убійцъ
       </orig>
      </choice>
      <choice>
@@ -919,7 +944,7 @@
      </choice>
      .
     </p>
-    <p id="a6648812-d490-4b4f-8a72-fb40f7bdbc67" rend="left">
+    <p id="a6648812-d490-4b4f-8a72-fb40f7bdbc67">
      «Но
      <choice>
       <reg>
@@ -988,7 +1013,7 @@
        революционеры
       </reg>
       <orig>
-       революцiонеры
+       революціонеры
       </orig>
      </choice>
      и подобные
@@ -1002,7 +1027,7 @@
      </choice>
      анархисты.
     </p>
-    <p id="2a975eec-c1fb-431f-a127-91b11174e56f" rend="left">
+    <p id="2a975eec-c1fb-431f-a127-91b11174e56f">
      <pb n="342"/>
      «Вы все время натравливаете людей на правительство и на властей и
      <choice>
@@ -1019,7 +1044,7 @@
        всяческия
       </reg>
       <orig>
-       всяческiя
+       всяческія
       </orig>
      </choice>
      <choice>
@@ -1027,7 +1052,7 @@
        насилия
       </reg>
       <orig>
-       насилiя
+       насилія
       </orig>
      </choice>
      и
@@ -1036,7 +1061,7 @@
        убийства
       </reg>
       <orig>
-       убiйства
+       убійства
       </orig>
      </choice>
      , сами оставаясь
@@ -1069,7 +1094,7 @@
        преследований
       </reg>
       <orig>
-       преслѣдованiй
+       преслѣдованій
       </orig>
      </choice>
      . Это не только безнравственно, но прямо гнусно, подло: если бы можно было
@@ -1138,7 +1163,7 @@
        поучений
       </reg>
       <orig>
-       поученiй
+       поученій
       </orig>
      </choice>
      , то
@@ -1161,7 +1186,7 @@
      </choice>
      дать покою ни одного часа.
     </p>
-    <p id="5b45190b-ef35-4942-a43a-b1d4b3aecc93" rend="left">
+    <p id="5b45190b-ef35-4942-a43a-b1d4b3aecc93">
      «
      <choice>
       <reg>
@@ -1220,7 +1245,7 @@
       140
      </ref>
      <note index="false" xml:id="note140">
-      <span data-class="paragraph" id="6b37bf91-e0ce-48f8-9342-649db9dce8c2" rend="left">
+      <span data-class="paragraph" id="6b37bf91-e0ce-48f8-9342-649db9dce8c2">
        <choice original_editorial_correction="[большинство всегда глупо]">
         <sic/>
         <corr>
@@ -1269,7 +1294,7 @@
       141
      </ref>
      <note index="false" xml:id="note141">
-      <span data-class="paragraph" id="0b407f28-5798-4014-a293-5105cb64dd32" rend="left">
+      <span data-class="paragraph" id="0b407f28-5798-4014-a293-5105cb64dd32">
        <choice original_editorial_correction="[меньшинство]">
         <sic/>
         <corr>
@@ -1316,7 +1341,7 @@
      </choice>
      добра».
     </p>
-    <p id="6860236d-68c3-4c41-aca0-d07e4f533b3f" rend="left">
+    <p id="6860236d-68c3-4c41-aca0-d07e4f533b3f">
      Удивительное
      <choice>
       <reg>
@@ -1392,7 +1417,7 @@
        содержания
       </reg>
       <orig>
-       содержанiя
+       содержанія
       </orig>
      </choice>
      , также
@@ -1467,14 +1492,14 @@
      </choice>
      :
     </p>
-    <p id="7d121012-1608-4e7e-a4bb-c7484524925f" rend="left">
+    <p id="7d121012-1608-4e7e-a4bb-c7484524925f">
      «На
      <choice>
       <reg>
        прощание
       </reg>
       <orig>
-       прощанiе
+       прощаніе
       </orig>
      </choice>
      <choice>
@@ -1503,7 +1528,7 @@
      </choice>
      :
     </p>
-    <p id="11f0d748-0394-4f5a-b1ea-cbf76b7a3214" rend="left">
+    <p id="11f0d748-0394-4f5a-b1ea-cbf76b7a3214">
      ― «А когда у
      <choice>
       <reg>
@@ -1566,7 +1591,7 @@
      </choice>
      жизни?»
     </p>
-    <p id="888daf70-f699-462d-a695-e2d9eb4720de" rend="left">
+    <p id="888daf70-f699-462d-a695-e2d9eb4720de">
      <choice>
       <reg>
        Потом
@@ -1577,7 +1602,7 @@
      </choice>
      :
     </p>
-    <p id="f0d6bf1e-d8e6-4dd0-a04d-67359fe10259" rend="left">
+    <p id="f0d6bf1e-d8e6-4dd0-a04d-67359fe10259">
      «
      <choice>
       <reg>
@@ -1678,7 +1703,7 @@
        писаниях
       </reg>
       <orig>
-       писанiяхъ
+       писаніяхъ
       </orig>
      </choice>
      <choice>
@@ -1704,7 +1729,7 @@
        убийц
       </reg>
       <orig>
-       убiйцъ
+       убійцъ
       </orig>
      </choice>
      , которые
@@ -1722,7 +1747,7 @@
        врыванием
       </reg>
       <orig>
-       врыванiемъ
+       врываніемъ
       </orig>
      </choice>
      <choice>
@@ -1756,7 +1781,7 @@
        убийства
       </reg>
       <orig>
-       убiйства
+       убійства
       </orig>
      </choice>
      ,
@@ -1787,7 +1812,7 @@
      </choice>
      смертной казни».
     </p>
-    <p id="2c2a04a2-5e39-4b81-a96c-b1ac63930e52" rend="left">
+    <p id="2c2a04a2-5e39-4b81-a96c-b1ac63930e52">
      Людей
      <choice>
       <reg>
@@ -1825,9 +1850,7 @@
      </choice>
      .
     </p>
-    <p id="97e8a6bc-c11d-4600-9f3d-515595761200" rend="center">
-     ————
-    </p>
+    <metamark function="line"/>
    </div>
   </body>
  </text>

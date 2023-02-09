@@ -4,24 +4,48 @@
         <fileDesc>
              <titleStmt>                
                 <title xml:id="v56_279_280_Zapisnaja_knizhka_1907_g_No_4_dekabr">
-                    Дневники и записные книжки. Tolstoy Digital
+                    Записные книжки. Tolstoy Digital
                 </title>
                 <title type="main">Записная книжка № 4, декабрь 1907 г. </title>
                 <title type="bibl">Толстой Л. Н. [Записная книжка 1907 г. № 4. Записи за декабрь] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 56. М.: Гос. изд. «Художественная литература», 1937. С. </title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                              
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -30,7 +54,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -42,7 +66,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -73,7 +97,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -88,7 +112,9 @@
             <creation>
                 <date when="1907"/>
          </creation>
-            <textClass> 
+            <langUsage>
+  <language ident="ru-petr1708"/>
+</langUsage><textClass> 
                 <catRef ana="#notes" target="type"/>
            </textClass>
         </profileDesc>
@@ -103,13 +129,13 @@
      ЗАПИСНАЯ КНИЖКА 1907 г. № 4.
     </head>
     <div type="entry">
-     <p id="cfe5102b-2b55-40f9-92cd-1782766e710c" rend="left">
+     <p id="cfe5102b-2b55-40f9-92cd-1782766e710c">
       <choice>
        <reg>
         Отсутствие
        </reg>
        <orig>
-        Отсутствiе
+        Отсутствіе
        </orig>
       </choice>
       <choice>
@@ -117,7 +143,7 @@
         религии
        </reg>
        <orig>
-        религiи
+        религіи
        </orig>
       </choice>
       <choice>
@@ -133,7 +159,7 @@
         отсутствие
        </reg>
        <orig>
-        отсутствiе
+        отсутствіе
        </orig>
       </choice>
       работы над
@@ -151,7 +177,7 @@
         сумашествие
        </reg>
        <orig>
-        сумашествiе
+        сумашествіе
        </orig>
       </choice>
       <choice>
@@ -159,7 +185,7 @@
         поучения
        </reg>
        <orig>
-        поученiя
+        поученія
        </orig>
       </choice>
       ,
@@ -168,7 +194,7 @@
         осуждения
        </reg>
        <orig>
-        осужденiя
+        осужденія
        </orig>
       </choice>
       <choice>
@@ -187,16 +213,14 @@
        Ср. Дневник 16 декабря 1907 г., 2.
       </note>
      </p>
-     <p id="b0cb0818-2b03-4a4e-ab85-0a373b4ebacc" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="e1625025-a41f-46dd-aebf-6445c849d8a5" rend="left">
+     <metamark function="line"/>
+     <p id="e1625025-a41f-46dd-aebf-6445c849d8a5">
       <choice>
        <reg>
         Революционные
        </reg>
        <orig>
-        Революцiонныя
+        Революціонныя
        </orig>
       </choice>
       <choice original_editorial_correction="неуспѣх[и]">
@@ -380,7 +404,7 @@
           отсутствие
          </reg>
          <orig>
-          отсутствiе
+          отсутствіе
          </orig>
         </choice>
        </corr>
@@ -390,7 +414,7 @@
         религии
        </reg>
        <orig>
-        религiи
+        религіи
        </orig>
       </choice>
       .
@@ -401,10 +425,8 @@
        Ср. Дневник 16 декабря 1907 г., 3.
       </note>
      </p>
-     <p id="ae5e46a0-52d0-4248-a121-effdba940842" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="9e8192c3-fe29-476e-b335-32c745f88f0a" rend="left">
+     <metamark function="line"/>
+     <p id="9e8192c3-fe29-476e-b335-32c745f88f0a">
       Пора
       <choice>
        <reg>
@@ -439,17 +461,15 @@
        Ср. Дневник 16 декабря 1907 г., 4.
       </note>
      </p>
-     <p id="790f5d25-1c0e-4bc4-9fc4-f70828f94b27" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="d9119313-f2f1-49b1-b801-79125659d604" rend="left">
+     <metamark function="line"/>
+     <p id="d9119313-f2f1-49b1-b801-79125659d604">
       Какое
       <choice>
        <reg>
         безумие
        </reg>
        <orig>
-        безумiе
+        безуміе
        </orig>
       </choice>
       работать для устройства жизни! Живи
@@ -493,7 +513,7 @@
         революционеры
        </reg>
        <orig>
-        революцiонеры
+        революціонеры
        </orig>
       </choice>
       , живя дурно, этой самой дурной жизнью
@@ -513,10 +533,8 @@
        Ср. Дневник 16 декабря 1907 г., 5.
       </note>
      </p>
-     <p id="0cd43bdc-1529-4c6e-90ae-69e2cfa7f6b6" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="952acb61-35e2-4477-89e9-a4c0ab1f80c5" rend="left">
+     <metamark function="line"/>
+     <p id="952acb61-35e2-4477-89e9-a4c0ab1f80c5">
       Но
       <choice>
        <reg>
@@ -549,7 +567,7 @@
         запутавшийся
        </reg>
        <orig>
-        запутавшiйся
+        запутавшійся
        </orig>
       </choice>
       <choice>
@@ -601,17 +619,15 @@
        Ср. Дневник 16 декабря 1907 г., 6.
       </note>
      </p>
-     <p id="f88797c3-8e9d-495a-a3a4-2205d4d2e580" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="f1f7d20c-1d42-4c92-b7bb-849db337b573" rend="left">
+     <metamark function="line"/>
+     <p id="f1f7d20c-1d42-4c92-b7bb-849db337b573">
       Знаю, что общее
       <choice>
        <reg>
         впечатление
        </reg>
        <orig>
-        впечатлѣнiе
+        впечатлѣніе
        </orig>
       </choice>
       <choice>
@@ -686,7 +702,7 @@
        воспользуются.
       </hi>
      </p>
-     <p id="79e9e2ce-74b2-4751-94bd-4de53e4e9258" rend="left">
+     <p id="79e9e2ce-74b2-4751-94bd-4de53e4e9258">
       <pb n="280"/>
       <hi style="npdelimiter">
        Но
@@ -777,10 +793,8 @@
       </choice>
       .
      </p>
-     <p id="d4abb892-c86d-4f66-853d-1c69439de5fa" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="d3922402-f769-4302-a30f-56cafc7bf6ca" rend="left">
+     <metamark function="line"/>
+     <p id="d3922402-f769-4302-a30f-56cafc7bf6ca">
       Поразительный
       <choice>
        <reg>
@@ -795,7 +809,7 @@
         извращения
        </reg>
        <orig>
-        извращенiя
+        извращенія
        </orig>
       </choice>
       мысли у
@@ -825,7 +839,7 @@
           сохранения
          </reg>
          <orig>
-          сохраненiя
+          сохраненія
          </orig>
         </choice>
        </corr>
@@ -866,7 +880,7 @@
           отрицание
          </reg>
          <orig>
-          отрицанiе
+          отрицаніе
          </orig>
         </choice>
        </corr>
@@ -886,7 +900,7 @@
         признание
        </reg>
        <orig>
-        признанiе
+        признаніе
        </orig>
       </choice>
       <choice>
@@ -914,10 +928,8 @@
        Ср. Дневник 16 декабря 1907 г., 7.
       </note>
      </p>
-     <p id="ef432e63-ee26-4620-83cb-c6a6e9d4c515" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="a2877279-3685-4bcd-b604-f3f9c1f0b7d6" rend="left">
+     <metamark function="line"/>
+     <p id="a2877279-3685-4bcd-b604-f3f9c1f0b7d6">
       Роскошь, излишество,
       <choice>
        <reg>
@@ -951,7 +963,7 @@
         отнимание
        </reg>
        <orig>
-        отниманiе
+        отниманіе
        </orig>
       </choice>
       <choice>
@@ -989,10 +1001,8 @@
       </choice>
       .
      </p>
-     <p id="7c2d173b-0681-4d2a-9734-07161a656588" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="4149c615-fca6-45e3-9922-3f512853ed4f" rend="left">
+     <metamark function="line"/>
+     <p id="4149c615-fca6-45e3-9922-3f512853ed4f">
       <choice original_editorial_correction="Физич[еская]">
        <sic>
         Физич
@@ -1036,16 +1046,14 @@
        Ср. Дневник 16 декабря 1907 г., 8.
       </note>
      </p>
-     <p id="91e32c1c-a9f0-4830-b3a0-64a5273355f2" rend="left">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="29139a6c-d65e-4dff-9e3b-461b748032de" rend="centerline center">
       <choice>
        <reg>
         Определения
        </reg>
        <orig>
-        Опредѣленiя
+        Опредѣленія
        </orig>
       </choice>
       <choice original_editorial_correction="мір[а]">
@@ -1058,7 +1066,7 @@
           мира
          </reg>
          <orig>
-          мiра
+          міра
          </orig>
         </choice>
        </corr>
@@ -1069,7 +1077,7 @@
         материи
        </reg>
        <orig>
-        матерiи
+        матеріи
        </orig>
       </choice>
       — Маркса, Энгельса,
@@ -1113,7 +1121,7 @@
         определения
        </reg>
        <orig>
-        опредѣленiя
+        опредѣленія
        </orig>
       </choice>
       Бога.

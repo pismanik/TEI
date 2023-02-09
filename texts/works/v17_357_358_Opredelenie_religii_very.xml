@@ -4,24 +4,48 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v17_357_358_Opredelenie_religii_very">
-                    Определение религии-веры. Tolstoy Digital
+                    Определение религии-веры. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Определение религии-веры</title>
-                <title type="bibl">Толстой Л. Н. Определение религии-веры // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. Определение религии-веры // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С. 357–358.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -30,7 +54,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -42,7 +66,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -73,7 +97,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -88,9 +112,10 @@
             <creation>
                 <date from="1875" to="1877"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#main" target="work_main"/>
@@ -132,10 +157,10 @@
     <p id="4dc836bf-ea01-4bed-9c47-bf757ca55ab7" rend="center">
      (1875—1876 гг.)
     </p>
-    <p id="827a8961-6ab6-41d1-bd7b-bf0d5f8e711e" rend="left">
+    <p id="827a8961-6ab6-41d1-bd7b-bf0d5f8e711e">
      Слово религія-вѣра есть слово понятное и несомнѣнное для всѣхъ вѣрующихъ, но для невѣрующихъ, для людей не имѣющихъ религіи или полагающихъ, что они не имѣютъ ея, слово это требуетъ точнаго опредѣленія, для избѣжанія недоразумѣній. Слово это, и соотвѣтствующее ему понятіе какъ и бòльшая часть словъ отвлеченныхъ (которыхъ я называю метафизическими
      <add n="n545" stage="в подлиннике">
-      <span data-class="paragraph" id="44a52815-c00b-4a2a-b5ed-0d9667f424bb" rend="left">
+      <span data-class="paragraph" id="44a52815-c00b-4a2a-b5ed-0d9667f424bb">
        <choice>
         <reg>
          метафизических
@@ -169,7 +194,7 @@
        значения
       </reg>
       <orig>
-       значенiя
+       значенія
       </orig>
      </choice>
      :
@@ -178,7 +203,7 @@
        значение
       </reg>
       <orig>
-       значенiе
+       значеніе
       </orig>
      </choice>
      личное (
@@ -205,7 +230,7 @@
        значение
       </reg>
       <orig>
-       значенiе
+       значеніе
       </orig>
      </choice>
      всегда ясно и одинаково у
@@ -223,7 +248,7 @@
        значение
       </reg>
       <orig>
-       значенiе
+       значеніе
       </orig>
      </choice>
      весьма разнообразно, смотря по тому
@@ -282,18 +307,18 @@
        религия
       </reg>
       <orig>
-       религiя
+       религія
       </orig>
      </choice>
      .
     </p>
-    <p id="ede26333-a4e9-4118-957b-771c05034519" rend="left">
+    <p id="ede26333-a4e9-4118-957b-771c05034519">
      <choice>
       <reg>
        Религия
       </reg>
       <orig>
-       Религiя
+       Религія
       </orig>
      </choice>
      есть
@@ -334,7 +359,7 @@
       546
      </ref>
      <note index="false" xml:id="note546">
-      <span data-class="paragraph" id="dde5ccee-0aee-4a40-a662-04b50ac65f87" rend="left">
+      <span data-class="paragraph" id="dde5ccee-0aee-4a40-a662-04b50ac65f87">
        <choice>
         <reg>
          моих
@@ -348,7 +373,7 @@
          знаний
         </reg>
         <orig>
-         знанiй
+         знаній
         </orig>
        </choice>
       </span>
@@ -358,7 +383,7 @@
        объяснений
       </reg>
       <orig>
-       объясненiй
+       объясненій
       </orig>
      </choice>
      или
@@ -401,7 +426,7 @@
       547
      </ref>
      <note index="false" xml:id="note547">
-      <span data-class="paragraph" id="dd3a66a4-bdff-4459-941f-fdb6011dc630" rend="left">
+      <span data-class="paragraph" id="dd3a66a4-bdff-4459-941f-fdb6011dc630">
        личной и общей
       </span>
      </note>
@@ -426,7 +451,7 @@
       548
      </ref>
      <note index="false" xml:id="note548">
-      <span data-class="paragraph" id="5bc56b26-126a-4a8b-b062-c6d1d91faa09" rend="left">
+      <span data-class="paragraph" id="5bc56b26-126a-4a8b-b062-c6d1d91faa09">
        не
        <choice>
         <reg>
@@ -558,7 +583,7 @@
        вследствии
       </reg>
       <orig>
-       вслѣдствiи
+       вслѣдствіи
       </orig>
      </choice>
      того я
@@ -631,13 +656,13 @@
      </choice>
      .
     </p>
-    <p id="8fc33342-6c83-4569-bce0-bea7ea9b35a9" rend="left">
+    <p id="8fc33342-6c83-4569-bce0-bea7ea9b35a9">
      <choice>
       <reg>
        Религия
       </reg>
       <orig>
-       Религiя
+       Религія
       </orig>
      </choice>
      по этому
@@ -646,7 +671,7 @@
        определению
       </reg>
       <orig>
-       опредѣленiю
+       опредѣленію
       </orig>
      </choice>
      не только не
@@ -679,7 +704,7 @@
       549
      </ref>
      <note index="false" xml:id="note549">
-      <span data-class="paragraph" id="3b3dacc3-008a-47a8-9193-3669af288222" rend="left">
+      <span data-class="paragraph" id="3b3dacc3-008a-47a8-9193-3669af288222">
        З
        <hi rend="italic">
         ач.:
@@ -690,7 +715,7 @@
          знанию
         </reg>
         <orig>
-         знанiю
+         знанію
         </orig>
        </choice>
       </span>
@@ -701,7 +726,7 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      и
@@ -710,7 +735,7 @@
        всякий
       </reg>
       <orig>
-       всякiй
+       всякій
       </orig>
      </choice>
      <choice>
@@ -726,7 +751,7 @@
       550
      </ref>
      <note index="false" xml:id="note550">
-      <span data-class="paragraph" id="cbe76a5c-686d-4cd5-bd2c-1797ff56f9ef" rend="left">
+      <span data-class="paragraph" id="cbe76a5c-686d-4cd5-bd2c-1797ff56f9ef">
        <hi rend="italic">
         В зачеркнутых словах:
        </hi>
@@ -756,14 +781,14 @@
       551
      </ref>
      <note index="false" xml:id="note551">
-      <span data-class="paragraph" id="1a449372-5f77-4f80-adbc-c70f6dda4743" rend="left">
+      <span data-class="paragraph" id="1a449372-5f77-4f80-adbc-c70f6dda4743">
        на
        <choice>
         <reg>
          уяснении
         </reg>
         <orig>
-         уясненiи
+         уясненіи
         </orig>
        </choice>
        и
@@ -772,7 +797,7 @@
          содействии
         </reg>
         <orig>
-         содѣйствiи
+         содѣйствіи
         </orig>
        </choice>
        <choice>
@@ -780,7 +805,7 @@
          установлению
         </reg>
         <orig>
-         установленiю
+         установленію
         </orig>
        </choice>
        <choice>
@@ -805,7 +830,7 @@
          религии
         </reg>
         <orig>
-         религiи
+         религіи
         </orig>
        </choice>
        ,
@@ -839,7 +864,7 @@
          знания
         </reg>
         <orig>
-         знанiя
+         знанія
         </orig>
        </choice>
       </span>
@@ -850,7 +875,7 @@
        религиозном
       </reg>
       <orig>
-       религiозномъ
+       религіозномъ
       </orig>
      </choice>
      <choice>
@@ -858,19 +883,19 @@
        воззрении
       </reg>
       <orig>
-       воззрѣнiи
+       воззрѣніи
       </orig>
      </choice>
      . —
     </p>
-    <p id="a76fadbe-2f82-4815-ab8d-39a229d42b3a" rend="left">
+    <p id="a76fadbe-2f82-4815-ab8d-39a229d42b3a">
      <pb n="358"/>
      <choice>
       <reg>
        Определение
       </reg>
       <orig>
-       Опредѣленiе
+       Опредѣленіе
       </orig>
      </choice>
      это есть
@@ -879,7 +904,7 @@
        определение
       </reg>
       <orig>
-       опредѣленiе
+       опредѣленіе
       </orig>
      </choice>
      <hi rend="italic">
@@ -902,7 +927,7 @@
        Определение
       </reg>
       <orig>
-       Опредѣленiе
+       Опредѣленіе
       </orig>
      </choice>
      объективное
@@ -952,7 +977,7 @@
       552
      </ref>
      <note index="false" xml:id="note552">
-      <span data-class="paragraph" id="b44afb5d-d47d-4e99-9dff-5cd98f3f3d9a" rend="left">
+      <span data-class="paragraph" id="b44afb5d-d47d-4e99-9dff-5cd98f3f3d9a">
        <hi rend="italic">
         Конец слова оторван.
        </hi>
@@ -987,7 +1012,7 @@
        Христианин
       </reg>
       <orig>
-       Христiанинъ
+       Христіанинъ
       </orig>
      </choice>
      , удовлетворяя
@@ -996,7 +1021,7 @@
        требованиям
       </reg>
       <orig>
-       требованiямъ
+       требованіямъ
       </orig>
      </choice>
      его разума,
@@ -1024,13 +1049,13 @@
         верованиемь
        </reg>
        <orig>
-        вѣрованiемь
+        вѣрованіемь
        </orig>
       </choice>
       .
      </hi>
     </p>
-    <p id="7c09b145-5958-405f-a210-39c7087e9d85" rend="left">
+    <p id="7c09b145-5958-405f-a210-39c7087e9d85">
      И
      <choice>
       <reg>
@@ -1045,7 +1070,7 @@
        верования
       </reg>
       <orig>
-       вѣрованiя
+       вѣрованія
       </orig>
      </choice>
      <choice>
@@ -1112,7 +1137,7 @@
       553
      </ref>
      <note index="false" xml:id="note553">
-      <span data-class="paragraph" id="f29be6e9-3976-45c0-b2d9-fb02b1b62809" rend="left">
+      <span data-class="paragraph" id="f29be6e9-3976-45c0-b2d9-fb02b1b62809">
        и
        <choice original_editorial_correction="необ[ходима]">
         <sic>
@@ -1125,16 +1150,14 @@
       </span>
      </note>
     </p>
-    <p id="629e0081-0727-4ea0-a030-214d539c6386" rend="left">
+    <p id="629e0081-0727-4ea0-a030-214d539c6386">
      Но на
      <unclear>
       наш
      </unclear>
      .
     </p>
-    <p id="01be62a8-7571-4ee8-94d0-bef440021e54" rend="center">
-     ————
-    </p>
+    <metamark function="line"/>
    </div>
   </body>
  </text>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо В редакцию журнала «Die Woche» от 6 февраля 1904 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо в редакцию журнала «Die Woche», 6 февраля 1904 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 75. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 75</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">41-41</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -94,26 +123,26 @@
     <opener index="false">
      * 46. В редакцию журнала «Die Woche».1904г. Февраля 6/19. Я. П.
     </opener>
-    <p id="437afc02-ea83-42d1-933e-5e95393cfd7a" rend="left">
+    <p id="437afc02-ea83-42d1-933e-5e95393cfd7a">
      Berlin.
     </p>
-    <p id="6d87ce1a-6915-4f9a-88b9-f34681ecb86d" rend="Obrashenie left">
+    <p id="6d87ce1a-6915-4f9a-88b9-f34681ecb86d" rend="Obrashenie">
      Redaction «Woche».
     </p>
-    <p id="edbb1589-1a81-401f-a186-b9060bebcea3" rend="left">
+    <p id="edbb1589-1a81-401f-a186-b9060bebcea3">
      Wenden Sie sich England Christchurch Tchertkoff welchem ich einen Artikel über den Krieg kürzlich senden werde.
     </p>
     <p id="aae37999-5141-41f9-8dfd-b70e78e71072" rend="right">
      Tolstoy.
     </p>
     <lb/>
-    <p id="307ff3f0-da86-4a46-b4f6-d793726a444c" rend="petit left">
+    <p id="307ff3f0-da86-4a46-b4f6-d793726a444c" rend="petit">
      Берлин.
     </p>
-    <p id="59c0ae55-6c0a-4553-acd8-02612f6e160b" rend="Obrashenie petit left">
+    <p id="59c0ae55-6c0a-4553-acd8-02612f6e160b" rend="Obrashenie petit">
      Редакция «Woche».
     </p>
-    <p id="5a833985-c3fc-4ccb-808a-38e657647ba4" rend="petit left">
+    <p id="5a833985-c3fc-4ccb-808a-38e657647ba4" rend="petit">
      Обратитесь Англия Christchurch к Черткову, которому я вскоре вышлю статью о войне.
     </p>
     <p id="6507d3ab-601e-4c59-8005-53c11c24ff1d" rend="petit right">
@@ -125,7 +154,7 @@
       * Черновое.
      </hi>
     </p>
-    <p id="711b3287-44a5-4a5f-bdca-61b83972d1bf" rend="left">
+    <p id="711b3287-44a5-4a5f-bdca-61b83972d1bf">
      Meine Ansichten über den gegenwärtigen Krieg hoffe ich kürzlich in einem Artikel in England in Tchertkofs Swobodnoe slowo zu aüssern.
     </p>
     <noteGrp type="comments">
@@ -140,12 +169,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="0510f4a9-e272-4066-96ff-53b92d2fb024" rend="petit left">
+      <p id="0510f4a9-e272-4066-96ff-53b92d2fb024" rend="petit">
        «Die Woche» («Неделя») — еженедельный иллюстрированный журнал, издававшийся в Берлине с 1800 г.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="fd9db913-9154-4b49-9113-43b8dfe3b909" rend="petit left">
+      <p id="fd9db913-9154-4b49-9113-43b8dfe3b909" rend="petit">
        Ответ на телеграмму редакции «Die Woche» от 6/19 февраля 1904 г., в которой редакция просила Толстого написать для журнала передовую статью о русско-японской войне размером в две-три тысячи слов и предлагала гонорар, причитающийся Толстому, употребить на благотворительные цели. Повидимому, Толстой тогда же написал ответ на обороте телеграммы редакции «Die Woche» (черновой вариант), но не послал его. 23 февраля н. с. 1904 г. редакция обратилась к Толстому с письмом, где, выражая опасение, что телеграмма не дошла до Толстого, повторяла содержание своей телеграммы и просила ускорить ответ.
       </p>
      </note>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо С.А.Толстой от 29 мая 1883 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 29 мая 1883 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 83. М.: Гос. изд. «Художественная литература», 1938. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 83</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">378-380</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      235.1883 г. Мая 29. Самарский хутор.
     </opener>
-    <p id="6b778d40-756c-4f92-8715-dc9e51553251" rend="left">
+    <p id="6b778d40-756c-4f92-8715-dc9e51553251">
      Воскресенье утро. Вчера
      <choice>
       <reg>
@@ -282,7 +312,7 @@
      </choice>
      .
     </p>
-    <p id="e6e8e3f7-e140-43a6-b8d4-05fae48d5851" rend="left">
+    <p id="e6e8e3f7-e140-43a6-b8d4-05fae48d5851">
      До
      <choice>
       <reg>
@@ -376,7 +406,7 @@
        дальний
       </reg>
       <orig>
-       дальнiй
+       дальній
       </orig>
      </choice>
      , за Бобровской,
@@ -446,7 +476,7 @@
        Бобровский
       </reg>
       <orig>
-       Бобровскiй
+       Бобровскій
       </orig>
      </choice>
      — вчера давали по 24
@@ -487,13 +517,13 @@
      </choice>
      утроилась.
     </p>
-    <p id="f92cfca9-b067-4b21-94b4-3af916973a6b" rend="left">
+    <p id="f92cfca9-b067-4b21-94b4-3af916973a6b">
      <choice>
       <reg>
        Неприятного
       </reg>
       <orig>
-       Непрiятнаго
+       Непріятнаго
       </orig>
      </choice>
      было то, что я
@@ -612,7 +642,7 @@
         </reg>
         <orig>
          <name placement="text" ref="250" type="person">
-          Василiемъ
+          Василіемъ
          </name>
         </orig>
        </choice>
@@ -661,7 +691,7 @@
        самарский
       </reg>
       <orig>
-       самарскiй
+       самарскій
       </orig>
      </choice>
      <choice>
@@ -823,7 +853,7 @@
        ожидания
       </reg>
       <orig>
-       ожиданiя
+       ожиданія
       </orig>
      </choice>
      урожая
@@ -832,7 +862,7 @@
        хорошия
       </reg>
       <orig>
-       хорошiя
+       хорошія
       </orig>
      </choice>
      . — Я хожу помногу, и когда сижу дома, читаю
@@ -841,7 +871,7 @@
        Библию
       </reg>
       <orig>
-       Библiю
+       Библію
       </orig>
      </choice>
      toujours avec un nouveau plaisir.
@@ -923,7 +953,7 @@
        Лидией
       </reg>
       <orig>
-       Лидiей
+       Лидіей
       </orig>
      </choice>
      ,
@@ -1061,7 +1091,7 @@
        Лидия
       </reg>
       <orig>
-       Лидiя
+       Лидія
       </orig>
      </choice>
      Андреева и
@@ -1089,7 +1119,7 @@
        18-летний
       </reg>
       <orig>
-       18-лѣтнiй
+       18-лѣтній
       </orig>
      </choice>
      малый, огромный
@@ -1107,7 +1137,7 @@
        кончающий
       </reg>
       <orig>
-       кончающiй
+       кончающій
       </orig>
      </choice>
      <choice>
@@ -1149,7 +1179,7 @@
        Лидией
       </reg>
       <orig>
-       Лидiей
+       Лидіей
       </orig>
      </choice>
      , и
@@ -1201,7 +1231,7 @@
        Оболенский
       </reg>
       <orig>
-       Оболенскiй
+       Оболенскій
       </orig>
      </choice>
      ? Это
@@ -1466,7 +1496,7 @@
        управляющий
       </reg>
       <orig>
-       управляющiй
+       управляющій
       </orig>
      </choice>
      , если
@@ -1480,7 +1510,7 @@
      </choice>
      . И жалко, что его не было прежде.
     </p>
-    <p id="12581177-274e-48cd-84ec-5e16b3003356" rend="left">
+    <p id="12581177-274e-48cd-84ec-5e16b3003356">
      <choice original_editorial_correction="Вас[илий]">
       <sic>
        Вас
@@ -1494,7 +1524,7 @@
         </reg>
         <orig>
          <name placement="text" ref="2281" type="person">
-          Василiй
+          Василій
          </name>
         </orig>
        </choice>
@@ -1587,7 +1617,7 @@
        молчания
       </reg>
       <orig>
-       молчанiя
+       молчанія
       </orig>
      </choice>
      <choice>
@@ -1628,7 +1658,7 @@
         </reg>
         <orig>
          <name placement="text" ref="250" type="person">
-          Василiй
+          Василій
          </name>
         </orig>
        </choice>
@@ -1760,7 +1790,7 @@
         </reg>
         <orig>
          <name placement="text" ref="250" type="person">
-          Василiй
+          Василій
          </name>
         </orig>
        </choice>
@@ -1799,7 +1829,7 @@
        кроткий
       </reg>
       <orig>
-       кроткiй
+       кроткій
       </orig>
      </choice>
      , а...
@@ -1866,7 +1896,7 @@
         </reg>
         <orig>
          <name placement="text" ref="250" type="person">
-          Василiи
+          Василіи
          </name>
         </orig>
        </choice>
@@ -1922,7 +1952,7 @@
         </reg>
         <orig>
          <name placement="text" ref="2281" type="person">
-          Василiй
+          Василій
          </name>
         </orig>
        </choice>
@@ -2037,7 +2067,7 @@
        приятен
       </reg>
       <orig>
-       прiятенъ
+       пріятенъ
       </orig>
      </choice>
      ; также
@@ -2082,7 +2112,7 @@
        ожидании
       </reg>
       <orig>
-       ожиданiи
+       ожиданіи
       </orig>
      </choice>
      . Лиза
@@ -2161,7 +2191,7 @@
      </hi>
      но я думаю, и всякая жизнь кажется такою со стороны.
     </p>
-    <p id="0a56f491-aa59-48d3-8e30-e95169aa628a" rend="left">
+    <p id="0a56f491-aa59-48d3-8e30-e95169aa628a">
      Теперь начинаю ждать Сережу, и очень буду
      <choice>
       <reg>
@@ -2239,7 +2269,7 @@
        состоянию
       </reg>
       <orig>
-       состоянiю
+       состоянію
       </orig>
      </choice>
      здоровья,
@@ -2256,7 +2286,7 @@
         состояния
        </reg>
        <orig>
-        состоянiя
+        состоянія
        </orig>
       </choice>
       здоровью.
@@ -2321,7 +2351,7 @@
        неприятно
       </reg>
       <orig>
-       непрiятно
+       непріятно
       </orig>
      </choice>
      думать, что я еще не знаю,
@@ -2467,7 +2497,7 @@
      жизнь и работа, надо выспаться.
     </p>
     <lb/>
-    <p id="71c03770-afd6-4f82-b681-2a8dee189fcb" rend="left">
+    <p id="71c03770-afd6-4f82-b681-2a8dee189fcb">
      <hi>
       На конверте:
      </hi>

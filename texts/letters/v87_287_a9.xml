@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову от 9 апреля 1891 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 9 апреля 1891 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 87. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 87</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">81-82</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 287.1891 г. Апреля 9. Я. П.
     </opener>
-    <p id="c8ab0d30-e5d1-4c14-b9e2-4457f635d19d" rend="left">
+    <p id="c8ab0d30-e5d1-4c14-b9e2-4457f635d19d">
      Письма наши
      <choice>
       <reg>
@@ -149,7 +179,7 @@
       </choice>
      </hi>
     </p>
-    <p id="409ad957-714e-4b1f-b573-aeb7362d3084" rend="left">
+    <p id="409ad957-714e-4b1f-b573-aeb7362d3084">
      <pb n="82"/>
      <hi style="npdelimiter">
       Никифорова
@@ -248,7 +278,7 @@
        изданиях
       </reg>
       <orig>
-       изданiяхъ
+       изданіяхъ
       </orig>
      </choice>
      .
@@ -341,7 +371,7 @@
        религиозному
       </reg>
       <orig>
-       религiозному
+       религіозному
       </orig>
      </choice>
      чувству, женщина по любви
@@ -552,7 +582,7 @@
         </reg>
         <orig>
          <name placement="text" ref="11086" type="person">
-          Евгенiй
+          Евгеній
          </name>
         </orig>
        </choice>
@@ -614,7 +644,7 @@
      .
     </p>
     <lb/>
-    <p id="f99e1167-2fcf-4653-9b03-586e3e648510" rend="left">
+    <p id="f99e1167-2fcf-4653-9b03-586e3e648510">
      <hi>
       На обороте:
      </hi>
@@ -624,7 +654,7 @@
        губерния
       </reg>
       <orig>
-       губернiя
+       губернія
       </orig>
      </choice>
      . Россоша.
@@ -633,7 +663,7 @@
        Владимиру
       </reg>
       <orig>
-       Владимiру
+       Владиміру
       </orig>
      </choice>
      Григорьевичу Черткову.
@@ -645,7 +675,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="0a19a56c-a90c-4eed-ae55-1306704580ba" rend="petit left">
+      <p id="0a19a56c-a90c-4eed-ae55-1306704580ba" rend="petit">
        Ответ на письмо Черткова, не разысканное в архивах Толстого и Черткова и, повидимому, не сохранившееся.
       </p>
      </note>

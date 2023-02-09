@@ -4,25 +4,49 @@
         <fileDesc>
              <titleStmt>                
                 <title xml:id="v58_132_132_1910_08_10">
-                    Дневники и записные книжки. Tolstoy Digital
+                    Дневники. Tolstoy Digital
                 </title>
                 <title type="main">Дневник, для одного себя</title>
                 <title type="sub">10 августа 1910 г.</title>
                 <title type="bibl">Толстой Л. Н. Дневник для одного себя // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 58. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
-                 </respStmt>
+                </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,7 +113,9 @@
             <creation>
                 <date when="1910-08-10"/>
          </creation>          
-            <textClass> 
+            <langUsage>
+  <language ident="ru-petr1708"/>
+</langUsage><textClass> 
                 <catRef ana="#diaries" target="type"/>
            </textClass>
         </profileDesc>
@@ -109,7 +135,7 @@
       </date>
      </dateline>
     </opener>
-    <p id="3efa8cc1-d825-42e8-9b21-edf92b03eca4" rend="left">
+    <p id="3efa8cc1-d825-42e8-9b21-edf92b03eca4">
      Все также тяжело и нездоровится. Хорошо чувствовать себя
      <choice original_editorial_correction="виноват[ымъ]">
       <sic>
@@ -128,9 +154,7 @@
      </choice>
      , и я чувствую.
     </p>
-    <p id="c8d34cc7-7b8c-4bcb-8d0a-4f525d42aae9" style="left">
-     <metamark function="line"/>
-    </p>
+    <metamark function="line"/>
     <p id="f2e00c27-506a-4d4d-a823-08ae532462a6" style="left">
      Помоги
      <choice>
@@ -163,7 +187,7 @@
        всемирный
       </reg>
       <orig>
-       всемiрный
+       всемірный
       </orig>
      </choice>
      ,
@@ -190,7 +214,7 @@
        последние
       </reg>
       <orig>
-       послѣднiе
+       послѣдніе
       </orig>
      </choice>
      дни, часы моей жизни
@@ -222,9 +246,7 @@
      </choice>
      . —
     </p>
-    <p id="736e7a08-4629-4636-beb7-14d042dc15b2" style="left">
-     <metamark function="line"/>
-    </p>
+    <metamark function="line"/>
     <p id="e3c4153d-bfc9-4533-912c-bf7180bb76b1" style="left">
      <choice>
       <reg>
@@ -292,7 +314,7 @@
        желание
       </reg>
       <orig>
-       желанiе
+       желаніе
       </orig>
      </choice>
      — просить
@@ -301,7 +323,7 @@
        прощение
       </reg>
       <orig>
-       прощенiе
+       прощеніе
       </orig>
      </choice>
      и
@@ -411,7 +433,7 @@
        отношения
       </reg>
       <orig>
-       отношенiя
+       отношенія
       </orig>
      </choice>
      <choice>
@@ -450,9 +472,7 @@
      </choice>
      и удержалось бы.
     </p>
-    <p id="941d395e-72e9-4213-8a93-e5b75d279386" style="left">
-     <metamark function="line"/>
-    </p>
+    <metamark function="line"/>
    </div>
   </body>
  </text>

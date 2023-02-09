@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову от 21 октября 1895 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 21 октября 1895 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 87. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 87</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">328-331</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 402.1895 г. Октября 21. Я. П.
     </opener>
-    <p id="6f882bf0-9a82-4a4c-a056-86744bc1a56f" rend="left">
+    <p id="6f882bf0-9a82-4a4c-a056-86744bc1a56f">
      Дорогой
      <choice>
       <reg>
@@ -242,7 +272,7 @@
        приготовления
       </reg>
       <orig>
-       приготовленiя
+       приготовленія
       </orig>
      </choice>
      <choice>
@@ -250,7 +280,7 @@
        кореспонденции
       </reg>
       <orig>
-       кореспонденцiи
+       кореспонденціи
       </orig>
      </choice>
      Пошиной
@@ -291,7 +321,7 @@
        разрешения
       </reg>
       <orig>
-       разрѣшенiя
+       разрѣшенія
       </orig>
      </choice>
      Поши послать статью
@@ -356,7 +386,7 @@
      </choice>
      .
     </p>
-    <p id="c354e2c0-acb6-4e4b-acf2-a37484b30e69" rend="left">
+    <p id="c354e2c0-acb6-4e4b-acf2-a37484b30e69">
      Очень
      <choice>
       <reg>
@@ -437,7 +467,7 @@
        предисловия
       </reg>
       <orig>
-       предисловiя
+       предисловія
       </orig>
      </choice>
      , свою же статью предлагаю
@@ -467,7 +497,7 @@
          кореспонденции
         </reg>
         <orig>
-         кореспонденцiи
+         кореспонденціи
         </orig>
        </choice>
       </corr>
@@ -478,7 +508,7 @@
        разрешения
       </reg>
       <orig>
-       разрѣшенiя
+       разрѣшенія
       </orig>
      </choice>
      Поши на
@@ -487,7 +517,7 @@
        сокращения
       </reg>
       <orig>
-       сокращенiя
+       сокращенія
       </orig>
      </choice>
      и
@@ -496,7 +526,7 @@
        изменения
       </reg>
       <orig>
-       измѣненiя
+       измѣненія
       </orig>
      </choice>
      и на то, чтобы не
@@ -513,7 +543,7 @@
       —
      </hi>
     </p>
-    <p id="4e7b7dcd-5e2d-490b-8ecf-110c7e49e4ae" rend="left">
+    <p id="4e7b7dcd-5e2d-490b-8ecf-110c7e49e4ae">
      <pb n="330"/>
      <hi style="npdelimiter">
       Обо
@@ -549,7 +579,7 @@
         </reg>
         <orig>
          <name placement="text" ref="11086" type="person">
-          Евгенiй
+          Евгеній
          </name>
         </orig>
        </choice>
@@ -628,7 +658,7 @@
        одобрение
       </reg>
       <orig>
-       одобренiе
+       одобреніе
       </orig>
      </choice>
      или
@@ -637,7 +667,7 @@
        изменение
       </reg>
       <orig>
-       измѣненiе
+       измѣненіе
       </orig>
      </choice>
      .
@@ -655,7 +685,7 @@
        Печатание
       </reg>
       <orig>
-       Печатанiе
+       Печатаніе
       </orig>
      </choice>
      можно остановить или задержать. — Очень
@@ -824,7 +854,7 @@
      </note>
      или какому-нибудь французу.
     </p>
-    <p id="a97ef3eb-2d8d-4fb4-9818-0711e6cb8cc2" rend="left">
+    <p id="a97ef3eb-2d8d-4fb4-9818-0711e6cb8cc2">
      Маша теперь
      <choice>
       <reg>
@@ -877,7 +907,7 @@
      </choice>
      .
     </p>
-    <p id="994efa7a-9aaa-4722-b6df-b3b49f8da9ea" rend="left">
+    <p id="994efa7a-9aaa-4722-b6df-b3b49f8da9ea">
      У
      <choice>
       <reg>

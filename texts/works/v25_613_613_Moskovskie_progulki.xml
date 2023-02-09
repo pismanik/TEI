@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v25_613_613_Moskovskie_progulki">
-                    Московские прогулки. Tolstoy Digital
+                    Московские прогулки. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Московские прогулки.</title>
                 <title type="sub" resp="volume_editor">Вариант</title>
-                <title type="bibl">Толстой Л. Н. Московские прогулки // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 25. М.: Гос. изд. «Художественная литература», 1937. С.</title>
+                <title type="bibl">Толстой Л. Н. Московские прогулки // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 25. М.: Гос. изд. «Художественная литература», 1937. С. 613.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1881"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#main" target="work_main"/>
@@ -115,14 +140,14 @@
     <head n="level2" type="chapter">
      [План.]
     </head>
-    <p id="e3f72289-633d-4ed7-a7e0-d0aa0efc1196" rend="left">
+    <p id="e3f72289-633d-4ed7-a7e0-d0aa0efc1196">
      1)
      <choice>
       <reg>
        Прием
       </reg>
       <orig>
-       Прiемъ
+       Пріемъ
       </orig>
      </choice>
      <choice>
@@ -170,14 +195,14 @@
      </choice>
      . Жена.
     </p>
-    <p id="205c4e30-ee1a-4e4c-b0d0-6fb162a598f8" rend="left">
+    <p id="205c4e30-ee1a-4e4c-b0d0-6fb162a598f8">
      2)
      <choice>
       <reg>
        Ляпинский
       </reg>
       <orig>
-       Ляпинскiй
+       Ляпинскій
       </orig>
      </choice>
      <choice>
@@ -190,7 +215,7 @@
      </choice>
      .
     </p>
-    <p id="5b428352-91e7-45bc-96c0-2c42e9366096" rend="left">
+    <p id="5b428352-91e7-45bc-96c0-2c42e9366096">
      3) Толпа
      <choice>
       <reg>
@@ -206,12 +231,12 @@
        прошение
       </reg>
       <orig>
-       прошенiе
+       прошеніе
       </orig>
      </choice>
      милостыни.
     </p>
-    <p id="dcd5c9e0-0748-4a4b-9e16-9fa74f7c0b69" rend="left">
+    <p id="dcd5c9e0-0748-4a4b-9e16-9fa74f7c0b69">
      4)
      <choice>
       <reg>
@@ -227,15 +252,15 @@
        Прошение
       </reg>
       <orig>
-       Прошенiе
+       Прошеніе
       </orig>
      </choice>
      милостыни.
     </p>
-    <p id="62aa5937-4283-44dc-8482-1b772b507425" rend="left">
+    <p id="62aa5937-4283-44dc-8482-1b772b507425">
      5) Старуха упала. «Живая баба». Гимназисты.
     </p>
-    <p id="b8006cd2-4b37-406b-9c31-e20529afa847" rend="left">
+    <p id="b8006cd2-4b37-406b-9c31-e20529afa847">
      6)
      <choice>
       <reg>
@@ -256,10 +281,10 @@
      </choice>
      ряда.
     </p>
-    <p id="38a449b0-768a-4b14-a4e0-b8aa8581d251" rend="left">
+    <p id="38a449b0-768a-4b14-a4e0-b8aa8581d251">
      7) «Сосновка». Иверская. Крестится.
     </p>
-    <p id="e5230730-6f6d-43d9-97f9-0384819038e2" rend="left">
+    <p id="e5230730-6f6d-43d9-97f9-0384819038e2">
      8)
      <choice>
       <reg>
@@ -309,7 +334,7 @@
        Хозяйский
       </reg>
       <orig>
-       Хозяйскiй
+       Хозяйскій
       </orig>
      </choice>
      <choice>
@@ -322,7 +347,7 @@
      </choice>
      .
     </p>
-    <p id="12658fe3-6482-4eb3-a4f8-3627f6c0df0a" rend="left">
+    <p id="12658fe3-6482-4eb3-a4f8-3627f6c0df0a">
      9) Сцена на
      <choice>
       <reg>
@@ -351,7 +376,7 @@
      </choice>
      .
     </p>
-    <p id="a29c43f3-c6a3-4b3b-a0d1-8c7c324ceca7" rend="left">
+    <p id="a29c43f3-c6a3-4b3b-a0d1-8c7c324ceca7">
      10) На
      <choice>
       <reg>
@@ -372,7 +397,7 @@
      </choice>
      .
     </p>
-    <p id="e16e3d61-ef11-41e9-9949-d4c727b19b0b" rend="left">
+    <p id="e16e3d61-ef11-41e9-9949-d4c727b19b0b">
      11)
      <choice>
       <reg>
@@ -435,7 +460,7 @@
      </choice>
      .
     </p>
-    <p id="da5e95f8-0137-4d38-afc3-1010082ac114" rend="left">
+    <p id="da5e95f8-0137-4d38-afc3-1010082ac114">
      12) Спаситель
      <choice>
       <reg>
@@ -455,7 +480,7 @@
      </choice>
      лавочку. Боюсь сказать, что не спаситель.
     </p>
-    <p id="28031249-0063-4e94-8ba9-bd1bace4d863" rend="left">
+    <p id="28031249-0063-4e94-8ba9-bd1bace4d863">
      13) Мальчики
      <choice>
       <reg>
@@ -484,7 +509,7 @@
      </choice>
      .
     </p>
-    <p id="8fd39272-e284-4712-8a02-c5c47e9d055c" rend="left">
+    <p id="8fd39272-e284-4712-8a02-c5c47e9d055c">
      14) Арестанты
      <choice>
       <reg>
@@ -531,14 +556,14 @@
      </choice>
      заплакала».
     </p>
-    <p id="313b35f8-04b9-4990-b7d4-5a08228abbe0" rend="left">
+    <p id="313b35f8-04b9-4990-b7d4-5a08228abbe0">
      15) «
      <choice>
       <reg>
        Евангелие
       </reg>
       <orig>
-       Евангелiе
+       Евангеліе
       </orig>
      </choice>
      <choice>
@@ -564,7 +589,7 @@
        Молчание
       </reg>
       <orig>
-       Молчанiе
+       Молчаніе
       </orig>
      </choice>
      . «A
@@ -573,7 +598,7 @@
        воинский
       </reg>
       <orig>
-       воинскiй
+       воинскій
       </orig>
      </choice>
      <choice>

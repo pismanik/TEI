@@ -9,17 +9,41 @@
                 <title type="main">Письмо С.А.Толстой от 27 июля 1865 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 27 июля 1865 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 83. М.: Гос. изд. «Художественная литература», 1938. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 83</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">102-104</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      42.1865 г. Июля 27? Орел.
     </opener>
-    <p id="32707f62-d48f-443d-9896-e5fd0074934d" rend="left">
+    <p id="32707f62-d48f-443d-9896-e5fd0074934d">
      Бумажку я
      <choice>
       <reg>
@@ -129,7 +159,7 @@
      </note>
      —
     </p>
-    <p id="e089cdeb-2508-4ebf-b495-c523f242011a" rend="left">
+    <p id="e089cdeb-2508-4ebf-b495-c523f242011a">
      Пишу еще
      <choice>
       <reg>
@@ -220,7 +250,7 @@
        пренеприятно
       </reg>
       <orig>
-       пренепрiятно
+       пренепріятно
       </orig>
      </choice>
      заложило.
@@ -253,12 +283,12 @@
        приятно
       </reg>
       <orig>
-       прiятно
+       пріятно
       </orig>
      </choice>
      — интересно. —
     </p>
-    <p id="d2d7bb07-9d77-4038-9453-d3707892e0e4" rend="left">
+    <p id="d2d7bb07-9d77-4038-9453-d3707892e0e4">
      Ботинки
      <choice>
       <reg>
@@ -347,7 +377,7 @@
      </choice>
      .
     </p>
-    <p id="6f45e140-496b-4718-b697-2c698538a1c3" rend="left">
+    <p id="6f45e140-496b-4718-b697-2c698538a1c3">
      Стало быть, ежели придется поохотиться 29, 30 и 31, я буду совершенно
      <choice>
       <reg>
@@ -381,12 +411,12 @@
        предположения
       </reg>
       <orig>
-       предположенiя
+       предположенія
       </orig>
      </choice>
      .
     </p>
-    <p id="a4fc3919-2cee-469b-adb7-cc9b7ccdd3cb" rend="left">
+    <p id="a4fc3919-2cee-469b-adb7-cc9b7ccdd3cb">
      Вышло же, что
      <choice>
       <reg>
@@ -465,7 +495,7 @@
      </choice>
      и желаю, что раньше.
     </p>
-    <p id="be1a3d6f-9235-434c-9eee-e125dcb145ab" rend="left">
+    <p id="be1a3d6f-9235-434c-9eee-e125dcb145ab">
      Никогда мы
      <choice>
       <reg>
@@ -585,7 +615,7 @@
      .
     </p>
     <lb/>
-    <p id="f22471ef-e3bd-455c-9b28-efa1f4d94f97" rend="left">
+    <p id="f22471ef-e3bd-455c-9b28-efa1f4d94f97">
      <hi>
       На четвертой странице:
      </hi>

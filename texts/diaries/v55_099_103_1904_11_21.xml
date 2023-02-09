@@ -4,25 +4,49 @@
         <fileDesc>
              <titleStmt>                
                 <title xml:id="v55_099_103_1904_11_21">
-                    Дневники и записные книжки. Tolstoy Digital
+                    Дневники. Tolstoy Digital
                 </title>
                 <title type="main">Дневник,</title>
                 <title type="sub">21 ноября 1904 г.</title>
                 <title type="bibl">Толстой Л. Н. [Дневник 1904 г.] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 55. М.: Гос. изд. «Художественная литература», 1937. С. </title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
-                 </respStmt>
+                </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,7 +113,9 @@
             <creation>
                 <date when="1904-11-21"/>
          </creation>          
-            <textClass> 
+            <langUsage>
+  <language ident="ru-petr1708"/>
+</langUsage><textClass> 
                 <catRef ana="#diaries" target="type"/>
            </textClass>
         </profileDesc>
@@ -141,7 +167,7 @@
       </date>
      </dateline>
     </opener>
-    <p id="0791b721-1099-4d5b-9c76-b35f44e3b5e9" rend="left">
+    <p id="0791b721-1099-4d5b-9c76-b35f44e3b5e9">
      и
      <choice>
       <reg>
@@ -182,7 +208,7 @@
        Чтения
       </reg>
       <orig>
-       Чтенiя
+       Чтенія
       </orig>
      </choice>
      и боюсь, что
@@ -209,7 +235,7 @@
        другие
       </reg>
       <orig>
-       другiя
+       другія
       </orig>
      </choice>
      ,
@@ -262,7 +288,7 @@
        состояние
       </reg>
       <orig>
-       состоянiе
+       состояніе
       </orig>
      </choice>
      очень хорошо. Все
@@ -280,7 +306,7 @@
        понимание
       </reg>
       <orig>
-       пониманiе
+       пониманіе
       </orig>
      </choice>
      <choice>
@@ -314,7 +340,7 @@
        отделяющий
       </reg>
       <orig>
-       отдѣляющiй
+       отдѣляющій
       </orig>
      </choice>
      <choice>
@@ -446,7 +472,7 @@
        утопающий
       </reg>
       <orig>
-       утопающiй
+       утопающій
       </orig>
      </choice>
      , всегда
@@ -455,7 +481,7 @@
        утопающий
       </reg>
       <orig>
-       утопающiй
+       утопающій
       </orig>
      </choice>
      , не
@@ -464,7 +490,7 @@
        знающий
       </reg>
       <orig>
-       знающiй
+       знающій
       </orig>
      </choice>
      <choice>
@@ -480,7 +506,7 @@
        состояния
       </reg>
       <orig>
-       состоянiя
+       состоянія
       </orig>
      </choice>
      ,
@@ -498,7 +524,7 @@
        мгновение
       </reg>
       <orig>
-       мгновенiе
+       мгновеніе
       </orig>
      </choice>
      <choice>
@@ -514,7 +540,7 @@
        последний
       </reg>
       <orig>
-       послѣднiй
+       послѣдній
       </orig>
      </choice>
      <choice>
@@ -547,7 +573,7 @@
        состоянием
       </reg>
       <orig>
-       состоянiемъ
+       состояніемъ
       </orig>
      </choice>
      ,
@@ -599,7 +625,7 @@
        разрушение
       </reg>
       <orig>
-       разрушенiе
+       разрушеніе
       </orig>
      </choice>
      ,
@@ -608,7 +634,7 @@
        страдания
       </reg>
       <orig>
-       страданiя
+       страданія
       </orig>
      </choice>
      , смерти
@@ -638,7 +664,7 @@
         всякий
        </reg>
        <orig>
-        всякiй
+        всякій
        </orig>
       </choice>
      </hi>
@@ -679,9 +705,7 @@
      </choice>
      самое естественное твое чувство.
     </p>
-    <p id="b7909097-1037-467b-ab08-0bddb430d471" style="left">
-     <metamark function="line"/>
-    </p>
+    <metamark function="line"/>
     <p id="c85485f0-5ff4-48c3-83c4-e4aee29b4fed" style="left">
      2) Когда мы
      <choice>
@@ -787,7 +811,7 @@
        единение
       </reg>
       <orig>
-       единенiе
+       единеніе
       </orig>
      </choice>
      ,
@@ -830,7 +854,7 @@
        недоразумению
       </reg>
       <orig>
-       недоразумѣнiю
+       недоразумѣнію
       </orig>
      </choice>
      <choice>
@@ -901,7 +925,7 @@
         возмущения
        </reg>
        <orig>
-        возмущенiя
+        возмущенія
        </orig>
       </choice>
       <hi>
@@ -939,7 +963,7 @@
        возмущения
       </reg>
       <orig>
-       возмущенiя
+       возмущенія
       </orig>
      </choice>
      — обидчика.
@@ -951,7 +975,7 @@
        сумашедший
       </reg>
       <orig>
-       сумашедшiй
+       сумашедшій
       </orig>
      </choice>
      рвется и
@@ -1029,7 +1053,7 @@
        настоящий
       </reg>
       <orig>
-       настоящiй
+       настоящій
       </orig>
      </choice>
      <choice>
@@ -1100,7 +1124,7 @@
        недоразумению
       </reg>
       <orig>
-       недоразумѣнiю
+       недоразумѣнію
       </orig>
      </choice>
      <choice>
@@ -1327,7 +1351,7 @@
        соединение
       </reg>
       <orig>
-       соединенiе
+       соединеніе
       </orig>
      </choice>
      <choice>
@@ -1406,7 +1430,7 @@
        мировоззрению
       </reg>
       <orig>
-       мiровоззрѣнiю
+       міровоззрѣнію
       </orig>
      </choice>
      <choice>
@@ -1452,14 +1476,14 @@
        соотвѣтственно
       </orig>
      </choice>
-     <choice original_editorial_correction="мiровоззрѣн[iю]">
+     <choice original_editorial_correction="міровоззрѣн[iю]">
       <sic>
        <choice>
         <reg>
          мировоззрен
         </reg>
         <orig>
-         мiровоззрѣн
+         міровоззрѣн
         </orig>
        </choice>
       </sic>
@@ -1469,7 +1493,7 @@
          мировоззрению
         </reg>
         <orig>
-         мiровоззрѣнiю
+         міровоззрѣнію
         </orig>
        </choice>
       </corr>
@@ -1499,7 +1523,7 @@
        Отношение
       </reg>
       <orig>
-       Отношенiе
+       Отношеніе
       </orig>
      </choice>
      добра
@@ -1561,7 +1585,7 @@
        Мировоззрение
       </reg>
       <orig>
-       Мiровоззрѣнiе
+       Міровоззрѣніе
       </orig>
      </choice>
      <choice>
@@ -1854,7 +1878,7 @@
        благорасположения
       </reg>
       <orig>
-       благорасположенiя
+       благорасположенія
       </orig>
      </choice>
      <choice>
@@ -1879,7 +1903,7 @@
        смирения
       </reg>
       <orig>
-       смиренiя
+       смиренія
       </orig>
      </choice>
      , покорности,
@@ -1888,7 +1912,7 @@
        терпения
       </reg>
       <orig>
-       терпѣнiя
+       терпѣнія
       </orig>
      </choice>
      , серьезности мысли,
@@ -1897,7 +1921,7 @@
        бесстрашия
       </reg>
       <orig>
-       безстрашiя
+       безстрашія
       </orig>
      </choice>
      смерти.
@@ -1916,7 +1940,7 @@
        мировоззрения
       </reg>
       <orig>
-       мировоззрѣнiя
+       мировоззрѣнія
       </orig>
      </choice>
      <ref target="#note478">
@@ -2021,7 +2045,7 @@
        возмездия
       </reg>
       <orig>
-       возмездiя
+       возмездія
       </orig>
      </choice>
      духовными благами за потерю
@@ -2512,7 +2536,7 @@
        приближении
       </reg>
       <orig>
-       приближенiи
+       приближеніи
       </orig>
      </choice>
      <choice>
@@ -2529,7 +2553,7 @@
        приближение
       </reg>
       <orig>
-       приближенiе
+       приближеніе
       </orig>
      </choice>
      можно, продолжая
@@ -2538,7 +2562,7 @@
        сравнение
       </reg>
       <orig>
-       сравненiе
+       сравненіе
       </orig>
      </choice>
      , уподобить подъему или
@@ -2547,7 +2571,7 @@
        опусканию
       </reg>
       <orig>
-       опусканiю
+       опусканію
       </orig>
      </choice>
      точки опоры коромысла.
@@ -2556,7 +2580,7 @@
        Желающий
       </reg>
       <orig>
-       Желающiй
+       Желающій
       </orig>
      </choice>
      <choice>
@@ -2841,7 +2865,7 @@
        миросозерцания
       </reg>
       <orig>
-       мiросозерцанiя
+       міросозерцанія
       </orig>
      </choice>
      <hi>
@@ -2859,7 +2883,7 @@
         мировоззрения
        </reg>
        <orig>
-        мiровоззрѣнiя
+        міровоззрѣнія
        </orig>
       </choice>
      </note>
@@ -2953,9 +2977,7 @@
      </choice>
      этого.
     </p>
-    <p id="a59bf7d8-d66e-44db-a71a-779e8fe09415" style="subtitle centerline">
-     <metamark function="line"/>
-    </p>
+    <metamark function="line"/>
     <p id="229244a8-470a-4514-8f1f-2c949a6933f7" style="left">
      <choice>
       <reg>
@@ -2979,7 +3001,7 @@
        верующие
       </reg>
       <orig>
-       вѣрующiе
+       вѣрующіе
       </orig>
      </choice>
      <choice>
@@ -3038,7 +3060,7 @@
        мире
       </reg>
       <orig>
-       мiрѣ
+       мірѣ
       </orig>
      </choice>
      <choice>
@@ -3131,7 +3153,7 @@
        мире
       </reg>
       <orig>
-       мiрѣ
+       мірѣ
       </orig>
      </choice>
      ,
@@ -3189,7 +3211,7 @@
        несчастия
       </reg>
       <orig>
-       несчастiя
+       несчастія
       </orig>
      </choice>
      людей. Этого не
@@ -3232,9 +3254,7 @@
      </note>
      ни разума, ни Бога. —
     </p>
-    <p id="a96b4fc3-24f8-44cd-a8c5-f88205a90317" style="subtitle centerline">
-     <metamark function="line"/>
-    </p>
+    <metamark function="line"/>
     <p id="c800c9e5-9cd8-4ba4-9e2a-5f3e639aeb81" style="left">
      Но
      <choice>
@@ -3275,7 +3295,7 @@
        несчастия
       </reg>
       <orig>
-       несчастiя
+       несчастія
       </orig>
      </choice>
      <choice original_editorial_correction="матер[ьяльныя]">
@@ -3334,7 +3354,7 @@
        последния
       </reg>
       <orig>
-       послѣднiя
+       послѣднія
       </orig>
      </choice>
      <choice>
@@ -3437,7 +3457,7 @@
        несчастий
       </reg>
       <orig>
-       несчастiй
+       несчастій
       </orig>
      </choice>
      <choice>
@@ -3528,7 +3548,7 @@
        несчастием
       </reg>
       <orig>
-       несчастiемъ
+       несчастіемъ
       </orig>
      </choice>
      , всякое матерьяльное зло
@@ -3593,9 +3613,7 @@
      </choice>
      смерти.
     </p>
-    <p id="a827fca1-5cf2-4817-bccc-efe7f132b8ef" style="subtitle centerline">
-     <metamark function="line"/>
-    </p>
+    <metamark function="line"/>
     <p id="de3bd25d-7c60-4845-9ffb-965d3d9386f9" style="left">
      3)
      <choice>
@@ -3674,14 +3692,14 @@
        Нимъ
       </orig>
      </choice>
-     <choice original_editorial_correction="общенiе[мъ]">
+     <choice original_editorial_correction="общеніе[мъ]">
       <sic>
        <choice>
         <reg>
          общение
         </reg>
         <orig>
-         общенiе
+         общеніе
         </orig>
        </choice>
       </sic>
@@ -3691,7 +3709,7 @@
          общением
         </reg>
         <orig>
-         общенiемъ
+         общеніемъ
         </orig>
        </choice>
       </corr>
@@ -3720,7 +3738,7 @@
        отношение
       </reg>
       <orig>
-       отношенiе
+       отношеніе
       </orig>
      </choice>
      <choice>
@@ -3772,7 +3790,7 @@
         сознания
        </reg>
        <orig>
-        сознанiя
+        сознанія
        </orig>
       </choice>
       .
@@ -3824,7 +3842,7 @@
        общения
       </reg>
       <orig>
-       общенiя
+       общенія
       </orig>
      </choice>
      <choice>
@@ -3866,7 +3884,7 @@
        Всякий
       </reg>
       <orig>
-       Всякiй
+       Всякій
       </orig>
      </choice>
      <choice>
@@ -3941,7 +3959,7 @@
        всякий
       </reg>
       <orig>
-       всякiй
+       всякій
       </orig>
      </choice>
      <choice>
@@ -3949,7 +3967,7 @@
        думающий
       </reg>
       <orig>
-       думающiй
+       думающій
       </orig>
      </choice>
      <choice>
@@ -4015,7 +4033,7 @@
         высшия
        </reg>
        <orig>
-        высшiя
+        высшія
        </orig>
       </choice>
      </note>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо Т. А. Ергольской от 7 декабря 1850 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Т. А. Ергольской, 7 декабря 1850 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">63-69</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -101,10 +131,10 @@
     <p id="7442398b-af85-4149-be98-dcf380b63a27" rend="right">
      Jeudi се 7 décembre.
     </p>
-    <p id="7e509127-a9d1-41a7-b722-cb3f80cd0d0c" rend="Obrashenie left">
+    <p id="7e509127-a9d1-41a7-b722-cb3f80cd0d0c" rend="Obrashenie">
      Chère Tante. —
     </p>
-    <p id="4c4feb70-1c3e-4292-812d-a45423b6c9c0" rend="left">
+    <p id="4c4feb70-1c3e-4292-812d-a45423b6c9c0">
      Je suis arrivé à Moscou, mardi à 5 heures du matin, en vie; mais pas en bonne santé, ma fluxion a augmenté et me retient jusqu’à présent chez moi, de sorte que, depuis deux jours que je suis à Moscou je n’ai fait qu’une seule course — je suis allé faire dire un
      <hi>
       Te Deum
@@ -148,7 +178,7 @@
      </note>
      —
     </p>
-    <p id="b118ffb7-854d-432f-929f-9e0314f097bd" rend="left">
+    <p id="b118ffb7-854d-432f-929f-9e0314f097bd">
      Je suis arrivé directement chez le Prince Serge
      <ref target="#note4">
       4
@@ -253,7 +283,7 @@
      </note>
      qui continue à se plaindre de ses parents. —
     </p>
-    <p id="a12d2bc2-3818-47a9-a826-93c7be39def0" rend="left">
+    <p id="a12d2bc2-3818-47a9-a826-93c7be39def0">
      Gomme vous êtes amateur d’histoires tragiques, je vais vous en raconter une qui fait bruit à Moscou. Un certain Mr. Kabiline entretenait une
      <choice original_editorial_correction="certain[e]">
       <sic>
@@ -331,7 +361,7 @@
       ». («Воспоминания Бориса Николаевича Чичерина», II, М. 1929, стр. 106.)
      </note>
     </p>
-    <p id="bcaaeb66-c6be-4672-8735-89e6fd62bb51" rend="left">
+    <p id="bcaaeb66-c6be-4672-8735-89e6fd62bb51">
      Je ne vous ai pas raconté le tour pendable que m’a joué André
      <ref target="#note11">
       11
@@ -438,7 +468,7 @@
      </choice>
      ; au moins il gagne honnêtement sont pain et plus de pain que n’en rapportent 300 paysans.
     </p>
-    <p id="61c7a825-51de-4d24-84be-25ebd9e0d073" rend="left">
+    <p id="61c7a825-51de-4d24-84be-25ebd9e0d073">
      Je baise vos mains et attends une lettre de vous avec
      <choice original_editorial_correction="tout[s]">
       <sic>
@@ -482,7 +512,7 @@
     <p id="c90bb02f-2e81-4240-b2ec-6690f4111208" rend="Obrashenie petit">
      Дорогая тетенька. —
     </p>
-    <p id="da476511-7553-4419-b94f-3c996459ebfa" rend="petit left">
+    <p id="da476511-7553-4419-b94f-3c996459ebfa" rend="petit">
      Приехал я в Москву во вторник, в 5 часов утра, живой, но не здоровый; мой флюс увеличился, я сижу дома и за два дня, что я в Москве, выехал только раз, ездил в часовню Иверской божьей матери,
      <ref target="#note16">
       16
@@ -503,7 +533,7 @@
      </hi>
      —
     </p>
-    <p id="771263ed-6608-436d-910d-d4cecd003e2b" rend="petit left">
+    <p id="771263ed-6608-436d-910d-d4cecd003e2b" rend="petit">
      Приехал я прямо к князю Сергею,
      <ref target="#note18">
       18
@@ -565,7 +595,7 @@
      </note>
      плата 40 р. сер. в месяц с моими дровами, всего обойдется в 50 р. —
     </p>
-    <p id="583433ac-db7f-4595-914b-a8793e6035e2" rend="petit left">
+    <p id="583433ac-db7f-4595-914b-a8793e6035e2" rend="petit">
      Из знакомых видал только Исленьева,
      <ref target="#note22">
       22
@@ -608,7 +638,7 @@
      </note>
      который по-прежнему жалуется на своих родителей. —
     </p>
-    <p id="b831c1cf-bc28-41cb-85ef-d2554c2e528c" rend="petit left">
+    <p id="b831c1cf-bc28-41cb-85ef-d2554c2e528c" rend="petit">
      Так как вы охотница до трагических историй, расскажу вам ту, которая наделала шуму по всей Москве. Некто Кобылин содержал какую-то г-жу Симон, которой дал в услужение двоих мужчин и одну горничную. Этот Кобылин был раньше в связи с г-жей Нарышкиной, рожд. Кнорринг, женщиной из лучшего московского общества и очень на виду. Кобылин продолжал с ней переписываться, несмотря на свою связь с г-жей Симон. И вот в одно прекрасное утро г-жу Симон находят убитой, и верные улики указывают, что убийцы ее — ее собственные люди. Это бы куда ни шло, но при аресте Кобылина полиция нашла письма Нарышкиной с упреками ему, что он ее бросил, и с угрозами по адресу г-жи Симон. Таким образом, и с другими возбуждающими подозрения причинами, предполагают, что убийцы были направлены Нарышкиною.
      <ref target="#note25">
       25
@@ -632,7 +662,7 @@
       ». («Воспоминания Бориса Николаевича Чичерина», II, М. 1929, стр. 106.)
      </note>
     </p>
-    <p id="c8f282dd-ec3d-49c1-baf2-dcd59755af63" rend="petit left">
+    <p id="c8f282dd-ec3d-49c1-baf2-dcd59755af63" rend="petit">
      Я не рассказал вам, какую непростительную штуку проделал со мной
      <name placement="note" ref="12862" type="person">
       Андрей

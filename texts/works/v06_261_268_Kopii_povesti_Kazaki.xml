@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v06_261_268_Kopii_povesti_Kazaki">
-                    [Копии повести «Казаки»]. Tolstoy Digital
+                    [Копии повести «Казаки»]. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Казаки.</title>
                 <title type="sub" resp="volume_editor">Копии</title>
-                <title type="bibl">Толстой Л. Н. [Копии повести «Казаки»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 6. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. [Копии повести «Казаки»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 6. М.: Гос. изд. «Художественная литература», 1936. С. 261–268.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1862"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#ver" target="work_main"/>
@@ -155,7 +180,7 @@
      </choice>
      Станицу.
     </p>
-    <p id="3dce1a7f-cb5a-4dcc-8a7f-818cc3a92be8" rend="left">
+    <p id="3dce1a7f-cb5a-4dcc-8a7f-818cc3a92be8">
      <choice>
       <reg>
        В
@@ -386,7 +411,7 @@
        Неболышие
       </reg>
       <orig>
-       Неболышiе
+       Неболышіе
       </orig>
      </choice>
      усы барина,
@@ -404,7 +429,7 @@
        удовольствию
       </reg>
       <orig>
-       удовольствiю
+       удовольствію
       </orig>
      </choice>
      ,
@@ -482,7 +507,7 @@
        возбуждение
       </reg>
       <orig>
-       возбужденiе
+       возбужденіе
       </orig>
      </choice>
      <del>
@@ -492,7 +517,7 @@
         удовольствие
        </reg>
        <orig>
-        удовольствiе
+        удовольствіе
        </orig>
       </choice>
      </del>
@@ -547,7 +572,7 @@
        белейшие
       </reg>
       <orig>
-       бѣлѣйшiе
+       бѣлѣйшіе
       </orig>
      </choice>
      зубы и дико вскрикивая, и
@@ -644,7 +669,7 @@
        правлению
       </reg>
       <orig>
-       правленiю
+       правленію
       </orig>
      </choice>
      , Ванюша
@@ -739,7 +764,7 @@
        такие
       </reg>
       <orig>
-       такiе
+       такіе
       </orig>
      </choice>
      же,
@@ -816,7 +841,7 @@
        высокия
       </reg>
       <orig>
-       высокiя
+       высокія
       </orig>
      </choice>
      <choice>
@@ -925,7 +950,7 @@
        акации
       </reg>
       <orig>
-       акацiи
+       акаціи
       </orig>
      </choice>
      <choice>
@@ -976,7 +1001,7 @@
        правления
       </reg>
       <orig>
-       правленiя
+       правленія
       </orig>
      </choice>
      ,
@@ -1133,7 +1158,7 @@
        население
       </reg>
       <orig>
-       населенiе
+       населеніе
       </orig>
      </choice>
      находилось на
@@ -1220,7 +1245,7 @@
        правления
       </reg>
       <orig>
-       правленiя
+       правленія
       </orig>
      </choice>
      . Солнце пекло невыносимо жарко и
@@ -1386,7 +1411,7 @@
      </choice>
      есть квартира.
     </p>
-    <p id="3a8785bb-1559-46eb-9148-6cb69e1b785f" rend="left">
+    <p id="3a8785bb-1559-46eb-9148-6cb69e1b785f">
      «А что, любезный!
      <choice>
       <reg>
@@ -1510,7 +1535,7 @@
      </choice>
      будто говоря: видали мы и вашего брата.
     </p>
-    <p id="91a660cc-eb56-4aa0-aaa1-f5de308284f0" rend="left">
+    <p id="91a660cc-eb56-4aa0-aaa1-f5de308284f0">
      «Какая есть!» только
      <choice>
       <reg>
@@ -1628,7 +1653,7 @@
      </choice>
      .
     </p>
-    <p id="6679e139-dfa7-4b69-b0db-6793d4ae9091" rend="left">
+    <p id="6679e139-dfa7-4b69-b0db-6793d4ae9091">
      — «
      <choice>
       <reg>
@@ -1657,7 +1682,7 @@
      </choice>
      .
     </p>
-    <p id="8f9819c7-d5f4-4ef1-896f-38a8a18995e8" rend="left">
+    <p id="8f9819c7-d5f4-4ef1-896f-38a8a18995e8">
      — «
      <choice>
       <reg>
@@ -1712,7 +1737,7 @@
      </choice>
      .
     </p>
-    <p id="8c8519a7-4d01-41bf-86fa-e5c1f7b54338" rend="left">
+    <p id="8c8519a7-4d01-41bf-86fa-e5c1f7b54338">
      «
      <choice>
       <reg>
@@ -1793,7 +1818,7 @@
      </choice>
      . —
     </p>
-    <p id="a4dd6561-e84f-4ff3-a6e7-c1ac5519e468" rend="left">
+    <p id="a4dd6561-e84f-4ff3-a6e7-c1ac5519e468">
      — «Да
      <choice>
       <reg>
@@ -1859,7 +1884,7 @@
        приискал
       </reg>
       <orig>
-       прiискалъ
+       пріискалъ
       </orig>
      </choice>
      квартиру»,
@@ -1907,14 +1932,14 @@
      </choice>
      же?»
     </p>
-    <p id="9d80cb3d-b6b0-4ba9-87b3-2ab185628cee" rend="left">
+    <p id="9d80cb3d-b6b0-4ba9-87b3-2ab185628cee">
      Казалось, всякое
      <choice>
       <reg>
        воспоминание
       </reg>
       <orig>
-       воспоминанiе
+       воспоминаніе
       </orig>
      </choice>
      о
@@ -1932,12 +1957,12 @@
        неприятно
       </reg>
       <orig>
-       непрiятно
+       непріятно
       </orig>
      </choice>
      казаку.
     </p>
-    <p id="180247b3-2195-4023-aa55-c675839480b7" rend="left">
+    <p id="180247b3-2195-4023-aa55-c675839480b7">
      «Разберетесь
      <choice>
       <reg>
@@ -1975,7 +2000,7 @@
      </choice>
      .
     </p>
-    <p id="d42edeaa-4ff1-4961-a9b8-d7cbfb5cc4b5" rend="left">
+    <p id="d42edeaa-4ff1-4961-a9b8-d7cbfb5cc4b5">
      «Тоже старообрядцы,
      <choice>
       <reg>
@@ -2030,7 +2055,7 @@
      </choice>
      казаку.
     </p>
-    <p id="9f7a538f-8a6c-433d-a4fd-c57ae207358c" rend="left">
+    <p id="9f7a538f-8a6c-433d-a4fd-c57ae207358c">
      Не смотря на то, что Оленину приходилось
      <choice>
       <reg>
@@ -2091,7 +2116,7 @@
        широкий
       </reg>
       <orig>
-       широкiй
+       широкій
       </orig>
      </choice>
      <choice>
@@ -2150,7 +2175,7 @@
        отделявший
       </reg>
       <orig>
-       отдѣлявшiй
+       отдѣлявшій
       </orig>
      </choice>
      хату
@@ -2184,7 +2209,7 @@
        акации
       </reg>
       <orig>
-       акацiи
+       акаціи
       </orig>
      </choice>
      наполняли все небольшое пространство и
@@ -2376,7 +2401,7 @@
        линия
       </reg>
       <orig>
-       линiя
+       линія
       </orig>
      </choice>
      , поднимавшаяся
@@ -2390,7 +2415,7 @@
      </choice>
      облаками.
     </p>
-    <p id="86262f45-6c22-4e8d-93db-0c60f2d32bb3" rend="left">
+    <p id="86262f45-6c22-4e8d-93db-0c60f2d32bb3">
      «
      <choice>
       <reg>
@@ -2508,7 +2533,7 @@
        акации
       </reg>
       <orig>
-       акацiи
+       акаціи
       </orig>
      </choice>
      ,
@@ -2867,7 +2892,7 @@
        здешния
       </reg>
       <orig>
-       здѣшнiя
+       здѣшнія
       </orig>
      </choice>
      женщины... даже
@@ -3141,7 +3166,7 @@
      </hi>
      —
     </p>
-    <p id="024e005a-39e6-42f4-a7c9-7ececea7d221" rend="left">
+    <p id="024e005a-39e6-42f4-a7c9-7ececea7d221">
      [
      <hi rend="italic">
       Рукой
@@ -3152,8 +3177,8 @@
      </hi>
      ]
     </p>
-    <p id="6dca8b56-ffd0-4ed0-8fd1-e597a65aad45" rend="left">
-     Оленинъзасталъу полковника ивсѣхъофицеровъ.Цивилизаціякакъни слаба была здѣсь, не понравилась. И стулья, диваны, шкапы, особенно органъ. Но полк[овникъ]б[ылъ],какъонънеожидалъего, но хорошъ.Онъбылъпростякъи добрый неряха, aхотѣлъвсѣхъувѣрить, чтоонъхитрецъипедантъ.Говоритъопоходахъ. Шаб Шавдон Хухъ! много убили. Старыйкапитанъбылъмолчаливъ, но добрая улыбка.Всѣ были наивны ужасно. Говорили толь[ко], когда молч[алъ]Полк[овникъ].Полк[овникъ]застави[лъ]говорить по франц.
+    <p id="6dca8b56-ffd0-4ed0-8fd1-e597a65aad45">
+     Оленинъзасталъу полковника ивсѣхъофицеровъ.Цивилизаціякакъни слаба была здѣсь, не понравилась. И стулья, диваны, шкапы, особенно органъ. Но полк[овникъ]б[ылъ],какъонънеожидалъего, но хорошъ.Онъбылъпростякъи добрый неряха, а хотѣлъ всѣхъ увѣрить, чтоонъхитрецъипедантъ.Говоритъопоходахъ. Шаб Шавдон Хухъ! много убили. Старыйкапитанъбылъмолчаливъ, но добрая улыбка.Всѣ были наивны ужасно. Говорили толь[ко], когда молч[алъ]Полк[овникъ].Полк[овникъ]застави[лъ]говорить по франц.
      <choice original_editorial_correction="Д[ампіони?]Д">
       <sic>
        ДД
@@ -3164,7 +3189,7 @@
      </choice>
      .весельчакъ: пойдемте ко мнѣ! —Нѣтъ, устроюсь прежде. — Приходитеобѣдатьвсякійдень.Гдѣ кварти[ра] X.
     </p>
-    <p id="cfe66a36-bf6e-42a9-92dd-dd3f04fb95b2" rend="left">
+    <p id="cfe66a36-bf6e-42a9-92dd-dd3f04fb95b2">
      О
      <choice>
       <reg>
@@ -3224,17 +3249,17 @@
       * Из копии № 8.
      </hi>
     </head>
-    <p id="c6f902c1-3b50-409e-838b-e291dec48e44" rend="left">
+    <p id="c6f902c1-3b50-409e-838b-e291dec48e44">
      Dmitri Olenine me fait de la peine,
      <ref target="#note71">
       71
      </ref>
      <note index="false" xml:id="note71">
-      <span data-class="paragraph" id="456ebb7c-a397-4eae-abff-37abf66aa9ac" rend="left">
+      <span data-class="paragraph" id="456ebb7c-a397-4eae-abff-37abf66aa9ac">
        [Дмитрий Оленин меня беспокоит,]
       </span>
      </note>
-     говорила про него eго дальняя родственница, тетушка Графиня, долгое время пытавшаяся
+     говорила про него его дальняя родственница, тетушка Графиня, долгое время пытавшаяся
      <pb n="264"/>
      исправитьего,
      <choice>
@@ -3275,7 +3300,7 @@
       72
      </ref>
      <note index="false" xml:id="note72">
-      <span data-class="paragraph" id="8072859e-90c2-47a2-8773-cf013579b11a" rend="left">
+      <span data-class="paragraph" id="8072859e-90c2-47a2-8773-cf013579b11a">
        [В нем много хорошего, но у него голова не в порядке. Из него ничего путного не выйдет,]
       </span>
      </note>
@@ -3320,13 +3345,13 @@
       73
      </ref>
      <note index="false" xml:id="note73">
-      <span data-class="paragraph" id="02bacd9a-b0be-40ad-8c5c-cbc7bfd4863f" rend="left">
+      <span data-class="paragraph" id="02bacd9a-b0be-40ad-8c5c-cbc7bfd4863f">
        [У него есть способности и самолюбие, но всё это]
       </span>
      </note>
      не направлено».
     </p>
-    <p id="a78358ec-6719-4e1c-9604-80ad6364efc6" rend="left">
+    <p id="a78358ec-6719-4e1c-9604-80ad6364efc6">
      «
      <choice>
       <reg>
@@ -3342,18 +3367,18 @@
        самолюбия
       </reg>
       <orig>
-       самолюбiя
+       самолюбія
       </orig>
      </choice>
      , maman», прибавила старшая Графиня.
     </p>
-    <p id="233245e4-825c-4ad0-80f2-91146526c748" rend="left">
+    <p id="233245e4-825c-4ad0-80f2-91146526c748">
      <choice>
       <reg>
        Приятели
       </reg>
       <orig>
-       Прiятели
+       Пріятели
       </orig>
      </choice>
      ,
@@ -3362,7 +3387,7 @@
        провожавшие
       </reg>
       <orig>
-       провожавшiе
+       провожавшіе
       </orig>
      </choice>
      его
@@ -3418,7 +3443,7 @@
      </choice>
      . Они оба любили Оленина, и близко знали его.
     </p>
-    <p id="3e383488-e7cf-43ae-a63b-be72d6cc14a8" rend="left">
+    <p id="3e383488-e7cf-43ae-a63b-be72d6cc14a8">
      — У него есть странное свойство характера искать во
      <choice>
       <reg>
@@ -3588,7 +3613,7 @@
      </choice>
      .
     </p>
-    <p id="fed8babb-6b7d-423a-8a5b-dc5f1e9ee3d8" rend="left">
+    <p id="fed8babb-6b7d-423a-8a5b-dc5f1e9ee3d8">
      «Сколько
      <choice>
       <reg>
@@ -3652,7 +3677,7 @@
      </choice>
      что. Пустой малый!»
     </p>
-    <p id="e062e3e1-e133-44c8-ac8f-4851d2bad3f3" rend="left">
+    <p id="e062e3e1-e133-44c8-ac8f-4851d2bad3f3">
      — «
      <choice>
       <reg>
@@ -3799,7 +3824,7 @@
        Энергия
       </reg>
       <orig>
-       Энергiя
+       Энергія
       </orig>
      </choice>
      — да, но выдержки
@@ -3917,7 +3942,7 @@
      </choice>
      ».
     </p>
-    <p id="6b9296bf-441f-4bb7-921f-b54bf42b1481" rend="left">
+    <p id="6b9296bf-441f-4bb7-921f-b54bf42b1481">
      — «
      <choice>
       <reg>
@@ -4027,7 +4052,7 @@
        Григорий
       </reg>
       <orig>
-       Григорiй
+       Григорій
       </orig>
      </choice>
      <choice>
@@ -4040,7 +4065,7 @@
      </choice>
      даже его».
     </p>
-    <p id="a28445d6-4afc-4a6f-a600-ad093a1e6386" rend="left">
+    <p id="a28445d6-4afc-4a6f-a600-ad093a1e6386">
      <choice>
       <reg>
        В
@@ -4100,7 +4125,7 @@
      </choice>
      про Оленина.
     </p>
-    <p id="06a739ed-ef0a-4207-9770-b7c31b95ccad" rend="left">
+    <p id="06a739ed-ef0a-4207-9770-b7c31b95ccad">
      «Да
      <choice>
       <reg>
@@ -4140,7 +4165,7 @@
       74
      </ref>
      <note index="false" xml:id="note74">
-      <span data-class="paragraph" id="37f29a10-2984-4c43-b558-a59bdb344790" rend="left">
+      <span data-class="paragraph" id="37f29a10-2984-4c43-b558-a59bdb344790">
        [Он вращался, говорят, в очень дурном обществе.]
       </span>
      </note>
@@ -4189,7 +4214,7 @@
      </choice>
      .
     </p>
-    <p id="431cffcf-1e87-4788-b0eb-5093fa060fcf" rend="left">
+    <p id="431cffcf-1e87-4788-b0eb-5093fa060fcf">
      — «Все таки оригинальный
      <choice>
       <reg>
@@ -4227,7 +4252,7 @@
      </choice>
      ».
     </p>
-    <p id="f3f56e41-783a-4822-b2fd-b986f08e3d81" rend="left">
+    <p id="f3f56e41-783a-4822-b2fd-b986f08e3d81">
      — «Да, желанье казаться
      <choice>
       <reg>
@@ -4251,7 +4276,7 @@
        образования
       </reg>
       <orig>
-       образованiя
+       образованія
       </orig>
      </choice>
      », сказала хозяйка дома. «
@@ -4369,14 +4394,14 @@
      </choice>
      ».
     </p>
-    <p id="65143344-4c1d-4523-9f3e-7faa5d38e40c" rend="left">
+    <p id="65143344-4c1d-4523-9f3e-7faa5d38e40c">
      <pb n="265"/>
      <choice>
       <reg>
        Управляющий
       </reg>
       <orig>
-       Управляющiй
+       Управляющій
       </orig>
      </choice>
      , вольноотпущенный
@@ -4480,7 +4505,7 @@
        Дмитрий
       </reg>
       <orig>
-       Дмитрiй
+       Дмитрій
       </orig>
      </choice>
      <choice>
@@ -5598,7 +5623,7 @@
      </choice>
      остался».
     </p>
-    <p id="a1ba23c2-679d-4200-9d6a-2a14e3dc3729" rend="left">
+    <p id="a1ba23c2-679d-4200-9d6a-2a14e3dc3729">
      Говорили еще о
      <choice>
       <reg>
@@ -5657,7 +5682,7 @@
        Английского
       </reg>
       <orig>
-       Англiйскаго
+       Англійскаго
       </orig>
      </choice>
      клуба
@@ -5683,7 +5708,7 @@
        имевший
       </reg>
       <orig>
-       имѣвшiй
+       имѣвшій
       </orig>
      </choice>
      выигранный
@@ -5740,7 +5765,7 @@
      </choice>
      .
     </p>
-    <p id="6f01791a-a019-4cda-a1fe-8c5eca8fc32b" rend="left">
+    <p id="6f01791a-a019-4cda-a1fe-8c5eca8fc32b">
      <pb n="266"/>
      Monsieur Chapel
      <choice>
@@ -5839,13 +5864,13 @@
      </choice>
      .
     </p>
-    <p id="bcadbc3e-4750-46db-9546-611d7f2d2c17" rend="left">
+    <p id="bcadbc3e-4750-46db-9546-611d7f2d2c17">
      Mais tout de même c'était un garçon qui ne manquait pas d'ésprit,
      <ref target="#note75">
       75
      </ref>
      <note index="false" xml:id="note75">
-      <span data-class="paragraph" id="afc37f24-182b-48ed-aee6-881efd4d5b08" rend="left">
+      <span data-class="paragraph" id="afc37f24-182b-48ed-aee6-881efd4d5b08">
        [А всё-таки он был неглупый человек,]
       </span>
      </note>
@@ -5887,13 +5912,13 @@
       76
      </ref>
      <note index="false" xml:id="note76">
-      <span data-class="paragraph" id="14ca093a-4e41-4a76-b842-38f65598af09" rend="left">
+      <span data-class="paragraph" id="14ca093a-4e41-4a76-b842-38f65598af09">
        [перед новым заказчиком,]
       </span>
      </note>
      застегивая и обдергивая.
     </p>
-    <p id="11778254-2b91-4094-8f0a-8ac03c4d26cb" rend="left">
+    <p id="11778254-2b91-4094-8f0a-8ac03c4d26cb">
      <choice>
       <reg>
        Г-н
@@ -5975,7 +6000,7 @@
        проигравший
       </reg>
       <orig>
-       проигравшiй
+       проигравшій
       </orig>
      </choice>
      ему
@@ -6219,7 +6244,7 @@
        взысканию
       </reg>
       <orig>
-       взысканiю
+       взысканію
       </orig>
      </choice>
      и
@@ -6233,7 +6258,7 @@
      </choice>
      деньги.
     </p>
-    <p id="ba782390-fb8d-4599-a375-5542d2303988" rend="left">
+    <p id="ba782390-fb8d-4599-a375-5542d2303988">
      «Что вы
      <choice>
       <reg>
@@ -6248,7 +6273,7 @@
       77
      </ref>
      <note index="false" xml:id="note77">
-      <span data-class="paragraph" id="d600a016-2dc5-4287-8bcf-bdcacb1fab61" rend="left">
+      <span data-class="paragraph" id="d600a016-2dc5-4287-8bcf-bdcacb1fab61">
        [милый друг,]
       </span>
      </note>
@@ -6344,7 +6369,7 @@
       78
      </ref>
      <note index="false" xml:id="note78">
-      <span data-class="paragraph" id="71f2c795-be7b-44b6-a99e-d67f63af2ff2" rend="left">
+      <span data-class="paragraph" id="71f2c795-be7b-44b6-a99e-d67f63af2ff2">
        [Надо молодежи перебеситься.]
       </span>
      </note>
@@ -6366,7 +6391,7 @@
       * Из копии № 9.
      </hi>
     </head>
-    <p id="5f443162-2e84-4370-999c-0f8d510f2e39" rend="left">
+    <p id="5f443162-2e84-4370-999c-0f8d510f2e39">
      «Сходи!»
      <choice>
       <reg>
@@ -6411,7 +6436,7 @@
      </choice>
      себя. «Твои часы что ли, Гурка? Иди!»
     </p>
-    <p id="4280fb0d-e2a0-42e7-9caf-459cda1e6a17" rend="left">
+    <p id="4280fb0d-e2a0-42e7-9caf-459cda1e6a17">
      — «И то
      <choice>
       <reg>
@@ -6484,7 +6509,7 @@
      </choice>
      одного».
     </p>
-    <p id="e494f389-4919-423b-b2fb-3f209745b420" rend="left">
+    <p id="e494f389-4919-423b-b2fb-3f209745b420">
      — «Мы
      <choice>
       <reg>
@@ -6664,7 +6689,7 @@
      </choice>
      ».
     </p>
-    <p id="df2884ff-ded9-4343-ad5e-41134de92eb7" rend="left">
+    <p id="df2884ff-ded9-4343-ad5e-41134de92eb7">
      — «Гм! гм! сходить надо, надо сходить»,
      <choice>
       <reg>
@@ -6726,7 +6751,7 @@
      </choice>
      ».
     </p>
-    <p id="7dbe8f87-2a67-4178-abf5-3880f7ee2610" rend="left">
+    <p id="7dbe8f87-2a67-4178-abf5-3880f7ee2610">
      — «
      <choice>
       <reg>
@@ -6799,7 +6824,7 @@
      </choice>
      .
     </p>
-    <p id="3cd882d7-c223-46f7-955f-196ef6a5263c" rend="left">
+    <p id="3cd882d7-c223-46f7-955f-196ef6a5263c">
      — «
      <choice>
       <reg>
@@ -6861,7 +6886,7 @@
     <p id="d5d49dde-7344-425b-ac3f-30eb417a84ad" rend="center">
      13.
     </p>
-    <p id="91008d1e-c96a-49c3-9942-2540152b087b" rend="left">
+    <p id="91008d1e-c96a-49c3-9942-2540152b087b">
      Лукашка
      <choice>
       <reg>
@@ -6894,7 +6919,7 @@
        оружие
       </reg>
       <orig>
-       оружiе
+       оружіе
       </orig>
      </choice>
      и черкеску.
@@ -6967,7 +6992,7 @@
      </choice>
      лежавшему казаку.
     </p>
-    <p id="6d345a3f-0394-4c7c-99e9-e9c81e642970" rend="left">
+    <p id="6d345a3f-0394-4c7c-99e9-e9c81e642970">
      «Дай испить, дядя»,
      <choice>
       <reg>
@@ -6987,7 +7012,7 @@
      </choice>
      , толкая его: «глотка засохла».
     </p>
-    <p id="ad04a9a9-0717-47f9-986a-3ac7df2ed8ee" rend="left">
+    <p id="ad04a9a9-0717-47f9-986a-3ac7df2ed8ee">
      <choice>
       <reg>
        Казак
@@ -7007,7 +7032,7 @@
      </choice>
      давать.
     </p>
-    <p id="aaa6edf1-96b8-4dee-880e-09ceedc8bf31" rend="left">
+    <p id="aaa6edf1-96b8-4dee-880e-09ceedc8bf31">
      Ну!..
      <choice>
       <reg>
@@ -7019,7 +7044,7 @@
      </choice>
      Лукашка, хмурясь.
     </p>
-    <p id="cc57dc4b-6534-4523-83a9-57596f298a60" rend="left">
+    <p id="cc57dc4b-6534-4523-83a9-57596f298a60">
      «
      <choice>
       <reg>
@@ -7083,7 +7108,7 @@
      </choice>
      !»
     </p>
-    <p id="5f98ac73-0e3c-48e7-bec5-de43c899302b" rend="left">
+    <p id="5f98ac73-0e3c-48e7-bec5-de43c899302b">
      — «Спаси
      <choice>
       <reg>
@@ -7117,7 +7142,7 @@
        широкия
       </reg>
       <orig>
-       широкiя
+       широкія
       </orig>
      </choice>
      скулы и выходя
@@ -7131,7 +7156,7 @@
      </choice>
      двери.
     </p>
-    <p id="e4c4fd87-8a08-45bb-abae-14c87c1388f6" rend="left">
+    <p id="e4c4fd87-8a08-45bb-abae-14c87c1388f6">
      — «И жаль было, да малый
      <choice>
       <reg>
@@ -7178,13 +7203,13 @@
      </choice>
      ».
     </p>
-    <p id="c0f0797c-767a-4480-a9a5-d7a0a3596349" rend="left">
+    <p id="c0f0797c-767a-4480-a9a5-d7a0a3596349">
      — «Пойти пружки
      <ref target="#note79">
       79
      </ref>
      <note index="false" xml:id="note79">
-      <span data-class="paragraph" id="1e2c728d-44e4-46c4-9af3-244fdd59d791" rend="left">
+      <span data-class="paragraph" id="1e2c728d-44e4-46c4-9af3-244fdd59d791">
        Силки, которые
        <choice>
         <reg>
@@ -7252,7 +7277,7 @@
      </choice>
      на поляну.
     </p>
-    <p id="4a4824b6-17d9-4ad1-a6d9-6ae586708be4" rend="left">
+    <p id="4a4824b6-17d9-4ad1-a6d9-6ae586708be4">
      — «Не ходи
      <choice>
       <reg>
@@ -7291,7 +7316,7 @@
      </choice>
      .
     </p>
-    <p id="b275dab7-a8cf-4f22-8abc-d2aeddd5eff4" rend="left">
+    <p id="b275dab7-a8cf-4f22-8abc-d2aeddd5eff4">
      Лукашка не
      <choice>
       <reg>
@@ -7374,7 +7399,7 @@
      про короля Литву.
     </p>
     <div type="poem">
-     <lg rend="left">
+     <lg>
       <l id="bae02541-1fb9-4547-93a8-d1c88213c12f" rend="v">
        Сиротинушка, сиротинушка добрый
        <choice>
@@ -7739,7 +7764,7 @@
          высокие
         </reg>
         <orig>
-         высокiе
+         высокіе
         </orig>
        </choice>
        .
@@ -7756,7 +7781,7 @@
      <pb n="268"/>
     </p>
     <div type="poem">
-     <lg rend="left">
+     <lg>
       <l id="dd10c6f5-5207-4b2e-9ba3-051abbb7afc0" rend="v">
        <choice>
         <reg>
@@ -7849,7 +7874,7 @@
          высокиим
         </reg>
         <orig>
-         высокiимъ
+         высокіимъ
         </orig>
        </choice>
        .
@@ -8016,7 +8041,7 @@
       </l>
      </lg>
     </div>
-    <p id="d39db467-9448-40b9-a421-5d913f562e40" rend="left">
+    <p id="d39db467-9448-40b9-a421-5d913f562e40">
      <choice>
       <reg>
        Голос
@@ -8045,7 +8070,7 @@
      </choice>
      .
     </p>
-    <p id="22a4abf5-7bb5-40e2-89c5-4049f9535bfa" rend="left">
+    <p id="22a4abf5-7bb5-40e2-89c5-4049f9535bfa">
      — «Вишь,
      <choice>
       <reg>

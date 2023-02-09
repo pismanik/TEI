@@ -9,17 +9,41 @@
                 <title type="main">Письмо Т. А. Ергольской от 28 августа 1860 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Т. А. Ергольской, 28 августа 1860 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 60. М.: Гос. изд. «Художественная литература», 1949. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 60</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">349-351</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,10 +127,10 @@
      </name>
      .1860 г. Августа 28/сентября 9. Гиер.
     </opener>
-    <p id="de4a9f18-e9c9-4df4-83da-0fdffebc6b38" rend="Obrashenie left">
+    <p id="de4a9f18-e9c9-4df4-83da-0fdffebc6b38" rend="Obrashenie">
      Chère tante!
     </p>
-    <p id="7f0c6984-713d-4fad-9575-060e6f7d81a7" rend="left">
+    <p id="7f0c6984-713d-4fad-9575-060e6f7d81a7">
      Voila trois jours que nous sommes arrivés à Нуères.
      <ref target="#note1">
       1
@@ -119,7 +148,7 @@
      </hi>
      nous nous sommes logés dans la ville même en pension pour 18 fr. par jour chez une très bonne vielle femme M-me Sénéquier. C’est donc notre adresse:
      <hi>
-      Francе, Hyères chez M-me Sénéquier.
+      France, Hyères chez M-me Sénéquier.
      </hi>
      Marie s’est arrêtée dans un hôtel et déménage aujourd’hui dans une maison de campagne au bord de mer, pour y prendre les bains, autant que durera la saison. On dit ici qu’il fait bon de se baigner jusqu’au mois de Décembre quelques fois. Le climat est admirable ici. Les citronniers, les orangers, les lauriers, les palmiers sont en fleurs en feuilles et en fruits pendant tout l’hiver. L’état de la santé de Nicolas est toujours le même; mais ce n’est qu’ici qu’il faut espérer une amélioration, parce que le genre de vie qu’il a mené à Soden le voyage et le mauvais temps ont du au contraire lui faire du mal. Ici le temps admirable ces trois jours et on dit qu’ici le temps à été toujours beau. Il y a ici une Princesse Galisine
      <ref target="#note2">
@@ -141,7 +170,7 @@
      </note>
      qui est mort à Hyères sur ses bras.
     </p>
-    <p id="50635873-569b-4cf6-b226-761f2dd8fae3" rend="left">
+    <p id="50635873-569b-4cf6-b226-761f2dd8fae3">
      Le voyage nous a couté très cher, et la vie ici n’est pas bon marché non plus, de sorte que nous tous aurons dans un mois d’ici grand besoin d’argent. Si Serge et encore avec vous dites lui qu’il envoye l’argent le plus tôt possible. Je suis sûr qu’aujourdhui vous avez pensé à moi plus qu’à l’ordinaire à cause de mon jour de naissance.
      <ref target="#note4">
       4
@@ -151,7 +180,7 @@
      </note>
      Moi aussi je commance ce jour en vous écrivant. —
     </p>
-    <p id="72511465-1b3e-4940-9a3c-dcb04dcfca8b" rend="left">
+    <p id="72511465-1b3e-4940-9a3c-dcb04dcfca8b">
      Adieu, chère tante, je vous baise les mains. — Je ne sais si Nicolas et Marie vous écriront, dans touts les cas ils pensent souvent à vous et vous baisent les mains. —
      <name placement="text" ref="10375" type="person">
       Наталье Петровне
@@ -209,7 +238,7 @@
      </note>
      не зевает. —
     </p>
-    <p id="7b18b940-7e76-4635-be68-6858281133a7" rend="left">
+    <p id="7b18b940-7e76-4635-be68-6858281133a7">
      Dites au староста que je m’intéresse beaucoup au ménage, mais à vrai dire, si seulement il n’y a rien d’extraordinairement désagréable, je ne me soucie de rien du tout. Vous avez toujours raison, chère tante, dernièrement nous avons parlé de cela avec Nicolas; et quand vous me disiez que j’ai tort de rester toujours à la
      <hi style="opdelimiter">
       campagne
@@ -223,22 +252,22 @@
     <p id="24e9a583-1daa-4e5d-aabb-149685fc62a0" rend="right">
      Léon.
     </p>
-    <p id="48ac0ae0-2795-4019-8c06-a72ef85a02ac" rend="left">
+    <p id="48ac0ae0-2795-4019-8c06-a72ef85a02ac">
      <hi style="underline">
       9 Sept.
      </hi>
     </p>
-    <p id="a600df5b-8bca-4f34-9335-7d01b6761141" rend="left">
+    <p id="a600df5b-8bca-4f34-9335-7d01b6761141">
      28 Août
     </p>
-    <p id="3c5bbd50-59e0-495e-ae66-99fe97d56653" rend="left">
+    <p id="3c5bbd50-59e0-495e-ae66-99fe97d56653">
      Hyères.
     </p>
     <lb/>
-    <p id="7b12db09-7d79-4a6c-99fc-e1d3a1197be3" rend="Obrashenie petit left">
+    <p id="7b12db09-7d79-4a6c-99fc-e1d3a1197be3" rend="Obrashenie petit">
      Дорогая тетенька!
     </p>
-    <p id="f8065dd2-5cbd-4b34-9739-6d0f9dccf19f" rend="petit left">
+    <p id="f8065dd2-5cbd-4b34-9739-6d0f9dccf19f" rend="petit">
      Три дня тому назад мы приехали в Гиер.
      <ref target="#note8">
       8
@@ -274,7 +303,7 @@
      </note>
      который умер в Гиере на ее руках.
     </p>
-    <p id="9edfb777-9230-41c3-9321-4c367747406f" rend="petit left">
+    <p id="9edfb777-9230-41c3-9321-4c367747406f" rend="petit">
      Дорога нам дорого обошлась, и здесь жизнь не дешева, так что через месяц мы будем нуждаться в деньгах. Ежели Сережа еще с вами, скажите ему, чтобы деньги он высылал как можно скорее. Уверен, что сегодня вы вспоминали меня чаще обыкновенного по случаю дня моего рождения.
      <ref target="#note11">
       11
@@ -284,28 +313,28 @@
      </note>
      А я начинаю этот день письмом к вам.
     </p>
-    <p id="5c0e6ac8-8f0d-45da-88af-dc7c913774d5" rend="petit left">
+    <p id="5c0e6ac8-8f0d-45da-88af-dc7c913774d5" rend="petit">
      Прощайте, дорогая тетенька, целую ваши руки. — Не знаю, напишут ли вам Николенька и Машенька, но знаю, что они часто думают о вас и целуют ваши ручки. [
      <hi>
       Русский текст.
      </hi>
      ]
     </p>
-    <p id="11b9bb86-d615-49e3-a7c2-54cddad028dd" rend="petit left">
+    <p id="11b9bb86-d615-49e3-a7c2-54cddad028dd" rend="petit">
      Скажите старосте, что я очень интересуюсь хозяйством, но, по правде сказать, ежели ничего не случилось особенно неприятного, я не забочусь о нем. Вы всегда правы, милая тетенька, недавно мы говорили об этом с Николенькой; и когда вы говорили, что напрасно я живу безвыездно в деревне, вы тоже были правы. Теперешнее путешествие во многих отношениях мне очень полезно.
     </p>
     <p id="86671902-c0d5-45f8-b32a-940413f5ed43" rend="petit right">
      Лев.
     </p>
-    <p id="285589b0-ff46-400a-a405-eebce75daf25" rend="petit left">
+    <p id="285589b0-ff46-400a-a405-eebce75daf25" rend="petit">
      <hi style="underline">
       9 сент.
      </hi>
     </p>
-    <p id="b9823c66-23cb-4f1f-8642-ba1033461e86" rend="petit left">
+    <p id="b9823c66-23cb-4f1f-8642-ba1033461e86" rend="petit">
      28 августа
     </p>
-    <p id="847b21be-c4b9-4fc8-822a-008ace438024" rend="petit left">
+    <p id="847b21be-c4b9-4fc8-822a-008ace438024" rend="petit">
      Гиер.
     </p>
     <noteGrp type="comments">

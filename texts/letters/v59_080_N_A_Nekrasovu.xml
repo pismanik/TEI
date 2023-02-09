@@ -9,17 +9,41 @@
                 <title type="main">Письмо Н. А. Некрасову от 17 сентября 1853 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Н. А. Некрасову, 17 сентября 1853 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">246-248</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,10 +124,10 @@
     <opener index="false">
      80. H. A. Некрасову.1853 г. Сентября 17. Пятигорск.
     </opener>
-    <p id="52cc3cf3-9daf-4b6b-9864-a32cabdb3f88" rend="Obrashenie left">
+    <p id="52cc3cf3-9daf-4b6b-9864-a32cabdb3f88" rend="Obrashenie">
      Милостивый Государь,
     </p>
-    <p id="41e06ce4-39b4-4f78-962c-b9e7272d377a" rend="Obrashenie1 left">
+    <p id="41e06ce4-39b4-4f78-962c-b9e7272d377a" rend="Obrashenie1">
      <name placement="text" ref="9649" type="person">
       Николай
      </name>
@@ -113,7 +143,7 @@
      </choice>
      .
     </p>
-    <p id="ded19927-9523-4a7d-a631-a27d90b7f959" rend="left">
+    <p id="ded19927-9523-4a7d-a631-a27d90b7f959">
      Посылаю небольшую статью
      <ref target="#note1">
       1
@@ -127,7 +157,7 @@
        напечатания
       </reg>
       <orig>
-       напечатанiя
+       напечатанія
       </orig>
      </choice>
      <choice>
@@ -175,19 +205,19 @@
      <hi>
       <choice>
        <reg>
-        Дњтством
+        Дѣтством
        </reg>
        <orig>
-        Дњтствомъ
+        Дѣтствомъ
        </orig>
       </choice>
       и
       <choice>
        <reg>
-        Набњгом
+        Набѣгом
        </reg>
        <orig>
-        Набњгомъ
+        Набѣгомъ
        </orig>
       </choice>
      </hi>
@@ -262,7 +292,7 @@
        печатания
       </reg>
       <orig>
-       печатанiя
+       печатанія
       </orig>
      </choice>
      . — Напечатать эту статью
@@ -279,7 +309,7 @@
        заглавием
       </reg>
       <orig>
-       заглавiемъ
+       заглавіемъ
       </orig>
      </choice>
      ,
@@ -314,7 +344,7 @@
         Самоубийца
        </reg>
        <orig>
-        Самоубiйца
+        Самоубійца
        </orig>
       </choice>
      </hi>
@@ -363,7 +393,7 @@
       «Записки маркера», испорченные цензурой, были напечатаны в «Современнике» 1855, № 1.
      </note>
     </p>
-    <p id="6325e40c-f59d-41e8-acad-77b463698a69" rend="left">
+    <p id="6325e40c-f59d-41e8-acad-77b463698a69">
      (Н. С.), поставленные
      <choice>
       <reg>
@@ -396,7 +426,7 @@
        ожидании
       </reg>
       <orig>
-       ожиданiи
+       ожиданіи
       </orig>
      </choice>
      Вашего
@@ -448,7 +478,7 @@
        уважением
       </reg>
       <orig>
-       уваженiемъ
+       уваженіемъ
       </orig>
      </choice>
      <choice>
@@ -464,7 +494,7 @@
        покорнейший
       </reg>
       <orig>
-       покорнѣйшiй
+       покорнѣйшій
       </orig>
      </choice>
      слуга.
@@ -480,7 +510,7 @@
      </choice>
      Л. Толстой.
     </p>
-    <p id="ff4620a1-4ed5-45de-bc76-0b8e37eed18e" rend="left">
+    <p id="ff4620a1-4ed5-45de-bc76-0b8e37eed18e">
      17 Сентября. 1853.
      <ref target="#note4">
       4
@@ -499,12 +529,12 @@
      —
     </p>
     <lb/>
-    <p id="ef84cd24-b406-4360-9d1f-3215b98badb8" rend="left">
+    <p id="ef84cd24-b406-4360-9d1f-3215b98badb8">
      <hi>
       На 4 странице:
      </hi>
     </p>
-    <p id="c5146950-69d1-400f-8354-e7f9b61a041c" rend="left">
+    <p id="c5146950-69d1-400f-8354-e7f9b61a041c">
      Его
      <choice>
       <reg>
@@ -514,7 +544,7 @@
       </reg>
       <orig>
        <name placement="text" ref="9649" type="person">
-        Высокоблагородiю
+        Высокоблагородію
        </name>
       </orig>
      </choice>
@@ -554,7 +584,7 @@
        редакцию
       </reg>
       <orig>
-       редакцiю
+       редакцію
       </orig>
      </choice>
      Ж. Современника.

@@ -9,17 +9,41 @@
                 <title type="main">Письмо Д. В. Григоровичу от 14 июня 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Д. В. Григоровичу, 14 июня 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 90. М.: Гос. изд. «Художественная литература», 1958. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 90</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">310-310</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -98,12 +127,12 @@
      </name>
      .1899 г. Июня 14. Я. П.
     </opener>
-    <p id="9aac609e-80c6-4525-b26d-635455a1c1b0" rend="Data left">
-     <em>
+    <p id="9aac609e-80c6-4525-b26d-635455a1c1b0" rend="Data">
+     <hi rend="italic">
       1899 г. Июня 14. Я. П.
-     </em>
+     </hi>
     </p>
-    <p id="6ef20ce7-b076-4ea6-b601-d31c8c55f8ac" rend="left">
+    <p id="6ef20ce7-b076-4ea6-b601-d31c8c55f8ac">
      Спасибо вам, милый, дорогой друг
      <name placement="text" ref="3855" type="person">
       Дмитрий Васильевич
@@ -138,7 +167,7 @@
      </name>
      .
     </p>
-    <p id="d95b9119-b7d5-4c9c-b3ff-af1778610f5e" rend="left">
+    <p id="d95b9119-b7d5-4c9c-b3ff-af1778610f5e">
      14 июня 1899.
     </p>
     <noteGrp type="comments">
@@ -148,7 +177,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="b0969748-44fd-4750-9174-00d8d4e95855" rend="petit left">
+      <p id="b0969748-44fd-4750-9174-00d8d4e95855" rend="petit">
        <name placement="comments" ref="3855" type="person">
         Дмитрий Васильевич Григорович
        </name>
@@ -156,7 +185,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="2745b0ca-2d9e-4711-9953-c1296cfc316e" rend="petit left">
+      <p id="2745b0ca-2d9e-4711-9953-c1296cfc316e" rend="petit">
        20 мая 1899 г. в Вену уехала Т. Л. Толстая для операции гаймарита. Григорович, узнавший о ее пребывании в Вене, дважды навещал ее, предлагая всяческую помощь, и перевез ее из Вены в Вейндлигау, где условия жизни были лучше. Об этом писала Толстому
        <name placement="comments" ref="13413" type="person">
         Татьяна Львовна
@@ -165,7 +194,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="74af1df5-b1b8-41a4-9df9-fd88c1397b1b" rend="petit left">
+      <p id="74af1df5-b1b8-41a4-9df9-fd88c1397b1b" rend="petit">
        С. А. Толстой (см. «Летописи Государственного Литературного музея», кн. 12, стр. 74).
       </p>
      </note>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову от 27 марта 1884 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 27 марта 1884 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 85. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 85</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">42-44</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      10.1884 г. Марта 27. Москва.
     </opener>
-    <p id="6ca8f87c-92b9-4c89-b272-5dea50d33000" rend="left">
+    <p id="6ca8f87c-92b9-4c89-b272-5dea50d33000">
      ... Про себя напишу:
      <choice>
       <reg>
@@ -197,7 +227,7 @@
        одурения
       </reg>
       <orig>
-       одуренiя
+       одуренія
       </orig>
      </choice>
      и
@@ -214,7 +244,7 @@
        сознанием
       </reg>
       <orig>
-       сознанiемъ
+       сознаніемъ
       </orig>
      </choice>
      того, что это мое
@@ -254,7 +284,7 @@
      </choice>
      своей жизни, и жизнь эта отвратительна.
     </p>
-    <p id="92159045-2d15-4ee1-a363-6234352c8be4" rend="left">
+    <p id="92159045-2d15-4ee1-a363-6234352c8be4">
      Вчера ночью я
      <choice>
       <reg>
@@ -428,7 +458,7 @@
      </hi>
      ».
     </p>
-    <p id="957f3e72-c48e-4c6c-8bb5-13481fecf5f1" rend="left">
+    <p id="957f3e72-c48e-4c6c-8bb5-13481fecf5f1">
      <choice>
       <reg>
        В
@@ -1022,7 +1052,7 @@
        недоумением
       </reg>
       <orig>
-       недоумѣнiемъ
+       недоумѣніемъ
       </orig>
      </choice>
      —
@@ -1107,7 +1137,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="8d48c949-c518-4e54-9aa0-5f1fdceeffcc" rend="petit left">
+      <p id="8d48c949-c518-4e54-9aa0-5f1fdceeffcc" rend="petit">
        Письмо Толстого написано под впечатлением писем Черткова от 21, 22, 24 и 25 марта, близких ему по мыслям и бодрых по тону. Получение их он отмечает в своем Дневнике и до указанной уже записи 27 марта:
        <hi>
         23 марта

@@ -4,25 +4,49 @@
         <fileDesc>
              <titleStmt>                
                 <title xml:id="v55_290_290_1906_12_31">
-                    Дневники и записные книжки. Tolstoy Digital
+                    Дневники. Tolstoy Digital
                 </title>
                 <title type="main">Дневник,</title>
                 <title type="sub">31 декабря 1906 г.</title>
                 <title type="bibl">Толстой Л. Н. [Дневник 1906 г.] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 55. М.: Гос. изд. «Художественная литература», 1937. С. </title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
-                 </respStmt>
+                </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,7 +113,9 @@
             <creation>
                 <date when="1906-12-31"/>
          </creation>          
-            <textClass> 
+            <langUsage>
+  <language ident="ru-petr1708"/>
+</langUsage><textClass> 
                 <catRef ana="#diaries" target="type"/>
            </textClass>
         </profileDesc>
@@ -110,37 +136,37 @@
         1906.
        </hi>
       </date>
+      <hi>
+       Я. П.
+      </hi>
+      <hi>
+       12
+       <choice original_editorial_correction="[ый]">
+        <sic/>
+        <corr>
+         ый
+        </corr>
+       </choice>
+       <choice original_editorial_correction="час[ъ]">
+        <sic>
+         час
+        </sic>
+        <corr>
+         <choice>
+          <reg>
+           час
+          </reg>
+          <orig>
+           часъ
+          </orig>
+         </choice>
+        </corr>
+       </choice>
+      </hi>
+      .
      </dateline>
     </opener>
-    <p id="892d8021-c73f-45cd-b6a6-1e8d17074b83" rend="left">
-     <hi>
-      Я. П.
-     </hi>
-     <hi>
-      12
-      <choice original_editorial_correction="[ый]">
-       <sic/>
-       <corr>
-        ый
-       </corr>
-      </choice>
-      <choice original_editorial_correction="час[ъ]">
-       <sic>
-        час
-       </sic>
-       <corr>
-        <choice>
-         <reg>
-          час
-         </reg>
-         <orig>
-          часъ
-         </orig>
-        </choice>
-       </corr>
-      </choice>
-     </hi>
-     .
+    <p id="892d8021-c73f-45cd-b6a6-1e8d17074b83">
     </p>
     <p id="4abca7b0-28e7-45d3-9dd4-b28fbce60255" style="left">
      Все
@@ -158,7 +184,7 @@
        состояние
       </reg>
       <orig>
-       состоянiе
+       состояніе
       </orig>
      </choice>
      . Нынче было
@@ -167,7 +193,7 @@
        испытание
       </reg>
       <orig>
-       испытанiе
+       испытаніе
       </orig>
      </choice>
      — письмо
@@ -239,7 +265,7 @@
        мнении
       </reg>
       <orig>
-       мнѣнiи
+       мнѣніи
       </orig>
      </choice>
      людей.
@@ -268,7 +294,7 @@
          детский
         </reg>
         <orig>
-         дѣтскiй
+         дѣтскій
         </orig>
        </choice>
       </corr>
@@ -298,7 +324,7 @@
          Божий
         </reg>
         <orig>
-         Божiй
+         Божій
         </orig>
        </choice>
       </corr>
@@ -330,7 +356,7 @@
        движением
       </reg>
       <orig>
-       движенiемъ
+       движеніемъ
       </orig>
      </choice>
      , есть
@@ -339,7 +365,7 @@
        проявление
       </reg>
       <orig>
-       проявленiе
+       проявленіе
       </orig>
      </choice>
      все большее и большее
@@ -381,7 +407,7 @@
        сознания
       </reg>
       <orig>
-       сознанiя
+       сознанія
       </orig>
      </choice>
      .
@@ -390,7 +416,7 @@
        Движение
       </reg>
       <orig>
-       Движенiе
+       Движеніе
       </orig>
      </choice>
      есть
@@ -399,7 +425,7 @@
        сознание
       </reg>
       <orig>
-       сознанiе
+       сознаніе
       </orig>
      </choice>
      своей божественности.
@@ -416,7 +442,7 @@
        движения
       </reg>
       <orig>
-       движенiя
+       движенія
       </orig>
      </choice>
      не было бы жизни. Благодаря этому
@@ -425,7 +451,7 @@
        движению
       </reg>
       <orig>
-       движенiю
+       движенію
       </orig>
      </choice>
      , жизнь
@@ -509,7 +535,7 @@
        </name>
       </reg>
       <orig>
-       Амiеля
+       Аміеля
       </orig>
      </choice>
      : чтобы увидать всю сферу, надо обойти ее, или чтобы она
@@ -527,7 +553,7 @@
        Движение
       </reg>
       <orig>
-       Движенiе
+       Движеніе
       </orig>
      </choice>
      жизни есть вертящаяся
@@ -541,9 +567,7 @@
      </choice>
      сфера.
     </p>
-    <p id="f886da52-492e-41c7-a7be-3a61a9b02f5a" style="subtitle centerline">
-     <metamark function="line"/>
-    </p>
+    <metamark function="line"/>
    </div>
   </body>
  </text>

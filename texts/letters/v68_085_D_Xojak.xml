@@ -9,17 +9,41 @@
                 <title type="main">Письмо Д. Хойак от 5 мая 1895 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Д. Хойак, 5 мая 1895 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 68. М.: Гос. изд. «Художественная литература», 1954. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 68</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">90-91</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,10 +127,10 @@
      </name>
      .1895 г. Мая 5. Москва.
     </opener>
-    <p id="ee6c4cf2-cfef-434d-b07f-b08cc9cb80e7" rend="Obrashenie left">
+    <p id="ee6c4cf2-cfef-434d-b07f-b08cc9cb80e7" rend="Obrashenie">
      Madame,
     </p>
-    <p id="83212bbb-a62f-4fc3-a1d5-635a98efb4ff" rend="left">
+    <p id="83212bbb-a62f-4fc3-a1d5-635a98efb4ff">
      Je n’ai pas vu l’article publié dans la Revue Bleue sous le titre du «Sens véritable des Evangiles»,
      <ref target="#note1">
       1
@@ -118,17 +147,17 @@
      </note>
      en abrégé et est en train d’être publié à Londres sans abréviations. Pour ce qui est de mon autorisation des traductions de mes écrits, je l`ai donné une fois pour toutes à tous ceux qui veulent se donner la peine de traduire, et je leur en suis toujours reconnaissant.
     </p>
-    <p id="eefc442a-81a8-4937-8003-70bc9ee875e1" rend="left">
+    <p id="eefc442a-81a8-4937-8003-70bc9ee875e1">
      Je serais heureux, si mes écrits vous aideront à trouver la vérité que vous cherchez. Dans tous les cas, elle n’est pas difficile à trouver pour tous ceux, qui la cherchent sincèrement et qui surtout n’acceptent rien de contraire à la raison.
     </p>
     <p id="244f4804-950a-4c69-9ac7-11efe5ad87d2" rend="right">
      Léon Tolstoy.
     </p>
-    <p id="b9190d40-e320-4675-9a80-3097dfdd59b4" rend="left emptyline">
+    <p id="b9190d40-e320-4675-9a80-3097dfdd59b4" rend="emptyline">
      <pb n="91"/>
     </p>
     <lb/>
-    <p id="24d2eee7-3bb2-4e7a-bc08-ca9daefa175d" rend="Obrashenie petit left">
+    <p id="24d2eee7-3bb2-4e7a-bc08-ca9daefa175d" rend="Obrashenie petit">
      Милостивая государыня,
     </p>
     <noteGrp type="comments">
@@ -152,7 +181,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="b562cfac-a91c-44a9-a27a-33680a827d97" rend="petit left">
+      <p id="b562cfac-a91c-44a9-a27a-33680a827d97" rend="petit">
        Я буду счастлив, если мои сочинения помогут вам найти истину, которую вы ищете. Во всяком случае ее нетрудно найти для всех, кто ее искренно ищет, особенно, если они не принимают ничего противоречащего разуму.
       </p>
      </note>
@@ -170,7 +199,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="22c8c443-c59c-40e4-bbf8-4a91ebc7806e" rend="petit left">
+      <p id="22c8c443-c59c-40e4-bbf8-4a91ebc7806e" rend="petit">
        Личность
        <name placement="comments" ref="14958" type="person">
         Джен Хойак

@@ -9,17 +9,41 @@
                 <title type="main">Письмо Е. И. Попову с 24 апреля 1891 г. по 28 апреля 1891 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Е. И. Попову, 24 апреля 1891 г. — 28 апреля 1891 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 65. М.: Гос. изд. «Художественная литература», 1953. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 65</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">291-291</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,7 +128,7 @@
      </name>
      .1891 г. Апреля 24—28. Я. П.
     </opener>
-    <p id="60998292-4dfb-4eff-a9b8-48d308cc47f2" rend="left">
+    <p id="60998292-4dfb-4eff-a9b8-48d308cc47f2">
      Мне пришло в голову переписать вам это письмо, дорогой
      <choice original_editorial_correction="Е[вгений]">
       <sic>
@@ -156,7 +186,7 @@
      </choice>
      : одно служит любви, богу, другое — ненависти, дьяволу. Странно даже думать, как легко мы говорим злое.
     </p>
-    <p id="020def66-5a38-4c5f-acb1-c46d476d3282" rend="left">
+    <p id="020def66-5a38-4c5f-acb1-c46d476d3282">
      <ref target="#note1">
       1
      </ref>
@@ -197,7 +227,7 @@
     <p id="9b0e2a70-7f4e-4cdd-b9b6-1b98240f7269" rend="right">
      Любящий вас Л. Т.
     </p>
-    <p id="4ed8ff74-508e-4bd1-b466-480521892b3f" rend="left">
+    <p id="4ed8ff74-508e-4bd1-b466-480521892b3f">
      <choice original_editorial_correction="А[лександр]">
       <sic>
        А
@@ -232,7 +262,7 @@
      , и я, может быть, послезавтра съезжу туда верхом.
     </p>
     <lb/>
-    <p id="ce6cf002-ee9b-496e-bf7f-6938f5eaf528" rend="left">
+    <p id="ce6cf002-ee9b-496e-bf7f-6938f5eaf528">
      <hi>
       На конверте:
      </hi>
@@ -248,7 +278,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="035e8600-9618-4ff8-bc0c-39756d3dd38a" rend="petit left">
+      <p id="035e8600-9618-4ff8-bc0c-39756d3dd38a" rend="petit">
        Настоящее письмо написано вслед за копией письма В. Г. Черткова к Толстому из Ржевска, Воронежской губ. от апреля 1891 г. (см. т. 87, стр. 84), сделанной А. Н. Дунаевым и М. Л. Толстой.
       </p>
      </note>

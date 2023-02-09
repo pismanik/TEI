@@ -9,17 +9,41 @@
                 <title type="main">Письмо Д. Я. Колбасину c 30 марта 1857 г. по 11 апреля 1857 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Д. Я. Колбасину c 30 марта 1857 г. — 11 апреля 1857 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 60. М.: Гос. изд. «Художественная литература», 1949. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 60</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">176-177</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -94,7 +123,7 @@
     <opener index="false">
      1857 г. Марта 30/апреля 11. Женева.
     </opener>
-    <p id="e04ed62a-16b6-4777-a44b-f7d25c1e4be8" rend="left">
+    <p id="e04ed62a-16b6-4777-a44b-f7d25c1e4be8">
      Пишу два слова, любезный
      <name placement="text" ref="6662" type="person">
       Дмитрий Яковлевич
@@ -104,23 +133,23 @@
     <p id="67cd92b6-7e88-4979-8853-873e41b1e2e0" rend="right">
      Ваш Гр. Л. Толстой.
     </p>
-    <p id="5d130091-42c3-443d-9d8c-cdc9addae2ec" rend="left">
+    <p id="5d130091-42c3-443d-9d8c-cdc9addae2ec">
      11 Апреля.
     </p>
-    <p id="e1954fe3-9a0e-4957-9266-376f4a0445cb" rend="left emptyline">
+    <p id="e1954fe3-9a0e-4957-9266-376f4a0445cb" rend="emptyline">
      <pb n="177"/>
     </p>
     <lb/>
-    <p id="6ac947ba-cba6-4d2c-b61e-327c33fcc18f" rend="left">
+    <p id="6ac947ba-cba6-4d2c-b61e-327c33fcc18f">
      <hi rend="italic">
       На конверте
      </hi>
      :
     </p>
-    <p id="e979e204-b197-445d-9020-9b8e00b7fa85" rend="left">
+    <p id="e979e204-b197-445d-9020-9b8e00b7fa85">
      Russie, St. Petersbourg, Monsieur Kolbassin.
     </p>
-    <p id="7ea8ef7a-e163-47f2-9f5f-77289072fa27" rend="left">
+    <p id="7ea8ef7a-e163-47f2-9f5f-77289072fa27">
      Его Высокоблагородию
      <name placement="text" ref="6662" type="person">
       Дмитрию Яковлевичу

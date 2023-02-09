@@ -9,17 +9,41 @@
                 <title type="main">Письмо Альберту Шкарвану (Albert Škarvan) от 28 декабря 1900 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Альберту Шкарвану (Albert Škarvan), 28 декабря 1900 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">543-544</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,7 +128,7 @@
      </name>
      .1900 г. Декабря 28. Москва.
     </opener>
-    <p id="20f492b7-4aa9-4906-a64b-11cc0962ab74" rend="left">
+    <p id="20f492b7-4aa9-4906-a64b-11cc0962ab74">
      <choice>
       <reg>
        Получил
@@ -155,7 +185,7 @@
        сведения
       </reg>
       <orig>
-       свѣденiя
+       свѣденія
       </orig>
      </choice>
      о
@@ -211,7 +241,7 @@
      </choice>
      вашей брачной жизни.
     </p>
-    <p id="c720f276-656c-405b-aa17-5ea2aeeaf754" rend="left">
+    <p id="c720f276-656c-405b-aa17-5ea2aeeaf754">
      Очень
      <choice>
       <reg>
@@ -232,7 +262,7 @@
      </choice>
      .
     </p>
-    <p id="c36fe1ed-7568-4677-86a1-03fa73092b6c" rend="left">
+    <p id="c36fe1ed-7568-4677-86a1-03fa73092b6c">
      Не считайте этого
      <choice>
       <reg>
@@ -256,7 +286,7 @@
        получении
       </reg>
       <orig>
-       полученiи
+       полученіи
       </orig>
      </choice>
      вашего. Я уже
@@ -298,7 +328,7 @@
        состоянии
       </reg>
       <orig>
-       состоянiи
+       состояніи
       </orig>
      </choice>
      умственной усталости, ничего не пишется. Сначала это тяготило меня, но
@@ -384,7 +414,7 @@
        бездействии
       </reg>
       <orig>
-       бездѣйствiи
+       бездѣйствіи
       </orig>
      </choice>
      нравственная работа
@@ -398,7 +428,7 @@
      </choice>
      гораздо лучше.
     </p>
-    <p id="5099a1d4-a7e4-40c7-8514-1cbc55baf861" rend="left">
+    <p id="5099a1d4-a7e4-40c7-8514-1cbc55baf861">
      Прощайте. Братски
      <choice>
       <reg>
@@ -464,11 +494,11 @@
      </choice>
      Толстой.
     </p>
-    <p id="b250b8a5-2476-47e6-8ff0-0f90dfdb1eab" rend="left">
+    <p id="b250b8a5-2476-47e6-8ff0-0f90dfdb1eab">
      28 Дек. 1900. Москва.
     </p>
     <lb/>
-    <p id="96f62f35-c694-4ea6-af07-0af6b0c774e6" rend="left">
+    <p id="96f62f35-c694-4ea6-af07-0af6b0c774e6">
      <hi>
       На конверте:
      </hi>
@@ -477,7 +507,7 @@
        Швейцария
       </reg>
       <orig>
-       Швейцарiя
+       Швейцарія
       </orig>
      </choice>
      , Suisse. Locarno, Mont de la Trinita. Schkarwan.
@@ -493,7 +523,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="d818c460-73cb-45a9-8858-0a5bcd306e7d" rend="petit left">
+      <p id="d818c460-73cb-45a9-8858-0a5bcd306e7d" rend="petit">
        Об Альберте Шкарване
        <ref target="file:///Volume_72_AlbertuSHkarvanuAlbertSkarvan_282.xml">
         см. письмо № 282
@@ -502,7 +532,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="80db69cc-df99-40f2-890a-c3835b666dcf" rend="petit left">
+      <p id="80db69cc-df99-40f2-890a-c3835b666dcf" rend="petit">
        Ответ на письмо Шкарвана от 2 января н. ст. 1901 г. (получено в Москве 25 декабря 1900 г.). На трех листах почтовой бумаги большого формата Шкарван описывал свою жизнь, жизнь соседей и близких
        <hi style="opdelimiter">
         единомышленников.

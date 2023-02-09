@@ -9,17 +9,41 @@
                 <title type="main">Письмо Е. Шмиту (Е. Schmitt) от 25 февраля 1898 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Е. Шмиту (Е. Schmitt), 25 февраля 1898 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 71. М.: Гос. изд. «Художественная литература», 1954. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 71</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">295-297</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -94,17 +123,17 @@
     <opener index="false">
      56. Еугену Шмиту (Eugen Schmitt).1898г. Февраля 25. Москва.
     </opener>
-    <p id="8ce787db-1d54-4e87-9308-116e7d986457" rend="left">
+    <p id="8ce787db-1d54-4e87-9308-116e7d986457">
      Ihr Brief, lieber Freund, war mir eine grosse Freude. Ich hatte so lange keine Nachrichten von Ihnen dass ich die letzte Zeit sehr inquiet über Sie war. Glücklicherweise ist Ihnen nichts schlechtes vorgekommen ausserdem was einem Jedem von uns Vorkommen muss und was wir alle erwarten müssen in einer oder anderen Form. Sie führen wie ich sehe Ihren Krieg immer fort mit derselben Energie und demselben Talent. Wenn Sie mir erlauben so will ich aufrichtig sein und Ihnen sagen was ich für Sie befürchtete und befürchte: es ist dass Sie zuviel Gewicht auf die äusserliche Begebnisse legen und dadurch die innerliche Grundsätze Ihrer Thätigkeit vergessen. Ich meine: können Sie sich selbst sagen dass Ihre Handlung dieselbe gewesen wäre obgleich Sie wüssten dass kein Mensch davon etwas wisse und Sie gewiss den Erfolg davon nicht sehen könnten. Ich glaube dass Sie Ihrem Character nach sich oft hinreissen lassen mehr für äusseren Erfolg als für innere Befriedigung zu handeln. Nur weil ich Sie liebe und Ihre Thätigkeit hoch schätze erlaube ich mir Ihnen diese Bemerkung zu machen. Ich hoffe dass Sie es mir nicht werden übel umnebmen. Ich weiss dass
      <hi>
       chacun a les déf uts de ses qualités1
      </hi>
-     und dass Sie in der christlichen Revolution die jetzt überall losgeht einen bestirnten Platz einnehmen der gerade für Sie passt, aber ich wollte nur Sie auf Ihrе Achilles Ferse aufmerksam machen, weil ich Ihr wahrer Freund bin.
+     und dass Sie in der christlichen Revolution die jetzt überall losgeht einen bestirnten Platz einnehmen der gerade für Sie passt, aber ich wollte nur Sie auf Ihге Achilles Ferse aufmerksam machen, weil ich Ihr wahrer Freund bin.
     </p>
-    <p id="a000de96-c373-4496-9763-8e843ac39dac" rend="left">
+    <p id="a000de96-c373-4496-9763-8e843ac39dac">
      Was kann ich Ihnen über die Österreichischen und Ungarischen Umstände neues sagen, ausserdem dass es wirklich einem Leid thut zu sehen wie die Leute so traurig dumm und desswegen schrecklich grausam werden können. Die Leute bekümmern sich nicht um das was sie sich mittheilen wollen aber nur in welcher Sprache sie sprechen dürfen. Für einen Christen ist die Welt mit seinen Treiben nicht nur schlecht und sündhaft aber
      <hi style="opdelimiter">
-      wunderliсh
+      wunderlich
      </hi>
      <pb n="296"/>
      <hi style="npdelimiter">
@@ -143,7 +172,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="1b8b6810-92d0-4e43-9853-11603efe3ae9" rend="petit left">
+      <p id="1b8b6810-92d0-4e43-9853-11603efe3ae9" rend="petit">
        Что могу я сказать вам нового об австрийских и венгерских делах,
        <hi/>
        кроме того, что больно видеть, как люди так отчаянно глупы и потому могут быть так ужасно жестоки. Люди не заботятся о том, что они хотят друг другу сказать, но только о том, на каком языке говорить. Для христианина мир с его тревогами не только плох и грешен, но удивителен по своей глупости и однообразию: люди совсем как маленькие дети, только без детской невинности. Я только вчера передал ваш адрес одному нашему другу,
@@ -190,12 +219,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="515c1caf-5bb1-43e2-9c37-08f7f507e85d" rend="petit left">
+      <p id="515c1caf-5bb1-43e2-9c37-08f7f507e85d" rend="petit">
        Еуген Генрих Шмит (Eugen Heinrich Schmitt, 1851—1916) — немецко-мадьярский писатель-анархист, издатель журналов: «Religion des Geistes» («Религия духа», 1894—1896) и «Ohne Staat» («Без государства»); автор ряда статей о Толстом. См. о нем в т. 67.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="75666386-1665-4fce-99d3-2d114f640414" rend="petit left">
+      <p id="75666386-1665-4fce-99d3-2d114f640414" rend="petit">
        Ответ на письмо Шмита от 3 марта нов. ст., в котором Шмит писал о происходивших в Венгрии крестьянских волнениях, о новых репрессиях, предпринятых правительством по отношению к нему, и просил Толстого высказаться по этому поводу.
       </p>
      </note>

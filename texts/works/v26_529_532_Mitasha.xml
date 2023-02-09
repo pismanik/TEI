@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v26_529_532_Mitasha" resp="volume_editor">
-                    [Миташа]. Tolstoy Digital
+                    [Миташа]. Произведения. Tolstoy Digital
                 </title>
                 <title type="main" resp="volume_editor">Миташа.</title>
                 <title type="sub">«Программа 15 сентября 86 года. Жил человек богатый Миташа...»</title>
-                <title type="bibl">Толстой Л. Н. [Миташа] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 26. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. [Миташа] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 26. М.: Гос. изд. «Художественная литература», 1936. С. 529–532.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1886"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#main" target="work_main"/>
@@ -130,10 +155,10 @@
      </hi>
      .
     </head>
-    <p id="1ae467ee-c99c-46b7-bee9-9bda88b15ae7" rend="left">
+    <p id="1ae467ee-c99c-46b7-bee9-9bda88b15ae7">
      15 сентября 86 года.
     </p>
-    <p id="688ee01c-71d7-4bce-b888-7c823f4c6eed" rend="left">
+    <p id="688ee01c-71d7-4bce-b888-7c823f4c6eed">
      <choice>
       <reg>
        Жил
@@ -494,7 +519,7 @@
      </choice>
      уважали).
     </p>
-    <p id="9348cbbb-6058-4a7b-85a8-2eefe6e3481d" rend="left">
+    <p id="9348cbbb-6058-4a7b-85a8-2eefe6e3481d">
      Усомнился и
      <choice>
       <reg>
@@ -596,7 +621,7 @@
        историю
       </reg>
       <orig>
-       исторiю
+       исторію
       </orig>
      </choice>
      <choice>
@@ -919,12 +944,12 @@
       203
      </ref>
      <note index="false" xml:id="note203">
-      <span data-class="paragraph" id="52a49f97-5fb1-44a9-aa52-cb4c2dd2f1a1" rend="left">
+      <span data-class="paragraph" id="52a49f97-5fb1-44a9-aa52-cb4c2dd2f1a1">
        <del>
         И опять предсталъ ему свѣтлый юноша. И сказалъ: только кто погубить душу, тотъ найдетъ. И еще І[оанна] 7, 17: Кто хочетъ творить волю Его, тотъ узнаетъ, о семъ ученіи — отъ Бога ли оно или я самъ отъ себя говорю. И сказалъ ему: ты умираешь теперь, потому что не вѣришь. Живи еще и ищи другой путь жизни, если не вѣришь еще. И ожилъ человѣкъ и попытался жить опять въ свое удовольствіе. Но только подумалъ и не могъ болѣе жить такъ, а сталъ жить попрежнему, все ближе и ближе сводя одно доброе дѣло съ другимъ. И случилось ему жить у хозяина. Другіе работники скучали, что нѣтъ барышей, и говорили: «хозяину польза, a мнѣ что?» A человѣкъ радовался на барыши хозяина и говорилъ другимъ работникамъ: «будете служить хозяину, какъ себѣ. вамъ всѣ хозяйскія радости въ радости будутъ». И опять заболѣлъ человѣкъ и вспомнилъ, что онъ прежде и только и думалъ о томъ, сколько онъ послужилъ Богу. И вспоминалъ, и все мало ему казалось. И радовался тому, что сдѣлалъ, и тому, что не переставало дѣло дѣлаться. И померъ человѣкъ тѣлесной смертью и не видалъ ея.
        </del>
       </span>
-      <span data-class="paragraph" id="a84a9c57-de68-458f-8d3c-8a49d5e10b6e" rend="left">
+      <span data-class="paragraph" id="a84a9c57-de68-458f-8d3c-8a49d5e10b6e">
        <hi rend="italic">
         Не
         <choice>
@@ -942,7 +967,7 @@
       <span data-class="paragraph" id="0f9104d2-fa0a-4361-8271-2b19c16bfa76"/>
      </note>
     </p>
-    <p id="a8ef3b8c-4614-4165-a7d3-f7eef85d5392" rend="left">
+    <p id="a8ef3b8c-4614-4165-a7d3-f7eef85d5392">
      <pb n="530"/>
      Сокрушался
      <choice>
@@ -1114,7 +1139,7 @@
       204
      </ref>
      <note index="false" xml:id="note204">
-      <span data-class="paragraph" id="fd0117d5-4058-4088-8945-68b678f51317" rend="left">
+      <span data-class="paragraph" id="fd0117d5-4058-4088-8945-68b678f51317">
        <del>
         Для себя
         <choice>
@@ -1136,7 +1161,7 @@
         жизни и счастья; но жизни не было, была смерть, и оставалось счастье.
        </del>
       </span>
-      <span data-class="paragraph" id="bfe176eb-29f1-4e99-b34a-56626c4efced" rend="left">
+      <span data-class="paragraph" id="bfe176eb-29f1-4e99-b34a-56626c4efced">
        <hi rend="italic">
         <choice>
          <reg>
@@ -1149,7 +1174,7 @@
         . Опять не могу.
        </hi>
       </span>
-      <span data-class="paragraph" id="54f3234e-10e3-46d1-a64e-49e596bc36ae" rend="left">
+      <span data-class="paragraph" id="54f3234e-10e3-46d1-a64e-49e596bc36ae">
        И явился опять ему
        <choice>
         <reg>
@@ -1170,7 +1195,7 @@
        </choice>
        :
       </span>
-      <span data-class="paragraph" id="95995a81-a602-49bb-8058-983676bc24f5" rend="left">
+      <span data-class="paragraph" id="95995a81-a602-49bb-8058-983676bc24f5">
        Ты знаешь, что зло не
        <choice>
         <reg>
@@ -1226,7 +1251,7 @@
        </choice>
        .
       </span>
-      <span data-class="paragraph" id="8e21af9a-8791-4d69-abcf-454c1ec15789" rend="left">
+      <span data-class="paragraph" id="8e21af9a-8791-4d69-abcf-454c1ec15789">
        — Да, я спрашиваю, чтό
        <hi rend="italic">
         <choice>
@@ -1248,7 +1273,7 @@
        </choice>
        ?
       </span>
-      <span data-class="paragraph" id="4b41c6db-24e2-4b83-a6a4-a8af50f252de" rend="left">
+      <span data-class="paragraph" id="4b41c6db-24e2-4b83-a6a4-a8af50f252de">
        — Скажи
        <choice>
         <reg>
@@ -1285,7 +1310,7 @@
        </choice>
        твоя жизнь.
       </span>
-      <span data-class="paragraph" id="e485a4c6-4d7b-449a-a9e5-9e8b1968117f" rend="left">
+      <span data-class="paragraph" id="e485a4c6-4d7b-449a-a9e5-9e8b1968117f">
        — Жизнь моя и
        <choice>
         <reg>
@@ -1322,7 +1347,7 @@
        </choice>
        .
       </span>
-      <span data-class="paragraph" id="e61b007e-05ec-4410-85b8-2c8edcb1b9db" rend="left">
+      <span data-class="paragraph" id="e61b007e-05ec-4410-85b8-2c8edcb1b9db">
        — Какая жизнь
        <choice>
         <reg>
@@ -1334,10 +1359,10 @@
        </choice>
        : добра или зла?
       </span>
-      <span data-class="paragraph" id="97507d78-3139-4cf5-8adf-93a585af09d3" rend="left">
+      <span data-class="paragraph" id="97507d78-3139-4cf5-8adf-93a585af09d3">
        — Добра.
       </span>
-      <span data-class="paragraph" id="d2a78bb9-edd8-471c-b3a5-04eed1ee13a2" rend="left">
+      <span data-class="paragraph" id="d2a78bb9-edd8-471c-b3a5-04eed1ee13a2">
        — Добра? А когда ты
        <choice>
         <reg>
@@ -1358,7 +1383,7 @@
        </choice>
        ?
       </span>
-      <span data-class="paragraph" id="51234962-9c14-4d5c-accd-4342b53addec" rend="left">
+      <span data-class="paragraph" id="51234962-9c14-4d5c-accd-4342b53addec">
        —
        <choice>
         <reg>
@@ -1391,7 +1416,7 @@
          отречения
         </reg>
         <orig>
-         отреченiя
+         отреченія
         </orig>
        </choice>
        <choice>
@@ -1413,7 +1438,7 @@
        </choice>
        добра.
       </span>
-      <span data-class="paragraph" id="dac79bbe-7e42-45b5-af11-36a7a1894e97" rend="left">
+      <span data-class="paragraph" id="dac79bbe-7e42-45b5-af11-36a7a1894e97">
        —
        <choice>
         <reg>
@@ -1486,7 +1511,7 @@
        </choice>
        ?
       </span>
-      <span data-class="paragraph" id="2c0e959c-3662-4cc7-b314-60dd9c94298b" rend="left">
+      <span data-class="paragraph" id="2c0e959c-3662-4cc7-b314-60dd9c94298b">
        —
        <choice>
         <reg>
@@ -1526,7 +1551,7 @@
        </hi>
        когда она зло?
       </span>
-      <span data-class="paragraph" id="e8ac888c-f616-47c3-a7e2-f9cf3d44a372" rend="left">
+      <span data-class="paragraph" id="e8ac888c-f616-47c3-a7e2-f9cf3d44a372">
        —
        <choice>
         <reg>
@@ -1554,7 +1579,7 @@
          освобождения
         </reg>
         <orig>
-         освобожденiя
+         освобожденія
         </orig>
        </choice>
        <choice>
@@ -1587,7 +1612,7 @@
          соединения
         </reg>
         <orig>
-         соединенiя
+         соединенія
         </orig>
        </choice>
        <hi rend="italic">
@@ -1607,7 +1632,7 @@
          мира
         </reg>
         <orig>
-         мiра
+         міра
         </orig>
        </choice>
        , чтобы ты
@@ -1634,7 +1659,7 @@
          сознание
         </reg>
         <orig>
-         сознанiе
+         сознаніе
         </orig>
        </choice>
        <choice>
@@ -1651,7 +1676,7 @@
          мира
         </reg>
         <orig>
-         мiра
+         міра
         </orig>
        </choice>
        — это
@@ -1660,7 +1685,7 @@
          противоречие
         </reg>
         <orig>
-         противорѣчiе
+         противорѣчіе
         </orig>
        </choice>
        ,
@@ -1678,7 +1703,7 @@
          отречением
         </reg>
         <orig>
-         отреченiемъ
+         отреченіемъ
         </orig>
        </choice>
        <choice>
@@ -1704,12 +1729,12 @@
          мира
         </reg>
         <orig>
-         мiра
+         міра
         </orig>
        </choice>
        .
       </span>
-      <span data-class="paragraph" id="2eb04cae-4047-4e5b-90bc-1b4bc69ec8db" rend="left">
+      <span data-class="paragraph" id="2eb04cae-4047-4e5b-90bc-1b4bc69ec8db">
        — Для себя! Что
        <hi rend="italic">
         <choice>
@@ -1731,7 +1756,7 @@
        </choice>
        ?
       </span>
-      <span data-class="paragraph" id="c716cc58-cd3c-4869-81f2-f1416c287f23" rend="left">
+      <span data-class="paragraph" id="c716cc58-cd3c-4869-81f2-f1416c287f23">
        — Ты
        <choice>
         <reg>
@@ -1789,13 +1814,13 @@
         .
        </hi>
       </span>
-      <span data-class="paragraph" id="7b9b45ee-ebea-43bf-ad73-14c011c44952" rend="left">
+      <span data-class="paragraph" id="7b9b45ee-ebea-43bf-ad73-14c011c44952">
        Личная жизнь (сознаніе ея) заставляетъ ѣсть, работать, плодиться. Безъ разума она довлѣетъ себѣ. Но съ сознаніемъ личной жизни соединяется разумѣніе и одно противорѣчитъ другому. Разрѣшеніе двоякое: 1) подчиненіе личной жизни разумѣнію, слѣдовательно — отреченіе отъ личной жизни въ пользу разумѣнія, не имѣющаго по существу своему ничего личнаго, и 2) подчиненіе разумѣния личной жизни. Въ 1-мъ случаѣ смерть не представляетъ никакого противорѣчія и ничего страшнаго, во 2-мъ случаѣ смерть освобождаетъ разумѣніе отъ ложнаго подчиненія.
       </span>
       <span data-class="paragraph" id="e112731b-8af8-4d76-8920-c82cfe83223b"/>
      </note>
     </p>
-    <p id="8a744d05-ebd5-4157-8c17-083a0819dfc4" rend="left">
+    <p id="8a744d05-ebd5-4157-8c17-083a0819dfc4">
      И явился ему
      <choice>
       <reg>
@@ -1816,7 +1841,7 @@
      </choice>
      :
     </p>
-    <p id="928101f7-8416-448b-a7f5-0daa2fb5906a" rend="left">
+    <p id="928101f7-8416-448b-a7f5-0daa2fb5906a">
      «Ты спрашиваешь:
      <choice>
       <reg>
@@ -2245,7 +2270,7 @@
        мире
       </reg>
       <orig>
-       мiрѣ
+       мірѣ
       </orig>
      </choice>
      и
@@ -2384,12 +2409,12 @@
        орудием
       </reg>
       <orig>
-       орудiемъ
+       орудіемъ
       </orig>
      </choice>
      его.
     </p>
-    <p id="f9fc1569-fad1-498e-a1db-175bc1233d6c" rend="left">
+    <p id="f9fc1569-fad1-498e-a1db-175bc1233d6c">
      <choice>
       <reg>
        Тот
@@ -2447,7 +2472,7 @@
       205
      </ref>
      <note index="false" xml:id="note205">
-      <span data-class="paragraph" id="b142257f-836a-498b-acc0-921d1fcab5f4" rend="left">
+      <span data-class="paragraph" id="b142257f-836a-498b-acc0-921d1fcab5f4">
        Если ты
        <choice>
         <reg>
@@ -2462,7 +2487,7 @@
          здание
         </reg>
         <orig>
-         зданiе
+         зданіе
         </orig>
        </choice>
        , то ты не будешь тужить и заботиться о
@@ -2593,7 +2618,7 @@
        сознание
       </reg>
       <orig>
-       сознанiе
+       сознаніе
       </orig>
      </choice>
      личной жизни уничтожается
@@ -2610,7 +2635,7 @@
        участия
       </reg>
       <orig>
-       участiя
+       участія
       </orig>
      </choice>
      <choice>
@@ -2730,7 +2755,7 @@
        здание
       </reg>
       <orig>
-       зданiе
+       зданіе
       </orig>
      </choice>
      построено. И
@@ -2748,7 +2773,7 @@
        здание
       </reg>
       <orig>
-       зданiе
+       зданіе
       </orig>
      </choice>
      построено, радуется
@@ -2757,7 +2782,7 @@
        разрушению
       </reg>
       <orig>
-       разрушенiю
+       разрушенію
       </orig>
      </choice>
      <choice>
@@ -2783,7 +2808,7 @@
        здания
       </reg>
       <orig>
-       зданiя
+       зданія
       </orig>
      </choice>
      , для
@@ -2801,19 +2826,19 @@
        спасения
       </reg>
       <orig>
-       спасенiя
+       спасенія
       </orig>
      </choice>
      .
     </p>
-    <p id="aad597ba-5c11-475d-9b40-25357a96b7dd" rend="left">
+    <p id="aad597ba-5c11-475d-9b40-25357a96b7dd">
      Для Бога производится работа
      <choice>
       <reg>
        освящения
       </reg>
       <orig>
-       освященiя
+       освященія
       </orig>
      </choice>
      <choice>
@@ -2821,7 +2846,7 @@
        мира
       </reg>
       <orig>
-       мiра
+       міра
       </orig>
      </choice>
      <choice>
@@ -2965,7 +2990,7 @@
      </choice>
      не было.
     </p>
-    <p id="8eaadfc9-0da4-446f-96ce-bbefba335a7f" rend="left">
+    <p id="8eaadfc9-0da4-446f-96ce-bbefba335a7f">
      Зерно признало собой,
      <hi rend="italic">
       я
@@ -3025,7 +3050,7 @@
      </choice>
      , полный зернами.
     </p>
-    <p id="87f141f3-6f84-4ce6-aded-36b6565094b9" rend="left">
+    <p id="87f141f3-6f84-4ce6-aded-36b6565094b9">
      Нужно,
      <choice>
       <reg>
@@ -3041,7 +3066,7 @@
        делания
       </reg>
       <orig>
-       дѣланiя
+       дѣланія
       </orig>
      </choice>
      <choice>
@@ -3057,7 +3082,7 @@
        Божия
       </reg>
       <orig>
-       Божiя
+       Божія
       </orig>
      </choice>
      . Нужно, чтобы было дерево
@@ -3092,7 +3117,7 @@
        достижения
       </reg>
       <orig>
-       достиженiя
+       достиженія
       </orig>
      </choice>
      <choice>
@@ -3161,7 +3186,7 @@
        растениям
       </reg>
       <orig>
-       растенiямъ
+       растеніямъ
       </orig>
      </choice>
      , и топливо, и
@@ -3170,7 +3195,7 @@
        продолжение
       </reg>
       <orig>
-       продолженiе
+       продолженіе
       </orig>
      </choice>
      своего рода. Что же —
@@ -3233,7 +3258,7 @@
        достижения
       </reg>
       <orig>
-       достиженiя
+       достиженія
       </orig>
      </choice>
      <choice>
@@ -3323,7 +3348,7 @@
      </choice>
      .
     </p>
-    <p id="b020699c-bb06-48e6-882c-a638b14ce8af" rend="left">
+    <p id="b020699c-bb06-48e6-882c-a638b14ce8af">
      <pb n="532"/>
      <choice>
       <reg>
@@ -3339,7 +3364,7 @@
        достижения
       </reg>
       <orig>
-       достиженiя
+       достиженія
       </orig>
      </choice>
      <choice>
@@ -3391,7 +3416,7 @@
        миру
       </reg>
       <orig>
-       мiру
+       міру
       </orig>
      </choice>
      . Думая жить для себя, оно
@@ -3426,7 +3451,7 @@
        миру
       </reg>
       <orig>
-       мiру
+       міру
       </orig>
      </choice>
      и не
@@ -3474,7 +3499,7 @@
      </choice>
      .
     </p>
-    <p id="71d2e076-359c-4812-8b3e-a49ca50c55c4" rend="left">
+    <p id="71d2e076-359c-4812-8b3e-a49ca50c55c4">
      То же со
      <choice>
       <reg>
@@ -3559,7 +3584,7 @@
        живущие
       </reg>
       <orig>
-       живущiе
+       живущіе
       </orig>
      </choice>
      и
@@ -3568,7 +3593,7 @@
        жившие
       </reg>
       <orig>
-       жившiе
+       жившіе
       </orig>
      </choice>
      до меня,
@@ -3768,7 +3793,7 @@
        положением
       </reg>
       <orig>
-       положенiемъ
+       положеніемъ
       </orig>
      </choice>
      ? Вся его жизнь и его
@@ -3777,7 +3802,7 @@
        стремление
       </reg>
       <orig>
-       стремленiе
+       стремленіе
       </orig>
      </choice>
      <choice>
@@ -3821,7 +3846,7 @@
        стремлениями
       </reg>
       <orig>
-       стремленiями
+       стремленіями
       </orig>
      </choice>
      есть только чье-то
@@ -3830,7 +3855,7 @@
        орудие
       </reg>
       <orig>
-       орудiе
+       орудіе
       </orig>
      </choice>
      для
@@ -3839,7 +3864,7 @@
        достижения
       </reg>
       <orig>
-       достиженiя
+       достиженія
       </orig>
      </choice>
      <choice>
@@ -4028,7 +4053,7 @@
        положение
       </reg>
       <orig>
-       положенiе
+       положеніе
       </orig>
      </choice>
      гораздо хуже.
@@ -4095,7 +4120,7 @@
        страданиях
       </reg>
       <orig>
-       страданiяхъ
+       страданіяхъ
       </orig>
      </choice>
      , что они только
@@ -4104,7 +4129,7 @@
        орудия
       </reg>
       <orig>
-       орудiя
+       орудія
       </orig>
      </choice>
      для
@@ -4173,7 +4198,7 @@
        вследствие
       </reg>
       <orig>
-       вслѣдствiе
+       вслѣдствіе
       </orig>
      </choice>
      безнадежности
@@ -4190,7 +4215,7 @@
        положения
       </reg>
       <orig>
-       положенiя
+       положенія
       </orig>
      </choice>
      , они
@@ -4226,7 +4251,7 @@
        положение
       </reg>
       <orig>
-       положенiе
+       положеніе
       </orig>
      </choice>
      людей? И
@@ -4269,7 +4294,7 @@
        указывающий
       </reg>
       <orig>
-       указывающiй
+       указывающій
       </orig>
      </choice>
      <choice>
@@ -4286,7 +4311,7 @@
        значение
       </reg>
       <orig>
-       значенiе
+       значеніе
       </orig>
      </choice>
      <choice>
@@ -4303,7 +4328,7 @@
        мира
       </reg>
       <orig>
-       мiра
+       міра
       </orig>
      </choice>
      , ужасно именно
@@ -4312,7 +4337,7 @@
        вследствие
       </reg>
       <orig>
-       вслѣдствiе
+       вслѣдствіе
       </orig>
      </choice>
      того, что они допущены
@@ -4329,7 +4354,7 @@
       206
      </ref>
      <note index="false" xml:id="note206">
-      <span data-class="paragraph" id="e2f44571-8a6e-4e86-bcd1-b2b1f9e2b713" rend="left">
+      <span data-class="paragraph" id="e2f44571-8a6e-4e86-bcd1-b2b1f9e2b713">
        Но неужели
        <choice>
         <reg>
@@ -4345,7 +4370,7 @@
          противоречие
         </reg>
         <orig>
-         противорѣчiе
+         противорѣчіе
         </orig>
        </choice>
        ?
@@ -4630,7 +4655,7 @@
       207
      </ref>
      <note index="false" xml:id="note207">
-      <span data-class="paragraph" id="4ea07f40-17c5-4e18-9d5d-eba6f4684f00" rend="left">
+      <span data-class="paragraph" id="4ea07f40-17c5-4e18-9d5d-eba6f4684f00">
        и противорѣчитъ разуму. Разумъ же не противорѣчитъ личной жизни, на ея требованія личнаго счастья отвѣчая — все живетъ и ищетъ личнаго счастья не для себя. Разумъ не можетъ не идти дальше.
       </span>
      </note>
@@ -4694,7 +4719,7 @@
        орудие
       </reg>
       <orig>
-       орудiе
+       орудіе
       </orig>
      </choice>
      , средство
@@ -4703,7 +4728,7 @@
        достижения
       </reg>
       <orig>
-       достиженiя
+       достиженія
       </orig>
      </choice>
      <choice>
@@ -4736,7 +4761,7 @@
        усилии
       </reg>
       <orig>
-       усилiи
+       усиліи
       </orig>
      </choice>
      (
@@ -4823,7 +4848,7 @@
       208
      </ref>
      <note index="false" xml:id="note208">
-      <span data-class="paragraph" id="b73c89c1-0adb-4309-ae28-6c9e42f9c54d" rend="left">
+      <span data-class="paragraph" id="b73c89c1-0adb-4309-ae28-6c9e42f9c54d">
        <hi rend="italic">
         Далее рукой Толстого написано: Спуталось.
        </hi>

@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v38_280_280_O_Gogole_Varianty" resp="volume_editor">
-                    Варианты к статье «О Гоголе». Tolstoy Digital
+                    Варианты к статье «О Гоголе». Произведения. Tolstoy Digital
                 </title>
                 <title type="main" resp="volume_editor">О Гоголе.</title>
                 <title type="sub" resp="volume_editor">Варианты</title>
-                <title type="bibl">Толстой Л. Н. Варианты к статье «О Гоголе» // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 38. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. Варианты к статье «О Гоголе» // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 38. М.: Гос. изд. «Художественная литература», 1936. С. 280.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1909"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#ver" target="work_main"/>
@@ -117,14 +142,14 @@
     <head n="level2" type="editorial">
      * № 1.
     </head>
-    <p id="09d30482-f755-4ae9-b45f-d386f1157fab" rend="left">
+    <p id="09d30482-f755-4ae9-b45f-d386f1157fab">
      Лучшее
      <choice>
       <reg>
        произведение
       </reg>
       <orig>
-       произведенiе
+       произведеніе
       </orig>
      </choice>
      его таланта — Коляска, лучшее
@@ -133,7 +158,7 @@
        произведение
       </reg>
       <orig>
-       произведенiе
+       произведеніе
       </orig>
      </choice>
      его сердца —
@@ -168,7 +193,7 @@
     <head n="level2" type="editorial">
      * № 2.
     </head>
-    <p id="3c0cfd9f-fa70-4360-bcba-c6e8ab36f5af" rend="left">
+    <p id="3c0cfd9f-fa70-4360-bcba-c6e8ab36f5af">
      <del>
       Главное несчастье всей
       <choice>
@@ -214,7 +239,7 @@
         суеверию
        </reg>
        <orig>
-        суевѣрiю
+        суевѣрію
        </orig>
       </choice>
       <choice>
@@ -265,7 +290,7 @@
         значении
        </reg>
        <orig>
-        значенiи
+        значеніи
        </orig>
       </choice>
       того, что называется
@@ -273,7 +298,7 @@
        57
       </ref>
       <note index="false" xml:id="note57">
-       <span data-class="paragraph" id="3784aa26-de60-4321-ae22-6bd28edacc93" rend="left">
+       <span data-class="paragraph" id="3784aa26-de60-4321-ae22-6bd28edacc93">
         <hi rend="italic">
          Зачеркнуто
         </hi>
@@ -313,7 +338,7 @@
          лже-религиозному
         </reg>
         <orig>
-         лже-религiозному
+         лже-религіозному
         </orig>
        </choice>
       </del>
@@ -323,7 +348,7 @@
         учению
        </reg>
        <orig>
-        ученiю
+        ученію
        </orig>
       </choice>
       и
@@ -331,7 +356,7 @@
        58
       </ref>
       <note index="false" xml:id="note58">
-       <span data-class="paragraph" id="bc9f7591-fc3f-4d43-829a-850b3bb9238c" rend="left">
+       <span data-class="paragraph" id="bc9f7591-fc3f-4d43-829a-850b3bb9238c">
         <hi rend="italic">
          Зач.
         </hi>
@@ -353,7 +378,7 @@
         понятий
        </reg>
        <orig>
-        понятiй
+        понятій
        </orig>
       </choice>
       <choice>
@@ -377,7 +402,7 @@
         сочинениях
        </reg>
        <orig>
-        сочиненiяхъ
+        сочиненіяхъ
        </orig>
       </choice>
       <name placement="text" ref="3444" type="person">
@@ -422,7 +447,7 @@
         сочинениям
        </reg>
        <orig>
-        сочиненiямъ
+        сочиненіямъ
        </orig>
       </choice>
       то
@@ -431,7 +456,7 @@
         значение
        </reg>
        <orig>
-        значенiе
+        значеніе
        </orig>
       </choice>
       ,
@@ -525,7 +550,7 @@
         произведениях
        </reg>
        <orig>
-        произведенiяхъ
+        произведеніяхъ
        </orig>
       </choice>
       ,
@@ -542,7 +567,7 @@
         исследованиях
        </reg>
        <orig>
-        изслѣдованiяхъ
+        изслѣдованіяхъ
        </orig>
       </choice>
       и
@@ -562,7 +587,7 @@
     <head n="level2" type="editorial">
      * № 3.
     </head>
-    <p id="3300e4bd-6bfb-4020-9d33-31af08abce79" rend="left">
+    <p id="3300e4bd-6bfb-4020-9d33-31af08abce79">
      <choice>
       <reg>
        К
@@ -576,7 +601,7 @@
        сожалению
       </reg>
       <orig>
-       сожалѣнiю
+       сожалѣнію
       </orig>
      </choice>
      , &lt;
@@ -610,7 +635,7 @@
        писания
       </reg>
       <orig>
-       писанiя
+       писанія
       </orig>
      </choice>
      <choice>
@@ -635,7 +660,7 @@
        желание
       </reg>
       <orig>
-       желанiе
+       желаніе
       </orig>
      </choice>
      высказать что-то особенно значительное и важное,
@@ -697,7 +722,7 @@
        оправданием
       </reg>
       <orig>
-       оправданiемъ
+       оправданіемъ
       </orig>
      </choice>
      и даже
@@ -706,7 +731,7 @@
        восхвалением
       </reg>
       <orig>
-       восхваленiемъ
+       восхваленіемъ
       </orig>
      </choice>
      <choice>
@@ -732,7 +757,7 @@
        суеверий
       </reg>
       <orig>
-       суевѣрiй
+       суевѣрій
       </orig>
      </choice>
      <choice>
@@ -774,7 +799,7 @@
        отношении
       </reg>
       <orig>
-       отношенiи
+       отношеніи
       </orig>
      </choice>
      <name placement="text" ref="3444" type="person">
@@ -801,7 +826,7 @@
        замечание
       </reg>
       <orig>
-       замѣчанiе
+       замѣчаніе
       </orig>
      </choice>
      <name placement="text" ref="6092" type="person">
@@ -831,7 +856,7 @@
        удержавший
       </reg>
       <orig>
-       удержавшiй
+       удержавшій
       </orig>
      </choice>
      <choice>
@@ -864,7 +889,7 @@
        религиозное
       </reg>
       <orig>
-       религiозное
+       религіозное
       </orig>
      </choice>
      <choice>
@@ -872,7 +897,7 @@
        учение
       </reg>
       <orig>
-       ученiе
+       ученіе
       </orig>
      </choice>
      , внушенное ему
@@ -932,7 +957,7 @@
        убеждений
       </reg>
       <orig>
-       убѣжденiй
+       убѣжденій
       </orig>
      </choice>
      .

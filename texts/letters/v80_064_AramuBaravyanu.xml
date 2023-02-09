@@ -9,17 +9,41 @@
                 <title type="main">Письмо Араму Баравьяну (Aram Ваrаѵіаn) от 2 августа 1909 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Араму Баравьяну (Aram Ваrаѵіаn), 2 августа 1909 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 80. М.: Гос. изд. «Художественная литература», 1955. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 80</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">48-49</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -101,7 +130,7 @@
     <p id="32059725-4e09-4cd5-80da-3bd8a86237c0" rend="right">
      2/15 Aug 1909.
     </p>
-    <p id="dad87b16-f452-4d2b-b6c1-259fa34732c4" rend="left">
+    <p id="dad87b16-f452-4d2b-b6c1-259fa34732c4">
      Ich drücke Ihnen nicht nur mein Einverständniss zu Ihrer Uebersetzung aus, sondern auch danke für Ihren Wunsch in der Verbreitung der im Aufsatze enthaltenen Gedanken mitzuhelfen. Sei es wie unbescheiden meinerseits ich kann nicht umhin den Aufsatz für nützlich zu halten.
     </p>
     <p id="0dc78863-3a86-452b-bb7f-6360ba64e5b4" rend="right">
@@ -111,7 +140,7 @@
     <p id="1955d693-a600-41a4-8c10-f76e4f097ff5" rend="right">
      2/15 авг. 1909.
     </p>
-    <p id="3fcc3372-d843-422d-9672-fd29260c09b7" rend="left">
+    <p id="3fcc3372-d843-422d-9672-fd29260c09b7">
      Выражаю не только согласие на ваш перевод, но и благодарю за ваше желание содействовать распространению мыслей, выраженных в моей статье,
      <choice original_editorial_correction="к[отор]ую">
       <sic>
@@ -146,7 +175,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="4d53ec00-8ac5-4780-aa4b-83d68e81a89c" rend="petit left">
+      <p id="4d53ec00-8ac5-4780-aa4b-83d68e81a89c" rend="petit">
        В письме на немецком языке из Берлина от 11 августа н. ст. 1909 г.
        <name placement="comments" ref="947" type="person">
         Арам Баравьян

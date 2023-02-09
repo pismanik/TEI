@@ -9,17 +9,41 @@
                 <title type="main">Письмо С.А.Толстой от 3 февраля 1882 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 3 февраля 1882 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 83. М.: Гос. изд. «Художественная литература», 1938. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 83</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">311-312</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      188.1882 г. Февраля 3. Я. П.
     </opener>
-    <p id="e6988d07-1b4b-4838-abae-847b6757050d" rend="left">
+    <p id="e6988d07-1b4b-4838-abae-847b6757050d">
      Пишу
      <choice>
       <reg>
@@ -488,7 +518,7 @@
        станции
       </reg>
       <orig>
-       станцiи
+       станціи
       </orig>
      </choice>
      ; a
@@ -855,7 +885,7 @@
       Статья «Так что же нам делать?»
      </note>
     </p>
-    <p id="724925e9-695c-4f43-9f91-39d710d7804e" rend="left">
+    <p id="724925e9-695c-4f43-9f91-39d710d7804e">
      <choice>
       <reg>
        В
@@ -927,7 +957,7 @@
        легкий
       </reg>
       <orig>
-       легкiй
+       легкій
       </orig>
      </choice>
      <choice>
@@ -979,7 +1009,7 @@
        сообщение
       </reg>
       <orig>
-       сообщенiе
+       сообщеніе
       </orig>
      </choice>
      быстрое. Телеграмы на Козловку и письма
@@ -993,7 +1023,7 @@
      </choice>
      Тулу.
     </p>
-    <p id="21c128ba-ebe6-48d1-84da-b77ac50d72a6" rend="left">
+    <p id="21c128ba-ebe6-48d1-84da-b77ac50d72a6">
      <choice>
       <reg>
        Как
@@ -1025,7 +1055,7 @@
        большие
       </reg>
       <orig>
-       большiе
+       большіе
       </orig>
      </choice>
      и
@@ -1154,7 +1184,7 @@
      </note>
      —
     </p>
-    <p id="1c787449-dd68-4f7e-9196-dcfa6c99a909" rend="left">
+    <p id="1c787449-dd68-4f7e-9196-dcfa6c99a909">
      Прощай, душенька, обнимаю тебя и
      <choice>
       <reg>
@@ -1172,7 +1202,7 @@
       В 1882 г. у Толстого были следующие дети: Сергей, Татьяна, Илья, Лев, Мария, Андрей, Михаил и Алексей (р. 31 октября 1881 г., ум. 18 января 1886 г.).
      </note>
     </p>
-    <p id="542dc44c-d6d8-4726-b626-e7e1541f4ad6" rend="left">
+    <p id="542dc44c-d6d8-4726-b626-e7e1541f4ad6">
      Таня
      <ref target="#note14">
       14
@@ -1232,7 +1262,7 @@
      </choice>
      миндальное масло. —
     </p>
-    <p id="bca73908-7489-4410-a1a7-10d5836d7998" rend="left">
+    <p id="bca73908-7489-4410-a1a7-10d5836d7998">
      <choice>
       <reg>
        Ведь
@@ -1312,7 +1342,7 @@
      </choice>
      .
     </p>
-    <p id="f88754c2-749b-4efd-8a60-7c9203828a5d" rend="left">
+    <p id="f88754c2-749b-4efd-8a60-7c9203828a5d">
      <name placement="note" ref="13456" type="person">
       Сютаева
      </name>
@@ -1363,7 +1393,7 @@
      . —
     </p>
     <lb/>
-    <p id="83a69846-7314-47c3-b437-7b32fd2b97ef" rend="left">
+    <p id="83a69846-7314-47c3-b437-7b32fd2b97ef">
      <hi>
       На конверте:
      </hi>

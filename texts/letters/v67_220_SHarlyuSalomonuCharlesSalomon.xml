@@ -9,17 +9,41 @@
                 <title type="main">Письмо Шарлю Саломону (Charles Salomon) от 8 сентября 1894 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Шарлю Саломону (Charles Salomon), 8 сентября 1894 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 67. М.: Гос. изд. «Художественная литература», 1955. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 67</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">220-221</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -98,10 +127,10 @@
      </name>
      .1894 г. Сентября 8. Я. П.
     </opener>
-    <p id="6525855e-7a9d-41fc-945b-cfe88a14ce1c" rend="Obrashenie left">
+    <p id="6525855e-7a9d-41fc-945b-cfe88a14ce1c" rend="Obrashenie">
      Mon cher Monsieur Salomon.
     </p>
-    <p id="46759148-9e80-4c55-a888-572be91aa1b3" rend="left">
+    <p id="46759148-9e80-4c55-a888-572be91aa1b3">
      Очень благодарен вашему знакомому за пересылку мне книги!
      <ref target="#note1">
       1
@@ -145,7 +174,7 @@
      </note>
      Он должен иметь успех у настоящих ценителей поэзии. Лева, к сожалению, всё в том же положении и продолжает ухудшать его попытками различных лечений.
     </p>
-    <p id="6813d407-0a4d-4475-b849-ec1fe170f16e" rend="left">
+    <p id="6813d407-0a4d-4475-b849-ec1fe170f16e">
      Наши все посылают вам привет, я дружески жму вам руку.
     </p>
     <p id="31b5bab6-5c40-4a57-8e28-3d8c275fea4b" rend="right">
@@ -154,10 +183,10 @@
      </name>
      .
     </p>
-    <p id="85490d50-f308-4afb-b33b-88979a4cfb6f" rend="left">
+    <p id="85490d50-f308-4afb-b33b-88979a4cfb6f">
      8 сентября 1894.
     </p>
-    <p id="e2aad028-d8ae-4ce2-9194-abc8608af0c9" rend="left">
+    <p id="e2aad028-d8ae-4ce2-9194-abc8608af0c9">
      Encore une prière, mon cher Mr. Salomon: Il y a quelques mois qu’une dame anglaise, Mrs. Lilly,
      <ref target="#note6">
       6
@@ -234,12 +263,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="96e19103-713b-4588-97c1-22ccb476be80" rend="petit left">
+      <p id="96e19103-713b-4588-97c1-22ccb476be80" rend="petit">
        Впервые опубликовано в «Revue des études slaves» 1930, X, стр. 209—211, и затем в «Летописях», 2, стр. 157—158.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="6185565d-b34c-4302-a7bd-5d21acc0f5d8" rend="petit left">
+      <p id="6185565d-b34c-4302-a7bd-5d21acc0f5d8" rend="petit">
        Ответ на письмо Ш. Саломона от 12 сентября н. ст. 1894 г., в котором он сообщал, что вскоре вышлет Толстому книгу доктора Куллери, «почитателя Толстого». Опасаясь, что книга может быть задержана русской цензурой, он прислал ему титульный лист этой книги с надписью автора: A Monsieur le comte Tolstoi à Toula. Russie. Hommage et temoignage de profonde simpathie. S. Coullery («Графу Толстому. Тула, Россия. В знак уважения и глубокой симпатии»).
       </p>
      </note>

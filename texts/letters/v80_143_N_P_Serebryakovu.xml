@@ -9,17 +9,41 @@
                 <title type="main">Письмо Н. П. Серебрякову от 22 сентября 1909 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Н. П. Серебрякову, 22 сентября 1909 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 80. М.: Гос. изд. «Художественная литература», 1955. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 80</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">104-105</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -104,13 +133,13 @@
      </hi>
      сентября 09 г. Ясная Поляна.
     </p>
-    <p id="5a75ac58-5cde-49df-8797-5095e8f21be5" rend="Obrashenie left">
+    <p id="5a75ac58-5cde-49df-8797-5095e8f21be5" rend="Obrashenie">
      <name placement="text" ref="12548" type="person">
       Николай Поликарпович
      </name>
      ,
     </p>
-    <p id="19dc93a6-a652-4359-96de-f03363e01de0" rend="left">
+    <p id="19dc93a6-a652-4359-96de-f03363e01de0">
      Вы спрашиваете: «Для чего мы живем?» Для того, чтобы исполняеть волю того, кто дал нам жизнь. Воля его в том, чтобы мы любили друг друга. Только начни исполнять, и жизнь будет радостью.
     </p>
     <noteGrp type="comments">
@@ -120,7 +149,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="9ecff405-1c2f-4c61-84c5-263a65126531" rend="petit left">
+      <p id="9ecff405-1c2f-4c61-84c5-263a65126531" rend="petit">
        Ответ на письмо
        <name placement="comments" ref="12548" type="person">
         Николая Поликарповича Серебрякова
@@ -129,7 +158,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="8d0ffcf1-6cb0-49e2-acbf-734ca502c50a" rend="emptyline left">
+      <p id="8d0ffcf1-6cb0-49e2-acbf-734ca502c50a" rend="emptyline">
        <pb n="105"/>
       </p>
      </note>

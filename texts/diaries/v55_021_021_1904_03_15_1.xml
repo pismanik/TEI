@@ -4,25 +4,49 @@
         <fileDesc>
              <titleStmt>                
                 <title xml:id="v55_021_021_1904_03_15_1">
-                    Дневники и записные книжки. Tolstoy Digital
+                    Дневники. Tolstoy Digital
                 </title>
                 <title type="main">Дневник,</title>
                 <title type="sub">15 марта 1904 г.</title>
                 <title type="bibl">Толстой Л. Н. [Дневник 1904 г.] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 55. М.: Гос. изд. «Художественная литература», 1937. С. </title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
-                 </respStmt>
+                </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,7 +113,9 @@
             <creation>
                 <date when="1904-03-15"/>
          </creation>          
-            <textClass> 
+            <langUsage>
+  <language ident="ru-petr1708"/>
+</langUsage><textClass> 
                 <catRef ana="#diaries" target="type"/>
            </textClass>
         </profileDesc>
@@ -107,25 +133,23 @@
         [15 Марта 1904] 14 Марта
        </hi>
       </date>
+      <ref target="#note89">
+       89
+      </ref>
+      <note exclude="true" index="false" resp="volume_editor" xml:id="note89">
+       <hi>
+        Зачеркнуто:
+       </hi>
+       и 15
+      </note>
+      <hi>
+       1904.
+      </hi>
+      <hi>
+       Я. П.
+      </hi>
      </dateline>
     </opener>
-    <p id="5f934515-f4ba-4102-b2eb-bfe0c6a8ee64" rend="left">
-     <ref target="#note89">
-      89
-     </ref>
-     <note exclude="true" index="false" resp="volume_editor" xml:id="note89">
-      <hi>
-       Зачеркнуто:
-      </hi>
-      и 15
-     </note>
-     <hi>
-      1904.
-     </hi>
-     <hi>
-      Я. П.
-     </hi>
-    </p>
     <p id="069a8def-9520-4d3d-838f-138ad2c4c926" style="left">
      Здоровье хорошо. По
      <choice>
@@ -171,7 +195,7 @@
         </reg>
         <orig>
          <name placement="text" ref="5672" type="person">
-          Юлiя
+          Юлія
          </name>
         </orig>
        </choice>

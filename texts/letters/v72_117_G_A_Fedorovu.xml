@@ -9,17 +9,41 @@
                 <title type="main">Письмо Г. А. Федорову от 30 мая 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Г. А. Федорову, 30 мая 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">134-135</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,7 +128,7 @@
      </name>
      .1899 г. Мая 30. Я. П.
     </opener>
-    <p id="a299df72-0a96-4513-a1a9-dd50a9a3afe6" rend="Obrashenie left">
+    <p id="a299df72-0a96-4513-a1a9-dd50a9a3afe6" rend="Obrashenie">
      <choice>
       <reg>
        <name placement="text" ref="14392" type="person">
@@ -107,7 +137,7 @@
       </reg>
       <orig>
        <name placement="text" ref="14392" type="person">
-        Григорiй
+        Григорій
        </name>
       </orig>
      </choice>
@@ -123,7 +153,7 @@
      </choice>
      ,
     </p>
-    <p id="8826e947-bb5c-408a-9769-23a19fa54ede" rend="left">
+    <p id="8826e947-bb5c-408a-9769-23a19fa54ede">
      Письмо ваше
      <choice>
       <reg>
@@ -266,17 +296,17 @@
      </choice>
      Толстой.
     </p>
-    <p id="a415f22a-449a-4d89-9ee6-fc25fe6172e0" rend="left">
+    <p id="a415f22a-449a-4d89-9ee6-fc25fe6172e0">
      30 Мая.
     </p>
     <noteGrp type="comments">
      <note index="false" type="comments">
       <p id="cf14305f-cd4e-492d-9cf6-4aed0ad9f563" rend="Textpetit_otstup left">
-       Печатается по листу копировальной книги, хранящемуся в AЧ. Дата дополняется по письму Федорова от 14 апреля 1899 г. Публикуется впервые.
+       Печатается по листу копировальной книги, хранящемуся в АЧ. Дата дополняется по письму Федорова от 14 апреля 1899 г. Публикуется впервые.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="94d6ab74-ba02-4a1e-886e-2e8a09e8ca68" rend="petit left">
+      <p id="94d6ab74-ba02-4a1e-886e-2e8a09e8ca68" rend="petit">
        Проживавшие в г. Благовещенске на Амуре члены секты «Старый израиль» сообщили Толстому о судьбе Ф. К. Послениченко, их единоверца, пользовавшегося большой популярностью. Они просили Толстого облегчить его участь.
        <name placement="comments" ref="14392" type="person">
         Григорий Александрович Федоров
@@ -296,7 +326,7 @@
          такие
         </reg>
         <orig>
-         такiе
+         такіе
         </orig>
        </choice>
        <choice>
@@ -304,7 +334,7 @@
          мелкия
         </reg>
         <orig>
-         мелкiя
+         мелкія
         </orig>
        </choice>
        пташки
@@ -321,7 +351,7 @@
          Росии
         </reg>
         <orig>
-         Росiи
+         Росіи
         </orig>
        </choice>
        облетали и
@@ -382,7 +412,7 @@
          божией
         </reg>
         <orig>
-         божiей
+         божіей
         </orig>
        </choice>
        просить
@@ -545,7 +575,7 @@
          жребий
         </reg>
         <orig>
-         жребiй
+         жребій
         </orig>
        </choice>
        ее
@@ -671,7 +701,7 @@
          человеколюбие
         </reg>
         <orig>
-         человѣколюбiе
+         человѣколюбіе
         </orig>
        </choice>
        ,
@@ -893,7 +923,7 @@
          получении
         </reg>
         <orig>
-         полученiи
+         полученіи
         </orig>
        </choice>
        нашего письма
@@ -954,7 +984,7 @@
          великий
         </reg>
         <orig>
-         великiй
+         великій
         </orig>
        </choice>
        <choice>
@@ -971,7 +1001,7 @@
          участие
         </reg>
         <orig>
-         участiе
+         участіе
         </orig>
        </choice>
        <choice>
@@ -1099,7 +1129,7 @@
          сочинения
         </reg>
         <orig>
-         сочиненiя
+         сочиненія
         </orig>
        </choice>
        , но Адреса Вашего
@@ -1265,7 +1295,7 @@
           братиев
          </reg>
          <orig>
-          братiевъ
+          братіевъ
          </orig>
         </choice>
         ».
@@ -1273,7 +1303,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="975a48da-17ca-45f4-9f18-9e349465cef2" rend="petit left">
+      <p id="975a48da-17ca-45f4-9f18-9e349465cef2" rend="petit">
        <pb n="135"/>
        <hi style="npdelimiter">
         В

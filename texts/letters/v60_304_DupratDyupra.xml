@@ -9,17 +9,41 @@
                 <title type="main">Duprat (Дюпра) с 1 января 1862 г. по 31 января 1862 г.</title>
                 <title type="bibl">Толстой Л. Н. Duprat (Дюпра), 1 января 1862 г. — 31 января 1862 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 60. М.: Гос. изд. «Художественная литература», 1949. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 60</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">507-508</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -94,10 +123,10 @@
     <opener index="false">
      * 304. Duprat. Неотправленное.1862 г. Январь — февраль. Москва.
     </opener>
-    <p id="4bcb44f4-dd04-4e83-bba5-a0b63f9938c6" rend="Obrashenie left">
+    <p id="4bcb44f4-dd04-4e83-bba5-a0b63f9938c6" rend="Obrashenie">
      Monsieur!
     </p>
-    <p id="2a82ab0d-2079-4897-8334-c7646433c2dc" rend="left">
+    <p id="2a82ab0d-2079-4897-8334-c7646433c2dc">
      En 1861, 1,600 francs ont été versés dans la maison Pascal fils et C-ie pour être transmis par la maison Fenzy de Florence au
      <hi>
       Comte Leon Tolstoy
@@ -105,10 +134,10 @@
      . — La somme n’etant pas remise au C. Tolstoy Fenzy annula le crédit et la somme resta dans la maison Pascal ce dont j’ai été informé par Fenzy. Si la maison Pascal n’a pas fait banqueroute je prie de m’envoyer cet argent, c’e ad. de le passer au nom de quelque banquier de Moscou ou de Petersbourg.
     </p>
     <lb/>
-    <p id="09f24f1e-6022-458f-ab55-288bb2c561a2" rend="Obrashenie petit left">
+    <p id="09f24f1e-6022-458f-ab55-288bb2c561a2" rend="Obrashenie petit">
      Милостивый государь!
     </p>
-    <p id="dc264115-2a16-40f1-9b33-5dada8eab00e" rend="petit left">
+    <p id="dc264115-2a16-40f1-9b33-5dada8eab00e" rend="petit">
      В 1861 г. 1,600 франков были переведены в контору Паскаль сын и К
      <hi>
       0
@@ -122,7 +151,7 @@
       Фенси.
      </hi>
     </p>
-    <p id="1c52ce85-c709-4cdd-b5a8-393f8e1fbff6" rend="petit left">
+    <p id="1c52ce85-c709-4cdd-b5a8-393f8e1fbff6" rend="petit">
      <pb n="508"/>
      <hi style="npdelimiter">
       Если
@@ -136,7 +165,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="3d947840-3d62-4288-bbcb-57c3b5df4f56" rend="petit left">
+      <p id="3d947840-3d62-4288-bbcb-57c3b5df4f56" rend="petit">
        Это вторичное письмо банкиру Толстой оставил неотправленным. На это указывает отсутствие подписи и то, что оно осталось в архиве Толстого.
       </p>
      </note>

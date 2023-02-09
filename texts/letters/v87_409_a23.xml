@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову от 23 января 1896 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 23 января 1896 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 87. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 87</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">349-351</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 409.1896 г. Января 23. Москва.
     </opener>
-    <p id="bf36e052-fc2e-42d5-9645-5c8b9c1a0ade" rend="left">
+    <p id="bf36e052-fc2e-42d5-9645-5c8b9c1a0ade">
      <choice>
       <reg>
        Получил
@@ -628,7 +658,7 @@
      </choice>
      . Постараюсь — хочется повидать его.
     </p>
-    <p id="6b8e2162-2e90-4d50-b33d-afffa22c0c08" rend="left">
+    <p id="6b8e2162-2e90-4d50-b33d-afffa22c0c08">
      У
      <choice>
       <reg>
@@ -771,7 +801,7 @@
      </choice>
      .
     </p>
-    <p id="f0589552-b3cf-4c13-810c-8f311861d8c4" rend="left">
+    <p id="f0589552-b3cf-4c13-810c-8f311861d8c4">
      <choice original_editorial_correction="Вл[адимир]">
       <sic>
        Вл
@@ -785,7 +815,7 @@
         </reg>
         <orig>
          <name placement="text" ref="15284" type="person">
-          Владимiръ
+          Владиміръ
          </name>
         </orig>
        </choice>
@@ -934,7 +964,7 @@
        направлению
       </reg>
       <orig>
-       направленiю
+       направленію
       </orig>
      </choice>
      они ближе, хотя
@@ -994,7 +1024,7 @@
          Владимира
         </reg>
         <orig>
-         Владимiра
+         Владиміра
         </orig>
        </choice>
       </corr>
@@ -1104,7 +1134,7 @@
      </choice>
      .
     </p>
-    <p id="d3698b57-937c-42f0-84a2-70936900e79a" rend="left">
+    <p id="d3698b57-937c-42f0-84a2-70936900e79a">
      Ну, прощайте пока.
      <choice>
       <reg>
@@ -1124,7 +1154,7 @@
      </choice>
      живется?
     </p>
-    <p id="29f13e12-1c82-41c9-8fc0-de32288554ae" rend="left">
+    <p id="29f13e12-1c82-41c9-8fc0-de32288554ae">
      У меня на
      <choice>
       <reg>
@@ -1156,7 +1186,7 @@
     <p id="a9a90baa-7610-49d8-bc26-f8d08fc23b53" rend="right">
      Л. Т.
     </p>
-    <p id="cdbdf9d8-5a45-4dfb-870b-2eb72c7b1c71" rend="left">
+    <p id="cdbdf9d8-5a45-4dfb-870b-2eb72c7b1c71">
      23 Января 1896 г.
     </p>
     <noteGrp type="comments">
@@ -1166,7 +1196,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="80f399ca-8273-4224-a55a-9992f3144b2b" rend="petit left">
+      <p id="80f399ca-8273-4224-a55a-9992f3144b2b" rend="petit">
        Ответ на письмо А. К. Чертковой из Петербурга, неразысканное в архивах.
       </p>
      </note>

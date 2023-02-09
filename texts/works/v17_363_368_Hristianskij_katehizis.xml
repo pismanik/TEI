@@ -4,24 +4,48 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v17_363_368_Hristianskij_katehizis">
-                    Христианский катехизис. Tolstoy Digital
+                    Христианский катехизис. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Христианский катехизис</title>
-                <title type="bibl">Толстой Л. Н. Христианский катехизис // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. Христианский катехизис // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С. 363–368.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -30,7 +54,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -42,7 +66,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -73,7 +97,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -88,9 +112,10 @@
             <creation>
                 <date when="1877"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#main" target="work_main"/>
@@ -123,7 +148,7 @@
     <p id="c879e204-84eb-40db-bb3a-12161c315b7e" rend="center">
      (1877 г.)
     </p>
-    <p id="b3e78800-fd66-46ae-8111-1ae4894b4400" rend="left">
+    <p id="b3e78800-fd66-46ae-8111-1ae4894b4400">
      «
      <choice>
       <reg>
@@ -171,7 +196,7 @@
       562
      </ref>
      <note index="false" xml:id="note562">
-      <span data-class="paragraph" id="f48589bc-d306-4f98-a061-5f7d96bad8dd" rend="left">
+      <span data-class="paragraph" id="f48589bc-d306-4f98-a061-5f7d96bad8dd">
        и понятную для меня и
        <choice>
         <reg>
@@ -205,7 +230,7 @@
          учение
         </reg>
         <orig>
-         ученiе
+         ученіе
         </orig>
        </choice>
       </span>
@@ -224,7 +249,7 @@
        знании
       </reg>
       <orig>
-       знанiи
+       знаніи
       </orig>
      </choice>
      добра моего и
@@ -267,7 +292,7 @@
        Христианское
       </reg>
       <orig>
-       Христiанское
+       Христіанское
       </orig>
      </choice>
      <choice>
@@ -275,7 +300,7 @@
        учение
       </reg>
       <orig>
-       ученiе
+       ученіе
       </orig>
      </choice>
      православной церкви,
@@ -283,7 +308,7 @@
       563
      </ref>
      <note index="false" xml:id="note563">
-      <span data-class="paragraph" id="b71cedb4-a621-4d3b-b845-9dfc980c259c" rend="left">
+      <span data-class="paragraph" id="b71cedb4-a621-4d3b-b845-9dfc980c259c">
        <choice>
         <reg>
          вполне
@@ -341,7 +366,7 @@
      </choice>
      Бога отца и т. д.»
     </p>
-    <p id="155be7a2-ea3f-419a-a818-34c93c43fce7" rend="left">
+    <p id="155be7a2-ea3f-419a-a818-34c93c43fce7">
      <choice>
       <reg>
        Вот
@@ -373,7 +398,7 @@
        изложение
       </reg>
       <orig>
-       изложенiе
+       изложеніе
       </orig>
      </choice>
      катихизиса моего и
@@ -382,7 +407,7 @@
        введение
       </reg>
       <orig>
-       введенiе
+       введеніе
       </orig>
      </choice>
      <choice>
@@ -429,7 +454,7 @@
       564
      </ref>
      <note index="false" xml:id="note564">
-      <span data-class="paragraph" id="939c2bce-6306-4414-978e-5d0b292a7720" rend="left">
+      <span data-class="paragraph" id="939c2bce-6306-4414-978e-5d0b292a7720">
        <hi rend="italic">
         Заглавие: О
         <choice>
@@ -445,7 +470,7 @@
       </span>
      </note>
     </head>
-    <p id="d0754d51-2fc0-45d2-a1ef-5112d64db648" rend="left">
+    <p id="d0754d51-2fc0-45d2-a1ef-5112d64db648">
      <hi rend="italic">
       В.
      </hi>
@@ -460,7 +485,7 @@
      </choice>
      ?
     </p>
-    <p id="11cff521-95b8-43c4-8bac-2db99f9ccaf0" rend="left">
+    <p id="11cff521-95b8-43c4-8bac-2db99f9ccaf0">
      <hi rend="italic">
       О.
      </hi>
@@ -493,7 +518,7 @@
        наставление
       </reg>
       <orig>
-       наставленiе
+       наставленіе
       </orig>
      </choice>
      <choice>
@@ -508,7 +533,7 @@
       565
      </ref>
      <note index="false" xml:id="note565">
-      <span data-class="paragraph" id="d3bc4314-3a81-4902-8783-f6d8c66e2c9a" rend="left">
+      <span data-class="paragraph" id="d3bc4314-3a81-4902-8783-f6d8c66e2c9a">
        православной
       </span>
      </note>
@@ -536,7 +561,7 @@
        христианину
       </reg>
       <orig>
-       христiанину
+       христіанину
       </orig>
      </choice>
      <choice>
@@ -553,14 +578,14 @@
        спасения
       </reg>
       <orig>
-       спасенiя
+       спасенія
       </orig>
      </choice>
      <ref target="#note566">
       566
      </ref>
      <note index="false" xml:id="note566">
-      <span data-class="paragraph" id="df651cc2-0c01-4de2-99e0-b2c5770c441a" rend="left">
+      <span data-class="paragraph" id="df651cc2-0c01-4de2-99e0-b2c5770c441a">
        жизни
       </span>
      </note>
@@ -647,7 +672,7 @@
         удовлетворение
        </reg>
        <orig>
-        удовлетворенiе
+        удовлетвореніе
        </orig>
       </choice>
       и
@@ -656,7 +681,7 @@
         соответствие
        </reg>
        <orig>
-        соотвѣтствiе
+        соотвѣтствіе
        </orig>
       </choice>
       <choice>
@@ -672,19 +697,19 @@
         требованиям
        </reg>
        <orig>
-        требованiямъ
+        требованіямъ
        </orig>
       </choice>
       .
      </del>
     </p>
-    <p id="74e81f62-1d68-40e7-9121-e1ea3c047b8c" rend="left">
+    <p id="74e81f62-1d68-40e7-9121-e1ea3c047b8c">
      <hi rend="italic">
       В.
      </hi>
      Чѣмъ отличаются потребности тѣла отъ потребности души? И не сливаются ли онѣ въ одно? Не есть ли то что мы называемъ потребностями души, только болѣе сложныя потребности тѣла?
     </p>
-    <p id="ebfee038-366a-4a09-b4ac-c43dfe472b16" rend="left">
+    <p id="ebfee038-366a-4a09-b4ac-c43dfe472b16">
      <hi rend="italic">
       О.
      </hi>
@@ -693,7 +718,7 @@
       567
      </ref>
      <note index="false" xml:id="note567">
-      <span data-class="paragraph" id="a5e93379-8b2f-4ea0-a5ff-b82089778efb" rend="left">
+      <span data-class="paragraph" id="a5e93379-8b2f-4ea0-a5ff-b82089778efb">
        души
       </span>
      </note>
@@ -776,7 +801,7 @@
      </choice>
      ] потребности
      <add n="n568" stage="в подлиннике">
-      <span data-class="paragraph" id="dd278a00-9ccc-4e0e-98a6-1f566daf6496" rend="left">
+      <span data-class="paragraph" id="dd278a00-9ccc-4e0e-98a6-1f566daf6496">
        потребностями
       </span>
      </add>
@@ -790,7 +815,7 @@
      </choice>
      .
     </p>
-    <p id="2f18c8da-5b39-4035-bd5f-d7ea293aceae" rend="left">
+    <p id="2f18c8da-5b39-4035-bd5f-d7ea293aceae">
      <pb n="364"/>
      (
      <choice>
@@ -798,7 +823,7 @@
        Примечание
       </reg>
       <orig>
-       Примѣчанiе
+       Примѣчаніе
       </orig>
      </choice>
      )
@@ -815,7 +840,7 @@
        философия
       </reg>
       <orig>
-       философiя
+       философія
       </orig>
      </choice>
      ,
@@ -895,7 +920,7 @@
        последствий
       </reg>
       <orig>
-       послѣдствiй
+       послѣдствій
       </orig>
      </choice>
      <choice>
@@ -903,7 +928,7 @@
        удовлетворений
       </reg>
       <orig>
-       удовлетворенiй
+       удовлетвореній
       </orig>
      </choice>
      <choice>
@@ -928,7 +953,7 @@
        отрицании
       </reg>
       <orig>
-       отрицанiи
+       отрицаніи
       </orig>
      </choice>
      <choice>
@@ -971,7 +996,7 @@
        утверждение
       </reg>
       <orig>
-       утвержденiе
+       утвержденіе
       </orig>
      </choice>
      это ни на
@@ -1170,7 +1195,7 @@
        имеющия
       </reg>
       <orig>
-       имѣющiя
+       имѣющія
       </orig>
      </choice>
      <choice>
@@ -1209,7 +1234,7 @@
      </choice>
      это благо.
     </p>
-    <p id="0438ac98-60e3-48ab-8868-0057d54609c1" rend="left">
+    <p id="0438ac98-60e3-48ab-8868-0057d54609c1">
      <hi rend="italic">
       В.
      </hi>
@@ -1219,7 +1244,7 @@
        спасения
       </reg>
       <orig>
-       спасенiя
+       спасенія
       </orig>
      </choice>
      души
@@ -1231,14 +1256,14 @@
       569
      </ref>
      <note index="false" xml:id="note569">
-      <span data-class="paragraph" id="a4386c26-b607-45d0-b117-50ae11d7f408" rend="left">
+      <span data-class="paragraph" id="a4386c26-b607-45d0-b117-50ae11d7f408">
        душа испытывала
        <choice>
         <reg>
          соответствие
         </reg>
         <orig>
-         соотвѣтствiе
+         соотвѣтствіе
         </orig>
        </choice>
        <choice>
@@ -1254,14 +1279,14 @@
          требованиям
         </reg>
         <orig>
-         требованiямъ
+         требованіямъ
         </orig>
        </choice>
       </span>
      </note>
      знать то, что нужно для потребностей души?
     </p>
-    <p id="7abe06f1-922d-4bd8-966c-22e0748145e2" rend="left">
+    <p id="7abe06f1-922d-4bd8-966c-22e0748145e2">
      <hi rend="italic">
       О.
      </hi>
@@ -1271,12 +1296,12 @@
        определение
       </reg>
       <orig>
-       опредѣленiе
+       опредѣленіе
       </orig>
      </choice>
      того,
      <add n="n570" stage="в подлиннике">
-      <span data-class="paragraph" id="2af0c58b-216e-4a3a-b606-e24ea8861ba5" rend="left">
+      <span data-class="paragraph" id="2af0c58b-216e-4a3a-b606-e24ea8861ba5">
        о того
       </span>
      </add>
@@ -1319,7 +1344,7 @@
       .
      </del>
     </p>
-    <p id="0107bd63-aa0c-4f21-a77f-47bf44ee8dc8" rend="left">
+    <p id="0107bd63-aa0c-4f21-a77f-47bf44ee8dc8">
      <hi rend="italic">
       В.
      </hi>
@@ -1334,7 +1359,7 @@
      </choice>
      ?
     </p>
-    <p id="9aa1126f-22b7-4060-949e-d6721e2f1e49" rend="left">
+    <p id="9aa1126f-22b7-4060-949e-d6721e2f1e49">
      <hi rend="italic">
       О.
      </hi>
@@ -1353,7 +1378,7 @@
         извещение
        </reg>
        <orig>
-        извѣщенiе
+        извѣщеніе
        </orig>
       </choice>
       , вещей
@@ -1362,7 +1387,7 @@
         обличение
        </reg>
        <orig>
-        обличенiе
+        обличеніе
        </orig>
       </choice>
       <choice>
@@ -1397,7 +1422,7 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      вещей
@@ -1411,7 +1436,7 @@
      </choice>
      разуму.
     </p>
-    <p id="acdbcd9c-08c8-4e36-8c34-fac7dfb5dee0" rend="left">
+    <p id="acdbcd9c-08c8-4e36-8c34-fac7dfb5dee0">
      <hi rend="italic">
       В.
      </hi>
@@ -1421,7 +1446,7 @@
        знанием
       </reg>
       <orig>
-       знанiемъ
+       знаніемъ
       </orig>
      </choice>
      <choice>
@@ -1438,12 +1463,12 @@
        знанием
       </reg>
       <orig>
-       знанiемъ
+       знаніемъ
       </orig>
      </choice>
      разума?
     </p>
-    <p id="6009c702-b76e-4088-b694-9cda8e759673" rend="left">
+    <p id="6009c702-b76e-4088-b694-9cda8e759673">
      <hi rend="italic">
       О.
      </hi>
@@ -1453,7 +1478,7 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      разума основано на
@@ -1470,7 +1495,7 @@
        знании
       </reg>
       <orig>
-       знанiи
+       знаніи
       </orig>
      </choice>
      .
@@ -1479,7 +1504,7 @@
        Знание
       </reg>
       <orig>
-       Знанiе
+       Знаніе
       </orig>
      </choice>
      же
@@ -1504,7 +1529,7 @@
        основание
       </reg>
       <orig>
-       основанiе
+       основаніе
       </orig>
      </choice>
      само
@@ -1526,7 +1551,7 @@
      </choice>
      . —
     </p>
-    <p id="2e621fe5-f92a-4043-a060-fc418ded64a8" rend="left">
+    <p id="2e621fe5-f92a-4043-a060-fc418ded64a8">
      <hi rend="italic">
       В.
      </hi>
@@ -1536,7 +1561,7 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      разума
@@ -1553,7 +1578,7 @@
        знания
       </reg>
       <orig>
-       знанiя
+       знанія
       </orig>
      </choice>
      <choice>
@@ -1566,7 +1591,7 @@
      </choice>
      ?
     </p>
-    <p id="82128b5d-8a3c-4fbd-89f7-5cac3f277765" rend="left">
+    <p id="82128b5d-8a3c-4fbd-89f7-5cac3f277765">
      <hi rend="italic">
       О.
      </hi>
@@ -1576,7 +1601,7 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      разума основано на
@@ -1593,7 +1618,7 @@
        знании
       </reg>
       <orig>
-       знанiи
+       знаніи
       </orig>
      </choice>
      ; предшествующее же тоже должно быть на
@@ -1611,7 +1636,7 @@
        прием
       </reg>
       <orig>
-       прiемъ
+       пріемъ
       </orig>
      </choice>
      разума,
@@ -1620,7 +1645,7 @@
        основывающий
       </reg>
       <orig>
-       основывающiй
+       основывающій
       </orig>
      </choice>
      каждое
@@ -1629,7 +1654,7 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      на
@@ -1656,7 +1681,7 @@
        знания
       </reg>
       <orig>
-       знанiя
+       знанія
       </orig>
      </choice>
      <choice>
@@ -1681,7 +1706,7 @@
        знания
       </reg>
       <orig>
-       знанiя
+       знанія
       </orig>
      </choice>
      , не
@@ -1698,7 +1723,7 @@
        основанием
       </reg>
       <orig>
-       основанiемъ
+       основаніемъ
       </orig>
      </choice>
      разумное
@@ -1707,12 +1732,12 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      .
     </p>
-    <p id="c76bb490-e371-40d3-9e21-d211298ae3ee" rend="left">
+    <p id="c76bb490-e371-40d3-9e21-d211298ae3ee">
      <hi rend="italic">
       В.
      </hi>
@@ -1722,12 +1747,12 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      ?
     </p>
-    <p id="63a66241-7820-4e3e-86de-2872b434f5fd" rend="left">
+    <p id="63a66241-7820-4e3e-86de-2872b434f5fd">
      <hi rend="italic">
       О.
      </hi>
@@ -1736,7 +1761,7 @@
        Знание
       </reg>
       <orig>
-       Знанiе
+       Знаніе
       </orig>
      </choice>
      <choice>
@@ -1749,12 +1774,12 @@
      </choice>
      .
     </p>
-    <p id="5983445e-bc62-4da6-815f-f1c7a8c86a77" rend="left">
+    <p id="5983445e-bc62-4da6-815f-f1c7a8c86a77">
      <ref target="#note571">
       571
      </ref>
      <note index="false" xml:id="note571">
-      <span data-class="paragraph" id="f56835aa-982d-43b9-857c-d7d6df385b71" rend="left">
+      <span data-class="paragraph" id="f56835aa-982d-43b9-857c-d7d6df385b71">
        <hi rend="italic">
         От слов: В.
        </hi>
@@ -1764,7 +1789,7 @@
          знание
         </reg>
         <orig>
-         знанiе
+         знаніе
         </orig>
        </choice>
        <choice>
@@ -1783,7 +1808,7 @@
          Явления
         </reg>
         <orig>
-         Явленiя
+         Явленія
         </orig>
        </choice>
        этой жизни
@@ -1801,7 +1826,7 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      <choice>
@@ -1835,7 +1860,7 @@
       572
      </ref>
      <note index="false" xml:id="note572">
-      <span data-class="paragraph" id="8ee62546-cf30-4ef3-9fa9-aa7811a0ec87" rend="left">
+      <span data-class="paragraph" id="8ee62546-cf30-4ef3-9fa9-aa7811a0ec87">
        <hi rend="italic">
         Слова:
        </hi>
@@ -1863,7 +1888,7 @@
       </span>
      </note>
     </p>
-    <p id="06c59d7c-b5c8-416c-9fae-8c32aa47cdc2" rend="left">
+    <p id="06c59d7c-b5c8-416c-9fae-8c32aa47cdc2">
      <hi rend="italic">
       О.
      </hi>
@@ -1872,7 +1897,7 @@
        Знание
       </reg>
       <orig>
-       Знанiе
+       Знаніе
       </orig>
      </choice>
      <choice>
@@ -1897,7 +1922,7 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      смысла
@@ -1922,7 +1947,7 @@
        явлений
       </reg>
       <orig>
-       явленiй
+       явленій
       </orig>
      </choice>
      ,
@@ -1939,22 +1964,22 @@
       573
      </ref>
      <note index="false" xml:id="note573">
-      <span data-class="paragraph" id="035c080f-3ee7-499e-a62e-f75c4eabdac5" rend="left">
+      <span data-class="paragraph" id="035c080f-3ee7-499e-a62e-f75c4eabdac5">
        <hi rend="italic">
         Фраза не закончена.
        </hi>
       </span>
      </note>
     </p>
-    <p id="0828313a-e998-4f31-9aaa-04ed5c415c2f" rend="left">
+    <p id="0828313a-e998-4f31-9aaa-04ed5c415c2f">
      <pb n="365"/>
     </p>
-    <p id="02125b7e-aa30-493f-a746-da4cdd2a27a1" rend="left">
+    <p id="02125b7e-aa30-493f-a746-da4cdd2a27a1">
      <ref target="#note574">
       574
      </ref>
      <note index="false" xml:id="note574">
-      <span data-class="paragraph" id="fbf7355a-b970-4566-a85e-ecac475e3131" rend="left">
+      <span data-class="paragraph" id="fbf7355a-b970-4566-a85e-ecac475e3131">
        <del>
         В.
         <choice>
@@ -1979,7 +2004,7 @@
           знание
          </reg>
          <orig>
-          знанiе
+          знаніе
          </orig>
         </choice>
         <choice>
@@ -2045,7 +2070,7 @@
           знания
          </reg>
          <orig>
-          знанiя
+          знанія
          </orig>
         </choice>
         наши?
@@ -2067,7 +2092,7 @@
           знания
          </reg>
          <orig>
-          знанiя
+          знанія
          </orig>
         </choice>
         наши?
@@ -2110,7 +2135,7 @@
        знанием
       </reg>
       <orig>
-       знанiемъ
+       знаніемъ
       </orig>
      </choice>
      <choice>
@@ -2144,12 +2169,12 @@
        знании
       </reg>
       <orig>
-       знанiи
+       знаніи
       </orig>
      </choice>
      ?
     </p>
-    <p id="7b39dc7c-1744-4e06-be29-b38d0b9bfe2a" rend="left">
+    <p id="7b39dc7c-1744-4e06-be29-b38d0b9bfe2a">
      <hi rend="italic">
       О.
      </hi>
@@ -2168,7 +2193,7 @@
        завтрашний
       </reg>
       <orig>
-       завтрашнiй
+       завтрашній
       </orig>
      </choice>
      день, мы
@@ -2317,7 +2342,7 @@
        действий
       </reg>
       <orig>
-       дѣйствiй
+       дѣйствій
       </orig>
      </choice>
      мы не
@@ -2349,13 +2374,13 @@
      </choice>
      .
     </p>
-    <p id="d0649aab-2e36-4cb2-b66d-e8d74e3854cb" rend="left">
+    <p id="d0649aab-2e36-4cb2-b66d-e8d74e3854cb">
      <hi rend="italic">
       В.
      </hi>
      Гдѣ въ наукахъ видно то знаніе вѣры, на кот[оромъ] онѣ основываются?
     </p>
-    <p id="a76b0531-1236-47d8-941f-8df5880ea6e8" rend="left">
+    <p id="a76b0531-1236-47d8-941f-8df5880ea6e8">
      <hi rend="italic">
       О.
      </hi>
@@ -2372,7 +2397,7 @@
        Астрономии
       </reg>
       <orig>
-       Астрономiи
+       Астрономіи
       </orig>
      </choice>
      мы прежде
@@ -2397,7 +2422,7 @@
        существование
       </reg>
       <orig>
-       существованiе
+       существованіе
       </orig>
      </choice>
      <choice>
@@ -2448,7 +2473,7 @@
        движение
       </reg>
       <orig>
-       движенiе
+       движеніе
       </orig>
      </choice>
      <choice>
@@ -2491,7 +2516,7 @@
        химии
       </reg>
       <orig>
-       химiи
+       химіи
       </orig>
      </choice>
      мы
@@ -2541,7 +2566,7 @@
        действия
       </reg>
       <orig>
-       дѣйствiя
+       дѣйствія
       </orig>
      </choice>
      <choice>
@@ -2645,12 +2670,12 @@
        явления
       </reg>
       <orig>
-       явленiя
+       явленія
       </orig>
      </choice>
      этой жизни.
     </p>
-    <p id="71f97b13-dd00-4636-b23a-67dab30441aa" rend="left">
+    <p id="71f97b13-dd00-4636-b23a-67dab30441aa">
      <hi rend="italic">
       В.
      </hi>
@@ -2660,7 +2685,7 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      <choice>
@@ -2684,7 +2709,7 @@
        знания
       </reg>
       <orig>
-       знанiя
+       знанія
       </orig>
      </choice>
      разума?
@@ -2692,7 +2717,7 @@
       575
      </ref>
      <note index="false" xml:id="note575">
-      <span data-class="paragraph" id="807d21f9-ff19-48bc-8fe1-ab095738eb3f" rend="left">
+      <span data-class="paragraph" id="807d21f9-ff19-48bc-8fe1-ab095738eb3f">
        <hi rend="italic">
         От слов:
        </hi>
@@ -2701,7 +2726,7 @@
          знания
         </reg>
         <orig>
-         знанiя
+         знанія
         </orig>
        </choice>
        разума
@@ -2713,7 +2738,7 @@
          Примечание
         </reg>
         <orig>
-         Примѣчанiе
+         Примѣчаніе
         </orig>
        </choice>
        : Такое
@@ -2722,7 +2747,7 @@
          знание
         </reg>
         <orig>
-         знанiе
+         знаніе
         </orig>
        </choice>
        можно вообразить
@@ -2755,7 +2780,7 @@
       </span>
      </note>
     </p>
-    <p id="2c9f3240-9c19-44a8-b4e9-ccf38a4a5467" rend="left">
+    <p id="2c9f3240-9c19-44a8-b4e9-ccf38a4a5467">
      <hi rend="italic">
       О.
      </hi>
@@ -2781,17 +2806,17 @@
        основании
       </reg>
       <orig>
-       основанiи
+       основаніи
       </orig>
      </choice>
      .
     </p>
-    <p id="ea11bf5f-0191-4fcc-906b-1e3cb67059f7" rend="left">
+    <p id="ea11bf5f-0191-4fcc-906b-1e3cb67059f7">
      <ref target="#note576">
       576
      </ref>
      <note index="false" xml:id="note576">
-      <span data-class="paragraph" id="83fa2aa5-1485-423d-b982-1272d9dbfe9d" rend="left">
+      <span data-class="paragraph" id="83fa2aa5-1485-423d-b982-1272d9dbfe9d">
        <hi rend="italic">
         Зач.: В.
        </hi>
@@ -2809,7 +2834,7 @@
          учении
         </reg>
         <orig>
-         ученiи
+         ученіи
         </orig>
        </choice>
        при
@@ -2818,7 +2843,7 @@
          наставлении
         </reg>
         <orig>
-         наставленiи
+         наставленіи
         </orig>
        </choice>
        <choice>
@@ -2844,7 +2869,7 @@
          знание
         </reg>
         <orig>
-         знанiе
+         знаніе
         </orig>
        </choice>
        разумное,
@@ -2861,7 +2886,7 @@
          знания
         </reg>
         <orig>
-         знанiя
+         знанія
         </orig>
        </choice>
        <choice>
@@ -2909,7 +2934,7 @@
        наставление
       </reg>
       <orig>
-       наставленiе
+       наставленіе
       </orig>
      </choice>
      <choice>
@@ -2935,7 +2960,7 @@
        знания
       </reg>
       <orig>
-       знанiя
+       знанія
       </orig>
      </choice>
      <choice>
@@ -2952,12 +2977,12 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      разумное?
     </p>
-    <p id="76a318e2-72ba-4567-a785-a40988711783" rend="left">
+    <p id="76a318e2-72ba-4567-a785-a40988711783">
      <hi rend="italic">
       О.
      </hi>
@@ -3007,7 +3032,7 @@
        знания
       </reg>
       <orig>
-       знанiя
+       знанія
       </orig>
      </choice>
      , при
@@ -3025,7 +3050,7 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      останавливается и
@@ -3083,7 +3108,7 @@
       577
      </ref>
      <note index="false" xml:id="note577">
-      <span data-class="paragraph" id="d992bb02-f790-449c-b68f-c1b741e3daa7" rend="left">
+      <span data-class="paragraph" id="d992bb02-f790-449c-b68f-c1b741e3daa7">
        <hi rend="italic">
         Зач.: В.
        </hi>
@@ -3093,7 +3118,7 @@
          знание
         </reg>
         <orig>
-         знанiе
+         знаніе
         </orig>
        </choice>
        <choice>
@@ -3122,7 +3147,7 @@
          спасения
         </reg>
         <orig>
-         спасенiя
+         спасенія
         </orig>
        </choice>
        души,
@@ -3163,12 +3188,12 @@
        откровении
       </reg>
       <orig>
-       откровенiи
+       откровеніи
       </orig>
      </choice>
      .
     </p>
-    <p id="01c458a7-8aab-4472-8dce-14ffddd1d146" rend="left">
+    <p id="01c458a7-8aab-4472-8dce-14ffddd1d146">
      <hi rend="italic">
       В.
      </hi>
@@ -3182,7 +3207,7 @@
         выражение
        </reg>
        <orig>
-        выраженiе
+        выраженіе
        </orig>
       </choice>
      </del>
@@ -3191,7 +3216,7 @@
        знания
       </reg>
       <orig>
-       знанiя
+       знанія
       </orig>
      </choice>
      <choice>
@@ -3204,7 +3229,7 @@
      </choice>
      ?
     </p>
-    <p id="e156b792-6423-48f2-a5bc-335cdae227f0" rend="left">
+    <p id="e156b792-6423-48f2-a5bc-335cdae227f0">
      <hi rend="italic">
       О.
      </hi>
@@ -3212,7 +3237,7 @@
       578
      </ref>
      <note index="false" xml:id="note578">
-      <span data-class="paragraph" id="94034bb8-72b9-4f29-b198-d78b1ce34845" rend="left">
+      <span data-class="paragraph" id="94034bb8-72b9-4f29-b198-d78b1ce34845">
        <choice original_editorial_correction="Выражен[ие]">
         <sic>
          Выражен
@@ -3223,7 +3248,7 @@
            Выражение
           </reg>
           <orig>
-           Выраженiе
+           Выраженіе
           </orig>
          </choice>
         </corr>
@@ -3235,7 +3260,7 @@
        Знания
       </reg>
       <orig>
-       Знанiя
+       Знанія
       </orig>
      </choice>
      <choice>
@@ -3259,7 +3284,7 @@
        основание
       </reg>
       <orig>
-       основанiе
+       основаніе
       </orig>
      </choice>
      <choice>
@@ -3294,7 +3319,7 @@
         выражение
        </reg>
        <orig>
-        выраженiе
+        выраженіе
        </orig>
       </choice>
       <choice>
@@ -3302,7 +3327,7 @@
         знания
        </reg>
        <orig>
-        знанiя
+        знанія
        </orig>
       </choice>
       <choice>
@@ -3341,7 +3366,7 @@
       другому.
      </del>
     </p>
-    <p id="11c46229-ecb9-4042-98c7-691201a610a2" rend="left">
+    <p id="11c46229-ecb9-4042-98c7-691201a610a2">
      <hi rend="italic">
       В.
      </hi>
@@ -3368,12 +3393,12 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      ?
     </p>
-    <p id="8a2da039-c72d-48a2-b37b-625b7287eaa0" rend="left">
+    <p id="8a2da039-c72d-48a2-b37b-625b7287eaa0">
      <hi rend="italic">
       О.
      </hi>
@@ -3396,12 +3421,12 @@
      </choice>
      Бога.
     </p>
-    <p id="024f7592-f5e9-4a26-b0f7-d3db61707822" rend="left">
+    <p id="024f7592-f5e9-4a26-b0f7-d3db61707822">
      <ref target="#note579">
       579
      </ref>
      <note index="false" xml:id="note579">
-      <span data-class="paragraph" id="9a066bc6-ce9d-4e68-912d-a1d996f73594" rend="left">
+      <span data-class="paragraph" id="9a066bc6-ce9d-4e68-912d-a1d996f73594">
        <hi rend="italic">
         От слов: В.
        </hi>
@@ -3415,7 +3440,7 @@
          откровением
         </reg>
         <orig>
-         откровенiемъ
+         откровеніемъ
         </orig>
        </choice>
        .
@@ -3455,15 +3480,15 @@
      </choice>
      людей получили его?
     </p>
-    <p id="24de7207-7ab4-496b-b899-c5cb4e0fc753" rend="left">
+    <p id="24de7207-7ab4-496b-b899-c5cb4e0fc753">
      <pb n="366"/>
     </p>
-    <p id="bf14cf26-3318-48f4-93b2-89bc0494f36f" rend="left">
+    <p id="bf14cf26-3318-48f4-93b2-89bc0494f36f">
      <ref target="#note580">
       580
      </ref>
      <note index="false" xml:id="note580">
-      <span data-class="paragraph" id="fe98077e-4300-429e-aca3-93bc4eabcf10" rend="left">
+      <span data-class="paragraph" id="fe98077e-4300-429e-aca3-93bc4eabcf10">
        <hi rend="italic">
         Зачеркнуто: О.
        </hi>
@@ -3480,7 +3505,7 @@
          знания
         </reg>
         <orig>
-         знанiя
+         знанія
         </orig>
        </choice>
        <choice>
@@ -3586,7 +3611,7 @@
        знания
       </reg>
       <orig>
-       знанiя
+       знанія
       </orig>
      </choice>
      ,
@@ -3627,7 +3652,7 @@
        основания
       </reg>
       <orig>
-       основанiя
+       основанія
       </orig>
      </choice>
      <choice>
@@ -3635,7 +3660,7 @@
        знанию
       </reg>
       <orig>
-       знанiю
+       знанію
       </orig>
      </choice>
      <choice>
@@ -3660,7 +3685,7 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      <choice>
@@ -3705,7 +3730,7 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      <choice>
@@ -3742,18 +3767,18 @@
         откровением
        </reg>
        <orig>
-        откровенiемъ
+        откровеніемъ
        </orig>
       </choice>
      </del>
      .
     </p>
-    <p id="d67c5eab-45c7-4d00-b816-5073aac99380" rend="left">
+    <p id="d67c5eab-45c7-4d00-b816-5073aac99380">
      <ref target="#note581">
       581
      </ref>
      <note index="false" xml:id="note581">
-      <span data-class="paragraph" id="0874b5e3-d28a-4a56-9c09-c54f99192f4a" rend="left">
+      <span data-class="paragraph" id="0874b5e3-d28a-4a56-9c09-c54f99192f4a">
        <hi rend="italic">
         Зач.: В.
        </hi>
@@ -3812,7 +3837,7 @@
          откровение
         </reg>
         <orig>
-         откровенiе
+         откровеніе
         </orig>
        </choice>
        <choice>
@@ -3840,7 +3865,7 @@
          откровение
         </reg>
         <orig>
-         откровенiе
+         откровеніе
         </orig>
        </choice>
        <choice>
@@ -3859,7 +3884,7 @@
          выражение
         </reg>
         <orig>
-         выраженiе
+         выраженіе
         </orig>
        </choice>
        <choice>
@@ -3867,7 +3892,7 @@
          знания
         </reg>
         <orig>
-         знанiя
+         знанія
         </orig>
        </choice>
       </span>
@@ -3881,7 +3906,7 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      <choice>
@@ -3944,7 +3969,7 @@
        выражения
       </reg>
       <orig>
-       выраженiя
+       выраженія
       </orig>
      </choice>
      <choice>
@@ -3960,7 +3985,7 @@
        знания
       </reg>
       <orig>
-       знанiя
+       знанія
       </orig>
      </choice>
      ,
@@ -3999,7 +4024,7 @@
      </choice>
      друга?
     </p>
-    <p id="b8832afe-f403-4e7c-bc21-65d6aeaa4f75" rend="left">
+    <p id="b8832afe-f403-4e7c-bc21-65d6aeaa4f75">
      <hi rend="italic">
       О.
      </hi>
@@ -4008,14 +4033,14 @@
        Знание
       </reg>
       <orig>
-       Знанiе
+       Знаніе
       </orig>
      </choice>
      <ref target="#note582">
       582
      </ref>
      <note index="false" xml:id="note582">
-      <span data-class="paragraph" id="c369542c-2f1c-4b7c-bc04-2ba556035522" rend="left">
+      <span data-class="paragraph" id="c369542c-2f1c-4b7c-bc04-2ba556035522">
        <hi rend="italic">
         Слово:
        </hi>
@@ -4024,7 +4049,7 @@
          Знание
         </reg>
         <orig>
-         Знанiе
+         Знаніе
         </orig>
        </choice>
        <hi rend="italic">
@@ -4035,7 +4060,7 @@
          Откровение
         </reg>
         <orig>
-         Откровенiе
+         Откровеніе
         </orig>
        </choice>
       </span>
@@ -4112,7 +4137,7 @@
        выражение
       </reg>
       <orig>
-       выраженiе
+       выраженіе
       </orig>
      </choice>
      и передачу того, что было открыто
@@ -4134,12 +4159,12 @@
      </choice>
      .
     </p>
-    <p id="f839bd34-5655-4727-9098-0bc4946943b9" rend="left">
+    <p id="f839bd34-5655-4727-9098-0bc4946943b9">
      <ref target="#note583">
       583
      </ref>
      <note index="false" xml:id="note583">
-      <span data-class="paragraph" id="156cc501-a3b4-4dda-b2d9-2d68830cf8e3" rend="left">
+      <span data-class="paragraph" id="156cc501-a3b4-4dda-b2d9-2d68830cf8e3">
        <hi rend="italic">
         От слов: В.
        </hi>
@@ -4169,7 +4194,7 @@
          знание
         </reg>
         <orig>
-         знанiе
+         знаніе
         </orig>
        </choice>
        <choice>
@@ -4229,7 +4254,7 @@
        откровение
       </reg>
       <orig>
-       откровенiе
+       откровеніе
       </orig>
      </choice>
      .
@@ -4237,7 +4262,7 @@
       584
      </ref>
      <note index="false" xml:id="note584">
-      <span data-class="paragraph" id="ca1ea214-9e3c-4a93-8cd5-4a13c2ad543d" rend="left">
+      <span data-class="paragraph" id="ca1ea214-9e3c-4a93-8cd5-4a13c2ad543d">
        <hi rend="italic">
         Слова:
        </hi>
@@ -4247,7 +4272,7 @@
          откровение
         </reg>
         <orig>
-         откровенiе
+         откровеніе
         </orig>
        </choice>
        <hi rend="italic">
@@ -4258,7 +4283,7 @@
          знание
         </reg>
         <orig>
-         знанiе
+         знаніе
         </orig>
        </choice>
        <choice>
@@ -4272,7 +4297,7 @@
       </span>
      </note>
     </p>
-    <p id="6d15afcc-259b-4244-a8f3-4a30446f7959" rend="left">
+    <p id="6d15afcc-259b-4244-a8f3-4a30446f7959">
      <hi rend="italic">
       О.
      </hi>
@@ -4322,7 +4347,7 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      <choice>
@@ -4381,7 +4406,7 @@
        знания
       </reg>
       <orig>
-       знанiя
+       знанія
       </orig>
      </choice>
      <choice>
@@ -4406,12 +4431,12 @@
        знания
       </reg>
       <orig>
-       знанiя
+       знанія
       </orig>
      </choice>
      разума.
     </p>
-    <p id="f6c23534-6e99-466c-94a6-8504a4b19eb4" rend="left">
+    <p id="f6c23534-6e99-466c-94a6-8504a4b19eb4">
      <hi rend="italic">
       В.
      </hi>
@@ -4429,7 +4454,7 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      <choice>
@@ -4461,7 +4486,7 @@
       ?
      </del>
     </p>
-    <p id="6582aa55-906f-4925-be64-ae5f5b393d4f" rend="left">
+    <p id="6582aa55-906f-4925-be64-ae5f5b393d4f">
      <hi rend="italic">
       О.
      </hi>
@@ -4479,7 +4504,7 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      <choice>
@@ -4504,7 +4529,7 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      , которое обще
@@ -4530,7 +4555,7 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      <choice>
@@ -4543,12 +4568,12 @@
      </choice>
      .
     </p>
-    <p id="34094172-5eea-4f86-ae88-86e5ad46ebaa" rend="left">
+    <p id="34094172-5eea-4f86-ae88-86e5ad46ebaa">
      <ref target="#note585">
       585
      </ref>
      <note index="false" xml:id="note585">
-      <span data-class="paragraph" id="e959e8b6-1e17-4133-973f-7a7dc47ad4f0" rend="left">
+      <span data-class="paragraph" id="e959e8b6-1e17-4133-973f-7a7dc47ad4f0">
        <hi rend="italic">
         От слов: В.
        </hi>
@@ -4558,7 +4583,7 @@
          выражения
         </reg>
         <orig>
-         выраженiя
+         выраженія
         </orig>
        </choice>
        <choice>
@@ -4587,7 +4612,7 @@
          знанию
         </reg>
         <orig>
-         знанiю
+         знанію
         </orig>
        </choice>
        .
@@ -4606,7 +4631,7 @@
        выражения
       </reg>
       <orig>
-       выраженiя
+       выраженія
       </orig>
      </choice>
      <choice>
@@ -4637,7 +4662,7 @@
      </choice>
      ?
     </p>
-    <p id="57b952aa-2e8d-44ae-8f42-aa43d8e8dd29" rend="left">
+    <p id="57b952aa-2e8d-44ae-8f42-aa43d8e8dd29">
      <hi rend="italic">
       О.
      </hi>
@@ -4647,7 +4672,7 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      <choice>
@@ -4723,7 +4748,7 @@
        выражения
       </reg>
       <orig>
-       выраженiя
+       выраженія
       </orig>
      </choice>
      <choice>
@@ -4774,7 +4799,7 @@
        Внешния
       </reg>
       <orig>
-       Внѣшнiя
+       Внѣшнія
       </orig>
      </choice>
      же признаки
@@ -4792,7 +4817,7 @@
        зависящия
       </reg>
       <orig>
-       зависящiя
+       зависящія
       </orig>
      </choice>
      <choice>
@@ -4825,7 +4850,7 @@
        условий
       </reg>
       <orig>
-       условiй
+       условій
       </orig>
      </choice>
      ,
@@ -4842,7 +4867,7 @@
        значение
       </reg>
       <orig>
-       значенiе
+       значеніе
       </orig>
      </choice>
      <choice>
@@ -4858,7 +4883,7 @@
        знания
       </reg>
       <orig>
-       знанiя
+       знанія
       </orig>
      </choice>
      , а не
@@ -4867,7 +4892,7 @@
        знания
       </reg>
       <orig>
-       знанiя
+       знанія
       </orig>
      </choice>
      <choice>
@@ -4880,7 +4905,7 @@
      </choice>
      . —
     </p>
-    <p id="7015e710-61ff-4eb5-951f-fa4bfeaa30aa" rend="left">
+    <p id="7015e710-61ff-4eb5-951f-fa4bfeaa30aa">
      <hi rend="italic">
       В.
      </hi>
@@ -4890,7 +4915,7 @@
        христианская
       </reg>
       <orig>
-       христiанская
+       христіанская
       </orig>
      </choice>
      <choice>
@@ -4922,26 +4947,26 @@
        учении
       </reg>
       <orig>
-       ученiи
+       ученіи
       </orig>
      </choice>
      ?
     </p>
-    <p id="28d1704c-4da8-4e08-bb51-12d44f03d650" rend="left">
+    <p id="28d1704c-4da8-4e08-bb51-12d44f03d650">
      <hi rend="italic">
       О.
      </hi>
      Истинна настолько, насколько она открываетъ знанія вѣры, открытыя въ сердцахъ людей, и насколько ученіе ея не противурѣчитъ этому знанію.
     </p>
-    <p id="72475a6f-37e1-4703-a3da-a64dbdef42ca" rend="left">
+    <p id="72475a6f-37e1-4703-a3da-a64dbdef42ca">
      <pb n="367"/>
     </p>
-    <p id="eb03c361-53c9-46c6-8282-fe974e17a038" rend="left">
+    <p id="eb03c361-53c9-46c6-8282-fe974e17a038">
      <ref target="#note586">
       586
      </ref>
      <note index="false" xml:id="note586">
-      <span data-class="paragraph" id="9e1296b2-ef7c-4c40-bdf5-7d2686a3a5ce" rend="left">
+      <span data-class="paragraph" id="9e1296b2-ef7c-4c40-bdf5-7d2686a3a5ce">
        <hi rend="italic">
         От слов: В.
        </hi>
@@ -4986,7 +5011,7 @@
          откровение
         </reg>
         <orig>
-         откровенiе
+         откровеніе
         </orig>
        </choice>
        —
@@ -5023,14 +5048,14 @@
       587
      </ref>
      <note index="false" xml:id="note587">
-      <span data-class="paragraph" id="cdf40ac9-c75f-49be-bda3-238550fd81cd" rend="left">
+      <span data-class="paragraph" id="cdf40ac9-c75f-49be-bda3-238550fd81cd">
        Божественное
        <choice>
         <reg>
          откровение
         </reg>
         <orig>
-         откровенiе
+         откровеніе
         </orig>
        </choice>
        <choice>
@@ -5063,7 +5088,7 @@
      </choice>
      ?
     </p>
-    <p id="1987d8c7-9eba-4767-878c-14b2531bb742" rend="left">
+    <p id="1987d8c7-9eba-4767-878c-14b2531bb742">
      <hi rend="italic">
       О.
      </hi>
@@ -5088,7 +5113,7 @@
        писания
       </reg>
       <orig>
-       писанiя
+       писанія
       </orig>
      </choice>
      и
@@ -5097,7 +5122,7 @@
        предания
       </reg>
       <orig>
-       преданiя
+       преданія
       </orig>
      </choice>
      и
@@ -5111,7 +5136,7 @@
      </choice>
      .
     </p>
-    <p id="f2cb2096-ee18-402f-a1f7-f2702cb1902a" rend="left">
+    <p id="f2cb2096-ee18-402f-a1f7-f2702cb1902a">
      <hi rend="italic">
       В.
      </hi>
@@ -5153,12 +5178,12 @@
        писания
       </reg>
       <orig>
-       писанiя
+       писанія
       </orig>
      </choice>
      ?
     </p>
-    <p id="70664db0-c72f-4287-8a71-5ad54364bf84" rend="left">
+    <p id="70664db0-c72f-4287-8a71-5ad54364bf84">
      <hi rend="italic">
       О.
      </hi>
@@ -5183,7 +5208,7 @@
       588
      </ref>
      <note index="false" xml:id="note588">
-      <span data-class="paragraph" id="4e127821-726f-497b-b3a5-14193ec988e0" rend="left">
+      <span data-class="paragraph" id="4e127821-726f-497b-b3a5-14193ec988e0">
        <hi rend="italic">
         В подлиннике под словами:
        </hi>
@@ -5213,7 +5238,7 @@
          знание
         </reg>
         <orig>
-         знанiе
+         знаніе
         </orig>
        </choice>
       </span>
@@ -5239,7 +5264,7 @@
        предшествовавшие
       </reg>
       <orig>
-       предшествовавшiе
+       предшествовавшіе
       </orig>
      </choice>
      люди передавали
@@ -5257,7 +5282,7 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      <choice>
@@ -5316,15 +5341,13 @@
        спасение
       </reg>
       <orig>
-       спасенiе
+       спасеніе
       </orig>
      </choice>
      души.
     </p>
-    <p id="b331bd00-5bb3-4e21-ab2f-b31095f78522" rend="center">
-     ————
-    </p>
-    <p id="3948936f-93eb-4d4f-b1ff-e175016950c9" rend="left">
+    <metamark function="line"/>
+    <p id="3948936f-93eb-4d4f-b1ff-e175016950c9">
      <hi rend="italic">
       В.
      </hi>
@@ -5370,14 +5393,14 @@
          преданием
         </reg>
         <orig>
-         преданiемъ
+         преданіемъ
         </orig>
        </choice>
       </corr>
      </choice>
      ?
     </p>
-    <p id="41595a67-308b-418f-9c55-4e3e9b37749b" rend="left">
+    <p id="41595a67-308b-418f-9c55-4e3e9b37749b">
      <hi rend="italic">
       О.
      </hi>
@@ -5386,12 +5409,12 @@
        Предание
       </reg>
       <orig>
-       Преданiе
+       Преданіе
       </orig>
      </choice>
      (idem).
     </p>
-    <p id="d4bfe6f5-13e8-4e5a-909b-53709fbaea74" rend="left">
+    <p id="d4bfe6f5-13e8-4e5a-909b-53709fbaea74">
      <hi rend="italic">
       В.
      </hi>
@@ -5422,7 +5445,7 @@
      </choice>
      ?
     </p>
-    <p id="80b08f07-0be4-4e92-bff2-f27f72de1bb9" rend="left">
+    <p id="80b08f07-0be4-4e92-bff2-f27f72de1bb9">
      <hi rend="italic">
       О.
      </hi>
@@ -5431,7 +5454,7 @@
        Действия
       </reg>
       <orig>
-       Дѣйствiя
+       Дѣйствія
       </orig>
      </choice>
      ,
@@ -5445,7 +5468,7 @@
          показывающия
         </reg>
         <orig>
-         показывающiя
+         показывающія
         </orig>
        </choice>
       </corr>
@@ -5455,7 +5478,7 @@
        знание
       </reg>
       <orig>
-       знанiе
+       знаніе
       </orig>
      </choice>
      <choice>
@@ -5472,12 +5495,12 @@
        спасения
       </reg>
       <orig>
-       спасенiя
+       спасенія
       </orig>
      </choice>
      души.
     </p>
-    <p id="7816921e-8351-4006-ab70-ba252183bfb7" rend="left">
+    <p id="7816921e-8351-4006-ab70-ba252183bfb7">
      <hi rend="italic">
       В.
      </hi>
@@ -5519,7 +5542,7 @@
        откровением
       </reg>
       <orig>
-       откровенiемъ
+       откровеніемъ
       </orig>
      </choice>
      ,
@@ -5536,7 +5559,7 @@
        писанием
       </reg>
       <orig>
-       писанiемъ
+       писаніемъ
       </orig>
      </choice>
      ,
@@ -5545,7 +5568,7 @@
        преданием
       </reg>
       <orig>
-       преданiемъ
+       преданіемъ
       </orig>
      </choice>
      и
@@ -5559,7 +5582,7 @@
      </choice>
      ?
     </p>
-    <p id="e7a383b1-f961-438e-bbf0-34cb0c6a2d4a" rend="left">
+    <p id="e7a383b1-f961-438e-bbf0-34cb0c6a2d4a">
      <hi rend="italic">
       О.
      </hi>
@@ -5569,7 +5592,7 @@
        верующие
       </reg>
       <orig>
-       вѣрующiе
+       вѣрующіе
       </orig>
      </choice>
      и
@@ -5578,7 +5601,7 @@
        чтущие
       </reg>
       <orig>
-       чтущiе
+       чтущіе
       </orig>
      </choice>
      Бога писали, говорили и
@@ -5596,7 +5619,7 @@
        спасения
       </reg>
       <orig>
-       спасенiя
+       спасенія
       </orig>
      </choice>
      <choice original_editorial_correction="душ[и]">
@@ -5611,7 +5634,7 @@
       589
      </ref>
      <note index="false" xml:id="note589">
-      <span data-class="paragraph" id="3cc770e0-3524-4b1c-ab24-5bfd14f4ba5d" rend="left">
+      <span data-class="paragraph" id="3cc770e0-3524-4b1c-ab24-5bfd14f4ba5d">
        <hi rend="italic">
         Против слов:
        </hi>
@@ -5621,7 +5644,7 @@
          спасения
         </reg>
         <orig>
-         спасенiя
+         спасенія
         </orig>
        </choice>
        <choice original_editorial_correction="душ[и]">
@@ -5646,7 +5669,7 @@
       </span>
      </note>
     </p>
-    <p id="8e3bfb07-eb08-4154-a855-2f6504beed9e" rend="left">
+    <p id="8e3bfb07-eb08-4154-a855-2f6504beed9e">
      <hi rend="italic">
       В.
      </hi>
@@ -5673,12 +5696,12 @@
        откровения
       </reg>
       <orig>
-       откровенiя
+       откровенія
       </orig>
      </choice>
      ?
     </p>
-    <p id="3a597416-f87e-4b22-a21b-2877f2b1b454" rend="left">
+    <p id="3a597416-f87e-4b22-a21b-2877f2b1b454">
      <hi rend="italic">
       О.
      </hi>
@@ -5697,7 +5720,7 @@
        верующие
       </reg>
       <orig>
-       вѣрующiе
+       вѣрующіе
       </orig>
      </choice>
      , соединенные
@@ -5723,7 +5746,7 @@
          откровение
         </reg>
         <orig>
-         откровенiе
+         откровеніе
         </orig>
        </choice>
       </sic>
@@ -5733,7 +5756,7 @@
          откровением
         </reg>
         <orig>
-         откровенiемъ
+         откровеніемъ
         </orig>
        </choice>
       </corr>
@@ -5785,12 +5808,12 @@
        откровение
       </reg>
       <orig>
-       откровенiе
+       откровеніе
       </orig>
      </choice>
      . —
     </p>
-    <p id="68ae8aad-b76e-45a0-b563-b7b76d9bde1c" rend="left">
+    <p id="68ae8aad-b76e-45a0-b563-b7b76d9bde1c">
      <hi rend="italic">
       В.
      </hi>
@@ -5800,7 +5823,7 @@
        отношение
       </reg>
       <orig>
-       отношенiе
+       отношеніе
       </orig>
      </choice>
      <choice>
@@ -5821,7 +5844,7 @@
          Христианская
         </reg>
         <orig>
-         Христiанская
+         Христіанская
         </orig>
        </choice>
       </corr>
@@ -5846,14 +5869,14 @@
          Божией
         </reg>
         <orig>
-         Божiей
+         Божіей
         </orig>
        </choice>
       </corr>
      </choice>
      церкви?
     </p>
-    <p id="667f844e-4bf8-4137-a2c9-ead204b7189f" rend="left">
+    <p id="667f844e-4bf8-4137-a2c9-ead204b7189f">
      <hi rend="italic">
       О.
      </hi>
@@ -5862,7 +5885,7 @@
        Отношение
       </reg>
       <orig>
-       Отношенiе
+       Отношеніе
       </orig>
      </choice>
      <choice>
@@ -5892,7 +5915,7 @@
          Христианская
         </reg>
         <orig>
-         Христiанская
+         Христіанская
         </orig>
        </choice>
       </corr>
@@ -5911,12 +5934,12 @@
        выражений
       </reg>
       <orig>
-       выраженiй
+       выраженій
       </orig>
      </choice>
      вселенской церкви.
     </p>
-    <p id="8458d439-14cb-4897-b61d-74dd8c28193c" rend="left">
+    <p id="8458d439-14cb-4897-b61d-74dd8c28193c">
      <hi rend="italic">
       В.
      </hi>
@@ -5939,7 +5962,7 @@
          Христианская
         </reg>
         <orig>
-         Христiанская
+         Христіанская
         </orig>
        </choice>
       </corr>
@@ -5955,7 +5978,7 @@
      </choice>
      ?
     </p>
-    <p id="f375f87f-9ea1-4b4d-90fa-7d08c5fe35b6" rend="left">
+    <p id="f375f87f-9ea1-4b4d-90fa-7d08c5fe35b6">
      <hi rend="italic">
       О.
      </hi>
@@ -6003,13 +6026,13 @@
      </choice>
      — да.
     </p>
-    <p id="2bffb991-cc6d-4687-a387-f7225feb7537" rend="left">
+    <p id="2bffb991-cc6d-4687-a387-f7225feb7537">
      <hi rend="italic">
       В.
      </hi>
      Почему?
     </p>
-    <p id="e09769d7-4481-41b7-b61c-4d20326394b4" rend="left">
+    <p id="e09769d7-4481-41b7-b61c-4d20326394b4">
      <hi rend="italic">
       О.
      </hi>
@@ -6035,7 +6058,7 @@
        знанию
       </reg>
       <orig>
-       знанiю
+       знанію
       </orig>
      </choice>
      <choice>
@@ -6068,12 +6091,12 @@
        орудие
       </reg>
       <orig>
-       орудiе
+       орудіе
       </orig>
      </choice>
      передачи.
     </p>
-    <p id="2253c241-24dd-4bfc-ad90-eda824c3c941" rend="left">
+    <p id="2253c241-24dd-4bfc-ad90-eda824c3c941">
      <hi rend="italic">
       В.
      </hi>
@@ -6096,13 +6119,13 @@
      </choice>
      ?
     </p>
-    <p id="617e8698-3b88-4229-a606-df17074d5397" rend="left">
+    <p id="617e8698-3b88-4229-a606-df17074d5397">
      <hi rend="italic">
       О.
      </hi>
      Тоже.
     </p>
-    <p id="d3dc5c12-72ca-4015-bd66-7820743d568d" rend="left">
+    <p id="d3dc5c12-72ca-4015-bd66-7820743d568d">
      <hi rend="italic">
       В.
      </hi>
@@ -6128,7 +6151,7 @@
        учению
       </reg>
       <orig>
-       ученiю
+       ученію
       </orig>
      </choice>
      <choice original_editorial_correction="Христ[ианство]">
@@ -6141,7 +6164,7 @@
          Христианство
         </reg>
         <orig>
-         Христiанство
+         Христіанство
         </orig>
        </choice>
       </corr>
@@ -6168,13 +6191,13 @@
       590
      </ref>
      <note index="false" xml:id="note590">
-      <span data-class="paragraph" id="82ed9a0f-b789-407c-a097-aa503b671f37" rend="left">
+      <span data-class="paragraph" id="82ed9a0f-b789-407c-a097-aa503b671f37">
        здравому смыслу
       </span>
      </note>
      разуму?
     </p>
-    <p id="75ed4d9f-965c-4d58-aef3-f55685d1bfda" rend="left">
+    <p id="75ed4d9f-965c-4d58-aef3-f55685d1bfda">
      <hi rend="italic">
       О.
      </hi>
@@ -6183,7 +6206,7 @@
       591
      </ref>
      <note index="false" xml:id="note591">
-      <span data-class="paragraph" id="0904633e-cd44-43df-91b8-cdc4b58d11cf" rend="left">
+      <span data-class="paragraph" id="0904633e-cd44-43df-91b8-cdc4b58d11cf">
        <choice>
         <reg>
          тот
@@ -6214,7 +6237,7 @@
          христианство
         </reg>
         <orig>
-         христiанство
+         христіанство
         </orig>
        </choice>
       </span>
@@ -6224,7 +6247,7 @@
        учение
       </reg>
       <orig>
-       ученiе
+       ученіе
       </orig>
      </choice>
      не
@@ -6241,7 +6264,7 @@
        учению
       </reg>
       <orig>
-       ученiю
+       ученію
       </orig>
      </choice>
      <choice original_editorial_correction="вселен[ской]">
@@ -6282,12 +6305,12 @@
        учением
       </reg>
       <orig>
-       ученiемъ
+       ученіемъ
       </orig>
      </choice>
      .
     </p>
-    <p id="830fec8d-3dd3-4f7a-be81-0fd2de8b9cc9" rend="left">
+    <p id="830fec8d-3dd3-4f7a-be81-0fd2de8b9cc9">
      <hi rend="italic">
       В.
      </hi>
@@ -6310,14 +6333,14 @@
          знанию
         </reg>
         <orig>
-         знанiю
+         знанію
         </orig>
        </choice>
       </corr>
      </choice>
      сердца?
     </p>
-    <p id="5916ef70-f3e6-40a9-b206-edce87d41578" rend="left">
+    <p id="5916ef70-f3e6-40a9-b206-edce87d41578">
      <pb n="368"/>
      <hi rend="italic">
       О.
@@ -6347,7 +6370,7 @@
        Христианский
       </reg>
       <orig>
-       Христiанскiй
+       Христіанскій
       </orig>
      </choice>
      <choice>
@@ -6360,7 +6383,7 @@
      </choice>
      .
     </p>
-    <p id="2781ed6d-a19e-4ffc-bf7e-0e839bdfece9" rend="left">
+    <p id="2781ed6d-a19e-4ffc-bf7e-0e839bdfece9">
      <hi rend="italic">
       В.
      </hi>
@@ -6394,7 +6417,7 @@
        откровения
       </reg>
       <orig>
-       откровенiя
+       откровенія
       </orig>
      </choice>
      <choice original_editorial_correction="христи[анского]">
@@ -6414,14 +6437,14 @@
          христианского
         </reg>
         <orig>
-         христiанскаго
+         христіанскаго
         </orig>
        </choice>
       </corr>
      </choice>
      ?
     </p>
-    <p id="b6f5fe57-6220-4963-bb49-3aef55981a6c" rend="left">
+    <p id="b6f5fe57-6220-4963-bb49-3aef55981a6c">
      <hi rend="italic">
       О.
      </hi>
@@ -6474,7 +6497,7 @@
      </choice>
      .
     </p>
-    <p id="e425f7bf-4729-4d4d-85bf-5c75a3884c5f" rend="left">
+    <p id="e425f7bf-4729-4d4d-85bf-5c75a3884c5f">
      <hi rend="italic">
       В.
      </hi>
@@ -6483,12 +6506,12 @@
        Какие
       </reg>
       <orig>
-       Какiя
+       Какія
       </orig>
      </choice>
      ?
     </p>
-    <p id="d5086014-0d46-402c-8837-080126a22619" rend="left">
+    <p id="d5086014-0d46-402c-8837-080126a22619">
      <hi rend="italic">
       О.
      </hi>
@@ -6498,19 +6521,19 @@
        Бытия
       </reg>
       <orig>
-       Бытiя
+       Бытія
       </orig>
      </choice>
      .
     </p>
-    <p id="114ab857-1cb3-4be2-bf36-03f73ae0e618" rend="left">
+    <p id="114ab857-1cb3-4be2-bf36-03f73ae0e618">
      [
      <hi rend="italic">
       В.
      </hi>
      ] Почему она священна?
     </p>
-    <p id="39d57875-a025-42d0-bfba-a4a34593f667" rend="left">
+    <p id="39d57875-a025-42d0-bfba-a4a34593f667">
      <hi rend="italic">
       О.
      </hi>
@@ -6519,13 +6542,11 @@
        Сотворение
       </reg>
       <orig>
-       Сотворенiе
+       Сотвореніе
       </orig>
      </choice>
     </p>
-    <p id="2cdf3c12-a653-4b12-b405-f3dd283e1653" rend="center">
-     ————
-    </p>
+    <metamark function="line"/>
    </div>
   </body>
  </text>

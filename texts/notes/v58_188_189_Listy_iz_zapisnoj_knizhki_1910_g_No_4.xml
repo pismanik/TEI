@@ -4,24 +4,48 @@
         <fileDesc>
              <titleStmt>                
                 <title xml:id="v58_188_189_Listy_iz_zapisnoj_knizhki_1910_g_No_4">
-                    Дневники и записные книжки. Tolstoy Digital
+                    Записные книжки. Tolstoy Digital
                 </title>
                 <title type="main">Листы из записной книжки №4, 1910 г.</title>
                 <title type="bibl">Толстой Л. Н. [Листы из записной книжки 1910 г., №4] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 58. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                              
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -30,7 +54,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -42,7 +66,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -73,7 +97,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -88,7 +112,9 @@
             <creation>
                 <date when="1910"/>
          </creation>
-            <textClass> 
+            <langUsage>
+  <language ident="ru-petr1708"/>
+</langUsage><textClass> 
                 <catRef ana="#notes" target="type"/>
            </textClass>
         </profileDesc>
@@ -103,7 +129,7 @@
      ЛИСТЫ ИЗ ЗАПИСНОЙ КНИЖКИ, № 4.
     </head>
     <div type="entry">
-     <p id="6db6e7fd-bdc7-48a5-a99b-b5c3856cc4ad" rend="left">
+     <p id="6db6e7fd-bdc7-48a5-a99b-b5c3856cc4ad">
       <choice original_editorial_correction="солд[атка]">
        <sic>
         солд
@@ -118,14 +144,12 @@
         июля
        </reg>
        <orig>
-        iюля
+        іюля
        </orig>
       </choice>
      </p>
-     <p id="dd0c7cd1-570d-4ca4-ae50-cc6b07aef021" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="7577cfdd-0afb-4a85-9fae-34c56216195b" rend="left">
+     <metamark function="line"/>
+     <p id="7577cfdd-0afb-4a85-9fae-34c56216195b">
       Привычки есть
       <choice original_editorial_correction="тѣлесн[ыя]">
        <sic>
@@ -144,7 +168,7 @@
       </choice>
       , есть духовная.
      </p>
-     <p id="b6600614-5104-4c51-8e14-ac88c4a0513d" rend="left">
+     <p id="b6600614-5104-4c51-8e14-ac88c4a0513d">
       Надо быть на
       <choice>
        <reg>
@@ -165,10 +189,8 @@
       </choice>
       духовной привычки.
      </p>
-     <p id="2147a862-1137-45b0-abef-8d93b1add818" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="d9c8bf8b-ac86-475c-8ea2-f128be27257f" rend="left">
+     <metamark function="line"/>
+     <p id="d9c8bf8b-ac86-475c-8ea2-f128be27257f">
       <del>
        Да, какой ужасный обычный
        <choice>
@@ -199,7 +221,7 @@
        , людей, благодаря
       </del>
      </p>
-     <p id="62f5760c-1c5b-4ebd-b47e-461e1e495772" rend="left">
+     <p id="62f5760c-1c5b-4ebd-b47e-461e1e495772">
       Да, какая чудная земля не переставая
       <choice>
        <reg>
@@ -263,7 +285,7 @@
           страданиям
          </reg>
          <orig>
-          страданiямъ
+          страданіямъ
          </orig>
         </choice>
         этого народа
@@ -272,7 +294,7 @@
           владеющие
          </reg>
          <orig>
-          владѣющiе
+          владѣющіе
          </orig>
         </choice>
         воз
@@ -293,7 +315,7 @@
         имеющие
        </reg>
        <orig>
-        имѣющiе
+        имѣющіе
        </orig>
       </choice>
       возможность отдать этому народу
@@ -554,7 +576,7 @@
         терниями
        </reg>
        <orig>
-        тернiями
+        терніями
        </orig>
       </choice>
       ,
@@ -622,7 +644,7 @@
        обманами.
       </hi>
      </p>
-     <p id="56e4d4f1-2758-4d50-8e8f-94e74c8d434c" rend="left">
+     <p id="56e4d4f1-2758-4d50-8e8f-94e74c8d434c">
       <pb n="189"/>
       <hi style="npdelimiter">
        Да,
@@ -633,7 +655,7 @@
         миру
        </reg>
        <orig>
-        мiру
+        міру
        </orig>
       </choice>
       <choice>
@@ -654,14 +676,14 @@
       </choice>
       но....
      </p>
-     <p id="886dedeb-b578-4ad8-84b5-519a98aaca23" rend="left">
+     <p id="886dedeb-b578-4ad8-84b5-519a98aaca23">
       Не ждать
       <choice>
        <reg>
         вознаграждения
        </reg>
        <orig>
-        вознагражденiя
+        вознагражденія
        </orig>
       </choice>
       за свое добро ни
@@ -686,7 +708,7 @@
         мире
        </reg>
        <orig>
-        мiрѣ
+        мірѣ
        </orig>
       </choice>
       , ни
@@ -821,7 +843,7 @@
           последствиях
          </reg>
          <orig>
-          послѣдствiяхъ
+          послѣдствіяхъ
          </orig>
         </choice>
        </corr>
@@ -840,7 +862,7 @@
         вознаграждении
        </reg>
        <orig>
-        вознагражденiи
+        вознагражденіи
        </orig>
       </choice>
       . Благодарю Бога, начинаю чувствовать и сознавать и то, и другое. Плохо только то, что я
@@ -871,10 +893,8 @@
       </choice>
       .
      </p>
-     <p id="aa06df64-1451-4948-b042-e483ceaec963" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="681507b7-4c71-4eb4-8aeb-b239a20c666a" rend="left">
+     <metamark function="line"/>
+     <p id="681507b7-4c71-4eb4-8aeb-b239a20c666a">
       <choice>
        <reg>
         Чем
@@ -943,15 +963,13 @@
        </del>
       </note>
      </p>
-     <p id="c2360fd6-fb67-4b3f-be20-994a2bcde1ec" rend="left">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="1b3964ff-a6ce-45e4-bd2f-c6cb683b7822" rend="center">
       <del>
        На память
       </del>
      </p>
-     <p id="3df0a628-51dc-42a4-98ae-2d54c434d21a" rend="left">
+     <p id="3df0a628-51dc-42a4-98ae-2d54c434d21a">
       1)
       <choice original_editorial_correction="Хир[ьякова]">
        <sic>
@@ -963,7 +981,7 @@
       </choice>
       письмо
      </p>
-     <p id="ea21fc2a-e0bc-42b5-937a-23847c5937fb" rend="left">
+     <p id="ea21fc2a-e0bc-42b5-937a-23847c5937fb">
       2) Опечатка —
       <sup>
        1
@@ -974,7 +992,7 @@
       </sub>
       надо 4
      </p>
-     <p id="62885885-8f80-43a7-9fb3-4aaf6ee2eda2" rend="left">
+     <p id="62885885-8f80-43a7-9fb3-4aaf6ee2eda2">
       3) Японцу:
       <choice>
        <reg>
@@ -1010,10 +1028,8 @@
        </orig>
       </choice>
      </p>
-     <p id="4a79795b-092b-4468-a22c-42d1b00fc18c" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="035f1d54-de03-4e5c-956b-48217078f239" rend="left">
+     <metamark function="line"/>
+     <p id="035f1d54-de03-4e5c-956b-48217078f239">
       спросить о
       <choice original_editorial_correction="дневн[икѣ]">
        <sic>
@@ -1031,9 +1047,7 @@
        </corr>
       </choice>
      </p>
-     <p id="fdae1595-8da5-4cb5-b03d-649854e1ecea" rend="center">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
     </div>
    </div>
   </body>

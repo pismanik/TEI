@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v07_132_132_Filosofskij_otryvok" resp="volume_editor">
-                    [Философский отрывок]. Tolstoy Digital
+                    [Философский отрывок]. Произведения. Tolstoy Digital
                 </title>
                 <title type="main" resp="volume_editor">Философский отрывок.</title>
                 <title type="sub">«6 Д. 1868 г. Не cogito ergo sum...»</title>
-                <title type="bibl">Толстой Л. Н. [Философский отрывок] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 7. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. [Философский отрывок] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 7. М.: Гос. изд. «Художественная литература», 1936. С. 132.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1868"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#main" target="work_main"/>
@@ -121,7 +146,7 @@
       [ФИЛОСОФСКИЙ ОТРЫВОК.]
      </hi>
     </head>
-    <p id="3445e66e-72be-4176-9fc9-a7f42553ddc4" rend="left">
+    <p id="3445e66e-72be-4176-9fc9-a7f42553ddc4">
      <hi rend="italic">
       6
       <choice original_editorial_correction="Д[екабря]">
@@ -136,13 +161,13 @@
      </hi>
      .
     </p>
-    <p id="1ce6802a-63aa-4408-8e8c-df91a4d6e8a9" rend="left">
+    <p id="1ce6802a-63aa-4408-8e8c-df91a4d6e8a9">
      Не cogito ergo sum,
      <ref target="#note127">
       127
      </ref>
      <note index="false" xml:id="note127">
-      <span data-class="paragraph" id="d607b979-0a14-43ef-967d-f65acbd690ca" rend="left">
+      <span data-class="paragraph" id="d607b979-0a14-43ef-967d-f65acbd690ca">
        [Я мыслю, следовательно существую,]
       </span>
      </note>
@@ -164,18 +189,18 @@
        движения
       </reg>
       <orig>
-       движенiя
+       движенія
       </orig>
      </choice>
      = 0.—
     </p>
-    <p id="e7d50aee-c7d2-4eff-85bc-5ce26906a9b3" rend="left">
+    <p id="e7d50aee-c7d2-4eff-85bc-5ce26906a9b3">
      <choice>
       <reg>
        Геометрия
       </reg>
       <orig>
-       Геометрiя
+       Геометрія
       </orig>
      </choice>
      — наука потому, что
@@ -200,7 +225,7 @@
        движение
       </reg>
       <orig>
-       движенiе
+       движеніе
       </orig>
      </choice>
      , не спрашивая, что оно такое и
@@ -227,7 +252,7 @@
        соотношения
       </reg>
       <orig>
-       соотношенiя
+       соотношенія
       </orig>
      </choice>
      <choice>
@@ -235,7 +260,7 @@
        движений
       </reg>
       <orig>
-       движенiй
+       движеній
       </orig>
      </choice>
      <choice>
@@ -252,12 +277,12 @@
        линий
       </reg>
       <orig>
-       линiй
+       линій
       </orig>
      </choice>
      .
     </p>
-    <p id="4923cc31-5c58-4968-ab0b-4286229e11fb" rend="left">
+    <p id="4923cc31-5c58-4968-ab0b-4286229e11fb">
      Математика не
      <choice>
       <reg>
@@ -319,7 +344,7 @@
      </choice>
      [?].
     </p>
-    <p id="5e553d35-f2ac-4def-a6ed-79f4ebcfc535" rend="left">
+    <p id="5e553d35-f2ac-4def-a6ed-79f4ebcfc535">
      <choice>
       <reg>
        Цель
@@ -333,7 +358,7 @@
        философии
       </reg>
       <orig>
-       философiи
+       философіи
       </orig>
      </choice>
      — узнать
@@ -342,7 +367,7 @@
        общия
       </reg>
       <orig>
-       общiя
+       общія
       </orig>
      </choice>
      законы, для
@@ -377,7 +402,7 @@
        линий
       </reg>
       <orig>
-       линiй
+       линій
       </orig>
      </choice>
      , и
@@ -386,7 +411,7 @@
        соотношений
       </reg>
       <orig>
-       соотношенiй
+       соотношеній
       </orig>
      </choice>
      <choice>
@@ -411,12 +436,12 @@
        движении
       </reg>
       <orig>
-       движенiи
+       движеніи
       </orig>
      </choice>
      личности.
     </p>
-    <p id="d4d41dde-9cce-44c7-a03e-097fe967a65e" rend="left">
+    <p id="d4d41dde-9cce-44c7-a03e-097fe967a65e">
      <choice>
       <reg>
        С
@@ -431,7 +456,7 @@
        зрения
       </reg>
       <orig>
-       зрѣнiя
+       зрѣнія
       </orig>
      </choice>
      : что
@@ -466,7 +491,7 @@
        Приложение
       </reg>
       <orig>
-       Приложенiе
+       Приложеніе
       </orig>
      </choice>
      <choice>
@@ -483,7 +508,7 @@
        движение
       </reg>
       <orig>
-       движенiе
+       движеніе
       </orig>
      </choice>
      по
@@ -492,7 +517,7 @@
        направлению
       </reg>
       <orig>
-       направленiю
+       направленію
       </orig>
      </choice>
      даваемому
@@ -510,7 +535,7 @@
        движение
       </reg>
       <orig>
-       движенiе
+       движеніе
       </orig>
      </choice>
      <choice>
@@ -526,7 +551,7 @@
        линию
       </reg>
       <orig>
-       линiю
+       линію
       </orig>
      </choice>
      и
@@ -535,7 +560,7 @@
        сочетание
       </reg>
       <orig>
-       сочетанiе
+       сочетаніе
       </orig>
      </choice>
      <choice>
@@ -548,7 +573,7 @@
      </choice>
      и законы.
     </p>
-    <p id="05b902f6-ef84-4723-b4c7-366bfeb78e89" rend="left">
+    <p id="05b902f6-ef84-4723-b4c7-366bfeb78e89">
      <choice original_editorial_correction="Вун[д]та">
       <sic>
        Вунта
@@ -565,7 +590,7 @@
        философия
       </reg>
       <orig>
-       философiя
+       философія
       </orig>
      </choice>
      —
@@ -574,7 +599,7 @@
        понятие
       </reg>
       <orig>
-       понятiе
+       понятіе
       </orig>
      </choice>
      . Его
@@ -583,7 +608,7 @@
        опровержение
       </reg>
       <orig>
-       опроверженiе
+       опроверженіе
       </orig>
      </choice>
      <choice>
@@ -591,7 +616,7 @@
        понятия
       </reg>
       <orig>
-       понятiя
+       понятія
       </orig>
      </choice>
      —
@@ -604,7 +629,7 @@
        опровержение
       </reg>
       <orig>
-       опроверженiе
+       опроверженіе
       </orig>
      </choice>
      матерьялизма.

@@ -9,17 +9,41 @@
                 <title type="main">Письмо А. Ф. Марксу от 27 августа 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо А. Ф. Марксу, 27 августа 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">178-179</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,10 +128,10 @@
      </name>
      .1899 г. Августа 27. Я. П.
     </opener>
-    <p id="7b388403-5304-4713-8ce8-687293cf6f10" rend="Obrashenie left">
+    <p id="7b388403-5304-4713-8ce8-687293cf6f10" rend="Obrashenie">
      Милостивый Государь
     </p>
-    <p id="c03fdb45-58f9-498d-a911-6f62ea7bc7b8" rend="Obrashenie1 left">
+    <p id="c03fdb45-58f9-498d-a911-6f62ea7bc7b8" rend="Obrashenie1">
      <choice>
       <reg>
        <name placement="text" ref="8559" type="person">
@@ -126,7 +156,7 @@
      </choice>
      ,
     </p>
-    <p id="5a53de31-dc81-46f6-9c80-9fbba7dbca04" rend="left">
+    <p id="5a53de31-dc81-46f6-9c80-9fbba7dbca04">
      <choice>
       <reg>
        Вполне
@@ -149,7 +179,7 @@
        предложение
       </reg>
       <orig>
-       предложенiе
+       предложеніе
       </orig>
      </choice>
      . Буду также,
@@ -175,7 +205,7 @@
        окончания
       </reg>
       <orig>
-       окончанiя
+       окончанія
       </orig>
      </choice>
      <choice>
@@ -218,7 +248,7 @@
        печатания
       </reg>
       <orig>
-       печатанiя
+       печатанія
       </orig>
      </choice>
      ,
@@ -262,7 +292,7 @@
        исправления
       </reg>
       <orig>
-       исправленiя
+       исправленія
       </orig>
      </choice>
      . Думаю, что я окончу
@@ -271,7 +301,7 @@
        исправление
       </reg>
       <orig>
-       исправленiе
+       исправленіе
       </orig>
      </choice>
      <choice>
@@ -305,7 +335,7 @@
        всякий
       </reg>
       <orig>
-       всякiй
+       всякій
       </orig>
      </choice>
      случай
@@ -314,7 +344,7 @@
        крайний
       </reg>
       <orig>
-       крайнiй
+       крайній
       </orig>
      </choice>
      <choice>
@@ -327,7 +357,7 @@
      </choice>
      1-е ноября.
     </p>
-    <p id="9813bb9b-00ce-4909-af63-99711eb90d59" rend="left">
+    <p id="9813bb9b-00ce-4909-af63-99711eb90d59">
      <choice>
       <reg>
        Так
@@ -432,7 +462,7 @@
      </choice>
      .
     </p>
-    <p id="d616959f-cb53-448c-ac4a-99d82aae896d" rend="left">
+    <p id="d616959f-cb53-448c-ac4a-99d82aae896d">
      <choice>
       <reg>
        С
@@ -454,7 +484,7 @@
        уважением
       </reg>
       <orig>
-       уваженiемъ
+       уваженіемъ
       </orig>
      </choice>
      остаюсь готовый
@@ -494,7 +524,7 @@
      </name>
      .
     </p>
-    <p id="a377f055-654f-4f6d-9d8f-2a3ed39e4476" rend="left">
+    <p id="a377f055-654f-4f6d-9d8f-2a3ed39e4476">
      27 Авг. 1899.
     </p>
     <noteGrp type="comments">
@@ -504,7 +534,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="cc565b41-192f-42e1-bae7-12c1b4ddd3d3" rend="petit left">
+      <p id="cc565b41-192f-42e1-bae7-12c1b4ddd3d3" rend="petit">
        Письмо А. Ф. Маркса, на которое ссылается Толстой, в архиве не обнаружено. Оно касалось решения Толстого не печатать в «Ниве»
        <hi style="opdelimiter">
         третьей

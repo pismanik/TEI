@@ -9,17 +9,41 @@
                 <title type="main">Письмо Гр. H. Н. Толстому от 3 февраля 1855 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо гр. H. Н. Толстому, 3 февраля 1855 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">299-300</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#not_sent" target="sent"/>
@@ -100,7 +130,7 @@
      </hi>
      .
     </p>
-    <p id="c0d75d5a-7917-46b0-af4d-7dff782d3ba2" rend="left">
+    <p id="c0d75d5a-7917-46b0-af4d-7dff782d3ba2">
      После
      <choice>
       <reg>
@@ -266,7 +296,7 @@
        признание
       </reg>
       <orig>
-       признанiе
+       признаніе
       </orig>
      </choice>
      . Я
@@ -405,7 +435,7 @@
        предполагавшийся
       </reg>
       <orig>
-       предполагавшiйся
+       предполагавшійся
       </orig>
      </choice>
      <choice>
@@ -461,7 +491,7 @@
      </note>
      —
     </p>
-    <p id="db6efbaf-aa3a-41b3-b0da-b880df36d048" rend="left">
+    <p id="db6efbaf-aa3a-41b3-b0da-b880df36d048">
      <choice>
       <reg>
        В
@@ -542,7 +572,7 @@
        артиллерийских
       </reg>
       <orig>
-       артиллерiйских
+       артиллерійских
       </orig>
      </choice>
      <choice>
@@ -723,7 +753,7 @@
        употребления
       </reg>
       <orig>
-       употребленiя
+       употребленія
       </orig>
      </choice>
      , и
@@ -804,7 +834,7 @@
         следующия
        </reg>
        <orig>
-        слѣдующiя
+        слѣдующія
        </orig>
       </choice>
       :
@@ -862,7 +892,7 @@
         стражение
        </reg>
        <orig>
-        страженiе
+        страженіе
        </orig>
       </choice>
      </hi>
@@ -908,7 +938,7 @@
         стражения
        </reg>
        <orig>
-        страженiя
+        страженія
        </orig>
       </choice>
      </hi>
@@ -985,7 +1015,7 @@
        бросание
       </reg>
       <orig>
-       бросанiе
+       бросаніе
       </orig>
      </choice>
      <choice>
@@ -1148,7 +1178,7 @@
        неприятель
       </reg>
       <orig>
-       непрiятель
+       непріятель
       </orig>
      </choice>
      больше,
@@ -1175,7 +1205,7 @@
        неприятелю
       </reg>
       <orig>
-       непрiятелю
+       непріятелю
       </orig>
      </choice>
      , который
@@ -1200,7 +1230,7 @@
        отношении
       </reg>
       <orig>
-       отношенiи
+       отношеніи
       </orig>
      </choice>
      едва ли
@@ -1225,7 +1255,7 @@
        положении
       </reg>
       <orig>
-       положенiи
+       положеніи
       </orig>
      </choice>
      ,
@@ -1300,7 +1330,7 @@
      </choice>
      солдаты. —
     </p>
-    <p id="971790f4-53ae-492b-b6a0-27bc11deef07" rend="left">
+    <p id="971790f4-53ae-492b-b6a0-27bc11deef07">
      Сначала моего
      <choice>
       <reg>
@@ -1374,7 +1404,7 @@
        бастионах
       </reg>
       <orig>
-       бастiонахъ
+       бастіонахъ
       </orig>
      </choice>
      ,
@@ -1497,7 +1527,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="ec7d049f-ffa6-4d1d-a2ec-733b52b48574" rend="petit left">
+      <p id="ec7d049f-ffa6-4d1d-a2ec-733b52b48574" rend="petit">
        Об этом письме под 2 февраля в дневнике Толстого записано: «Написать нужно письмо Николеньке с признанием в проигрыше».
       </p>
      </note>

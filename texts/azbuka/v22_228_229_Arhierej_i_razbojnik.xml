@@ -9,18 +9,42 @@
             <title type="bibl">Толстой Л. Н. Азбука // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 22. М.: Гос. изд. «Художественная литература», 1957. С. </title>
             <author>Толстой Лев Николаевич</author>
             <respStmt>
-                <resp>Идея, постановка задач, руководство</resp>
+                <resp>Идея, постановка задач, руководство:</resp>
                 <name>
                     Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                 </name>
-             </respStmt>
+            </respStmt>
             <respStmt>
-                <resp>
-                    Подготовка TEI/XML
-                </resp>
-                <name>
-                    Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                </name>
+                    <resp>
+                        Подготовка TEI/XML:
+                    </resp>
+                    <name>
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>
             </respStmt>
                 <funder>
                     Проект «Слово Толстого»
@@ -29,7 +53,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -41,7 +65,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы были получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -59,7 +83,7 @@
                     </analytic>
                     <monogr>
                         <title level="m">
-                          Полное собрание сочинений.
+                          Полное собрание сочинений: в 90 тт.
                         </title>
                         <imprint>
                             <pubPlace>
@@ -75,7 +99,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -117,7 +141,7 @@
       .
      </hi>
     </head>
-    <p id="fe8efa84-5e96-4df1-a139-a88dd25fcfb4" rend="left">
+    <p id="fe8efa84-5e96-4df1-a139-a88dd25fcfb4">
      <choice>
       <reg>
        Одного
@@ -234,7 +258,7 @@
      </choice>
      .
     </p>
-    <p id="315d7602-0ead-428c-97bf-6116e4888eb9" rend="left">
+    <p id="315d7602-0ead-428c-97bf-6116e4888eb9">
      <choice>
       <reg>
        Послушник
@@ -247,7 +271,7 @@
      </choice>
      его — чтó ему нужно?
     </p>
-    <p id="526b73d7-d44d-44a9-afcb-ca928f0e6f2a" rend="left">
+    <p id="526b73d7-d44d-44a9-afcb-ca928f0e6f2a">
      <choice>
       <reg>
        Разбойник
@@ -290,7 +314,7 @@
      </choice>
      ».
     </p>
-    <p id="c3967768-18c2-45a2-a095-6ac89800e817" rend="left">
+    <p id="c3967768-18c2-45a2-a095-6ac89800e817">
      <choice>
       <reg>
        Архиерей
@@ -335,7 +359,7 @@
      </choice>
      нему?
     </p>
-    <p id="acc31180-757a-4d53-a940-0317e0249d02" rend="left">
+    <p id="acc31180-757a-4d53-a940-0317e0249d02">
      <choice>
       <reg>
        Разбойник
@@ -354,7 +378,7 @@
      </choice>
      , за мною погоня; спрячь меня, а не то я убъю тебя».
     </p>
-    <p id="42fb3944-df84-4d8d-91c5-e8e8bde07fe3" rend="left">
+    <p id="42fb3944-df84-4d8d-91c5-e8e8bde07fe3">
      <choice>
       <reg>
        Архиерей
@@ -403,7 +427,7 @@
      </choice>
      ».
     </p>
-    <p id="44df688c-0d0a-4405-83cc-7f7369a96dd9" rend="left">
+    <p id="44df688c-0d0a-4405-83cc-7f7369a96dd9">
      <choice>
       <reg>
        Полицейские
@@ -444,7 +468,7 @@
      </choice>
      остался у него ночевать.
     </p>
-    <p id="4a56b297-3a0c-47da-9d9b-101fbcb32e19" rend="left">
+    <p id="4a56b297-3a0c-47da-9d9b-101fbcb32e19">
      Когда
      <choice>
       <reg>
@@ -539,7 +563,7 @@
      </choice>
      !»
     </p>
-    <p id="df38fa3e-c238-420b-b258-738d46cd26f4" rend="left">
+    <p id="df38fa3e-c238-420b-b258-738d46cd26f4">
      <choice>
       <reg>
        Разбойник
@@ -592,7 +616,7 @@
      </choice>
      и умру».
     </p>
-    <p id="edd8cffe-c05b-4e37-86c3-27438a291b9c" rend="left">
+    <p id="edd8cffe-c05b-4e37-86c3-27438a291b9c">
      <choice>
       <reg>
        Архиерей
@@ -627,7 +651,7 @@
      </choice>
      спать.
     </p>
-    <p id="a42dba85-6ff7-412f-8cbe-b744f3709aee" rend="left">
+    <p id="a42dba85-6ff7-412f-8cbe-b744f3709aee">
      Ночью
      <choice>
       <reg>
@@ -681,13 +705,13 @@
      </choice>
      двери настежь.
     </p>
-    <p id="e864faad-0e64-4678-b709-68f94cf36db7" rend="left emptyline">
+    <p id="e864faad-0e64-4678-b709-68f94cf36db7" rend="emptyline">
      <pb n="229"/>
     </p>
     <p id="4afabe3e-e79f-41e7-981a-cfdba9b85547" rend="centerline">
      — 27 —
     </p>
-    <p id="bf6bb5f0-eb97-448c-ab69-dcb896a8a6e5" rend="left">
+    <p id="bf6bb5f0-eb97-448c-ab69-dcb896a8a6e5">
      <choice>
       <reg>
        Разбойник
@@ -742,7 +766,7 @@
      </choice>
      .
     </p>
-    <p id="5667c029-10eb-496c-a48f-7481d0eebcd5" rend="left">
+    <p id="5667c029-10eb-496c-a48f-7481d0eebcd5">
      <choice>
       <reg>
        Полицейские
@@ -795,7 +819,7 @@
      </choice>
      .
     </p>
-    <p id="da63e245-67ef-4ba2-8925-62a7eb719675" rend="left">
+    <p id="da63e245-67ef-4ba2-8925-62a7eb719675">
      <choice>
       <reg>
        Разбойник
@@ -875,7 +899,7 @@
      </choice>
      ».
     </p>
-    <p id="0314c97f-89e6-4799-97db-05b0de7a54a3" rend="left">
+    <p id="0314c97f-89e6-4799-97db-05b0de7a54a3">
      Привели вора
      <choice>
       <reg>
@@ -906,7 +930,7 @@
      </choice>
      : «моя».
     </p>
-    <p id="b698e1b4-a9a8-4580-aa04-93f82bb44cce" rend="left">
+    <p id="b698e1b4-a9a8-4580-aa04-93f82bb44cce">
      <choice>
       <reg>
        Полицейские
@@ -931,7 +955,7 @@
      </choice>
      »
     </p>
-    <p id="79311f88-539a-48c9-a235-d5867166f2c0" rend="left">
+    <p id="79311f88-539a-48c9-a235-d5867166f2c0">
      <choice>
       <reg>
        Разбойник
@@ -956,7 +980,7 @@
      </choice>
      глаза.
     </p>
-    <p id="15834bef-4502-4851-959b-dde94bcdd755" rend="left">
+    <p id="15834bef-4502-4851-959b-dde94bcdd755">
      <choice>
       <reg>
        Архиерей
@@ -1057,7 +1081,7 @@
      </choice>
      ».
     </p>
-    <p id="5ec8b03d-b1b3-4a05-938f-f251f313c1b5" rend="left">
+    <p id="5ec8b03d-b1b3-4a05-938f-f251f313c1b5">
      <choice>
       <reg>
        Разбойник
@@ -1093,7 +1117,7 @@
      </choice>
      , ведите меня!»
     </p>
-    <p id="785bc7bd-87e5-4b9d-987a-dfd16ee65b4b" rend="left">
+    <p id="785bc7bd-87e5-4b9d-987a-dfd16ee65b4b">
      <choice>
       <reg>
        Потом

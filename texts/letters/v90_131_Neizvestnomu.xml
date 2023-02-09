@@ -9,17 +9,41 @@
                 <title type="main">Письмо Неизвестному от 28 июня 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо неизвестному, 28 июня 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 90. М.: Гос. изд. «Художественная литература», 1958. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 90</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">311-311</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -94,18 +123,18 @@
     <opener>
      * 131. Неизвестному.1899 г. Июня 28. Я. П.
     </opener>
-    <p id="0375ea78-babb-48ab-80c3-0b87022efa5b" rend="Data left">
-     <em>
+    <p id="0375ea78-babb-48ab-80c3-0b87022efa5b" rend="Data">
+     <hi rend="italic">
       1899 г. Июня 28. Я. П.
-     </em>
+     </hi>
     </p>
-    <p id="da4275fd-8254-495b-a78c-2dc247622b94" rend="Obrashenie left">
+    <p id="da4275fd-8254-495b-a78c-2dc247622b94" rend="Obrashenie">
      Милостивый Государь
     </p>
     <p id="3ee38b78-1ca0-4ed0-a5bf-2d98fca8105b" rend="Obrashenie2 left">
      Владимир Платонович,
     </p>
-    <p id="2fdf23cf-9ed6-4887-b48f-749ab503d05d" rend="left">
+    <p id="2fdf23cf-9ed6-4887-b48f-749ab503d05d">
      Деньги, 188 руб., присланные Вами от чинов Одесского портового управления и некоторых моряков в пользу
      <hi class="opdelimiter">
       пострадавших
@@ -129,16 +158,16 @@
      </name>
      .
     </p>
-    <p id="7b7a7ee9-b7af-4397-97a9-be9e67a4c036" rend="left">
+    <p id="7b7a7ee9-b7af-4397-97a9-be9e67a4c036">
      28 июня 99 г.
     </p>
-    <p id="654f0bbe-2c9b-4bc5-afc7-f9eacdebc720" rend="left">
+    <p id="654f0bbe-2c9b-4bc5-afc7-f9eacdebc720">
      Ясная Поляна.
     </p>
     <p id="0a1609a8-29fc-4dda-a285-f31974a704ca" rend="Textpetit_otstup left">
      Подлинник написан рукой О. К. Толстой, подпись собственноручная.
     </p>
-    <p id="7718431c-33dc-4fde-9808-ec1a1a59b6d6" rend="petit left">
+    <p id="7718431c-33dc-4fde-9808-ec1a1a59b6d6" rend="petit">
      Фамилию адресата выяснить не удалось.
     </p>
     <noteGrp type="comments">

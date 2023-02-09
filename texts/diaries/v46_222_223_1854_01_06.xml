@@ -4,25 +4,49 @@
         <fileDesc>
              <titleStmt>                
                 <title xml:id="v46_222_223_1854_01_06">
-                    Дневники и записные книжки. Tolstoy Digital
+                    Дневники. Tolstoy Digital
                 </title>
                 <title type="main">Тетрадь Г. Дневник,</title>
                 <title type="sub">6 января 1854 г.</title>
                 <title type="bibl">Толстой Л. Н. [Тетрадь Г. Дневник 1851–1854] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 46. М.: Гос. изд. «Художественная литература», 1937. С. </title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
-                 </respStmt>
+                </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,7 +113,9 @@
             <creation>
                 <date when="1854-01-06"/>
          </creation>          
-            <textClass> 
+            <langUsage>
+  <language ident="ru-petr1708"/>
+</langUsage><textClass> 
                 <catRef ana="#diaries" target="type"/>
            </textClass>
         </profileDesc>
@@ -110,7 +136,7 @@
       </date>
      </dateline>
     </opener>
-    <p id="7fcba129-d3ef-4be3-b196-e8726385db16" rend="left">
+    <p id="7fcba129-d3ef-4be3-b196-e8726385db16">
      <hi>
       <choice>
        <reg>
@@ -412,7 +438,7 @@
        метафизический
       </reg>
       <orig>
-       метафизическiй
+       метафизическій
       </orig>
      </choice>
      <choice>
@@ -451,13 +477,13 @@
      </choice>
      Епишкой. —
     </p>
-    <p id="c6ea7d3b-fcd0-4cfa-8350-150e6444c763" rend="left">
+    <p id="c6ea7d3b-fcd0-4cfa-8350-150e6444c763">
      <choice>
       <reg>
        Бесстрастие
       </reg>
       <orig>
-       Безстрастiе
+       Безстрастіе
       </orig>
      </choice>
      , т. е. всегда одинаковый, хладнокровный
@@ -491,7 +517,7 @@
         бесстрастие
        </reg>
        <orig>
-        безстрастiе
+        безстрастіе
        </orig>
       </choice>
      </note>
@@ -506,7 +532,7 @@
      </choice>
      . —
     </p>
-    <p id="901ae0cb-bff0-4ea2-8c9f-6684bb1bf111" rend="left">
+    <p id="901ae0cb-bff0-4ea2-8c9f-6684bb1bf111">
      <choice>
       <reg>
        Солдат
@@ -571,7 +597,7 @@
         человеколюбия
        </reg>
        <orig>
-        человѣколюбiя
+        человѣколюбія
        </orig>
       </choice>
       . —
@@ -585,7 +611,7 @@
       </reg>
       <orig>
        <name placement="text" ref="11906" type="person">
-        Теперешнiй
+        Теперешній
        </name>
       </orig>
      </choice>
@@ -643,7 +669,7 @@
        наставления
       </reg>
       <orig>
-       наставленiя
+       наставленія
       </orig>
      </choice>
      ,
@@ -713,7 +739,7 @@
      </choice>
      ему.
     </p>
-    <p id="73f181c0-3511-4731-bd92-29e52c3eec64" rend="left">
+    <p id="73f181c0-3511-4731-bd92-29e52c3eec64">
      Я
      <choice>
       <reg>
@@ -816,7 +842,7 @@
        шедшие
       </reg>
       <orig>
-       шедшiе
+       шедшіе
       </orig>
      </choice>
      за
@@ -830,7 +856,7 @@
      </choice>
      .
     </p>
-    <p id="24e563bc-ebc4-41df-87b5-fab94f31bb66" rend="left">
+    <p id="24e563bc-ebc4-41df-87b5-fab94f31bb66">
      <choice>
       <reg>
        <name placement="text" ref="13061" type="person">
@@ -873,7 +899,7 @@
        сохранение
       </reg>
       <orig>
-       сохраненiе
+       сохраненіе
       </orig>
      </choice>
      9 р. сер.
@@ -990,7 +1016,7 @@
        несчастия
       </reg>
       <orig>
-       несчастiя
+       несчастія
       </orig>
      </choice>
      .
@@ -1075,7 +1101,7 @@
      </choice>
      . —
     </p>
-    <p id="1be9f07b-c067-4ffd-8310-f4b8e4581393" rend="left">
+    <p id="1be9f07b-c067-4ffd-8310-f4b8e4581393">
      Только бы фолейтору возжи держать,
      <choice>
       <reg>
@@ -1116,7 +1142,7 @@
       —
      </hi>
     </p>
-    <p id="688d41ef-4d70-40f9-aee4-94faf905ab4c" rend="left">
+    <p id="688d41ef-4d70-40f9-aee4-94faf905ab4c">
      <pb n="223"/>
      <hi style="npdelimiter">
       Блюди
@@ -1202,7 +1228,7 @@
        спокойствие
       </reg>
       <orig>
-       спокойствiе
+       спокойствіе
       </orig>
      </choice>
      <choice>
@@ -1218,12 +1244,12 @@
        приемах
       </reg>
       <orig>
-       прiемахъ
+       пріемахъ
       </orig>
      </choice>
      .
     </p>
-    <p id="f815e508-428e-4012-905c-6bfab5ca5486" rend="left">
+    <p id="f815e508-428e-4012-905c-6bfab5ca5486">
      Ежедневно — какая бы не была погода —
      <choice>
       <reg>
@@ -1254,7 +1280,7 @@
        движение
       </reg>
       <orig>
-       движенiе
+       движеніе
       </orig>
      </choice>
      на
@@ -1268,13 +1294,13 @@
      </choice>
      . —
     </p>
-    <p id="73b9a26b-d9aa-4d1e-9195-250ff21d9b2d" rend="left">
+    <p id="73b9a26b-d9aa-4d1e-9195-250ff21d9b2d">
      <choice>
       <reg>
        Отступления
       </reg>
       <orig>
-       Отступленiя
+       Отступленія
       </orig>
      </choice>
      : 1) Необдуманно
@@ -1417,7 +1443,7 @@
      </choice>
      — не трудился. —
     </p>
-    <p id="39980083-3deb-4235-b397-bb6eb8060df5" rend="left">
+    <p id="39980083-3deb-4235-b397-bb6eb8060df5">
      Купить
      <choice>
       <reg>
@@ -1429,7 +1455,7 @@
      </choice>
      и выписать платки. —
     </p>
-    <p id="1ae02320-708c-470d-b8ef-adfafe293e14" rend="left">
+    <p id="1ae02320-708c-470d-b8ef-adfafe293e14">
      <choice>
       <reg>
        <name placement="text" ref="6411" type="person">
@@ -1510,7 +1536,7 @@
         Происшествия
        </reg>
        <orig>
-        Происшествiя
+        Происшествія
        </orig>
       </choice>
       и
@@ -1519,7 +1545,7 @@
         занятия
        </reg>
        <orig>
-        занятiя
+        занятія
        </orig>
       </choice>
      </hi>
@@ -1534,7 +1560,7 @@
         ечание
        </reg>
        <orig>
-        ѣчанiе
+        ѣчаніе
        </orig>
       </choice>
      </hi>
@@ -1588,7 +1614,7 @@
         ечание
        </reg>
        <orig>
-        ѣчанiе
+        ѣчаніе
        </orig>
       </choice>
      </hi>
@@ -1634,7 +1660,7 @@
         ечание
        </reg>
        <orig>
-        ѣчанiе
+        ѣчаніе
        </orig>
       </choice>
      </hi>
@@ -1679,7 +1705,7 @@
         ечание
        </reg>
        <orig>
-        ѣчанiе
+        ѣчаніе
        </orig>
       </choice>
      </hi>
@@ -1733,7 +1759,7 @@
         чание
        </reg>
        <orig>
-        чанiе
+        чаніе
        </orig>
       </choice>
      </hi>
@@ -1780,7 +1806,7 @@
         Отступлений
        </reg>
        <orig>
-        Отступленiй
+        Отступленій
        </orig>
       </choice>
      </hi>

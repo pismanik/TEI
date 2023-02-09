@@ -9,17 +9,41 @@
                 <title type="main">Письмо А. Ф. Марксу от 2 марта 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо А. Ф. Марксу, 2 марта 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">85-86</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,10 +128,10 @@
      </name>
      .1899 г. Марта 2. Москва.
     </opener>
-    <p id="43f9d6e0-6103-45b8-8110-4d927796f6f5" rend="Obrashenie left">
+    <p id="43f9d6e0-6103-45b8-8110-4d927796f6f5" rend="Obrashenie">
      Милостивый Государь
     </p>
-    <p id="c358ad7b-4dca-4212-8752-c35b72c33a2c" rend="Obrashenie1 left">
+    <p id="c358ad7b-4dca-4212-8752-c35b72c33a2c" rend="Obrashenie1">
      <choice>
       <reg>
        <name placement="text" ref="8559" type="person">
@@ -126,7 +156,7 @@
      </choice>
      ,
     </p>
-    <p id="e3c9c548-af9e-4574-a6c4-96baaa799693" rend="left">
+    <p id="e3c9c548-af9e-4574-a6c4-96baaa799693">
      Будьте
      <choice>
       <reg>
@@ -159,7 +189,7 @@
        Англию
       </reg>
       <orig>
-       Англiю
+       Англію
       </orig>
      </choice>
      по
@@ -203,7 +233,7 @@
        печатания
       </reg>
       <orig>
-       печатанiя
+       печатанія
       </orig>
      </choice>
      <choice>
@@ -228,7 +258,7 @@
        История
       </reg>
       <orig>
-       Исторiя
+       Исторія
       </orig>
      </choice>
      Матери. Пусть это письмо служить
@@ -273,7 +303,7 @@
        печатания
       </reg>
       <orig>
-       печатанiя
+       печатанія
       </orig>
      </choice>
      я распространю
@@ -282,7 +312,7 @@
        продолжением
       </reg>
       <orig>
-       продолженiемъ
+       продолженіемъ
       </orig>
      </choice>
      <choice>
@@ -333,7 +363,7 @@
        печатания
       </reg>
       <orig>
-       печатанiя
+       печатанія
       </orig>
      </choice>
      <choice>
@@ -413,7 +443,7 @@
      </choice>
      .
     </p>
-    <p id="a338bd15-1158-4cbf-85ef-36d5184d19e6" rend="left">
+    <p id="a338bd15-1158-4cbf-85ef-36d5184d19e6">
      <choice>
       <reg>
        Исполнив
@@ -424,7 +454,7 @@
      </choice>
      мою просьбу, вы очень обяжете меня.
     </p>
-    <p id="18d5243b-b136-410d-860e-bfdab7ac8cac" rend="left">
+    <p id="18d5243b-b136-410d-860e-bfdab7ac8cac">
      <choice>
       <reg>
        С
@@ -446,7 +476,7 @@
        уважением
       </reg>
       <orig>
-       уваженiемъ
+       уваженіемъ
       </orig>
      </choice>
      остаюсь готовый
@@ -485,17 +515,17 @@
      </name>
      .
     </p>
-    <p id="42247355-d5c4-43c8-8d6d-6d45faf5a451" rend="left">
+    <p id="42247355-d5c4-43c8-8d6d-6d45faf5a451">
      2 Марта 1899.
     </p>
     <noteGrp type="comments">
      <note index="false" type="comments">
       <p id="9e460640-98ff-4d87-95c7-8e1b5a979475" rend="Textpetit_otstup left">
-       Печатается по автографу, хранящемуся в AЧ. Публикуется впервые.
+       Печатается по автографу, хранящемуся в АЧ. Публикуется впервые.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="e4263d69-6950-4077-a836-45c5fed673e8" rend="petit left">
+      <p id="e4263d69-6950-4077-a836-45c5fed673e8" rend="petit">
        Намерение Толстого передать А. Ф. Марксу право на первую публикацию нового художественного произведения и просьба о высылке денег были вызваны его желанием ускорить переезд кипрских духоборов в Канаду (
        <ref target="file:///Volume_72_N.PotapovuiI.Veriginu_42.xml">
         см. письмо № 42
@@ -508,7 +538,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="aebe40c8-b0c4-4d81-80f4-2d88712ec5e3" rend="emptyline left">
+      <p id="aebe40c8-b0c4-4d81-80f4-2d88712ec5e3" rend="emptyline">
        <pb n="86"/>
       </p>
      </note>

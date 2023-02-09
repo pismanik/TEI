@@ -9,17 +9,41 @@
                 <title type="main">Письмо Т. А. Ергольской с 1 декабря 1849 г. по 31 декабря 1849 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Т. А. Ергольской, 1 декабря 1849 г. — 31 декабря 1849 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">51-53</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,10 +128,10 @@
      </name>
      .1849 г. Декабря конец. Тула.
     </opener>
-    <p id="6e9060b6-91a6-4dbb-8551-b35dcf22b1f0" rend="Obrashenie left">
+    <p id="6e9060b6-91a6-4dbb-8551-b35dcf22b1f0" rend="Obrashenie">
      Chère tante.
     </p>
-    <p id="bb68ca9d-c297-4239-bc2e-148988a3d524" rend="left">
+    <p id="bb68ca9d-c297-4239-bc2e-148988a3d524">
      Le soir du même jour que vous êtes partie, revenu à
      <hi>
       Ясное
@@ -143,10 +173,10 @@
      </note>
      croyant toujours vous trouver, dans le cas où vous ne seriez pas partie le matin.
     </p>
-    <p id="2790774f-4c66-4bbd-870b-c5341228a87d" rend="left">
+    <p id="2790774f-4c66-4bbd-870b-c5341228a87d">
      Quoique ce soient des raisons valables, j’aime mieux avoir recours à votre bonté, vous avouer franchement, que j’ai été inconséquent et vilain d’avoir pu causer du chagrin et vous demander pardon.
     </p>
-    <p id="2c92603b-9d58-44c9-b8b1-5725ae7e4c23" rend="left">
+    <p id="2c92603b-9d58-44c9-b8b1-5725ae7e4c23">
      Je vous aurais suivi le même jour, si je n’avais quelques affaires assez sérieuses, qui me retiennent ici. Dites à Marie et à Valérien que je les embrasse bien tendrement et que je ne demande pas mieux que d’être le parrain de leur futur enfant; mais comme je ne peux ni ne veux être présent à
      <choice original_editorial_correction="l’ac[c]ouchement">
       <sic>
@@ -167,23 +197,23 @@
      </choice>
      sera accouché et dans 12 heures je serais arrivé. — Comment se porte-t-elle?
     </p>
-    <p id="63556f53-a5fc-4e16-bea5-f753ccefb432" rend="left">
+    <p id="63556f53-a5fc-4e16-bea5-f753ccefb432">
      Adieu, chère tante, je vous baise les mains et vous prie de ne plus être fâchée contre moi. Avez vous des nouvelles de la tante Pauline?
     </p>
-    <p id="82e17658-bd00-4af0-8d59-f790ca603ba4" rend="left">
+    <p id="82e17658-bd00-4af0-8d59-f790ca603ba4">
      J’envoie le calendrier à tante Lise, je la félicite et lui baise les mains. —
     </p>
-    <p id="8c81bc95-17eb-4c8a-9e56-0e0c081e3f37" rend="left">
+    <p id="8c81bc95-17eb-4c8a-9e56-0e0c081e3f37">
      Je vous remercie pour votre cadeau qui m’est d’une grande utilité — la robe de chambre. —
     </p>
     <lb/>
-    <p id="1bd59845-030c-4be2-8edc-e93274fdd8c2" rend="left">
+    <p id="1bd59845-030c-4be2-8edc-e93274fdd8c2">
      <hi>
       На конверте
      </hi>
      .
     </p>
-    <p id="7288896c-5c2c-4081-a2af-368695fbd34f" rend="left">
+    <p id="7288896c-5c2c-4081-a2af-368695fbd34f">
      Ея Высокоблагородію Татьянѣ Александровнѣ
      <hi>
       Ерголъской
@@ -202,10 +232,10 @@
      </hi>
      .
     </p>
-    <p id="065412f6-3b56-466c-8e6d-ac15d5bd2138" rend="Obrashenie petit left">
+    <p id="065412f6-3b56-466c-8e6d-ac15d5bd2138" rend="Obrashenie petit">
      Дорогая тетенька.
     </p>
-    <p id="f261b2eb-e2fb-4928-977e-81b28fce35f2" rend="petit left">
+    <p id="f261b2eb-e2fb-4928-977e-81b28fce35f2" rend="petit">
      Вечером, в самый день вашего отъезда,
      <ref target="#note4">
       4
@@ -240,16 +270,16 @@
      </note>
      думая всё-таки вас застать, ежели вы не уехали утром.
     </p>
-    <p id="09dfd410-4442-4948-9be7-5a877dcbb132" rend="petit left">
+    <p id="09dfd410-4442-4948-9be7-5a877dcbb132" rend="petit">
      Но хотя причины эти достаточны, я всё же предпочитаю обратиться прямо к вашей доброте, сознавшись откровенно, что, причинив вам огорчение, я поступил непоследовательно, дурно и прошу вас меня простить.
     </p>
-    <p id="b3c090e3-f4db-40d4-a9a4-cd5f1179dfe7" rend="petit left">
+    <p id="b3c090e3-f4db-40d4-a9a4-cd5f1179dfe7" rend="petit">
      Я бы поехал вслед за вами, ежели бы меня не задерживали здесь кое-какие серьезные дела. Передайте Машеньке и Валерьяну, что я их нежно целую и что охотно буду крестным отцом их будущего ребенка; но, так как я не могу и не желаю присутствовать при Машенькиных родах, пусть они известят меня, когда она разрешится, и через 12 часов я явлюсь. Как ее здоровье?
      <hi style="opdelimiter">
       —
      </hi>
     </p>
-    <p id="adc14fa8-c087-41bb-93d8-a89d237729cd" rend="petit left">
+    <p id="adc14fa8-c087-41bb-93d8-a89d237729cd" rend="petit">
      <pb n="53"/>
      <hi style="npdelimiter">
       Прощайте,
@@ -262,7 +292,7 @@
       Пелагея Ильинична Юшкова. О ней см. прим. 8 к п. № 4.
      </note>
     </p>
-    <p id="dca165f5-13f4-4ba4-b9ab-14a210150d2b" rend="petit left">
+    <p id="dca165f5-13f4-4ba4-b9ab-14a210150d2b" rend="petit">
      Посылаю календарь тете Лизе,
      <ref target="#note8">
       8
@@ -275,7 +305,7 @@
      </note>
      поздравляю ее и целую ее ручки. —
     </p>
-    <p id="3ac8f0ec-1ca9-4d91-8c14-a91f420070ad" rend="petit left">
+    <p id="3ac8f0ec-1ca9-4d91-8c14-a91f420070ad" rend="petit">
      Благодарю вас за подарок — халат. Он мне очень нужен.
     </p>
     <noteGrp type="comments">

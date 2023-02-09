@@ -9,17 +9,41 @@
                 <title type="main">Письмо А. В. Морозову от 1 августа 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо А. В. Морозову, 1 августа 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">171-172</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -101,10 +131,10 @@
     <p id="7638c97a-d5ce-4183-8b29-d3f34838d5c7" rend="right">
      Ясная Поляна.
     </p>
-    <p id="4023f54d-2956-4119-b570-90e5124d7f75" rend="Obrashenie left">
+    <p id="4023f54d-2956-4119-b570-90e5124d7f75" rend="Obrashenie">
      Милостивый Государь
     </p>
-    <p id="0f13f51c-29e5-4e2b-8bef-22dc26c78528" rend="Obrashenie1 left">
+    <p id="0f13f51c-29e5-4e2b-8bef-22dc26c78528" rend="Obrashenie1">
      <choice>
       <reg>
        <name placement="text" ref="9268" type="person">
@@ -129,7 +159,7 @@
      </choice>
      ,
     </p>
-    <p id="9dc29990-7fa5-4f93-a675-2c59cd743416" rend="left">
+    <p id="9dc29990-7fa5-4f93-a675-2c59cd743416">
      На письмо мое о помощи
      <choice>
       <reg>
@@ -198,7 +228,7 @@
       1
      </hi>
     </p>
-    <p id="08dfdd5c-26d5-4222-8559-28608150544d" rend="left">
+    <p id="08dfdd5c-26d5-4222-8559-28608150544d">
      Я получилъ чрезвычайно трогательное и правдивое письмо отъ одной несчастной дѣвушки, поставленной въ необходимость существовать отвратительнымъ для нея занятіемъ, акомпаньяторшей скрипача въ домѣ терпимости.
      <hi>
       2
@@ -244,7 +274,7 @@
        занятия
       </reg>
       <orig>
-       занятiя
+       занятія
       </orig>
      </choice>
      , очевидно, жестоко
@@ -258,7 +288,7 @@
      </choice>
      ее.
     </p>
-    <p id="192a3259-5926-4022-b24e-e56ec1aee399" rend="left">
+    <p id="192a3259-5926-4022-b24e-e56ec1aee399">
      Я ей
      <choice>
       <reg>
@@ -331,7 +361,7 @@
      </choice>
      .
     </p>
-    <p id="d5c9a6c1-8205-4ac5-8e41-6493d2a870cb" rend="left">
+    <p id="d5c9a6c1-8205-4ac5-8e41-6493d2a870cb">
      <choice>
       <reg>
        Вполне
@@ -354,7 +384,7 @@
        исполнение
       </reg>
       <orig>
-       исполненiе
+       исполненіе
       </orig>
      </choice>
      моей просьбы (если она для
@@ -389,7 +419,7 @@
        приятно
       </reg>
       <orig>
-       прiятно
+       пріятно
       </orig>
      </choice>
      , и потому не благодарю
@@ -403,7 +433,7 @@
      </choice>
      .
     </p>
-    <p id="404f3f5e-43b9-478f-a778-73c920c3979d" rend="left">
+    <p id="404f3f5e-43b9-478f-a778-73c920c3979d">
      <choice>
       <reg>
        С
@@ -425,7 +455,7 @@
        уважением
       </reg>
       <orig>
-       уваженiемъ
+       уваженіемъ
       </orig>
      </choice>
      остаюсь готовый
@@ -458,7 +488,7 @@
      Толстой.
     </p>
     <lb/>
-    <p id="ee52e96f-d3c0-4488-93bd-6b387154c774" rend="left">
+    <p id="ee52e96f-d3c0-4488-93bd-6b387154c774">
      <choice>
       <reg>
        Адрес
@@ -487,7 +517,7 @@
       </reg>
       <orig>
        <name placement="text" ref="13830" type="person">
-        Клавдiя
+        Клавдія
        </name>
       </orig>
      </choice>
@@ -512,7 +542,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="395e10f5-aa88-45de-859a-75d927477051" rend="petit left">
+      <p id="395e10f5-aa88-45de-859a-75d927477051" rend="petit">
        <name placement="comments" ref="9268" type="person">
         Алексей Викулович Морозов
        </name>

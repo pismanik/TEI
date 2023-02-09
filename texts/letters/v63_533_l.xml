@@ -9,17 +9,41 @@
                 <title type="main">Письмо Н. Н. Ге (сыну) от 6 июля 1886 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Н. Н. Ге (сыну), 6 июля 1886 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 63. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 63</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">368-369</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,7 +128,7 @@
      </name>
      (сыну).1886 г. Июля 6. Я. П.
     </opener>
-    <p id="1c7f74a3-430f-457d-be8f-6cdf3df4d702" rend="left">
+    <p id="1c7f74a3-430f-457d-be8f-6cdf3df4d702">
      Не знаю адреса Озмидовой и
      <name placement="note" ref="10132" type="person">
       Озмидова
@@ -227,7 +257,7 @@
        типографии
       </reg>
       <orig>
-       типографiи
+       типографіи
       </orig>
      </choice>
      и дома Сытина (
@@ -282,7 +312,7 @@
       На Кавказ. См. прим. к письму № 458.
      </note>
     </p>
-    <p id="5c603c73-14e8-4f1c-a266-33a00bef3d54" rend="left">
+    <p id="5c603c73-14e8-4f1c-a266-33a00bef3d54">
      У
      <choice>
       <reg>
@@ -397,7 +427,7 @@
        Настроение
       </reg>
       <orig>
-       Настроенiе
+       Настроеніе
       </orig>
      </choice>
      у
@@ -484,7 +514,7 @@
     <noteGrp type="comments">
      <note index="false" type="comments">
       <p id="9884730d-f002-4f76-b051-9aa6b5654c9b" rend="Textpetit_otstup left">
-       Печатается по копии, хранящейся в AЧ (на копии пометка: «открытое»). Публикуется впервые. Дата копии.
+       Печатается по копии, хранящейся в АЧ (на копии пометка: «открытое»). Публикуется впервые. Дата копии.
       </p>
      </note>
     </noteGrp>

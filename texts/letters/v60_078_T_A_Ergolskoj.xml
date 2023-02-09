@@ -9,17 +9,41 @@
                 <title type="main">Письмо Т. А. Ергольской от 12 июня 1857 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Т. А. Ергольской, 12 июня 1857 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 60. М.: Гос. изд. «Художественная литература», 1949. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 60</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">194-195</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,7 +127,7 @@
      </name>
      .1857 г. Июня 12/24. Кларан.
     </opener>
-    <p id="5ffe5f5c-c7fa-43f4-88d5-48ad8af1c073" rend="left">
+    <p id="5ffe5f5c-c7fa-43f4-88d5-48ad8af1c073">
      Pardon, chère tante, si pour
      <ref target="#note1">
       1
@@ -129,22 +158,22 @@
      </note>
      J’espère que vous m’aiderez à l’engager à accepter ma proposition. —
     </p>
-    <p id="a7f26a6a-9e17-4fa6-8a87-e89c112ccf2f" rend="left">
+    <p id="a7f26a6a-9e17-4fa6-8a87-e89c112ccf2f">
      Adieu, je baise mille fois vos mains, chère tante. Vous recevrez un paquet de sculptures en bois de la Suisse que j’ai envoyé à votre nom. — J’ai cru que ces petites choses vous feraient plaisir. —
     </p>
     <p id="017c8d5a-b1fb-46c8-8025-2f41c4171715" rend="right">
      Votre Léon.
     </p>
-    <p id="a4271b68-956e-44de-8fa2-cdb33d86c3f5" rend="left">
+    <p id="a4271b68-956e-44de-8fa2-cdb33d86c3f5">
      <figure>
       <graphic url="./img/i000020270000.png"/>
      </figure>
      Juin.
     </p>
-    <p id="05feccca-2922-4b29-bea4-05df54092eec" rend="left">
+    <p id="05feccca-2922-4b29-bea4-05df54092eec">
      Clarens.
     </p>
-    <p id="53a480db-6676-4202-9d75-99936560e4d8" rend="left">
+    <p id="53a480db-6676-4202-9d75-99936560e4d8">
      J’embrasse Serge et attends sa lettre.
     </p>
     <noteGrp type="comments">
@@ -182,7 +211,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="f98ea065-d365-44a3-82d3-a15ca4378670" rend="petit left">
+      <p id="f98ea065-d365-44a3-82d3-a15ca4378670" rend="petit">
        Прощайте, тысячу раз целую ваши ручки, дорогая тетенька. Вы
        <hi style="opdelimiter">
         получите
@@ -200,12 +229,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="7c2ff7db-816e-4c0f-bb40-7e31ccec21b1" rend="petit left">
+      <p id="7c2ff7db-816e-4c0f-bb40-7e31ccec21b1" rend="petit">
        12/24 Июня. Кларан.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="0384b5ae-b779-4650-b211-a560f3e758a4" rend="petit left">
+      <p id="0384b5ae-b779-4650-b211-a560f3e758a4" rend="petit">
        Целую Сережу и жду его письма.
       </p>
      </note>

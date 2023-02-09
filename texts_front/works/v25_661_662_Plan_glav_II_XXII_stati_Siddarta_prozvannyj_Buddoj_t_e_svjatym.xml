@@ -1,238 +1,239 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v25_661_662_Plan_glav_II_XXII_stati_Siddarta_prozvannyj_Buddoj_t_e_svjatym"> [План глав II—XXII статьи «Сиддарта, прозванный Буддой, т. е. святым»]. Tolstoy Digital </title>
-                <title type="main">Сиддарта, прозванный Буддой, т. е. святым. </title>
-                <title type="sub" resp="volume_editor">План глав II—XXII статьи</title>
-                <title type="bibl">Толстой Л. Н. [План глав II—XXII статьи «Сиддарта, прозванный Буддой, т. е. святым»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 25. М.: Гос. изд. «Художественная литература», 1937. С. </title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name> Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp> Подготовка TEI/XML </resp>
-                    <name> Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова </name>                                 
-                </respStmt>
-                    <funder> Проект «Слово Толстого» </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName> Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого» </orgName>
-                </publisher>
-                <availability>
-                    <p id="9ec41a9b-05d5-40c6-85b2-a454406d8f63"> Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa) </p>
-                </availability>
-                <date from="2015-01-01" to="2022-01-01"/>
-            </publicationStmt>
-            <notesStmt>
-                <note> Публикуемые документы был получены с сайта tolstoy. ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author> Толстой Лев Николаевич </author>
-                        <title level="a"> [План глав II—XXII статьи «Сиддарта, прозванный Буддой, т. е. святым»] </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m"> Полное собрание сочинений. Том 25 </title>
-                        <imprint>
-                            <pubPlace> Москва </pubPlace>
-                            <publisher> Государственное издательство «Художественная литература» </publisher>
-                            <date from="1937-01-01" to="1937-12-31"/>
-                        </imprint>
-                        <biblScope unit="volume">25</biblScope>
-                        <biblScope unit="page">661-662</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s"> Л. Н. Толстой. Полное собрание сочинений. </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy_front.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1886-01-01" to="1886-12-31"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass>
-                <catRef ana="#nonfiction_front_np" target="sphere_neprosto"/>
-                <catRef ana="#ver" target="work_main"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <body>
-   <div type="section" xml:id="ref66">
-    <p id="9c198afb-37a1-44f1-bbbb-687fe6208958">
-     <pb n="661"></pb>
-    </p>
-    <p id="666b7670-44f0-412e-b44d-cdddc39a52dd">
-      <head rend="title_level2 center"> * [ПЛАН ГЛАВ ІІ—ХХІІ СТАТЬИ «СИДДАРТА, ПРОЗВАННЫЙ БУДДОЙ, Т. Е. СВЯТЫМ».] </head>
-    </p>
-    <p id="9014e356-7ffa-4773-954a-0242822b3016">
-      <br/>
-    </p>
-    <p id="62bbb51b-48ef-4421-90b0-2130a5d03347">
-      <span class="h2"> 2. </span>
-    </p>
-    <p id="c44ca6df-eaad-43cf-b214-e08609e74897" rend="left"> Праздник. Предсказанье 55. Признаки царя или святой. Смерть матери. Beal, 71. </p>
-    <p id="26abb6e4-ac02-4ab7-abc0-7183b2230f45">
-      <br/>
-    </p>
-    <p id="5057b92d-87a4-4f99-a360-95fb94ef4378">
-      <span class="h2"> 3. </span>
-    </p>
-    <p id="03b0129f-a748-42dd-8c8b-5db32959e3d9" rend="left"> Ученье книжное и упражнений [?]: «учи других», я сам», юность. Лебедь — суд. Чей? </p>
-    <p id="ca2bc122-582f-49d7-8cca-0797df337036">
-      <br/>
-    </p>
-    <p id="01458c5a-f678-4811-9ed3-4d9378f346b9">
-      <span class="h2"> 4. </span>
-    </p>
-    <p id="dd9ca63e-34a6-4d97-8d19-45edc0ca2bc4" rend="left"> Мысли. Состязание пахоты. Как спастись от страданий? 73, 74. </p>
-    <p id="b6b7de2b-cb1b-48d7-8250-3547e653d715">
-      <br/>
-    </p>
-    <p id="0ceef138-d7e0-4cfd-876a-404fa229d6d9">
-      <span class="h2"> 5. </span>
-    </p>
-    <p id="a0c16a45-9ff7-45aa-bbe0-d6c7f4543e49" rend="left"> Роскошь, 78. Советы. Недоумение отца, 80. </p>
-    <p id="0a7af1a3-276d-4d19-8fee-7f07e4269dee">
-      <br/>
-    </p>
-    <p id="49b0d9ad-e767-498f-ba3e-5d80bb0c7fd5">
-      <span class="h2"> 6. </span>
-    </p>
-    <p id="c168cb64-6dc5-489a-804c-6d65dbcf9a23" rend="left"> Рассказ соглядатаев (83). Сватовство. Іазадара. Игры. Готами и Минодора. </p>
-    <p id="ceb74147-6895-4b65-9cf0-8d156fe68dae">
-      <br/>
-    </p>
-    <p id="0a948535-668e-44e8-a201-e9dce6dd003e">
-      <span class="h2"> 7. </span>
-    </p>
-    <p id="4ebdec2a-0136-4d11-9864-d8abd0ebe4d6" rend="left"> 600 стр. Тоска о страданиях людей. </p>
-    <p id="0b613142-b00a-4a1a-aab9-30ddead9eee4">
-      <br/>
-    </p>
-    <p id="477e2aeb-e6c7-4ae7-90ef-17765865f69e">
-      <span class="h2"> 8. </span>
-    </p>
-    <p id="a04b7597-5575-4c5a-a96f-89ab8705fea5" rend="left"> Поездки. </p>
-    <p id="93b68258-3423-4fe6-95b7-178c3caf0028">
-      <br/>
-    </p>
-    <p id="8aaa435c-b971-4ed7-8bee-fb0825a239d9">
-      <span class="h2"> 9. </span>
-    </p>
-    <p id="9bc64be7-c259-4f1b-861f-eeb702bd2a76" rend="left"> Ночные мысли. Бегство. </p>
-    <p id="2ead0c3a-bb28-4639-8429-aea46c4e56c8">
-      <br/>
-    </p>
-    <p id="955a0bf2-6c47-4a2c-a40c-18a742c35ec8">
-      <span class="h2"> 10. </span>
-    </p>
-    <p id="85df460e-4d0c-4032-ad41-70236fe38f33" rend="left"> Учение браминов. Формальность веры. Неудовлетворенность. </p>
-    <p id="4f2a80b7-5a76-48b9-b146-ca5310827bd8">
-      <br/>
-    </p>
-    <p id="efaa0be1-d7e9-407c-9798-85dbf0015e2a">
-      <span class="h2"> 11. </span>
-    </p>
-    <p id="6f879211-c8bc-47b4-9fe5-e273b213096e" rend="left"> Аскеты. Отрицание их. </p>
-    <p id="2aa880aa-3fd5-4498-8af9-52d23a249862">
-      <br/>
-    </p>
-    <p id="b21fa3fc-264c-4119-a2e2-bc26c09ff2ea">
-      <span class="h2"> 12. </span>
-    </p>
-    <p id="04b98099-c0af-4e80-ac77-7d76ee184ad1" rend="left"> Уединения, сомнения. Ученики приходят спрашивать. «<span class="hi" data-attribute="italic"> Нет </span> еще?» Года прошли. Его вид. </p>
-    <p id="84e2c2be-a1e0-457f-830a-05637e7dd020" rend="left">
-     <pb n="662"></pb>
-    </p>
-    <p id="aad808c2-27af-41d3-9db8-97e073e327a1">
-      <br/>
-    </p>
-    <p id="49df6764-6558-47a9-a818-105b4e72496e">
-      <span class="h2"> 13. </span>
-    </p>
-    <p id="5b69eed4-cc07-4d3f-a1f0-fcc75ae63d48" rend="left"> Жена крестьянина с ребенком. </p>
-    <p id="95f9aa43-a5b3-46e1-957f-7b9a6344371d">
-      <br/>
-    </p>
-    <p id="0067ed52-b1cd-4bd5-b4d3-44c18934adf5">
-      <span class="h2"> 14. </span>
-    </p>
-    <p id="5f23041d-238e-475b-9fe0-3ad9538d3f65" rend="left"> Его (ложное) объяснение жизни. Гордость. Искушения: 1) <span class="hi" data-attribute="italic"> Сомнение </span>. Победил. «<span class="hi" data-attribute="italic"> Ищу истину </span>». 2) Похоть победил: «Ты не тот, кого я люблю, ты его тень». 3) Страх — победил. «Я сострадаю и обнимаю тебя, а не ты меня». </p>
-    <p id="75fbd085-8bc9-4232-8537-819e1169a00b" rend="left"> Все уничтожилось, осталось одно сострадание к людям. Он чуть не убил себя восторгом перед своими мыслями, но он вспомнил, что у него есть служенье (611 стр., 14 лин. снизу) и он пошел в мир. </p>
-    <p id="d6065a19-1325-4a72-8db0-db48637c5b73">
-      <br/>
-    </p>
-    <p id="51eefb90-135f-4b28-b04b-a4aa19e45fba">
-      <span class="h2"> 15. </span>
-    </p>
-    <p id="19146b09-5033-46a9-9bed-6ccb7f7b6293" rend="left"> 611 стр. IV гл. Идет учить 3/3. Переезд Ганга. Встреча с учениками. Они недовольны его отрицанием правил. </p>
-    <p id="71938efb-e42a-4425-8a73-e9898c2c94a7">
-      <br/>
-    </p>
-    <p id="209fb5bf-083a-4086-a0e3-b9a4a0007a73">
-      <span class="h2"> 16. </span>
-    </p>
-    <p id="0e486309-ba4c-4303-876a-c93adb6540ff" rend="left"> Учение (612, 6 л. снизу). Женщина с ребенком. </p>
-    <p id="df5565ce-80bd-4098-8626-a0363c7325fe">
-      <br/>
-    </p>
-    <p id="e8a05ad8-d684-4cb8-808c-20c5fc17fd49">
-      <span class="h2"> 17. </span>
-    </p>
-    <p id="50feb210-669f-4d7b-83f3-028ff1147342" rend="left"> Проповедь, равенство всех. Женщина другой касты, гонения и обращение царя. </p>
-    <p id="76c403f5-a791-44c1-94b6-ee2f80246292">
-      <br/>
-    </p>
-    <p id="dac2a08a-6d8a-4247-a532-c5e640fc6690">
-      <span class="h2"> 18. </span>
-    </p>
-    <p id="977a57b8-95cd-4fb7-9565-b03da40fa5e9" rend="left"> Сострадаяие к зверям, вегетарянство. В храме. </p>
-    <p id="fab93c70-5190-4528-870b-bd3b2fe7f416">
-      <br/>
-    </p>
-    <p id="fd1329fb-2b1a-46c5-b729-8fc0fa145ca5">
-      <span class="h2"> 19. </span>
-    </p>
-    <p id="7ecb6936-eca5-4ba4-923b-00b112db450f" rend="left"> Отец и жена. Послы. </p>
-    <p id="95219f2b-d67b-4538-9021-65cfa0118477">
-      <br/>
-    </p>
-    <p id="d534e0b8-cba2-46ae-a5f8-4fd1e797e685">
-      <span class="h2"> 20. </span>
-    </p>
-    <p id="2178526d-d3e5-4627-b2d1-82bd84432128" rend="left"> Свиданье отца с сыном. Я не породы плотской, но породы святых (будд). </p>
-    <p id="fe2f4954-2eb9-48b5-9c40-0d2f304c5dc0">
-      <br/>
-    </p>
-    <p id="0059145d-0814-4d14-97f1-0ddc63fc2ee6">
-      <span class="h2"> 21. </span>
-    </p>
-    <p id="3ecd3089-649c-4746-9c6d-502251792b04" rend="left"> Как он учит. </p>
-    <p id="ac15523f-675f-4d37-be6f-931518369afa">
-      <br/>
-    </p>
-    <p id="983a92a6-3d95-43c6-87fe-d629985a0e00">
-      <span class="h2"> 22. </span>
-    </p>
-    <p id="05a22413-38bb-4a1e-8f23-89fd82e62525" rend="left"> Смерть. </p>
-   </div>
-  </body>
- </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:id="v25_661_662_Plan_glav_II_XXII_stati_Siddarta_prozvannyj_Buddoj_t_e_svjatym">[План глав II—XXII статьи «Сиддарта, прозванный Буддой, т. е. святым»]. Произведения. Tolstoy Digital </title>
+        <title type="main">Сиддарта, прозванный Буддой, т. е. святым. </title>
+        <title type="sub" resp="volume_editor">План глав II—XXII статьи </title>
+        <title type="bibl">Толстой Л. Н. [План глав II—XXII статьи «Сиддарта, прозванный Буддой, т. е. святым»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 25. М.: Гос. изд. «Художественная литература», 1937. С. 661–662. </title>
+        <author>Толстой Лев Николаевич </author>
+        <respStmt>
+          <resp>Идея, постановка задач, руководство: </resp>
+          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
+        </respStmt>
+        <respStmt>
+          <resp> Подготовка TEI/XML: </resp>
+          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров, Никита Северин, Елена Северина</name>
+        </respStmt>
+        <funder> Проект «Слово Толстого» </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого» </orgName>
+        </publisher>
+        <availability>
+          <p id="9ec41a9b-05d5-40c6-85b2-a454406d8f63">Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa) </p>
+        </availability>
+        <date from="2015-01-01" to="2022-01-01"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>Публикуемые документы был получены с сайта tolstoy. ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. </note>
+      </notesStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author>Толстой Лев Николаевич </author>
+            <title level="a">[План глав II—XXII статьи «Сиддарта, прозванный Буддой, т. е. святым»] </title>
+          </analytic>
+          <monogr>
+            <title level="m">Полное собрание сочинений. Том 25 </title>
+            <imprint>
+              <pubPlace>Москва </pubPlace>
+              <publisher>Государственное издательство «Художественная литература» </publisher>
+              <date from="1937-01-01" to="1937-12-31"/>
+            </imprint>
+            <biblScope unit="volume">25 </biblScope>
+            <biblScope unit="page">661-662 </biblScope>
+          </monogr>
+          <series>
+            <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт. </title>
+          </series>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <xi:include href="../../reference/taxonomy_front.xml"/>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date from="1886-01-01" to="1886-12-31"/>
+      </creation>
+      <langUsage>
+        <language ident="ru"/>
+        <language ident="ru-petr1708"/>
+      </langUsage>
+      <textClass>
+        <catRef ana="#nonfiction_front_np" target="sphere_neprosto"/>
+        <catRef ana="#ver" target="work_main"/>
+        <catRef ana="#not_finished" target="finished"/>
+        <catRef ana="#not_publ" target="published"/>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <body>
+      <div type="section" xml:id="ref66">
+        <p id="9c198afb-37a1-44f1-bbbb-687fe6208958">
+          <pb n="661"></pb>
+        </p>
+        <p id="6f466111-4b54-479a-a0e5-e32299e3b0af">
+          <head rend="title_level2 center">* [ПЛАН ГЛАВ ІІ—ХХІІ СТАТЬИ «СИДДАРТА, ПРОЗВАННЫЙ БУДДОЙ, Т. Е. СВЯТЫМ».] </head>
+        </p>
+        <p id="dfec93c0-3bf6-4ab1-8956-003e1b68ca41">
+          <br/>
+        </p>
+        <p id="49310fa2-7092-4d29-83fc-bb231e28a8d8">
+          <span class="h2">2. </span>
+        </p>
+        <p id="c44ca6df-eaad-43cf-b214-e08609e74897">Праздник. Предсказанье 55. Признаки царя или святой. Смерть матери. Beal, 71. </p>
+        <p id="6c480d58-c795-46a9-b9cc-bfcc0900dedd">
+          <br/>
+        </p>
+        <p id="ff4297b4-b47c-4c10-a2e2-b40e851d5763">
+          <span class="h2">3. </span>
+        </p>
+        <p id="03b0129f-a748-42dd-8c8b-5db32959e3d9">Ученье книжное и упражнений [?]: «учи других», я сам», юность. Лебедь — суд. Чей? </p>
+        <p id="045a06fb-e762-40df-8be3-67f60e1dac5a">
+          <br/>
+        </p>
+        <p id="e07e7960-5274-4baa-a60e-e2385c81a856">
+          <span class="h2">4. </span>
+        </p>
+        <p id="dd9ca63e-34a6-4d97-8d19-45edc0ca2bc4">Мысли. Состязание пахоты. Как спастись от страданий? 73, 74. </p>
+        <p id="049b2bee-8dc6-42e0-93f2-fb0b6180346d">
+          <br/>
+        </p>
+        <p id="db8d6f5c-090f-4db6-a47c-61c54c369858">
+          <span class="h2">5. </span>
+        </p>
+        <p id="a0c16a45-9ff7-45aa-bbe0-d6c7f4543e49">Роскошь, 78. Советы. Недоумение отца, 80. </p>
+        <p id="85ae3238-a575-4030-ae25-f23b1ab4fb87">
+          <br/>
+        </p>
+        <p id="c77a62cf-e3f9-4717-b248-01997ca69851">
+          <span class="h2">6. </span>
+        </p>
+        <p id="c168cb64-6dc5-489a-804c-6d65dbcf9a23">Рассказ соглядатаев (83). Сватовство. Іазадара. Игры. Готами и Минодора. </p>
+        <p id="4c8c15ed-6cc0-4977-a70f-d25298ba0805">
+          <br/>
+        </p>
+        <p id="b6642a2c-9341-43dd-8255-808a6d35fb8a">
+          <span class="h2">7. </span>
+        </p>
+        <p id="4ebdec2a-0136-4d11-9864-d8abd0ebe4d6">600 стр. Тоска о страданиях людей. </p>
+        <p id="9b89a7f6-31d8-4397-884e-7400f55d6570">
+          <br/>
+        </p>
+        <p id="6dbd8f6d-549d-4cec-8e6f-d6795c49c96f">
+          <span class="h2">8. </span>
+        </p>
+        <p id="a04b7597-5575-4c5a-a96f-89ab8705fea5">Поездки. </p>
+        <p id="e5cb9ece-7a2f-4107-82b5-6bb815de9551">
+          <br/>
+        </p>
+        <p id="3ee09932-6e07-4a4b-88cd-5e859726e49c">
+          <span class="h2">9. </span>
+        </p>
+        <p id="9bc64be7-c259-4f1b-861f-eeb702bd2a76">Ночные мысли. Бегство. </p>
+        <p id="96e517cb-4d39-400a-ad20-3a6d999fd1fb">
+          <br/>
+        </p>
+        <p id="46ed1d3a-d502-410e-88fb-ed6049e68153">
+          <span class="h2">10. </span>
+        </p>
+        <p id="85df460e-4d0c-4032-ad41-70236fe38f33">Учение браминов. Формальность веры. Неудовлетворенность. </p>
+        <p id="f55fe0e5-71aa-4c28-9d64-f028275562a9">
+          <br/>
+        </p>
+        <p id="1b05b249-c8fc-44b8-8601-2678178b37a8">
+          <span class="h2">11. </span>
+        </p>
+        <p id="6f879211-c8bc-47b4-9fe5-e273b213096e">Аскеты. Отрицание их. </p>
+        <p id="f1b80484-6932-4568-8db7-7cc5fa222391">
+          <br/>
+        </p>
+        <p id="25fe6c08-7e59-4711-b9fb-4835e7d0e8a8">
+          <span class="h2">12. </span>
+        </p>
+        <p id="04b98099-c0af-4e80-ac77-7d76ee184ad1">Уединения, сомнения. Ученики приходят спрашивать. « <span class="hi" data-attribute="italic">Нет </span>еще?» Года прошли. Его вид. </p>
+        <p id="84e2c2be-a1e0-457f-830a-05637e7dd020">
+          <pb n="662"></pb>
+        </p>
+        <p id="4cb48604-cb3a-42ba-b661-7d9d8683ee42">
+          <br/>
+        </p>
+        <p id="dd0c265e-915f-432a-b2ee-cb1a93cd3388">
+          <span class="h2">13. </span>
+        </p>
+        <p id="5b69eed4-cc07-4d3f-a1f0-fcc75ae63d48">Жена крестьянина с ребенком. </p>
+        <p id="044b99d4-abbf-4022-9732-da04b992acf3">
+          <br/>
+        </p>
+        <p id="afb10c37-4e68-418f-8eb5-d5d72810720b">
+          <span class="h2">14. </span>
+        </p>
+        <p id="5f23041d-238e-475b-9fe0-3ad9538d3f65">Его (ложное) объяснение жизни. Гордость. Искушения: 1) <span class="hi" data-attribute="italic">Сомнение</span>. Победил. « <span class="hi" data-attribute="italic">Ищу истину</span>». 2) Похоть победил: «Ты не тот, кого я люблю, ты его тень». 3) Страх — победил. «Я сострадаю и обнимаю тебя, а не ты меня». </p>
+        <p id="75fbd085-8bc9-4232-8537-819e1169a00b">Все уничтожилось, осталось одно сострадание к людям. Он чуть не убил себя восторгом перед своими мыслями, но он вспомнил, что у него есть служенье (611 стр., 14 лин. снизу) и он пошел в мир. </p>
+        <p id="fe02c7ab-6c93-4f91-b8dc-76ecca206c3c">
+          <br/>
+        </p>
+        <p id="61d76eec-210a-463f-86da-5ef0c1fe124a">
+          <span class="h2">15. </span>
+        </p>
+        <p id="19146b09-5033-46a9-9bed-6ccb7f7b6293">611 стр. IV гл. Идет учить 3/3. Переезд Ганга. Встреча с учениками. Они недовольны его отрицанием правил. </p>
+        <p id="d56f601b-c39f-4eb8-9752-408e8d2051a0">
+          <br/>
+        </p>
+        <p id="0f5c6c22-147c-46fa-adae-599c62b960a4">
+          <span class="h2">16. </span>
+        </p>
+        <p id="0e486309-ba4c-4303-876a-c93adb6540ff">Учение (612, 6 л. снизу). Женщина с ребенком. </p>
+        <p id="6b261e03-8e63-4836-8e9d-2553f856640a">
+          <br/>
+        </p>
+        <p id="9863896b-4f26-4230-83db-32b1b6f360cd">
+          <span class="h2">17. </span>
+        </p>
+        <p id="50feb210-669f-4d7b-83f3-028ff1147342">Проповедь, равенство всех. Женщина другой касты, гонения и обращение царя. </p>
+        <p id="5a4b4084-7525-4f3c-acc3-b16841de4f6f">
+          <br/>
+        </p>
+        <p id="33351cac-cc24-468c-9bfa-ccb95c95aab5">
+          <span class="h2">18. </span>
+        </p>
+        <p id="977a57b8-95cd-4fb7-9565-b03da40fa5e9">Сострадаяие к зверям, вегетарянство. В храме. </p>
+        <p id="6d41899e-1c41-4a87-836f-7f696472b834">
+          <br/>
+        </p>
+        <p id="e3a6641b-1ff5-4c22-b7cf-b2f87bc27d85">
+          <span class="h2">19. </span>
+        </p>
+        <p id="7ecb6936-eca5-4ba4-923b-00b112db450f">Отец и жена. Послы. </p>
+        <p id="ee918d79-7880-4849-bae1-49a10cbab64c">
+          <br/>
+        </p>
+        <p id="fa6be355-357d-435d-8387-a6d21b292e26">
+          <span class="h2">20. </span>
+        </p>
+        <p id="2178526d-d3e5-4627-b2d1-82bd84432128">Свиданье отца с сыном. Я не породы плотской, но породы святых (будд). </p>
+        <p id="5448b4bf-e055-4a06-b1de-551ea3aec59e">
+          <br/>
+        </p>
+        <p id="27d2380d-202c-4142-ab62-3b3bb3ed7a9e">
+          <span class="h2">21. </span>
+        </p>
+        <p id="3ecd3089-649c-4746-9c6d-502251792b04">Как он учит. </p>
+        <p id="cf50b0c0-0314-4049-bd00-d51e490d0fb5">
+          <br/>
+        </p>
+        <p id="df125245-6dfc-48bd-a962-8911a6652e1f">
+          <span class="h2">22. </span>
+        </p>
+        <p id="05a22413-38bb-4a1e-8f23-89fd82e62525">Смерть.</p>
+      </div>
+    </body>
+  </text>
 </TEI>

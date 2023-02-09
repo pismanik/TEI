@@ -9,17 +9,41 @@
                 <title type="main">Письмо Кн. Д. А. Хилкову от 8 июня 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо кн. Д. А. Хилкову, 8 июня 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">138-141</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -101,7 +131,7 @@
     <p id="18678107-787f-430a-bd46-12e5307e390a" rend="right">
      8 Іюня.
     </p>
-    <p id="8f6a2946-ad0a-4ced-abc5-7edeffaa1ae6" rend="left">
+    <p id="8f6a2946-ad0a-4ced-abc5-7edeffaa1ae6">
      <choice>
       <reg>
        Получил
@@ -124,7 +154,7 @@
         </reg>
         <orig>
          <name placement="text" ref="14894" type="person">
-          Дмитрiй
+          Дмитрій
          </name>
         </orig>
        </choice>
@@ -164,7 +194,7 @@
        сведения
       </reg>
       <orig>
-       свѣденiя
+       свѣденія
       </orig>
      </choice>
      ,
@@ -326,7 +356,7 @@
        положении
       </reg>
       <orig>
-       положенiи
+       положеніи
       </orig>
      </choice>
      и не испытывая
@@ -393,7 +423,7 @@
       .
      </hi>
     </p>
-    <p id="e30586d4-70c7-4847-955e-29c3adc5870a" rend="left">
+    <p id="e30586d4-70c7-4847-955e-29c3adc5870a">
      <pb n="139"/>
      <hi style="npdelimiter">
       Я
@@ -467,7 +497,7 @@
        употребления
       </reg>
       <orig>
-       употребленiя
+       употребленія
       </orig>
      </choice>
      для
@@ -530,7 +560,7 @@
        сведениям
       </reg>
       <orig>
-       свѣденiямъ
+       свѣденіямъ
       </orig>
      </choice>
      ,
@@ -600,7 +630,7 @@
        сведений
       </reg>
       <orig>
-       свѣденiй
+       свѣденій
       </orig>
      </choice>
      еще не
@@ -674,7 +704,7 @@
        Россию
       </reg>
       <orig>
-       Россiю
+       Россію
       </orig>
      </choice>
      .
@@ -705,7 +735,7 @@
        освобождение
       </reg>
       <orig>
-       освобожденiе
+       освобожденіе
       </orig>
      </choice>
      Веригина и
@@ -749,12 +779,12 @@
        известия
       </reg>
       <orig>
-       извѣстiя
+       извѣстія
       </orig>
      </choice>
      .
     </p>
-    <p id="ad5b95d5-41e7-420d-b0d7-6f78d4ce2566" rend="left">
+    <p id="ad5b95d5-41e7-420d-b0d7-6f78d4ce2566">
      На
      <choice>
       <reg>
@@ -812,7 +842,7 @@
        фамилию
       </reg>
       <orig>
-       фамилiю
+       фамилію
       </orig>
      </choice>
      ,
@@ -846,7 +876,7 @@
        земский
       </reg>
       <orig>
-       земскiй
+       земскій
       </orig>
      </choice>
      <choice>
@@ -863,7 +893,7 @@
        вызвавший
       </reg>
       <orig>
-       вызвавшiй
+       вызвавшій
       </orig>
      </choice>
      <choice>
@@ -880,7 +910,7 @@
        объявивший
       </reg>
       <orig>
-       объявившiй
+       объявившій
       </orig>
      </choice>
      <choice>
@@ -931,7 +961,7 @@
        нынешний
       </reg>
       <orig>
-       нынѣшнiй
+       нынѣшній
       </orig>
      </choice>
      <choice>
@@ -1125,7 +1155,7 @@
       11
      </hi>
     </p>
-    <p id="276a98c6-3fb1-41a6-9b9a-4accd0bb085a" rend="left">
+    <p id="276a98c6-3fb1-41a6-9b9a-4accd0bb085a">
      Пожалуйста, пишите
      <choice>
       <reg>
@@ -1175,7 +1205,7 @@
        отношении
       </reg>
       <orig>
-       отношенiи
+       отношеніи
       </orig>
      </choice>
      <choice>
@@ -1204,7 +1234,7 @@
        писанием
       </reg>
       <orig>
-       писанiемъ
+       писаніемъ
       </orig>
      </choice>
      .
@@ -1313,7 +1343,7 @@
        произведения
       </reg>
       <orig>
-       произведенiя
+       произведенія
       </orig>
      </choice>
      <choice>
@@ -1321,7 +1351,7 @@
        приятные
       </reg>
       <orig>
-       прiятныя
+       пріятныя
       </orig>
      </choice>
      и
@@ -1373,7 +1403,7 @@
        объяснение
       </reg>
       <orig>
-       объясненiе
+       объясненіе
       </orig>
      </choice>
      того
@@ -1390,7 +1420,7 @@
        явления
       </reg>
       <orig>
-       явленiя
+       явленія
       </orig>
      </choice>
      , что не глупый
@@ -1448,12 +1478,12 @@
        писание
       </reg>
       <orig>
-       писанiе
+       писаніе
       </orig>
      </choice>
      романа.
     </p>
-    <p id="ae793a1e-eeb5-48d5-bb28-e762caa55d2f" rend="left">
+    <p id="ae793a1e-eeb5-48d5-bb28-e762caa55d2f">
      Братски
      <choice>
       <reg>
@@ -1516,7 +1546,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="9367c4e1-aea3-40b5-92fe-95dfd35adec7" rend="petit left">
+      <p id="9367c4e1-aea3-40b5-92fe-95dfd35adec7" rend="petit">
        Ответ на письмо кн. Д. А. Хилкова от 24 мая н. ст. 1899 г. с подробными сообщениями о жизни духоборов в Канаде.
       </p>
      </note>

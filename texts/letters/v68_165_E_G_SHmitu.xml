@@ -9,17 +9,41 @@
                 <title type="main">Письмо Э. Г. Шмиту с 11 сентября 1895 г. по 20 сентября 1895 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Э. Г. Шмиту, 11 сентября 1895 г. — 20 сентября 1895 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 68. М.: Гос. изд. «Художественная литература», 1954. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 68</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">177-179</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -98,10 +127,10 @@
      </name>
      .1895г. Середина сентября. Я. П.
     </opener>
-    <p id="bef6f59e-6b4b-40c1-bbd7-9a5023a1abc6" rend="Obrashenie left">
+    <p id="bef6f59e-6b4b-40c1-bbd7-9a5023a1abc6" rend="Obrashenie">
      Lieber Freund,
     </p>
-    <p id="d9d682d8-5739-4b82-9b99-63ab8769d819" rend="left">
+    <p id="d9d682d8-5739-4b82-9b99-63ab8769d819">
      Den Entwurf des Manifestes
      <ref target="#note1">
       1
@@ -129,7 +158,7 @@
       sein.
      </hi>
     </p>
-    <p id="8e3fce72-bb7b-4002-bc32-d13900b23d90" rend="left">
+    <p id="8e3fce72-bb7b-4002-bc32-d13900b23d90">
      <pb n="178"/>
      <hi style="npdelimiter">
       Auch
@@ -147,11 +176,11 @@
      </note>
      geschrieben, aber der Aufruf muss als Vorwort zu einem artikel, oder sogar Buche, über die Verfolgung von Christen, der geschrieben wird, erscheinen. Ich werde Ihnen das Buch und den Artikel, sobald es fertig wird, verschafen. Jetzt habe ich noch eine Schrift über die letztere Verfolgung der Duchoboren am Kaukasus von einem meiner Freunde, der dort gewesen ist, um alles umständlich zu erfahren, fertig, und schreibe zu dem Artikel ein Vorwort, den ich ihnen senden werde. Die Schrift möchte ich gern in den verbreitesten Deutschen Zeitungen erscheinen lassen. Wie soll ich es machen? Für Ihre Zeitschrift, glaube ich, wäre es gut, wenn sie mein Forwort zu einem in Berlin erschienen Buche: «Жизнь и смерть Дрожжина» (Leben und Todt von E. Drojjin) überzetzen liessen und bei ihnen drucken. Das Buch mit dem Vorworte können sie von Berlin verschreiben oder von einem unseren Freunde und dem Freunde von Schkarvan — Dr. Duschan Makovizky, Silina.
     </p>
-    <p id="8e85b956-c1f1-49bf-aeab-fe078a1bf526" rend="left">
+    <p id="8e85b956-c1f1-49bf-aeab-fe078a1bf526">
      Es thut mir leid, dass ich ihnen deutsch schreiben muss. Unwillkürlich bekommen meine Briefe einen kindischen Character, da ich meine Ideen nicht geläufig ausdrücken kann, deswegen schreibe ich Ihnen jetzt Russisch, hoffend, dass sie ohne grosse Mühe einen Übersetzer finden werden.
     </p>
     <lb/>
-    <p id="eff521e3-41d1-4acf-80f5-029d051609c7" rend="left">
+    <p id="eff521e3-41d1-4acf-80f5-029d051609c7">
      Мысль ваша обращения к людям по поводу гонений за неисполнение государственных требований — прекрасная. Вы увидите, что я сделал это отчасти в том предисловии к книге Дрожжина, о котором я пишу вам. Я сделал это по поводу Дрожжина, вы делаете это по поводу Шкарвана. И чем больше будет искренних и горячих голосов за правду, тем лучше. А ваш голос я люблю слушать и думаю, что он действует на людей. Но, простите меня за совет: больше обрабатывайте свои писания; представляйте себе читателем честного,
      <hi style="opdelimiter">
       умного,
@@ -186,10 +215,10 @@
      .
     </p>
     <lb/>
-    <p id="3cfcd78d-4649-4bf0-ac9d-02f449af2c76" rend="Obrashenie petit left">
+    <p id="3cfcd78d-4649-4bf0-ac9d-02f449af2c76" rend="Obrashenie petit">
      Дорогой друг,
     </p>
-    <p id="0b54c4fc-72e3-43de-9e96-162c4ab398bb" rend="petit left">
+    <p id="0b54c4fc-72e3-43de-9e96-162c4ab398bb" rend="petit">
      Проект манифеста
      <ref target="#note6">
       6
@@ -214,7 +243,7 @@
      </note>
      я получил. Идея манифеста хороша, но форма мне не очень понравилась. Он должен быть проще и понятнее для литературно необразованных людей.
     </p>
-    <p id="dd06418b-619c-4db9-8c0f-51b1cad987b9" rend="petit left">
+    <p id="dd06418b-619c-4db9-8c0f-51b1cad987b9" rend="petit">
      Также и ваше намерение собирать подписи под манифестом считаю нецелесообразным. Наше единственное и могущественнейшее оружие, это — слово, т. е. ясно и сильно выраженная истина. Число же подписей лиц, настроение и взгляды которых нам не известны, не имеет никакого значения. Напишите ваш манифест так сильно и убедительно, как вы только можете, и опубликуйте его. Это единственное и лучшее, что мы можем сделать. Подобный же манифест или воззвание написал один из моих друзей,
      <ref target="#note8">
       8
@@ -232,7 +261,7 @@
      </name>
      , в Жилине.
     </p>
-    <p id="6c094a37-2b24-4a3f-8565-ec15830651e5" rend="petit left">
+    <p id="6c094a37-2b24-4a3f-8565-ec15830651e5" rend="petit">
      Сожалею, что должен писать вам по-немецки: так как я не могу бегло выражать свои мысли, то мои письма невольно приобретают детский характер. И потому я дальше пишу по-русски, надеясь, что вы без особого труда найдете переводчика.
     </p>
     <noteGrp type="comments">

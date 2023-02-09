@@ -4,25 +4,49 @@
         <fileDesc>
              <titleStmt>                
                 <title xml:id="v49_050_050_1881_07_11">
-                    Дневники и записные книжки. Tolstoy Digital
+                    Дневники. Tolstoy Digital
                 </title>
                 <title type="main">Дневник,</title>
                 <title type="sub">11 июля 1881 г.</title>
                 <title type="bibl">Толстой Л. Н. [Дневник 1881 г.] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 49. М.: Гос. изд. «Художественная литература», 1952. С. </title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
-                 </respStmt>
+                </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -109,35 +133,29 @@
       </date>
      </dateline>
     </opener>
-    <p id="bd82555a-0549-4669-8ffb-a42e3f0aab72" rend="left">
+    <p id="bd82555a-0549-4669-8ffb-a42e3f0aab72">
      Приехал домой: дворянин белесый, пальто без пуговиц.
     </p>
-    <p id="2ff92da7-9bdb-40ff-bab1-c95a6caa3878" rend="left">
+    <p id="2ff92da7-9bdb-40ff-bab1-c95a6caa3878">
      Две бабы солдатки Деменские. Одна весело просит на хлеб 5 детям и хворосту.
     </p>
-    <p id="10753be4-a001-41a6-ad83-0ac2a6fd7704" rend="left">
-     <metamark function="line"/>
-    </p>
-    <p id="e12e00c5-6a8d-43c9-9cc8-24978ba4eaf5" rend="left">
+    <metamark function="line"/>
+    <p id="e12e00c5-6a8d-43c9-9cc8-24978ba4eaf5">
      Соня в припадке. Я перенес лучше, но еще плохо. Надо понимать, что ей дурно, и жалеть, но нельзя не отворачиваться от зла. —
     </p>
-    <p id="bfe9bbe8-d0c5-4721-91d4-75be07780bb6" rend="left">
+    <p id="bfe9bbe8-d0c5-4721-91d4-75be07780bb6">
      С
      <name placement="text" ref="7286" type="person">
       Таней
      </name>
      разговор о воспитаньи занял до утра. — Они не люди.
     </p>
-    <p id="cd28f93f-a5ac-4715-9f87-8b87e119d46c" rend="left">
-     <metamark function="line"/>
-    </p>
-    <p id="49605135-d4ab-4181-bae5-479470752de0" rend="left">
+    <metamark function="line"/>
+    <p id="49605135-d4ab-4181-bae5-479470752de0">
      Молочная сестра Авдотья боится войти. Ничего не хочет. Губернатора всё хочет, чтоб я заместил. 800 р. в месяц. —
     </p>
-    <p id="952faf56-85fc-4616-bcff-cc04e4c9a5bd" rend="left">
-     <metamark function="line"/>
-    </p>
-    <p id="066778e2-3454-4537-bffe-208b9eba8cde" rend="left">
+    <metamark function="line"/>
+    <p id="066778e2-3454-4537-bffe-208b9eba8cde">
      <choice original_editorial_correction="Матв[ея]">
       <sic>
        Матв
@@ -148,16 +166,12 @@
      </choice>
      Егорова сноха — вдова в печальном платке, плачет. Ее избили.
     </p>
-    <p id="6c0ea949-fdfd-4f05-b0bc-778f63b0303a" rend="left">
-     <metamark function="line"/>
-    </p>
-    <p id="78665cd5-4731-441a-b3a2-57d2d97f21e4" rend="left">
+    <metamark function="line"/>
+    <p id="78665cd5-4731-441a-b3a2-57d2d97f21e4">
      Степан Матросов взаймы 15. —
     </p>
-    <p id="49f2ec3c-efd8-4ba7-a6f3-01d518ff597f" rend="left">
-     <metamark function="line"/>
-    </p>
-    <p id="0a0849fc-d215-4d9a-b1bd-074160e178c0" rend="left">
+    <metamark function="line"/>
+    <p id="0a0849fc-d215-4d9a-b1bd-074160e178c0">
      В лесу Сергей
      <choice original_editorial_correction="Рез[унов]">
       <sic>

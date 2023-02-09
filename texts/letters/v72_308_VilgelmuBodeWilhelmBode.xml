@@ -9,17 +9,41 @@
                 <title type="main">Письмо Вильгельму Боде (Wilhelm Bode) от 8 июня 1900 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Вильгельму Боде (Wilhelm Bode), 8 июня 1900 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">377-378</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,10 +127,10 @@
      </name>
      .1900г. Июня 8/20. Я. П.
     </opener>
-    <p id="fd4777c7-e962-4887-b3df-8c614acb5008" rend="Obrashenie left">
+    <p id="fd4777c7-e962-4887-b3df-8c614acb5008" rend="Obrashenie">
      Verehrter Herr,
     </p>
-    <p id="f121d7a6-64a3-4251-979c-efa13d20cfa5" rend="left">
+    <p id="f121d7a6-64a3-4251-979c-efa13d20cfa5">
      Ich habe Ihren Buch bekommen und danke herzlich für die Sendung.
     </p>
     <p id="fd77243a-6c56-4f63-b3c5-cc74e7cabdc2" rend="right rightindent">
@@ -110,14 +139,14 @@
     <p id="7a360853-fa57-4e61-b29e-bf4af27c0953" rend="right">
      Leo Tolstoy.
     </p>
-    <p id="745221da-4bc1-41de-8951-1edf0f4c468e" rend="left">
+    <p id="745221da-4bc1-41de-8951-1edf0f4c468e">
      20 Juni 1900.
     </p>
     <lb/>
     <p id="dec2ac5a-57ba-4311-99b4-93c359c8a1de" rend="Obrashenie petit">
      Милостивый государь,
     </p>
-    <p id="59ec8fa1-0ce9-44db-8f3e-45170cfd56c3" rend="petit left">
+    <p id="59ec8fa1-0ce9-44db-8f3e-45170cfd56c3" rend="petit">
      Я получил вашу книгу и сердечно благодарю за присылку ее.
     </p>
     <p id="c3f736ff-6b91-4785-bdb8-0bfc2720605f" rend="petit right rightindent">
@@ -129,7 +158,7 @@
      </name>
      .
     </p>
-    <p id="58ebb3ce-ff5b-48d1-9ea6-a29f3c86d72b" rend="petit left">
+    <p id="58ebb3ce-ff5b-48d1-9ea6-a29f3c86d72b" rend="petit">
      20 Июня 1900.
     </p>
     <noteGrp type="comments">
@@ -139,7 +168,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="45e6f4e0-972b-47be-b7b6-28bf2ed54f1b" rend="petit left">
+      <p id="45e6f4e0-972b-47be-b7b6-28bf2ed54f1b" rend="petit">
        <name placement="comments" ref="1617" type="person">
         Вильгельм Боде (Wilhelm Bode)
        </name>
@@ -147,7 +176,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="1f2010aa-dbd9-4342-b9c5-131cfbaa1046" rend="petit left">
+      <p id="1f2010aa-dbd9-4342-b9c5-131cfbaa1046" rend="petit">
        Ответ на письмо
        <name placement="comments" ref="1617" type="person">
         Вильгельма Боде
@@ -156,12 +185,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="ba9c6c79-1eba-457a-8e66-eb03cbe5265e" rend="petit left">
+      <p id="ba9c6c79-1eba-457a-8e66-eb03cbe5265e" rend="petit">
        D-r Wilhelm Bode, «Die Lehren Tolstois. Ein Gedanken-Auszug aus allen seinen Werken». Weimar, W. Bodes Verl., 1900.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="69b82d70-9ba0-4fb2-b697-09ae1b33869d" rend="emptyline left">
+      <p id="69b82d70-9ba0-4fb2-b697-09ae1b33869d" rend="emptyline">
        <pb n="378"/>
       </p>
      </note>

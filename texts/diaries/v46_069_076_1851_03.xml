@@ -4,25 +4,49 @@
         <fileDesc>
              <titleStmt>                
                 <title xml:id="v46_069_076_1851_03">
-                    Дневники и записные книжки. Tolstoy Digital
+                    Дневники. Tolstoy Digital
                 </title>
                 <title type="main">Тетрадь Г. Дневник,</title>
                 <title type="sub">марта 1851 г. — май 1851 г.</title>
                 <title type="bibl">Толстой Л. Н. [Тетрадь Г. Дневник 1851–1854] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 46. М.: Гос. изд. «Художественная литература», 1937. С. </title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
-                 </respStmt>
+                </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,7 +113,9 @@
             <creation>
                 <date notBefore="1851-03" notAfter="1851-05"/>
          </creation>          
-            <textClass> 
+            <langUsage>
+  <language ident="ru-petr1708"/>
+</langUsage><textClass> 
                 <catRef ana="#diaries" target="type"/>
            </textClass>
         </profileDesc>
@@ -111,7 +137,7 @@
       </date>
      </dateline>
     </opener>
-    <p id="306790a0-3af3-4ad2-884e-bd73d9aea26d" rend="left">
+    <p id="306790a0-3af3-4ad2-884e-bd73d9aea26d">
      L’imagination est le miroir [de la] nature, miroir, que nous portons en nous et dans lequel elle se peint. La plus belle imagination est le miroir le plus clair et le plus vrai, celui que nous appelons le genie. Le genie ne crée pas, il retrace.
      <ref target="#note426">
       426
@@ -120,7 +146,7 @@
       [Воображение есть зеркало природы, которое мы носим в себе, и в котором она отражается. Самое прекрасное воображение есть наиболее ясное и правдивое зеркало; это то, что мы называем гением. Гений не создает, но воспроизводит.]
      </note>
     </p>
-    <p id="fe9b37b5-b1f6-47c3-9e24-9d8aa3178309" rend="left">
+    <p id="fe9b37b5-b1f6-47c3-9e24-9d8aa3178309">
      Il y a des hommes qui ont le sentiment du bon, du beau et du noble,
      <ref target="#note427">
       427
@@ -139,7 +165,7 @@
       [Есть люди, чувствующие доброе, прекрасное и благородное, но сами не имеющие этих качеств.]
      </note>
     </p>
-    <p id="55886bfe-62c8-46f8-8006-6df1a9edc2a6" rend="left">
+    <p id="55886bfe-62c8-46f8-8006-6df1a9edc2a6">
      Есть люди, которые все разумное
      <choice>
       <reg>
@@ -190,7 +216,7 @@
        приложении
       </reg>
       <orig>
-       приложенiи
+       приложеніи
       </orig>
      </choice>
      , не умны, не изящны и не добры.
@@ -217,7 +243,7 @@
        восприимчивости
       </reg>
       <orig>
-       воспрiимчивости
+       воспріимчивости
       </orig>
      </choice>
      и
@@ -226,7 +252,7 @@
        воспроизведения
       </reg>
       <orig>
-       воспроизведенiя
+       воспроизведенія
       </orig>
      </choice>
      — или не
@@ -253,7 +279,7 @@
        гением
       </reg>
       <orig>
-       генiемъ
+       геніемъ
       </orig>
      </choice>
      или
@@ -293,7 +319,7 @@
      </choice>
      всегда слабы и апатичны, и потому способности не развиты.
     </p>
-    <p id="b4a54aba-e34b-43f8-8043-6dcab7836eda" rend="left">
+    <p id="b4a54aba-e34b-43f8-8043-6dcab7836eda">
      Je n’étais pas assez gai pour avoir un ami, j’étais trop isolé pour avoir une amie.
      <ref target="#note429">
       429
@@ -310,7 +336,7 @@
       Перо недурно.
      </note>
     </p>
-    <p id="296bdf49-6c38-4393-a413-d7f0f9303720" rend="left">
+    <p id="296bdf49-6c38-4393-a413-d7f0f9303720">
      Chez certains hommes l’aVеu public de la faute qu’on
      <choice original_editorial_correction="[a]">
       <sic/>
@@ -335,7 +361,7 @@
      </note>
      —
     </p>
-    <p id="c85165e0-b08b-40b2-a6e4-9307d7ec5c69" rend="left">
+    <p id="c85165e0-b08b-40b2-a6e4-9307d7ec5c69">
      Dernièrement en parlant avec un de mes amis qui se plaignait de sa position et qui lui attribuait toutes les bévues qu’il avait faites, je disais, que ni la richesse, ni le nom, ni l’élégance ne pouvaient donner à un homme l’aplomb, qui était la cause de ses bévues, s’il lui manquait. — C'est une chose que je ne puis vous prouver, me dit-il, mais que je connais par une triste expérience: les jours, que j’ai une chemise, je suis tout autre, que quand j’ai un faux-col, et comme le héros d’un roman d’
      <choice original_editorial_correction="Eug[ène]">
       <sic>
@@ -358,7 +384,7 @@
      </note>
      —
     </p>
-    <p id="e4dcb991-3f89-431d-a4b3-cc451f9bf046" rend="left">
+    <p id="e4dcb991-3f89-431d-a4b3-cc451f9bf046">
      Что натуры
      <choice>
       <reg>
@@ -460,7 +486,7 @@
        многия
       </reg>
       <orig>
-       многiя
+       многія
       </orig>
      </choice>
      вопросы, и
@@ -477,7 +503,7 @@
        усовершенствования
       </reg>
       <orig>
-       усовершенствованiя
+       усовершенствованія
       </orig>
      </choice>
      и
@@ -486,7 +512,7 @@
        приобретают
       </reg>
       <orig>
-       прiобрѣтаютъ
+       пріобрѣтаютъ
       </orig>
      </choice>
      привычку работать.
@@ -504,7 +530,7 @@
        предстоящия
       </reg>
       <orig>
-       предстоящiя
+       предстоящія
       </orig>
      </choice>
      <choice>
@@ -547,7 +573,7 @@
        пропорциональны
       </reg>
       <orig>
-       пропорцiональны
+       пропорціональны
       </orig>
      </choice>
      <choice>
@@ -591,12 +617,12 @@
        развитии
       </reg>
       <orig>
-       развитiи
+       развитіи
       </orig>
      </choice>
      .
     </p>
-    <p id="ee513284-735d-4266-8370-2fd9ae5aa95d" rend="left">
+    <p id="ee513284-735d-4266-8370-2fd9ae5aa95d">
      <name placement="text" ref="7591" type="person">
       Ламартин
      </name>
@@ -734,7 +760,7 @@
        жаждущия
       </reg>
       <orig>
-       жаждущiя
+       жаждущія
       </orig>
      </choice>
      <choice>
@@ -742,7 +768,7 @@
        просвещения
       </reg>
       <orig>
-       просвещенiя
+       просвещенія
       </orig>
      </choice>
      , не
@@ -808,7 +834,7 @@
       —
      </hi>
     </p>
-    <p id="b184be21-0907-4950-9c40-ef5298dacd1a" rend="left">
+    <p id="b184be21-0907-4950-9c40-ef5298dacd1a">
      <pb n="71"/>
      <hi style="npdelimiter">
       Я
@@ -916,7 +942,7 @@
        сочинения
       </reg>
       <orig>
-       сочиненiя
+       сочиненія
       </orig>
      </choice>
      , это
@@ -925,7 +951,7 @@
        произведения
       </reg>
       <orig>
-       произведенiя
+       произведенія
       </orig>
      </choice>
      <choice>
@@ -1009,12 +1035,12 @@
        поэзии
       </reg>
       <orig>
-       поэзiи
+       поэзіи
       </orig>
      </choice>
      . — —
     </p>
-    <p id="694dae3a-4ddb-4944-bcfe-437427dd6ea4" rend="left">
+    <p id="694dae3a-4ddb-4944-bcfe-437427dd6ea4">
      (
      <choice>
       <reg>
@@ -1030,7 +1056,7 @@
        поэзией
       </reg>
       <orig>
-       поэзiей
+       поэзіей
       </orig>
      </choice>
      , я никогда не пойму; хотя есть
@@ -1083,7 +1109,7 @@
        Поэзия
       </reg>
       <orig>
-       Поэзiя
+       Поэзія
       </orig>
      </choice>
      — стихи. Проза — не стихи: или
@@ -1092,7 +1118,7 @@
        поэзия
       </reg>
       <orig>
-       поэзiя
+       поэзія
       </orig>
      </choice>
      — все, исключая
@@ -1143,7 +1169,7 @@
        сочинения
       </reg>
       <orig>
-       сочиненiя
+       сочиненія
       </orig>
      </choice>
      , чтобы быть хорошими, должны,
@@ -1259,7 +1285,7 @@
        развития
       </reg>
       <orig>
-       развитiя
+       развитія
       </orig>
      </choice>
      ,
@@ -1368,7 +1394,7 @@
        насильствования
       </reg>
       <orig>
-       насильствованiя
+       насильствованія
       </orig>
      </choice>
      героини романа, это не возбуждаете
@@ -1410,7 +1436,7 @@
        негодования
       </reg>
       <orig>
-       негодованiя
+       негодованія
       </orig>
      </choice>
      ,
@@ -1507,7 +1533,7 @@
        сладострастия
       </reg>
       <orig>
-       сладострастiя
+       сладострастія
       </orig>
      </choice>
      , —
@@ -1584,7 +1610,7 @@
        выражения
       </reg>
       <orig>
-       выраженiя
+       выраженія
       </orig>
      </choice>
      мысли, но мысли недоступны. — У народа есть своя литература — прекрасная, неподражаемая; но она не
@@ -1712,7 +1738,7 @@
      </choice>
      . —
     </p>
-    <p id="81ec5006-e5e0-4797-b069-dd1d8c05ac5c" rend="left">
+    <p id="81ec5006-e5e0-4797-b069-dd1d8c05ac5c">
      Пускай
      <choice>
       <reg>
@@ -1735,7 +1761,7 @@
        высший
       </reg>
       <orig>
-       высшiй
+       высшій
       </orig>
      </choice>
      <choice>
@@ -1836,7 +1862,7 @@
        соединений
       </reg>
       <orig>
-       соединенiй
+       соединеній
       </orig>
      </choice>
      . —
@@ -1870,7 +1896,7 @@
        зрения
       </reg>
       <orig>
-       зрѣнiя
+       зрѣнія
       </orig>
      </choice>
      <choice>
@@ -1878,7 +1904,7 @@
        социализма
       </reg>
       <orig>
-       соцiализма
+       соціализма
       </orig>
      </choice>
      , т. е.
@@ -1887,7 +1913,7 @@
        отсутствия
       </reg>
       <orig>
-       отсутствiя
+       отсутствія
       </orig>
      </choice>
      <choice>
@@ -1934,7 +1960,7 @@
      </choice>
      . —
     </p>
-    <p id="ebf31b42-66f4-4999-bdb3-190b23b24279" rend="left">
+    <p id="ebf31b42-66f4-4999-bdb3-190b23b24279">
      (
      <hi>
       Paul et Virginie).
@@ -1947,7 +1973,7 @@
       [(Павел и Виргиния.) Их взаимная привязанность поглощала всю деятельность их душ. Никогда еще бесполезные науки не были причиною их слез; никогда поучения жалкой морали не заставляли их скучать.]
      </note>
     </p>
-    <p id="34d2c5c1-abcb-42c0-ab37-0a291758c393" rend="left">
+    <p id="34d2c5c1-abcb-42c0-ab37-0a291758c393">
      C’est tenter la Providence que de tâcher d’améliorer la nature de l’homme. — Chaque loi qui promet une punition fait
      <ref target="#note445">
       445
@@ -1984,10 +2010,10 @@
      </note>
      —
     </p>
-    <p id="8937c6cf-ecbe-4874-bf47-a77fed6ba1c0" rend="left">
+    <p id="8937c6cf-ecbe-4874-bf47-a77fed6ba1c0">
      Mais devenue mère, elle ne craignait plus la honte d’un refus.
     </p>
-    <p id="262e56f0-aa9c-424d-9ae5-d56978e77623" rend="left">
+    <p id="262e56f0-aa9c-424d-9ae5-d56978e77623">
      Elle courut au port Louis, sans se soucier cette fois d’être mal vêtue, la joie maternelle la mettant au dessus du respect humain.
      <ref target="#note447">
       447
@@ -1996,7 +2022,7 @@
       [Но когда она сделалась матерью, стыд отказа ее уже не страшил. Она побежала в Порт-Луи, не думая о том, что она дурно одета. Радость материнства ставила ее выше уважения людей.]
      </note>
     </p>
-    <p id="8ee12745-569e-4ac7-9a3c-9442abdf6a45" rend="left">
+    <p id="8ee12745-569e-4ac7-9a3c-9442abdf6a45">
      <choice>
       <reg>
        Как
@@ -2078,7 +2104,7 @@
        Несчастие
       </reg>
       <orig>
-       Несчастiе
+       Несчастіе
       </orig>
      </choice>
      <choice>
@@ -2141,7 +2167,7 @@
      </choice>
      . —
     </p>
-    <p id="54788ffd-0668-46d2-8583-2bd2101743fc" rend="left">
+    <p id="54788ffd-0668-46d2-8583-2bd2101743fc">
      Есть два рода счастья: счастье людей
      <choice>
       <reg>
@@ -2157,7 +2183,7 @@
        счастие
       </reg>
       <orig>
-       счастiе
+       счастіе
       </orig>
      </choice>
      людей
@@ -2236,7 +2262,7 @@
        влияние
       </reg>
       <orig>
-       влiянiе
+       вліяніе
       </orig>
      </choice>
      на первое. —
@@ -2245,7 +2271,7 @@
        Счастие
       </reg>
       <orig>
-       Счастiе
+       Счастіе
       </orig>
      </choice>
      , основанное на
@@ -2255,7 +2281,7 @@
         тщеславии
        </reg>
        <orig>
-        тщеславiи
+        тщеславіи
        </orig>
       </choice>
       ,
@@ -2272,7 +2298,7 @@
       </choice>
      </note>
     </p>
-    <p id="f8481f68-bd43-44d1-bfea-dad3eec2609f" rend="left">
+    <p id="f8481f68-bd43-44d1-bfea-dad3eec2609f">
      <pb n="73"/>
      <hi style="npdelimiter">
       разрушается
@@ -2289,7 +2315,7 @@
         несчастием
        </reg>
        <orig>
-        несчастiемъ
+        несчастіемъ
        </orig>
       </choice>
       <choice>
@@ -2316,7 +2342,7 @@
        злоречием
       </reg>
       <orig>
-       злорѣчiемъ
+       злорѣчіемъ
       </orig>
      </choice>
      — богатство —
@@ -2342,7 +2368,7 @@
        счастие
       </reg>
       <orig>
-       счастiе
+       счастіе
       </orig>
      </choice>
      —
@@ -2356,7 +2382,7 @@
      </choice>
      . —
     </p>
-    <p id="fb0b2eb3-a330-4bb3-9ab6-2166c63b9925" rend="left">
+    <p id="fb0b2eb3-a330-4bb3-9ab6-2166c63b9925">
      Elles avaient banni de leurs conversations la médisance, qui sous une apparence de justice, dispose nécessairement le coeur à la haine ou à la fausseté; car il est impossible de ne pas hair les hommes, si on les croit méchants, et vivre avec eux, si on ne leur cache sa haine sous des dehors de bienveillance. — Ainsi la médisance nous oblige à être mal avec les autres ou avec nousmêmes.
      <ref target="#note450">
       450
@@ -2366,7 +2392,7 @@
      </note>
      —
     </p>
-    <p id="00c334eb-41d3-4fdb-999a-c37486871027" rend="left">
+    <p id="00c334eb-41d3-4fdb-999a-c37486871027">
      Enfin je crois la solitude tellement nécessaire au bonheur dans le monde même, qu’il me parait impossible d’y goûter un plaisir durable d’un sentiment, quel qu’il soit, ou de régler sa conduite d’après quelque principe stable, si l’on ne se fait une solitude intérieure, d’où notre opinion sorte bien rarement, et l’opinion d’autrui u’entre jamais.
      <ref target="#note451">
       451
@@ -2416,7 +2442,7 @@
       [Среди большого числа несчастных людей, которых я старался вернуть к природе, я не нашел ни одного, не опьяненного своими горестями. Сперва они внимательно слушали меня, думая, что я научу их приобрести славу и богатство, но видя, что я хочу их научить лишь обходиться без этого, они начинали считать меня самого достойным сожаления.]
      </note>
     </p>
-    <p id="c477a71d-6e46-4cb5-9eff-a97aee7239c7" rend="left">
+    <p id="c477a71d-6e46-4cb5-9eff-a97aee7239c7">
      <pb n="74"/>
      <hi style="npdelimiter">
       Говорить,
@@ -2427,7 +2453,7 @@
        испытания
       </reg>
       <orig>
-       испытанiя
+       испытанія
       </orig>
      </choice>
      , что смерть есть благо,
@@ -2471,7 +2497,7 @@
        утешение
       </reg>
       <orig>
-       утѣшенiе
+       утѣшеніе
       </orig>
      </choice>
      <choice>
@@ -2504,7 +2530,7 @@
        поучение
       </reg>
       <orig>
-       поученiе
+       поученіе
       </orig>
      </choice>
      . — Сочувствовать этому невозможно иначе,
@@ -2529,7 +2555,7 @@
        отчаянии
       </reg>
       <orig>
-       отчаянiи
+       отчаяніи
       </orig>
      </choice>
      , a
@@ -2538,7 +2564,7 @@
        отчаяние
       </reg>
       <orig>
-       отчаянiе
+       отчаяніе
       </orig>
      </choice>
      есть слабость
@@ -2574,7 +2600,7 @@
        поучение
       </reg>
       <orig>
-       поученiе
+       поученіе
       </orig>
      </choice>
      , эта мысль
@@ -2766,7 +2792,7 @@
      </choice>
      . —
     </p>
-    <p id="183fb935-efb2-47fd-9314-fb7024c6b336" rend="left">
+    <p id="183fb935-efb2-47fd-9314-fb7024c6b336">
      L’habit qui sied le plus mal au mendiant, c’est l’habit de mendiant, et c’est la cause principale qui en détourne l’aumône.
      <ref target="#note458">
       458
@@ -2800,7 +2826,7 @@
      </note>
      —
     </p>
-    <p id="9a4495d4-3861-4b36-b621-9876b9abc1dc" rend="left">
+    <p id="9a4495d4-3861-4b36-b621-9876b9abc1dc">
      «Quand le dernier des Gracques expira, iljeta un peu de poussière vers le Ciel; de cette poussière, naquit Marius. — Marius moins grand pour avoir exterminé les Cimbres, que pour avoir abattu l’aristocratie de noblesse dans Rome» (Mirabeau aux Marseillais).
      <ref target="#note461">
       461
@@ -2815,47 +2841,47 @@
     </p>
     <lg>
      <lg>
-      <l>
+      <l id="15b6eafc-eeff-4a87-940e-9958ec8402c3">
        Quand la fin finale adviendra
       </l>
-      <l>
+      <l id="767c1984-70df-444f-8ca2-c713e9983c84">
        Tout à rebours clopinera,
       </l>
-      <l>
+      <l id="e8e75f9b-9ef6-4b6a-9de8-f29592db726f">
        Lors celui-là deviendra riche
       </l>
-      <l>
+      <l id="c7a302eb-9178-4922-826e-827f61fff4cf">
        Qui plus sera sot, larron,
        <hi style="opdelimiter">
         chiche.
        </hi>
       </l>
-      <l>
+      <l id="29c4fbc1-e091-4172-a494-7ac164efb972">
        <pb n="75"/>
        <hi style="npdelimiter">
         Tant
        </hi>
        moins aura-t-on d’honneur
       </l>
-      <l>
+      <l id="941c5c8d-9290-4b90-945f-6df84c1f6f6f">
        Tant plus sera-t-on grand seigneur.
       </l>
-      <l>
+      <l id="225d7883-ae94-42aa-a33b-e9e1408b8854">
        Suffira d’avoir jeune hure,
       </l>
-      <l>
+      <l id="166b791e-48f4-4bcb-8d55-18e517fd607a">
        Petite âme et large serrure.
       </l>
-      <l>
+      <l id="a90b6840-7d3a-4c5d-9401-6c8c004427b2">
        Laides guenons, singes bottés
       </l>
-      <l>
+      <l id="c0d70c15-6b77-46d3-870d-e010e344b406">
        Comme patrons seront festés.
       </l>
-      <l>
+      <l id="03d65043-387f-46ef-a683-4a4b5be23f4a">
        Ânes seront assis en chaire
       </l>
-      <l>
+      <l id="ce308b5f-5729-48b8-a2ee-858fdb125f0d">
        Et les docteurs debout derrière.
        <ref target="#note462">
         462
@@ -2906,7 +2932,7 @@
       </l>
      </lg>
     </lg>
-    <p id="b7f84631-63d6-4b51-8d00-ac3e41188f64" rend="left">
+    <p id="b7f84631-63d6-4b51-8d00-ac3e41188f64">
      Старухи-тетушки и старики-дядюшки
      <choice>
       <reg>
@@ -2939,7 +2965,7 @@
        наставлениями
       </reg>
       <orig>
-       наставленiями
+       наставленіями
       </orig>
      </choice>
      ,
@@ -2975,7 +3001,7 @@
        неприятно
       </reg>
       <orig>
-       непрiятно
+       непріятно
       </orig>
      </choice>
      , когда племянники такого
@@ -2984,7 +3010,7 @@
        поведения
       </reg>
       <orig>
-       поведенiя
+       поведенія
       </orig>
      </choice>
      , что
@@ -3033,7 +3059,7 @@
      </choice>
      . —
     </p>
-    <p id="0cbcb022-1979-41bc-84f2-4439745ec19e" rend="left">
+    <p id="0cbcb022-1979-41bc-84f2-4439745ec19e">
      <choice>
       <reg>
        Нет
@@ -3151,12 +3177,12 @@
        самопожертвование
       </reg>
       <orig>
-       самопожертвованiе
+       самопожертвованіе
       </orig>
      </choice>
      . —
     </p>
-    <p id="1f2de8ae-0ba1-409d-ab06-059e530495d3" rend="left">
+    <p id="1f2de8ae-0ba1-409d-ab06-059e530495d3">
      <hi>
       Adrien Duport
      </hi>
@@ -3171,7 +3197,7 @@
       —
      </hi>
     </p>
-    <p id="116c1c98-218a-44de-8ba2-676259844643" rend="left">
+    <p id="116c1c98-218a-44de-8ba2-676259844643">
      <pb n="76"/>
      <hi style="npdelimiter">
       <choice>
@@ -3197,7 +3223,7 @@
        людские
       </reg>
       <orig>
-       людскiя
+       людскія
       </orig>
      </choice>
      и
@@ -3252,7 +3278,7 @@
        людские
       </reg>
       <orig>
-       людскiя
+       людскія
       </orig>
      </choice>
      мы
@@ -3622,7 +3648,7 @@
        провинции
       </reg>
       <orig>
-       провинцiи
+       провинціи
       </orig>
      </choice>
      на
@@ -3699,7 +3725,7 @@
        всякий
       </reg>
       <orig>
-       всякiй
+       всякій
       </orig>
      </choice>
      себя,
@@ -3821,7 +3847,7 @@
        наслаждений
       </reg>
       <orig>
-       наслажденiй
+       наслажденій
       </orig>
      </choice>
      <choice>
@@ -3860,7 +3886,7 @@
      страха. — Ne pouvant ni rester sous un passé qui croule, ni jeter d’un seul jet l’
      <choice>
       <reg>
-       аVеnиr
+       avenir
       </reg>
       <orig>
        аVеnir

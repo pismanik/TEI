@@ -9,17 +9,41 @@
                 <title type="main">Письмо Т. А. Ергольской от 12 ноября 1851 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Т. А. Ергольской, 12 ноября 1851 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">116-120</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -101,10 +131,10 @@
     <p id="4f40ff97-ad52-47e6-9b32-288b5a8cc0b2" rend="right">
      Tiffliss.
     </p>
-    <p id="d0ae3742-2551-4554-82ea-a62716a7ee9e" rend="Obrashenie left">
+    <p id="d0ae3742-2551-4554-82ea-a62716a7ee9e" rend="Obrashenie">
      Chère tante!
     </p>
-    <p id="7ab43cb1-ddb1-4034-bb22-2ceabc929d2b" rend="left">
+    <p id="7ab43cb1-ddb1-4034-bb22-2ceabc929d2b">
      Dans 8 jours il sera juste 4 mois, que je n’ai pas de vos nouvelles; mais à présent au moins j’ai l’espoir, que vos lettres sont à Старогладовская, et que ce n’est que mon absence de là, qui est cause de ce que je ne puis les avoir. Dans ma dernière lettre du 24 Octobre
      <ref target="#note1">
       1
@@ -127,7 +157,7 @@
       j’attende.
      </hi>
     </p>
-    <p id="39e1d651-b44e-44a4-9296-e7344f690670" rend="left">
+    <p id="39e1d651-b44e-44a4-9296-e7344f690670">
      <pb n="117"/>
      <hi style="npdelimiter">
       Je
@@ -202,7 +232,7 @@
        Грузию
       </reg>
       <orig>
-       Грузiю
+       Грузію
       </orig>
      </choice>
      <choice>
@@ -224,12 +254,12 @@
      .
     </p>
     <lb/>
-    <p id="2aef278b-f1f1-4eb5-8734-a0a5bc17453d" rend="left">
+    <p id="2aef278b-f1f1-4eb5-8734-a0a5bc17453d">
      <hi>
       На конверте:
      </hi>
     </p>
-    <p id="9aa4a8ac-832a-4401-b77c-dd5388a95f6b" rend="left">
+    <p id="9aa4a8ac-832a-4401-b77c-dd5388a95f6b">
      Въ Г. Тулу.
      <name placement="text" ref="4947" type="person">
       Ея Высокоблагородію Татьянѣ Александровнѣ Ергольской
@@ -245,7 +275,7 @@
     <p id="4bb87905-b484-4af6-8fdf-fe573acad338" rend="Obrashenie petit">
      Дорогая тетенька!
     </p>
-    <p id="09d37dbe-7ae6-4423-a4b5-a5edfaf3341b" rend="petit left">
+    <p id="09d37dbe-7ae6-4423-a4b5-a5edfaf3341b" rend="petit">
      Через 8 дней будет ровно четыре месяца, что я без вестей о вас; теперь я, по крайней мере, надеюсь, что ваши письма в *Старогладковской* и что не доходили они до меня из-за моего отсутствия. В последнем письме, от 24 октября,
      <ref target="#note7">
       7
@@ -313,7 +343,7 @@
        Грузию
       </reg>
       <orig>
-       Грузiю
+       Грузію
       </orig>
      </choice>
      ,

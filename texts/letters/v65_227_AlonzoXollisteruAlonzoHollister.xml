@@ -9,17 +9,41 @@
                 <title type="main">Письмо Алонзо Холлистеру (Alonzo Hollister) от 27 января 1891 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Алонзо Холлистеру (Alonzo Hollister), 27 января 1891 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 65. М.: Гос. изд. «Художественная литература», 1953. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 65</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">239-240</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,7 +127,7 @@
      </name>
      .1891г. Января 27 — февраля 6? Я. П.
     </opener>
-    <p id="afa9d452-728c-4404-98b7-5f86c5da8d63" rend="left">
+    <p id="afa9d452-728c-4404-98b7-5f86c5da8d63">
      Dear Friend and Brother. I received your long letter and have read it with interest, but I must confess that all your arguments taken from John's revelation do not convince me. I do not
      <hi style="opdelimiter">
       consider
@@ -109,7 +138,7 @@
      </hi>
      book as a moral guide. I think that God’s revelation must be simple and able to be understood by the simplest soul. In general as I told you before, dear friend, I agree completely with your practice of life, but not with your theory, especially about spirits. — I hope that the open expression of my thoughts will not lessen your kind disposition to me.
     </p>
-    <p id="325baa78-5d5b-4e72-9a0c-3061fcd6e4a7" rend="left">
+    <p id="325baa78-5d5b-4e72-9a0c-3061fcd6e4a7">
      With brotherly love yours truly
     </p>
     <p id="b2a1feab-c9e6-470e-be56-d93ba2103b5d" rend="right">
@@ -122,7 +151,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="bfc7fa41-079c-45aa-b89c-4b45bf49704d" rend="petit left">
+      <p id="bfc7fa41-079c-45aa-b89c-4b45bf49704d" rend="petit">
        С братской любовью, искренно ваш
        <name placement="comments" ref="13883" type="person">
         Лев Толстой
@@ -132,16 +161,16 @@
      </note>
      <note index="false" type="comments">
       <p id="053ffafc-1287-4ef0-b526-7778ea8859cc" rend="Textpetit_otstup left">
-       Печатается по недатированной машинописной копии «К неизвестному» из AЧ. Сохранился черновик, написанный рукой T. Л. Толстой. Дата определяется письмом Холлистера от 9 декабря нов. ст. 1890 г., на конверте которого имеется помета Толстого: «Я отвечу», и записями в Дневнике Толстого: 20 декабря 1890 г., 2 января и 6 февраля 1891 г., где Толстой, вспоминая происшедшее между 26 января и 6 февраля, отметил: «Написал письма.... двум шекерам» (см. т. 52, стр. 6).
+       Печатается по недатированной машинописной копии «К неизвестному» из АЧ. Сохранился черновик, написанный рукой T. Л. Толстой. Дата определяется письмом Холлистера от 9 декабря нов. ст. 1890 г., на конверте которого имеется помета Толстого: «Я отвечу», и записями в Дневнике Толстого: 20 декабря 1890 г., 2 января и 6 февраля 1891 г., где Толстой, вспоминая происшедшее между 26 января и 6 февраля, отметил: «Написал письма.... двум шекерам» (см. т. 52, стр. 6).
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="84973f89-52cc-4432-83e4-0bb7aaa14c6e" rend="petit left">
+      <p id="84973f89-52cc-4432-83e4-0bb7aaa14c6e" rend="petit">
        Алонзо Холлистер (Alonzo Hollister, p. 1830) — американец, шекер.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="50a2ea20-111c-437a-8404-e1f06c7211b2" rend="petit left">
+      <p id="50a2ea20-111c-437a-8404-e1f06c7211b2" rend="petit">
        Ответ на письмо Холлистера от 9 декабря нов. ст. 1890 г. о спиритизме и о доказательстве его на основании Апокалипсиса.
       </p>
      </note>

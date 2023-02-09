@@ -9,18 +9,42 @@
             <title type="bibl">Толстой Л. Н. Азбука // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 22. М.: Гос. изд. «Художественная литература», 1957. С. </title>
             <author>Толстой Лев Николаевич</author>
             <respStmt>
-                <resp>Идея, постановка задач, руководство</resp>
+                <resp>Идея, постановка задач, руководство:</resp>
                 <name>
                     Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                 </name>
-             </respStmt>
+            </respStmt>
             <respStmt>
-                <resp>
-                    Подготовка TEI/XML
-                </resp>
-                <name>
-                    Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                </name>
+                    <resp>
+                        Подготовка TEI/XML:
+                    </resp>
+                    <name>
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>
             </respStmt>
                 <funder>
                     Проект «Слово Толстого»
@@ -29,7 +53,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -41,7 +65,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы были получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -59,7 +83,7 @@
                     </analytic>
                     <monogr>
                         <title level="m">
-                          Полное собрание сочинений.
+                          Полное собрание сочинений: в 90 тт.
                         </title>
                         <imprint>
                             <pubPlace>
@@ -75,7 +99,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -111,7 +135,7 @@
       САМОКРУТКА.
      </hi>
     </head>
-    <p id="45c0f20c-a030-4df0-a5b2-9d9efd829a7c" rend="left">
+    <p id="45c0f20c-a030-4df0-a5b2-9d9efd829a7c">
      <choice>
       <reg>
        Один
@@ -148,13 +172,13 @@
      </choice>
      .
     </p>
-    <p id="57009a61-44d3-4f1c-ace0-db4ea5395694" rend="left emptyline">
+    <p id="57009a61-44d3-4f1c-ace0-db4ea5395694" rend="emptyline">
      <pb n="264"/>
     </p>
     <p id="8d1ca43c-ec42-489a-ac63-4ec36eefe091" rend="centerline">
      — 62 —
     </p>
-    <p id="29d67b3d-21e1-412c-b80e-040e01fa4e6b" rend="left">
+    <p id="29d67b3d-21e1-412c-b80e-040e01fa4e6b">
      <choice>
       <reg>
        Потом
@@ -216,7 +240,7 @@
      </choice>
      чтобы мельница ходила сама.
     </p>
-    <p id="346c9918-2820-40a6-b2d2-ab5a9199fb60" rend="left">
+    <p id="346c9918-2820-40a6-b2d2-ab5a9199fb60">
      <choice>
       <reg>
        Мужик
@@ -329,7 +353,7 @@
      </choice>
      такую мельницу».
     </p>
-    <p id="6fd5290c-253e-4d45-b500-7d6b564eda73" rend="left">
+    <p id="6fd5290c-253e-4d45-b500-7d6b564eda73">
      <choice>
       <reg>
        Барин
@@ -358,7 +382,7 @@
      </choice>
      .
     </p>
-    <p id="f1c7c243-d77f-40c4-874c-604555754b52" rend="left">
+    <p id="f1c7c243-d77f-40c4-874c-604555754b52">
      <choice>
       <reg>
        Мужик
@@ -377,7 +401,7 @@
      </choice>
      .
     </p>
-    <p id="11525564-d974-4a34-be45-63e4900bc826" rend="left">
+    <p id="11525564-d974-4a34-be45-63e4900bc826">
      Тогда
      <choice>
       <reg>
@@ -474,7 +498,7 @@
      </choice>
      сама ходила.
     </p>
-    <p id="a070f80b-9add-4c3b-9d84-eb25d9d61780" rend="left">
+    <p id="a070f80b-9add-4c3b-9d84-eb25d9d61780">
      <choice>
       <reg>
        Мужик
@@ -578,7 +602,7 @@
      </choice>
      рушку — стала работать».
     </p>
-    <p id="5805a24d-72ca-46e1-8dc7-4df019810ea1" rend="left">
+    <p id="5805a24d-72ca-46e1-8dc7-4df019810ea1">
      <choice>
       <reg>
        Барин
@@ -603,7 +627,7 @@
      </choice>
      спустится?»
     </p>
-    <p id="46ca4f72-91b8-4472-adcf-ee51346e51c6" rend="left">
+    <p id="46ca4f72-91b8-4472-adcf-ee51346e51c6">
      <choice>
       <reg>
        Мужик
@@ -622,7 +646,7 @@
      </choice>
      по колесу поднимется».
     </p>
-    <p id="f6a7cc57-6cbc-49b0-9afc-4791447f4c7c" rend="left">
+    <p id="f6a7cc57-6cbc-49b0-9afc-4791447f4c7c">
      <choice>
       <reg>
        Барин
@@ -635,13 +659,13 @@
      </choice>
      : «поднимется, да ниже, а другой
     </p>
-    <p id="54415d00-69e2-4624-b910-2f94792c5aca" rend="left emptyline">
+    <p id="54415d00-69e2-4624-b910-2f94792c5aca" rend="emptyline">
      <pb n="265"/>
     </p>
     <p id="68b97c85-7cd6-4aed-beb1-7bbcd5187907" rend="centerline">
      — 63 —
     </p>
-    <p id="fe17ab6a-f0cd-446f-bb44-1bc72477d7fc" rend="notindent">
+    <p id="fe17ab6a-f0cd-446f-bb44-1bc72477d7fc">
      <choice>
       <reg>
        раз
@@ -702,7 +726,7 @@
      </choice>
      не поднимешься».
     </p>
-    <p id="b89a010b-d946-4814-9ae2-13d5f32acb4d" rend="left">
+    <p id="b89a010b-d946-4814-9ae2-13d5f32acb4d">
      <choice>
       <reg>
        Мужик
@@ -745,7 +769,7 @@
      </choice>
      воды и лошадей.
     </p>
-    <p id="0175d4b3-4bf7-4a73-87cf-0eec45554e30" rend="left">
+    <p id="0175d4b3-4bf7-4a73-87cf-0eec45554e30">
      <choice>
       <reg>
        Купец
@@ -797,7 +821,7 @@
      </choice>
      .
     </p>
-    <p id="f3dd50cd-2f72-4a04-8644-18ed6c32de78" rend="left">
+    <p id="f3dd50cd-2f72-4a04-8644-18ed6c32de78">
      Тогда
      <choice>
       <reg>
@@ -823,7 +847,7 @@
      </choice>
      .
     </p>
-    <p id="f85fe5f0-d44a-4804-856f-c7946e797876" rend="left">
+    <p id="f85fe5f0-d44a-4804-856f-c7946e797876">
      А
      <choice>
       <reg>
@@ -850,7 +874,7 @@
      </choice>
      ».
     </p>
-    <p id="f478df75-33d3-455a-aa43-c27dc14befae" rend="left">
+    <p id="f478df75-33d3-455a-aa43-c27dc14befae">
      <choice>
       <reg>
        Пришёл
@@ -885,7 +909,7 @@
      </choice>
      .
     </p>
-    <p id="952bc1e2-078b-4cfe-94f3-e6b7805d0635" rend="left">
+    <p id="952bc1e2-078b-4cfe-94f3-e6b7805d0635">
      <choice>
       <reg>
        Барин

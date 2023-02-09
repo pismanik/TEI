@@ -9,17 +9,41 @@
                 <title type="main">Письмо П. И. Бирюкову от 20 ноября 1885 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо П. И. Бирюкову, 20 ноября 1885 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 63. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 63</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">299-299</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,7 +128,7 @@
      </name>
      .1885 г. Ноября 20. Москва.
     </opener>
-    <p id="70ed8afb-8e81-49ec-9d1d-cc3d4ec9aab3" rend="Obrashenie left">
+    <p id="70ed8afb-8e81-49ec-9d1d-cc3d4ec9aab3" rend="Obrashenie">
      Дорогой
      <choice>
       <reg>
@@ -124,7 +154,7 @@
      </choice>
      !
     </p>
-    <p id="14d02b53-b82b-4776-9fdc-01e4d47ce071" rend="left">
+    <p id="14d02b53-b82b-4776-9fdc-01e4d47ce071">
      Вчера я
      <choice>
       <reg>
@@ -154,7 +184,7 @@
          Артиллерийской
         </reg>
         <orig>
-         Артиллерiйской
+         Артиллерійской
         </orig>
        </choice>
       </corr>
@@ -164,7 +194,7 @@
        Академии
       </reg>
       <orig>
-       Академiи
+       Академіи
       </orig>
      </choice>
      <choice original_editorial_correction="Анат[олия]">
@@ -180,7 +210,7 @@
         </reg>
         <orig>
          <name placement="text" ref="5275" type="person">
-          Анатолiя
+          Анатолія
          </name>
         </orig>
        </choice>
@@ -440,7 +470,7 @@
        Закаспийской
       </reg>
       <orig>
-       Закаспiйской
+       Закаспійской
       </orig>
      </choice>
      край. И
@@ -483,7 +513,7 @@
        основании
       </reg>
       <orig>
-       основанiи
+       основаніи
       </orig>
      </choice>
      <choice>
@@ -491,7 +521,7 @@
        учения
       </reg>
       <orig>
-       ученiя
+       ученія
       </orig>
      </choice>
      Христа отказываться
@@ -508,7 +538,7 @@
        участия
       </reg>
       <orig>
-       участiя
+       участія
       </orig>
      </choice>
      <choice>
@@ -524,7 +554,7 @@
        убийстве
       </reg>
       <orig>
-       убiйствѣ
+       убійствѣ
       </orig>
      </choice>
      . — Я кое-кому
@@ -778,7 +808,7 @@
        начальствующие
       </reg>
       <orig>
-       начальствующiе
+       начальствующіе
       </orig>
      </choice>
      знали, что
@@ -796,7 +826,7 @@
        следящие
       </reg>
       <orig>
-       слѣдящiе
+       слѣдящіе
       </orig>
      </choice>
      за судьбой
@@ -830,12 +860,12 @@
        христианства
       </reg>
       <orig>
-       христiанства
+       христіанства
       </orig>
      </choice>
      опять возможно и нужно?
     </p>
-    <p id="301362b8-a4eb-4819-8464-d8cf5409b954" rend="left">
+    <p id="301362b8-a4eb-4819-8464-d8cf5409b954">
      Жена
      <choice>
       <reg>
@@ -898,7 +928,7 @@
        копию
       </reg>
       <orig>
-       копiю
+       копію
       </orig>
      </choice>
      письма
@@ -946,7 +976,7 @@
      </choice>
      Л. Толстой.
     </p>
-    <p id="28411ff6-528a-4b3d-81b3-aadf2b7c0a11" rend="left">
+    <p id="28411ff6-528a-4b3d-81b3-aadf2b7c0a11">
      Нельзя ли
      <choice>
       <reg>

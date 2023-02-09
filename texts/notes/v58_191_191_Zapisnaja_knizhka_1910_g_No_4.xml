@@ -4,24 +4,48 @@
         <fileDesc>
              <titleStmt>                
                 <title xml:id="v58_191_191_Zapisnaja_knizhka_1910_g_No_4">
-                    Дневники и записные книжки. Tolstoy Digital
+                    Записные книжки. Tolstoy Digital
                 </title>
                 <title type="main">Записная книжка № 4, 1910 г.</title>
                 <title type="bibl">Толстой Л. Н. [Записная книжка 1910 г. № 4] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 58. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                              
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -30,7 +54,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -42,7 +66,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -73,7 +97,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -88,7 +112,9 @@
             <creation>
                 <date when="1910"/>
          </creation>
-            <textClass> 
+            <langUsage>
+  <language ident="ru-petr1708"/>
+</langUsage><textClass> 
                 <catRef ana="#notes" target="type"/>
            </textClass>
         </profileDesc>
@@ -103,10 +129,10 @@
      ЗАПИСНАЯ КНИЖКА № 4.
     </head>
     <div type="entry">
-     <p id="db9a46da-eb00-4146-9725-93fb6abfcc80" rend="left">
+     <p id="db9a46da-eb00-4146-9725-93fb6abfcc80">
       7 стр.
      </p>
-     <p id="15b792c0-e16b-4f72-ae31-652d1598ef4c" rend="left">
+     <p id="15b792c0-e16b-4f72-ae31-652d1598ef4c">
       250000 —
       <choice>
        <reg>
@@ -121,18 +147,18 @@
         России
        </reg>
        <orig>
-        Россiи
+        Россіи
        </orig>
       </choice>
      </p>
-     <p id="05f88fbf-468e-4baf-b2f9-56c34d3a9708" rend="left">
+     <p id="05f88fbf-468e-4baf-b2f9-56c34d3a9708">
       9 стр.
       <choice>
        <reg>
         Определение
        </reg>
        <orig>
-        Опредѣленiе
+        Опредѣленіе
        </orig>
       </choice>
       <choice>
@@ -150,9 +176,7 @@
        См. Дневник от 4 сентября, запись № 2.
       </note>
      </p>
-     <p id="b589640a-479f-4b7a-b74a-ea978c0b499d" rend="left">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
     </div>
     <div type="entry">
      <opener>
@@ -164,7 +188,7 @@
        </date>
       </dateline>
      </opener>
-     <p id="7e7ea134-3c73-4724-a96f-3bbdfd320c5d" rend="left">
+     <p id="7e7ea134-3c73-4724-a96f-3bbdfd320c5d">
       <choice original_editorial_correction="Вѣстн[икъ]">
        <sic>
         Вѣстн
@@ -198,9 +222,7 @@
        </orig>
       </choice>
      </p>
-     <p id="7b640d22-6c5e-4dc0-b7d4-56d961a6d967" rend="left">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
     </div>
     <div type="entry">
      <opener>
@@ -212,7 +234,7 @@
        </date>
       </dateline>
      </opener>
-     <p id="0fc6c958-a2f9-4024-9018-413c8c37780c" rend="left">
+     <p id="0fc6c958-a2f9-4024-9018-413c8c37780c">
       <hi>
        1)
        <choice>
@@ -242,7 +264,7 @@
        и Зк.
       </hi>
      </p>
-     <p id="de800e05-7ed7-4d9a-977a-5c93f8d8f007" rend="left">
+     <p id="de800e05-7ed7-4d9a-977a-5c93f8d8f007">
       2) Сборники
       <choice>
        <reg>
@@ -262,7 +284,7 @@
       </choice>
       .
      </p>
-     <p id="d78244ab-3571-428e-93a8-cc3366e1be76" rend="left">
+     <p id="d78244ab-3571-428e-93a8-cc3366e1be76">
       3) Образцы
       <choice original_editorial_correction="стихотв[ореній]">
        <sic>
@@ -274,14 +296,14 @@
           стихотворений
          </reg>
          <orig>
-          стихотворенiй
+          стихотвореній
          </orig>
         </choice>
        </corr>
       </choice>
       .
      </p>
-     <p id="5f4c111a-2ebf-4d6f-9adb-174b0d12c474" rend="left">
+     <p id="5f4c111a-2ebf-4d6f-9adb-174b0d12c474">
       4)
       <choice original_editorial_correction="Огородн[ичество]">
        <sic>
@@ -310,14 +332,14 @@
           земледелие
          </reg>
          <orig>
-          земледѣлiе
+          земледѣліе
          </orig>
         </choice>
        </corr>
       </choice>
       .
      </p>
-     <p id="67097d2f-0bd3-4cc8-bf99-44f72b2da253" rend="left">
+     <p id="67097d2f-0bd3-4cc8-bf99-44f72b2da253">
       5) О
       <choice original_editorial_correction="рабоч[емъ]">
        <sic>
@@ -344,9 +366,7 @@
       </choice>
       .
      </p>
-     <p id="0bdb3d8d-abac-45f9-b1bc-4f85d2e9e1c9" rend="center">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
     </div>
    </div>
   </body>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо Дэниелю Киферу (Daniel Kiefer) от 1 июня 1907 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Дэниелю Киферу (Daniel Kiefer), 1 июня 1907 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 77. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 77</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">120-122</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,10 +127,10 @@
      </name>
      .1907г. Июня 1/14. Я. П.
     </opener>
-    <p id="f6801891-aa7e-4af3-af28-c660c1e629f8" rend="Obrashenie left">
+    <p id="f6801891-aa7e-4af3-af28-c660c1e629f8" rend="Obrashenie">
      Dear Sir,
     </p>
-    <p id="ab45b927-91af-45e5-a7ae-2ea868a66462" rend="left">
+    <p id="ab45b927-91af-45e5-a7ae-2ea868a66462">
      The statement that you attribute to me is quite right in its meaning although I do not remember where I have expressed
      <hi style="opdelimiter">
       it.
@@ -113,7 +142,7 @@
       В статьях о Генри Джордже Толстой проводил указанную Кифером мысль, но точно совпадающей цитаты нет.
      </note>
     </p>
-    <p id="0e4f08ee-f298-4b0f-9d54-a30433afb1f5" rend="left">
+    <p id="0e4f08ee-f298-4b0f-9d54-a30433afb1f5">
      <pb n="121"/>
      <hi style="npdelimiter">
       What
@@ -159,30 +188,30 @@
      </note>
      as a very good, upright and sincere man.
     </p>
-    <p id="4dee7fa9-4155-464a-ae55-6ae2a0b82e86" rend="left">
+    <p id="4dee7fa9-4155-464a-ae55-6ae2a0b82e86">
      Thanking you for the pamphlet on Ernest Crosby,
      <hi>
       5
      </hi>
      whom I very much regret and whose memory is very dear te me,
     </p>
-    <p id="d24071f9-93b9-4cc7-aa41-fd2cfb7f1793" rend="left">
+    <p id="d24071f9-93b9-4cc7-aa41-fd2cfb7f1793">
      I remain, dear Sir, yours truly
     </p>
     <p id="8c60f854-ef03-469d-b872-3ac20f5346af" rend="right">
      Leo Tolstoy.
     </p>
-    <p id="e0710c3b-66bc-45eb-9719-de68366a14ea" rend="left">
+    <p id="e0710c3b-66bc-45eb-9719-de68366a14ea">
      1/14 June 1907.
     </p>
-    <p id="6193e395-3c82-4e25-adf5-892b4fff4047" rend="left">
+    <p id="6193e395-3c82-4e25-adf5-892b4fff4047">
      Toula, Russia.
     </p>
     <lb/>
-    <p id="8dedffee-8cc5-487c-b944-901f3dbe4a1b" rend="Obrashenie petit left">
+    <p id="8dedffee-8cc5-487c-b944-901f3dbe4a1b" rend="Obrashenie petit">
      Милостивый государь,
     </p>
-    <p id="b531f4c0-d018-4e29-bb88-bb1aa21d9e03" rend="petit left">
+    <p id="b531f4c0-d018-4e29-bb88-bb1aa21d9e03" rend="petit">
      Заявление, которое вы мне приписываете, совершенно справедливо по существу, хотя я не помню, где я его делал.
      <ref target="#note5">
       5
@@ -195,7 +224,7 @@
       проводил указанную Кифером мысль, но точно совпадающей цитаты нет.
      </note>
     </p>
-    <p id="cc31d341-0a65-431a-94ed-5398d9f51748" rend="petit left">
+    <p id="cc31d341-0a65-431a-94ed-5398d9f51748" rend="petit">
      Что же касается двух так называемых отцов этого очень ненавистного и отвратительного ребенка — русской революции,
      <name placement="note" ref="15146" type="person">
       Чайковского
@@ -240,7 +269,7 @@
      </note>
      как очень хорошего, прямого и искреннего человека.
     </p>
-    <p id="d7bee5a8-c404-49bf-8eec-b89c8a130c3f" rend="petit left">
+    <p id="d7bee5a8-c404-49bf-8eec-b89c8a130c3f" rend="petit">
      Благодарю вас за статью об
      <name placement="text" ref="7195" type="person">
       Эрнесте Кросби
@@ -251,7 +280,7 @@
      </hi>
      о котором я очень сожалею и чья память мне очень дорога.
     </p>
-    <p id="9a7f94cd-1c3a-4ff4-a1d1-aa01e03e608f" rend="petit left">
+    <p id="9a7f94cd-1c3a-4ff4-a1d1-aa01e03e608f" rend="petit">
      Остаюсь, милостивый государь, искренно ваш
     </p>
     <p id="be8170e0-8aa6-4b49-8d3a-dceb6dc98add" rend="petit right">
@@ -260,10 +289,10 @@
      </name>
      .
     </p>
-    <p id="72feb478-4c55-4881-93de-23d845b8a627" rend="petit left">
+    <p id="72feb478-4c55-4881-93de-23d845b8a627" rend="petit">
      1/14 июня 1907.
     </p>
-    <p id="9eea0575-535d-4fc6-906f-ec3012a77b77" rend="petit left">
+    <p id="9eea0575-535d-4fc6-906f-ec3012a77b77" rend="petit">
      Тула, Россия.
     </p>
     <noteGrp type="comments">
@@ -273,7 +302,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="6b7fa3e4-b3b4-475b-a2d8-943f4dafe116" rend="petit left">
+      <p id="6b7fa3e4-b3b4-475b-a2d8-943f4dafe116" rend="petit">
        <name placement="comments" ref="6450" type="person">
         Дэниель Кифер
        </name>

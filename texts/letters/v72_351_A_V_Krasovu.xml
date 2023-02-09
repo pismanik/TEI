@@ -9,17 +9,41 @@
                 <title type="main">Письмо А. В. Красову от 3 августа 1900 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо А. В. Красову, 3 августа 1900 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">437-439</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,7 +128,7 @@
      </name>
      .1900 г. Августа 3? Я. П.
     </opener>
-    <p id="9c45f19e-ba6f-4de6-96d1-9e5ec962455d" rend="left">
+    <p id="9c45f19e-ba6f-4de6-96d1-9e5ec962455d">
      Я
      <choice>
       <reg>
@@ -152,7 +182,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="78bd73bb-8f3c-4e93-b469-cfc9fd0cf564" rend="petit left">
+      <p id="78bd73bb-8f3c-4e93-b469-cfc9fd0cf564" rend="petit">
        <pb n="438"/>
        <hi style="npdelimiter">
         <name placement="comments" ref="7104" type="person">
@@ -187,12 +217,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="acbc46ff-773e-43a5-bcc0-02bfb067ef22" rend="petit left">
+      <p id="acbc46ff-773e-43a5-bcc0-02bfb067ef22" rend="petit">
        23 февраля 1901 г. Красова вызвал митрополит Антоний и расспрашивал о цели его поездки к Толстому.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="435dc8e9-eb4b-4e6e-838b-4b23e3279f3f" rend="emptyline left">
+      <p id="435dc8e9-eb4b-4e6e-838b-4b23e3279f3f" rend="emptyline">
        <pb n="439"/>
       </p>
      </note>

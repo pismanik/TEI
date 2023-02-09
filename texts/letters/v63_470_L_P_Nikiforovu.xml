@@ -9,17 +9,41 @@
                 <title type="main">Письмо Л. П. Никифорову с 1 апреля 1885 г. по 15 мая 1885 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Л. П. Никифорову, 1 апреля 1885 г. — 15 мая 1885 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 63. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 63</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">317-320</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,7 +128,7 @@
      </name>
      .1885 г. Апрель — мая 15? Москва.
     </opener>
-    <p id="f6b2d6fc-d069-4626-b196-60a79b2646e7" rend="left">
+    <p id="f6b2d6fc-d069-4626-b196-60a79b2646e7">
      Дорогой
      <choice>
       <reg>
@@ -211,7 +241,7 @@
        писании
       </reg>
       <orig>
-       писанiи
+       писаніи
       </orig>
      </choice>
      «
@@ -267,7 +297,7 @@
         </reg>
         <orig>
          <name placement="text" ref="10262" type="person">
-          Владимiръ
+          Владиміръ
          </name>
         </orig>
        </choice>
@@ -547,7 +577,7 @@
        Решение
       </reg>
       <orig>
-       Рѣшенiе
+       Рѣшеніе
       </orig>
      </choice>
      же
@@ -589,7 +619,7 @@
        усилиях
       </reg>
       <orig>
-       усилiяхъ
+       усиліяхъ
       </orig>
      </choice>
      разума,
@@ -632,7 +662,7 @@
        усилиях
       </reg>
       <orig>
-       усилiяхъ
+       усиліяхъ
       </orig>
      </choice>
      всей души на
@@ -641,7 +671,7 @@
        решение
       </reg>
       <orig>
-       рѣшенiе
+       рѣшеніе
       </orig>
      </choice>
      <choice>
@@ -691,7 +721,7 @@
        воскресение
       </reg>
       <orig>
-       воскресенiе
+       воскресеніе
       </orig>
      </choice>
      или будущая жизнь, и
@@ -827,7 +857,7 @@
         </reg>
         <orig>
          <name placement="text" ref="10262" type="person">
-          Владимiръ
+          Владиміръ
          </name>
         </orig>
        </choice>
@@ -966,7 +996,7 @@
        рассказывающий
       </reg>
       <orig>
-       разсказывающiй
+       разсказывающій
       </orig>
      </choice>
      <choice>
@@ -1076,7 +1106,7 @@
        какие
       </reg>
       <orig>
-       какiя
+       какія
       </orig>
      </choice>
      <choice>
@@ -1093,7 +1123,7 @@
        Марка-Аврелия
       </reg>
       <orig>
-       Марка-Аврелiя
+       Марка-Аврелія
       </orig>
      </choice>
      ,
@@ -1121,7 +1151,7 @@
        Конфуция
       </reg>
       <orig>
-       Конфуцiя
+       Конфуція
       </orig>
      </choice>
      <choice>
@@ -1129,7 +1159,7 @@
        учение
       </reg>
       <orig>
-       ученiе
+       ученіе
       </orig>
      </choice>
      и Лао-дзи?
@@ -1163,7 +1193,7 @@
        близкие
       </reg>
       <orig>
-       близкiе
+       близкіе
       </orig>
      </choice>
      и
@@ -1172,7 +1202,7 @@
        дорогие
       </reg>
       <orig>
-       дорогiе
+       дорогіе
       </orig>
      </choice>
      мыслители.
@@ -1284,7 +1314,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="c386960a-f1a5-4648-b058-215704407472" rend="petit left">
+      <p id="c386960a-f1a5-4648-b058-215704407472" rend="petit">
        <name placement="comments" ref="9754" type="person">
         Лев Павлович Никифоров
        </name>
@@ -1295,7 +1325,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="992acd29-d5f7-4eb3-bef9-f75b444ed540" rend="petit left">
+      <p id="992acd29-d5f7-4eb3-bef9-f75b444ed540" rend="petit">
        <pb n="319"/>
        <hi style="npdelimiter">
         В
@@ -1320,7 +1350,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="8492ee6a-512b-4a35-9434-110d6080f32f" rend="petit left">
+      <p id="8492ee6a-512b-4a35-9434-110d6080f32f" rend="petit">
        Библиографию о Л. П. Никифорове см.: «Деятели революционного движения в России. Био-библиографический словарь», изд. «Всесоюзного общества политических каторжан и ссыльных поселенцев» М. 1928, т. I, ч. вторая, стр. 270—271. Еще см. т. 50.
       </p>
      </note>

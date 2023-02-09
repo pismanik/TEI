@@ -9,17 +9,41 @@
                 <title type="main">Письмо С.А.Толстой от 25 октября 1885 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 25 октября 1885 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 83. М.: Гос. изд. «Художественная литература», 1938. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 83</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">524-525</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      337.1885 г. Октября 25. Я. П.
     </opener>
-    <p id="80d1678a-895c-4abd-b114-feca3f862cba" rend="left">
+    <p id="80d1678a-895c-4abd-b114-feca3f862cba">
      <choice>
       <reg>
        Был
@@ -306,7 +336,7 @@
        расположением
       </reg>
       <orig>
-       расположенiемъ
+       расположеніемъ
       </orig>
      </choice>
      , чтобы кончить хоть
@@ -644,7 +674,7 @@
        приемы
       </reg>
       <orig>
-       прiемы
+       пріемы
       </orig>
      </choice>
      .
@@ -682,7 +712,7 @@
      </choice>
      тепло.
     </p>
-    <p id="3c3aab10-2f0d-46f3-90aa-58999ec19f8a" rend="left">
+    <p id="3c3aab10-2f0d-46f3-90aa-58999ec19f8a">
      <choice>
       <reg>
        Целую
@@ -772,7 +802,7 @@
      </choice>
      .
     </p>
-    <p id="d0aea089-2f21-43f1-982b-da059a54617c" rend="left">
+    <p id="d0aea089-2f21-43f1-982b-da059a54617c">
      <choice>
       <reg>
        Целую
@@ -783,7 +813,7 @@
      </choice>
      тебя.
     </p>
-    <p id="c9a52004-4269-412a-bc5c-76131655ae60" rend="left">
+    <p id="c9a52004-4269-412a-bc5c-76131655ae60">
      <choice>
       <reg>
        Хлеб
@@ -882,13 +912,13 @@
        вегетарианок
       </reg>
       <orig>
-       вегетарiанокъ
+       вегетаріанокъ
       </orig>
      </choice>
      .
     </p>
     <lb/>
-    <p id="75c25c17-8856-4af7-9344-b022ac850320" rend="left">
+    <p id="75c25c17-8856-4af7-9344-b022ac850320">
      <hi>
       На конверте:
      </hi>
@@ -898,7 +928,7 @@
        Долгохамовнический
       </reg>
       <orig>
-       Долгохамовническiй
+       Долгохамовническій
       </orig>
      </choice>
      . № 15.

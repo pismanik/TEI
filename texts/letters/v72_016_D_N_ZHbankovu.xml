@@ -9,17 +9,41 @@
                 <title type="main">Письмо Д. Н. Жбанкову от 23 января 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Д. Н. Жбанкову, 23 января 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">43-43</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,7 +128,7 @@
      </name>
      .1899 г. Января 23. Москва.
     </opener>
-    <p id="b9ea4688-e76b-4d8a-890b-7fd72af63b17" rend="left">
+    <p id="b9ea4688-e76b-4d8a-890b-7fd72af63b17">
      Очень
      <choice>
       <reg>
@@ -114,7 +144,7 @@
        желания
       </reg>
       <orig>
-       желанiя
+       желанія
       </orig>
      </choice>
      .
@@ -149,7 +179,7 @@
        нынешний
       </reg>
       <orig>
-       нынѣшнiй
+       нынѣшній
       </orig>
      </choice>
      <choice>
@@ -171,7 +201,7 @@
      </choice>
      не могу начинать что нибудь новое.
     </p>
-    <p id="a173aa42-39f6-4213-8b2f-f09908af7829" rend="left">
+    <p id="a173aa42-39f6-4213-8b2f-f09908af7829">
      Присланныя вами деньги 40 р. 55 к.
      <ref target="#note2">
       2
@@ -234,7 +264,7 @@
        Уважающий
       </reg>
       <orig>
-       Уважающiй
+       Уважающій
       </orig>
      </choice>
      <choice>
@@ -257,17 +287,17 @@
      </choice>
      Толстой.
     </p>
-    <p id="845546d5-71fc-4b93-b22e-52428407ce85" rend="left">
+    <p id="845546d5-71fc-4b93-b22e-52428407ce85">
      23 Янв. 99.
     </p>
     <noteGrp type="comments">
      <note index="false" type="comments">
       <p id="47b9e8d7-fe91-4cc8-a935-33cd0fb7951c" rend="Textpetit_otstup left">
-       Печатается по листу копировальной книги, хранящемуся в AЧ. Автограф сожжен адресатом перед обыском, до революции. Публикуется впервые.
+       Печатается по листу копировальной книги, хранящемуся в АЧ. Автограф сожжен адресатом перед обыском, до революции. Публикуется впервые.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="3bdfef58-9512-4c0e-aab6-256e42774148" rend="petit left">
+      <p id="3bdfef58-9512-4c0e-aab6-256e42774148" rend="petit">
        <name placement="comments" ref="5050" type="person">
         Дмитрий Николаевич Жбанков
        </name>

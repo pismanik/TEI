@@ -9,18 +9,42 @@
             <title type="bibl">Толстой Л. Н. Азбука // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 22. М.: Гос. изд. «Художественная литература», 1957. С. </title>
             <author>Толстой Лев Николаевич</author>
             <respStmt>
-                <resp>Идея, постановка задач, руководство</resp>
+                <resp>Идея, постановка задач, руководство:</resp>
                 <name>
                     Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                 </name>
-             </respStmt>
+            </respStmt>
             <respStmt>
-                <resp>
-                    Подготовка TEI/XML
-                </resp>
-                <name>
-                    Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                </name>
+                    <resp>
+                        Подготовка TEI/XML:
+                    </resp>
+                    <name>
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>
             </respStmt>
                 <funder>
                     Проект «Слово Толстого»
@@ -29,7 +53,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -41,7 +65,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы были получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -59,7 +83,7 @@
                     </analytic>
                     <monogr>
                         <title level="m">
-                          Полное собрание сочинений.
+                          Полное собрание сочинений: в 90 тт.
                         </title>
                         <imprint>
                             <pubPlace>
@@ -75,7 +99,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -90,7 +114,9 @@
             <creation>
                 <date when="1872"/>
             </creation>
-            <textClass> 
+            <langUsage>
+  <language ident="ru-petr1708"/>
+</langUsage><textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#fiction" target="sphere"/>
                 <catRef ana="#kids" target="genre"/>
@@ -123,7 +149,7 @@
       I.
      </hi>
     </head>
-    <p id="7b9aacd0-e247-4c5c-9aa2-9e12d5478a22" rend="left">
+    <p id="7b9aacd0-e247-4c5c-9aa2-9e12d5478a22">
      <choice>
       <reg>
        В
@@ -317,7 +343,7 @@
        сухие
       </reg>
       <orig>
-       сухiе
+       сухіе
       </orig>
      </choice>
      и
@@ -426,7 +452,7 @@
      </choice>
      камни.
     </p>
-    <p id="f01858e2-6d19-4e8e-a600-a44cdee86cd2" rend="left">
+    <p id="f01858e2-6d19-4e8e-a600-a44cdee86cd2">
      <choice>
       <reg>
        Тронет
@@ -480,7 +506,7 @@
      </choice>
      .
     </p>
-    <p id="9a75a1fa-8cf7-45ef-89be-61274ac83a21" rend="left">
+    <p id="9a75a1fa-8cf7-45ef-89be-61274ac83a21">
      Была у Магниса палка
      <choice>
       <reg>
@@ -569,7 +595,7 @@
      </choice>
      , что отрывать надо.
     </p>
-    <p id="724ae057-771e-42ae-9726-91fcff3a5e46" rend="left">
+    <p id="724ae057-771e-42ae-9726-91fcff3a5e46">
      <choice>
       <reg>
        Магнис
@@ -686,7 +712,7 @@
       II
      </hi>
     </head>
-    <p id="07398b92-0ffe-440b-b1e5-b1b26b79070a" rend="left">
+    <p id="07398b92-0ffe-440b-b1e5-b1b26b79070a">
      <choice>
       <reg>
        Магнит
@@ -824,7 +850,7 @@
      </choice>
      .
     </p>
-    <p id="660a5129-a1de-4a56-878e-9c956bdee398" rend="left">
+    <p id="660a5129-a1de-4a56-878e-9c956bdee398">
      Если положить
      <choice>
       <reg>
@@ -888,13 +914,13 @@
      </choice>
      , да подержать
     </p>
-    <p id="46d28316-1796-4bd7-a942-b3ff6b588133" rend="left emptyline">
+    <p id="46d28316-1796-4bd7-a942-b3ff6b588133" rend="emptyline">
      <pb n="275"/>
     </p>
     <p id="8889adbd-d3c8-49fa-b6ad-12123d6d78b9" rend="centerline">
      — 73 —
     </p>
-    <p id="733bc89e-fbc2-4d8d-a98f-2296d96dd2e0" rend="notindent">
+    <p id="733bc89e-fbc2-4d8d-a98f-2296d96dd2e0">
      подольше, то иголка
      <choice>
       <reg>
@@ -987,7 +1013,7 @@
        другие
       </reg>
       <orig>
-       другiе
+       другіе
       </orig>
      </choice>
      <choice>
@@ -1008,7 +1034,7 @@
      </choice>
      .
     </p>
-    <p id="8eaef735-e2ba-4713-b614-f36c43f6d8ca" rend="left">
+    <p id="8eaef735-e2ba-4713-b614-f36c43f6d8ca">
      Если одну магнитную палочку разрубить
      <choice>
       <reg>
@@ -1077,7 +1103,7 @@
        одинакие
       </reg>
       <orig>
-       одинакiе
+       одинакіе
       </orig>
      </choice>
      концы
@@ -1370,7 +1396,7 @@
       III.
      </hi>
     </head>
-    <p id="55e3a2eb-0d72-4b3f-880d-662a3b752c85" rend="left">
+    <p id="55e3a2eb-0d72-4b3f-880d-662a3b752c85">
      Если намагнитить иголку (подержать подольше
      <choice>
       <reg>
@@ -1487,7 +1513,7 @@
      </choice>
      ).
     </p>
-    <p id="6d14d84b-5288-4d6a-8532-e4332a73c373" rend="left">
+    <p id="6d14d84b-5288-4d6a-8532-e4332a73c373">
      Когда не знали магнита, по морю не плавали далеко.
      <choice>
       <reg>
@@ -1525,13 +1551,13 @@
      </choice>
      и знали,
     </p>
-    <p id="305ea764-4de7-4906-a331-24fa184af830" rend="left emptyline">
+    <p id="305ea764-4de7-4906-a331-24fa184af830" rend="emptyline">
      <pb n="276"/>
     </p>
     <p id="334c0498-644e-4012-87f3-3d35a34a09b5" rend="centerline">
      — 74 —
     </p>
-    <p id="b6f19619-5f0e-4c57-9f33-e4e821937146" rend="notindent">
+    <p id="b6f19619-5f0e-4c57-9f33-e4e821937146">
      куда плыть. А если пасмурно, не видать солнца и
      <choice>
       <reg>
@@ -1586,7 +1612,7 @@
       </orig>
      </choice>
     </p>
-    <p id="f4e5cb51-e369-49f5-81d3-339baff448ce" rend="left">
+    <p id="f4e5cb51-e369-49f5-81d3-339baff448ce">
      Пока не знали магнита, не плавали по
      <choice>
       <reg>
@@ -1738,7 +1764,7 @@
      </choice>
      морей узнали.
     </p>
-    <p id="fd52a7d9-e4e4-4e34-b426-a06fdfccdc9e" rend="left">
+    <p id="fd52a7d9-e4e4-4e34-b426-a06fdfccdc9e">
      На
      <choice>
       <reg>
@@ -1821,7 +1847,7 @@
      </choice>
      .
     </p>
-    <p id="06850625-2bd5-42d8-ad4f-1e6dbb857721" rend="left">
+    <p id="06850625-2bd5-42d8-ad4f-1e6dbb857721">
      <choice>
       <reg>
        Так

@@ -9,17 +9,41 @@
                 <title type="main">Письмо С.А.Толстой от 18 сентября 1882 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 18 сентября 1882 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 83. М.: Гос. изд. «Художественная литература», 1938. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 83</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">360-361</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -108,7 +138,7 @@
       .
      </hi>
     </p>
-    <p id="b6c2a4e2-d71f-4c8a-ba6b-bf591a91360d" rend="left">
+    <p id="b6c2a4e2-d71f-4c8a-ba6b-bf591a91360d">
      Пишу
      <choice>
       <reg>
@@ -298,7 +328,7 @@
        гимназию
       </reg>
       <orig>
-       гимназiю
+       гимназію
       </orig>
      </choice>
      ,
@@ -657,7 +687,7 @@
        состоянии
       </reg>
       <orig>
-       состоянiи
+       состояніи
       </orig>
      </choice>
      трудно писать. Одно, что оно хорошее и спокойное. Лельку я хочу
@@ -683,7 +713,7 @@
        сомнении
       </reg>
       <orig>
-       сомнѣнiи
+       сомнѣніи
       </orig>
      </choice>
      : и хочется ему
@@ -692,7 +722,7 @@
        приятное
       </reg>
       <orig>
-       прiятное
+       пріятное
       </orig>
      </choice>
      <choice>
@@ -764,7 +794,7 @@
      </choice>
      , стало быть, телеграфировать нечего.
     </p>
-    <p id="f2ea1771-9c75-4559-b877-5844d0814a64" rend="left">
+    <p id="f2ea1771-9c75-4559-b877-5844d0814a64">
      Ивана
      <choice>
       <reg>
@@ -878,7 +908,7 @@
      </choice>
      его. —
     </p>
-    <p id="1157f669-8d76-43df-bca9-613ab02ec925" rend="left">
+    <p id="1157f669-8d76-43df-bca9-613ab02ec925">
      Ну, прощай, душенька,
      <choice>
       <reg>
@@ -900,7 +930,7 @@
      .
     </p>
     <lb/>
-    <p id="e38bbd8a-935a-4c14-a19b-d59b69b3f8c8" rend="left">
+    <p id="e38bbd8a-935a-4c14-a19b-d59b69b3f8c8">
      <hi>
       На конверте:
      </hi>

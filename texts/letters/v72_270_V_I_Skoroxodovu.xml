@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. И. Скороходову от 8 апреля 1900 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. И. Скороходову, 8 апреля 1900 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">343-345</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -111,7 +141,7 @@
      <hi/>
      1900. Москва.
     </p>
-    <p id="d8165b48-9325-4f20-909e-76379824dbcc" rend="Obrashenie left">
+    <p id="d8165b48-9325-4f20-909e-76379824dbcc" rend="Obrashenie">
      Дорогой
      <choice>
       <reg>
@@ -121,7 +151,7 @@
       </reg>
       <orig>
        <name placement="text" ref="12743" type="person">
-        Владимiръ
+        Владиміръ
        </name>
       </orig>
      </choice>
@@ -137,7 +167,7 @@
      </choice>
      ,
     </p>
-    <p id="6ff6f6d7-7c74-4b2c-9501-4e263d93d4e7" rend="left">
+    <p id="6ff6f6d7-7c74-4b2c-9501-4e263d93d4e7">
      Я очень
      <choice>
       <reg>
@@ -257,7 +287,7 @@
        представление
       </reg>
       <orig>
-       представленiе
+       представленіе
       </orig>
      </choice>
      о
@@ -274,7 +304,7 @@
        отношении
       </reg>
       <orig>
-       отношенiи
+       отношеніи
       </orig>
      </choice>
      <choice>
@@ -543,7 +573,7 @@
        глубокий
       </reg>
       <orig>
-       глубокiй
+       глубокій
       </orig>
      </choice>
      <choice>
@@ -560,7 +590,7 @@
        действие
       </reg>
       <orig>
-       дѣйствiе
+       дѣйствіе
       </orig>
      </choice>
      ,
@@ -585,7 +615,7 @@
        горячия
       </reg>
       <orig>
-       горячiя
+       горячія
       </orig>
      </choice>
      и
@@ -594,7 +624,7 @@
        искренния
       </reg>
       <orig>
-       искреннiя
+       искреннія
       </orig>
      </choice>
      статьи и
@@ -670,7 +700,7 @@
        последствий
       </reg>
       <orig>
-       послѣдствiй
+       послѣдствій
       </orig>
      </choice>
      своей жизни, и недовольны собой, это то и хорошо. Это то и
@@ -724,7 +754,7 @@
        худшия
       </reg>
       <orig>
-       худшiя
+       худшія
       </orig>
      </choice>
      неудачи, пускай случится самое дурное —
@@ -793,12 +823,12 @@
        мире
       </reg>
       <orig>
-       мiрѣ
+       мірѣ
       </orig>
      </choice>
      .
     </p>
-    <p id="9896e94d-dc66-4d74-b4d4-3ceebe0afcef" rend="left">
+    <p id="9896e94d-dc66-4d74-b4d4-3ceebe0afcef">
      Главное же то, что
      <choice>
       <reg>
@@ -858,7 +888,7 @@
        страдания
       </reg>
       <orig>
-       страданiя
+       страданія
       </orig>
      </choice>
      и
@@ -867,7 +897,7 @@
        раскаяния
       </reg>
       <orig>
-       раскаянiя
+       раскаянія
       </orig>
      </choice>
      .
@@ -927,19 +957,19 @@
        нищий
       </reg>
       <orig>
-       нищiй
+       нищій
       </orig>
      </choice>
      здоровому веселому богачу.
     </p>
-    <p id="a40971dc-b9bb-4fdd-8d5c-c81c63fba19f" rend="left">
+    <p id="a40971dc-b9bb-4fdd-8d5c-c81c63fba19f">
      Вы говорите о
      <choice>
       <reg>
        воспитании
       </reg>
       <orig>
-       воспитанiи
+       воспитаніи
       </orig>
      </choice>
      <choice>
@@ -956,7 +986,7 @@
        Воспитание
       </reg>
       <orig>
-       Воспитанiе
+       Воспитаніе
       </orig>
      </choice>
      все только
@@ -1037,7 +1067,7 @@
        поедания
       </reg>
       <orig>
-       поѣданiя
+       поѣданія
       </orig>
      </choice>
      труда
@@ -1121,7 +1151,7 @@
        пособиях
       </reg>
       <orig>
-       пособiяхъ
+       пособіяхъ
       </orig>
      </choice>
      : напишите
@@ -1202,7 +1232,7 @@
        любящий
       </reg>
       <orig>
-       любящiй
+       любящій
       </orig>
      </choice>
      <choice>
@@ -1233,7 +1263,7 @@
      Толстой.
     </p>
     <lb/>
-    <p id="43e2f938-5121-41c8-930e-549d25ee7597" rend="left">
+    <p id="43e2f938-5121-41c8-930e-549d25ee7597">
      Гастеву, Дадьяни и
      <choice>
       <reg>
@@ -1278,7 +1308,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="8ffeb686-717b-4f76-b3be-4a881d8036a0" rend="petit left">
+      <p id="8ffeb686-717b-4f76-b3be-4a881d8036a0" rend="petit">
        <name placement="comments" ref="12743" type="person">
         Владимир Иванович Скороходов
        </name>

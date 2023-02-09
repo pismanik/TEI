@@ -9,17 +9,41 @@
                 <title type="main">Письмо Эйльмеру Мооду (Aylmer Maude) от 27 января 1900 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Эйльмеру Мооду (Aylmer Maude), 27 января 1900 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">289-291</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -97,7 +127,7 @@
     <p id="41b4ab73-6880-49fd-9ed8-328292f37286" rend="right">
      27 Янв. ст. ст. 1900.
     </p>
-    <p id="94b11232-8aed-49e5-8c4a-1ad1d07af543" rend="Obrashenie left">
+    <p id="94b11232-8aed-49e5-8c4a-1ad1d07af543" rend="Obrashenie">
      Дорогой
      <choice>
       <reg>
@@ -117,7 +147,7 @@
      </choice>
      ,
     </p>
-    <p id="0e865850-34a9-4521-8517-5ed8da960165" rend="left">
+    <p id="0e865850-34a9-4521-8517-5ed8da960165">
      Я,
      <choice>
       <reg>
@@ -237,7 +267,7 @@
        отношении
       </reg>
       <orig>
-       отношенiи
+       отношеніи
       </orig>
      </choice>
      <choice>
@@ -314,7 +344,7 @@
        известия
       </reg>
       <orig>
-       извѣстiя
+       извѣстія
       </orig>
      </choice>
      о
@@ -388,7 +418,7 @@
        отношение
       </reg>
       <orig>
-       отношенiе
+       отношеніе
       </orig>
      </choice>
      <choice>
@@ -488,7 +518,7 @@
        Голиафов
       </reg>
       <orig>
-       Голiафовъ
+       Голіафовъ
       </orig>
      </choice>
      , а сочувствую только
@@ -549,7 +579,7 @@
        патриотизма
       </reg>
       <orig>
-       патрiотизма
+       патріотизма
       </orig>
      </choice>
      и ложной
@@ -558,7 +588,7 @@
        религии
       </reg>
       <orig>
-       религiи
+       религіи
       </orig>
      </choice>
      , оправдывающей
@@ -567,12 +597,12 @@
        братоубийство
       </reg>
       <orig>
-       братоубiйство
+       братоубійство
       </orig>
      </choice>
      .
     </p>
-    <p id="574f651a-2d3d-41cc-a4f0-3e8860898198" rend="left">
+    <p id="574f651a-2d3d-41cc-a4f0-3e8860898198">
      Я думаю, что не
      <choice>
       <reg>
@@ -604,7 +634,7 @@
        опровержение
       </reg>
       <orig>
-       опроверженiе
+       опроверженіе
       </orig>
      </choice>
      ложно
@@ -629,7 +659,7 @@
        мнения
       </reg>
       <orig>
-       мнѣнiя
+       мнѣнія
       </orig>
      </choice>
      . На всякое чиханье не наздраствуешься. Я,
@@ -706,7 +736,7 @@
        другие
       </reg>
       <orig>
-       другiе
+       другіе
       </orig>
      </choice>
      <choice>
@@ -747,7 +777,7 @@
        убеждений
       </reg>
       <orig>
-       убѣжденiй
+       убѣжденій
       </orig>
      </choice>
      .
@@ -782,7 +812,7 @@
        известий
       </reg>
       <orig>
-       извѣстiй
+       извѣстій
       </orig>
      </choice>
      ,
@@ -815,7 +845,7 @@
        наполнению
       </reg>
       <orig>
-       наполненiю
+       наполненію
       </orig>
      </choice>
      <choice>
@@ -873,7 +903,7 @@
      </choice>
      .
     </p>
-    <p id="9890e95e-e07a-4e04-8381-d3f2c870915c" rend="left">
+    <p id="9890e95e-e07a-4e04-8381-d3f2c870915c">
      Здоровье мое все нехорошо, но
      <choice original_editorial_correction="т[ак]">
       <sic>
@@ -1138,7 +1168,7 @@
      </choice>
      , просто и ясно.
     </p>
-    <p id="1da61f07-bf03-44c9-95a5-72ae8f9e084b" rend="left">
+    <p id="1da61f07-bf03-44c9-95a5-72ae8f9e084b">
      Пришлите
      <choice>
       <reg>
@@ -1170,7 +1200,7 @@
        новейшия
       </reg>
       <orig>
-       новѣйшiя
+       новѣйшія
       </orig>
      </choice>
      книги или статьи
@@ -1204,7 +1234,7 @@
        положении
       </reg>
       <orig>
-       положенiи
+       положеніи
       </orig>
      </choice>
      <choice>
@@ -1279,7 +1309,7 @@
      .
     </p>
     <lb/>
-    <p id="93c56d26-eed4-40c4-96d1-49eeebc6ace2" rend="left">
+    <p id="93c56d26-eed4-40c4-96d1-49eeebc6ace2">
      Что
      <choice>
       <reg>
@@ -1320,7 +1350,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="eb65d446-9dd1-482d-bd05-fb265620f419" rend="petit left">
+      <p id="eb65d446-9dd1-482d-bd05-fb265620f419" rend="petit">
        Ответ на письмо Эйльмера Моода от 3 февраля н. ст. 1900 г. по поводу проникших в печать ложных сведений об отношении Толстого к
        <hi style="opdelimiter">
         Трансвальской

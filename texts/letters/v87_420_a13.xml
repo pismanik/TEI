@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову от 13 сентября 1896 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 13 сентября 1896 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 87. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 87</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">365-368</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 420.1896 г. Сентября 13. Я. П.
     </opener>
-    <p id="fa0aed9c-b96e-4264-aeb8-7cd8c2d89978" rend="left">
+    <p id="fa0aed9c-b96e-4264-aeb8-7cd8c2d89978">
      <choice>
       <reg>
        Мне
@@ -142,7 +172,7 @@
       Гали.
      </hi>
     </p>
-    <p id="e5ef35e6-198f-4853-b624-87e346f65e84" rend="left">
+    <p id="e5ef35e6-198f-4853-b624-87e346f65e84">
      <pb n="366"/>
      <hi style="npdelimiter">
       Я
@@ -176,7 +206,7 @@
      </choice>
      плохо живу, и стараюсь.
     </p>
-    <p id="964d5914-6d7f-4db5-8002-9e11440c45ae" rend="left">
+    <p id="964d5914-6d7f-4db5-8002-9e11440c45ae">
      <choice original_editorial_correction="С[офья]">
       <sic>
        С
@@ -350,7 +380,7 @@
      </note>
      — Сережина.
     </p>
-    <p id="11ec3488-1468-4c0c-8b82-cdac96186acb" rend="left">
+    <p id="11ec3488-1468-4c0c-8b82-cdac96186acb">
      Вчера я
      <choice>
       <reg>
@@ -524,7 +554,7 @@
        такие
       </reg>
       <orig>
-       такiе
+       такіе
       </orig>
      </choice>
      . Мы
@@ -572,7 +602,7 @@
      </choice>
      больше надо работать — жатва велика.
     </p>
-    <p id="133ef093-c40f-4f98-9215-f8fec1eab31a" rend="left">
+    <p id="133ef093-c40f-4f98-9215-f8fec1eab31a">
      <hi>
       7
      </hi>
@@ -705,7 +735,7 @@
      </choice>
      .
     </p>
-    <p id="c09b870e-d717-45ef-b462-8069af7521f0" rend="left">
+    <p id="c09b870e-d717-45ef-b462-8069af7521f0">
      <hi>
       10
      </hi>
@@ -746,7 +776,7 @@
       </hi>
      </note>
     </p>
-    <p id="f7ea06ce-9f0f-49fe-97f1-f651445d4956" rend="left">
+    <p id="f7ea06ce-9f0f-49fe-97f1-f651445d4956">
      <hi>
       12
      </hi>
@@ -858,7 +888,7 @@
      </note>
      и что она?
     </p>
-    <p id="09408cfd-d9cd-4e60-8ddc-8923a33fca6f" rend="left">
+    <p id="09408cfd-d9cd-4e60-8ddc-8923a33fca6f">
      Нынче у меня день
      <choice>
       <reg>
@@ -938,7 +968,7 @@
       </hi>
      </note>
     </p>
-    <p id="838a83d1-f1f8-4252-9843-fc4a39e6513c" rend="left">
+    <p id="838a83d1-f1f8-4252-9843-fc4a39e6513c">
      <hi>
       17
      </hi>
@@ -1061,10 +1091,10 @@
      </choice>
      .
     </p>
-    <p id="1b72d29d-37d0-464b-94d3-f38e414a4a21" rend="left">
+    <p id="1b72d29d-37d0-464b-94d3-f38e414a4a21">
      Ну, пока прощайте.
     </p>
-    <p id="45d9244a-6dae-4d7f-b839-216331b73b5f" rend="left">
+    <p id="45d9244a-6dae-4d7f-b839-216331b73b5f">
      Да, лошадь вашу
      <choice>
       <reg>
@@ -1159,7 +1189,7 @@
      </choice>
      .
     </p>
-    <p id="fac99953-db3a-4fef-8283-e589d71a021e" rend="left">
+    <p id="fac99953-db3a-4fef-8283-e589d71a021e">
      Ну, простите за нескладное письмо.
     </p>
     <noteGrp type="comments">
@@ -1177,7 +1207,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="2b1b9b46-2207-42ea-8f4b-46ccd9adb039" rend="petit left">
+      <p id="2b1b9b46-2207-42ea-8f4b-46ccd9adb039" rend="petit">
        Ответ на письмо Черткова от 6 сентября, в котором Чертков писал: «Какое неудовлетворимое чувство испытываешь, приступая к переписке с вами после продолжительного личного общения, дорогой
        <name placement="comments" ref="13883" type="person">
         Лев Николаевич

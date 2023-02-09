@@ -9,17 +9,41 @@
                 <title type="main">Письмо Н. Н. Страхову от 15 января 1880 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Н. Н. Страхову, 15 января 1880 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 63. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 63</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">3-3</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      1. Н. Н. Страхову.1880 г. Января 15? Я. П.
     </opener>
-    <p id="51fb7fd0-a4d1-4a4d-b750-24dae2f525e3" rend="Obrashenie left">
+    <p id="51fb7fd0-a4d1-4a4d-b750-24dae2f525e3" rend="Obrashenie">
      Дорогой Николай
      <choice>
       <reg>
@@ -106,7 +136,7 @@
      </choice>
      .
     </p>
-    <p id="46667d7b-0333-4783-b328-8d1cf10bff44" rend="left">
+    <p id="46667d7b-0333-4783-b328-8d1cf10bff44">
      Должно быть, что я
      <choice>
       <reg>
@@ -230,7 +260,7 @@
        искренний
       </reg>
       <orig>
-       искреннiй
+       искренній
       </orig>
      </choice>
      <choice>
@@ -336,7 +366,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="a2db17c5-5b52-4c3c-b506-aa61509f5f2a" rend="petit left">
+      <p id="a2db17c5-5b52-4c3c-b506-aa61509f5f2a" rend="petit">
        <name placement="comments" ref="13258" type="person">
         Николай Николаевич Страхов
        </name>
@@ -344,7 +374,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="2ac283d8-6917-44de-9349-218422d7d559" rend="petit left">
+      <p id="2ac283d8-6917-44de-9349-218422d7d559" rend="petit">
        Письмо Н. Н. Страхова, на которое отвечает Толстой, помечено 8 января 1880 г (см. ПС, № 131). В нем он между прочим писал: «Мне нужно в Вас верить, эта вера моя опора. Я давно называл Вас самым цельным и последовательным писателем; но Вы сверх того самый цельный и последовательный человек. Я в этом убежден умом, убежден моей любовью к Вам, я буду за Вас держаться, и надеюсь, что
        <hi style="opdelimiter">
         спасусь».

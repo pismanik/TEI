@@ -9,17 +9,41 @@
                 <title type="main">Письмо Георгу Гижицкому (Georg von Gizicki) от 5 января 1894 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Георгу Гижицкому (Georg von Gizicki), 5 января 1894 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 67. М.: Гос. изд. «Художественная литература», 1955. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 67</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">15-16</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,7 +127,7 @@
      </name>
      .1894г. Января 5. Москва.
     </opener>
-    <p id="47f4009c-ee80-4d22-829b-14121e25fb6a" rend="left">
+    <p id="47f4009c-ee80-4d22-829b-14121e25fb6a">
      Hochgeehrter Herr, Ich habe 4 №, in welchen mein Artikel «Über Religion und Moral»
      <ref target="#note1">
       1
@@ -108,7 +137,7 @@
      </note>
      erschienen ist, erhalten und danke sie herzlich dafür. Es tut mir leid, dass in den ersten Nummern die notwendigen Veränderungen nicht Platz fanden.
     </p>
-    <p id="ab5d7577-cd39-4cb0-9eb5-73055d056fc6" rend="left">
+    <p id="ab5d7577-cd39-4cb0-9eb5-73055d056fc6">
      Ich danke Sie für die Absicht diese Veränderungen in dem Abdruck der Brochüre zu machen.
     </p>
     <p id="13c0914e-9fb9-4757-8380-dc7c5e4d2df2" rend="right">
@@ -117,7 +146,7 @@
     <p id="210feda2-8d4a-4360-bef4-e259af60137a" rend="right">
      Leo Tolstoy.
     </p>
-    <p id="0078f470-ad2a-4ae9-aca9-cddf1347586c" rend="left">
+    <p id="0078f470-ad2a-4ae9-aca9-cddf1347586c">
      5/17 Januar 1894.
     </p>
     <noteGrp type="comments">
@@ -134,7 +163,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="d8c0dea5-2efb-407c-8e0e-723ec17d9d06" rend="petit left">
+      <p id="d8c0dea5-2efb-407c-8e0e-723ec17d9d06" rend="petit">
        Благодарю вас за намерение внести эти изменения при печатании отдельной брошюрой.
       </p>
      </note>
@@ -152,7 +181,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="1bf76e28-8f30-4ea3-8815-4096aaa305bd" rend="petit left">
+      <p id="1bf76e28-8f30-4ea3-8815-4096aaa305bd" rend="petit">
        5/17 января 1894.
       </p>
      </note>
@@ -162,7 +191,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="6056a6ff-5331-41d7-af5d-0b0b846413dd" rend="petit left">
+      <p id="6056a6ff-5331-41d7-af5d-0b0b846413dd" rend="petit">
        <name placement="comments" ref="3339" type="person">
         Георг Гижицкий
        </name>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо С.А.Толстой от 22 января 1879 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 22 января 1879 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 83. М.: Гос. изд. «Художественная литература», 1938. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 83</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">265-267</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      149.1879 г. Января 22. Я. П.
     </opener>
-    <p id="97993a03-3c08-4732-870b-7518c372eedc" rend="left">
+    <p id="97993a03-3c08-4732-870b-7518c372eedc">
      Все самое интересное
      <choice>
       <reg>
@@ -166,7 +196,7 @@
      </choice>
      быть здоровыми и хорошо повеселиться.
     </p>
-    <p id="b14b7c34-6658-475b-9ec7-17e164760f7e" rend="left">
+    <p id="b14b7c34-6658-475b-9ec7-17e164760f7e">
      <choice>
       <reg>
        Всех
@@ -193,11 +223,11 @@
      </choice>
      .
     </p>
-    <p id="0b631940-1bfa-406c-aacd-2da3a2c1c226" rend="emptyline left">
+    <p id="0b631940-1bfa-406c-aacd-2da3a2c1c226" rend="emptyline">
      <pb n="266"/>
     </p>
     <lb/>
-    <p id="2eab8d7f-16f8-4cb1-a807-8ec7c8891685" rend="left">
+    <p id="2eab8d7f-16f8-4cb1-a807-8ec7c8891685">
      <choice>
       <reg>
        С
@@ -278,7 +308,7 @@
       Владелец книжного магазина французских книг на Кузнецком мосту.
      </note>
     </p>
-    <p id="e5af13f4-af24-41c5-baee-99f5fc2b69d2" rend="left">
+    <p id="e5af13f4-af24-41c5-baee-99f5fc2b69d2">
      Соловьева
      <hi>
       20-й
@@ -307,7 +337,7 @@
      </hi>
      .
     </p>
-    <p id="cc06949b-4669-4f9d-a5c2-1dce232a2637" rend="left">
+    <p id="cc06949b-4669-4f9d-a5c2-1dce232a2637">
      Илюша и Леля здоровы и ходили гулять.
      <choice original_editorial_correction="Вас[илий]">
       <sic>
@@ -322,7 +352,7 @@
         </reg>
         <orig>
          <name placement="text" ref="250" type="person">
-          Василiй
+          Василій
          </name>
         </orig>
        </choice>
@@ -456,11 +486,11 @@
      </choice>
      это письмо.
     </p>
-    <p id="aca9550a-c3a3-4a9f-9611-c6040019cf8a" rend="left">
+    <p id="aca9550a-c3a3-4a9f-9611-c6040019cf8a">
      Завтра пошлю на Козловку.
     </p>
     <lb/>
-    <p id="3c2ef077-4a54-47ec-b44b-4f290acaee95" rend="left">
+    <p id="3c2ef077-4a54-47ec-b44b-4f290acaee95">
      <hi>
       К адресу на конверте:
      </hi>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо Н. Н. Страхову от 6 июля 1891 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Н. Н. Страхову, 6 июля 1891 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 66. М.: Гос. изд. «Художественная литература», 1953. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 66</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">13-14</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -94,7 +123,7 @@
     <opener index="false">
      2. H. Н. Страхову.1891 г. Июля 6. Я. П.
     </opener>
-    <p id="520cefae-ed5a-455c-8865-6ec774e19e4d" rend="left">
+    <p id="520cefae-ed5a-455c-8865-6ec774e19e4d">
      Спасибо за ваше письмо, дорогой
      <name placement="text" ref="13258" type="person">
       Николай Николаевич
@@ -134,7 +163,7 @@
       О чтении Толстым в феврале и марте 1891 г. выписанной им книги: Diderot, «Oeuvres choisis. Edition du centenaire. 30 juillet 1884». Paris 1884 (Дидро, «Избранные сочинения. Издание к столетию со дня смерти. 30 июля 1884»), см. письмо к Страхову от 25 марта 1891 г. и прим. 2 к нему в т. 65.
      </note>
     </p>
-    <p id="27a3f952-8ae4-4e04-867f-3c07beb22cd4" rend="left">
+    <p id="27a3f952-8ae4-4e04-867f-3c07beb22cd4">
      <ref target="#note2">
       2
      </ref>
@@ -174,7 +203,7 @@
       А. А. Толстая пробыла в Ясной Поляне с 1 по 7 июля.
      </note>
     </p>
-    <p id="01385d03-2dfa-440c-a1bf-4d28e9ac72fc" rend="left">
+    <p id="01385d03-2dfa-440c-a1bf-4d28e9ac72fc">
      <ref target="#note4">
       4
      </ref>
@@ -188,11 +217,7 @@
      <note index="false" resp="volume_editor" xml:id="note5">
       Франсуа Фенелон (François Fénélon, 1651—1715), французский писатель и богослов.
      </note>
-     Ha
-     <hi>
-      -
-     </hi>
-     днях читал книгу «Невидимая брань» святогорца Никодима.
+     Ha-днях читал книгу «Невидимая брань» святогорца Никодима.
      <ref target="#note6">
       6
      </ref>
@@ -296,7 +321,7 @@
       пользой.
      </hi>
     </p>
-    <p id="c4664155-93be-4bf6-9901-7958b6e29c12" rend="left">
+    <p id="c4664155-93be-4bf6-9901-7958b6e29c12">
      <pb n="14"/>
      <hi style="npdelimiter">
       Наши
@@ -340,7 +365,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="ba3b0b86-a9c8-453c-bd8a-66e9ab6cee5c" rend="petit left">
+      <p id="ba3b0b86-a9c8-453c-bd8a-66e9ab6cee5c" rend="petit">
        <name placement="comments" ref="13258" type="person">
         Николай Николаевич Страхов
        </name>
@@ -348,7 +373,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="806a7a34-a5d0-40b8-a8a9-99f0d928c411" rend="petit left">
+      <p id="806a7a34-a5d0-40b8-a8a9-99f0d928c411" rend="petit">
        Ответ на письмо Страхова от 14 июня 1891 г. (см. ПС, стр. 429—431).
       </p>
      </note>

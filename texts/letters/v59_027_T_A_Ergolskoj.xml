@@ -9,17 +9,41 @@
                 <title type="main">Письмо Т. А. Ергольской от 20 апреля 1850 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Т. А. Ергольской, 20 апреля 1850 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">56-57</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,7 +127,7 @@
      </name>
      .1850 г. Апреля 20. Пирогово.
     </opener>
-    <p id="c1086ff8-3961-4415-97e5-58a95e30a177" rend="left">
+    <p id="c1086ff8-3961-4415-97e5-58a95e30a177">
      Il у a bien longtems, que je n’ai de vos nouvelles, chère tante, et c’est à mon tour de m’inquiéter à votre sujet; moi et Serge nous nous portons tous les deux bien: il est à Piragovo où je
      <choice original_editorial_correction="n’ai[pu]">
       <sic>
@@ -125,7 +154,7 @@
       Француженка Вергани служила гувернанткой у гр. М. Н. Толстой, а потом перешла к Арсеньевым.
      </note>
     </p>
-    <p id="36b2196e-6172-40f4-87d0-bc5d0fc1e490" rend="left">
+    <p id="36b2196e-6172-40f4-87d0-bc5d0fc1e490">
      Les Arsénieffs
      <ref target="#note2">
       2
@@ -139,7 +168,7 @@
      </hi>
      souvent les Arsenieffs sont au fond de très braves gens.
     </p>
-    <p id="c295b622-881e-4562-98a2-c6492f7f5c72" rend="left">
+    <p id="c295b622-881e-4562-98a2-c6492f7f5c72">
      Adieu je baise vos mains. Quand
      <choice original_editorial_correction="viend[r]ez">
       <sic>
@@ -154,10 +183,10 @@
     <p id="c721c430-f4f2-430c-817c-b124d8fe4aee" rend="right">
      C. L. Tolstoy.
     </p>
-    <p id="585f4a09-8850-404c-818e-4c1789921edc" rend="left">
+    <p id="585f4a09-8850-404c-818e-4c1789921edc">
      20 April
     </p>
-    <p id="a92e852b-2666-4ac0-bc7c-febd116e830d" rend="left">
+    <p id="a92e852b-2666-4ac0-bc7c-febd116e830d">
      18
     </p>
     <noteGrp type="comments">
@@ -189,7 +218,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="8b5b3dcb-b824-4f8c-96c1-d1e589010f3d" rend="petit left">
+      <p id="8b5b3dcb-b824-4f8c-96c1-d1e589010f3d" rend="petit">
        Прощайте, целую ваши ручки. Когда вы приедете?
       </p>
      </note>
@@ -199,7 +228,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="0d9d2ae7-0b8b-4906-8c73-fbd808cbe05a" rend="petit left">
+      <p id="0d9d2ae7-0b8b-4906-8c73-fbd808cbe05a" rend="petit">
        20 апреля.
       </p>
      </note>

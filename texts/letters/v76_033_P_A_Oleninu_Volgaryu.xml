@@ -9,17 +9,41 @@
                 <title type="main">Письмо П. А. Оленину-Волгарю от 26 августа 1905 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо П. А. Оленину-Волгарю, 26 августа 1905 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 76. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 76</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">20-21</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -98,14 +127,14 @@
      </name>
      .1905 г. Августа 26. Я. П.
     </opener>
-    <p id="72a47779-fb01-4e68-91d4-ead27e8795f6" rend="Obrashenie left">
+    <p id="72a47779-fb01-4e68-91d4-ead27e8795f6" rend="Obrashenie">
      Милостивый государь
      <name placement="text" ref="10159" type="person">
       Петр Алексеевич
      </name>
      .
     </p>
-    <p id="4045b06b-a2bf-43d8-8174-f6431b994f59" rend="left">
+    <p id="4045b06b-a2bf-43d8-8174-f6431b994f59">
      Ваши рассказы
      <ref target="#note1">
       1
@@ -132,7 +161,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="71b540bc-4e2f-4ab6-a995-f0ddc4ff972c" rend="petit left">
+      <p id="71b540bc-4e2f-4ab6-a995-f0ddc4ff972c" rend="petit">
        О
        <name placement="comments" ref="10159" type="person">
         Петре Алексеевиче Оленине-Волгаре
@@ -141,7 +170,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="8c207d3a-bdaa-424b-aa96-7390baa0eedd" rend="petit left">
+      <p id="8c207d3a-bdaa-424b-aa96-7390baa0eedd" rend="petit">
        Ответ на письмо П. А. Оленина от 24 августа 1905 г., которое он послал Толстому одновременно с рукописью запрещенного цензурой романа «Тайна Володи
        <hi style="opdelimiter">
         мальчика».

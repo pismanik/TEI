@@ -4,24 +4,48 @@
         <fileDesc>
              <titleStmt>                
                 <title xml:id="v56_281_298_Listy_zapisnoj_knizhki_1907_1908_gg_ijun_1907_g_fevral_1908_g">
-                    Дневники и записные книжки. Tolstoy Digital
+                    Записные книжки. Tolstoy Digital
                 </title>
                 <title type="main">Листы записной книжки, июнь 1907 г. — февраль 1908 г.</title>
                 <title type="bibl">Толстой Л. Н. [Листы записной книжки 1907–1908 гг. Записи с июня 1907 г. по февраль 1908 г.] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 56. М.: Гос. изд. «Художественная литература», 1937. С. </title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                              
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -30,7 +54,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -42,7 +66,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -73,7 +97,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -88,7 +112,9 @@
             <creation>
                 <date from="1907" to="1908"/>
          </creation>
-            <textClass> 
+            <langUsage>
+  <language ident="ru-petr1708"/>
+</langUsage><textClass> 
                 <catRef ana="#notes" target="type"/>
            </textClass>
         </profileDesc>
@@ -115,8 +141,7 @@
        </date>
       </dateline>
      </opener>
-     <p id="64245249-0d77-4aa0-86a8-259176f82f07" rend="left"/>
-     <p id="62b1c344-5a8f-4d00-958b-dbfd50769e9b" rend="left">
+     <p id="62b1c344-5a8f-4d00-958b-dbfd50769e9b">
       Нравственность только
       <choice>
        <reg>
@@ -140,7 +165,7 @@
         проявлением
        </reg>
        <orig>
-        проявленiемъ
+        проявленіемъ
        </orig>
       </choice>
       Бога,
@@ -236,10 +261,8 @@
        Ср. Дневник 20 июля 1907 г., 11.
       </note>
      </p>
-     <p id="efd8299d-7dfa-46a4-95dd-246a703bfb12" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="835941b8-f3f0-486d-8722-b9b45869b9b6" rend="left">
+     <metamark function="line"/>
+     <p id="835941b8-f3f0-486d-8722-b9b45869b9b6">
       Не
       <choice>
        <reg>
@@ -282,7 +305,7 @@
         значение
        </reg>
        <orig>
-        значенiе
+        значеніе
        </orig>
       </choice>
       : основателя
@@ -304,7 +327,7 @@
           религиозной
          </reg>
          <orig>
-          религiозной
+          религіозной
          </orig>
         </choice>
        </corr>
@@ -351,10 +374,8 @@
        Ср. Дневник 20 июля 1907 г., 12.
       </note>
      </p>
-     <p id="9f92cc26-d2f5-4a45-b3f9-f03514f56633" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="6fa2274e-a97c-4d0a-9aa9-b5b1b953b045" rend="left">
+     <metamark function="line"/>
+     <p id="6fa2274e-a97c-4d0a-9aa9-b5b1b953b045">
       <hi>
        30 I.
       </hi>
@@ -442,10 +463,8 @@
        Ср. Дневник 20 июля 1907 г., 13.
       </note>
      </p>
-     <p id="53a7cea4-7d3c-4bc8-8e10-b59f44570645" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="3c698896-11f5-4a9c-ac19-b88acd0087b8" rend="left">
+     <metamark function="line"/>
+     <p id="3c698896-11f5-4a9c-ac19-b88acd0087b8">
       Надо,
       <choice>
        <reg>
@@ -545,7 +564,7 @@
         нищие
        </reg>
        <orig>
-        нищiе
+        нищіе
        </orig>
       </choice>
       , а мимо
@@ -614,10 +633,8 @@
        Ср. Дневник 20 июля 1907 г., 14.
       </note>
      </p>
-     <p id="ee588228-9446-4e25-8170-35f4279d30b4" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="795c63cf-80b2-45aa-92c8-723acc866f4a" rend="left">
+     <metamark function="line"/>
+     <p id="795c63cf-80b2-45aa-92c8-723acc866f4a">
       Дурная
       <choice original_editorial_correction="привычк[а]">
        <sic>
@@ -751,16 +768,14 @@
        Ср. Дневник 20 июля 1907 г., 15.
       </note>
      </p>
-     <p id="a470c6d2-988f-4e9f-8a38-6047f5729e64" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="692b2633-a246-4b4c-9935-d35103a996c6" rend="left">
+     <metamark function="line"/>
+     <p id="692b2633-a246-4b4c-9935-d35103a996c6">
       <choice>
        <reg>
         Христианство
        </reg>
        <orig>
-        Христiанство
+        Христіанство
        </orig>
       </choice>
       <hi style="opdelimiter">
@@ -809,7 +824,7 @@
         убий
        </reg>
        <orig>
-        убiй
+        убій
        </orig>
       </choice>
       , что
@@ -818,7 +833,7 @@
         учение
        </reg>
        <orig>
-        ученiе
+        ученіе
        </orig>
       </choice>
       это усвоили
@@ -880,7 +895,7 @@
          исключения
         </reg>
         <orig>
-         исключенiя
+         исключенія
         </orig>
        </choice>
        о
@@ -976,7 +991,7 @@
       </choice>
       .
      </p>
-     <p id="bce6ad68-be96-436a-834f-3221dfc405e7" rend="left">
+     <p id="bce6ad68-be96-436a-834f-3221dfc405e7">
       Нельзя шутить
       <choice>
        <reg>
@@ -991,7 +1006,7 @@
         религией
        </reg>
        <orig>
-        религiей
+        религіей
        </orig>
       </choice>
       .
@@ -1004,7 +1019,7 @@
         религиозных
        </reg>
        <orig>
-        религiозныхъ
+        религіозныхъ
        </orig>
       </choice>
       <hi>
@@ -1050,7 +1065,7 @@
         полурелигиозным
        </reg>
        <orig>
-        полурелигiознымъ
+        полурелигіознымъ
        </orig>
       </choice>
       <choice>
@@ -1102,7 +1117,7 @@
         русские
        </reg>
        <orig>
-        русскiе
+        русскіе
        </orig>
       </choice>
       люди или глубоко
@@ -1111,7 +1126,7 @@
         верующие
        </reg>
        <orig>
-        вѣрующiе
+        вѣрующіе
        </orig>
       </choice>
       или безбожники
@@ -1160,10 +1175,8 @@
        строки стерто].
       </hi>
      </p>
-     <p id="3a118375-647a-466c-941c-c2b9570ecb3e" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="11cfcf11-eeae-422e-9ff2-c23f1afae98f" rend="left">
+     <metamark function="line"/>
+     <p id="11cfcf11-eeae-422e-9ff2-c23f1afae98f">
       <choice>
        <reg>
         Тело
@@ -1187,7 +1200,7 @@
         сознание
        </reg>
        <orig>
-        сознанiе
+        сознаніе
        </orig>
       </choice>
       тоже не я.
@@ -1201,10 +1214,8 @@
        Ср. Дневник 20 июля 1907 г., 19.
       </note>
      </p>
-     <p id="a3afc85f-4e16-4997-b410-2e48273b48d2" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="05273d5a-ab75-4c35-87e2-eebe570919ca" rend="left">
+     <metamark function="line"/>
+     <p id="05273d5a-ab75-4c35-87e2-eebe570919ca">
       <choice>
        <reg>
         Смысл
@@ -1252,7 +1263,7 @@
         убий
        </reg>
        <orig>
-        убiй
+        убій
        </orig>
       </choice>
       не значить то,
@@ -1332,16 +1343,14 @@
        Ср. «Не убий никого», т. 37.
       </note>
      </p>
-     <p id="d0048cd3-0a71-4125-80cc-c3e8a69adac0" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="f824b803-65c1-4efa-9695-3f3a0410459d" rend="left">
+     <metamark function="line"/>
+     <p id="f824b803-65c1-4efa-9695-3f3a0410459d">
       <choice>
        <reg>
         Учение
        </reg>
        <orig>
-        Ученiе
+        Ученіе
        </orig>
       </choice>
       о будущей жизни больше
@@ -1378,7 +1387,7 @@
        Эта мысль в подлиннике отчеркнута со всех сторон. Ср. Дневник 20 июля 1907 г., 17.
       </note>
      </p>
-     <p id="bedfa57b-bac0-4000-88f4-bf63e8e9b2eb" rend="left">
+     <p id="bedfa57b-bac0-4000-88f4-bf63e8e9b2eb">
       <choice>
        <reg>
         Переходим
@@ -1430,7 +1439,7 @@
       </choice>
       .
      </p>
-     <p id="b2f8ebd0-9e90-49d9-ba20-f9eb4ef133a4" rend="left">
+     <p id="b2f8ebd0-9e90-49d9-ba20-f9eb4ef133a4">
       <choice>
        <reg>
         Верь
@@ -1449,7 +1458,7 @@
           рассуждениям
          </reg>
          <orig>
-          разсужденiямъ
+          разсужденіямъ
          </orig>
         </choice>
        </corr>
@@ -1555,10 +1564,8 @@
        Эта мысль отчеркнута с правой стороны. Ср. Дневник 20 июля 1907 г., 17.
       </note>
      </p>
-     <p id="d22946e0-1432-4109-8524-661ff6c0c106" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="199ac878-5d32-4896-9cec-79513585db86" rend="left">
+     <metamark function="line"/>
+     <p id="199ac878-5d32-4896-9cec-79513585db86">
       Нельзя
       <choice>
        <reg>
@@ -1581,7 +1588,7 @@
         учение
        </reg>
        <orig>
-        ученiе
+        ученіе
        </orig>
       </choice>
       блага, живя противно
@@ -1589,7 +1596,7 @@
        ему.
       </hi>
      </p>
-     <p id="f89f8909-1388-4490-8c42-a22ec931f424" rend="left">
+     <p id="f89f8909-1388-4490-8c42-a22ec931f424">
       <pb n="283"/>
       <hi style="npdelimiter">
        Единственное
@@ -1620,7 +1627,7 @@
        Ср. Дневник 20 июля 1907 г., 18.
       </note>
      </p>
-     <p id="d296d265-df64-43ad-abf6-f4e2426b81d7" rend="left">
+     <p id="d296d265-df64-43ad-abf6-f4e2426b81d7">
       Смерть уже
       <choice>
        <reg>
@@ -1667,10 +1674,8 @@
        Ср. Дневник 20 июля 1907 г., 19.
       </note>
      </p>
-     <p id="5538c05f-b189-45ce-a947-081d63442ccc" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="c0a59396-da65-4ece-8589-c4f537887861" rend="left">
+     <metamark function="line"/>
+     <p id="c0a59396-da65-4ece-8589-c4f537887861">
       Какая
       <choice original_editorial_correction="удивительна[я]">
        <sic>
@@ -1685,7 +1690,7 @@
         иллюзия
        </reg>
        <orig>
-        иллюзiя
+        иллюзія
        </orig>
       </choice>
       <choice>
@@ -1713,10 +1718,8 @@
        Ср. Дневник 20 июля 1907 г., 20.
       </note>
      </p>
-     <p id="51a6f306-1771-4220-83d3-b5de1c91cba3" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="39d13376-fe6f-4081-909d-965aeee77590" rend="left">
+     <metamark function="line"/>
+     <p id="39d13376-fe6f-4081-909d-965aeee77590">
       <choice>
        <reg>
         Колокольчик
@@ -1731,7 +1734,7 @@
         ожидания
        </reg>
        <orig>
-        ожиданiя
+        ожиданія
        </orig>
       </choice>
       чего-то
@@ -1878,7 +1881,7 @@
         расположение
        </reg>
        <orig>
-        расположенiе
+        расположеніе
        </orig>
       </choice>
       , воспользоваться
@@ -1901,7 +1904,7 @@
           приближения
          </reg>
          <orig>
-          приближенiя
+          приближенія
          </orig>
         </choice>
        </corr>
@@ -1930,10 +1933,8 @@
        Ср. Дневник 20 июля 1907 г., 21.
       </note>
      </p>
-     <p id="e0793fb0-6909-4fe1-afea-d42fe5c352e5" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="07611a5e-2ba6-4c96-a3df-d810ba388406" rend="left">
+     <metamark function="line"/>
+     <p id="07611a5e-2ba6-4c96-a3df-d810ba388406">
       <hi>
        21 Іюл.
       </hi>
@@ -1967,7 +1968,7 @@
         движение
        </reg>
        <orig>
-        движенiе
+        движеніе
        </orig>
       </choice>
       <choice original_editorial_correction="огран[и]чиваетъ">
@@ -1993,10 +1994,8 @@
        Ср. Дневник 8 августа 1907 г., 13.
       </note>
      </p>
-     <p id="79252744-f29f-4a97-bed7-5732f4fdf107" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="cf0f12d9-da2a-4f68-b59d-cfd18e92d8dc" rend="left">
+     <metamark function="line"/>
+     <p id="cf0f12d9-da2a-4f68-b59d-cfd18e92d8dc">
       И при
       <choice>
        <reg>
@@ -2021,7 +2020,7 @@
         христиане
        </reg>
        <orig>
-        христiане
+        христіане
        </orig>
       </choice>
       , или
@@ -2066,10 +2065,8 @@
        Ср. «Не убий никого», гл. VIII.
       </note>
      </p>
-     <p id="8da7a5a1-9f4f-4e12-a402-8ec8a236e7ce" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="df3fb671-4804-48e7-93f9-f06d746a3d49" rend="left">
+     <metamark function="line"/>
+     <p id="df3fb671-4804-48e7-93f9-f06d746a3d49">
       <choice>
        <reg>
         Нет
@@ -2109,7 +2106,7 @@
         состояние
        </reg>
        <orig>
-        состоянiе
+        состояніе
        </orig>
       </choice>
       <choice>
@@ -2128,10 +2125,8 @@
        Ср. Дневник 8 августа 1907 г., 11.
       </note>
      </p>
-     <p id="6c3241bb-02f7-4c0c-b0a7-0982a782b79e" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="df0c3289-a74c-4d0a-b872-36aeb7749472" rend="left">
+     <metamark function="line"/>
+     <p id="df0c3289-a74c-4d0a-b872-36aeb7749472">
       <choice>
        <reg>
         В
@@ -2153,7 +2148,7 @@
         мире
        </reg>
        <orig>
-        мiрѣ
+        мірѣ
        </orig>
       </choice>
       <choice>
@@ -2178,7 +2173,7 @@
         состоянии
        </reg>
        <orig>
-        состоянiи
+        состояніи
        </orig>
       </choice>
       ).
@@ -2195,7 +2190,7 @@
         общении
        </reg>
        <orig>
-        общенiи
+        общеніи
        </orig>
       </choice>
       <choice>
@@ -2325,10 +2320,8 @@
        Ср. Дневник 8 августа 1907 г., 10. На полях вдоль страницы против текста двух последних записей почерком М. С. Сухотина написано (очевидно раньше): Мих. Сухот.
       </note>
      </p>
-     <p id="8d9eee17-c288-4a43-bbd9-d5a0285bc562" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="7d2ef7a6-8146-43a0-9d83-cf0d88769809" rend="left">
+     <metamark function="line"/>
+     <p id="7d2ef7a6-8146-43a0-9d83-cf0d88769809">
       <choice>
        <reg>
         Ум
@@ -2359,7 +2352,7 @@
         смирения
        </reg>
        <orig>
-        смиренiя
+        смиренія
        </orig>
       </choice>
       , глупость —
@@ -2395,7 +2388,7 @@
          самомнения
         </reg>
         <orig>
-         самомнѣнiя
+         самомнѣнія
         </orig>
        </choice>
        .
@@ -2407,7 +2400,7 @@
        Ср. Дневник 8 августа 1907 г., 9.
       </note>
      </p>
-     <p id="9ff5ba46-06c4-4b78-9555-610bb30d072c" rend="left">
+     <p id="9ff5ba46-06c4-4b78-9555-610bb30d072c">
       <pb n="284"/>
       <hi style="npdelimiter">
        Удивляешься
@@ -2443,7 +2436,7 @@
         оправдание
        </reg>
        <orig>
-        оправданiе
+        оправданіе
        </orig>
       </choice>
       <choice>
@@ -2471,17 +2464,15 @@
        Ср. Дневник 8 августа 1907 г., 8.
       </note>
      </p>
-     <p id="d49a2d01-8055-46ab-a4b2-0feca4325c3d" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="cc065762-0ed4-4586-8aaf-f96b3522afd8" rend="left">
+     <metamark function="line"/>
+     <p id="cc065762-0ed4-4586-8aaf-f96b3522afd8">
       Я
       <choice>
        <reg>
         маленький
        </reg>
        <orig>
-        маленькiй
+        маленькій
        </orig>
       </choice>
       , ничто
@@ -2503,7 +2494,7 @@
           сравнении
          </reg>
          <orig>
-          сравненiи
+          сравненіи
          </orig>
         </choice>
        </corr>
@@ -2526,7 +2517,7 @@
           миром
          </reg>
          <orig>
-          мiромъ
+          міромъ
          </orig>
         </choice>
        </corr>
@@ -2539,16 +2530,14 @@
        Эта мысль обведена чертой со всех сторон. Ср. Дневник 8 августа 1907 г., 7.
       </note>
      </p>
-     <p id="eb98a43e-3364-42c0-b41e-d5aa88585a62" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="528a4799-da01-4ae5-8e15-a798b03e6ab6" rend="left">
+     <metamark function="line"/>
+     <p id="528a4799-da01-4ae5-8e15-a798b03e6ab6">
       <choice>
        <reg>
         Смирение
        </reg>
        <orig>
-        Смиренiе
+        Смиреніе
        </orig>
       </choice>
       есть основа всего.
@@ -2559,17 +2548,15 @@
        Ср. Дневник 8 августа 1907 г., 7.
       </note>
      </p>
-     <p id="a3fc1f92-7464-4801-9ce7-da37cd435f2b" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="338165fc-0025-4a74-a8a3-9c345422b46a" rend="left">
+     <metamark function="line"/>
+     <p id="338165fc-0025-4a74-a8a3-9c345422b46a">
       Должна быть
       <choice>
        <reg>
         религия
        </reg>
        <orig>
-        религiя
+        религія
        </orig>
       </choice>
       ,
@@ -2591,7 +2578,7 @@
           запрещение
          </reg>
          <orig>
-          запрещенiе
+          запрещеніе
          </orig>
         </choice>
        </corr>
@@ -2606,7 +2593,7 @@
           убийства
          </reg>
          <orig>
-          убiйства
+          убійства
          </orig>
         </choice>
        </corr>
@@ -2622,7 +2609,7 @@
           Запрещение
          </reg>
          <orig>
-          Запрещенiе
+          Запрещеніе
          </orig>
         </choice>
        </corr>
@@ -2638,7 +2625,7 @@
           убийства
          </reg>
          <orig>
-          убiйства
+          убійства
          </orig>
         </choice>
        </corr>
@@ -2665,7 +2652,7 @@
         признании
        </reg>
        <orig>
-        признанiи
+        признаніи
        </orig>
       </choice>
       равенства
@@ -2685,17 +2672,15 @@
        Ср. «Не убий никого», гл. IX.
       </note>
      </p>
-     <p id="0e0e2c09-f971-4f9c-801a-e220e969dbf4" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="23a082b9-387d-4ca7-928b-5850ea00f73f" rend="left">
+     <metamark function="line"/>
+     <p id="23a082b9-387d-4ca7-928b-5850ea00f73f">
       Это
       <choice>
        <reg>
         поколение
        </reg>
        <orig>
-        поколѣнiе
+        поколѣніе
        </orig>
       </choice>
       <choice original_editorial_correction="нетольк[о]">
@@ -2729,7 +2714,7 @@
         религию
        </reg>
        <orig>
-        религiю
+        религію
        </orig>
       </choice>
       , но
@@ -2791,7 +2776,7 @@
         религия
        </reg>
        <orig>
-        религiя
+        религія
        </orig>
       </choice>
       глупость и что не нужно никакой.
@@ -2802,10 +2787,8 @@
        Ср. Дневник 8 августа 1907 г., 6.
       </note>
      </p>
-     <p id="54dd2bc5-42ce-4760-8ee8-e4a2c46337ed" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="a22d3b86-9c57-43f8-abfa-3e3d70157e06" rend="left">
+     <metamark function="line"/>
+     <p id="a22d3b86-9c57-43f8-abfa-3e3d70157e06">
       Только
       <choice>
        <reg>
@@ -2852,7 +2835,7 @@
           исповедающие
          </reg>
          <orig>
-          исповѣдающiе
+          исповѣдающіе
          </orig>
         </choice>
        </corr>
@@ -2876,7 +2859,7 @@
           убийствами
          </reg>
          <orig>
-          убiйствами
+          убійствами
          </orig>
         </choice>
        </corr>
@@ -2913,10 +2896,8 @@
        Ср. «Не убий никого», гл. IX.
       </note>
      </p>
-     <p id="c02366db-3a71-4b90-93f3-5928e0d3655c" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="055d482a-aa86-4146-9799-f8d36e59d962" rend="left">
+     <metamark function="line"/>
+     <p id="055d482a-aa86-4146-9799-f8d36e59d962">
       Прежде были святые Франциски, теперь святые: Дарвины......
       <ref target="#note1085">
        1085
@@ -2925,10 +2906,8 @@
        Ср. Дневник 8 августа 1907 г., 5.
       </note>
      </p>
-     <p id="0647b2ad-ca5e-4147-825a-7ad637534f47" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="259b37ef-429c-4087-ba43-070f30b145ff" rend="left">
+     <metamark function="line"/>
+     <p id="259b37ef-429c-4087-ba43-070f30b145ff">
       <choice>
        <reg>
         Помещики
@@ -3007,7 +2986,7 @@
       </choice>
       копейку. —
      </p>
-     <p id="a28255e4-8379-4b8b-b105-75990d689700" rend="left">
+     <p id="a28255e4-8379-4b8b-b105-75990d689700">
       Сколько народа
       <choice original_editorial_correction="хороша[го]">
        <sic>
@@ -3066,16 +3045,14 @@
        Ср. Дневник 8 августа 1907 г., 4.
       </note>
      </p>
-     <p id="b1b0b03b-a3e0-46a1-9a53-9e4ffe25c1d7" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="9409766d-f832-4d9b-b0b2-d1f7bbc13654" rend="left">
+     <metamark function="line"/>
+     <p id="9409766d-f832-4d9b-b0b2-d1f7bbc13654">
       <choice>
        <reg>
         Хождение
        </reg>
        <orig>
-        Хожденiе
+        Хожденіе
        </orig>
       </choice>
       для него средство
@@ -3089,7 +3066,7 @@
           существования
          </reg>
          <orig>
-          существованiя
+          существованія
          </orig>
         </choice>
        </corr>
@@ -3111,9 +3088,7 @@
        Ср. Дневник 8 августа 1907 г., 4.
       </note>
      </p>
-     <p id="437fdec2-8ce5-4ee9-824a-db1c9c2404e2" rend="left">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
     </div>
     <div type="entry">
      <opener>
@@ -3125,7 +3100,7 @@
        </date>
       </dateline>
      </opener>
-     <p id="9366337a-3cc8-4815-843f-e0980caf0ad4" rend="left">
+     <p id="9366337a-3cc8-4815-843f-e0980caf0ad4">
       Нынче 8 Авг. ясно
       <choice>
        <reg>
@@ -3146,7 +3121,7 @@
        вещи:
       </hi>
      </p>
-     <p id="7318d7b7-8c10-49cf-879e-d2adf02d057f" rend="left">
+     <p id="7318d7b7-8c10-49cf-879e-d2adf02d057f">
       <pb n="285"/>
       <hi style="npdelimiter">
        1)
@@ -3164,7 +3139,7 @@
         религии
        </reg>
        <orig>
-        религiи
+        религіи
        </orig>
       </choice>
       <choice>
@@ -3237,7 +3212,7 @@
         отношение
        </reg>
        <orig>
-        отношенiе
+        отношеніе
        </orig>
       </choice>
       <choice>
@@ -3272,7 +3247,7 @@
       </choice>
       Богу.
      </p>
-     <p id="f55a5a66-1287-46f1-b4f1-1f188db73e6d" rend="left">
+     <p id="f55a5a66-1287-46f1-b4f1-1f188db73e6d">
       2) то, что сущность жизни это радость любви. Это самое сказано
       <choice>
        <reg>
@@ -3312,12 +3287,12 @@
         труждающиеся
        </reg>
        <orig>
-        труждающiеся
+        труждающіеся
        </orig>
       </choice>
       ......»
      </p>
-     <p id="63728f32-bed4-4e58-81bc-f0fa486b4981" rend="left">
+     <p id="63728f32-bed4-4e58-81bc-f0fa486b4981">
       и 3) что обязанность
       <choice>
        <reg>
@@ -3341,7 +3316,7 @@
         усиливание
        </reg>
        <orig>
-        усиливанiе
+        усиливаніе
        </orig>
       </choice>
       <choice>
@@ -3366,7 +3341,7 @@
         увеличение
        </reg>
        <orig>
-        увеличенiе
+        увеличеніе
        </orig>
       </choice>
       <choice>
@@ -3425,10 +3400,8 @@
        Ср. Дневник 8 августа 1907 г., 1, 2, 3.
       </note>
      </p>
-     <p id="e87fa0df-93c3-4e76-b197-8aba64bb70c3" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="83e2fd3a-6551-4ec9-901d-384abc21cc53" rend="left">
+     <metamark function="line"/>
+     <p id="83e2fd3a-6551-4ec9-901d-384abc21cc53">
       <choice>
        <reg>
         К
@@ -3496,10 +3469,8 @@
        Ср. Дневник 22 августа 1907 г., 1.
       </note>
      </p>
-     <p id="c1bbe9dc-a51b-49af-a0bb-9b48671f4052" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="31038acf-208d-4f62-83ce-16b26388bd07" rend="left">
+     <metamark function="line"/>
+     <p id="31038acf-208d-4f62-83ce-16b26388bd07">
       <choice>
        <reg>
         Об
@@ -3521,7 +3492,7 @@
         безумии
        </reg>
        <orig>
-        безумiи
+        безуміи
        </orig>
       </choice>
       устраивать жизнь
@@ -3541,9 +3512,7 @@
        Ср. Дневник 22 августа 1907 г., 2.
       </note>
      </p>
-     <p id="bfddfb57-9813-4171-bd66-e76092704615" rend="left">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
     </div>
     <div type="entry">
      <opener>
@@ -3555,7 +3524,7 @@
        </date>
       </dateline>
      </opener>
-     <p id="81a5ac6d-eb6b-4683-a63f-9df80a97da64" rend="left">
+     <p id="81a5ac6d-eb6b-4683-a63f-9df80a97da64">
       <choice>
        <reg>
         Читал
@@ -3587,7 +3556,7 @@
         хорошия
        </reg>
        <orig>
-        хорошiя
+        хорошія
        </orig>
       </choice>
       <choice>
@@ -3595,7 +3564,7 @@
         побуждения
        </reg>
        <orig>
-        побужденiя
+        побужденія
        </orig>
       </choice>
       , но
@@ -3650,9 +3619,7 @@
        Ср. Дневник 22 августа 1907 г., 3.
       </note>
      </p>
-     <p id="29ba6bc6-3abe-4242-ac57-2a7d9c1dbe39" rend="left">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
     </div>
     <div type="entry">
      <opener>
@@ -3664,14 +3631,14 @@
        </date>
       </dateline>
      </opener>
-     <p id="46cbb375-5405-4cc0-9d16-46fb7c3b6fda" rend="left">
+     <p id="46cbb375-5405-4cc0-9d16-46fb7c3b6fda">
       Можно жить полужизнью — для
       <choice>
        <reg>
         мира
        </reg>
        <orig>
-        мiра
+        міра
        </orig>
       </choice>
       , и жить во всю — для Бога.
@@ -3682,9 +3649,7 @@
        Ср. Дневник 22 августа 1907 г., 4.
       </note>
      </p>
-     <p id="83567f7c-03a9-4b04-a77e-765c45c6df14" rend="left">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
     </div>
     <div type="entry">
      <opener>
@@ -3696,7 +3661,7 @@
        </date>
       </dateline>
      </opener>
-     <p id="096a0615-a5e1-46a3-883c-ab0573c49c91" rend="left">
+     <p id="096a0615-a5e1-46a3-883c-ab0573c49c91">
       Если ты
       <choice>
        <reg>
@@ -3721,7 +3686,7 @@
         проявившийся
        </reg>
        <orig>
-        проявившiйся
+        проявившійся
        </orig>
       </choice>
       <choice>
@@ -3781,7 +3746,7 @@
         освобождению
        </reg>
        <orig>
-        освобожденiю
+        освобожденію
        </orig>
       </choice>
       себя
@@ -3807,7 +3772,7 @@
         единением
        </reg>
        <orig>
-        единенiемъ
+        единеніемъ
        </orig>
       </choice>
       со
@@ -3907,7 +3872,7 @@
       </choice>
       ».
      </p>
-     <p id="f3494f5d-d040-4efe-bad5-2586ed24e9bb" rend="left">
+     <p id="f3494f5d-d040-4efe-bad5-2586ed24e9bb">
       Очень радостно, очень
       <hi style="opdelimiter">
        хорошо.
@@ -3919,7 +3884,7 @@
        Это предложение окружено чертой. Ср. Дневник 7 сентября 1907 г., 1.
       </note>
      </p>
-     <p id="9701e315-a98a-4198-acbc-adb389132ffa" rend="left">
+     <p id="9701e315-a98a-4198-acbc-adb389132ffa">
       <pb n="286"/>
       <hi style="npdelimiter">
        <choice>
@@ -3937,7 +3902,7 @@
         живущий
        </reg>
        <orig>
-        живущiй
+        живущій
        </orig>
       </choice>
       <choice>
@@ -4007,7 +3972,7 @@
         употребления
        </reg>
        <orig>
-        употребленiя
+        употребленія
        </orig>
       </choice>
       <choice>
@@ -4034,16 +3999,14 @@
        Ср. Дневник 7 сентября 1907 г., 2.
       </note>
      </p>
-     <p id="e94dbad4-c495-4a90-b669-4271ebb527ed" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="b6388111-0310-476c-8c67-7ccb4ac770b6" rend="left">
+     <metamark function="line"/>
+     <p id="b6388111-0310-476c-8c67-7ccb4ac770b6">
       <choice>
        <reg>
         Мир
        </reg>
        <orig>
-        Мiръ
+        Міръ
        </orig>
       </choice>
       не
@@ -4069,7 +4032,7 @@
         мире
        </reg>
        <orig>
-        мiрѣ
+        мірѣ
        </orig>
       </choice>
       проявляется
@@ -4205,7 +4168,7 @@
         проявление
        </reg>
        <orig>
-        проявленiе
+        проявленіе
        </orig>
       </choice>
       .
@@ -4216,10 +4179,8 @@
        Ср. Дневник 7 сентября 1907 г., 3.
       </note>
      </p>
-     <p id="9950da93-139d-40cb-8c0e-cd4239e96f59" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="954234ad-35de-43c9-b522-0b9df96f758b" rend="left">
+     <metamark function="line"/>
+     <p id="954234ad-35de-43c9-b522-0b9df96f758b">
       Милые братья,
       <choice original_editorial_correction="поймит[е]">
        <sic>
@@ -4267,7 +4228,7 @@
           исполнении
          </reg>
          <orig>
-          исполненiи
+          исполненіи
          </orig>
         </choice>
        </corr>
@@ -4318,7 +4279,7 @@
           положении
          </reg>
          <orig>
-          положенiи
+          положеніи
          </orig>
         </choice>
        </corr>
@@ -4389,10 +4350,8 @@
        Ср. Дневник 7 сентября 1907 г., 4.
       </note>
      </p>
-     <p id="05b9c26a-058a-46ff-9012-eb12233ff48a" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="af3621d3-7cd1-4fa4-a26c-aa6e652653fd" rend="left">
+     <metamark function="line"/>
+     <p id="af3621d3-7cd1-4fa4-a26c-aa6e652653fd">
       Живо
       <choice>
        <reg>
@@ -4495,10 +4454,8 @@
        Ср. Дневник 7 сентября 1907 г., 5.
       </note>
      </p>
-     <p id="99909785-13d6-4682-9402-e64d167e0213" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="ac99eed4-5b72-476e-a02a-66257ee1f0a6" rend="left">
+     <metamark function="line"/>
+     <p id="ac99eed4-5b72-476e-a02a-66257ee1f0a6">
       <choice>
        <reg>
         Последнее
@@ -4513,7 +4470,7 @@
         ощущение
        </reg>
        <orig>
-        ощущенiе
+        ощущеніе
        </orig>
       </choice>
       праздника.
@@ -4524,17 +4481,15 @@
        Ср. Дневник 7 сентября 1907 г., 6.
       </note>
      </p>
-     <p id="813201b2-7a9e-42f0-a64f-8747c6392d29" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="fa338c6b-0298-4a9c-a215-a87a7a6b05a1" rend="left">
+     <metamark function="line"/>
+     <p id="fa338c6b-0298-4a9c-a215-a87a7a6b05a1">
       Ужасно
       <choice>
        <reg>
         положение
        </reg>
        <orig>
-        положенiе
+        положеніе
        </orig>
       </choice>
       <choice>
@@ -4563,10 +4518,8 @@
       </choice>
       .
      </p>
-     <p id="daf15209-013c-44d8-9fd7-13d33bfd607d" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="20ea1bcf-38ad-45f2-9d94-98f9a6e2a5b8" rend="left">
+     <metamark function="line"/>
+     <p id="20ea1bcf-38ad-45f2-9d94-98f9a6e2a5b8">
       Время
       <choice original_editorial_correction="страшн[ое]">
        <sic>
@@ -4616,7 +4569,7 @@
         Божия
        </reg>
        <orig>
-        Божiя
+        Божія
        </orig>
       </choice>
       . Ради Бога, послушай, пойми и запомни мои
@@ -4655,10 +4608,8 @@
       </choice>
       .
      </p>
-     <p id="2f94c8ca-6912-44d0-8666-73dd0df2d709" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="0f6b7080-8585-4ff5-b45a-4ea36bca79fd" rend="left">
+     <metamark function="line"/>
+     <p id="0f6b7080-8585-4ff5-b45a-4ea36bca79fd">
       Я
       <choice>
        <reg>
@@ -4698,7 +4649,7 @@
         мир
        </reg>
        <orig>
-        мiръ
+        міръ
        </orig>
       </choice>
       — родился и умру. Что же
@@ -4728,7 +4679,7 @@
       </choice>
       ?
      </p>
-     <p id="c4998b3a-09b6-4035-ab57-2ba155ce04ca" rend="left">
+     <p id="c4998b3a-09b6-4035-ab57-2ba155ce04ca">
       Сначала удовлетворяешь
       <choice>
        <reg>
@@ -4775,7 +4726,7 @@
       </choice>
       .
      </p>
-     <p id="750e9bbe-39da-4682-8327-c0aa9754b06e" rend="left">
+     <p id="750e9bbe-39da-4682-8327-c0aa9754b06e">
       Если бы я не
       <choice>
        <reg>
@@ -4826,7 +4777,7 @@
         легкий
        </reg>
        <orig>
-        легкiй
+        легкій
        </orig>
       </choice>
       : жить удовлетворяя
@@ -4903,7 +4854,7 @@
         прохождение
        </reg>
        <orig>
-        прохожденiе
+        прохожденіе
        </orig>
       </choice>
       что заботы ни о
@@ -5082,7 +5033,7 @@
         человеческий
        </reg>
        <orig>
-        человѣческiй
+        человѣческій
        </orig>
       </choice>
       <choice>
@@ -5187,7 +5138,7 @@
         несуществования
        </reg>
        <orig>
-        несуществованiя
+        несуществованія
        </orig>
       </choice>
       <choice>
@@ -5346,7 +5297,7 @@
       </choice>
       . —
      </p>
-     <p id="436f1180-604a-47d8-b534-30a08cb3484b" rend="left">
+     <p id="436f1180-604a-47d8-b534-30a08cb3484b">
       <choice>
        <reg>
         С
@@ -5361,7 +5312,7 @@
         появление
        </reg>
        <orig>
-        появленiе
+        появленіе
        </orig>
       </choice>
       <choice>
@@ -5394,7 +5345,7 @@
         прохождение
        </reg>
        <orig>
-        прохожденiе
+        прохожденіе
        </orig>
       </choice>
       <choice>
@@ -5429,7 +5380,7 @@
         прохождение
        </reg>
        <orig>
-        прохожденiе
+        прохожденіе
        </orig>
       </choice>
       мое не
@@ -5560,7 +5511,7 @@
           положение
          </reg>
          <orig>
-          положенiе
+          положеніе
          </orig>
         </choice>
        </corr>
@@ -5643,7 +5594,7 @@
         одурманения
        </reg>
        <orig>
-        одурманенiя
+        одурманенія
        </orig>
       </choice>
       , при
@@ -5835,7 +5786,7 @@
         властвующий
        </reg>
        <orig>
-        властвующiй
+        властвующій
        </orig>
       </choice>
       <choice>
@@ -5892,7 +5843,7 @@
         властвующий
        </reg>
        <orig>
-        властвующiй
+        властвующій
        </orig>
       </choice>
       <choice>
@@ -5949,7 +5900,7 @@
       </choice>
       .
      </p>
-     <p id="53da818a-1a3d-4e63-991a-772c3c007a15" rend="left">
+     <p id="53da818a-1a3d-4e63-991a-772c3c007a15">
       <choice>
        <reg>
         С
@@ -5990,7 +5941,7 @@
         сознания
        </reg>
        <orig>
-        сознанiя
+        сознанія
        </orig>
       </choice>
       своего разума я вижу, что то начало разума,
@@ -6056,7 +6007,7 @@
           проявление
          </reg>
          <orig>
-          проявленiе
+          проявленіе
          </orig>
         </choice>
        </corr>
@@ -6090,7 +6041,7 @@
           соединение
          </reg>
          <orig>
-          соединенiе
+          соединеніе
          </orig>
         </choice>
        </corr>
@@ -6110,7 +6061,7 @@
         соединение
        </reg>
        <orig>
-        соединенiе
+        соединеніе
        </orig>
       </choice>
       себя,
@@ -6168,7 +6119,7 @@
         прохождения
        </reg>
        <orig>
-        прохожденiя
+        прохожденія
        </orig>
       </choice>
       <choice>
@@ -6185,7 +6136,7 @@
         Соединение
        </reg>
        <orig>
-        Соединенiе
+        Соединеніе
        </orig>
       </choice>
       же это
@@ -6229,10 +6180,8 @@
        Ср. Дневник 11 сентября 1907 г., 1.
       </note>
      </p>
-     <p id="ee09c27f-1ef5-4635-aedf-2e0ef8e7cc9b" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="012ab900-c5f6-428d-bae4-41803244aa3b" rend="left">
+     <metamark function="line"/>
+     <p id="012ab900-c5f6-428d-bae4-41803244aa3b">
       <choice>
        <reg>
         Вера
@@ -6271,7 +6220,7 @@
         мира
        </reg>
        <orig>
-        мiра
+        міра
        </orig>
       </choice>
       наилучшее.
@@ -6282,10 +6231,8 @@
        Ср. Дневник 11 сентября 1907 г., 2.
       </note>
      </p>
-     <p id="375b493c-cd8c-4b61-b46c-4390dc7c07cc" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="2a5592fc-e3e9-4374-9263-9c04a4698339" rend="left">
+     <metamark function="line"/>
+     <p id="2a5592fc-e3e9-4374-9263-9c04a4698339">
       Есть доля правды
       <choice>
        <reg>
@@ -6339,7 +6286,7 @@
         мире
        </reg>
        <orig>
-        мiрѣ
+        мірѣ
        </orig>
       </choice>
       <choice>
@@ -6358,10 +6305,8 @@
        Ср. Дневник 11 сентября 1907 г., 3.
       </note>
      </p>
-     <p id="582bdedb-bb7a-4c60-9677-b5f7b9fb34d3" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="9b4be76f-e5da-4687-aca7-46529cfcf408" rend="left">
+     <metamark function="line"/>
+     <p id="9b4be76f-e5da-4687-aca7-46529cfcf408">
       То, что у меня
       <choice original_editorial_correction="така[я]">
        <sic>
@@ -6405,10 +6350,8 @@
        Ср. Дневник 11 сентября 1907 г., 4.
       </note>
      </p>
-     <p id="dfae3db0-3b97-4a76-bf9c-1409d1ce4464" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="2ea015c1-3b1e-418c-9389-415168dabd52" rend="left">
+     <metamark function="line"/>
+     <p id="2ea015c1-3b1e-418c-9389-415168dabd52">
       <choice original_editorial_correction="Ч[ерткову]">
        <sic>
         Ч
@@ -6451,10 +6394,8 @@
        Ср. Дневник 11 сентября 1907 г., 5.
       </note>
      </p>
-     <p id="a82dff26-a414-4db4-b248-184821ed7f45" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="ea637d27-61ac-4a36-92e7-72cd8ef312c7" rend="left">
+     <metamark function="line"/>
+     <p id="ea637d27-61ac-4a36-92e7-72cd8ef312c7">
       <choice>
        <reg>
         Сейчас
@@ -6502,7 +6443,7 @@
         мнения
        </reg>
        <orig>
-        мнѣнiя
+        мнѣнія
        </orig>
       </choice>
       о
@@ -6525,7 +6466,7 @@
           спокойствие
          </reg>
          <orig>
-          спокойствiе
+          спокойствіе
          </orig>
         </choice>
        </corr>
@@ -6555,10 +6496,8 @@
        Ср. Дневник 11 сентября 1907 г., 6
       </note>
      </p>
-     <p id="56284001-1287-40c6-9895-0584a5f5e7e4" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="f9bd56ec-87e0-4f0f-9f8a-25e33e6b24a0" rend="left">
+     <metamark function="line"/>
+     <p id="f9bd56ec-87e0-4f0f-9f8a-25e33e6b24a0">
       Наше
       <choice original_editorial_correction="воспитані[е]">
        <sic>
@@ -6570,7 +6509,7 @@
           воспитание
          </reg>
          <orig>
-          воспитанiе
+          воспитаніе
          </orig>
         </choice>
        </corr>
@@ -6581,7 +6520,7 @@
         воспитание
        </reg>
        <orig>
-        воспитанiе
+        воспитаніе
        </orig>
       </choice>
       <choice>
@@ -6668,17 +6607,15 @@
        Ср. Дневник 26 сентября 1907 г., 8
       </note>
      </p>
-     <p id="13321e37-a89c-48f4-b462-2e9a46161555" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="8ae8cd3d-ffde-4b36-84f6-45ef59254966" rend="left">
+     <metamark function="line"/>
+     <p id="8ae8cd3d-ffde-4b36-84f6-45ef59254966">
       Только благодаря времени —
       <choice>
        <reg>
         движению
        </reg>
        <orig>
-        движенiю
+        движенію
        </orig>
       </choice>
       — возможно
@@ -6687,7 +6624,7 @@
         раскаяние
        </reg>
        <orig>
-        раскаянiе
+        раскаяніе
        </orig>
       </choice>
       ,
@@ -6701,7 +6638,7 @@
           осуждение
          </reg>
          <orig>
-          осужденiе
+          осужденіе
          </orig>
         </choice>
        </corr>
@@ -6717,10 +6654,8 @@
       </choice>
       роста.
      </p>
-     <p id="7de14b9a-ab01-4528-a8e2-151403be0e30" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="6164a2fb-7326-4538-80bd-999ffb058142" rend="left">
+     <metamark function="line"/>
+     <p id="6164a2fb-7326-4538-80bd-999ffb058142">
       Только
       <choice original_editorial_correction="благодар[я]">
        <sic>
@@ -6798,16 +6733,14 @@
        Cp. Дневник 26 сентября 1907 г., 9
       </note>
      </p>
-     <p id="39ecfb83-f1d4-4548-abf6-173427505ca5" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="1cbd6621-6ebb-470e-bff1-28c975a99bd9" rend="left">
+     <metamark function="line"/>
+     <p id="1cbd6621-6ebb-470e-bff1-28c975a99bd9">
       <choice>
        <reg>
         Внешние
        </reg>
        <orig>
-        Внѣшнiе
+        Внѣшніе
        </orig>
       </choice>
       знаки
@@ -6816,7 +6749,7 @@
         поклонения
        </reg>
        <orig>
-        поклоненiя
+        поклоненія
        </orig>
       </choice>
       Богу
@@ -6840,7 +6773,7 @@
         значение
        </reg>
        <orig>
-        значенiе
+        значеніе
        </orig>
       </choice>
       для людей.
@@ -6918,7 +6851,7 @@
         признание
        </reg>
        <orig>
-        признанiе
+        признаніе
        </orig>
       </choice>
       <hi style="opdelimiter">
@@ -6931,7 +6864,7 @@
          отношения
         </reg>
         <orig>
-         отношенiя
+         отношенія
         </orig>
        </choice>
       </hi>
@@ -6958,7 +6891,7 @@
         делающий
        </reg>
        <orig>
-        дѣлающiй
+        дѣлающій
        </orig>
       </choice>
       этого — не
@@ -6981,7 +6914,7 @@
           отношения
          </reg>
          <orig>
-          отношенiя
+          отношенія
          </orig>
         </choice>
        </corr>
@@ -6994,10 +6927,8 @@
        Ср. Дневник 26 сентября 1907 г., 10.
       </note>
      </p>
-     <p id="b4c2bbf4-fefa-40cd-a11c-51cb78c5a062" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="c6aa422e-4df6-4bb9-956f-2f15a2a6910f" rend="left">
+     <metamark function="line"/>
+     <p id="c6aa422e-4df6-4bb9-956f-2f15a2a6910f">
       <choice>
        <reg>
         Бог
@@ -7058,10 +6989,8 @@
        Ср. Дневник 26 сентября 1907 г., 11.
       </note>
      </p>
-     <p id="d4e86210-9595-416f-a10c-4d3a01175ca1" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="e03a03c8-c6e1-4ddb-bab5-4b728e6231ad" rend="left">
+     <metamark function="line"/>
+     <p id="e03a03c8-c6e1-4ddb-bab5-4b728e6231ad">
       Во
       <choice>
        <reg>
@@ -7110,7 +7039,7 @@
         недоразумению
        </reg>
        <orig>
-        недоразумѣнiю
+        недоразумѣнію
        </orig>
       </choice>
       <choice original_editorial_correction="дума[ю]">
@@ -7147,10 +7076,8 @@
        Ср. Дневник 26 сентября 1907 г., 12.
       </note>
      </p>
-     <p id="faea01f6-8f29-4316-83a3-142727d03802" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="2e0faa6d-be4f-450c-ba6c-73875c701ce3" rend="left">
+     <metamark function="line"/>
+     <p id="2e0faa6d-be4f-450c-ba6c-73875c701ce3">
       <choice original_editorial_correction="Желані[е]">
        <sic>
         Желані
@@ -7161,7 +7088,7 @@
           Желание
          </reg>
          <orig>
-          Желанiе
+          Желаніе
          </orig>
         </choice>
        </corr>
@@ -7181,7 +7108,7 @@
         желанием
        </reg>
        <orig>
-        желанiемъ
+        желаніемъ
        </orig>
       </choice>
       блага одному:
@@ -7190,7 +7117,7 @@
         желание
        </reg>
        <orig>
-        желанiе
+        желаніе
        </orig>
       </choice>
       блага есть
@@ -7226,10 +7153,8 @@
        Ср. Дневник 26 сентября 1907 г., 12.
       </note>
      </p>
-     <p id="6e117a5e-33db-4bee-af49-dfccbafc6f8b" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="ba44c9bd-dc6e-4659-93a6-738c104640b4" rend="left">
+     <metamark function="line"/>
+     <p id="ba44c9bd-dc6e-4659-93a6-738c104640b4">
       Для
       <choice>
        <reg>
@@ -7306,7 +7231,7 @@
         орудие
        </reg>
        <orig>
-        орудiе
+        орудіе
        </orig>
       </choice>
       ,
@@ -7359,10 +7284,8 @@
        Ср. Дневник 26 сентября 1907 г., 13.
       </note>
      </p>
-     <p id="29565aea-2370-4dc0-ac92-754717b23b08" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="9db06850-e748-40c2-87c5-8b18d13bde4f" rend="left">
+     <metamark function="line"/>
+     <p id="9db06850-e748-40c2-87c5-8b18d13bde4f">
       <choice original_editorial_correction="Эпидемич[еское]">
        <sic>
         Эпидемич
@@ -7381,7 +7304,7 @@
           сумашествие
          </reg>
          <orig>
-          сумашествiе
+          сумашествіе
          </orig>
         </choice>
        </corr>
@@ -7392,22 +7315,20 @@
         мира
        </reg>
        <orig>
-        мiра
+        міра
        </orig>
       </choice>
       .
      </p>
-     <p id="8e0f4876-7223-4a80-a78b-4db762c804f0" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="1c6d34d8-0357-4f08-95ec-e8c8111c9fd6" rend="left">
+     <metamark function="line"/>
+     <p id="1c6d34d8-0357-4f08-95ec-e8c8111c9fd6">
       О
       <choice>
        <reg>
         положении
        </reg>
        <orig>
-        положенiи
+        положеніи
        </orig>
       </choice>
       <choice original_editorial_correction="женщин[ъ]">
@@ -7427,10 +7348,8 @@
       </choice>
       .
      </p>
-     <p id="103f7742-b508-42b0-bf91-9e04e26fb29e" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="c039cf2b-38fb-4441-bf33-b411b789c43a" rend="left">
+     <metamark function="line"/>
+     <p id="c039cf2b-38fb-4441-bf33-b411b789c43a">
       Жизнь не шутка, а великое,
       <choice original_editorial_correction="торжественн[ое]">
        <sic>
@@ -7465,9 +7384,7 @@
        Ср. Дневник 10 октября 1907 г., 1.
       </note>
      </p>
-     <p id="09bcf757-e266-4257-a5da-1e5dfbbd55c3" rend="left">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
     </div>
     <div type="entry">
      <opener>
@@ -7479,19 +7396,19 @@
        </date>
       </dateline>
      </opener>
-     <p id="eaedf3a5-9ab2-4248-8ff9-377139575fcf" rend="left">
+     <p id="eaedf3a5-9ab2-4248-8ff9-377139575fcf">
       1) Испытать
       <choice>
        <reg>
         самоотречение
        </reg>
        <orig>
-        самоотреченiе
+        самоотреченіе
        </orig>
       </choice>
       .
      </p>
-     <p id="d7f44d6e-78e6-4784-9bef-72ffaec43192" rend="left">
+     <p id="d7f44d6e-78e6-4784-9bef-72ffaec43192">
       2)
       <choice>
        <reg>
@@ -7511,7 +7428,7 @@
       </choice>
       отказавшемся.
      </p>
-     <p id="e63c674c-0d98-49e6-9cd4-88997ce44568" rend="left">
+     <p id="e63c674c-0d98-49e6-9cd4-88997ce44568">
       3) Жизнь
       <choice original_editorial_correction="чтоб[ы]">
        <sic>
@@ -7541,10 +7458,8 @@
       </choice>
       смерть.
      </p>
-     <p id="32d57829-8973-44fa-885e-8e5d033e7d53" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="6e23de60-9da8-42fb-a2f3-dee9b31c3a6d" rend="left">
+     <metamark function="line"/>
+     <p id="6e23de60-9da8-42fb-a2f3-dee9b31c3a6d">
       Говори только тогда, когда хочешь передать, а молчи, когда хочется говорить для себя.
       <ref target="#note1122">
        1122
@@ -7553,13 +7468,11 @@
        Ср. Дневник 10 октября 1907 г., 2.
       </note>
      </p>
-     <p id="14bdc099-a698-4c5c-b2b5-a743f3f9eb81" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="31c2e8bb-9f49-4854-9a36-0eda73fc2f48" rend="left">
+     <metamark function="line"/>
+     <p id="31c2e8bb-9f49-4854-9a36-0eda73fc2f48">
       Не сознаю себя, но знаю, что я есмь. Что же такое то, про что я знаю, что оно есть?
      </p>
-     <p id="c481194b-6fa5-4c6b-975c-9e51fa218eae" rend="left">
+     <p id="c481194b-6fa5-4c6b-975c-9e51fa218eae">
       Это божественное во
       <hi style="opdelimiter">
        <choice>
@@ -7579,7 +7492,7 @@
        Ср. Дневник 10 октября 1907 г., 3.
       </note>
      </p>
-     <p id="cceeb925-c783-4996-81f9-f1f0ba2cdc80" rend="left">
+     <p id="cceeb925-c783-4996-81f9-f1f0ba2cdc80">
       <pb n="290"/>
       <hi style="npdelimiter">
        Сознавать
@@ -7623,12 +7536,12 @@
         уединении
        </reg>
        <orig>
-        уединенiи
+        уединеніи
        </orig>
       </choice>
       .
      </p>
-     <p id="f58cdfb6-49aa-4bab-b2f6-c2f096d59260" rend="left">
+     <p id="f58cdfb6-49aa-4bab-b2f6-c2f096d59260">
       Вторая ступень сознавать Бога во
       <choice>
        <reg>
@@ -7663,10 +7576,8 @@
        Ср. Дневник 10 октября 1907 г., 4.
       </note>
      </p>
-     <p id="ffb55dcf-eab7-4165-bbf1-785209f97df2" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="48983dae-a41b-44c2-84cc-c11e9307acd6" rend="left">
+     <metamark function="line"/>
+     <p id="48983dae-a41b-44c2-84cc-c11e9307acd6">
       <choice>
        <reg>
         Вера
@@ -7706,7 +7617,7 @@
         осуждения
        </reg>
        <orig>
-        осужденiя
+        осужденія
        </orig>
       </choice>
       людей
@@ -7752,10 +7663,8 @@
        Ср. Дневник 10 октября 1907 г., 5; 20 октября 1907 г., 1.
       </note>
      </p>
-     <p id="7bf3d579-c12d-42a1-93b8-300def6777fa" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="b136366c-0fac-4d0b-ba76-be77abccf8da" rend="left">
+     <metamark function="line"/>
+     <p id="b136366c-0fac-4d0b-ba76-be77abccf8da">
       <choice original_editorial_correction="Потемк[инская?]">
        <sic>
         Потемк
@@ -7774,10 +7683,8 @@
       </choice>
       на участки.
      </p>
-     <p id="f90a49dc-20bf-423f-8262-fe2d4e80e558" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="4a8647c6-25c7-468a-b487-543b0e3db32c" rend="left">
+     <metamark function="line"/>
+     <p id="4a8647c6-25c7-468a-b487-543b0e3db32c">
       Отрицать
       <choice original_editorial_correction="существ[ующій]">
        <sic>
@@ -7789,7 +7696,7 @@
           существующий
          </reg>
          <orig>
-          существующiй
+          существующій
          </orig>
         </choice>
        </corr>
@@ -7826,10 +7733,8 @@
        Ср. Дневник 26 октября 1907 г., 1.
       </note>
      </p>
-     <p id="4c3513c7-294f-4e48-8255-34c7465469b2" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="473fb9bb-21da-4d94-a2c9-d8f213cae9e4" rend="left">
+     <metamark function="line"/>
+     <p id="473fb9bb-21da-4d94-a2c9-d8f213cae9e4">
       <choice>
        <reg>
         Соблазн
@@ -7865,9 +7770,7 @@
       </choice>
       жизни.
      </p>
-     <p id="e32f7987-cc37-4fee-a927-e9940a3e2294" rend="left">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
     </div>
     <div type="entry">
      <opener>
@@ -7879,7 +7782,7 @@
        </date>
       </dateline>
      </opener>
-     <p id="42e96d2e-a5e5-42ff-be76-da0913dc6984" rend="left">
+     <p id="42e96d2e-a5e5-42ff-be76-da0913dc6984">
       Трудность перенестись
       <choice>
        <reg>
@@ -7904,7 +7807,7 @@
         себялюбия
        </reg>
        <orig>
-        себялюбiя
+        себялюбія
        </orig>
       </choice>
       ,
@@ -7941,10 +7844,8 @@
        Ср. Дневник 8 ноября 1907 г., 1.
       </note>
      </p>
-     <p id="4b2e7a94-6de1-4317-9acb-8f95ca639717" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="a9025160-8204-421a-810f-f89e190341eb" rend="left">
+     <metamark function="line"/>
+     <p id="a9025160-8204-421a-810f-f89e190341eb">
       Привычка
       <choice>
        <reg>
@@ -7959,7 +7860,7 @@
         влияние
        </reg>
        <orig>
-        влiянiе
+        вліяніе
        </orig>
       </choice>
       и потому
@@ -7996,10 +7897,8 @@
        Ср. Дневник 8 ноября 1907 г., 2.
       </note>
      </p>
-     <p id="d6af64fc-0735-4e82-a573-a0322a99303e" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="c5cbdcc0-0aa8-44ca-adca-2525984baf74" rend="left">
+     <metamark function="line"/>
+     <p id="c5cbdcc0-0aa8-44ca-adca-2525984baf74">
       Пишу
       <choice>
        <reg>
@@ -8019,10 +7918,8 @@
       </choice>
       .
      </p>
-     <p id="222af2fd-1c6e-45cb-8d5f-173a1c382aa2" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="2ba9b42c-57a0-482d-9bae-e358e46d4b30" rend="left">
+     <metamark function="line"/>
+     <p id="2ba9b42c-57a0-482d-9bae-e358e46d4b30">
       <choice>
        <reg>
         Дело
@@ -8083,10 +7980,8 @@
        Ср. Дневник 8 ноября 1907 г., 3.
       </note>
      </p>
-     <p id="9cf019f9-4fdd-45e9-9fb5-e8a6a4d233e0" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="04a303ac-7a1a-4bbf-a4cc-9ca4f69a45f5" rend="left">
+     <metamark function="line"/>
+     <p id="04a303ac-7a1a-4bbf-a4cc-9ca4f69a45f5">
       Если занять
       <choice>
        <reg>
@@ -8107,7 +8002,7 @@
           знаниями
          </reg>
          <orig>
-          знанiями
+          знаніями
          </orig>
         </choice>
        </corr>
@@ -8143,7 +8038,7 @@
         религиозных
        </reg>
        <orig>
-        религiозныхъ
+        религіозныхъ
        </orig>
       </choice>
       . Только
@@ -8161,7 +8056,7 @@
         нерелигиозность
        </reg>
        <orig>
-        нерелигiозность
+        нерелигіозность
        </orig>
       </choice>
       <choice>
@@ -8245,10 +8140,8 @@
        Ср. Дневник 8 ноября 1907 г., 4.
       </note>
      </p>
-     <p id="7121ada3-0a43-456c-8c26-d31f9145bd38" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="05686c47-38d2-499f-8e7f-e00eee36738e" rend="left">
+     <metamark function="line"/>
+     <p id="05686c47-38d2-499f-8e7f-e00eee36738e">
       <choice>
        <reg>
         Трагизм
@@ -8262,7 +8155,7 @@
         положения
        </reg>
        <orig>
-        положенiя
+        положенія
        </orig>
       </choice>
       : или
@@ -8286,7 +8179,7 @@
         православия
        </reg>
        <orig>
-        православiя
+        православія
        </orig>
       </choice>
       или
@@ -8306,7 +8199,7 @@
           ианство
          </reg>
          <orig>
-          iанство
+          іанство
          </orig>
         </choice>
        </corr>
@@ -8340,7 +8233,7 @@
         христианстве
        </reg>
        <orig>
-        христiанствѣ
+        христіанствѣ
        </orig>
       </choice>
       я
@@ -8388,7 +8281,7 @@
        Ср. Дневник 8 ноября 1907 г., 5.
       </note>
      </p>
-     <p id="baf9cffc-5589-41ee-879c-161392279180" rend="left">
+     <p id="baf9cffc-5589-41ee-879c-161392279180">
       <pb n="291"/>
       <hi style="npdelimiter">
        Упрекать
@@ -8407,7 +8300,7 @@
         несогласие
        </reg>
        <orig>
-        несогласiе
+        несогласіе
        </orig>
       </choice>
       — представляется всегда гордостью.
@@ -8418,10 +8311,8 @@
        Ср. Дневник 22 ноября 1907 г., 10.
       </note>
      </p>
-     <p id="49c1acf4-9627-46d3-b805-e69435a05bbe" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="0e0b6773-0fb3-4c25-b928-99b0f90e9533" rend="left">
+     <metamark function="line"/>
+     <p id="0e0b6773-0fb3-4c25-b928-99b0f90e9533">
       <hi>
        12 Нояб. 1907.
       </hi>
@@ -8522,7 +8413,7 @@
           учение
          </reg>
          <orig>
-          ученiе
+          ученіе
          </orig>
         </choice>
         .
@@ -8534,7 +8425,7 @@
         воззвание
        </reg>
        <orig>
-        воззванiе
+        воззваніе
        </orig>
       </choice>
       , но
@@ -8543,7 +8434,7 @@
         учение
        </reg>
        <orig>
-        ученiе
+        ученіе
        </orig>
       </choice>
       истины, все это
@@ -8561,7 +8452,7 @@
         всравнении
        </reg>
        <orig>
-        всравненiи
+        всравненіи
        </orig>
       </choice>
       <choice>
@@ -8594,7 +8485,7 @@
         выражением
        </reg>
        <orig>
-        выраженiемъ
+        выраженіемъ
        </orig>
       </choice>
       <choice>
@@ -8637,7 +8528,7 @@
         энергия
        </reg>
        <orig>
-        энергiя
+        энергія
        </orig>
       </choice>
       жизни переносится на
@@ -8646,7 +8537,7 @@
         освобождение
        </reg>
        <orig>
-        освобожденiе
+        освобожденіе
        </orig>
       </choice>
       духовной
@@ -8664,7 +8555,7 @@
         сознание
        </reg>
        <orig>
-        сознанiе
+        сознаніе
        </orig>
       </choice>
       и потому и
@@ -8681,7 +8572,7 @@
         проявления
        </reg>
        <orig>
-        проявленiя
+        проявленія
        </orig>
       </choice>
       <choice>
@@ -8700,7 +8591,7 @@
        Ср. Дневник 22 ноября 1907 г., 11.
       </note>
      </p>
-     <p id="70e53dfa-5603-4129-8437-969881a37b34" rend="left">
+     <p id="70e53dfa-5603-4129-8437-969881a37b34">
       <hi>
        13 Нояб.
       </hi>
@@ -8969,7 +8860,7 @@
         состоянии
        </reg>
        <orig>
-        состоянiи
+        состояніи
        </orig>
       </choice>
       стараюсь вспомнить — и не могу. И я вижу, что того,
@@ -9108,7 +8999,7 @@
         воспоминании
        </reg>
        <orig>
-        воспоминанiи
+        воспоминаніи
        </orig>
       </choice>
       я
@@ -9181,17 +9072,15 @@
        Ср. Дневник 22 ноября 1907 г., 12.
       </note>
      </p>
-     <p id="688ff5f0-8f41-429e-8d44-56dfb882c394" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="bb172910-259b-4edc-8b7a-880d5472d7f3" rend="left">
+     <metamark function="line"/>
+     <p id="bb172910-259b-4edc-8b7a-880d5472d7f3">
       Свойственно ли молодежи желать того, чего я желаю: (
       <choice>
        <reg>
         спасения
        </reg>
        <orig>
-        спасенiя
+        спасенія
        </orig>
       </choice>
       души)
@@ -9200,7 +9089,7 @@
         приближения
        </reg>
        <orig>
-        приближенiя
+        приближенія
        </orig>
       </choice>
       <choice>
@@ -9249,10 +9138,10 @@
        Ср. Дневник 22 ноября 1907 г., 13.
       </note>
      </p>
-     <p id="46bddea2-624f-4d95-b0f0-202502172e6e" rend="left pages2">
+     <p id="46bddea2-624f-4d95-b0f0-202502172e6e" rend="pages2">
       <pb n="292"/>
      </p>
-     <p id="798684eb-95de-40bc-9284-cf3a32199d85" rend="left">
+     <p id="798684eb-95de-40bc-9284-cf3a32199d85">
       Хороша молитва
       <choice>
        <reg>
@@ -9267,7 +9156,7 @@
         уединении
        </reg>
        <orig>
-        уединенiи
+        уединеніи
        </orig>
       </choice>
       , но
@@ -9285,7 +9174,7 @@
         общении
        </reg>
        <orig>
-        общенiи
+        общеніи
        </orig>
       </choice>
       ,
@@ -9338,10 +9227,8 @@
        Cp. Дневник 22 ноября 1907 г., 14.
       </note>
      </p>
-     <p id="22829db8-6215-43ec-ae91-34369c505cc4" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="14cc3be4-b3b9-4f15-8657-4352b22e8e46" rend="left">
+     <metamark function="line"/>
+     <p id="14cc3be4-b3b9-4f15-8657-4352b22e8e46">
       Правительство, зная (
       <choice>
        <reg>
@@ -9375,7 +9262,7 @@
         религии
        </reg>
        <orig>
-        религiи
+        религіи
        </orig>
       </choice>
       , и себя
@@ -9398,7 +9285,7 @@
           религии
          </reg>
          <orig>
-          религiи
+          религіи
          </orig>
         </choice>
        </corr>
@@ -9409,7 +9296,7 @@
         религия
        </reg>
        <orig>
-        религiя
+        религія
        </orig>
       </choice>
       , на
@@ -9482,10 +9369,8 @@
        Ср. Дневник 22 ноября 1907 г., 15.
       </note>
      </p>
-     <p id="a25e6fbf-664e-45ed-aacd-85e9341af830" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="b3408c07-b2e7-4ba5-a32d-2c1d7a3365b2" rend="left">
+     <metamark function="line"/>
+     <p id="b3408c07-b2e7-4ba5-a32d-2c1d7a3365b2">
       <choice>
        <reg>
         Думал
@@ -9527,7 +9412,7 @@
         умирание
        </reg>
        <orig>
-        умиранiе
+        умираніе
        </orig>
       </choice>
       , и надо готовиться.
@@ -9538,16 +9423,14 @@
        Ср. Дневник 22 ноября 1907 г., 16.
       </note>
      </p>
-     <p id="ce3e1ddd-0f16-4b57-9f19-af180efa84f3" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="03137c00-e5d7-4d37-8d01-2f601975b023" rend="left">
+     <metamark function="line"/>
+     <p id="03137c00-e5d7-4d37-8d01-2f601975b023">
       <choice>
        <reg>
         Суеверие
        </reg>
        <orig>
-        Суевѣрiе
+        Суевѣріе
        </orig>
       </choice>
       <choice original_editorial_correction="личност[и]">
@@ -9566,10 +9449,8 @@
        Дневник 22 ноября 1907 г., 17.
       </note>
      </p>
-     <p id="51c77896-9bb1-42a1-bc1b-bb7674bd9129" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="0896da9b-8110-459e-afe5-f5f7c0646e4d" rend="left">
+     <metamark function="line"/>
+     <p id="0896da9b-8110-459e-afe5-f5f7c0646e4d">
       Можно механически
       <choice>
        <reg>
@@ -9587,10 +9468,8 @@
        Ср. Дневник 22 ноября 1907 г., 18.
       </note>
      </p>
-     <p id="aa78133c-acc1-4341-b36b-808379690db1" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="368e8bf1-594e-487e-a688-1db81817c860" rend="left">
+     <metamark function="line"/>
+     <p id="368e8bf1-594e-487e-a688-1db81817c860">
       Не сердиться надо не для людей, а для себя, не
       <choice>
        <reg>
@@ -9634,10 +9513,8 @@
        Дневник 22 ноября 1907 г., 19.
       </note>
      </p>
-     <p id="fdb810bf-6ba8-471a-889a-bd80680363c9" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="c24f4116-1d4c-46c0-bd93-31116ba4c55f" rend="left">
+     <metamark function="line"/>
+     <p id="c24f4116-1d4c-46c0-bd93-31116ba4c55f">
       <choice>
        <reg>
         Дарвин
@@ -9679,7 +9556,7 @@
         переживание
        </reg>
        <orig>
-        переживанiе
+        переживаніе
        </orig>
       </choice>
       <choice>
@@ -9712,7 +9589,7 @@
         приспособление
        </reg>
        <orig>
-        приспособленiе
+        приспособленіе
        </orig>
       </choice>
       <ref target="#note1143">
@@ -9751,7 +9628,7 @@
         библейский
        </reg>
        <orig>
-        библейскiй
+        библейскій
        </orig>
       </choice>
       <choice>
@@ -9781,10 +9658,8 @@
        Ср. Дневник 22 ноября 1907 г., 20. После этого начата новая запись недописанным словом Го, после которого оставлено чистое место.
       </note>
      </p>
-     <p id="0a1e02a6-5b82-4487-9be8-13dc71965fe4" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="160af4ca-1b1d-4747-9aef-f5d0ee64a3a5" rend="left">
+     <metamark function="line"/>
+     <p id="160af4ca-1b1d-4747-9aef-f5d0ee64a3a5">
       Вода
       <choice>
        <reg>
@@ -9811,10 +9686,8 @@
        Ср. Дневник 22 ноября 1907 г., 21, 22.
       </note>
      </p>
-     <p id="5ffe0b11-9009-43b5-946b-d7c4af3001ef" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="dedf07af-434d-4536-a482-bf0876826700" rend="left">
+     <metamark function="line"/>
+     <p id="dedf07af-434d-4536-a482-bf0876826700">
       Сначала кажется странно, почему
       <choice>
        <reg>
@@ -9924,7 +9797,7 @@
         оправдания
        </reg>
        <orig>
-        оправданiя
+        оправданія
        </orig>
       </choice>
       <choice>
@@ -9951,10 +9824,8 @@
        Ср. Дневник 29 ноября 1907 г., 1.
       </note>
      </p>
-     <p id="c43286c0-89e5-4c79-9e64-dd2210f0969f" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="50ab632f-a43f-478e-adfd-dd0c9676cc39" rend="left">
+     <metamark function="line"/>
+     <p id="50ab632f-a43f-478e-adfd-dd0c9676cc39">
       <choice>
        <reg>
         К
@@ -9968,7 +9839,7 @@
         сладострастию
        </reg>
        <orig>
-        сладострастiю
+        сладострастію
        </orig>
       </choice>
       : животные
@@ -10003,16 +9874,14 @@
        Ср. Дневник 29 ноября 1907 г., 3.
       </note>
      </p>
-     <p id="fe05cf3a-4289-4eb8-b20a-4293b98126c8" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="821de23d-e356-40b0-95a8-5e134ba33682" rend="left">
+     <metamark function="line"/>
+     <p id="821de23d-e356-40b0-95a8-5e134ba33682">
       <choice>
        <reg>
         Целомудрие
        </reg>
        <orig>
-        Цѣломудрiе
+        Цѣломудріе
        </orig>
       </choice>
       есть преграда,
@@ -10021,7 +9890,7 @@
         облегчение
        </reg>
        <orig>
-        облегченiе
+        облегченіе
        </orig>
       </choice>
       борьбы.
@@ -10041,10 +9910,8 @@
        Ср. Дневник 29 ноября 1907 г., 4.
       </note>
      </p>
-     <p id="0fd93ec5-147e-4174-a5af-0e5b44fc89a9" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="b85b2e2f-03ea-47a8-a613-697819607fee" rend="left">
+     <metamark function="line"/>
+     <p id="b85b2e2f-03ea-47a8-a613-697819607fee">
       <choice>
        <reg>
         Сейчас
@@ -10092,10 +9959,8 @@
        </corr>
       </choice>
      </p>
-     <p id="d1a102bf-461d-4cc6-9a4a-9e6139d35e44" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="e9794249-4dfd-4610-b6f7-253ec2813051" rend="left">
+     <metamark function="line"/>
+     <p id="e9794249-4dfd-4610-b6f7-253ec2813051">
       <choice>
        <reg>
         Стыд
@@ -10106,10 +9971,8 @@
       </choice>
       . —
      </p>
-     <p id="57882daf-4c8f-4d55-8273-c6eb3dec712f" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="ccb70261-b129-4b7b-af07-651b208cf6b1" rend="left">
+     <metamark function="line"/>
+     <p id="ccb70261-b129-4b7b-af07-651b208cf6b1">
       <hi>
        <choice>
         <reg>
@@ -10145,10 +10008,8 @@
        Ср. Дневник 16 декабря 1907 г., 10.
       </note>
      </p>
-     <p id="d116a39e-343f-4cd8-91c4-0f6125bb6a4a" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="0987ad8a-7b94-4151-814e-3be256e4c8c7" rend="left">
+     <metamark function="line"/>
+     <p id="0987ad8a-7b94-4151-814e-3be256e4c8c7">
       <choice>
        <reg>
         Без
@@ -10162,7 +10023,7 @@
         религии
        </reg>
        <orig>
-        религiи
+        религіи
        </orig>
       </choice>
       <choice original_editorial_correction="человѣ[къ]">
@@ -10254,10 +10115,8 @@
        Ср. Дневник 16 декабря 1907 г., 11.
       </note>
      </p>
-     <p id="62a929e0-739c-4a3b-8373-d0822a79e722" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="febf5211-da4a-49b5-9d2d-c86df7e092a6" rend="left">
+     <metamark function="line"/>
+     <p id="febf5211-da4a-49b5-9d2d-c86df7e092a6">
       Люди нашего
       <choice original_editorial_correction="вр[е]мени">
        <sic>
@@ -10290,7 +10149,7 @@
         религии
        </reg>
        <orig>
-        религiи
+        религіи
        </orig>
       </choice>
       никакой, но не
@@ -10308,7 +10167,7 @@
         религия
        </reg>
        <orig>
-        религiя
+        религія
        </orig>
       </choice>
       , хуже
@@ -10496,10 +10355,8 @@
        Ср. Дневник 16 декабря 1907 г., 12.
       </note>
      </p>
-     <p id="daae0a1d-e997-4208-aaae-35d5a81dae40" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="bead246c-dba4-4fa8-9260-3fcee65c3e13" rend="left">
+     <metamark function="line"/>
+     <p id="bead246c-dba4-4fa8-9260-3fcee65c3e13">
       Хорошо обращаться
       <choice>
        <reg>
@@ -10597,10 +10454,8 @@
        Ср. Дневник 16 декабря 1907 г., 13.
       </note>
      </p>
-     <p id="5d5b49df-847d-49f5-b08a-0555580b3e55" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="c7e3a5ff-69c0-4731-ba34-45b12a69cb2b" rend="left">
+     <metamark function="line"/>
+     <p id="c7e3a5ff-69c0-4731-ba34-45b12a69cb2b">
       Хорошо помнить, что каждый день,
       <choice>
        <reg>
@@ -10634,7 +10489,7 @@
         значение
        </reg>
        <orig>
-        значенiе
+        значеніе
        </orig>
       </choice>
       , a
@@ -10643,7 +10498,7 @@
         употребление
        </reg>
        <orig>
-        употребленiе
+        употребленіе
        </orig>
       </choice>
       времени самое важное. Да, memento mori.
@@ -10654,10 +10509,8 @@
        [помни о смерти.] Ср. Дневник 16 декабря 1907 г., 14.
       </note>
      </p>
-     <p id="0c595344-26f8-44df-a299-c080370ab579" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="fb0ce57f-59c8-4f22-8208-6fefdcf18dd5" rend="left">
+     <metamark function="line"/>
+     <p id="fb0ce57f-59c8-4f22-8208-6fefdcf18dd5">
       Нельзя
       <choice>
        <reg>
@@ -10701,7 +10554,7 @@
          дарования
         </reg>
         <orig>
-         дарованiя
+         дарованія
         </orig>
        </choice>
       </hi>
@@ -10723,7 +10576,7 @@
           сознания
          </reg>
          <orig>
-          сознанiя
+          сознанія
          </orig>
         </choice>
         блага
@@ -10771,12 +10624,12 @@
         сознания
        </reg>
        <orig>
-        сознанiя
+        сознанія
        </orig>
       </choice>
       блага, радости жизни.
      </p>
-     <p id="ea0cada7-86d2-4b3c-a043-443c2933233d" rend="left">
+     <p id="ea0cada7-86d2-4b3c-a043-443c2933233d">
       А мы
       <choice>
        <reg>
@@ -10833,14 +10686,14 @@
       </choice>
       сознавать Его, т. е. Бога. И эта частица недовольна!
      </p>
-     <p id="33c7c558-6631-4d50-9d0b-e18ca5082363" rend="left">
+     <p id="33c7c558-6631-4d50-9d0b-e18ca5082363">
       Все это или глубокое
       <choice>
        <reg>
         проникновение
        </reg>
        <orig>
-        проникновенiе
+        проникновеніе
        </orig>
       </choice>
       <choice>
@@ -10868,10 +10721,8 @@
        Ср. Дневник 30 декабря 1907 г., 1.
       </note>
      </p>
-     <p id="f74c4912-fc28-4545-bbe2-f745012272a9" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="a65aef27-a72a-4585-8ed7-97b72efddf64" rend="left">
+     <metamark function="line"/>
+     <p id="a65aef27-a72a-4585-8ed7-97b72efddf64">
       Мы недовольны
       <choice original_editorial_correction="жизнь[ю]">
        <sic>
@@ -10918,17 +10769,15 @@
       </choice>
       .
      </p>
-     <p id="82f3a597-3edd-4e3c-bfac-d2599a453d99" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="85ebac9d-33a6-4121-8337-9964114309ef" rend="left">
+     <metamark function="line"/>
+     <p id="85ebac9d-33a6-4121-8337-9964114309ef">
       Супружество необходимое
       <choice>
        <reg>
         условие
        </reg>
        <orig>
-        условiе
+        условіе
        </orig>
       </choice>
       <choice>
@@ -10936,15 +10785,13 @@
         воспитания
        </reg>
        <orig>
-        воспитанiя
+        воспитанія
        </orig>
       </choice>
       .
      </p>
-     <p id="a69a5613-195b-4561-858a-fcf310e88a8d" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="ad7deed2-c13a-441d-a617-faec3a3cee93" rend="left">
+     <metamark function="line"/>
+     <p id="ad7deed2-c13a-441d-a617-faec3a3cee93">
       <choice>
        <reg>
         Мне
@@ -11058,10 +10905,8 @@
        Ср. Дневник 30 декабря 1907 г., 2.
       </note>
      </p>
-     <p id="d0d42977-3b2d-4eaa-83bc-a3d21777f984" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="a086a05d-039a-45d3-9d84-7e82bf1969f7" rend="left">
+     <metamark function="line"/>
+     <p id="a086a05d-039a-45d3-9d84-7e82bf1969f7">
       Люди
       <choice>
        <reg>
@@ -11250,10 +11095,8 @@
        Ср. Дневник 13 января 1908 г., 14.
       </note>
      </p>
-     <p id="0945493b-0c0d-4ebb-be8c-6b67795ac84d" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="3df1df32-4d16-4666-a44e-a5c6093454b0" rend="left">
+     <metamark function="line"/>
+     <p id="3df1df32-4d16-4666-a44e-a5c6093454b0">
       <choice original_editorial_correction="Ап[остолъ]">
        <sic>
         Ап
@@ -11382,7 +11225,7 @@
       </choice>
       . —
      </p>
-     <p id="48e5050f-d9cb-4c5c-912e-01f3861f3378" rend="left">
+     <p id="48e5050f-d9cb-4c5c-912e-01f3861f3378">
       А насколько
       <choice original_editorial_correction="важнѣ[е]">
        <sic>
@@ -11405,7 +11248,7 @@
         молчания
        </reg>
        <orig>
-        молчанiя
+        молчанія
        </orig>
       </choice>
       , всего, что
@@ -11443,10 +11286,8 @@
        Ср. Дневник 13 января 1908 г., 15.
       </note>
      </p>
-     <p id="38e6b529-c722-4e94-b059-36f2e1fb05a8" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="f04a32b5-6daa-438a-bf90-fd0d99ddf714" rend="left">
+     <metamark function="line"/>
+     <p id="f04a32b5-6daa-438a-bf90-fd0d99ddf714">
       Гадать и
       <choice original_editorial_correction="просите[льно]">
        <sic>
@@ -11464,10 +11305,8 @@
        Ср. Дневник 13 января 1908 г., 16.
       </note>
      </p>
-     <p id="82b3655d-1334-458f-8490-e0d32154ffa5" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="a211400b-05fc-4f9f-83c4-44202c4e388f" rend="left">
+     <metamark function="line"/>
+     <p id="a211400b-05fc-4f9f-83c4-44202c4e388f">
       <choice>
        <reg>
         Нет
@@ -11482,7 +11321,7 @@
         оглядывания
        </reg>
        <orig>
-        оглядыванiя
+        оглядыванія
        </orig>
       </choice>
       на свое совершенство. Тоже, что итти и думать, много ли осталось.
@@ -11493,7 +11332,7 @@
        Ср. Дневник 13 января 1907 г., 17.
       </note>
      </p>
-     <p id="1db2e633-d1db-458b-ac9c-d9166ccd2caf" rend="left pages2">
+     <p id="1db2e633-d1db-458b-ac9c-d9166ccd2caf" rend="pages2">
       <pb n="295"/>
      </p>
     </div>
@@ -11507,7 +11346,7 @@
        </date>
       </dateline>
      </opener>
-     <p id="381d098f-a281-4f98-aeca-d10f30704f87" rend="left">
+     <p id="381d098f-a281-4f98-aeca-d10f30704f87">
       <choice>
        <reg>
         Говорят
@@ -11530,7 +11369,7 @@
         убийцами
        </reg>
        <orig>
-        убiйцами
+        убійцами
        </orig>
       </choice>
       , грабителями? Вся трудность
@@ -11572,7 +11411,7 @@
         какие-то
        </reg>
        <orig>
-        какiе-то
+        какіе-то
        </orig>
       </choice>
       люди, обязанные и
@@ -11586,7 +11425,7 @@
           имеющие
          </reg>
          <orig>
-          имѣющiе
+          имѣющіе
          </orig>
         </choice>
        </corr>
@@ -11696,24 +11535,20 @@
        Ср. Дневник 13 января 1908 г., 18.
       </note>
      </p>
-     <p id="b0930cdc-3e45-419b-9448-ba026582fc01" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="0f69caa0-7d5c-4a4a-834a-42a030397745" rend="left">
+     <metamark function="line"/>
+     <p id="0f69caa0-7d5c-4a4a-834a-42a030397745">
       <choice>
        <reg>
         Любодеяние
        </reg>
        <orig>
-        Любодѣянiе
+        Любодѣяніе
        </orig>
       </choice>
       .
      </p>
-     <p id="248f799f-b15c-46eb-87df-6bfdc998e570" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="a72293c8-5353-451c-8b84-06a6fa397c19" rend="left">
+     <metamark function="line"/>
+     <p id="a72293c8-5353-451c-8b84-06a6fa397c19">
       Не два
       <choice>
        <reg>
@@ -11731,9 +11566,7 @@
        Ср. Дневник 13 января 1908 г., 19.
       </note>
      </p>
-     <p id="d361a611-e64c-4327-8fe1-4e439b44797a" rend="left">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
     </div>
     <div type="entry">
      <opener>
@@ -11745,7 +11578,7 @@
        </date>
       </dateline>
      </opener>
-     <p id="a11b6718-5ade-496b-b50e-cfbdbcd4ef8e" rend="left">
+     <p id="a11b6718-5ade-496b-b50e-cfbdbcd4ef8e">
       Все,
       <choice original_editorial_correction="ч[то]">
        <sic>
@@ -11780,16 +11613,14 @@
        Ср. Дневник 13 января 1908 г., 20.
       </note>
      </p>
-     <p id="772a7158-faca-4fc7-b6b3-99c8f417848a" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="9b7da45a-6616-4ed6-adeb-c23152f2347c" rend="left">
+     <metamark function="line"/>
+     <p id="9b7da45a-6616-4ed6-adeb-c23152f2347c">
       <choice>
        <reg>
         Неследование
        </reg>
        <orig>
-        Неслѣдованiе
+        Неслѣдованіе
        </orig>
       </choice>
       <choice original_editorial_correction="непрот[ивленію]">
@@ -11802,7 +11633,7 @@
           непротивлению
          </reg>
          <orig>
-          непротивленiю
+          непротивленію
          </orig>
         </choice>
        </corr>
@@ -11840,7 +11671,7 @@
         религию
        </reg>
        <orig>
-        религiю
+        религію
        </orig>
       </choice>
       ,
@@ -11872,7 +11703,7 @@
           христианского
          </reg>
          <orig>
-          христiанскаго
+          христіанскаго
          </orig>
         </choice>
        </corr>
@@ -11882,7 +11713,7 @@
         мира
        </reg>
        <orig>
-        мiра
+        міра
        </orig>
       </choice>
       .
@@ -11893,10 +11724,8 @@
        Ср. Дневник 13 января 1908 г., 21.
       </note>
      </p>
-     <p id="48ce4ca5-34c5-48af-8acf-66be690ffdbc" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="a7592007-3375-4a4f-a84b-e80065c9dd47" rend="left">
+     <metamark function="line"/>
+     <p id="a7592007-3375-4a4f-a84b-e80065c9dd47">
       Просить
       <choice original_editorial_correction="Черт[кова]">
        <sic>
@@ -11940,10 +11769,8 @@
        Этa запись отчеркнута с левой стороны.
       </note>
      </p>
-     <p id="98ffc9f4-38b8-4337-9742-657a3e1b5a71" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="130349ed-5008-4c90-92bb-421088ce562e" rend="left">
+     <metamark function="line"/>
+     <p id="130349ed-5008-4c90-92bb-421088ce562e">
       Любовь только тогда
       <choice>
        <reg>
@@ -11996,10 +11823,8 @@
        Ср. Дневник 31 января 1908 г., 9.
       </note>
      </p>
-     <p id="28f6bd06-1834-4981-9445-98be4258d7c3" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="3140a6af-7b34-4294-a425-ee15bb3ff183" rend="left">
+     <metamark function="line"/>
+     <p id="3140a6af-7b34-4294-a425-ee15bb3ff183">
       Вся забота должна быть о
       <choice>
        <reg>
@@ -12043,10 +11868,8 @@
        Ср. Дневник 31 января 1908 г., 15.
       </note>
      </p>
-     <p id="ab2b3a54-0f61-4f5c-9df5-bf50d8e05434" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="ef8ae709-880b-42c3-85bd-7cfb2ce1273d" rend="left">
+     <metamark function="line"/>
+     <p id="ef8ae709-880b-42c3-85bd-7cfb2ce1273d">
       Пока
       <choice>
        <reg>
@@ -12086,7 +11909,7 @@
         высшия
        </reg>
        <orig>
-        высшiя
+        высшія
        </orig>
       </choice>
       мысли и
@@ -12139,10 +11962,8 @@
        Ср. Дневник 31 января 1908 г., 16.
       </note>
      </p>
-     <p id="9ffd1dd1-1b5c-43e6-9cf9-ae284295415c" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="0310a88c-3b5c-4857-a183-93942f779fd2" rend="left">
+     <metamark function="line"/>
+     <p id="0310a88c-3b5c-4857-a183-93942f779fd2">
       Schow
       <choice>
        <reg>
@@ -12245,7 +12066,7 @@
         величайшия
        </reg>
        <orig>
-        величайшiя
+        величайшія
        </orig>
       </choice>
       <choice>
@@ -12344,7 +12165,7 @@
       </choice>
       что-то свое, новое.
      </p>
-     <p id="d9dbf5d2-dba0-45b6-850d-2fffff724ba2" rend="left">
+     <p id="d9dbf5d2-dba0-45b6-850d-2fffff724ba2">
       Главная черта его — ужасающая
       <choice>
        <reg>
@@ -12411,10 +12232,8 @@
        Ср. Дневник 31 января 1908 г., 17.
       </note>
      </p>
-     <p id="47041747-2a1c-449d-b310-1a5dc9241ff6" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="c27abd98-e601-45c6-a140-df50de3dd0b1" rend="left">
+     <metamark function="line"/>
+     <p id="c27abd98-e601-45c6-a140-df50de3dd0b1">
       Свою духовность, свою основность всему люди
       <choice>
        <reg>
@@ -12462,7 +12281,7 @@
         бессмертием
        </reg>
        <orig>
-        безсмертiемъ
+        безсмертіемъ
        </orig>
       </choice>
       загробной жизни,
@@ -12471,7 +12290,7 @@
         бессмертием
        </reg>
        <orig>
-        безсмертiемъ
+        безсмертіемъ
        </orig>
       </choice>
       <choice>
@@ -12479,7 +12298,7 @@
         материи
        </reg>
        <orig>
-        матерiи
+        матеріи
        </orig>
       </choice>
       ,
@@ -12493,7 +12312,7 @@
           воскресением
          </reg>
          <orig>
-          воскресенiемъ
+          воскресеніемъ
          </orig>
         </choice>
        </corr>
@@ -12504,7 +12323,7 @@
         воскрешением
        </reg>
        <orig>
-        воскрешенiемъ
+        воскрешеніемъ
        </orig>
       </choice>
       . Основность выражается
@@ -12518,7 +12337,7 @@
           творением
          </reg>
          <orig>
-          творенiемъ
+          твореніемъ
          </orig>
         </choice>
        </corr>
@@ -12537,7 +12356,7 @@
         материи
        </reg>
        <orig>
-        матерiи
+        матеріи
        </orig>
       </choice>
       . Во
@@ -12567,7 +12386,7 @@
           объяснениях
          </reg>
          <orig>
-          объясненiяхъ
+          объясненіяхъ
          </orig>
         </choice>
        </corr>
@@ -12577,7 +12396,7 @@
         следствие
        </reg>
        <orig>
-        слѣдствiе
+        слѣдствіе
        </orig>
       </choice>
       берется за причину.
@@ -12588,10 +12407,8 @@
        Ср. Дневник 31 января 1908 г., 18.
       </note>
      </p>
-     <p id="02623d3a-aac1-42c2-8c87-47e05d312e2e" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="1a361294-c049-4cb1-912d-fa81a9a7452a" rend="left">
+     <metamark function="line"/>
+     <p id="1a361294-c049-4cb1-912d-fa81a9a7452a">
       Я начинаю забывать: Нынче много
       <choice>
        <reg>
@@ -12615,7 +12432,7 @@
         освобождение
        </reg>
        <orig>
-        освобожденiе
+        освобожденіе
        </orig>
       </choice>
       <choice>
@@ -12667,7 +12484,7 @@
         сновидение
        </reg>
        <orig>
-        сновидѣнiе
+        сновидѣніе
        </orig>
       </choice>
       есть
@@ -12685,7 +12502,7 @@
         освобождения
        </reg>
        <orig>
-        освобожденiя
+        освобожденія
        </orig>
       </choice>
       .
@@ -12696,10 +12513,8 @@
        Ср. Дневник 31 января 1908 г., 19.
       </note>
      </p>
-     <p id="d2b7da09-adab-4664-aced-8454ec97766c" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="fe640149-ee7f-49a7-867d-f765dc3399e5" rend="left">
+     <metamark function="line"/>
+     <p id="fe640149-ee7f-49a7-867d-f765dc3399e5">
       4)
       <choice original_editorial_correction="Христi[анство]">
        <sic>
@@ -12711,7 +12526,7 @@
           Христианство
          </reg>
          <orig>
-          Христiанство
+          Христіанство
          </orig>
         </choice>
        </corr>
@@ -12791,14 +12606,14 @@
       </choice>
       повиноваться Богу.
      </p>
-     <p id="83d1b79b-b7d6-4248-8a95-150a393bebd7" rend="left">
+     <p id="83d1b79b-b7d6-4248-8a95-150a393bebd7">
       И
       <choice>
        <reg>
         повиновение
        </reg>
        <orig>
-        повиновенiе
+        повиновеніе
        </orig>
       </choice>
       Богу легче,
@@ -12826,14 +12641,14 @@
        Ср. Дневник 9 февраля 1908 г., 1.
       </note>
      </p>
-     <p id="7d28cb31-6430-4c2e-9d20-b60135bfa398" rend="left">
+     <p id="7d28cb31-6430-4c2e-9d20-b60135bfa398">
       3)
       <choice>
        <reg>
         Насилие
        </reg>
        <orig>
-        Насилiе
+        Насиліе
        </orig>
       </choice>
       чье бы то ни
@@ -12862,7 +12677,7 @@
        Ср. Дневник 9 февраля 1908 г., 2.
       </note>
      </p>
-     <p id="8efb2b61-493a-46d0-aa96-daa483f196ac" rend="left">
+     <p id="8efb2b61-493a-46d0-aa96-daa483f196ac">
       2) Одно
       <choice>
        <reg>
@@ -12897,7 +12712,7 @@
        Ср. Дневник 9 февраля 1908 г., 3.
       </note>
      </p>
-     <p id="768dba8e-9ef7-4796-a0d4-9f7066f30e21" rend="left">
+     <p id="768dba8e-9ef7-4796-a0d4-9f7066f30e21">
       1) Не для себя, a
       <choice>
        <reg>
@@ -12931,10 +12746,8 @@
        Ср. Дневник 9 февраля 1908 г., 4.
       </note>
      </p>
-     <p id="c0703bfa-4235-45fe-b6f5-8588e455be55" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="9fd369f7-9178-44a2-9038-94798ddf908f" rend="left">
+     <metamark function="line"/>
+     <p id="9fd369f7-9178-44a2-9038-94798ddf908f">
       Если бы что нибудь
       <choice original_editorial_correction="фанта[с]т">
        <sic>
@@ -13003,7 +12816,7 @@
       </choice>
       .
      </p>
-     <p id="c93329d7-1373-44c8-ae6c-7b0499109e53" rend="left">
+     <p id="c93329d7-1373-44c8-ae6c-7b0499109e53">
       И если бы для
       <choice original_editorial_correction="этаг[о]">
        <sic>
@@ -13089,7 +12902,7 @@
        Ср. Дневник 9 февраля 1908 г., 5.
       </note>
      </p>
-     <p id="5fe32dad-1050-4f87-a4f5-88e189dea753" rend="left">
+     <p id="5fe32dad-1050-4f87-a4f5-88e189dea753">
       Опасность
       <choice>
        <reg>
@@ -13135,7 +12948,7 @@
           христианский
          </reg>
          <orig>
-          христiанскiй
+          христіанскій
          </orig>
         </choice>
        </corr>
@@ -13224,10 +13037,8 @@
        Ср. Дневник 9 февраля 1908 г., 6.
       </note>
      </p>
-     <p id="119c4315-04b3-4fcd-beaf-ff40e46026b1" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="851adedb-6b38-4767-a6ba-f7c33ab71714" rend="left">
+     <metamark function="line"/>
+     <p id="851adedb-6b38-4767-a6ba-f7c33ab71714">
       Добрая жизнь
       <choice>
        <reg>
@@ -13269,7 +13080,7 @@
         Революция
        </reg>
        <orig>
-        Революцiя
+        Революція
        </orig>
       </choice>
       же
@@ -13283,13 +13094,13 @@
       </choice>
       троицу: гордости, зависти, злобы. —
      </p>
-     <p id="63ba546e-4d36-4e32-afe0-d46e2235e7a1" rend="left">
+     <p id="63ba546e-4d36-4e32-afe0-d46e2235e7a1">
       <choice>
        <reg>
         Улучшение
        </reg>
        <orig>
-        Улучшенiе
+        Улучшеніе
        </orig>
       </choice>
       возможно при
@@ -13298,7 +13109,7 @@
         улучшении
        </reg>
        <orig>
-        улучшенiи
+        улучшеніи
        </orig>
       </choice>
       народа, при
@@ -13307,7 +13118,7 @@
         неучастии
        </reg>
        <orig>
-        неучастiи
+        неучастіи
        </orig>
       </choice>
       его
@@ -13335,10 +13146,8 @@
        Ср. Дневник 9 февраля 1908 г., 7.
       </note>
      </p>
-     <p id="615a3e62-a189-4b03-8565-ebbf6033ad5d" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="25f5f204-e926-4bbb-b8fb-6d9796fe1868" rend="left">
+     <metamark function="line"/>
+     <p id="25f5f204-e926-4bbb-b8fb-6d9796fe1868">
       Сходясь
       <choice>
        <reg>
@@ -13436,7 +13245,7 @@
         божиим
        </reg>
        <orig>
-        божiимъ
+        божіимъ
        </orig>
       </choice>
       ,
@@ -13456,10 +13265,8 @@
        Ср. Дневник 9 февраля 1908 г., 8.
       </note>
      </p>
-     <p id="b4096b41-07f9-4a1d-abb4-31ba4a6db497" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="4dd1a762-9c7d-4207-abfc-80df0ff117e0" rend="left">
+     <metamark function="line"/>
+     <p id="4dd1a762-9c7d-4207-abfc-80df0ff117e0">
       <choice>
        <reg>
         Говорят
@@ -13474,7 +13281,7 @@
         бессмертии
        </reg>
        <orig>
-        безсмертiи
+        безсмертіи
        </orig>
       </choice>
       души, о будущей жизни. Что
@@ -13600,7 +13407,7 @@
       </choice>
       подобное.
      </p>
-     <p id="30ff8821-482a-4ce4-bd28-192dcfcd48e9" rend="left">
+     <p id="30ff8821-482a-4ce4-bd28-192dcfcd48e9">
       <choice>
        <reg>
         Кроме
@@ -13673,7 +13480,7 @@
         сознание
        </reg>
        <orig>
-        сознанiе
+        сознаніе
        </orig>
       </choice>
       ,
@@ -13682,7 +13489,7 @@
         сознание
        </reg>
        <orig>
-        сознанiе
+        сознаніе
        </orig>
       </choice>
       своей ограниченности.
@@ -13704,14 +13511,14 @@
        </date>
       </dateline>
      </opener>
-     <p id="e61140d0-f72f-4348-829b-1b53923eb859" rend="left">
+     <p id="e61140d0-f72f-4348-829b-1b53923eb859">
       Испытываю странное чувство
       <choice>
        <reg>
         недоумения
        </reg>
        <orig>
-        недоумѣнiя
+        недоумѣнія
        </orig>
       </choice>
       <choice>
@@ -13735,7 +13542,7 @@
         сознанием
        </reg>
        <orig>
-        сознанiемъ
+        сознаніемъ
        </orig>
       </choice>
       <choice original_editorial_correction="огромнаг[о]">
@@ -13788,9 +13595,7 @@
       </choice>
       меня.
      </p>
-     <p id="fad54d81-4cac-4af2-bcb7-b8a0ba7caaa3" rend="left">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
     </div>
     <div type="entry">
      <opener>
@@ -13802,7 +13607,7 @@
        </date>
       </dateline>
      </opener>
-     <p id="5f65649e-0f36-4d68-a6b0-80d87dde3e6d" rend="left">
+     <p id="5f65649e-0f36-4d68-a6b0-80d87dde3e6d">
       Любовь только тогда
       <choice>
        <reg>
@@ -13907,7 +13712,7 @@
       </choice>
       .
      </p>
-     <p id="49bbfa1c-a417-4d04-855f-13ca0bae79b7" rend="left">
+     <p id="49bbfa1c-a417-4d04-855f-13ca0bae79b7">
       Часто, видя,
       <choice>
        <reg>
@@ -13992,7 +13797,7 @@
         великий
        </reg>
        <orig>
-        великiй
+        великій
        </orig>
       </choice>
       , a
@@ -14001,7 +13806,7 @@
         маленький
        </reg>
        <orig>
-        маленькiй
+        маленькій
        </orig>
       </choice>
       и
@@ -14015,7 +13820,7 @@
           гаденький
          </reg>
          <orig>
-          гаденькiй
+          гаденькій
          </orig>
         </choice>
        </corr>
@@ -14076,7 +13881,7 @@
        </date>
       </dateline>
      </opener>
-     <p id="a484ee28-9a87-46e4-a714-51f0cf019b71" rend="left">
+     <p id="a484ee28-9a87-46e4-a714-51f0cf019b71">
       То, что мы не
       <choice>
        <reg>
@@ -14166,7 +13971,7 @@
         забвение
        </reg>
        <orig>
-        забвенiе
+        забвеніе
        </orig>
       </choice>
       <choice>
@@ -14192,7 +13997,7 @@
         сознание
        </reg>
        <orig>
-        сознанiе
+        сознаніе
        </orig>
       </choice>
       . Поэтому и
@@ -14235,7 +14040,7 @@
         сознание
        </reg>
        <orig>
-        сознанiе
+        сознаніе
        </orig>
       </choice>
       этой жизни, что нисколько не
@@ -14252,12 +14057,12 @@
         уничтожение
        </reg>
        <orig>
-        уничтоженiе
+        уничтоженіе
        </orig>
       </choice>
       .
      </p>
-     <p id="e0146722-00b1-4044-97d5-fdabf37d24e2" rend="left">
+     <p id="e0146722-00b1-4044-97d5-fdabf37d24e2">
       Для того, чтобы
       <choice>
        <reg>
@@ -14360,7 +14165,7 @@
       </choice>
       жизни.
      </p>
-     <p id="1d55fcbf-3d93-429f-af2e-3627efc39177" rend="left">
+     <p id="1d55fcbf-3d93-429f-af2e-3627efc39177">
       «Но всетаки жизнь, хоть
       <choice>
        <reg>
@@ -14383,7 +14188,7 @@
         сознанием
        </reg>
        <orig>
-        сознанiемъ
+        сознаніемъ
        </orig>
       </choice>
       ,
@@ -14407,7 +14212,7 @@
       </hi>
       смерти. Опять время?»
      </p>
-     <p id="540c2431-c417-45b6-a766-ca2f29ddacbc" rend="left">
+     <p id="540c2431-c417-45b6-a766-ca2f29ddacbc">
       Да, опять время, но
       <choice>
        <reg>
@@ -14446,7 +14251,7 @@
         явлений
        </reg>
        <orig>
-        явленiй
+        явленій
        </orig>
       </choice>
       , я сознаю
@@ -14521,10 +14326,8 @@
       </choice>
       ясно.)
      </p>
-     <p id="a1d4e24b-b287-44c8-8370-1bd5d90c11a7" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="75df6885-d235-4403-9868-22a5049fd4fb" rend="left">
+     <metamark function="line"/>
+     <p id="75df6885-d235-4403-9868-22a5049fd4fb">
       <choice original_editorial_correction="Русск[іе]">
        <sic>
         Русск
@@ -14535,7 +14338,7 @@
           Русские
          </reg>
          <orig>
-          Русскiе
+          Русскіе
          </orig>
         </choice>
        </corr>
@@ -14607,7 +14410,7 @@
           Русские
          </reg>
          <orig>
-          Русскiе
+          Русскіе
          </orig>
         </choice>
        </corr>
@@ -14703,7 +14506,7 @@
           убийству
          </reg>
          <orig>
-          убiйству
+          убійству
          </orig>
         </choice>
        </corr>
@@ -14719,7 +14522,7 @@
           христиане
          </reg>
          <orig>
-          христiане
+          христіане
          </orig>
         </choice>
        </corr>
@@ -14730,7 +14533,7 @@
         такие
        </reg>
        <orig>
-        такiе
+        такіе
        </orig>
       </choice>
       люди,
@@ -14755,7 +14558,7 @@
         такие
        </reg>
        <orig>
-        такiя
+        такія
        </orig>
       </choice>
       истины,
@@ -14801,7 +14604,7 @@
           христиа
          </reg>
          <orig>
-          христiа
+          христіа
          </orig>
         </choice>
        </corr>
@@ -14820,10 +14623,8 @@
        Эта мысль отчеркнута с левой стороны. Ср. «Закон насилия и закон любви», гл. II (т. 37).
       </note>
      </p>
-     <p id="a622a105-fca0-452c-9c34-5b9cdb7ad01c" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="ba072985-d407-4fac-839f-619c87d409ce" rend="left">
+     <metamark function="line"/>
+     <p id="ba072985-d407-4fac-839f-619c87d409ce">
       <choice>
        <reg>
         Все
@@ -15055,10 +14856,8 @@
        Начало этой мысли, кончая: и говорят отчеркнуто с левой стороны.
       </note>
      </p>
-     <p id="2220c52a-b1e8-4b52-9e2b-9540430acccb" rend="left">
-      <metamark function="line"/>
-     </p>
-     <p id="b5933b1a-d50f-42e0-8b7d-ddac7535c06d" rend="left">
+     <metamark function="line"/>
+     <p id="b5933b1a-d50f-42e0-8b7d-ddac7535c06d">
       Но
       <choice>
        <reg>
@@ -15183,7 +14982,7 @@
       </choice>
       .
      </p>
-     <p id="2ed89611-509b-4a7a-86d5-f5e68f903ebb" rend="left">
+     <p id="2ed89611-509b-4a7a-86d5-f5e68f903ebb">
       <choice>
        <reg>
         Человек

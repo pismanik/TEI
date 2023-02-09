@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Д. Ахшарумову от 20 апреля 1910 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Д. Ахшарумову, 20 апреля 1910 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 81. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 81</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">236-237</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -101,7 +130,7 @@
     <p id="fdd79776-22a1-4a9f-bf40-a8c929ddeba4" rend="right">
      20 апреля 1910 г. Ясная Поляна.
     </p>
-    <p id="86248f32-875f-4b6a-8193-a24e8e9c01b9" rend="left">
+    <p id="86248f32-875f-4b6a-8193-a24e8e9c01b9">
      Благодарю вас, уважаемый
      <name placement="text" ref="802" type="person">
       Владимир Дмитриевич
@@ -122,7 +151,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="4c6814a0-829f-4768-856b-6b8bb35acb69" rend="petit left">
+      <p id="4c6814a0-829f-4768-856b-6b8bb35acb69" rend="petit">
        <name placement="comments" ref="802" type="person">
         Владимир Дмитриевич Ахшарумов
        </name>
@@ -130,12 +159,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="75b69e86-3791-43b4-baf2-f77efe9c0d71" rend="petit left">
+      <p id="75b69e86-3791-43b4-baf2-f77efe9c0d71" rend="petit">
        Ахшарумов прислал с письмом от 6 апреля 1910 г. на отзыв Толстого свой сборник: В. Д. Ахшарумов, «Стихотворения», Полтава, 1908.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="229b75f1-a482-4e82-a83c-39ed0bc60262" rend="emptyline left">
+      <p id="229b75f1-a482-4e82-a83c-39ed0bc60262" rend="emptyline">
        <pb n="237"/>
       </p>
      </note>

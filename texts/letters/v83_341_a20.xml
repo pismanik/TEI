@@ -9,17 +9,41 @@
                 <title type="main">Письмо С.А.Толстой от 20 ноября 1885 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 20 ноября 1885 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 83. М.: Гос. изд. «Художественная литература», 1938. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 83</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">529-531</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      341.1885 г. Ноября 20. Москва.
     </opener>
-    <p id="ab9e1158-eb39-4a25-af7e-a64003e2f073" rend="left">
+    <p id="ab9e1158-eb39-4a25-af7e-a64003e2f073">
      <choice>
       <reg>
        Написал
@@ -274,7 +304,7 @@
          нотариус
         </reg>
         <orig>
-         нотарiусъ
+         нотаріусъ
         </orig>
        </choice>
       </corr>
@@ -421,7 +451,7 @@
        сожалению
       </reg>
       <orig>
-       сожалѣнiю
+       сожалѣнію
       </orig>
      </choice>
      не
@@ -556,7 +586,7 @@
        копию
       </reg>
       <orig>
-       копiю
+       копію
       </orig>
      </choice>
      и прошу тебя очень, очень что нибудь
@@ -574,7 +604,7 @@
        облегчения
       </reg>
       <orig>
-       облегченiя
+       облегченія
       </orig>
      </choice>
      участи
@@ -827,7 +857,7 @@
        религиозным
       </reg>
       <orig>
-       религiознымъ
+       религіознымъ
       </orig>
      </choice>
      <choice>
@@ -880,7 +910,7 @@
        начальствующие
       </reg>
       <orig>
-       начальствующiе
+       начальствующіе
       </orig>
      </choice>
      знали, что
@@ -889,7 +919,7 @@
        положение
       </reg>
       <orig>
-       положенiе
+       положеніе
       </orig>
      </choice>
      <choice>
@@ -1061,7 +1091,7 @@
      </choice>
      .
     </p>
-    <p id="ff4392ba-3033-43a1-8797-e358584ccbcd" rend="left">
+    <p id="ff4392ba-3033-43a1-8797-e358584ccbcd">
      Припишу еще
      <choice>
       <reg>
@@ -1233,7 +1263,7 @@
        Мирский
       </reg>
       <orig>
-       Мирскiй
+       Мирскій
       </orig>
      </choice>
      ,
@@ -1401,7 +1431,7 @@
      </choice>
      . —
     </p>
-    <p id="682c0d45-f857-476a-a9bd-95d3ed27e83b" rend="left">
+    <p id="682c0d45-f857-476a-a9bd-95d3ed27e83b">
      Приписываю поздно
      <choice>
       <reg>

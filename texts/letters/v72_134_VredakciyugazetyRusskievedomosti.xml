@@ -9,17 +9,41 @@
                 <title type="main">Письмо В редакцию газеты «Русские ведомости» от 17 июня 1899 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо в редакцию газеты «Русские ведомости», 17 июня 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">146-147</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -101,7 +131,7 @@
        июня
       </reg>
       <orig>
-       iюня
+       іюня
       </orig>
      </choice>
      1899.
@@ -120,7 +150,7 @@
        Редакцию
       </reg>
       <orig>
-       Редакцiю
+       Редакцію
       </orig>
      </choice>
      «
@@ -142,14 +172,14 @@
      </choice>
      ».
     </p>
-    <p id="5238af90-034e-4711-9335-9c376a594bbf" rend="left">
+    <p id="5238af90-034e-4711-9335-9c376a594bbf">
      Покорно прошу
      <choice>
       <reg>
        Редакцию
       </reg>
       <orig>
-       Редакцiю
+       Редакцію
       </orig>
      </choice>
      прибавить
@@ -182,7 +212,7 @@
       сообщает еще о получении им
      </note>
     </p>
-    <p id="98d6a253-88af-4494-847c-50d99c2c60d3" rend="left">
+    <p id="98d6a253-88af-4494-847c-50d99c2c60d3">
      <choice>
       <reg>
        от
@@ -251,7 +281,7 @@
        Русския
       </reg>
       <orig>
-       Русскiя
+       Русскія
       </orig>
      </choice>
      <choice>
@@ -277,7 +307,7 @@
        Обозрение
       </reg>
       <orig>
-       Обозрѣнiе
+       Обозрѣніе
       </orig>
      </choice>
      » 76 р. 64 к.,
@@ -306,7 +336,7 @@
       </reg>
       <orig>
        <name placement="text" ref="15203" type="person">
-        Прокофiя
+        Прокофія
        </name>
       </orig>
      </choice>
@@ -346,7 +376,7 @@
        Обозрение
       </reg>
       <orig>
-       Обозрѣнiе
+       Обозрѣніе
       </orig>
      </choice>
      » 32 р. 50 к.,
@@ -399,7 +429,7 @@
        Обозрение
       </reg>
       <orig>
-       Обозрѣнiе
+       Обозрѣніе
       </orig>
      </choice>
      » 376 р. 82 к.,
@@ -426,7 +456,7 @@
        Украинский
       </reg>
       <orig>
-       Украинскiй
+       Украинскій
       </orig>
      </choice>
      <choice>
@@ -439,7 +469,7 @@
      </choice>
      , Винница, 1565 р. Итого 2766 р. 88 к.
     </p>
-    <p id="511617a4-48d6-4c76-b773-aff8bf1dfa55" rend="left">
+    <p id="511617a4-48d6-4c76-b773-aff8bf1dfa55">
      <choice>
       <reg>
        Из

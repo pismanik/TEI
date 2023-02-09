@@ -9,17 +9,41 @@
                 <title type="main">Письмо А. П. Дюшену от 25 февраля 1909 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо А. П. Дюшену, 25 февраля 1909 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 79. М.: Гос. изд. «Художественная литература», 1955. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 79</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">85-86</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,13 +127,13 @@
      </name>
      .1909 г. Февраля 25. Я. П.
     </opener>
-    <p id="baa6c311-6b05-4667-846b-37ae964fc724" rend="Obrashenie left">
+    <p id="baa6c311-6b05-4667-846b-37ae964fc724" rend="Obrashenie">
      <name placement="text" ref="4779" type="person">
       Александр Петрович
      </name>
      .
     </p>
-    <p id="661c13d5-57c0-47bb-a188-e3754fe4db6a" rend="left">
+    <p id="661c13d5-57c0-47bb-a188-e3754fe4db6a">
      Ваша мысль основания
      <choice original_editorial_correction="христиан[ского]">
       <sic>
@@ -125,7 +154,7 @@
      </choice>
      проповеди очень трогает меня; но думаю, что не желание людей поступить в общество должно побудить их к исполнению учения Христа, но исполнение учения Христа, его заповедей должно соединить людей не только в небольшое общество, но должно соединить всё человечество.
     </p>
-    <p id="a582c908-3d94-437d-a72e-29d07742b401" rend="left">
+    <p id="a582c908-3d94-437d-a72e-29d07742b401">
      Потому я лично не могу сочувствовать учреждению общества, но всей душой сочувствую вам, тем чувствам,
      <choice original_editorial_correction="к[отор]ые">
       <sic>
@@ -146,7 +175,7 @@
      </choice>
      общество.
     </p>
-    <p id="e7068d38-03f9-472c-a5b1-11976f29effe" rend="left">
+    <p id="e7068d38-03f9-472c-a5b1-11976f29effe">
      С совершенным уважением и сочувствием приветствую вас.
     </p>
     <p id="20f51c80-aa81-42ff-913d-fc32aaff2137" rend="right">
@@ -155,7 +184,7 @@
      </name>
      .
     </p>
-    <p id="9d517d5f-d715-4247-9aa2-54d5dd1d6310" rend="left">
+    <p id="9d517d5f-d715-4247-9aa2-54d5dd1d6310">
      25 ф. 1909.
     </p>
     <noteGrp type="comments">
@@ -165,7 +194,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="7d7eb785-6da9-466c-a5f4-42e60e62ee1c" rend="petit left">
+      <p id="7d7eb785-6da9-466c-a5f4-42e60e62ee1c" rend="petit">
        <name placement="comments" ref="4779" type="person">
         Александр Петрович Дюшен
        </name>
@@ -173,12 +202,12 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="c426d875-58e1-4679-983b-7bebead88ebe" rend="petit left">
+      <p id="c426d875-58e1-4679-983b-7bebead88ebe" rend="petit">
        На конверте письма А. П. Дюшена Толстой написал: Отвечать. Общество. Дюшен.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="e9f4f025-ed9f-4dc0-8e46-664515f42337" rend="emptyline left">
+      <p id="e9f4f025-ed9f-4dc0-8e46-664515f42337" rend="emptyline">
        <pb n="86"/>
       </p>
      </note>

@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову с 6 декабря 1885 г. по 7 декабря 1885 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 6 декабря 1885 г. — 7 декабря 1885 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 85. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 85</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">288-294</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 90.1885 г. Декабря 6—7. Москва.
     </opener>
-    <p id="899e68e3-471d-45f2-9b31-53a52bc6a9bc" rend="left">
+    <p id="899e68e3-471d-45f2-9b31-53a52bc6a9bc">
      <choice>
       <reg>
        Сейчас
@@ -205,7 +235,7 @@
        успокоение
       </reg>
       <orig>
-       успокоенiе
+       успокоеніе
       </orig>
      </choice>
      ; a
@@ -259,7 +289,7 @@
        Приятно
       </reg>
       <orig>
-       Прiятно
+       Пріятно
       </orig>
      </choice>
      тоже и о
@@ -347,7 +377,7 @@
        столкновений
       </reg>
       <orig>
-       столкновенiй
+       столкновеній
       </orig>
      </choice>
      <choice>
@@ -382,7 +412,7 @@
        свидание
       </reg>
       <orig>
-       свиданiе
+       свиданіе
       </orig>
      </choice>
      <choice>
@@ -773,7 +803,7 @@
        приятное
       </reg>
       <orig>
-       прiятное
+       пріятное
       </orig>
      </choice>
      <choice>
@@ -846,7 +876,7 @@
        предисловии
       </reg>
       <orig>
-       предисловiи
+       предисловіи
       </orig>
      </choice>
      <choice>
@@ -867,7 +897,7 @@
          Евангелию
         </reg>
         <orig>
-         Евангелiю
+         Евангелію
         </orig>
        </choice>
       </corr>
@@ -1032,7 +1062,7 @@
        приятно
       </reg>
       <orig>
-       прiятно
+       пріятно
       </orig>
      </choice>
      <choice>
@@ -1136,7 +1166,7 @@
        приятно
       </reg>
       <orig>
-       прiятно
+       пріятно
       </orig>
      </choice>
      . — Очень
@@ -1158,7 +1188,7 @@
      </choice>
      за это. —
     </p>
-    <p id="de0d28a5-f395-44f0-b884-7cc66a9ed4fb" rend="left">
+    <p id="de0d28a5-f395-44f0-b884-7cc66a9ed4fb">
      Я
      <choice>
       <reg>
@@ -1190,7 +1220,7 @@
        настроении
       </reg>
       <orig>
-       настроенiи
+       настроеніи
       </orig>
      </choice>
      .
@@ -1226,7 +1256,7 @@
      Л. Т.
     </p>
     <lb/>
-    <p id="b0859bab-697d-4b21-acdf-ac89edfd4347" rend="left">
+    <p id="b0859bab-697d-4b21-acdf-ac89edfd4347">
      Продавать
      <choice>
       <reg>
@@ -1261,7 +1291,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="6ae6771e-f92a-4371-8aca-118ccee28970" rend="petit left">
+      <p id="6ae6771e-f92a-4371-8aca-118ccee28970" rend="petit">
        Толстой отвечает здесь на два письма Черткова, из которых первое, полученное накануне, «о Салтыкове», к сожалению не сохранилось. Оно было написано несомненно 3 декабря, в день возвращения Черткова в Петербург после шестидневного пребывания его в Москве, куда
        <hi style="opdelimiter">
         ненадолго

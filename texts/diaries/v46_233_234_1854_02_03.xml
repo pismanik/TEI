@@ -4,25 +4,49 @@
         <fileDesc>
              <titleStmt>                
                 <title xml:id="v46_233_234_1854_02_03">
-                    Дневники и записные книжки. Tolstoy Digital
+                    Дневники. Tolstoy Digital
                 </title>
                 <title type="main">Тетрадь Г. Дневник,</title>
                 <title type="sub">3 февраля 1854 г.</title>
                 <title type="bibl">Толстой Л. Н. [Тетрадь Г. Дневник 1851–1854] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 46. М.: Гос. изд. «Художественная литература», 1937. С. </title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
-                 </respStmt>
+                </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,7 +113,9 @@
             <creation>
                 <date when="1854-02-03"/>
          </creation>          
-            <textClass> 
+            <langUsage>
+  <language ident="ru-petr1708"/>
+</langUsage><textClass> 
                 <catRef ana="#diaries" target="type"/>
            </textClass>
         </profileDesc>
@@ -111,7 +137,7 @@
       </date>
      </dateline>
     </opener>
-    <p id="6103ec5b-cf16-4555-a76e-c5eedff11de1" rend="left">
+    <p id="6103ec5b-cf16-4555-a76e-c5eedff11de1">
      3 Января.
      <ref target="#note1056">
       1056
@@ -258,7 +284,7 @@
          Черкасский
         </reg>
         <orig>
-         Черкасскiй
+         Черкасскій
         </orig>
        </choice>
       </corr>
@@ -289,7 +315,7 @@
      </choice>
      .
     </p>
-    <p id="c1d5749f-32b2-4b20-ab6f-3114c8d387e5" rend="left">
+    <p id="c1d5749f-32b2-4b20-ab6f-3114c8d387e5">
      1)
      <choice original_editorial_correction="Нерѣшит[ельность]">
       <sic>
@@ -348,7 +374,7 @@
       —
      </hi>
     </p>
-    <p id="952e26f5-0b21-415d-8e51-f0ad7029282c" rend="left">
+    <p id="952e26f5-0b21-415d-8e51-f0ad7029282c">
      <pb n="234"/>
      <hi style="npdelimiter">
       <choice>
@@ -371,7 +397,7 @@
      </choice>
      около 60 р. —
     </p>
-    <p id="0f3398c1-84aa-4698-bbe9-4efa06ac91f0" rend="left">
+    <p id="0f3398c1-84aa-4698-bbe9-4efa06ac91f0">
      Нынче
      <choice>
       <reg>
@@ -425,7 +451,7 @@
      </choice>
      34 р. —
     </p>
-    <p id="cda4a2c9-9ead-4ccd-ac0f-92e8bb2ae0c2" rend="left">
+    <p id="cda4a2c9-9ead-4ccd-ac0f-92e8bb2ae0c2">
      <hi>
       Зан
      </hi>
@@ -436,7 +462,7 @@
         ятия
        </reg>
        <orig>
-        ятiя
+        ятія
        </orig>
       </choice>
      </hi>
@@ -451,7 +477,7 @@
         оисшествия
        </reg>
        <orig>
-        оисшествiя
+        оисшествія
        </orig>
       </choice>
      </hi>
@@ -466,7 +492,7 @@
         ления
        </reg>
        <orig>
-        ленiя
+        ленія
        </orig>
       </choice>
      </hi>

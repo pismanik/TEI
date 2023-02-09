@@ -9,17 +9,41 @@
                 <title type="main">Письмо С.А.Толстой от 28 мая 1877 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 28 мая 1877 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 83. М.: Гос. изд. «Художественная литература», 1938. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 83</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">237-237</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      125.1877 г. Мая 28 или 29. Москва.
     </opener>
-    <p id="8176300a-e75d-4ca4-8817-a2d177e76661" rend="left">
+    <p id="8176300a-e75d-4ca4-8817-a2d177e76661">
      Пишу
      <choice>
       <reg>
@@ -144,7 +174,7 @@
        влиянием
       </reg>
       <orig>
-       влiянiемъ
+       вліяніемъ
       </orig>
      </choice>
      его
@@ -161,7 +191,7 @@
        добродушия
       </reg>
       <orig>
-       добродушiя
+       добродушія
       </orig>
      </choice>
      .
@@ -364,12 +394,12 @@
        терпения
       </reg>
       <orig>
-       терпѣнiя
+       терпѣнія
       </orig>
      </choice>
      и любви».
     </p>
-    <p id="e5c36899-3c9b-4587-b14b-102242411b20" rend="left">
+    <p id="e5c36899-3c9b-4587-b14b-102242411b20">
      Печатаю
      <choice>
       <reg>
@@ -432,7 +462,7 @@
      </note>
      —
     </p>
-    <p id="c2321778-5f54-4b98-a3c7-90bf9034fc2d" rend="left">
+    <p id="c2321778-5f54-4b98-a3c7-90bf9034fc2d">
      Теперь 2 часа, и я не
      <choice>
       <reg>
@@ -469,10 +499,10 @@
      </choice>
      4.
     </p>
-    <p id="85537959-fa99-4a08-8fe7-46a0f3db5f2b" rend="left">
+    <p id="85537959-fa99-4a08-8fe7-46a0f3db5f2b">
      Будь совершенно спокойна и, главное, здорова.
     </p>
-    <p id="aca0862d-8e79-4f67-9cbf-8ac3dfbed1e7" rend="left">
+    <p id="aca0862d-8e79-4f67-9cbf-8ac3dfbed1e7">
      Если я
      <choice>
       <reg>
@@ -492,7 +522,7 @@
      </choice>
      , то теперь все прошло.
     </p>
-    <p id="71882b06-2418-45fb-a6d3-fa1a8f342b30" rend="left">
+    <p id="71882b06-2418-45fb-a6d3-fa1a8f342b30">
      <choice>
       <reg>
        Страхов
@@ -526,7 +556,7 @@
       Страхов писал Толстому: «С журналом связываться гораздо дольше и не стоит мараться» (письмо от 26 мая 1877 г.).
      </note>
     </p>
-    <p id="2b370b3e-1116-468c-abb4-21c5ea74812b" rend="left">
+    <p id="2b370b3e-1116-468c-abb4-21c5ea74812b">
      <choice>
       <reg>
        Целую
@@ -541,7 +571,7 @@
      Твой Л. Толстой.
     </p>
     <lb/>
-    <p id="7e510f9f-8cad-4c01-878a-9738e7705022" rend="left">
+    <p id="7e510f9f-8cad-4c01-878a-9738e7705022">
      Ужасно бы
      <choice>
       <reg>

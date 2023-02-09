@@ -9,17 +9,41 @@
                 <title type="main">Письмо Т. А. Ергольской от 24 мая 1854 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Т. А. Ергольской, 24 мая 1854 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 59</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">262-265</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -101,7 +131,7 @@
     <p id="8fd51967-bb63-438c-a020-5328f7f8e01c" rend="right">
      24 Mai 1854. Bucarest. —
     </p>
-    <p id="fa8d02ad-036d-493a-9591-ff0d66e6cdb7" rend="left">
+    <p id="fa8d02ad-036d-493a-9591-ff0d66e6cdb7">
      Figurez vous, chère tante, que jusqu’à présent — près de 3 mois, que je suis ici — je n’ai pas reçu une seule petite lettre de vous. Quoique je suis convaincu que vous m’avez écrit et que votre ou vos lettres doivent être perdues, ce silence extraordinaire m’étonne et me chagrine beaucoup. Si par hasard la lettre que je vous ai écrite en arrivant,
      <ref target="#note1">
       1
@@ -183,7 +213,7 @@
      </note>
      —
     </p>
-    <p id="e589a64d-242e-4f9f-bd32-dcb109b81a06" rend="left">
+    <p id="e589a64d-242e-4f9f-bd32-dcb109b81a06">
      Pour le vieux Prince,
      <ref target="#note7">
       7
@@ -236,24 +266,24 @@
      . Adieu, chère tante, je baise vos mains, vous souhaite beaucoup de bonheur et attands toujours une longue lettre de vous. —
     </p>
     <lb/>
-    <p id="912b6e9f-94fa-4a24-a5a3-798ef8f5ea82" rend="left">
+    <p id="912b6e9f-94fa-4a24-a5a3-798ef8f5ea82">
      <hi>
       На конверте:
      </hi>
     </p>
-    <p id="8ed1dbe0-b6ac-46e3-85a0-28d5208bd639" rend="left">
+    <p id="8ed1dbe0-b6ac-46e3-85a0-28d5208bd639">
      <name placement="text" ref="4947" type="person">
       Ея Высокоблагородію Татьянѣ Александровнѣ Ергольской
      </name>
      въ.
     </p>
-    <p id="5e9a0639-02bb-497b-b856-0ee25d9ac94e" rend="left">
+    <p id="5e9a0639-02bb-497b-b856-0ee25d9ac94e">
      г. Тулу. Сельцо Ясные Поляны.
     </p>
     <p id="ecddb895-617f-4823-8eed-da4d409db5a6" rend="petit right">
      24 мая 1854. Бухарест. —
     </p>
-    <p id="15d069f0-785c-4ef1-9fd8-319660eb6c70" rend="petit left">
+    <p id="15d069f0-785c-4ef1-9fd8-319660eb6c70" rend="petit">
      Представьте себе, дорогая тетенька, что почти за 3 месяца, что я здесь, я до сих пор не получил от вас ни единого письмеца; хотя я и уверен, что вы мне писали и что ваше письмо или ваши письма затерялись, но необычайное ваше молчание меня и удивляет и очень огорчает. А ежели случайно мое письмо, написанное по приезде,
      <ref target="#note9">
       9
@@ -365,7 +395,7 @@
       Кн. Дм. Серг. и Алдр. Серг. Горчаковы. О них см. прим. 4 к п. № 84.
      </note>
     </p>
-    <p id="5640cfd9-a6fb-4da6-894e-d5f8fc0f4e6b" rend="petit left">
+    <p id="5640cfd9-a6fb-4da6-894e-d5f8fc0f4e6b" rend="petit">
      Старого князя
      <ref target="#note15">
       15

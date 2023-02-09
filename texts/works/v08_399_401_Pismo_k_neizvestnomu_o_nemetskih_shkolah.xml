@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v08_399_401_Pismo_k_neizvestnomu_o_nemetskih_shkolah" resp="volume_editor">
-                    [Письмо к неизвестному о немецких школах]. Tolstoy Digital
+                    [Письмо к неизвестному о немецких школах]. Произведения. Tolstoy Digital
                 </title>
                 <title type="main" resp="volume_editor">Письмо к неизвестному о немецких школах.</title>
                 <title type="sub">«Любезный друг! Я теперь почти кончаю...»</title>
-                <title type="bibl">Толстой Л. Н. [Письмо к неизвестному о немецких школах] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 8. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. [Письмо к неизвестному о немецких школах] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 8. М.: Гос. изд. «Художественная литература», 1936. С. 399–401.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1861"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#main" target="work_main"/>
@@ -119,7 +144,7 @@
      </hi>
     </head>
     <div>
-     <p id="70d4e640-a40d-4bf6-a62b-ce959982a29a" rend="left">
+     <p id="70d4e640-a40d-4bf6-a62b-ce959982a29a">
       <hi rend="italic">
        5 Марта 1860.
       </hi>
@@ -130,7 +155,7 @@
     <head n="level1" type="editorial">
      [ПИСЬМО К НЕИЗВЕСТНОМУ О НЕМЕЦКИХ ШКОЛАХ.]
     </head>
-    <p id="445a0c29-4b93-4248-a82a-c75d62a215a9" rend="normal center">
+    <p id="445a0c29-4b93-4248-a82a-c75d62a215a9" rend="center">
      Любезный
      <choice>
       <reg>
@@ -142,14 +167,14 @@
      </choice>
      !
     </p>
-    <p id="b5b3de65-86fa-4950-bc5e-2670f4b99cbf" rend="normal left">
+    <p id="b5b3de65-86fa-4950-bc5e-2670f4b99cbf">
      Я теперь почти кончаю мое
      <choice>
       <reg>
        путешествие
       </reg>
       <orig>
-       путешествiе
+       путешествіе
       </orig>
      </choice>
      по
@@ -167,7 +192,7 @@
        Германии
       </reg>
       <orig>
-       Германiи
+       Германіи
       </orig>
      </choice>
      ,
@@ -176,7 +201,7 @@
        Франция
       </reg>
       <orig>
-       Францiя
+       Франція
       </orig>
      </choice>
      ,
@@ -185,7 +210,7 @@
        Англия
       </reg>
       <orig>
-       Англiя
+       Англія
       </orig>
      </choice>
      ,
@@ -194,7 +219,7 @@
        Италия
       </reg>
       <orig>
-       Италiя
+       Италія
       </orig>
      </choice>
      ,
@@ -203,7 +228,7 @@
        Бельгия
       </reg>
       <orig>
-       Бельгiя
+       Бельгія
       </orig>
      </choice>
      — уже
@@ -239,7 +264,7 @@
        миру
       </reg>
       <orig>
-       мiру
+       міру
       </orig>
      </choice>
      — но страшно самому
@@ -281,7 +306,7 @@
        убеждении
       </reg>
       <orig>
-       убѣжденiи
+       убѣжденіи
       </orig>
      </choice>
      ,
@@ -323,14 +348,14 @@
       149
      </ref>
      <note index="false" xml:id="note149">
-      <span data-class="paragraph" id="22917955-c55a-45bd-92c7-1ccf39144ff2" rend="left">
+      <span data-class="paragraph" id="22917955-c55a-45bd-92c7-1ccf39144ff2">
        Я не могу высказать прямо это
        <choice>
         <reg>
          убеждение
         </reg>
         <orig>
-         убѣжденiе
+         убѣжденіе
         </orig>
        </choice>
        , ты бы
@@ -375,7 +400,7 @@
          путешествие
         </reg>
         <orig>
-         путешествiе
+         путешествіе
         </orig>
        </choice>
        <choice>
@@ -415,7 +440,7 @@
          Германии
         </reg>
         <orig>
-         Германiи
+         Германіи
         </orig>
        </choice>
        .
@@ -510,7 +535,7 @@
          изменениями
         </reg>
         <orig>
-         измѣненiями
+         измѣненіями
         </orig>
        </choice>
        .
@@ -526,7 +551,7 @@
      </note>
      —
     </p>
-    <p id="28ab8996-6675-49c2-8554-75c1bc6dfa9a" rend="left">
+    <p id="28ab8996-6675-49c2-8554-75c1bc6dfa9a">
      Heraus damit.
      <choice>
       <reg>
@@ -542,7 +567,7 @@
        русские
       </reg>
       <orig>
-       русскiе
+       русскіе
       </orig>
      </choice>
      варвары не
@@ -568,7 +593,7 @@
        разрешения
       </reg>
       <orig>
-       разрѣшенiя
+       разрѣшенія
       </orig>
      </choice>
      <choice>
@@ -610,7 +635,7 @@
        образования
       </reg>
       <orig>
-       образованiя
+       образованія
       </orig>
      </choice>
      ,
@@ -713,7 +738,7 @@
        развития
       </reg>
       <orig>
-       развитiя
+       развитія
       </orig>
      </choice>
      <choice>
@@ -843,7 +868,7 @@
        развитие
       </reg>
       <orig>
-       развитiе
+       развитіе
       </orig>
      </choice>
      <choice>
@@ -949,7 +974,7 @@
        упражнения
       </reg>
       <orig>
-       упражненiя
+       упражненія
       </orig>
      </choice>
      для какой части нужно.
@@ -967,7 +992,7 @@
        поэзия
       </reg>
       <orig>
-       поэзiя
+       поэзія
       </orig>
      </choice>
      лучше
@@ -1029,7 +1054,7 @@
        развитие
       </reg>
       <orig>
-       развитiе
+       развитіе
       </orig>
      </choice>
      <choice>
@@ -1072,7 +1097,7 @@
       150
      </ref>
      <note index="false" xml:id="note150">
-      <span data-class="paragraph" id="16f1d23d-5540-48c8-a504-f89160e002be" rend="left">
+      <span data-class="paragraph" id="16f1d23d-5540-48c8-a504-f89160e002be">
        <hi rend="italic">
         Против слов:
        </hi>
@@ -1119,7 +1144,7 @@
        ирония
       </reg>
       <orig>
-       иронiя
+       иронія
       </orig>
      </choice>
      , а
@@ -1187,7 +1212,7 @@
        поучения
       </reg>
       <orig>
-       поученiя
+       поученія
       </orig>
      </choice>
      <pb n="400"/>
@@ -1224,7 +1249,7 @@
        Германии
       </reg>
       <orig>
-       Германiи
+       Германіи
       </orig>
      </choice>
      , хоть бы
@@ -1278,7 +1303,7 @@
      </choice>
      . —
     </p>
-    <p id="3e95a439-b485-4950-847e-35df354dccf8" rend="left">
+    <p id="3e95a439-b485-4950-847e-35df354dccf8">
      Вы приходите
      <choice>
       <reg>
@@ -1424,7 +1449,7 @@
        предписание
       </reg>
       <orig>
-       предписанiе
+       предписаніе
       </orig>
      </choice>
      не только
@@ -1511,7 +1536,7 @@
        упражнению
       </reg>
       <orig>
-       упражненiю
+       упражненію
       </orig>
      </choice>
      , но вы видите, что даже
@@ -1529,7 +1554,7 @@
        приемы
       </reg>
       <orig>
-       прiемы
+       пріемы
       </orig>
      </choice>
      , которые
@@ -1615,7 +1640,7 @@
        семинарии
       </reg>
       <orig>
-       семинарiи
+       семинаріи
       </orig>
      </choice>
      ,
@@ -1641,7 +1666,7 @@
        приемы
       </reg>
       <orig>
-       прiемы
+       пріемы
       </orig>
      </choice>
      понятны для него. — Вы начинаете разбирать эти
@@ -1650,7 +1675,7 @@
        предписания
       </reg>
       <orig>
-       предписанiя
+       предписанія
       </orig>
      </choice>
      и
@@ -1668,7 +1693,7 @@
        обучения
       </reg>
       <orig>
-       обученiя
+       обученія
       </orig>
      </choice>
      <choice>
@@ -1676,7 +1701,7 @@
        чтению
       </reg>
       <orig>
-       чтенiю
+       чтенію
       </orig>
      </choice>
      и письму иногда методу
@@ -1702,7 +1727,7 @@
       151
      </ref>
      <note index="false" xml:id="note151">
-      <span data-class="paragraph" id="1aa3b14a-baf6-4423-8196-19f9cd18dc35" rend="left">
+      <span data-class="paragraph" id="1aa3b14a-baf6-4423-8196-19f9cd18dc35">
        [звуковой метод.]
       </span>
      </note>
@@ -1712,7 +1737,7 @@
        обучения
       </reg>
       <orig>
-       обученiя
+       обученія
       </orig>
      </choice>
      катехизиса и священной
@@ -1721,7 +1746,7 @@
        истории
       </reg>
       <orig>
-       исторiи
+       исторіи
       </orig>
      </choice>
      заучиванье наизусть, для
@@ -1730,7 +1755,7 @@
        истории
       </reg>
       <orig>
-       исторiи
+       исторіи
       </orig>
      </choice>
      и
@@ -1739,7 +1764,7 @@
        географии
       </reg>
       <orig>
-       географiи
+       географіи
       </orig>
      </choice>
      заучиванье
@@ -1757,7 +1782,7 @@
        сокращения
       </reg>
       <orig>
-       сокращенiя
+       сокращенія
       </orig>
      </choice>
      ,
@@ -1766,7 +1791,7 @@
        уничтожающия
       </reg>
       <orig>
-       уничтожающiя
+       уничтожающія
       </orig>
      </choice>
      <choice>
@@ -1783,7 +1808,7 @@
        обучения
       </reg>
       <orig>
-       обученiя
+       обученія
       </orig>
      </choice>
      математики
@@ -1792,7 +1817,7 @@
        упражнения
       </reg>
       <orig>
-       упражненiя
+       упражненія
       </orig>
      </choice>
      ,
@@ -1818,7 +1843,7 @@
        действия
       </reg>
       <orig>
-       дѣйствiя
+       дѣйствія
       </orig>
      </choice>
      <choice>
@@ -1835,7 +1860,7 @@
        переведение
       </reg>
       <orig>
-       переведенiе
+       переведеніе
       </orig>
      </choice>
      <choice>
@@ -1942,7 +1967,7 @@
        преподавании
       </reg>
       <orig>
-       преподаванiи
+       преподаваніи
       </orig>
      </choice>
      и
@@ -1977,7 +2002,7 @@
        суждению
       </reg>
       <orig>
-       сужденiю
+       сужденію
       </orig>
      </choice>
      . Вы говорите
@@ -2003,7 +2028,7 @@
       152
      </ref>
      <note index="false" xml:id="note152">
-      <span data-class="paragraph" id="639f6e21-3037-4f24-a5c3-48cf55ce8877" rend="left">
+      <span data-class="paragraph" id="639f6e21-3037-4f24-a5c3-48cf55ce8877">
        [критика легка, но искусство трудно.]
       </span>
      </note>
@@ -2013,7 +2038,7 @@
        приемы
       </reg>
       <orig>
-       прiемы
+       пріемы
       </orig>
      </choice>
      эти, руководства
@@ -2057,7 +2082,7 @@
        теории
       </reg>
       <orig>
-       теорiи
+       теоріи
       </orig>
      </choice>
      , но оправдываться
@@ -2092,7 +2117,7 @@
        сомнения
       </reg>
       <orig>
-       сомнѣнiя
+       сомнѣнія
       </orig>
      </choice>
      , и хотите
@@ -2118,7 +2143,7 @@
        воспринимания
       </reg>
       <orig>
-       восприниманiя
+       восприниманія
       </orig>
      </choice>
      <choice>
@@ -2134,7 +2159,7 @@
        преподавания
       </reg>
       <orig>
-       преподаванiя
+       преподаванія
       </orig>
      </choice>
      . Но
@@ -2150,7 +2175,7 @@
       153
      </ref>
      <note index="false" xml:id="note153">
-      <span data-class="paragraph" id="2a157329-90ce-4e89-8a01-6ccfe76caced" rend="left">
+      <span data-class="paragraph" id="2a157329-90ce-4e89-8a01-6ccfe76caced">
        <hi rend="italic">
         Переделано и зачеркнуто:
        </hi>
@@ -2171,7 +2196,7 @@
        Организация
       </reg>
       <orig>
-       Организацiя
+       Организація
       </orig>
      </choice>
      школы такова, что результаты
@@ -2180,7 +2205,7 @@
        учения
       </reg>
       <orig>
-       ученiя
+       ученія
       </orig>
      </choice>
      скрыты
@@ -2333,7 +2358,7 @@
        приятно
       </reg>
       <orig>
-       прiятно
+       пріятно
       </orig>
      </choice>
      или не
@@ -2342,7 +2367,7 @@
        приятно
       </reg>
       <orig>
-       прiятно
+       пріятно
       </orig>
      </choice>
      то или другое, но
@@ -2403,7 +2428,7 @@
       154
      </ref>
      <note index="false" xml:id="note154">
-      <span data-class="paragraph" id="48d6b5bf-16c5-42ac-8192-d9a72e9c3e67" rend="left">
+      <span data-class="paragraph" id="48d6b5bf-16c5-42ac-8192-d9a72e9c3e67">
        <hi rend="italic">
         После:
        </hi>
@@ -2423,7 +2448,7 @@
        разнообразие
       </reg>
       <orig>
-       разнообразiе
+       разнообразіе
       </orig>
      </choice>
      его мысли во время
@@ -2442,7 +2467,7 @@
        выражениям
       </reg>
       <orig>
-       выраженiямъ
+       выраженіямъ
       </orig>
      </choice>
      «могу» — «хочу»,
@@ -2475,12 +2500,12 @@
        подъятием
       </reg>
       <orig>
-       подъятiемъ
+       подъятіемъ
       </orig>
      </choice>
      руки.
     </p>
-    <p id="9e164c7b-1fa2-45cc-a541-bfee9b7fedb5" rend="normal left">
+    <p id="9e164c7b-1fa2-45cc-a541-bfee9b7fedb5">
      <choice>
       <reg>
        Итак
@@ -2495,7 +2520,7 @@
        чтения
       </reg>
       <orig>
-       чтенiя
+       чтенія
       </orig>
      </choice>
      учителя вы не можете
@@ -2503,7 +2528,7 @@
       155
      </ref>
      <note index="false" xml:id="note155">
-      <span data-class="paragraph" id="7d5a37e6-9268-4e9f-866b-2febb99d13ce" rend="left">
+      <span data-class="paragraph" id="7d5a37e6-9268-4e9f-866b-2febb99d13ce">
        <choice>
         <reg>
          видеть
@@ -2528,7 +2553,7 @@
        воспринятием
       </reg>
       <orig>
-       воспринятiемъ
+       воспринятіемъ
       </orig>
      </choice>
      <choice>
@@ -2545,7 +2570,7 @@
        скучающия
       </reg>
       <orig>
-       скучающiя
+       скучающія
       </orig>
      </choice>
      лица
@@ -2592,7 +2617,7 @@
       </orig>
      </choice>
      <add n="n156" stage="в подлиннике">
-      <span data-class="paragraph" id="7dc284a6-ad51-40bd-b880-aea9ec1d3064" rend="left">
+      <span data-class="paragraph" id="7dc284a6-ad51-40bd-b880-aea9ec1d3064">
        ожидающаго
       </span>
      </add>
@@ -2679,7 +2704,7 @@
        преподаванием
       </reg>
       <orig>
-       преподаванiемъ
+       преподаваніемъ
       </orig>
      </choice>
      .
@@ -2715,7 +2740,7 @@
        сомнения
       </reg>
       <orig>
-       сомнѣнiя
+       сомнѣнія
       </orig>
      </choice>
      . Вы
@@ -2767,7 +2792,7 @@
        сочинений
       </reg>
       <orig>
-       сочиненiй
+       сочиненій
       </orig>
      </choice>
      . Но ежели вы при
@@ -2785,7 +2810,7 @@
        ведение
       </reg>
       <orig>
-       веденiе
+       веденіе
       </orig>
      </choice>
      <choice>
@@ -2810,14 +2835,12 @@
       157
      </ref>
      <note index="false" xml:id="note157">
-      <span data-class="paragraph" id="bf71782c-9087-4644-9391-38fe39853677" rend="left">
+      <span data-class="paragraph" id="bf71782c-9087-4644-9391-38fe39853677">
        Фраза не закончена.
       </span>
      </note>
     </p>
-    <p id="3651e60f-885a-46d1-adb2-7c54d92c3751" rend="center">
-     ————
-    </p>
+    <metamark function="line"/>
    </div>
   </body>
  </text>

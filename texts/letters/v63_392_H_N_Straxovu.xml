@@ -9,17 +9,41 @@
                 <title type="main">Письмо Н. Н. Страхову от 5 июля 1885 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Н. Н. Страхову, 5 июля 1885 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 63. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 63</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">272-273</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      *392. Н. Н. Страхову.1885 г. Июля 5. Я. П.
     </opener>
-    <p id="87157c7f-6516-4805-afd8-28b51ab1f9c4" rend="left">
+    <p id="87157c7f-6516-4805-afd8-28b51ab1f9c4">
      Видите,
      <choice>
       <reg>
@@ -118,7 +148,7 @@
        исполнение
       </reg>
       <orig>
-       исполненiе
+       исполненіе
       </orig>
      </choice>
      поручения.
@@ -211,7 +241,7 @@
        чтением
       </reg>
       <orig>
-       чтенiемъ
+       чтеніемъ
       </orig>
      </choice>
      статей и не отчаивается пропустить
@@ -303,7 +333,7 @@
      </choice>
      .
     </p>
-    <p id="8c4e55fe-a20a-493a-86b4-9694c89ada0e" rend="left">
+    <p id="8c4e55fe-a20a-493a-86b4-9694c89ada0e">
      Прощайте.
     </p>
     <p id="cbae3285-cf9c-4702-8c0a-3d908f24de40" rend="right">
@@ -312,10 +342,10 @@
      </name>
      .
     </p>
-    <p id="d59986b0-671d-406f-a09c-b2bebe2dac3a" rend="petit left">
-     Печатается по копии, хранящейся в AЧ. Публикуется впервые. Дата копии.
+    <p id="d59986b0-671d-406f-a09c-b2bebe2dac3a" rend="petit">
+     Печатается по копии, хранящейся в АЧ. Публикуется впервые. Дата копии.
     </p>
-    <p id="37de24ff-0c85-4858-8fb7-0779675465b4" rend="petit left">
+    <p id="37de24ff-0c85-4858-8fb7-0779675465b4" rend="petit">
      Письмо Н. Н. Страхова, на которое отвечает Толстой помечено: «Начало июля 1885 г. Москва» (см. ПС, № 189).
     </p>
     <noteGrp type="comments"/>

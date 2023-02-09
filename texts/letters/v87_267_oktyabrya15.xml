@@ -9,17 +9,41 @@
                 <title type="main">Письмо В. Г. Черткову от 15 октября 1890 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо В. Г. Черткову, 15 октября 1890 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 87. М.: Гос. изд. «Художественная литература», 1935. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 87</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">48-50</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -94,7 +124,7 @@
     <opener index="false">
      * 267.1890 г. Октября 15? Я. П.
     </opener>
-    <p id="bb427566-a824-4413-a5d5-3037eaa8cc33" rend="left">
+    <p id="bb427566-a824-4413-a5d5-3037eaa8cc33">
      Не помню, нужно ли
      <choice>
       <reg>
@@ -281,7 +311,7 @@
        исключениями
       </reg>
       <orig>
-       исключенiями
+       исключеніями
       </orig>
      </choice>
      , она
@@ -307,7 +337,7 @@
        Отступления
       </reg>
       <orig>
-       Отступленiя
+       Отступленія
       </orig>
      </choice>
      ,
@@ -316,7 +346,7 @@
        переносящия
       </reg>
       <orig>
-       переносящiя
+       переносящія
       </orig>
      </choice>
      <choice>
@@ -350,7 +380,7 @@
        заключения
       </reg>
       <orig>
-       заключенiя
+       заключенія
       </orig>
      </choice>
      не нужно никакого
@@ -394,7 +424,7 @@
        общия
       </reg>
       <orig>
-       общiя
+       общія
       </orig>
      </choice>
      <choice>
@@ -402,7 +432,7 @@
        заключения
       </reg>
       <orig>
-       заключенiя
+       заключенія
       </orig>
      </choice>
      . C’est un truc.
@@ -423,7 +453,7 @@
          французския
         </reg>
         <orig>
-         французскiя
+         французскія
         </orig>
        </choice>
       </corr>
@@ -448,7 +478,7 @@
          английския
         </reg>
         <orig>
-         англiйскiя
+         англійскія
         </orig>
        </choice>
       </corr>
@@ -468,7 +498,7 @@
        заключениями
       </reg>
       <orig>
-       заключенiями
+       заключеніями
       </orig>
      </choice>
      , получишь
@@ -493,12 +523,12 @@
        отвращение
       </reg>
       <orig>
-       отвращенiе
+       отвращеніе
       </orig>
      </choice>
      .
     </p>
-    <p id="53d93e3b-f6da-4fec-9179-6deeef0c7784" rend="left">
+    <p id="53d93e3b-f6da-4fec-9179-6deeef0c7784">
      Я
      <choice>
       <reg>
@@ -529,7 +559,7 @@
        предисловия
       </reg>
       <orig>
-       предисловiя
+       предисловія
       </orig>
      </choice>
      , для того, чтобы дать
@@ -605,13 +635,13 @@
         продолжения
        </reg>
        <orig>
-        продолженiя
+        продолженія
        </orig>
       </choice>
       ?
      </hi>
     </p>
-    <p id="96988424-d957-476b-9c2e-4c9a2f96faf6" rend="left">
+    <p id="96988424-d957-476b-9c2e-4c9a2f96faf6">
      <pb n="49"/>
      <hi style="npdelimiter">
       Здоровье
@@ -649,7 +679,7 @@
        заключения
       </reg>
       <orig>
-       заключенiя
+       заключенія
       </orig>
      </choice>
      <choice>
@@ -670,7 +700,7 @@
          декларации
         </reg>
         <orig>
-         декларацiи
+         деклараціи
         </orig>
        </choice>
       </corr>
@@ -698,7 +728,7 @@
        значении
       </reg>
       <orig>
-       значенiи
+       значеніи
       </orig>
      </choice>
      <choice>
@@ -714,7 +744,7 @@
        непротивления
       </reg>
       <orig>
-       непротивленiя
+       непротивленія
       </orig>
      </choice>
      . Я давно
@@ -774,7 +804,7 @@
        Диоген
       </reg>
       <orig>
-       Дiогенъ
+       Діогенъ
       </orig>
      </choice>
      <ref target="#note7">
@@ -798,7 +828,7 @@
        Общия
       </reg>
       <orig>
-       Общiя
+       Общія
       </orig>
      </choice>
      <choice>
@@ -806,7 +836,7 @@
        рассуждения
       </reg>
       <orig>
-       разсужденiя
+       разсужденія
       </orig>
      </choice>
      прекрасны. И это не мое одно
@@ -815,7 +845,7 @@
        мнение
       </reg>
       <orig>
-       мнѣнiе
+       мнѣніе
       </orig>
      </choice>
      , a
@@ -847,7 +877,7 @@
      </choice>
      здоровье Гали и ребенка? —
     </p>
-    <p id="c3db005b-4c4e-4bb7-9f5f-6759e7f861e0" rend="left">
+    <p id="c3db005b-4c4e-4bb7-9f5f-6759e7f861e0">
      Еще
      <choice>
       <reg>
@@ -863,7 +893,7 @@
        Диана
       </reg>
       <orig>
-       Дiана
+       Діана
       </orig>
      </choice>
      »
@@ -902,7 +932,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="29f8c010-61e1-4f43-97aa-70cda438618a" rend="petit left">
+      <p id="29f8c010-61e1-4f43-97aa-70cda438618a" rend="petit">
        В том же письме Чертков писал: «Я всё думаю про роль
        <hi>
         личности
@@ -919,7 +949,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="a3f70c90-fa71-4c8a-aedc-74a6bdcc761a" rend="petit left">
+      <p id="a3f70c90-fa71-4c8a-aedc-74a6bdcc761a" rend="petit">
        Получение этого письма отмечено в Дневнике Толстого от 7—8 октября записью: «Письма об иконах от Золотарева и о личности от
        <choice original_editorial_correction="Ч[ерткова]">
         <sic>

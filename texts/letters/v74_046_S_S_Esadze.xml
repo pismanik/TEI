@@ -9,17 +9,41 @@
                 <title type="main">Письмо С. С. Эсадзе от 19 февраля 1903 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. С. Эсадзе, 19 февраля 1903 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 74. М.: Гос. изд. «Художественная литература», 1954. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 74</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">42-43</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -98,7 +127,7 @@
      </name>
      .1903 г. Февраля 19. Я. П.
     </opener>
-    <p id="bfba62ce-7ebb-40e8-8e75-2be0be1e1175" rend="Obrashenie left">
+    <p id="bfba62ce-7ebb-40e8-8e75-2be0be1e1175" rend="Obrashenie">
      Милостивый государь
     </p>
     <p id="aef0f457-84aa-4419-90f5-3d0fc3772510" rend="Obrashenie1_ left">
@@ -107,7 +136,7 @@
      </name>
      .
     </p>
-    <p id="503ced50-c81c-4097-99f7-53dfc1c9cbfd" rend="left">
+    <p id="503ced50-c81c-4097-99f7-53dfc1c9cbfd">
      Очень благодарен вам за вашу любезную готовность помочь мне. Мне желательно иметь только то, что 1) касается Хаджи Мурата и то, кроме всего того, что есть печатного об этом
      <hi style="opdelimiter">
       (всё
@@ -152,7 +181,7 @@
      </note>
      и в особенности. 50, 51 и 52 годов.
     </p>
-    <p id="53ed357e-0de5-4c91-af12-837ae897fae7" rend="left">
+    <p id="53ed357e-0de5-4c91-af12-837ae897fae7">
      Остаюсь готовый к услугам и благодарный вам
     </p>
     <p id="eae727c0-72b8-4666-affa-f2fcb04b53e0" rend="right">
@@ -161,7 +190,7 @@
      </name>
      .
     </p>
-    <p id="2a5ac9c4-cb73-41de-96e8-392cc6131473" rend="left">
+    <p id="2a5ac9c4-cb73-41de-96e8-392cc6131473">
      19 февр. 1903.
     </p>
     <noteGrp type="comments">
@@ -171,7 +200,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="886deef3-0228-44e3-8180-03ed203499f4" rend="petit left">
+      <p id="886deef3-0228-44e3-8180-03ed203499f4" rend="petit">
        <name placement="comments" ref="16023" type="person">
         Семен Спиридонович Эсадзе
        </name>
@@ -179,7 +208,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="ea583a68-9adf-4f61-a23a-6f05d511ae06" rend="petit left">
+      <p id="ea583a68-9adf-4f61-a23a-6f05d511ae06" rend="petit">
        В письме от 5 февраля 1903 г. Эсадзе просил Толстого указать, какие архивные материалы его интересуют.
       </p>
      </note>

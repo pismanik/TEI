@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v04_365_376_Roman_russkogo_pomeschika_Variant_pervyh_glav_pervoj_redaktsii">
-                    «Роман русского помещика». Вариант первых глав первой редакции. Tolstoy Digital
+                    «Роман русского помещика». Вариант первых глав первой редакции. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Роман русского помещика.</title>
                 <title type="sub" resp="volume_editor">Вариант первых глав первой редакции</title>
-                <title type="bibl">Толстой Л. Н. «Роман русского помещика». Вариант первых глав первой редакции // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 4. М.: Гос. изд. «Художественная литература», 1935. С.</title>
+                <title type="bibl">Толстой Л. Н. «Роман русского помещика». Вариант первых глав первой редакции // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 4. М.: Гос. изд. «Художественная литература», 1935. С. 365–376.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1854"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#ver" target="work_main"/>
@@ -127,7 +152,7 @@
      </hi>
      .
     </head>
-    <p id="9126d272-a6ba-4356-8cc0-a0945e444247" rend="left">
+    <p id="9126d272-a6ba-4356-8cc0-a0945e444247">
      <choice>
       <reg>
        С
@@ -251,7 +276,7 @@
      </choice>
      церкви.
     </p>
-    <p id="601e01b3-d233-45ff-832a-1ad2ba6b7c18" rend="left">
+    <p id="601e01b3-d233-45ff-832a-1ad2ba6b7c18">
      Пономарь
      <choice>
       <reg>
@@ -275,7 +300,7 @@
        старческий
       </reg>
       <orig>
-       старческiй
+       старческій
       </orig>
      </choice>
      , равнодушный
@@ -379,7 +404,7 @@
        поднятием
       </reg>
       <orig>
-       поднятiемъ
+       поднятіемъ
       </orig>
      </choice>
      шляпы на почтительные поклоны
@@ -465,7 +490,7 @@
        середния
       </reg>
       <orig>
-       середнiя
+       середнія
       </orig>
      </choice>
      двери. —
@@ -525,7 +550,7 @@
        высокий
       </reg>
       <orig>
-       высокiй
+       высокій
       </orig>
      </choice>
      <choice>
@@ -694,7 +719,7 @@
        возвышающийся
       </reg>
       <orig>
-       возвышающiйся
+       возвышающійся
       </orig>
      </choice>
      <choice>
@@ -714,13 +739,21 @@
        читающаго
       </orig>
      </choice>
-     молитвы, молодой безбородой
+     молитвы, молодой 
+     <choice>
+      <reg>
+       безбородый
+      </reg>
+      <orig>
+       безбородой
+      </orig>
+     </choice>
      <choice>
       <reg>
        крестьянский
       </reg>
       <orig>
-       крестьянскiй
+       крестьянскій
       </orig>
      </choice>
      парень
@@ -760,10 +793,10 @@
      </choice>
      . —
     </p>
-    <p id="a71d49f6-17a6-4927-8a94-178e74798f06" rend="left">
+    <p id="a71d49f6-17a6-4927-8a94-178e74798f06">
      Начались часы. —
     </p>
-    <p id="582d6378-49a9-443e-934a-03ae201c3996" rend="left">
+    <p id="582d6378-49a9-443e-934a-03ae201c3996">
      Отставной
      <choice>
       <reg>
@@ -878,7 +911,7 @@
        бывший
       </reg>
       <orig>
-       бывшiй
+       бывшій
       </orig>
      </choice>
      княжеской дворецкой
@@ -905,7 +938,7 @@
        Григорий
       </reg>
       <orig>
-       Григорiй
+       Григорій
       </orig>
      </choice>
      Михайлычь
@@ -1032,7 +1065,7 @@
        певчие
       </reg>
       <orig>
-       пѣвчiе
+       пѣвчіе
       </orig>
      </choice>
      . Толстый
@@ -1041,7 +1074,7 @@
        бабуринский
       </reg>
       <orig>
-       бабуринскiй
+       бабуринскій
       </orig>
      </choice>
      <choice>
@@ -1109,7 +1142,7 @@
        рыжий
       </reg>
       <orig>
-       рыжiй
+       рыжій
       </orig>
      </choice>
      <choice>
@@ -1181,7 +1214,7 @@
      </choice>
      . —
     </p>
-    <p id="e3024507-1960-4892-a392-685116d81a11" rend="left">
+    <p id="e3024507-1960-4892-a392-685116d81a11">
      <choice>
       <reg>
        Перед
@@ -1230,7 +1263,7 @@
        высокий
       </reg>
       <orig>
-       высокiй
+       высокій
       </orig>
      </choice>
      лакей
@@ -1273,7 +1306,7 @@
        женский
       </reg>
       <orig>
-       женскiй
+       женскій
       </orig>
      </choice>
      <choice>
@@ -1452,7 +1485,7 @@
        выражением
       </reg>
       <orig>
-       выраженiемъ
+       выраженіемъ
       </orig>
      </choice>
      лица,
@@ -1472,7 +1505,7 @@
         апатии
        </reg>
        <orig>
-        апатiи
+        апатіи
        </orig>
       </choice>
       и
@@ -1611,7 +1644,7 @@
        выражение
       </reg>
       <orig>
-       выраженiе
+       выраженіе
       </orig>
      </choice>
      трудно разобрать
@@ -1628,7 +1661,7 @@
        украшениями
       </reg>
       <orig>
-       украшенiями
+       украшеніями
       </orig>
      </choice>
      , покрывающими
@@ -1646,7 +1679,7 @@
        Высокий
       </reg>
       <orig>
-       Высокiй
+       Высокій
       </orig>
      </choice>
      и
@@ -1655,7 +1688,7 @@
        широкий
       </reg>
       <orig>
-       широкiй
+       широкій
       </orig>
      </choice>
      <choice>
@@ -1698,7 +1731,7 @@
        доходившие
       </reg>
       <orig>
-       доходившiе
+       доходившіе
       </orig>
      </choice>
      <choice>
@@ -1784,7 +1817,7 @@
        физиогномии
       </reg>
       <orig>
-       физiогномiи
+       физіогноміи
       </orig>
      </choice>
      :
@@ -1793,7 +1826,7 @@
        высокий
       </reg>
       <orig>
-       высокiй
+       высокій
       </orig>
      </choice>
      ,
@@ -1802,7 +1835,7 @@
        гладкий
       </reg>
       <orig>
-       гладкiй
+       гладкій
       </orig>
      </choice>
      и
@@ -1811,7 +1844,7 @@
        широкий
       </reg>
       <orig>
-       широкiй
+       широкій
       </orig>
      </choice>
      <choice>
@@ -1879,7 +1912,7 @@
        выражение
       </reg>
       <orig>
-       выраженiе
+       выраженіе
       </orig>
      </choice>
      <choice>
@@ -1913,12 +1946,12 @@
        приятности
       </reg>
       <orig>
-       прiятности
+       пріятности
       </orig>
      </choice>
      .
     </p>
-    <p id="112dafb1-6e56-4c0a-91f3-d2ced84a9f61" rend="left">
+    <p id="112dafb1-6e56-4c0a-91f3-d2ced84a9f61">
      <choice>
       <reg>
        Александр
@@ -2317,7 +2350,7 @@
        выходивший
       </reg>
       <orig>
-       выходившiй
+       выходившій
       </orig>
      </choice>
      на паперть
@@ -2450,7 +2483,7 @@
      </choice>
      на большую дорогу.
     </p>
-    <p id="c228db15-0192-42e6-b12c-d691852e0b63" rend="left">
+    <p id="c228db15-0192-42e6-b12c-d691852e0b63">
      — Началась
      <choice>
       <reg>
@@ -2518,7 +2551,7 @@
        подходивший
       </reg>
       <orig>
-       подходившiй
+       подходившій
       </orig>
      </choice>
      <choice>
@@ -2531,7 +2564,7 @@
      </choice>
      церкви.
     </p>
-    <p id="d972c5c9-dee6-485e-b126-a47fbd5ba35d" rend="left">
+    <p id="d972c5c9-dee6-485e-b126-a47fbd5ba35d">
      —
      <choice>
       <reg>
@@ -2547,7 +2580,7 @@
        сиятельство
       </reg>
       <orig>
-       сiятельство
+       сіятельство
       </orig>
      </choice>
      , все
@@ -2578,7 +2611,7 @@
      </choice>
      , давая ему дорогу.
     </p>
-    <p id="5b041840-db56-4d26-9799-db8a748f6cd7" rend="left">
+    <p id="5b041840-db56-4d26-9799-db8a748f6cd7">
      —
      <choice>
       <reg>
@@ -2718,7 +2751,7 @@
      </choice>
      .
     </p>
-    <p id="9d2bf488-70b9-4261-9558-e51b690d2f69" rend="left">
+    <p id="9d2bf488-70b9-4261-9558-e51b690d2f69">
      Началась
      <choice>
       <reg>
@@ -2739,7 +2772,7 @@
      </hi>
      .&gt;
     </head>
-    <p id="674b7df7-9708-4cf1-8399-5bb40c32871c" rend="left">
+    <p id="674b7df7-9708-4cf1-8399-5bb40c32871c">
      Молодой князь
      <choice>
       <reg>
@@ -2769,7 +2802,7 @@
      </choice>
      голову. —
     </p>
-    <p id="7f6f5ded-2911-4ee8-9de7-b40029cdd76f" rend="left">
+    <p id="7f6f5ded-2911-4ee8-9de7-b40029cdd76f">
      Все это
      <choice>
       <reg>
@@ -2809,7 +2842,7 @@
        аффектациею
       </reg>
       <orig>
-       аффектацiею
+       аффектаціею
       </orig>
      </choice>
      ; казалось, что не чувство, a
@@ -2818,7 +2851,7 @@
        убеждение
       </reg>
       <orig>
-       убѣжденiе
+       убѣжденіе
       </orig>
      </choice>
      руководило
@@ -2896,7 +2929,7 @@
        удовольствием
       </reg>
       <orig>
-       удовольствiемъ
+       удовольствіемъ
       </orig>
      </choice>
      <choice>
@@ -2947,14 +2980,14 @@
       ».
      </hi>
     </p>
-    <p id="dc29a5d6-6e49-433c-8e4e-7afb8b493574" rend="left">
+    <p id="dc29a5d6-6e49-433c-8e4e-7afb8b493574">
      Сборные
      <choice>
       <reg>
        певчие
       </reg>
       <orig>
-       пѣвчiе
+       пѣвчіе
       </orig>
      </choice>
      <choice>
@@ -2971,7 +3004,7 @@
        дребезжащий
       </reg>
       <orig>
-       дребезжащiй
+       дребезжащій
       </orig>
      </choice>
      <choice>
@@ -2979,7 +3012,7 @@
        старческий
       </reg>
       <orig>
-       старческiй
+       старческій
       </orig>
      </choice>
      <choice>
@@ -3070,7 +3103,7 @@
        религиозное
       </reg>
       <orig>
-       религiозное
+       религіозное
       </orig>
      </choice>
      чувство.
@@ -3166,7 +3199,7 @@
        Божию
       </reg>
       <orig>
-       Божiю
+       Божію
       </orig>
      </choice>
      .
@@ -3192,7 +3225,7 @@
        молчания
       </reg>
       <orig>
-       молчанiя
+       молчанія
       </orig>
      </choice>
      ,
@@ -3372,7 +3405,7 @@
      </choice>
      дверей.
     </p>
-    <p id="59c003ca-6b70-4fa9-87ba-6c57a4363b14" rend="left">
+    <p id="59c003ca-6b70-4fa9-87ba-6c57a4363b14">
      <choice>
       <reg>
        Александр
@@ -3438,7 +3471,7 @@
        Поликарпий
       </reg>
       <orig>
-       Поликарпiй
+       Поликарпій
       </orig>
      </choice>
      обратился
@@ -3569,7 +3602,7 @@
        поздравление
       </reg>
       <orig>
-       поздравленiе
+       поздравленіе
       </orig>
      </choice>
      <choice>
@@ -3690,19 +3723,19 @@
         Дмитрий
        </reg>
        <orig>
-        Дмитрiй
+        Дмитрій
        </orig>
       </choice>
      </hi>
      .
     </head>
-    <p id="8078a55d-3b82-488b-ba5a-74d73fb6c3db" rend="left">
+    <p id="8078a55d-3b82-488b-ba5a-74d73fb6c3db">
      <choice>
       <reg>
        Красногорский
       </reg>
       <orig>
-       Красногорскiй
+       Красногорскій
       </orig>
      </choice>
      <choice>
@@ -3763,7 +3796,7 @@
        третий
       </reg>
       <orig>
-       третiй
+       третій
       </orig>
      </choice>
      <choice>
@@ -3814,7 +3847,7 @@
        Дмитрия
       </reg>
       <orig>
-       Дмитрiя
+       Дмитрія
       </orig>
      </choice>
      , а старый Князь
@@ -3902,7 +3935,7 @@
        бывший
       </reg>
       <orig>
-       бывшiй
+       бывшій
       </orig>
      </choice>
      <choice>
@@ -3953,7 +3986,7 @@
        губернии
       </reg>
       <orig>
-       губернiи
+       губерніи
       </orig>
      </choice>
      и Графиня
@@ -3971,7 +4004,7 @@
        искренний
       </reg>
       <orig>
-       искреннiй
+       искренній
       </orig>
      </choice>
      <choice>
@@ -4005,7 +4038,7 @@
        управление
       </reg>
       <orig>
-       управленiе
+       управленіе
       </orig>
      </choice>
      <choice>
@@ -4022,7 +4055,7 @@
        управление
       </reg>
       <orig>
-       управленiе
+       управленіе
       </orig>
      </choice>
      <choice>
@@ -4030,7 +4063,7 @@
        воспитанием
       </reg>
       <orig>
-       воспитанiемъ
+       воспитаніемъ
       </orig>
      </choice>
      <choice>
@@ -4073,7 +4106,7 @@
        управление
       </reg>
       <orig>
-       управленiе
+       управленіе
       </orig>
      </choice>
      и
@@ -4082,7 +4115,7 @@
        воспитание
       </reg>
       <orig>
-       воспитанiе
+       воспитаніе
       </orig>
      </choice>
      шли не одинаково успешно.
@@ -4126,7 +4159,7 @@
        воспитание
       </reg>
       <orig>
-       воспитанiе
+       воспитаніе
       </orig>
      </choice>
      , и уменьшенное во время опеки
@@ -4161,7 +4194,7 @@
        имение
       </reg>
       <orig>
-       имѣнiе
+       имѣніе
       </orig>
      </choice>
      .
@@ -4170,7 +4203,7 @@
        Старший
       </reg>
       <orig>
-       Старшiй
+       Старшій
       </orig>
      </choice>
      <choice>
@@ -4263,7 +4296,7 @@
        совершеннолетия
       </reg>
       <orig>
-       совершеннолѣтiя
+       совершеннолѣтія
       </orig>
      </choice>
      , по
@@ -4350,7 +4383,7 @@
        удостоверение
       </reg>
       <orig>
-       удостовѣренiе
+       удостовѣреніе
       </orig>
      </choice>
      <choice>
@@ -4462,7 +4495,7 @@
        имение
       </reg>
       <orig>
-       именiе
+       именіе
       </orig>
      </choice>
      . Ваня,
@@ -4471,7 +4504,7 @@
        средний
       </reg>
       <orig>
-       среднiй
+       средній
       </orig>
      </choice>
      <choice>
@@ -4488,7 +4521,7 @@
        служивший
       </reg>
       <orig>
-       служившiй
+       служившій
       </orig>
      </choice>
      на Кавказе,
@@ -4540,7 +4573,7 @@
        имения
       </reg>
       <orig>
-       именiя
+       именія
       </orig>
      </choice>
      , что точно также уже было решено между
@@ -4558,7 +4591,7 @@
        приехали
       </reg>
       <orig>
-       прiехали
+       пріехали
       </orig>
      </choice>
      <choice>
@@ -4584,7 +4617,7 @@
        жеребий
       </reg>
       <orig>
-       жеребiй
+       жеребій
       </orig>
      </choice>
      , и Мите, который
@@ -4655,7 +4688,7 @@
        высокий
       </reg>
       <orig>
-       высокiй
+       высокій
       </orig>
      </choice>
      <choice>
@@ -4672,7 +4705,7 @@
        сложение
       </reg>
       <orig>
-       сложенiе
+       сложеніе
       </orig>
      </choice>
      , и на
@@ -4681,7 +4714,7 @@
        выражение
       </reg>
       <orig>
-       выраженiе
+       выраженіе
       </orig>
      </choice>
      гордости и смелости
@@ -4779,7 +4812,7 @@
        очертаниям
       </reg>
       <orig>
-       очертанiямъ
+       очертаніямъ
       </orig>
      </choice>
      около
@@ -4858,7 +4891,7 @@
        приятный
       </reg>
       <orig>
-       прiятный
+       пріятный
       </orig>
      </choice>
      <choice>
@@ -4893,7 +4926,7 @@
        узкие
       </reg>
       <orig>
-       узкiе
+       узкіе
       </orig>
      </choice>
      <choice>
@@ -4901,7 +4934,7 @@
        необыкновенно-блестящие
       </reg>
       <orig>
-       необыкновенно-блестящiе
+       необыкновенно-блестящіе
       </orig>
      </choice>
      <choice>
@@ -4918,7 +4951,7 @@
        физиогномии
       </reg>
       <orig>
-       физiогномiи
+       физіогноміи
       </orig>
      </choice>
      ,
@@ -4927,7 +4960,7 @@
        общий
       </reg>
       <orig>
-       общiй
+       общій
       </orig>
      </choice>
      благородный
@@ -5048,7 +5081,7 @@
        выражении
       </reg>
       <orig>
-       выраженiи
+       выраженіи
       </orig>
      </choice>
      рта,
@@ -5082,7 +5115,7 @@
        расположении
       </reg>
       <orig>
-       расположенiи
+       расположеніи
       </orig>
      </choice>
      <choice>
@@ -5159,7 +5192,7 @@
        влиянию
       </reg>
       <orig>
-       влiянiю
+       вліянію
       </orig>
      </choice>
      , а
@@ -5207,7 +5240,7 @@
      </hi>
      .
     </head>
-    <p id="d9f7902e-1781-4a83-9476-8cc14bd649a8" rend="left">
+    <p id="d9f7902e-1781-4a83-9476-8cc14bd649a8">
      <choice>
       <reg>
        После
@@ -5255,7 +5288,7 @@
        ваканций
       </reg>
       <orig>
-       ваканцiй
+       ваканцій
       </orig>
      </choice>
      <choice>
@@ -5412,10 +5445,10 @@
      </choice>
      .
     </p>
-    <p id="064cfcdc-58f2-4e7a-b510-b8d06f85a532" rend="left">
+    <p id="064cfcdc-58f2-4e7a-b510-b8d06f85a532">
      J’ai pris une résolution, qui doit décider de mon sort: je quitte l'université pour me vouer à la vie de campagne, pour laquelle je me sens fait. — Au nom du Ciel, chère maman, ne vous moquez pas de moi. Je suis jeune, peut-être qu’en effet je suis encore enfant; mais cela ne m’empêche de sentir ma vocation de vouloir faire le bien et de l’aimer.
     </p>
-    <p id="0ec6fce8-5016-4376-add5-2cf48c018cb8" rend="left">
+    <p id="0ec6fce8-5016-4376-add5-2cf48c018cb8">
      Comme je vous l’ai déjà écrit, j’ai trouvé les affaires dans un état de délabrement impossible à décrire. En voulant y mettre de l’ordre j’ai trouvé que le mal principal était dans le misérable état des paysans et que l’unique moyen d’y remédier était le tems et la patience
      <del>
       terrible misère dans laquelle se trouvent des paysans
@@ -5426,7 +5459,7 @@
      </del>
      du tems et du travail.
     </p>
-    <p id="8d8030d7-4bc2-4452-a1e8-144fef6c7a37" rend="left">
+    <p id="8d8030d7-4bc2-4452-a1e8-144fef6c7a37">
      Si vous aviez pu voir seulement Давыдка
      <choice>
       <reg>
@@ -5456,10 +5489,10 @@
      — deux de mes paysans — et la vie qu’ils mènent avec leurs familles je suis sûr que la vue seule de ces deux malheureux vous aurait mieux convaincu que tout ce que je pourrai dire pour vous expliquer ma résolution. N’est-ce pas mon devoir le plus sacré que de travailler au bonheur de ces 700 personnes, dont je dois être résponsable devant Dieu? N’est-ce pas une horreur, que d’abandonner ces pauvres et honnêtes gens aux fripons d’
      <choice>
       <reg>
-       Упpaвляющиe
+       Управляющие
       </reg>
       <orig>
-       Упpaвляющie
+       Управляющіе
       </orig>
      </choice>
      et старосты, pour des plans de plaisir ou d’ambition? Si je continue mes études, si je prends du
@@ -5470,7 +5503,7 @@
      </hi>
      mien. Et pourquoi chercher ailleurs l’occasion d’être utile et de faire du bien, quand j’ai devant moi une carrière si belle et si noble.
     </p>
-    <p id="d408d2cb-0e3c-4993-b981-e392fd796b7d" rend="left">
+    <p id="d408d2cb-0e3c-4993-b981-e392fd796b7d">
      Je me sens capable d’être un bon
      <choice>
       <reg>
@@ -5490,7 +5523,7 @@
      </hi>
      , me menera au bonheur.
     </p>
-    <p id="c041435e-8e9a-4b5d-b1e1-362c0e78680d" rend="left">
+    <p id="c041435e-8e9a-4b5d-b1e1-362c0e78680d">
      Ne montrez point cette lettre à Nicolas, je crains son persif-flage et vous savez qu’il a pris l’habitude de me dominer et moi celle de l’être. Pour Jean je sais, que s’il ne m’aprouve, du moins il me comprendra...
      <ref target="#note104">
       104
@@ -5501,7 +5534,7 @@
       </span>
      </note>
     </p>
-    <p id="ff587114-b525-4f3b-8d08-4763113729b6" rend="left">
+    <p id="ff587114-b525-4f3b-8d08-4763113729b6">
      <pb n="371"/>
      «Я
      <choice>
@@ -5517,7 +5550,7 @@
        решение
       </reg>
       <orig>
-       рѣшенiе
+       рѣшеніе
       </orig>
      </choice>
      ,
@@ -5640,7 +5673,7 @@
        призвание
       </reg>
       <orig>
-       призванiе
+       призваніе
       </orig>
      </choice>
      , желать
@@ -5654,7 +5687,7 @@
      </choice>
      добро и любить его.
     </p>
-    <p id="1484559f-57ee-4fd2-b3cf-56f263ee2eae" rend="left">
+    <p id="1484559f-57ee-4fd2-b3cf-56f263ee2eae">
      <choice>
       <reg>
        Как
@@ -5819,7 +5852,7 @@
        положении
       </reg>
       <orig>
-       положенiи
+       положеніи
       </orig>
      </choice>
      <choice>
@@ -5845,7 +5878,7 @@
        терпением
       </reg>
       <orig>
-       терпѣнiемъ
+       терпѣніемъ
       </orig>
      </choice>
      .
@@ -5997,19 +6030,19 @@
        намерение
       </reg>
       <orig>
-       намѣренiе
+       намѣреніе
       </orig>
      </choice>
      .
     </p>
-    <p id="03ebded0-885c-42d0-bae7-3eafcc464807" rend="left">
+    <p id="03ebded0-885c-42d0-bae7-3eafcc464807">
      Не моя ли священная и прямая обязанность заботиться для
      <choice>
       <reg>
        счастия
       </reg>
       <orig>
-       счастiя
+       счастія
       </orig>
      </choice>
      <choice>
@@ -6121,7 +6154,7 @@
        наслаждения
       </reg>
       <orig>
-       наслажденiя
+       наслажденія
       </orig>
      </choice>
      или
@@ -6130,7 +6163,7 @@
        честолюбия
       </reg>
       <orig>
-       честолюбiя
+       честолюбія
       </orig>
      </choice>
      . И
@@ -6419,7 +6452,7 @@
        намерение
       </reg>
       <orig>
-       намѣренiе
+       намѣреніе
       </orig>
      </choice>
      , то
@@ -6433,7 +6466,7 @@
      </choice>
      его».
     </p>
-    <p id="984fdd6a-07c0-4729-9f63-dc549cf67724" rend="left">
+    <p id="984fdd6a-07c0-4729-9f63-dc549cf67724">
      <pb n="372"/>
      «Ta lettre, cher Dmitri, ne m’a rien prouvé si ce n'est ton excellent coeur, chose dont je n’ai jamais douté, — писала ему Графиня
      <choice>
@@ -6470,10 +6503,10 @@
      <hi rend="italic"/>
      pourras jamais être. Tu crois tes raisonnements peremptoires et ce qui plus et tu veux les prendre pour régies de conduite; mais à mon âge, mon ami, on ne croit qu’à l’expérience: et l’expérience me dit que ton projet n’est qu’un enfantillage. Je frise la cinquantaine, j’ai connu dans ma vie beaucoup de gens de mérite et cependant jamais je n’ai entendu parler d’un jeune homme bien né et de capacités, qui de gaieté de coeur s’allât enterrer à la campagne sous pretexte de faire du bien. Vous avez toujours affecté d’être original, tandis que votre originalité n’est qu’un excès d’amour propre. Hé! mon cher, suivez les chemins battus; ce sont ceux dans lesquels on réussit et il faut réussir pour acquérir les moyens de faire du bien. La misère de quelques paysans est un mal indispensable, ou un mal auquel il est possible de remédier sans oublier tous ses devoirs, envers l’état, ses parents et soi même.
     </p>
-    <p id="b37a56b8-2c8c-4683-872c-27ea59360b79" rend="left">
+    <p id="b37a56b8-2c8c-4683-872c-27ea59360b79">
      Avec ton esprit, ton coeur et ton enthousiasme pour la vertu il n’y a point de carrière dans laquelle tu ne réussisse; mais choisis en au moins une qui te vaille et qui te fasse honneur. Je te crois sincère, quand tu dis que tu n’as point d’ambition; mais tu te trompes, mon ami: tu en a plus que tout autre. A ton âge et avec tes moyens l’ambition est une vertu et n’est plus qu’un travers et un ridicule quand on n’est plus en état de la satisfaire. — Tu l’éprouveras si tu persiste dans ta résolution. —
     </p>
-    <p id="7b5fcd9b-984f-496e-9dc4-980d7124b074" rend="left">
+    <p id="7b5fcd9b-984f-496e-9dc4-980d7124b074">
      Adieu, cher Dmitri, il me parait, que je t’aime encore plus pour ton projet qui, quoiqu’extravagant, est noble et généreux. Tu n’as qu’à faire selon ta volonté; mais, je t’avoue que je ne l’aprouve pas».
      <ref target="#note105">
       105
@@ -6484,7 +6517,7 @@
       </span>
      </note>
     </p>
-    <p id="ab24e3f8-113e-45b3-8483-6ef4699672c7" rend="left">
+    <p id="ab24e3f8-113e-45b3-8483-6ef4699672c7">
      <pb n="373"/>
      «Твое письмо, милый
      <choice>
@@ -6492,7 +6525,7 @@
        Дмитрий
       </reg>
       <orig>
-       Дмитрiй
+       Дмитрій
       </orig>
      </choice>
      , ничего
@@ -6649,7 +6682,7 @@
        убеждением
       </reg>
       <orig>
-       убѣжденiемъ
+       убѣжденіемъ
       </orig>
      </choice>
      .
@@ -6684,7 +6717,7 @@
        призвание
       </reg>
       <orig>
-       призванiе
+       призваніе
       </orig>
      </choice>
      <choice>
@@ -6709,7 +6742,7 @@
        счастие
       </reg>
       <orig>
-       счастiе
+       счастіе
       </orig>
      </choice>
      <choice>
@@ -6778,7 +6811,7 @@
        призвание
       </reg>
       <orig>
-       призванiе
+       призваніе
       </orig>
      </choice>
      только тогда, когда ошибемся
@@ -6813,7 +6846,7 @@
        счастие
       </reg>
       <orig>
-       счастiе
+       счастіе
       </orig>
      </choice>
      ,
@@ -6830,7 +6863,7 @@
        счастие
       </reg>
       <orig>
-       счастiе
+       счастіе
       </orig>
      </choice>
      <choice>
@@ -6891,7 +6924,7 @@
        рассуждения
       </reg>
       <orig>
-       разсужденiя
+       разсужденія
       </orig>
      </choice>
      непреложными, и даже принимаешь
@@ -6961,7 +6994,7 @@
        рассуждения
       </reg>
       <orig>
-       разсужденiя
+       разсужденія
       </orig>
      </choice>
      , a
@@ -7143,7 +7176,7 @@
        самолюбие
       </reg>
       <orig>
-       самолюбiе
+       самолюбіе
       </orig>
      </choice>
      . И! мой
@@ -7235,7 +7268,7 @@
      </choice>
      добро. —
     </p>
-    <p id="e257097a-a8d8-4fd1-8309-70d8efcf38b1" rend="left">
+    <p id="e257097a-a8d8-4fd1-8309-70d8efcf38b1">
      Нищета
      <choice>
       <reg>
@@ -7444,7 +7477,7 @@
      </choice>
      честь. —
     </p>
-    <p id="3f18cb40-c317-4568-990a-ccdc8bea1c2d" rend="left">
+    <p id="3f18cb40-c317-4568-990a-ccdc8bea1c2d">
      Я
      <choice>
       <reg>
@@ -7476,7 +7509,7 @@
        честолюбия
       </reg>
       <orig>
-       честолюбiя
+       честолюбія
       </orig>
      </choice>
      ; но ты
@@ -7494,7 +7527,7 @@
        Честолюбие
       </reg>
       <orig>
-       Честолюбiе
+       Честолюбіе
       </orig>
      </choice>
      <choice>
@@ -7571,7 +7604,7 @@
        состоянии
       </reg>
       <orig>
-       состоянiи
+       состояніи
       </orig>
      </choice>
      удовлетворить ему. И ты испытаешь это, ежели не
@@ -7589,7 +7622,7 @@
        намерению
       </reg>
       <orig>
-       намѣренiю
+       намѣренію
       </orig>
      </choice>
      . Прощай, милый Митя,
@@ -7638,7 +7671,7 @@
      </choice>
      тобой».
     </p>
-    <p id="4dcccf79-f26d-43bb-974b-51724502253e" rend="left">
+    <p id="4dcccf79-f26d-43bb-974b-51724502253e">
      Митя
      <choice>
       <reg>
@@ -7677,7 +7710,7 @@
         Ближайший
        </reg>
        <orig>
-        Ближайшiй
+        Ближайшій
        </orig>
       </choice>
       <choice>
@@ -7691,7 +7724,7 @@
      </hi>
      .
     </head>
-    <p id="edf4af2c-dfa0-49b2-9d98-3ab9dfbd017d" rend="left">
+    <p id="edf4af2c-dfa0-49b2-9d98-3ab9dfbd017d">
      Помолившись
      <choice>
       <reg>
@@ -7820,7 +7853,7 @@
      </choice>
      .
     </p>
-    <p id="da9cdcb5-04aa-4c79-affe-f5c1116ed43e" rend="left">
+    <p id="da9cdcb5-04aa-4c79-affe-f5c1116ed43e">
      — А мы
      <choice>
       <reg>
@@ -7920,7 +7953,7 @@
      </hi>
      , Князь?
     </p>
-    <p id="4fbe6a55-be34-474e-8af3-bc7c49c4976e" rend="left">
+    <p id="4fbe6a55-be34-474e-8af3-bc7c49c4976e">
      Но на Князя, находившагося еще
      <choice>
       <reg>
@@ -7935,7 +7968,7 @@
        влиянием
       </reg>
       <orig>
-       влiянiемъ
+       вліяніемъ
       </orig>
      </choice>
      <choice>
@@ -7977,7 +8010,7 @@
        неприятно
       </reg>
       <orig>
-       непрiятно
+       непріятно
       </orig>
      </choice>
      подействовала шуточка
@@ -8018,7 +8051,7 @@
      </choice>
      на него.
     </p>
-    <p id="9ec9cf89-f203-4c58-ae50-fa09f908408b" rend="left">
+    <p id="9ec9cf89-f203-4c58-ae50-fa09f908408b">
      — Признаюсь
      <choice>
       <reg>
@@ -8059,7 +8092,7 @@
        приятным
       </reg>
       <orig>
-       прiятнымъ
+       пріятнымъ
       </orig>
      </choice>
      ,
@@ -8151,7 +8184,7 @@
        религиозное
       </reg>
       <orig>
-       религiозное
+       религіозное
       </orig>
      </choice>
      чувство, что особенно
@@ -8168,7 +8201,7 @@
        приятно
       </reg>
       <orig>
-       прiятно
+       пріятно
       </orig>
      </choice>
      <choice>
@@ -8181,7 +8214,7 @@
      </choice>
      ...
     </p>
-    <p id="daeebd09-7c93-4f57-9450-e8fa0ca1c865" rend="left">
+    <p id="daeebd09-7c93-4f57-9450-e8fa0ca1c865">
      — Извините, Князь, что я
      <choice>
       <reg>
@@ -8291,7 +8324,7 @@
        посещением
       </reg>
       <orig>
-       посѣщенiемъ
+       посѣщеніемъ
       </orig>
      </choice>
      , я
@@ -8339,10 +8372,10 @@
      </choice>
      <choice>
       <reg>
-       обстоятельcтве
+       обстоятельстве
       </reg>
       <orig>
-       обстоятельcтвѣ
+       обстоятельствѣ
       </orig>
      </choice>
      ; но ваша любезность заставила меня тогда совершенно забыть о
@@ -8421,7 +8454,7 @@
      </choice>
      губы.
     </p>
-    <p id="305e0d93-1598-4512-8d62-0b94cc78b68d" rend="left">
+    <p id="305e0d93-1598-4512-8d62-0b94cc78b68d">
      — Я очень
      <choice>
       <reg>
@@ -8471,7 +8504,7 @@
        пренебрежения
       </reg>
       <orig>
-       пренебреженiя
+       пренебреженія
       </orig>
      </choice>
      , я,
@@ -8584,7 +8617,7 @@
        приятных
       </reg>
       <orig>
-       прiятныхъ
+       пріятныхъ
       </orig>
      </choice>
      <choice>
@@ -8597,7 +8630,7 @@
      </choice>
      .
     </p>
-    <p id="6181b508-b622-4a8f-994c-fe1352bfee8f" rend="left">
+    <p id="6181b508-b622-4a8f-994c-fe1352bfee8f">
      — Помилуйте, князь, я и не
      <choice>
       <reg>
@@ -8657,7 +8690,7 @@
        ближайший
       </reg>
       <orig>
-       ближайшiй
+       ближайшій
       </orig>
      </choice>
      <choice>
@@ -8770,7 +8803,7 @@
        обсеменение
       </reg>
       <orig>
-       обсѣмененiе
+       обсѣмененіе
       </orig>
      </choice>
      и теперь еще есть за вашей
@@ -8779,7 +8812,7 @@
        экономией
       </reg>
       <orig>
-       экономiей
+       экономіей
       </orig>
      </choice>
      .—
@@ -8805,12 +8838,12 @@
        одолжения
       </reg>
       <orig>
-       одолженiя
+       одолженія
       </orig>
      </choice>
      !
     </p>
-    <p id="174762c4-c9b2-43cf-bd59-3b75ef3e5de9" rend="left">
+    <p id="174762c4-c9b2-43cf-bd59-3b75ef3e5de9">
      —
      <choice>
       <reg>
@@ -8825,7 +8858,7 @@
        одолжение
       </reg>
       <orig>
-       одолженiе
+       одолженіе
       </orig>
      </choice>
      , я вовсе не
@@ -8874,7 +8907,7 @@
      </choice>
      , Князь; а это главное, главное...
     </p>
-    <p id="acd5a670-64d0-4d3e-8fc3-c0d93faf1379" rend="left">
+    <p id="acd5a670-64d0-4d3e-8fc3-c0d93faf1379">
      —
      <choice>
       <reg>
@@ -8931,7 +8964,7 @@
        выражение
       </reg>
       <orig>
-       выраженiе
+       выраженіе
       </orig>
      </choice>
      , — нижайшая просьба,
@@ -9002,7 +9035,7 @@
        общий
       </reg>
       <orig>
-       общiй
+       общій
       </orig>
      </choice>
      <choice>
@@ -9018,7 +9051,7 @@
        деревенский
       </reg>
       <orig>
-       деревенскiй
+       деревенскій
       </orig>
      </choice>
      <choice>
@@ -9095,7 +9128,7 @@
        разрушение
       </reg>
       <orig>
-       разрушенiе
+       разрушеніе
       </orig>
      </choice>
      , но
@@ -9104,7 +9137,7 @@
        разрушение
       </reg>
       <orig>
-       разрушенiе
+       разрушеніе
       </orig>
      </choice>
      это
@@ -9140,7 +9173,7 @@
        избежание
       </reg>
       <orig>
-       избѣжанiе
+       избѣжаніе
       </orig>
      </choice>
      такого
@@ -9149,7 +9182,7 @@
        несчастия
       </reg>
       <orig>
-       несчастiя
+       несчастія
       </orig>
      </choice>
      , я,
@@ -9201,7 +9234,7 @@
        внимание
       </reg>
       <orig>
-       вниманiе
+       вниманіе
       </orig>
      </choice>
      <choice>
@@ -9296,7 +9329,7 @@
        предложение
       </reg>
       <orig>
-       предложенiе
+       предложеніе
       </orig>
      </choice>
      и принеся
@@ -9382,7 +9415,7 @@
      </choice>
      .
     </p>
-    <p id="2b469795-a6af-4bc2-9000-bd48c1b3e6ef" rend="left">
+    <p id="2b469795-a6af-4bc2-9000-bd48c1b3e6ef">
      —
      <choice>
       <reg>
@@ -9424,12 +9457,12 @@
        состоянии
       </reg>
       <orig>
-       состоянiи
+       состояніи
       </orig>
      </choice>
      ...
     </p>
-    <p id="23ab52ab-9657-4db0-885b-445db1dbc047" rend="left">
+    <p id="23ab52ab-9657-4db0-885b-445db1dbc047">
      — Истинная жалость, —
      <choice>
       <reg>
@@ -9486,7 +9519,7 @@
        разрушения
       </reg>
       <orig>
-       разрушенiя
+       разрушенія
       </orig>
      </choice>
      <choice>
@@ -9511,7 +9544,7 @@
        Божий
       </reg>
       <orig>
-       Божiй
+       Божій
       </orig>
      </choice>
      ,
@@ -9574,7 +9607,7 @@
        утешение
       </reg>
       <orig>
-       утѣшенiе
+       утѣшеніе
       </orig>
      </choice>
      для
@@ -9651,7 +9684,7 @@
        религия
       </reg>
       <orig>
-       религiя
+       религія
       </orig>
      </choice>
      и Церковь, и
@@ -9674,7 +9707,7 @@
      </choice>
      бы на себя такую хлопотливую обязанность.
     </p>
-    <p id="beb24bb4-9a84-4b3e-a997-40bde24de6d7" rend="left">
+    <p id="beb24bb4-9a84-4b3e-a997-40bde24de6d7">
      &lt;
      <choice>
       <reg>
@@ -9740,7 +9773,7 @@
        невысокий
       </reg>
       <orig>
-       невысокiй
+       невысокій
       </orig>
      </choice>
      , плотный
@@ -9814,7 +9847,7 @@
      </choice>
      .
     </p>
-    <p id="74518f8a-1a72-4890-9378-67c282c09115" rend="left">
+    <p id="74518f8a-1a72-4890-9378-67c282c09115">
      — Изволите знать
      <choice>
       <reg>
@@ -9903,7 +9936,7 @@
      </choice>
      большой дороги.
     </p>
-    <p id="5d750b35-430c-4638-abb3-50cfbbabb207" rend="left">
+    <p id="5d750b35-430c-4638-abb3-50cfbbabb207">
      —
      <choice>
       <reg>
@@ -9918,7 +9951,7 @@
        несчастию
       </reg>
       <orig>
-       несчастiю
+       несчастію
       </orig>
      </choice>
      знаю и даже на
@@ -9944,12 +9977,12 @@
        прошение
       </reg>
       <orig>
-       прошенiе
+       прошеніе
       </orig>
      </choice>
      .
     </p>
-    <p id="6f27a73e-b247-470b-92f9-f36338d06505" rend="left">
+    <p id="6f27a73e-b247-470b-92f9-f36338d06505">
      —
      <choice>
       <reg>
@@ -9973,7 +10006,7 @@
        неприятно
       </reg>
       <orig>
-       непрiятно
+       непріятно
       </orig>
      </choice>
      .
@@ -10009,12 +10042,12 @@
        неприятно
       </reg>
       <orig>
-       непрiятно
+       непріятно
       </orig>
      </choice>
      !
     </p>
-    <p id="07c256a9-fd73-4060-abfe-1827748ecf9a" rend="left">
+    <p id="07c256a9-fd73-4060-abfe-1827748ecf9a">
      —
      <choice>
       <reg>
@@ -10057,7 +10090,7 @@
        здешний
       </reg>
       <orig>
-       здѣшнiй
+       здѣшній
       </orig>
      </choice>
      край
@@ -10095,7 +10128,7 @@
      </choice>
      .
     </p>
-    <p id="1b5220c6-dbc4-4b03-ae4e-c33ac8f3b2cf" rend="left">
+    <p id="1b5220c6-dbc4-4b03-ae4e-c33ac8f3b2cf">
      —
      <choice>
       <reg>
@@ -10129,7 +10162,7 @@
        неприятно
       </reg>
       <orig>
-       непрiятно
+       непріятно
       </orig>
      </choice>
      судиться. —
@@ -10280,7 +10313,7 @@
       </span>
      </note>
     </p>
-    <p id="6c243a01-22c3-4c77-b7f8-6eb5a2a83455" rend="left">
+    <p id="6c243a01-22c3-4c77-b7f8-6eb5a2a83455">
      — Однако, не
      <choice>
       <reg>
@@ -10355,7 +10388,7 @@
        выражением
       </reg>
       <orig>
-       выраженiемъ
+       выраженіемъ
       </orig>
      </choice>
      лица стояла около экипажа. — Позвольте
@@ -10373,7 +10406,7 @@
        приятного
       </reg>
       <orig>
-       прiятнаго
+       пріятнаго
       </orig>
      </choice>
      <choice>
@@ -10381,14 +10414,12 @@
        свидания
       </reg>
       <orig>
-       свиданiя
+       свиданія
       </orig>
      </choice>
      .
     </p>
-    <p id="4e3a3e4d-7968-494a-86f2-9e927ea53a9d" rend="center">
-     ————
-    </p>
+    <metamark function="line"/>
    </div>
   </body>
  </text>

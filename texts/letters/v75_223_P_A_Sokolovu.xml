@@ -9,17 +9,41 @@
                 <title type="main">Письмо П. А. Соколову от 20 августа 1904 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо П. А. Соколову, 20 августа 1904 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 75. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 75</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">158-158</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -101,7 +130,7 @@
     <p id="b3d0df23-5b7c-48ca-b266-c87d5d72077c" rend="right">
      Соколову
     </p>
-    <p id="1b4cbb41-129c-4b52-b8f9-0ecb5e3a97f4" rend="left">
+    <p id="1b4cbb41-129c-4b52-b8f9-0ecb5e3a97f4">
      <name placement="text" ref="12928" type="person">
       Павел Алексеевич
      </name>
@@ -113,7 +142,7 @@
      </name>
      .
     </p>
-    <p id="ca083922-1e66-4588-9445-0110808dcf04" rend="left">
+    <p id="ca083922-1e66-4588-9445-0110808dcf04">
      20 августа 1904.
     </p>
     <noteGrp type="comments">
@@ -123,7 +152,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="14191673-7437-471f-8163-196e3a5756bb" rend="petit left">
+      <p id="14191673-7437-471f-8163-196e3a5756bb" rend="petit">
        <name placement="comments" ref="12928" type="person">
         Павел Алексеевич Соколов
        </name>
@@ -131,7 +160,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="5c55e7d6-7762-4ce4-afbf-b4be1c46ce7f" rend="petit left">
+      <p id="5c55e7d6-7762-4ce4-afbf-b4be1c46ce7f" rend="petit">
        Ответ на письмо Соколова от 13 или 14 августа 1904 г., посвященное религиозным вопросам.
       </p>
      </note>

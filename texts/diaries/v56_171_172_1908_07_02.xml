@@ -4,25 +4,49 @@
         <fileDesc>
              <titleStmt>                
                 <title xml:id="v56_171_172_1908_07_02">
-                    Дневники и записные книжки. Tolstoy Digital
+                    Дневники. Tolstoy Digital
                 </title>
                 <title type="main">«Тайный» Дневник,</title>
                 <title type="sub">2 июля 1908 г.</title>
                 <title type="bibl">Толстой Л. Н. «Тайный» Дневник // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 56. М.: Гос. изд. «Художественная литература», 1937. С. </title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
-                 </respStmt>
+                </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,7 +113,9 @@
             <creation>
                 <date when="1908-07-02"/>
          </creation>          
-            <textClass> 
+            <langUsage>
+  <language ident="ru-petr1708"/>
+</langUsage><textClass> 
                 <catRef ana="#diaries" target="type"/>
            </textClass>
         </profileDesc>
@@ -109,7 +135,7 @@
       </date>
      </dateline>
     </opener>
-    <p id="202cad80-4204-4f51-b3f0-407f09525283" rend="left">
+    <p id="202cad80-4204-4f51-b3f0-407f09525283">
     </p>
     <p id="08ca1225-e683-4c11-b25d-78c9c83b4732" style="left">
      Начинаю
@@ -129,7 +155,7 @@
        Положение
       </reg>
       <orig>
-       Положенiе
+       Положеніе
       </orig>
      </choice>
      мое было бы мучительно, если бы не
@@ -138,7 +164,7 @@
        сознание
       </reg>
       <orig>
-       сознанiе
+       сознаніе
       </orig>
      </choice>
      того, что все это на пользу
@@ -297,7 +323,7 @@
        христианство
       </reg>
       <orig>
-       христiанство
+       христіанство
       </orig>
      </choice>
      и
@@ -397,7 +423,7 @@
       </reg>
       <orig>
        <name placement="text" ref="9269" type="person">
-        Василiя
+        Василія
        </name>
       </orig>
      </choice>
@@ -414,9 +440,7 @@
      </choice>
      .
     </p>
-    <p id="99d7ba58-c55e-44b8-b7f2-27e9087b938e" style="centerline center">
-     <metamark function="line"/>
-    </p>
+    <metamark function="line"/>
     <p id="0da02221-2ca2-475d-b4ed-30dea237d728" style="left">
      Мучительно тяжело на
      <choice>
@@ -498,9 +522,7 @@
      </note>
      смерти.
     </p>
-    <p id="0d46f471-f19b-4abd-a40e-313b078a1ecf" style="centerline center">
-     <metamark function="line"/>
-    </p>
+    <metamark function="line"/>
     <p id="f032f06c-3d8e-4dbb-9fc1-e005e6904dca" style="left">
      <choice>
       <reg>
@@ -561,7 +583,7 @@
        фотографии
       </reg>
       <orig>
-       фотографiи
+       фотографіи
       </orig>
      </choice>
      .
@@ -587,7 +609,7 @@
        сомнение
       </reg>
       <orig>
-       сомнѣнiе
+       сомнѣніе
       </orig>
      </choice>
      , хорошо ли я
@@ -675,7 +697,7 @@
        перенесение
       </reg>
       <orig>
-       перенесенiе
+       перенесеніе
       </orig>
      </choice>
      этой жизни и нужно
@@ -704,9 +726,7 @@
      </choice>
      смерть.
     </p>
-    <p id="367f390b-f142-4922-a85f-33956d038586" style="centerline center">
-     <metamark function="line"/>
-    </p>
+    <metamark function="line"/>
    </div>
   </body>
  </text>

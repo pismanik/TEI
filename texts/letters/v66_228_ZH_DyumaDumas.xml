@@ -9,17 +9,41 @@
                 <title type="main">Письмо Ж. Дюма (Dumas) от 1 апреля 1892 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо Ж. Дюма (Dumas), 1 апреля 1892 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 66. М.: Гос. изд. «Художественная литература», 1953. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 66</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">188-189</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -98,38 +127,38 @@
      </name>
      .1892 г. Апреля 1. Москва.
     </opener>
-    <p id="b3bb6b09-25d4-4357-b4f5-2022f1d8f3d4" rend="Obrashenie left">
+    <p id="b3bb6b09-25d4-4357-b4f5-2022f1d8f3d4" rend="Obrashenie">
      Monsieur,
     </p>
-    <p id="23f57261-79a5-4dcb-a1f1-952486c7d021" rend="left">
+    <p id="23f57261-79a5-4dcb-a1f1-952486c7d021">
      Il у a assez longtemps que j’ai mis de coté votre lettre pour y répondre quand j’en aurai le loisir, mais jusqu’à présent je n’en ai véritablement pas eu le temps.
     </p>
-    <p id="31154282-1502-45c3-9b63-0f654d6c41d1" rend="left">
+    <p id="31154282-1502-45c3-9b63-0f654d6c41d1">
      Je crois que vous avez parfaitement raison de supposer que le changement dont je parle dans la «Confession» ne se fit pas subitement, mais que les mêmes idées plus clairement exprimées dans mes derniers écrits se trouvaient en germe dans les premiers. Le changement ne me parut subit que parceque j’en eus subitement conscience. Il me parait aussi que votre idée d’envisager le livre «La vie» comme le point de repaire est parfaitement juste. Je voudrais bien vous aider dans votre travail, malheureusement ne puis le faire, n’en ayant pas le temps et ne sachant pas comment il faudrait m’y prendre.
     </p>
-    <p id="1bd06ea2-7a8f-473e-9fd2-aea68bb8c6ab" rend="left">
+    <p id="1bd06ea2-7a8f-473e-9fd2-aea68bb8c6ab">
      Veuillez agréer, Monsieur...
     </p>
-    <p id="97720bcd-3e4f-49c2-9d9d-0f56b1b6ee2f" rend="Obrashenie petit left">
+    <p id="97720bcd-3e4f-49c2-9d9d-0f56b1b6ee2f" rend="Obrashenie petit">
      Милостивый государь,
     </p>
-    <p id="48032272-01e5-4e44-a153-a1e600596265" rend="petit left">
+    <p id="48032272-01e5-4e44-a153-a1e600596265" rend="petit">
      Уже довольно давно я отложил в сторону ваше письмо, чтобы на него ответить на досуге, но до сих пор у меня поистине не было времени.
     </p>
-    <p id="b5eacec8-79c0-479e-a67f-494bf2bef125" rend="petit left">
+    <p id="b5eacec8-79c0-479e-a67f-494bf2bef125" rend="petit">
      Я думаю, что вы совершенно правы, предполагая, что перемена, о которой я говорю в «Исповеди», произошла не сразу, но что те же идеи, которые яснее выражены в моих последних произведениях, находятся в зародыше в более ранних. Эта перемена показалась мне неожиданной потому, что я неожиданно ее осознал. Мне кажется также, что ваша мысль рассматривать книгу «О жизни» как поворотный пункт вполне верна. Я очень желал бы помочь вам в вашей работе, но, к сожалению, не могу этого сделать, так как не имею времени и не знаю, как за эта взяться.
     </p>
-    <p id="7eedd436-a812-4deb-8c7f-68294c864fdf" rend="petit left">
+    <p id="7eedd436-a812-4deb-8c7f-68294c864fdf" rend="petit">
      Примите, Милостивый государь...
     </p>
     <noteGrp type="comments">
      <note index="false" type="comments">
       <p id="a8748a8b-017a-4698-ac78-d99e3d678e99" rend="Textpetit_otstup left">
-       Печатается по машинописной копии из AЧ. Дата копии.
+       Печатается по машинописной копии из АЧ. Дата копии.
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="f214e70a-2604-441d-a3b3-a164c1a7165c" rend="petit left">
+      <p id="f214e70a-2604-441d-a3b3-a164c1a7165c" rend="petit">
        <name placement="comments" ref="4766" type="person">
         Жорж Дюма (G. Dumas
        </name>
@@ -137,7 +166,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="f694a664-8110-424e-9f6d-3182fc570275" rend="petit left">
+      <p id="f694a664-8110-424e-9f6d-3182fc570275" rend="petit">
        Ответ на письмо Дюма от 9 марта (почт. шт.): «Перечитывая сейчас Вашу “Исповедь”, я был остановлен затруднением, которое позволяю
        <hi style="opdelimiter">
         себе

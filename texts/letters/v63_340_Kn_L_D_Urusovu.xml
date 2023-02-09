@@ -9,17 +9,41 @@
                 <title type="main">Письмо Кн. Л. Д. Урусову от 5 апреля 1885 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо кн. Л. Д. Урусову, 5 апреля 1885 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 63. М.: Гос. изд. «Художественная литература», 1934. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 63</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">225-227</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl/>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -98,7 +128,7 @@
      </name>
      .1885 г. Апреля 5? Москва.
     </opener>
-    <p id="7208e752-fddc-4dc3-8ae5-b3c244453365" rend="left">
+    <p id="7208e752-fddc-4dc3-8ae5-b3c244453365">
      Посылаю
      <choice>
       <reg>
@@ -114,7 +144,7 @@
        историю
       </reg>
       <orig>
-       исторiю
+       исторію
       </orig>
      </choice>
      о
@@ -198,7 +228,7 @@
        изданий
       </reg>
       <orig>
-       изданiй
+       изданій
       </orig>
      </choice>
      по 1 р. 25 к. сотня. Картинки
@@ -290,7 +320,7 @@
        внешния
       </reg>
       <orig>
-       внѣшнiя
+       внѣшнія
       </orig>
      </choice>
      <choice>
@@ -307,7 +337,7 @@
        занятие
       </reg>
       <orig>
-       занятiе
+       занятіе
       </orig>
      </choice>
      хорошее. — Я
@@ -402,7 +432,7 @@
        окончание
       </reg>
       <orig>
-       окончанiе
+       окончаніе
       </orig>
      </choice>
      отрывка
@@ -419,7 +449,7 @@
        следующий
       </reg>
       <orig>
-       слѣдующiй
+       слѣдующій
       </orig>
      </choice>
      <choice>
@@ -745,7 +775,7 @@
        какие
       </reg>
       <orig>
-       какiе
+       какіе
       </orig>
      </choice>
      ? Хорошо у

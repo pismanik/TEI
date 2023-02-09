@@ -4,24 +4,48 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v05_230_231_Svetloe_hristovo_voskresene" resp="volume_editor">
-                    [Светлое христово воскресенье]. Tolstoy Digital
+                    [Светлое христово воскресенье]. Произведения. Tolstoy Digital
                 </title>
                 <title type="main" resp="volume_editor">Светлое христово воскресенье</title>
-                <title type="bibl">Толстой Л. Н. [Светлое христово воскресенье] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 5. М.: Гос. изд. «Художественная литература», 1935. С.</title>
+                <title type="bibl">Толстой Л. Н. [Светлое христово воскресенье] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 5. М.: Гос. изд. «Художественная литература», 1935. С. 230–231.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -30,7 +54,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -42,7 +66,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -73,7 +97,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -88,9 +112,10 @@
             <creation>
                 <date when="1858"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#main" target="work_main"/>
@@ -113,7 +138,7 @@
      <lb/>
      [СВЕТЛОЕ ХРИСТОВО ВОСКРЕСЕНЬЕ].
     </head>
-    <p id="d8c961ad-ee22-4208-a3f4-d301a5281538" rend="left">
+    <p id="d8c961ad-ee22-4208-a3f4-d301a5281538">
      <choice>
       <reg>
        В
@@ -145,7 +170,7 @@
        приятеля
       </reg>
       <orig>
-       прiятеля
+       пріятеля
       </orig>
      </choice>
      . — Мы
@@ -177,7 +202,7 @@
      </choice>
      пробило одинатцать.
     </p>
-    <p id="75901d9b-deb2-4475-80ad-73d044055bd3" rend="left">
+    <p id="75901d9b-deb2-4475-80ad-73d044055bd3">
      —
      <choice>
       <reg>
@@ -219,12 +244,12 @@
        приятеля
       </reg>
       <orig>
-       прiятеля
+       пріятеля
       </orig>
      </choice>
      .
     </p>
-    <p id="8c982782-2afd-4cf9-b155-ef3544d79d49" rend="left">
+    <p id="8c982782-2afd-4cf9-b155-ef3544d79d49">
      — Да
      <choice>
       <reg>
@@ -270,7 +295,7 @@
      </choice>
      , улыбаясь.
     </p>
-    <p id="963d170a-f93f-46f7-ab5b-26e8b5c324b7" rend="left">
+    <p id="963d170a-f93f-46f7-ab5b-26e8b5c324b7">
      Я
      <choice>
       <reg>
@@ -291,7 +316,7 @@
      </choice>
      шапку.
     </p>
-    <p id="f138e89a-137c-4792-a413-dd908dcb3400" rend="left">
+    <p id="f138e89a-137c-4792-a413-dd908dcb3400">
      — Ты куда
      <choice>
       <reg>
@@ -345,7 +370,7 @@
      </choice>
      ?
     </p>
-    <p id="1fc39b4a-2181-4c1c-90d0-3bc661c74772" rend="left">
+    <p id="1fc39b4a-2181-4c1c-90d0-3bc661c74772">
      — Еще бы!
      <choice>
       <reg>
@@ -469,7 +494,7 @@
       </span>
      </note>
     </p>
-    <p id="2b3b80df-0f6c-42e3-9d45-8f73fd53937a" rend="left">
+    <p id="2b3b80df-0f6c-42e3-9d45-8f73fd53937a">
      —
      <choice>
       <reg>
@@ -499,7 +524,7 @@
      </choice>
      и нездоровится, да и......
     </p>
-    <p id="4dfeee48-81c8-4785-aeb5-c4a4ddfdab4b" rend="left">
+    <p id="4dfeee48-81c8-4785-aeb5-c4a4ddfdab4b">
      — Ну, вы
      <choice>
       <reg>
@@ -520,7 +545,7 @@
      </choice>
      , а ты пожалуйста, Сережа....
     </p>
-    <p id="e801adf1-25d9-4d53-8fa3-502a994d3a0b" rend="left">
+    <p id="e801adf1-25d9-4d53-8fa3-502a994d3a0b">
      Я
      <choice>
       <reg>
@@ -598,7 +623,7 @@
        подавший
       </reg>
       <orig>
-       подавшiй
+       подавшій
       </orig>
      </choice>
      <choice>
@@ -669,7 +694,7 @@
        таявший
       </reg>
       <orig>
-       таявшiй
+       таявшій
       </orig>
      </choice>
      <choice>
@@ -772,7 +797,7 @@
        направлению
       </reg>
       <orig>
-       направленiю
+       направленію
       </orig>
      </choice>
      <choice>
@@ -893,7 +918,7 @@
        ступавшие
       </reg>
       <orig>
-       ступавшiе
+       ступавшіе
       </orig>
      </choice>
      по
@@ -1087,7 +1112,7 @@
      </choice>
      раскачивала.
     </p>
-    <p id="49fd9698-5c0a-48bf-9b74-67a86ab495d1" rend="left">
+    <p id="49fd9698-5c0a-48bf-9b74-67a86ab495d1">
      —
      <choice>
       <reg>
@@ -1125,7 +1150,7 @@
      </choice>
      , — сказала она.
     </p>
-    <p id="711b2600-829d-4fcc-82e7-565a6a7eac1f" rend="left">
+    <p id="711b2600-829d-4fcc-82e7-565a6a7eac1f">
      Еще подальше
      <choice>
       <reg>
@@ -1367,9 +1392,7 @@
       </span>
      </note>
     </p>
-    <p id="a82d939d-5f36-4df5-9e4b-c3d6ab0faa5b" rend="centerline">
-     ————
-    </p>
+    <metamark function="line"/>
    </div>
   </body>
  </text>

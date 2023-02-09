@@ -4,25 +4,49 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="v26_503_504_Varianty_k_Pervomu_vinokuru">
-                    [Варианты к «Первому винокуру»]. Tolstoy Digital
+                    [Варианты к «Первому винокуру»]. Произведения. Tolstoy Digital
                 </title>
                 <title type="main">Первый винокур, или как чертенок краюшку заслужил.</title>
                 <title type="sub" resp="volume_editor">Варианты</title>
-                <title type="bibl">Толстой Л. Н. [Варианты к «Первому винокуру»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 26. М.: Гос. изд. «Художественная литература», 1936. С.</title>
+                <title type="bibl">Толстой Л. Н. [Варианты к «Первому винокуру»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 26. М.: Гос. изд. «Художественная литература», 1936. С. 503–504.</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name> 
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
                 </respStmt>
                     <funder>
                         Проект «Слово Толстого»
@@ -31,7 +55,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -43,7 +67,7 @@
             </publicationStmt>
             <notesStmt>
                 <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
             </notesStmt> 
             <sourceDesc>
@@ -74,7 +98,7 @@
                     </monogr>
                     <series>
                         <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
                         </title>
                     </series>
                 </biblStruct>
@@ -89,9 +113,10 @@
             <creation>
                 <date when="1886"/>
              </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass> 
                 <catRef ana="#works" target="type"/>
                 <catRef ana="#ver" target="work_main"/>
@@ -204,7 +229,7 @@
     <head n="level3" type="scene">
      1-я СЦЕНА.
     </head>
-    <p id="29edff18-3abe-4988-bc63-63d0636a7ee7" rend="left">
+    <p id="29edff18-3abe-4988-bc63-63d0636a7ee7">
      <hi rend="italic">
       <choice>
        <reg>
@@ -288,7 +313,7 @@
      </choice>
      платье.
     </p>
-    <p id="5c6f5a21-1f1f-4d6f-a440-b8caccc20f8b" rend="left">
+    <p id="5c6f5a21-1f1f-4d6f-a440-b8caccc20f8b">
      <hi rend="italic">
       Толстый
       <choice>
@@ -320,7 +345,7 @@
      </choice>
      .
     </p>
-    <p id="f804fbb3-7b83-479b-aa67-257272f42ddb" rend="left">
+    <p id="f804fbb3-7b83-479b-aa67-257272f42ddb">
      <hi rend="italic">
       <choice>
        <reg>
@@ -343,7 +368,7 @@
      </choice>
      ?
     </p>
-    <p id="00954eb0-993b-4055-8c02-f2fdae4c687c" rend="left">
+    <p id="00954eb0-993b-4055-8c02-f2fdae4c687c">
      <hi rend="italic">
       Толстый
       <choice>
@@ -367,7 +392,7 @@
      </choice>
      .
     </p>
-    <p id="33f5bcf6-e422-4a31-b08a-df5e332df814" rend="left">
+    <p id="33f5bcf6-e422-4a31-b08a-df5e332df814">
      <hi rend="italic">
       <choice>
        <reg>
@@ -390,7 +415,7 @@
      </choice>
      больше берешь?
     </p>
-    <p id="54e42163-b344-4a12-9a9a-4921aa1934b5" rend="left">
+    <p id="54e42163-b344-4a12-9a9a-4921aa1934b5">
      <hi rend="italic">
       Толстый
       <choice>
@@ -408,7 +433,7 @@
       Все больше деньгами.
      </del>
     </p>
-    <p id="e8177c8e-da01-4838-b3c7-f5ecf2e4e8d9" rend="left">
+    <p id="e8177c8e-da01-4838-b3c7-f5ecf2e4e8d9">
      <hi rend="italic">
       <choice>
        <reg>
@@ -439,7 +464,7 @@
      </choice>
      еще на деньги?
     </p>
-    <p id="9ee9707d-4c69-4d3d-b042-236dbc692251" rend="left">
+    <p id="9ee9707d-4c69-4d3d-b042-236dbc692251">
      <hi rend="italic">
       Толстый
       <choice>
@@ -498,7 +523,7 @@
      </choice>
      .
     </p>
-    <p id="6f17508c-4c45-452b-94d2-d75801874e6b" rend="left">
+    <p id="6f17508c-4c45-452b-94d2-d75801874e6b">
      <hi rend="italic">
       <choice>
        <reg>
@@ -545,7 +570,7 @@
         другие
        </reg>
        <orig>
-        другiя
+        другія
        </orig>
       </choice>
       двери.)
@@ -578,7 +603,7 @@
      </choice>
      . Кланяется.
     </p>
-    <p id="9af1b0eb-65a1-4986-aa70-7dcfc51f9147" rend="left">
+    <p id="9af1b0eb-65a1-4986-aa70-7dcfc51f9147">
      <hi rend="italic">
       <choice>
        <reg>
@@ -601,7 +626,7 @@
      </choice>
      ?
     </p>
-    <p id="0c64ef2d-0812-41b8-86f4-b4e075b6f63b" rend="left">
+    <p id="0c64ef2d-0812-41b8-86f4-b4e075b6f63b">
      <hi rend="italic">
       Гордый
       <choice>
@@ -625,7 +650,7 @@
      </choice>
      .
     </p>
-    <p id="85df4304-bac2-4944-9eec-c90416260979" rend="left">
+    <p id="85df4304-bac2-4944-9eec-c90416260979">
      <hi rend="italic">
       <choice>
        <reg>
@@ -647,7 +672,7 @@
      </choice>
      берешь?
     </p>
-    <p id="734a0252-192e-4f68-bf4e-2a345a829450" rend="left">
+    <p id="734a0252-192e-4f68-bf4e-2a345a829450">
      <hi rend="italic">
       Гордый
       <choice>
@@ -673,7 +698,7 @@
      </del>
      , гордостью.
     </p>
-    <p id="eb41cc24-2789-43ed-bbe9-7898ff57dbe8" rend="left">
+    <p id="eb41cc24-2789-43ed-bbe9-7898ff57dbe8">
      <hi rend="italic">
       <choice>
        <reg>
@@ -695,7 +720,7 @@
      </choice>
      на важность?
     </p>
-    <p id="73c77d62-a90f-4ee1-b831-773481794e1e" rend="left">
+    <p id="73c77d62-a90f-4ee1-b831-773481794e1e">
      <hi rend="italic">
       Гордый
       <choice>
@@ -719,7 +744,7 @@
      </choice>
      ,
     </p>
-    <p id="da99df64-4a60-4eb0-8975-a85146a77f67" rend="left">
+    <p id="da99df64-4a60-4eb0-8975-a85146a77f67">
      <hi rend="italic">
       <choice>
        <reg>
@@ -755,7 +780,7 @@
       другую дверь.)
      </hi>
     </p>
-    <p id="467eb9e8-ab27-4b02-9f61-1d62277f9de1" rend="left pages2">
+    <p id="467eb9e8-ab27-4b02-9f61-1d62277f9de1" rend="pages2">
      <pb n="504"/>
     </p>
     <head n="level3" type="scene">
@@ -790,7 +815,7 @@
      </choice>
      , кланяется.
     </p>
-    <p id="3d66c89d-033e-4820-8057-c805a17bfd38" rend="left">
+    <p id="3d66c89d-033e-4820-8057-c805a17bfd38">
      <hi rend="italic">
       <choice>
        <reg>
@@ -804,7 +829,7 @@
      </hi>
      Много ли?
     </p>
-    <p id="369ec82e-f948-43dd-a594-8ee99533d24e" rend="left">
+    <p id="369ec82e-f948-43dd-a594-8ee99533d24e">
      <hi rend="italic">
       <choice>
        <reg>
@@ -844,7 +869,7 @@
      </choice>
      сотня.
     </p>
-    <p id="ba310cd5-75cd-49a8-8caa-1b17df1cba8a" rend="left">
+    <p id="ba310cd5-75cd-49a8-8caa-1b17df1cba8a">
      <hi rend="italic">
       <choice>
        <reg>
@@ -866,7 +891,7 @@
      </choice>
      берешь?
     </p>
-    <p id="9215cac5-ccd4-4817-bed5-9655d013db39" rend="left">
+    <p id="9215cac5-ccd4-4817-bed5-9655d013db39">
      <hi rend="italic">
       <choice>
        <reg>
@@ -880,10 +905,10 @@
      </hi>
      Все по старому, нарядами.&gt;
     </p>
-    <p id="9031b267-014e-4573-9679-c95df0508f29" rend="left">
+    <p id="9031b267-014e-4573-9679-c95df0508f29">
      * № 2.
     </p>
-    <p id="a4bf5255-1e0f-41f3-9a99-f95032b0cab9" rend="left">
+    <p id="a4bf5255-1e0f-41f3-9a99-f95032b0cab9">
      <hi rend="italic">
       <choice>
        <reg>
@@ -963,14 +988,14 @@
       чорта.).
      </hi>
     </p>
-    <p id="2d99afca-8251-45a1-8be8-631c79234209" rend="left">
+    <p id="2d99afca-8251-45a1-8be8-631c79234209">
      <hi rend="italic">
       <choice>
        <reg>
         Мужичий
        </reg>
        <orig>
-        Мужичiй
+        Мужичій
        </orig>
       </choice>
       <choice>
@@ -985,7 +1010,7 @@
      </hi>
      Ой, ой, ой! Не буду, не буду. Буду служить.
     </p>
-    <p id="377bfc76-2c46-4007-9619-a3d1c31f5a0e" rend="left">
+    <p id="377bfc76-2c46-4007-9619-a3d1c31f5a0e">
      <hi rend="italic">
       <choice>
        <reg>
@@ -1113,14 +1138,14 @@
      </choice>
      купанья. Ступай.
     </p>
-    <p id="d0d2ce2d-9ffd-420c-a8be-3202ad901abd" rend="left">
+    <p id="d0d2ce2d-9ffd-420c-a8be-3202ad901abd">
      <hi rend="italic">
       <choice>
        <reg>
         Мужичий
        </reg>
        <orig>
-        Мужичiй
+        Мужичій
        </orig>
       </choice>
       <choice>

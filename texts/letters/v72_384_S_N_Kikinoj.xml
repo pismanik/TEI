@@ -9,17 +9,41 @@
                 <title type="main">Письмо С. Н. Кикиной от 2 октября 1900 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо С. Н. Кикиной, 2 октября 1900 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 72</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">468-469</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -78,8 +107,9 @@
                 </correspAction>
             </correspDesc>
             <langUsage>
-                <language ident="ru"/>
-            </langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
             <textClass>
                 <catRef ana="#letters" target="type"/>
                 <catRef ana="#sent" target="sent"/>
@@ -101,10 +131,10 @@
     <p id="853b257e-2791-403d-a5b2-22b5cfb69be1" rend="right">
      14 Октября 1900.
     </p>
-    <p id="f88ba79d-1a7b-4466-9ea8-d80d3c96ee58" rend="Obrashenie left">
+    <p id="f88ba79d-1a7b-4466-9ea8-d80d3c96ee58" rend="Obrashenie">
      Милостивая Государыня,
     </p>
-    <p id="2cb7df50-313a-473e-a0c4-b22f0e68aa6c" rend="left">
+    <p id="2cb7df50-313a-473e-a0c4-b22f0e68aa6c">
      Что касается
      <choice>
       <reg>
@@ -137,7 +167,7 @@
        заведование
       </reg>
       <orig>
-       завѣдованiе
+       завѣдованіе
       </orig>
      </choice>
      <choice>
@@ -154,7 +184,7 @@
        Владимиру
       </reg>
       <orig>
-       Владимiру
+       Владиміру
       </orig>
      </choice>
      Григорьевичу Черткову, живущему
@@ -171,7 +201,7 @@
        Англии
       </reg>
       <orig>
-       Англiи
+       Англіи
       </orig>
      </choice>
      : «Pine Holme, Westburn Park Road, Bournemouth». И потому
@@ -215,7 +245,7 @@
        писание
       </reg>
       <orig>
-       писанiе
+       писаніе
       </orig>
      </choice>
      .
@@ -245,7 +275,7 @@
        предоставление
       </reg>
       <orig>
-       предоставленiе
+       предоставленіе
       </orig>
      </choice>
      <choice>
@@ -450,7 +480,7 @@
       3
      </hi>
     </p>
-    <p id="0b7b0085-1887-4b0a-9d3a-ecf710e7dedd" rend="left">
+    <p id="0b7b0085-1887-4b0a-9d3a-ecf710e7dedd">
      <choice>
       <reg>
        С
@@ -472,7 +502,7 @@
        уважением
       </reg>
       <orig>
-       уваженiемъ
+       уваженіемъ
       </orig>
      </choice>
      готовый
@@ -511,7 +541,7 @@
      </name>
      .
     </p>
-    <p id="a85cbf7c-6725-40ec-8f60-2f4a13b59a0b" rend="left">
+    <p id="a85cbf7c-6725-40ec-8f60-2f4a13b59a0b">
      2 Окт. 1900.
     </p>
     <noteGrp type="comments">
@@ -521,7 +551,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="6e1b2933-d609-458a-be9c-01156d69ae1a" rend="petit left">
+      <p id="6e1b2933-d609-458a-be9c-01156d69ae1a" rend="petit">
        <name placement="comments" ref="6370" type="person">
         Софья Николаевна Кикина
        </name>
@@ -529,7 +559,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="aa40ac20-ed74-4afe-96ee-b1d5e5b009a0" rend="petit left">
+      <p id="aa40ac20-ed74-4afe-96ee-b1d5e5b009a0" rend="petit">
        Ответ на письмо Кикиной из Парижа от 13/25 сентября 1900 года. Кикина обратилась к Толстому с двумя просьбами: предоставить ей
        <hi style="opdelimiter">
         перевод

@@ -9,17 +9,41 @@
                 <title type="main">Письмо И. В. Колесникову от 14 мая 1910 г.</title>
                 <title type="bibl">Толстой Л. Н. Письмо И. В. Колесникову, 14 мая 1910 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 82. М.: Гос. изд. «Художественная литература», 1956. С. </title>
                 <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
+                    <resp>Идея, постановка задач, руководство:</resp>
                     <name>
                         Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                        Подготовка TEI/XML:
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
                     </name>
                 </respStmt>
                 <funder>
@@ -29,7 +53,7 @@
             <publicationStmt>
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -39,10 +63,15 @@
                 </availability>
                 <date from="2015" to="2022"/>
             </publicationStmt>
+             <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <author>Толстой Л.Н.</author>
+                        <author>Толстой Лев Николаевич</author>
                     </analytic>
                     <monogr>
                         <title level="m">Полное собрание сочинений. Том 82</title>
@@ -55,7 +84,7 @@
                         <biblScope unit="page">24-25</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
+                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
                     </series>
                 </biblStruct>
                 <bibl>Публикуется впервые</bibl>
@@ -97,7 +126,7 @@
     <p id="cddf76c2-5f88-4585-9565-960ea7ce1d5e" rend="right">
      Кочеты, 14 мая 1910 г.
     </p>
-    <p id="ef0bcc6f-b466-4ede-bd1c-8ff2cfd763a7" rend="left">
+    <p id="ef0bcc6f-b466-4ede-bd1c-8ff2cfd763a7">
      Получил ваше письмо,
      <name placement="text" ref="6670" type="person">
       Иван Васильевич
@@ -107,7 +136,7 @@
       строя.
      </hi>
     </p>
-    <p id="94f4dbaf-1d35-4285-9b39-8ec341a472be" rend="left">
+    <p id="94f4dbaf-1d35-4285-9b39-8ec341a472be">
      <pb n="25"/>
      <hi style="npdelimiter">
       Книга
@@ -201,7 +230,7 @@
       </p>
      </note>
      <note index="false" type="comments">
-      <p id="5b5e4c7b-b9c4-4bf5-952c-d541c348db12" rend="petit left">
+      <p id="5b5e4c7b-b9c4-4bf5-952c-d541c348db12" rend="petit">
        Ответ на письмо Ивана Васильевича Колесникова (
        <ref target="file:///Volume_80_I.Lavrovu_93.xml">
         см. т. 80, письмо № 93
